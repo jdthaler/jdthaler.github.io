@@ -24,7 +24,6 @@ aside:
 
 ### Snails
 
-
 Jesse Thaler\\
 MIT Center for Theoretical Physics\\
 77 Massachusetts Ave, 6-318\\
@@ -99,14 +98,12 @@ January 2010 - Present
 
 ## Awards & Fellowships
 
-{% for award in site.data.awards.awards %}
-
+{% for award in site.data.cv_awards.awards %}
   {% if award.url %}
   * **[{{award.name}}]({{award.url}})**, *{{award.org}}*, *{{award.date}}*
   {% else %}
   * **{{award.name}}**, *{{award.org}}*, *{{award.date}}* 
   {% endif %}
-
 {% endfor %}
 
 
@@ -1100,32 +1097,9 @@ January 2010 - Present
 
 #### Ph.D. Thesis Committees
 
-  * Eva Huang, "TBA" (Salvatore Vitale), //in progress// 
-  * Cristian Zanoci, "Quantum Algorithms and Non-Equilibrium Dynamics in Disordered Many-Body Systems" (Mikhail Lukin & Aram W. Harrow), //in progress//
-  * Gregory Ridgway, "''Exotic Dark Matter in the Early Universe" (Tracy Slatyer), //June 2022//
-  * Patrick Fitzpatrick, "Initial Conditions for Cosmic Inflation, the History of the Dark Sector, and Dark-onium" (Tracy Slatyer & David Kaiser), //July 2021//
-  * Joseph Johnston, "Applications of Low Temperature Bolometers to Reactor Neutrinos and Neutrinoless Double Beta Decay" (Lindley Winslow & Joseph Formaggio), //May 2021//
-  * Chih-Liang Wu, "Probes of Dark Matter from the Universe's Past and Present" (Tracy Slatyer), //April 2021//
-  * Constantin Weisser, "Search for Dark Photons at LHCb and Machine Learning in Particle Physics" (Mike Williams), //March 2021//
-  * J. Owen Andrews, "Illuminating Biomolecular Clustering and Condensation in Living Cells Using Super-Resolution Imaging" (Ibrahim Cisse), //Nov 2020//
-  * Gherardo Vita, "QCD Beyond Leading Power" (Iain Stewart), //August 2020//
-  * Jasmine Brewer, "Theory and Phenomenology of Heavy-Ion Collisions" (Krishna Rajagopal), //July 2020//
-  * Hongwan Liu, "Dark Matter Energy Deposition and Production from the Table-Top to the Cosmos" (Tracy Slatyer), //May 2019//
-  * Charles Epstein, "Møller Scattering at Low Energy" (Richard Milner), //August 2018//
-  * Nicholas Rodd, "Listening to the Universe through Indirect Detection" (Tracy Slatyer), //April 2018//
-  * David Hernandez, "Solving the N-body Problem in Astrophysics" (Edmund Bertschinger), //April 2018//
-  * Aram Apyan, "Search for Heavy Charged Higgs Bosons in Proton-Proton Collisions with the CMS Detector" (Markus Klute), //November 2016//
-  * Daniel Roberts, "CHAOS, Holography, And Other Science" (Allan Adams), //April 2016//
-  * Ian Moult, "Effective Field Theories for the LHC" (Iain Stewart), //April 2016//
-  * Daniel Kolodrubetz, "Accuracy and Precision in Collider Event Shapes" (Iain Stewart), //April 2016//
-  * Mingming Yang, "Observation and Property Measurement of a New Boson Decaying Into Two Photons Using the CMS Detector" (Christoph Paus), //January 2015//
-  * Shawn Henderson, "An Assessment of the Sensitivity of a Low Pressure Time Projection Chamber to the Direction of WIMP-Induced Nuclear Recoils" (Peter Fisher), //July 2013//
-  * Teng Ma, "Detailed Characterization of Jets in Heavy Ion Collisions Using Jet Fragmentation Functions" (Boleslaw Wyslouch), //May 2013//
-  * Kevin Sung, "Measurement of Z boson production at the LHC" (Steven Nahn), //March 2013//
-  * Christopher Jones, "Prediction of the Reactor Antineutrino Flux for the Double Chooz Experiment" (Janet Conrad), //June 2012//
-  * Riccardo Abbate, "Precision Determination of the Strong Coupling Constant using SCET" (Iain Stewart), //May 2012//
-  * Abolhassan Vaezi, "Slave Particle Study of the Strongly Correlated Hubbard Model" (Xiao-Gang Wen), //January 2011//
-  * Georgia Karagiorgi, "Searches for New Physics at MiniBooNE" (Janet Conrad), //July 2010//
+{% for phd-thesis in site.data.cv_service.phd-theses %}
+  * **{{phd-thesis.name}}**, "{{phd-thesis.title | default: "TBA"}}" ({{phd-thesis.advisor}}), *{{phd-thesis.date | default: "in progress"}}*
+{% endfor %}
 
 #### MIT Faculty
 
@@ -1339,5 +1313,7 @@ January 2010 - Present
 
 ## Memberships
 
-  * [[https://www.aspenphys.org/|Aspen Center for Physics]]
-  * [[https://www.aps.org/|American Physical Society]]
+{% for membership in site.data.cv_service.memberships %}
+  * **[{{membership.name}}]({{membership.url}})** 
+{% endfor %}
+

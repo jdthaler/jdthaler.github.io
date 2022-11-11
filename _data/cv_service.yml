@@ -1,0 +1,137 @@
+phd-theses:
+
+  - name: Eva Huang
+    advisor: Salvatore Vitale
+    
+  - name: Cristian Zanoci
+    title: Quantum Algorithms and Non-Equilibrium Dynamics in Disordered Many-Body Systems
+    advisor: Mikhail Lukin & Aram W. Harrow
+    
+  - name: Gregory Ridgway
+    title: Exotic Dark Matter in the Early Universe
+    advisor: Tracy Slatyer
+    date: June 2022
+    
+  - name: Patrick Fitzpatrick
+    title: Initial Conditions for Cosmic Inflation, the History of the Dark Sector, and Dark-onium
+    advisor: Tracy Slatyer & David Kaiser
+    date: July 2021
+    
+  - name: Joseph Johnston
+    title: Applications of Low Temperature Bolometers to Reactor Neutrinos and Neutrinoless Double Beta Decay
+    advisor: Lindley Winslow & Joseph Formaggio
+    date: May 2021
+    
+  - name: Chih-Liang Wu
+    title: Probes of Dark Matter from the Universe's Past and Present
+    advisor: Tracy Slatyer
+    date: April 2021
+    
+  - name: Constantin Weisser
+    title: Search for Dark Photons at LHCb and Machine Learning in Particle Physics
+    advisor: Mike Williams
+    date: March 2021
+    
+  - name: J. Owen Andrews
+    title: Illuminating Biomolecular Clustering and Condensation in Living Cells Using Super-Resolution Imaging
+    advisor: Ibrahim Cisse
+    date: Nov 2020
+    
+  - name: Gherardo Vita
+    title: QCD Beyond Leading Power
+    advisor: Iain Stewart
+    date: August 2020
+    
+  - name: Jasmine Brewer
+    title: Theory and Phenomenology of Heavy-Ion Collisions
+    advisor: Krishna Rajagopal
+    date: July 2020
+    
+  - name: Hongwan Liu
+    title: Dark Matter Energy Deposition and Production from the Table-Top to the Cosmos
+    advisor: Tracy Slatyer
+    date: May 2019
+    
+  - name: Charles Epstein
+    title: Møller Scattering at Low Energy
+    advisor: Richard Milner
+    date: August 2018
+    
+  - name: Nicholas Rodd
+    title: Listening to the Universe through Indirect Detection
+    advisor: Tracy Slatyer
+    date: April 2018
+    
+  - name: David Hernandez
+    title: Solving the N-body Problem in Astrophysics
+    advisor: Edmund Bertschinger
+    date: April 2018
+    
+  - name: Aram Apyan
+    title: Search for Heavy Charged Higgs Bosons in Proton-Proton Collisions with the CMS Detector
+    advisor: Markus Klute
+    date: November 2016
+    
+  - name: Daniel Roberts
+    title: CHAOS, Holography, And Other Science
+    advisor: Allan Adams
+    date: April 2016
+    
+  - name: Ian Moult
+    title: Effective Field Theories for the LHC
+    advisor: Iain Stewart
+    date: April 2016
+    
+  - name: Daniel Kolodrubetz
+    title: Accuracy and Precision in Collider Event Shapes
+    advisor: Iain Stewart
+    date: April 2016
+    
+  - name: Mingming Yang
+    title: Observation and Property Measurement of a New Boson Decaying Into Two Photons Using the CMS Detector
+    advisor: Christoph Paus
+    date: January 2015
+    
+  - name: Shawn Henderson
+    title: An Assessment of the Sensitivity of a Low Pressure Time Projection Chamber to the Direction of WIMP-Induced Nuclear Recoils
+    advisor: Peter Fisher
+    date: July 2013
+    
+  - name: Teng Ma
+    title: Detailed Characterization of Jets in Heavy Ion Collisions Using Jet Fragmentation Functions
+    advisor: Boleslaw Wyslouch
+    date: May 2013
+    
+  - name: Kevin Sung
+    title: Measurement of Z boson production at the LHC
+    advisor: Steven Nahn
+    date: March 2013
+    
+  - name: Christopher Jones
+    title: Prediction of the Reactor Antineutrino Flux for the Double Chooz Experiment
+    advisor: Janet Conrad
+    date: June 2012
+    
+  - name: Riccardo Abbate
+    title: Precision Determination of the Strong Coupling Constant using SCET
+    advisor: Iain Stewart
+    date: May 2012
+    
+  - name: Abolhassan Vaezi
+    title: Slave Particle Study of the Strongly Correlated Hubbard Model
+    advisor: Xiao-Gang Wen
+    date: January 2011
+    
+  - name: Georgia Karagiorgi
+    title: Searches for New Physics at MiniBooNE
+    advisor: Janet Conrad
+    date: July 2010//
+
+
+memberships:
+
+  - name: Aspen Center for Physics
+    url:  https://www.aspenphys.org/
+    
+  - name: American Physical Society
+    url:  https://www.aps.org/
