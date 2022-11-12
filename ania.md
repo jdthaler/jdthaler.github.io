@@ -1,38 +1,37 @@
 ---
 layout: article
 title: Anna Borisovna McCarthy (nee Miroshnichenko)
-aside:
-  toc: true
 ---
 
-====== Anna Borisovna McCarthy (nee Miroshnichenko) ======
+**November 23, 1956 - July 6, 2018**
 
-** November 23, 1956 - July 6, 2018**
+![Ania](ania/ania_photo.png){:.rounded.image--xl}
 
-{{::ania_photo.png|Ania}}
-===== Service =====
+## Service
 
-  * [[http://www.jthaler.net/ania/ania_program.pdf|Program]] (September 29, 2018)
+  * [Program](ania/ania_program.pdf) (September 29, 2018)
 
-==== Readings ====
+### Readings
 
-  * [[http://www.jthaler.net/ania/ania_eulogy.pdf|Eulogy]] (Sasha Thaler)
-  * [[http://www.jthaler.net/ania/ania_norbet.pdf|Wherever You Go]] (Gregory Norbet, read by Jesse Thaler)
-  * [[http://www.jthaler.net/ania/ania_reflections.pdf|Reflections on a Remarkable Woman]] (Andrew Lowe & Elise Adib-Samii Riegel)
-  * [[http://www.jthaler.net/ania/ania_nahmens.pdf|Remembrances / Sé Que Estás Aquí]] (Gis-Xi Nahmens / Anónimo)
-==== Music ====
+  * [Eulogy](ania/ania_eulogy.pdf) (Sasha Thaler)
+  * [Wherever You Go](ania/ania_norbet.pdf) (Gregory Norbet, read by Jesse Thaler)
+  * [Reflections on a Remarkable Woman](ania/ania_reflections.pdf) (Andrew Lowe & Elise Adib-Samii Riegel)
+  * [Remembrances / Sé Que Estás Aquí](ania/ania_nahmens.pdf) (Gis-Xi Nahmens / Anónimo)
+  
+### Music
 
   * Processional:  The Choir of the Cathedral of the Saint Alexander Nevsky Church of Paris
   * Malagueña (Ernesto Lecuona, performed by Jodie DeSalvo)
   * Saint Louis Blues (W.C. Handy, performed by Thomas Gotwals)
-  * [[https://www.youtube.com/watch?v=okl2XbTM7xM|There is a Balm in Gilead]] (Paul Robeson)
+  * [There is a Balm in Gilead](https://www.youtube.com/watch?v=okl2XbTM7xM) (Paul Robeson)
 
-==== Burial ====
+### Burial
 
-  * [[http://www.jthaler.net/ania/ania_gotwals.pdf|From a Fellow Marksman]] (Molly Gotwals)
-  * [[http://www.jthaler.net/ania/ania_vasilenko.pdf|For a Close and Dear Friend]] (Yelena Vasilenko)
-  * [[http://www.jthaler.net/ania/ania_vianney.pdf|Death is Nothing At All]] (Henry Scott Holland, read by Brett Vianney)
-===== Obituary =====
+  * [From a Fellow Marksman](ania/ania_gotwals.pdf) (Molly Gotwals)
+  * [For a Close and Dear Friend](ania/ania_vasilenko.pdf) (Yelena Vasilenko)
+  * [Death is Nothing At All](ania/ania_vianney.pdf) (Henry Scott Holland, read by Brett Vianney)
+  
+## Obituary
 
 Anna B. McCarthy, 61, of Suffield, originally of St. Petersburg (Leningrad), Russia, passed away on July 6, 2018. 
 
@@ -48,4 +47,4 @@ Anna was predeceased by her father, Boris, and her mother, Liudmila.  She is sur
 
 Her family would like to extend heartfelt thanks to the surgeons and other care providers at Hartford Hospital for their untiring efforts on her behalf, and to the staff of The Suffield House for their compassionate and dedicated care.
 
-All family, friends, and current and former members of the Suffield Academy community are welcome to attend a memorial service at 11 a.m. on Saturday, September 29, 2018, at Suffield Academy, 185 N. Main Street, Suffield, CT 06078, followed by a gathering at the Gay Manse at 142 North Main Street in Suffield.  Anna’s family kindly asks that no flowers be purchased for the family, and that any memorial contributions be made either to Suffield Academy, by contacting Philip Riegel, at [[priegel@suffieldacademy.org|priegel@suffieldacademy.org]] or 860-386-4461, or to Hartford Hospital, through its website, [[https://giving.hartfordhospital.org/donate|https://giving.hartfordhospital.org/donate]].
+All family, friends, and current and former members of the Suffield Academy community are welcome to attend a memorial service at 11 a.m. on Saturday, September 29, 2018, at Suffield Academy, 185 N. Main Street, Suffield, CT 06078, followed by a gathering at the Gay Manse at 142 North Main Street in Suffield.  Anna’s family kindly asks that no flowers be purchased for the family, and that any memorial contributions be made either to Suffield Academy, by contacting Philip Riegel, at [priegel@suffieldacademy.org](priegel@suffieldacademy.org) or 860-386-4461, or to Hartford Hospital, through its website, [https://giving.hartfordhospital.org/donate](https://giving.hartfordhospital.org/donate).

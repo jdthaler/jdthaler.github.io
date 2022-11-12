@@ -1,46 +1,43 @@
 ---
 layout: article
 title: Aaron Kempner Thaler
-aside:
-  toc: true
 ---
-
-====== Aaron Kempner Thaler ======
 
 **December 8, 1982 - April 24, 2011**
 
-{{:aaroncoverimage.jpg|Uncle Aaron}}
+![Uncle Aaron](aaron/aaroncoverimage.jpg)
 
-===== Celebration =====
+## Celebration
 
-==== Flyer ====
+### Flyer
 
-  * [[http://www.jthaler.net/aaron/AaronCelebration.pdf|Celebration Program]]
+  * [Celebration Program](aaron/AaronCelebration.pdf)
 
-==== Words ====
+### Words
 
-  * [[http://www.jthaler.net/aaron/AaronsWords.pdf|This is the End]] (Aaron Thaler)
-  * [[http://www.jthaler.net/aaron/FredForAaron.pdf|Seabury Road]] (Fred Thaler)
-  * [[http://www.jthaler.net/aaron/JesseForAaron.pdf|Uncle Aaron]] (Jesse Thaler)
-  * [[http://www.jthaler.net/aaron/EricForAaron.pdf|Reflections on Aaron]] (Eric Herman)
-  * [[http://www.jthaler.net/aaron/ColinForAaron.pdf|Thanks Man]] (Colin Scibetta)
+  * [This is the End](aaron/AaronsWords.pdf) (Aaron Thaler)
+  * [Seabury Road](aaron/FredForAaron.pdf) (Fred Thaler)
+  * [Uncle Aaron](aaron/JesseForAaron.pdf) (Jesse Thaler)
+  * [Reflections on Aaron](aaron/EricForAaron.pdf) (Eric Herman)
+  * [Thanks Man](aaron/ColinForAaron.pdf) (Colin Scibetta)
 
-==== Music ====
+### Music
 
   * Gymnopedie no. 1 (Erik Satie)
   * New Ease (Andrew Aprile & Eric Herman)
   * Prelude in C Major (JS Bach)
-  * [[http://www.jthaler.net/aaron/PrayerForTheSick.mp3|Prayer For The Sick]] (Eric Herman)
+  * [Prayer For The Sick](aaron/PrayerForTheSick.mp3) (Eric Herman)
   * Peaches En Regalia (Frank Zappa)
   * Little Umbrellas (Frank Zappa)
   * Son of Mr. Green Genes (Frank Zappa)  
 
-==== Poetry ====
+### Poetry
 
-  * [[http://www.jthaler.net/aaron/JazzFuneral.pdf|Jazz Funeral]] (Abe Louise Young, Remixed for Aaron by Sasha Thaler)
-  * [[http://www.jthaler.net/aaron/GestaltAt60.pdf|Gestalt at 60]] (May Sarton)
+  * [Jazz Funeral](aaron/JazzFuneral.pdf) (Abe Louise Young, Remixed for Aaron by Sasha Thaler)
+  * [Gestalt at 60](aaron/GestaltAt60.pdf) (May Sarton)
   * The Big Heart (Anne Sexton)
-===== Obituary =====
+  
+## Obituary
 
 YORK, Maine — Aaron Kempner Thaler, 28, of York, and until recently of San Francisco, Calif., passed away peacefully at home on Sunday, April 24, 2011, surrounded by his family.
 
