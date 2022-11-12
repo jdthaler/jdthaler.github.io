@@ -1,0 +1,13 @@
+topics:
+
+  -  key:    ml
+     title:  Data Science and Machine Learning
+
+  -  key:    qis
+     title:  Quantum Computation for Colliders
+
+  -  key:    boost
+     title:  Jet Substructure for Boosted Objects
+
+  -  key:    precision
+     title:  Precision Jet Physics     

@@ -1,5 +1,8 @@
 header:
 
-cv:
-  - title: Positions
-    url: index.html#positions
+  - title: CV
+    url:   index.html    
+
+  - title: Research Topics
+    url:   research.html    
+
