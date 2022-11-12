@@ -1,0 +1,14 @@
+years:
+ - 2022
+ - 2021
+ - 2020
+
+papers:
+
+ - title:    "Degeneracy Engineering for Classical and Quantum Annealing: A Case Study of Sparse Linear Regression in Collider Physics"
+   authors:  Eric R. Anschuetz, Lena Funcke, Patrick T. Komiske, Serhii Kryhin, and Jesse Thaler
+   doi:      10.1103/PhysRevD.106.056008
+   journal:  Phys. Rev. D106:056008 (2022)
+   arxiv:    2205.10375
+   year:     2022
+ 

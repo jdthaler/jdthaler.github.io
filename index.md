@@ -30,6 +30,11 @@ aside:
     MIT Center for Theoretical Physics\\
     77 Massachusetts Ave, 6-318\\
     Cambridge, MA 02139
+ * **Indices**
+   * [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1)
+   * [arXiv](http://arxiv.org/a/thaler_j_1)
+   * [ORCID](https://orcid.org/0000-0002-2406-8160)
+
 
 
 #### Research in Theoretical Particle Physics ####
@@ -106,11 +111,13 @@ aside:
 
 ### Postdoctoral Researchers
  
-  * Lena Funcke, CTP Postdoctoral Researcher, Fall 2021-Spring 2024
-    * Before MIT:  Munich (PhD), Perimeter Institute (Postdoc)
-  * Katelin Schutz, Pappalardo Fellow, Fall 2019-Spring 2021
-    * Before MIT: U.C. Berkeley (PhD)
-    * After MIT: Assistant Professor, //McGill//
+{% for postdoc in site.data.cv_mentoring.postdocs %}
+  * **{{postdoc.name}}**, {{postdoc.title}}, *{{postdoc.dates}}*
+  {% if postdoc.phd and postdoc.postdoc %}  * Before MIT:  {{postdoc.phd}} (PhD), {{postdoc.postdoc}} (Postdoc)
+  {% elsif postdoc.phd %}  * Before MIT:  {{postdoc.phd}} (PhD) {% endif %}
+  {% if postdoc.after_title %}  * After MIT:  {{postdoc.after_title}}, *{{postdoc.after_org}}* {% endif %}
+{% endfor %}
+ 
   * Pouya Asadi, CTP Postdoctoral Researcher, Fall 2019-Spring 2022
     * Before MIT: Rutgers (PhD)
   * Bernhard Mistlberger, Pappalardo Fellow, Fall 2018-Spring 2020
@@ -339,36 +346,36 @@ aside:
 ### MIT
 
   * **8.398 --- Selected Topics in Graduate Physics**
-    * Instructor:  [[https://canvas.mit.edu/courses/7673|Spring 2021]], [[https://canvas.mit.edu/courses/11329|Fall 2021]], [[https://canvas.mit.edu/courses/13866|Spring 2022]], [[https://canvas.mit.edu/courses/16823|Fall 2022]], Spring 2023
+    * Instructor:  [Spring 2021](https://canvas.mit.edu/courses/7673), [Fall 2021](https://canvas.mit.edu/courses/11329), [Spring 2022](https://canvas.mit.edu/courses/13866), [Fall 2022](https://canvas.mit.edu/courses/16823), Spring 2023
 
   * **8.03 --- Physics III, Waves & Vibrations**
-    * Recitation:  [[https://canvas.mit.edu/courses/4560|Fall 2020]]
+    * Recitation:  [Fall 2020](https://canvas.mit.edu/courses/4560)
 
   * **8.044 --- Statistical Physics I**
-    * Recitation:  [[http://stellar.mit.edu/S/course/8/sp20/8.044/|Spring 2020]]
+    * Recitation:  [Spring 2020](http://stellar.mit.edu/S/course/8/sp20/8.044/)
   
   * **8.831 --- Supersymmetric Quantum Field Theories**
-      * Lecture:  [[http://stellar.mit.edu/S/course/8/sp17/8.831/|Spring 2017]], [[http://stellar.mit.edu/S/course/8/fa19/8.831/|Fall 2019]]
+      * Lecture:  [Spring 2017](http://stellar.mit.edu/S/course/8/sp17/8.831/), [Fall 2019](http://stellar.mit.edu/S/course/8/fa19/8.831/)
 
   * **8.051 --- Quantum Mechanics II (MITx-based)**
-    * Instructor:  [[http://stellar.mit.edu/S/course/8/sp18/8.051/|Spring 2018]]
+    * Instructor:  [Spring 2018](http://stellar.mit.edu/S/course/8/sp18/8.051/)
 
   * **8.033 --- Relativity**
-    * Lecture: [[http://stellar.mit.edu/S/course/8/fa17/8.033/|Fall 2017]]
-    * Recitation:  [[http://stellar.mit.edu/S/course/8/fa16/8.033/|Fall 2016]]
+    * Lecture: [Fall 2017](http://stellar.mit.edu/S/course/8/fa17/8.033/)
+    * Recitation:  [Fall 2016](http://stellar.mit.edu/S/course/8/fa16/8.033/)
 
   * **8.02 --- Physics II, Electricity & Magnetism** 
-    * TEAL:  [[http://stellar.mit.edu/S/course/8/sp14/8.02/|Spring 2014]], [[http://stellar.mit.edu/S/course/8/sp15/8.02/|Spring 2015]], [[http://stellar.mit.edu/S/course/8/sp16/8.02/|Spring 2016]]
+    * TEAL:  [Spring 2014](http://stellar.mit.edu/S/course/8/sp14/8.02/), [Spring 2015](http://stellar.mit.edu/S/course/8/sp15/8.02/), [Spring 2016](http://stellar.mit.edu/S/course/8/sp16/8.02/)
 
   * **8.012 --- Physics I, Classical Mechanics** 
-    * Recitation: [[http://stellar.mit.edu/S/course/8/fa14/8.012/|Fall 2014]]
+    * Recitation: [Fall 2014](http://stellar.mit.edu/S/course/8/fa14/8.012/)
 
   * **8.06 --- Quantum Mechanics III**
-    * Lecture: [[http://stellar.mit.edu/S/course/8/sp11/8.06/|Spring 2011]], [[http://stellar.mit.edu/S/course/8/sp12/8.06/|Spring 2012]], [[http://stellar.mit.edu/S/course/8/sp13/8.06/|Spring 2013]]
-    * Recitation: [[http://stellar.mit.edu/S/course/8/sp10/8.06/|Spring 2010]]
+    * Lecture: [Spring 2011](http://stellar.mit.edu/S/course/8/sp11/8.06/), [Spring 2012](http://stellar.mit.edu/S/course/8/sp12/8.06/), [Spring 2013](http://stellar.mit.edu/S/course/8/sp13/8.06/)
+    * Recitation: [Spring 2010](http://stellar.mit.edu/S/course/8/sp10/8.06/)
 
   * **8.05 --- Quantum Mechanics II**
-    * Recitation: [[http://stellar.mit.edu/S/course/8/fa10/8.05/|Fall 2010]], [[http://stellar.mit.edu/S/course/8/fa12/8.05/|Fall 2012]]
+    * Recitation: [Fall 2010](http://stellar.mit.edu/S/course/8/fa10/8.05/), [Fall 2012](http://stellar.mit.edu/S/course/8/fa12/8.05/)
 
 ### Guest Lectures
 
@@ -388,9 +395,18 @@ aside:
 
 ## Publications & Preprints
 
-[[http://inspirehep.net/author/profile/Jesse.Thaler.1|Inspire]] |  [[http://arxiv.org/a/thaler_j_1|arXiv]] | [[https://orcid.org/0000-0002-2406-8160|ORCID]]
+{% for year in site.data.cv_papers.years %}
+#### {{year}}
+{% for paper in site.data.cv_papers.papers %}
+{% if year == paper.year%}
+  * **{{paper.title}}**. \\
+    {{paper.authors}}.\\
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}})
+{% endif %}
+{% endfor%}
+{% endfor%}
 
-[[research|Research Summary]] | [[research details|Publications Organized by Topic]]
+
 
 #### 2022
 
