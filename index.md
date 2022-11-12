@@ -1,99 +1,92 @@
 ---
 layout: article
-title:
+title: CV
 aside:
   toc: true
 
 ---
 
-{{ :facultyphoto_2017_small.jpg?280 |jthaler@mit.edu}}
+<center>
+<img class="image circle image--xl" src="images/jthaler_photo_2017.jpg" title="Jesse Thaler"/>
+</center>
+
+[PDF Version](pdfs/jthaler_CV_2022_May.pdf) (updated May 2022)
 
 
 ## Jesse Diaz Thaler
 
-[[http://www.jthaler.net/cv/jthaler_CV_2022_May.pdf|PDF Version]] (updated May 2022)
-
-### Wires
-//Email//: [[jthaler@mit.edu]] \\
-//Web//: [[http://www.jthaler.net/]] \\
-\\
-//Fax//: (617) 253-8674 \\
-//Office//: (617) 253-3713 \\
-//Cell//: (617) 642-8622\\
-//Zoom//:  [[https://mit.zoom.us/my/jthaler]]
-
-### Snails
-
-Jesse Thaler\\
-MIT Center for Theoretical Physics\\
-77 Massachusetts Ave, 6-318\\
-Cambridge, MA 02139
 
 
-### Research in Theoretical Particle Physics
+* **Wires**
+  *  *Email:* [jthaler@mit.edu](jthaler@mit.edu) 
+  *  *Web:* [http://www.jthaler.net/](http://www.jthaler.net) 
+  *  *Zoom:*  [https://mit.zoom.us/my/jthaler](https://mit.zoom.us/my/jthaler) 
+* **Digits**
+  * *Office:* (617) 253-3713 
+  * *Cell:* (617) 642-8622
+  * *Fax:* (617) 253-8674 
+* **Snails**
+  * Jesse Thaler\\
+    MIT Center for Theoretical Physics\\
+    77 Massachusetts Ave, 6-318\\
+    Cambridge, MA 02139
 
-  * Collider physics, machine learning, and quantum chromodynamics (especially jets and jet substructure)
-  * Theoretical frameworks beyond the standard model (especially dark matter and supersymmetry)
+
+#### Research in Theoretical Particle Physics ####
+
+   * Collider physics, machine learning, and quantum chromodynamics (especially jets and jet substructure)
+   * Theoretical frameworks beyond the standard model (especially dark matter and supersymmetry)
 
 ## Positions
 
-### Massachusetts Institute of Technology
+### MIT
 
-January 2010 - Present
+ * **Massachusetts Institute of Technology**, *January 2010 - Present*
+   * Professor of Physics, *July 2021 - Present*
+   * Associate Professor of Physics with Tenure, *May 2017 - July 2021*
+   * Associate Professor of Physics, *July 2015 - May 2017*
+   * Class of 1943 Career Development Professor, *July 2012 - July 2015*
+   * Assistant Professor of Physics, *January 2010 - July 2015*
+ * **Leadership**
+    * Director, [NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/), *August 2020 - Present*
+ * **Affiliations**
+   * [MIT Center for Theoretical Physics (CTP)](http://ctp.mit.edu/) and [Laboratory for Nuclear Science (LNS)](http://web.mit.edu/lns/), *January 2010 - Present*
+   * [MIT Statistics and Data Science Center (SDSC)](https://stat.mit.edu/) and [Institute for Data, Systems, and Society (IDSS)](https://idss.mit.edu/), *January 2020 - Present*
 
-  * Professor of Physics (July 2021 - Present)
-  * Associate Professor of Physics with Tenure (May 2017 - July 2021)
-  * Associate Professor of Physics (July 2015 - May 2017)
-  * Class of 1943 Career Development Professor (July 2012 - July 2015)
-  * Assistant Professor of Physics (January 2010 - July 2015)
+### Visiting
 
-#### Leadership
+ * **Harvard University**, *September 2018 - August 2019*
+   * Visiting Scholar, Simons Fellowship in Theoretical Physics
+ * **Boston University**, *June 2017 - August 2017*
+   * Visiting Researcher
 
-  * Director, [[https://iaifi.org/|NSF AI Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)]], //August 2020 - Present//
+### Berkeley
 
-#### Affiliations
+ * **Lawrence Berkeley National Laboratory**, *July 2009 - December 2009*
+   * Physicist Postdoctoral Fellow, Theoretical Physics Group
 
-  * [[http://ctp.mit.edu/|MIT Center for Theoretical Physics (CTP)]] and [[http://web.mit.edu/lns/|Laboratory for Nuclear Science (LNS)]], //January 2010 - Present//
-  * [[https://stat.mit.edu/|MIT Statistics and Data Science Center (SDSC)]] and [[https://idss.mit.edu/|Institute for Data, Systems, and Society (IDSS)]], //January 2020 - Present//
-
-### Harvard University
-
-  * September 2018 - August 2019
-  * Visiting Scholar, Simons Fellowship in Theoretical Physics
-
-### Boston University
-
-  * June 2017 - August 2017
-  * Visiting Researcher
-
-### Lawrence Berkeley National Laboratory
-
-  * July 2009 - December 2009
-  * Physicist Postdoctoral Fellow, Theoretical Physics Group
-
-### University of California, Berkeley
-  * July 2006 - June 2009
-  * Miller Research Fellow, Miller Institute for Basic Research in Science
-
+ * **University of California, Berkeley**, *July 2006 - June 2009*
+   * Miller Research Fellow, Miller Institute for Basic Research in Science
 
 
 ## Education
 
-### Harvard University
+### Harvard
 
-  * Fall 2002 - Spring 2006
-  * Ph.D. Physics ("[[http://inspirehep.net/record/738871|Symmetry Breaking at the Energy Frontier]]", June 2006) 
-  * A.M. Physics (June 2004)
+  * **Harvard University**, *Fall 2002 - Spring 2006*
+  * Ph.D. Physics, "[Symmetry Breaking at the Energy Frontier](http://inspirehep.net/record/738871)", *June 2006* 
+  * A.M. Physics, *June 2004*
   * Advisor:  Nima Arkani-Hamed
 
-### Brown University
-  * Fall 1998 - Spring 2002
-  * Sc.B. Math/Physics (May 2002)
+### Brown
+
+  * **Brown University**, *Fall 1998 - Spring 2002*
+  * Sc.B. Math/Physics, *May 2002*
   * Advisor: Antal Jevicki
 
 
-### Phillips Exeter Academy
-  * Fall 1994 - Spring 1998
+### PEA
+  * **Phillips Exeter Academy**, *Fall 1994 - Spring 1998*
 
 
 ## Awards & Fellowships
