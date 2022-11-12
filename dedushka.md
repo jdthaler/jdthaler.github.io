@@ -1,30 +1,28 @@
 ---
 layout: article
 title: Boris Yakovlevich Miroshnichenko
-aside:
-  toc: true
----
 
-====== Boris Yakovlevich Miroshnichenko ======
+---
 
 **November 23, 1920 - August 1, 2017**
 
-{{::papaportrait.jpg?300|Dedushka}}
+![Dedushka](dedushka/papaportrait.jpg){:.rounded.image--xl}
 
-===== Service =====
+## Service
 
-==== Readings ====
+### Readings
 
-  * [[http://www.jthaler.net/dedushka/dedushka_norbet.pdf|Wherever You Go]] (Gregory Norbet)
-  * [[http://www.jthaler.net/dedushka/dedushka_remembrance.pdf|Dedushka: A Remembrance]] (Sasha Thaler)
-  * [[http://www.jthaler.net/dedushka/dedushka_benediction.pdf|Benediction]]
+  * [Wherever You Go](dedushka/dedushka_norbet.pdf) (Gregory Norbet)
+  * [Dedushka: A Remembrance](dedushka/dedushka_remembrance.pdf) (Sasha Thaler)
+  * [Benediction](dedushka/dedushka_benediction.pdf)
 
-==== Music ====
+### Music
 
-  * Welcome: [[https://www.youtube.com/watch?v=N7miybFC9EI|Priidite Poklonimsya]] (Sergei Rachmaninov)
-  * Interlude: [[https://www.youtube.com/watch?v=okl2XbTM7xM|There is A Balm in Gilead]] (Paul Robeson)
-  * Recessional: [[https://www.youtube.com/watch?v=fUYkK2Inra8|Posledniy Trolleybus]] (Bulat Okudzhava)
-===== Obituary =====
+  * Welcome: [Priidite Poklonimsya](https://www.youtube.com/watch?v=N7miybFC9EI) (Sergei Rachmaninov)
+  * Interlude: [There is A Balm in Gilead](https://www.youtube.com/watch?v=okl2XbTM7xM) (Paul Robeson)
+  * Recessional: [Posledniy Trolleybus](https://www.youtube.com/watch?v=fUYkK2Inra8) (Bulat Okudzhava)
+  
+## Obituary
 
 SUFFIELD, Connecticut --- Boris Yakovlevich Miroshnichenko, of Suffield, originally of Voronezh, and then St. Petersburg (Leningrad), Russia, passed away on August 1, 2017.  
 
@@ -38,4 +36,4 @@ Boris was predeceased by his wife Liudmila. He is survived by his daughter, Anna
 
 His family would like to extend heartfelt thanks to the staff of The Suffield House for their loving and compassionate care. 
 
-All are welcome to attend a memorial service at 1 p.m. on Monday, August 14, 2017 at Nicholson & Carmon Funeral Home, 443 East St. N., Suffield, CT 06078, followed by a burial at the Woodlawn Cemetery on Bridge St. in Suffield, and a gathering at the Gay Manse at 142 North Main Street in Suffield.  The family will receive friends on Monday from 12:30 p.m. - 1:00 p.m. prior to the service at the funeral home. Boris’s family kindly asks that no flowers be purchased for the family, and that any memorial contributions be made to the New England Air Museum, through their website: [[http://www.neam.org/support-ways-to-give.php|www.neam.org/support-ways-to-give.php]]. 
+All are welcome to attend a memorial service at 1 p.m. on Monday, August 14, 2017 at Nicholson & Carmon Funeral Home, 443 East St. N., Suffield, CT 06078, followed by a burial at the Woodlawn Cemetery on Bridge St. in Suffield, and a gathering at the Gay Manse at 142 North Main Street in Suffield.  The family will receive friends on Monday from 12:30 p.m. - 1:00 p.m. prior to the service at the funeral home. Boris’s family kindly asks that no flowers be purchased for the family, and that any memorial contributions be made to the New England Air Museum, through their website: [http://www.neam.org/support-ways-to-give.php](www.neam.org/support-ways-to-give.php). 
