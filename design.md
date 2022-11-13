@@ -1,14 +1,60 @@
 ---
 layout: article
 title: Graphic Design
+aside:
+  toc: true
 ---
 
+## IAIFI
 
-    * [[http://www.jthaler.net/outreach/jthaler_IAIFI_Banner.jpg|Banner Image Design]], [[http://www.iaifi.org/|NSF AI Institute for Artificial Intelligence and Fundamental Interactions]], //August 2020//  (based on artwork by [[https://agsandrew.myportfolio.com/|agsandrew]] - stock.adobe.com)
-    * [[http://www.jthaler.net/outreach/jthaler_IAIFI_Logo.pdf|Logo Design]], [[http://www.iaifi.org/|NSF AI Institute for Artificial Intelligence and Fundamental Interactions]], //August 2020//
-    * [[http://www.jthaler.net/outreach/jthaler_OmniFold_Logo.pdf|Logo Design]], [[https://github.com/ericmetodiev/OmniFold/|OmniFold]], //MIT, November 2019//
-    * [[http://www.jthaler.net/outreach/jthaler_BOOST2019_Poster.pdf|Poster Design]] ([[http://www.jthaler.net/outreach/jthaler_BOOST2019_Poster_Bleed.pdf|with bleeds]]), [[https://indico.cern.ch/e/boost2019|BOOST 2019 Workshop]], //MIT, July 2019//
-    * [[http://www.jthaler.net/outreach/jthaler_ABRALogo_Large.pdf|Logo Design]] ([[http://www.jthaler.net/outreach/jthaler_ABRALogo_Medium.pdf|Alt.]], [[http://www.jthaler.net/outreach/jthaler_ABRALogo_Small.pdf|A.]]), [[http://abracadabra.mit.edu/|ABRACADABRA Experiment]], //MIT, August 2017//
-    * [[http://www.jthaler.net/outreach/jthaler_MOD_Logo.pdf|Logo Design]] ([[http://www.jthaler.net/outreach/jthaler_MOD_EventDisplay.pdf|Event Display]]), MIT Open Data, //MIT, July 2015//
-    * [[http://www.jthaler.net/outreach/jthaler_DarkLight_Logo.pdf|Logo Design]], [[http://dmtpc.mit.edu/DarkLight/|DarkLight Experiment]], //MIT, September 2010//
+![IAIFI Logo](design/jthaler_IAIFI_Logo.png){:.image--sm}  [IAIFI Logo](design/jthaler_IAIFI_Logo.pdf)
+
+![IAIFI Banner](design/jthaler_IAIFI_Banner.jpg){:.image--sm}  [IAIFI Banner](design/jthaler_IAIFI_Banner.jpg), based on artwork by [agsandrew](https://agsandrew.myportfolio.com/) - stock.adobe.com
+
+
+[NSF Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*
+
+
+
+## OmniFold
+
+![OmniFold](design/jthaler_OmniFold_Logo.png){:.image--sm} [OmniFold Logo](design/jthaler_OmniFold_Logo.pdf)
+
+[OmniFold](https://github.com/ericmetodiev/OmniFold/), *MIT, November 2019*
+
+    
+## BOOST 2019
+
+ ![BOOST 2019](design/jthaler_BOOST2019_Poster.png){:.image--sm}  [BOOST 2019 Poster](design/jthaler_BOOST2019_Poster.pdf), [with bleeds](design/jthaler_BOOST2019_Poster_Bleed.pdf)
+
+[BOOST 2019 Workshop](https://indico.cern.ch/e/boost2019), *MIT, July 2019*
+
+    
+## ABRACADABRA
+
+![ABRACADABRA](design/jthaler_ABRALogo_Large.png){:.image--sm} [ABRACADABRA Logo](design/jthaler_ABRALogo_Large.pdf)
+
+![ABRA](design/jthaler_ABRALogo_Medium.png){:.image--sm} [ABRA Logo](design/jthaler_ABRALogo_Medium.pdf)
+
+![A](design/jthaler_ABRALogo_Small.png){:.image--sm }[A. Logo](design/jthaler_ABRALogo_Small.pdf)
+
+[ABRACADABRA Experiment](http://abracadabra.mit.edu/), *MIT, August 2017*
+
+
+## CMS/MIT Open Data
+
+![MOD](design/jthaler_MOD_Logo.png){:.image--sm}     [MOD Logo](design/jthaler_MOD_Logo.pdf)
+
+![MOD Event](design/jthaler_MOD_EVentDisplay.png){:.image--sm} [MOD Event Display](design/jthaler_MOD_EventDisplay.pdf)
+
+MIT Open Data, *MIT, July 2015*
+
+
+## DarkLight
+
+![DarkLight](design/jthaler_DarkLight_Logo.png){:.image--sm} [DarkLight Logo](design/jthaler_DarkLight_Logo.pdf)
+
+[DarkLight Experiment](http://dmtpc.mit.edu/DarkLight/) *MIT, September 2010*
+
+
 
