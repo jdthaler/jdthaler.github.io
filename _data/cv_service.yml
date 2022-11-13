@@ -126,7 +126,42 @@ phd-theses:
     title: Searches for New Physics at MiniBooNE
     advisor: Janet Conrad
     date: July 2010
+    
+    
+external-phd-theses:
 
+  - name: Pedro Cal
+    uni:  University of Amsterdam
+    title:  Jet Substructure at the LHC with Soft-Collinear Effective Theory
+    advisor:  Wouter Waalewijn
+    date: September 2021
+  
+  - name: Thea Aarrestad
+    uni:  University of Zurich
+    title:  A Novel Multidimensional Search for Diboson Resonances in the Boosted Dijet Final State and Encoding Jet Substructure with a Deep Neural Network
+    advisor:  Ben Kilminster
+    date: March 2019
+    
+  - name: Ignacio Garcia Garcia
+    uni:  University of Valencia
+    title:  "Future Linear Colliders:  Detector R&D, Jet Reconstruction, and Top Physics Potential"
+    advisor:  Eduardo Ros and Marcel Vos
+    date: December 2016
+    
+  - name: Brian Walsh
+    uni:  Yale University
+    title:  Search for direct top squark pair production in final states with one isolated lepton, jets, and missing transverse momentum in sqrt(s) = 7 TeV pp collisions using 4.7 fb-1 of ATLAS data
+    advisor:  Tobias Golling
+    date: February 2013
+    
+  - name: Travis Martin
+    uni:  Carleton University
+    title:  Examining Extra Neutral Gauge Bosons in Non-Universal Models and Exploring the Phenomenology of the Bestest Little Higgs Model and the LHC
+    advisor:  Thomas Gregoire and Stephen Godfrey
+    date: August 2012
+    
+    
+  
 memberships:
 
   - name: Aspen Center for Physics

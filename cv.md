@@ -1172,11 +1172,9 @@ aside:
 
 #### External Ph.D. Examiner
 
-  * Pedro Cal, University of Amsterdam, "Jet Substructure at the LHC with Soft-Collinear Effective Theory" (Wouter Waalewijn), //September 2021//
-  * Thea Aarrestad, University of Zurich, "A Novel Multidimensional Search for Diboson Resonances in the Boosted Dijet Final State and Encoding Jet Substructure with a Deep Neural Network" (Ben Kilminster), //March 2019//
-  * Ignacio Garcia Garcia, University of Valencia, "Future Linear Colliders:  Detector R&D, Jet Reconstruction, and Top Physics Potential" (Eduardo Ros and Marcel Vos), //December 2016//
-  * Brian Walsh, Yale University, "Search for direct top squark pair production in final states with one isolated lepton, jets, and missing transverse momentum in sqrt(s) = 7 TeV pp collisions using 4.7 fb-1 of ATLAS data" (Tobias Golling), //February 2013//
-  * Travis Martin, Carleton University, "Examining Extra Neutral Gauge Bosons in Non-Universal Models and Exploring the Phenomenology of the Bestest Little Higgs Model and the LHC" (Thomas Gregoire and Stephen Godfrey), //August 2012//
+{% for phd-thesis in site.data.cv_service.external-phd-theses %}
+  * **{{phd-thesis.name}}, {{phd-thesis.uni}}**, "{{phd-thesis.title | default: "TBA"}}" ({{phd-thesis.advisor}}), *{{phd-thesis.date | default: "in progress"}}*
+{% endfor %}
 
 #### External Mentoring
 
@@ -1223,23 +1221,23 @@ aside:
 
 #### Scientific Advising
 
-  * International Scientific Advisory Board, [[https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center|AI for Science and Science for AI (AISSAI) Center]], French CNRS (2022-present)
-  * International Advisory Committee, Grant-in-Aid for Transformative Research Areas, JSPS/MEXT Japan (2022-2026)
-  * Member, [[https://science.osti.gov/hep/hepap|High Energy Physics Advisory Panel (HEPAP)]] (August 2021-March 2024)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf|The NSF AI Institute for Artificial Intelligence and Fundamental Interactions]]", [[https://science.osti.gov/hep/hepap/Meetings/202012|High Energy Physics Advisory Panel]], Dec 2020
-  * "[[http://www.jthaler.net/talks/jthaler_2019_05_HEPAP.pdf|The High Energy Physics Landscape in 2019]]", [[https://science.osti.gov/hep/hepap/Meetings/201905|High Energy Physics Advisory Panel]], May 2019
+  * International Scientific Advisory Board, [AI for Science and Science for AI (AISSAI) Center](https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center), French CNRS, *2022-present*
+  * International Advisory Committee, Grant-in-Aid for Transformative Research Areas, JSPS/MEXT Japan, *2022-2026*
+  * Member, [High Energy Physics Advisory Panel (HEPAP)](https://science.osti.gov/hep/hepap), *August 2021-March 2024*
+  * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](http://www.jthaler.net/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf), [High Energy Physics Advisory Panel](https://science.osti.gov/hep/hepap/Meetings/202012), *Dec 2020*
+  * ["The High Energy Physics Landscape in 2019"](http://www.jthaler.net/talks/jthaler_2019_05_HEPAP.pdf), [High Energy Physics Advisory Panel](https://science.osti.gov/hep/hepap/Meetings/201905), *May 2019*
   * Science Advisory Board, USQCD Collaboration (Spring 2013-Fall 2016)
   * Sakurai Dissertation Award Selection Committee, American Physical Society (Fall 2016)
   * LHC Theory Initiative, Fellowship Selection Committee (Fall 2013-Fall 2014, Chair: Fall 2014)
 
 #### Peer Review
 
-  * Journal of High Energy Physics
-    * Editorial Board, //Fall 2019-present//
-  * SciPost Physics
-    * Editorial College, //Fall 2019-present// 
+  * [Journal of High Energy Physics](https://jhep.sissa.it/)
+    * Editorial Board, *Fall 2019-present*
+  * [SciPost Physics](https://scipost.org/SciPostPhys)
+    * Editorial College, *Fall 2019-present*
   * Frontiers of Artificial Intelligence
-    * Co-Topic Editor, "[[https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics|Efficient AI in Particle Physics and Astrophysics]]", //Spring 2022//
+    * Co-Topic Editor, ["Efficient AI in Particle Physics and Astrophysics"](https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics), *Spring 2022*
   * Physical Review Letters
   * Physical Review D
   * Journal of Cosmology and Astroparticle Physics
@@ -1270,25 +1268,25 @@ aside:
 
 ## Outreach
  
-  * [[https://cerncourier.com/a/designing-an-ai-physicist/|"Designing an AI Physicist"]], Opinion Viewpoint, //[[https://cerncourier.com/wp-content/uploads/2021/08/CERNCourier2021SepOct-digitaledition.pdf#CCSepOct21-digital.indd%3A.17586%3A1070|CERN Courier, September-October 2021]]//
+  * ["Designing an AI Physicist"](https://cerncourier.com/a/designing-an-ai-physicist/), Opinion Viewpoint, *[CERN Courier, September-October 2021](https://cerncourier.com/wp-content/uploads/2021/08/CERNCourier2021SepOct-digitaledition.pdf#CCSepOct21-digital.indd%3A.17586%3A1070)*
 
-  * [[http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf|"Collision Course: Artificial Intelligence meets Fundamental Physics"]], Keynote Presentation, [[http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html|"Tommy Flowers Network Conference"]], //Virtual, October 2020//
+  * ["Collision Course: Artificial Intelligence meets Fundamental Physics"](http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf), Keynote Presentation, ["Tommy Flowers Network Conference"](http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html), *Virtual, October 2020*
 
-  * [[https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf|"Listening for Dark Matter from the Basement of Building 24"]], coauthored with Lindley Winslow, Contribution to [[https://web.mit.edu/physics/news/physicsatmit/fall2019.html|Physics@MIT Journal]], //Fall 2019//
+  * ["Listening for Dark Matter from the Basement of Building 24"](https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf), coauthored with Lindley Winslow, Contribution to [Physics@MIT Journal](https://web.mit.edu/physics/news/physicsatmit/fall2019.html), *Fall 2019*
 
-  * [[https://rdcu.be/bMHQn|"Slow and Steady"]], coauthored with Matthew Strassler, Correspondence, [[https://doi.org/10.1038/s41567-019-0628-z|Nature Physics 15:725 (2019)]].
+  * ["Slow and Steady"](https://rdcu.be/bMHQn), coauthored with Matthew Strassler, Correspondence, [Nature Physics 15:725 (2019)](https://doi.org/10.1038/s41567-019-0628-z).
 
-  * [[http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf|"Listening to the Invisible Universe"]], Program with [[https://afarcry.org/|A Far Cry]], [[https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#|Open Rehearsal of Gravity]], //April 2019//
+  * ["Listening to the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf), Program with [A Far Cry](https://afarcry.org/), [Open Rehearsal of Gravity](https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#), *April 2019*
 
-  * [[http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf|"Guest Case Study 6:  Particle Collisions"]], Contribution to [[https://www.felicefrankel.com/|Felice Frankel]], [[https://mitpress.mit.edu/books/picturing-science-and-engineering|Picturing Science and Engineering]], //MIT Press, 2018//
+  * ["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf), Contribution to [Felice Frankel](https://www.felicefrankel.com/), [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering), *MIT Press, 2018*
 
-  * [[https://cylindricalonion.web.cern.ch/blogs/future-particle-physics-open|"The Future of Particle Physics is 'Open'"]], Guest Blog Post, The Cylindrical Onion, //CMS Experiment, December 2017//
+  * ["The Future of Particle Physics is 'Open'"](https://cylindricalonion.web.cern.ch/blogs/future-particle-physics-open), Guest Blog Post, The Cylindrical Onion, *CMS Experiment, December 2017*
 
-  * [[http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf|"Confronting the Invisible Universe"]], MIT Club of Great Britain Event, //London, May 2018//
+  * ["Confronting the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf), MIT Club of Great Britain Event, *London, May 2018*
 
-  * [[https://www.youtube.com/watch?v=QNmSNY8VenQ|"Confronting the Invisible Universe"]], Public Talk, //Aspen Center for Physics, March 2017//
+  * ["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ), Public Talk, *Aspen Center for Physics, March 2017*
 
-  * [[http://vimeo.com/58392070|"The Higgs Boson:  Triumph of the Standard Model"]], 24th Annual Kavli Frontiers of Science, National Academy of Sciences, //U.C. Irvine, November 2012//
+  * ["The Higgs Boson:  Triumph of the Standard Model"](http://vimeo.com/58392070), 24th Annual Kavli Frontiers of Science, National Academy of Sciences, *U.C. Irvine, November 2012*
 
   * Appearance in Documentary Film, "Particle Fever", 2013 
     * After film Q&A, BOOST 2015 Workshop Public Event, August 2015
@@ -1309,15 +1307,6 @@ aside:
     * Cole Gilbert (Traip Academy, November 2017)    
     * Joshua Reynolds (York High School, April 2016)
     * Edward Bengtson (York High School, April 2014)
-
-  * Graphic Design
-    * [[http://www.jthaler.net/outreach/jthaler_IAIFI_Banner.jpg|Banner Image Design]], [[http://www.iaifi.org/|NSF AI Institute for Artificial Intelligence and Fundamental Interactions]], //August 2020//  (based on artwork by [[https://agsandrew.myportfolio.com/|agsandrew]] - stock.adobe.com)
-    * [[http://www.jthaler.net/outreach/jthaler_IAIFI_Logo.pdf|Logo Design]], [[http://www.iaifi.org/|NSF AI Institute for Artificial Intelligence and Fundamental Interactions]], //August 2020//
-    * [[http://www.jthaler.net/outreach/jthaler_OmniFold_Logo.pdf|Logo Design]], [[https://github.com/ericmetodiev/OmniFold/|OmniFold]], //MIT, November 2019//
-    * [[http://www.jthaler.net/outreach/jthaler_BOOST2019_Poster.pdf|Poster Design]] ([[http://www.jthaler.net/outreach/jthaler_BOOST2019_Poster_Bleed.pdf|with bleeds]]), [[https://indico.cern.ch/e/boost2019|BOOST 2019 Workshop]], //MIT, July 2019//
-    * [[http://www.jthaler.net/outreach/jthaler_ABRALogo_Large.pdf|Logo Design]] ([[http://www.jthaler.net/outreach/jthaler_ABRALogo_Medium.pdf|Alt.]], [[http://www.jthaler.net/outreach/jthaler_ABRALogo_Small.pdf|A.]]), [[http://abracadabra.mit.edu/|ABRACADABRA Experiment]], //MIT, August 2017//
-    * [[http://www.jthaler.net/outreach/jthaler_MOD_Logo.pdf|Logo Design]] ([[http://www.jthaler.net/outreach/jthaler_MOD_EventDisplay.pdf|Event Display]]), MIT Open Data, //MIT, July 2015//
-    * [[http://www.jthaler.net/outreach/jthaler_DarkLight_Logo.pdf|Logo Design]], [[http://dmtpc.mit.edu/DarkLight/|DarkLight Experiment]], //MIT, September 2010//
 
 ## Memberships
 

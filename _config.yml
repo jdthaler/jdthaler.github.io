@@ -96,7 +96,7 @@ chart: # false (default), true
 
 ## => Paginate
 ##############################
-paginate: 8
+paginate:
 paginate_path: /page:num # don't change this unless for special need
 
 
@@ -219,7 +219,7 @@ defaults:
 ## => Plugins
 ##############################
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
+#  - jekyll-feed
+#  - jekyll-paginate
+#  - jekyll-sitemap
 #  - jemoji

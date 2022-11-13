@@ -49,6 +49,8 @@ aside:
 
 MIT Open Data, *MIT, July 2015*
 
+Featured in ["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf), Contribution to [Felice Frankel](https://www.felicefrankel.com/), [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering), *MIT Press, 2018*
+
 
 ## DarkLight
 

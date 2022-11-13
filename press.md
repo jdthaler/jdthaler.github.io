@@ -14,10 +14,10 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 ### Photographs
 
-  * ![Head Shot](images/jthaler_photo_2017.jpg){:.image--xs}
+  * ![Head Shot](images/jthaler_photo_2017.jpg){:.image--sm}
     [Head Shot](images/jthaler_photo_2017.jpg)
     
-  * ![Blackboard Shot](images/jthaler_mit_spotlight.jpg){:.image--xs}
+  * ![Blackboard Shot](images/jthaler_mit_spotlight.jpg){:.image--sm}
     [Blackboard Shot](images/jthaler_mit_spotlight.jpg)
 
 ### Selected Awards
