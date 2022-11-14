@@ -1,13 +1,44 @@
 topics:
 
-  -  key:    ml
-     title:  Data Science and Machine Learning
+  - title:   Jets and Jet Substructure
+    subtopics:
 
-  -  key:    qis
-     title:  Quantum Computation for Colliders
+      - key:    ml
+        title:  Data Science and Machine Learning
+        description:  "Machine learning has impacted many scientific fields, and particle physics is no exception. In my research, I aim to enhance the search for new phenomena at colliders by merging the performance of deep learning algorithms with the robustness of “deep thinking” approaches."
 
-  -  key:    boost
-     title:  Jet Substructure for Boosted Objects
+      - key:    qis
+        title:  Quantum Computation for Colliders
 
-  -  key:    precision
-     title:  Precision Jet Physics
+      - key:    boost
+        title:  Jet Substructure for Boosted Objects
+        description:  "Jets are collimated sprays of particles arising from the fragmentation of short-distance quarks and gluons. In traditional collider studies, these jets are reconstructed using jet algorithms, which assign clusters of particles to jet four-vectors. I have shown that the substructure of jets can provide valuable information about the underlying short-distance physics. In extreme cases, physics that would otherwise be unobservable using traditional jet algorithms can be made prominent through jet substructure techniques."
+
+      - key:    precision
+        title:  Precision Jet Physics
+        description:  "Along with the rise of jet substructure tools, there has been an increased focus on using (non)perturbative QCD methods to predict the properties of jets. In the past, QCD calculations focused on “infrared and collinear safe” (IRC safe) observables which can be calculated order by order in perturbation theory. Now, the calculational toolbox has expanded to include IRC unsafe observables—such as track-based observables and ratio observables—by using new analytic techniques."
+         
+      - key:   jet_alg
+        title:  "New Jet Algorithms"
+        description:  "The boundary between jets and jet substructure has blurred over the years, and will continue to do so. The following techniques are primarily aimed applicable at identifying jets themselves, but take lessons learned from jet substructure studies to study the superstructure of events."
+
+      - key:  qgp
+        title:  "Probing the Quark/Gluon Plasma"
+
+  - title:   Open Data Studies
+    subtopics:
+
+      - key:  cms2011
+        title:  2011 CMS Open Data
+
+
+      - key:  cms2010
+        title:  2010 CMS Open Data
+
+  - title:   Novel Dark Matter Dynamics
+    subtopics:
+
+      - key:  axion
+        title:  Axion Dark Matter Detection
+        description:  "I work on new ways to probe ultralight axion dark matter (not to be confused with the axion portal below), which requires very different detection techniques than heavy-particle dark matter."
+

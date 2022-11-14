@@ -78,15 +78,15 @@ aside:
 ### Harvard
 
   * **Harvard University**, *Fall 2002 - Spring 2006*
-  * Ph.D. Physics, "[Symmetry Breaking at the Energy Frontier](http://inspirehep.net/record/738871)", *June 2006* 
-  * A.M. Physics, *June 2004*
-  * Advisor:  Nima Arkani-Hamed
+    * Ph.D. Physics, "[Symmetry Breaking at the Energy Frontier](http://inspirehep.net/record/738871)", *June 2006* 
+    * A.M. Physics, *June 2004*
+    * Advisor:  Nima Arkani-Hamed
 
 ### Brown
 
   * **Brown University**, *Fall 1998 - Spring 2002*
-  * Sc.B. Math/Physics, *May 2002*
-  * Advisor: Antal Jevicki
+    * Sc.B. Math/Physics, *May 2002*
+    * Advisor: Antal Jevicki
 
 
 ### PEA
@@ -113,7 +113,7 @@ aside:
 {% for postdoc in site.data.cv_mentoring.postdocs %}
   * **{{postdoc.name}}**, {{postdoc.title}}, *{{postdoc.dates}}*
   {% if postdoc.phd and postdoc.postdoc %}  * Before MIT:  {{postdoc.phd}} (PhD), {{postdoc.postdoc}} (Postdoc)
-  {% elsif postdoc.phd %}  * Before MIT:  {{postdoc.phd}} (PhD) {% endif %}
+  {% elsif postdoc.before_phd %}  * Before MIT:  {{postdoc.before_phd}} (PhD) {% endif %}
   {% if postdoc.after_title %}  * After MIT:  {{postdoc.after_title}}, *{{postdoc.after_org}}* {% endif %}
 {% endfor %}
  
@@ -163,11 +163,13 @@ aside:
 
 ### Ph.D. Students
 
-  * [[http://rikabgambhir.com/|Rikab Gambhir]], anticipated Ph.D. 2025
-  * Samuel Alipour-Fard, anticipated Ph.D. 2024 
-  * [[https://pkomiske.com/|Patrick Komiske]], Ph.D. 2021
-    * Thesis:  "Machine Learning for High-Energy Collider Physics"
-    * After MIT:  Researcher, //PDT Partners//
+{% for phd_student in site.data.cv_mentoring.phd_students %}
+  * {% if phd_student.url %} **[{{phd_student.name}}]({{phd_student.url}})**, {% else %} **{{phd_student.name}}**, {% endif %}
+    {% if phd_student.thesis %} Ph.D. {% else %} anticipated Ph.D. {% endif %} {{phd_student.date}}
+    {% if phd_student.thesis %}    * Thesis: "{{phd_student.thesis}}"   {% endif %}
+    {% if phd_student.after_title %}  * After MIT:  {{phd_student.after_title}}, *{{phd_student.after_org}}* {% endif %}
+{% endfor %}
+
   * [[https://www.ericmetodiev.com/|Eric Metodiev]], Ph.D. 2020
     * Thesis:  "Energy Flow in Particle Collisions"
     * After MIT:  Research Scientist, //Renaissance Technologies//
