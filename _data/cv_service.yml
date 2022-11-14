@@ -159,7 +159,15 @@ external-phd-theses:
     title:  Examining Extra Neutral Gauge Bosons in Non-Universal Models and Exploring the Phenomenology of the Bestest Little Higgs Model and the LHC
     advisor:  Thomas Gregoire and Stephen Godfrey
     date: August 2012
-    
+
+external-mentoring:
+
+  - name:  Ilias Cholis
+    program: PI Academy for Research and Engagement
+    uni: Oakland University
+    date: Fall 2018-Fall 2019
+
+
     
   
 memberships:

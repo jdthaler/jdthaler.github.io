@@ -1086,18 +1086,18 @@ aside:
 
 ## Research Grants
 
-  * AI Research Institute, "[[http://iaifi.org/|Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)]]", //National Science Foundation, 2020-2025// ($20M)
-  * MIT-Israel Zuckerman STEM Fund Award (with Tracy Slatyer, Tomer Volansky, and Yotam Soreq), "The Quest for Dark Matter Interactions", //MIT International Science and Technology Initiative, 2020-2021// ($25.5k)
-  * PIER Hamburg-MIT Seed Project (with Gregor Kasieczka, Phil Harris, Andreas Hinzmann, Roman Kogler, Iain Stewart), "Probing the Standard Model with Jet Substructure", //Partnership for Innovation, Education and Research, 2019-2020// (€17k)
-  * Quantum Information Science (QuantISED) Award (with Aram Harrow), "[[https://doi.org/10.2172/1688696|Quantum Algorithms for Collider Physics]]", //U.S. Department of Energy, Office of High Energy Physics, 2018-2020// ($264k)
-  * Simons Fellowship, "Theoretical Investigations In and Beyond the Standard Model", //Simons Foundation, 2018-2019// ($143k)
-  * Comparative Review Funding Award, "[[https://doi.org/10.2172/1361051|Boosting the Search for New Physics at the Frontiers]]", //U.S. Department of Energy, Office of High Energy Physics, 2016-2017// ($120k)
-  * The Charles E. Reed Faculty Initiatives Fund, "Boosting Jet Physics with Archival Collider Data", //MIT Research Support Committee, 2015-2017// ($75k) 
-  * MIT-Belgium Seed Fund Award (with Fabio Maltoni), "Beyond the Standard Model at the LHC", //MIT International Science and Technology Initiative, 2013-2014// ($23.1k)
-  * Sloan Research Fellowship, //Alfred P. Sloan Foundation, 2013-2016// ($50k)
-  * Global Seed Fund Award (with Iain Stewart, Andre Hoang, and Gavin Salam), "Probing a New Energy Frontier with Jets at the Large Hadron Collider", //MIT International Science and Technology Initiative, 2012-2013// ($15k)
-  * Early Career Research Award, "[[https://doi.org/10.2172/1326460|Interpreting New Data from the Energy Frontier]]", //U.S. Department of Energy, Office of Science, 2011-2016// ($750k)
-  * Cooperative Research Agreement, “Laboratory for Nuclear Science, High Energy Physics Program: Task C, Center for Theoretical Physics”, //U.S. Department of Energy, Office of Science//
+  * AI Research Institute, "[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](http://iaifi.org/)", *National Science Foundation, 2020-2025* ($20M)
+  * MIT-Israel Zuckerman STEM Fund Award (with Tracy Slatyer, Tomer Volansky, and Yotam Soreq), "The Quest for Dark Matter Interactions", *MIT International Science and Technology Initiative, 2020-2021* ($25.5k)
+  * PIER Hamburg-MIT Seed Project (with Gregor Kasieczka, Phil Harris, Andreas Hinzmann, Roman Kogler, Iain Stewart), "Probing the Standard Model with Jet Substructure", *Partnership for Innovation, Education and Research, 2019-2020* (€17k)
+  * Quantum Information Science (QuantISED) Award (with Aram Harrow), "[Quantum Algorithms for Collider Physics](https://doi.org/10.2172/1688696)", *U.S. Department of Energy, Office of High Energy Physics, 2018-2020* ($264k)
+  * Simons Fellowship, "Theoretical Investigations In and Beyond the Standard Model", *Simons Foundation, 2018-2019* ($143k)
+  * Comparative Review Funding Award, "[Boosting the Search for New Physics at the Frontiers](https://doi.org/10.2172/1361051)", *U.S. Department of Energy, Office of High Energy Physics, 2016-2017* ($120k)
+  * The Charles E. Reed Faculty Initiatives Fund, "Boosting Jet Physics with Archival Collider Data", *MIT Research Support Committee, 2015-2017* ($75k) 
+  * MIT-Belgium Seed Fund Award (with Fabio Maltoni), "Beyond the Standard Model at the LHC", *MIT International Science and Technology Initiative, 2013-2014* ($23.1k)
+  * Sloan Research Fellowship, *Alfred P. Sloan Foundation, 2013-2016* ($50k)
+  * Global Seed Fund Award (with Iain Stewart, Andre Hoang, and Gavin Salam), "Probing a New Energy Frontier with Jets at the Large Hadron Collider", *MIT International Science and Technology Initiative, 2012-2013* ($15k)
+  * Early Career Research Award, "[Interpreting New Data from the Energy Frontier](https://doi.org/10.2172/1326460)", *U.S. Department of Energy, Office of Science, 2011-2016* ($750k)
+  * Cooperative Research Agreement, “Laboratory for Nuclear Science, High Energy Physics Program: Task C, Center for Theoretical Physics”, *U.S. Department of Energy, Office of Science*
 
 ## Service
 
@@ -1111,7 +1111,7 @@ aside:
 
 #### MIT Faculty
 
-  * [[https://registrar.mit.edu/faculty-curriculum-support/faculty-curriculum-committees/committee-curricula|MIT Faculty Committee on Curricula]] (Fall 2017-Spring 2020)
+  * [MIT Faculty Committee on Curricula](https://registrar.mit.edu/faculty-curriculum-support/faculty-curriculum-committees/committee-curricula) (Fall 2017-Spring 2020)
   * MIT First-Year Advisor (Fall 2019-Spring 2020)
     * Class of 2023:  Richter Brzeski, Megha Maran, Catalina Monsalve Rodriguez, Dylan Weber
 
@@ -1119,10 +1119,10 @@ aside:
 
   * MIT Physics Ad Hoc Committee on Graduate Student Professional Development (Spring 2022)
   * MIT Physics Graduate Admissions Committee (Spring 2021)
-  * MIT Physics [[https://piazza.com/mit/fall2020/communic8|Communic.8 Faculty Liaison]] (Fall 2020-present)
+  * MIT Physics [Communic.8 Faculty Liaison](https://piazza.com/mit/fall2020/communic8) (Fall 2020-present)
   * MIT Physics Qualifying Exam, Written Exam Grading Committee (January 2020)
   * MIT Physics Promotion Committee (Fall 2019, Fall 2020, Fall 2021, Fall 2022, Chair: Fall 2020, Fall 2021, Fall 2022)
-  * MIT Physics [[http://web.mit.edu/Physics/research/pappalardo/index.html|Pappalardo Fellowships Executive Committee]] (Fall 2016-Fall 2017)
+  * MIT Physics [Pappalardo Fellowships Executive Committee](http://web.mit.edu/Physics/research/pappalardo/index.html) (Fall 2016-Fall 2017)
   * MIT Physics Colloquium Committee (Spring 2010-Spring 2014, Chair: Fall 2012-Spring 2014)
   * MIT Physics Graduate Academic Advisor (Fall 2017-present)
     * Anticipated Ph.D. 2025:  Ryan Abbott
@@ -1155,7 +1155,7 @@ aside:
 
 #### MIT Statistics and Data Science Center
 
-  * [[https://web.mit.edu/physics/current/graduate/psds_phd.html|MIT Physics, Statistics, and Data Science (PhysSDS) Committee]] (Co-Chair: Fall 2020)
+  * [MIT Physics, Statistics, and Data Science (PhysSDS) Committee](https://web.mit.edu/physics/current/graduate/psds_phd.html) (Co-Chair: Fall 2020)
 
 #### MIT International Science and Technology Initiatives
 
@@ -1173,12 +1173,14 @@ aside:
 #### External Ph.D. Examiner
 
 {% for phd-thesis in site.data.cv_service.external-phd-theses %}
-  * **{{phd-thesis.name}}, {{phd-thesis.uni}}**, "{{phd-thesis.title | default: "TBA"}}" ({{phd-thesis.advisor}}), *{{phd-thesis.date | default: "in progress"}}*
+  * __{{phd-thesis.name}}__, "{{phd-thesis.title | default: "TBA"}}" ({{phd-thesis.advisor}}), *{{phd-thesis.uni}}, {{phd-thesis.date | default: "in progress"}}*
 {% endfor %}
 
 #### External Mentoring
 
-  * Ilias Cholis, PI Academy for Research and Engagement, //Oakland University, Fall 2018 - Fall 2019//
+{% for mentoring in site.data.cv_service.external-mentoring %}
+  * **{{mentoring.name}}**, {{mentoring.program}}, *{{mentoring.uni}}, {{mentoring.date}}*
+{% endfor %}
 
 #### Workshop/Conference Organization
 
