@@ -28,3 +28,11 @@ papers:
    arxiv:   2205.05084
    year:    2022
    topic:   ml
+
+ - title:   Disentangling Quarks and Gluons with CMS Open Data
+   authors: Patrick T. Komiske, Serhii Kryhin, and Jesse Thaler
+   doi:     10.1103/PhysRevD.106.094021
+   journal: Phys. Rev. D106:094021 (2022)
+   arxiv:   2205.04459
+   year:    2022
+   topic:   cms2011
