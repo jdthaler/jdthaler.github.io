@@ -35,11 +35,13 @@ aside:
    * [IMDb](http://www.imdb.com/name/nm6007880/)
 
 
+#### Research in Theoretical Particle Physics
 
-#### Research in Theoretical Particle Physics ####
 
-   * Collider physics, machine learning, and quantum chromodynamics (especially jets and jet substructure)
-   * Theoretical frameworks beyond the standard model (especially dark matter and supersymmetry)
+{% for theme in site.data.research.themes %}
+   * **[{{theme.title}}](research.html#{{theme.key}})**
+{% endfor %}
+
 
 ## Positions
 

@@ -1,3 +1,18 @@
+themes:
+
+  - key: aiml
+    title:  Data Science and Machine Learning
+    description:
+
+  - key: qcd
+    title:  Collider Physics and Quantum Chromodynamics
+    description:
+    
+  - key: bsm
+    title:  Physics Beyond the Standard Model
+    description:
+
+
 topics:
 
   - title:   Jets and Jet Substructure

@@ -5,6 +5,9 @@ aside:
   toc: true
 ---
 
+{% for theme in site.data.research.themes %}
+## {{theme.title}} {#{{theme.key}}}
+{% endfor %}
 
 {% for topic in site.data.research.topics %}
 ## {{topic.title}}
