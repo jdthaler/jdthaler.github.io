@@ -38,7 +38,7 @@ papers:
     year: 2022
     topic: precision
 
-  - title: Bias and Priors in Machine Learning Calibrations for High Energy Physics
+  - title: "Bias and Priors in Machine Learning Calibrations for High Energy Physics"
     authors: Rikab Gambhir, Benjamin Nachman, and Jesse Thaler
     doi: 10.1103/PhysRevD.106.036011
     journal: Phys. Rev. D106:036011 (2022)
@@ -46,7 +46,7 @@ papers:
     year: 2022
     topic: ml
 
-  - title: Disentangling Quarks and Gluons with CMS Open Data
+  - title: "Disentangling Quarks and Gluons with CMS Open Data"
     authors: Patrick T. Komiske, Serhii Kryhin, and Jesse Thaler
     doi: 10.1103/PhysRevD.106.094021
     journal: Phys. Rev. D106:094021 (2022)
@@ -70,6 +70,8 @@ papers:
     arxiv: "2205.02857"
     year: 2022
     topic: cms2011
+    priority: 6
+
 
   - title: "Quantum Annealing for Jet Clustering with Thrust"
     authors: Andrea Delgado and Jesse Thaler
@@ -159,6 +161,7 @@ papers:
     arxiv: "1911.09107"
     year: 2019
     topic: ml
+    priority: 3
 
   - title: "Cutting Multiparticle Correlators Down to Size"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -208,6 +211,8 @@ papers:
     year: 2019
     topic: ml
     etc: "[[https://physics.aps.org/articles/v12/85|Viewpoint]]"
+    priority: 6
+
 
   - title: "Sorting Out Quenched Jets"
     authors: Jasmine Brewer, José Guilherme Milhano, and Jesse Thaler
@@ -232,6 +237,8 @@ papers:
     arxiv: "1810.05165"
     year: 2018
     topic: ml
+    priority: 3
+
 
   - title: "Searching for Axion Dark Matter with Birefringent Cavities"
     authors: Hongwan Liu, Brodi D. Elwood, Matthew Evans, and Jesse Thaler
@@ -280,6 +287,7 @@ papers:
     arxiv: "1802.00008"
     year: 2018
     topic: ml
+    priority: 3
 
   - title: "Energy Flow Polynomials: A Complete Linear Basis for Jet Substructure"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -304,6 +312,8 @@ papers:
     arxiv: "1708.02949"
     year: 2017
     topic: ml
+    priority: 3
+
 
   - title: "Casimir Meets Poisson: Improved Quark/Gluon Discrimination with Counting Observables"
     authors: Christopher Frye, Andrew J. Larkoski, Jesse Thaler, and Kevin Zhou
@@ -337,6 +347,7 @@ papers:
     arxiv: "1704.05066"
     year: 2017
     topic: cms2010
+    priority: 6
 
   - title: "Systematics of Quark/Gluon Tagging"
     authors: Philippe Gras, Stefan Höche, Deepak Kar, Andrew Larkoski, Leif Lönnblad, Simon Plätzer, Andrzej Siódmok, Peter Skands, Gregory Soyez, and Jesse Thaler
@@ -369,6 +380,8 @@ papers:
     arxiv: "1609.07483"
     year: 2016
     topic: boost
+    priority: 3
+
 
   - title: "Resurrecting the Dead Cone"
     authors: Fabio Maltoni, Michele Selvaggi, and Jesse Thaler
@@ -385,6 +398,8 @@ papers:
     arxiv: "1603.08926"
     year: 2016
     topic: darkf
+    priority: 3
+
 
   - title: "Broadband and Resonant Approaches to Axion Dark Matter Detection"
     authors: Yonatan Kahn, Benjamin R. Safdi, and Jesse Thaler
@@ -393,6 +408,7 @@ papers:
     arxiv: "1602.01086"
     year: 2016
     topic: axion
+    priority: 6
 
   - title: "Cosmology with Orthogonal Nilpotent Superfields"
     authors: Sergio Ferrara, Renata Kallosh, and Jesse Thaler
@@ -458,6 +474,8 @@ papers:
     arxiv: "1502.01719"
     year: 2015
     topic: precision
+    priority: 3
+
 
   - title: "The First Calculation of Fractional Jets"
     authors: Daniele Bertolini, Jesse Thaler, and Jonathan R. Walsh
@@ -498,6 +516,8 @@ papers:
     arxiv: "1405.7370"
     year: 2014
     topic: wimp
+    priority: 3
+
 
   - title: "Soft Drop"
     authors: Andrew J. Larkoski, Simone Marzani, Gregory Soyez, and Jesse Thaler
@@ -506,6 +526,8 @@ papers:
     arxiv: "1402.2657"
     year: 2014
     topic: boost
+    priority: 3
+
 
   - title: "Jet Shapes with the Broadening Axis"
     authors: Andrew J. Larkoski, Duff Neill, and Jesse Thaler
@@ -634,6 +656,7 @@ papers:
     arxiv: "1203.1622"
     year: 2012
     topic: un_sym
+    priority: 3
 
   - title: "Locality in Theory Space"
     authors: Yonatan Kahn and Jesse Thaler
@@ -724,6 +747,7 @@ papers:
     arxiv: "1011.2268"
     year: 2010
     topic: boost
+    priority: 6
 
   - title: "The Bestest Little Higgs"
     authors: Martin Schmaltz, Daniel Stolarski, and Jesse Thaler
