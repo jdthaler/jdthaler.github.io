@@ -57,3 +57,58 @@ topics:
         title:  Axion Dark Matter Detection
         description:  "I work on new ways to probe ultralight axion dark matter (not to be confused with the axion portal below), which requires very different detection techniques than heavy-particle dark matter."
 
+      - key:  darkf
+        title:  Dark Forces
+
+      - key:  axionp
+        title:  The Axion Portal
+
+      - key:  wimp
+        title:  Beyond the WIMP Paradigm
+
+  - title:  Supersymmetry and Supersymmetry Breaking
+    subtopics:
+
+      - key:  adv_sp
+        title:  Adventures in Superspace
+
+      - key:  sup_cosm
+        title:  Supergravity and Cosmology
+
+      - key:  gold
+        title:  Goldstini
+
+      - key:  un_sym
+        title:  (Un)natural Supersymmetry
+
+  - title:   Little Higgs/Composite Higgs Theories
+    subtopics:
+
+      - key:  l_hig
+        title:  Models for a Little Higgs
+
+      - key:  spo_sym
+        title:  Structure of Spontaneous Symmetry Breaking
+
+      - key:  nb_sym
+        title:  Naturalness Beyond Supersymmetry
+
+  - title:   The LHC Inverse Problem
+    subtopics:
+
+      - key:  sb_stand
+        title:  Characterizing Signals Beyond the Standard Model
+
+      - key:  sm_back
+        title:  Standard Model Background Estimation
+
+  - title:   Adventures in Gravity
+    subtopics:
+
+      - key:  slv
+        title:  Spontaneous Lorentz Violation
+
+      - key:  black_holes
+        title:  Black Hole Dynamics
+
+
