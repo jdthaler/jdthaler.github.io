@@ -1,31 +1,598 @@
 postdocs:
 
- - name:     Lena Funcke
-   title:    CTP Postdoctoral Researcher
-   dates:    Fall 2021 - Fall 2022
-   before_phd:      Munich
-   before_postdoc:  Perimeter Institute
+ - name: Lena Funcke
+   at:
+     - dates: Fall 2021 - Fall 2022
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: Munich
+     - title: Postdoc
+       org: Perimeter Institute
+
+ - name: Katelin Schutz
+   url:  https://katelinschutz.com/
+   at:
+     - dates: Fall 2019 - Spring 2021
+       title: Pappalardo Fellow
+   before:
+     - title: PhD
+       org: U.C. Berkeley
+   after:
+     - title: Assistant Professor
+       org: McGill
    
- - name:     Katelin Schutz
-   title:    Pappalardo Fellow
-   dates:    Fall 2019 - Spring 2021
-   before_phd:      U.C. Berkeley
-   after_title:    Assistant Professor
-   after_org:      McGill
+ - name: Pouya Asadi
+   at:
+     - dates: Fall 2019 - Spring 2022
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: Rutgers
+       
+ - name: Bernhard Mistlberger
+   at:
+     - dates: Fall 2018 - Spring 2020
+       title: Pappalardo Fellow
+   before:
+     - title: PhD
+       org: ETH Zurich
+     - title: Postdoc
+       org: CERN
+   after:
+     - title: Associate Staff Scientist
+       org: SLAC
+  
+ - name: Frédéric Dreyer
+   at:
+     - dates: Fall 2016 - Spring 2018
+       title: Early Postdoc.Mobility Fellow
+   before:
+     - title: PhD
+       org: Universite Pierre et Marie Curie
+   after:
+     - title: Postdoctoral Researcher
+       org: Oxford
+
+ - name: Yotam Soreq
+   at:
+     - dates: Fall 2015 - Spring 2018
+       title: Rothschild Fellow
+   before:
+     - title: PhD
+       org: Weizmann Institute of Science
+   after:
+     - title: Postdoctoral Researcher
+       org: CERN
+     - title: Assistant Professor
+       org: Technion
+
+ - name: Benjamin Safdi
+   at:
+     - dates: Fall 2014 - Spring 2017
+       title: Pappalardo Fellow
+   before:
+     - title: PhD
+       org: Princeton
+   after:
+     - title: Assistant Professor
+       org: University of Michigan
+
+ - name: Wei Xue
+   at:
+     - dates: Fall 2014 - Spring 2017
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: McGill
+     - title: Postdoc
+       org: INFN/SISSA
+   after:
+     - title: Postdoctoral Fellow
+       org: CERN
+     - title: Assistant Professor
+       org: University of Florida
+
+ - name: Simone Marzani
+   at:
+     - dates: Fall 2014 - Spring 2015
+       title: LHC Theory Initiative Postdoctoral Fellow
+   before:
+     - title: PhD
+       org: Edinburgh
+     - title: Postdoc
+       org: Manchester
+     - title: Postdoc
+       org: Durham
+   after:
+     - title: Assistant Professor
+       org: University at Buffalo
+     - title: Tenure-track Researcher
+       org: University of Genova
+
+ - name: Gilly Elor
+   at:
+     - dates: Fall 2013 - Spring 2016
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: U.C. Berkeley
+   after:
+     - title: Postdoctoral Researcher
+       org: University of Oregon
+     - title: Postdoctoral Researcher
+       org: University of Washington, Seattle
+
+ - name: Duff Neill
+   at:
+     - dates: Fall 2012 - Spring 2015
+       title: Pappalardo Fellow
+     - dates: Spring 2015 - Spring 2016
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: Carnegie Mellon
+   after:
+     - title: Director's Fellow
+       org: Los Alamos National Laboratory
+     - title: Feynman Fellow
+       org: Los Alamos National Laboratory
+
+ - name: Andrew Larkoski
+   at:
+     - dates: Fall 2012 - Spring 2015
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: Stanford
+   after:
+     - title: LHC Theoretical Initiative Postdoctoral Fellow
+       org: Harvard
+     - title: Visiting Assistant Professor
+       org: Reed College
+   awards:
+     - name:  Wu-Ki Tung Award for Early Career Research on QCD
+       org: CTEQ Collaboration
+       date: 2017
+
+ - name: Matthew McCullough
+   at:
+     - dates: Fall 2011 - Spring 2014
+       title: Simons Postdoctoral Fellow
+   before:
+     - title: PhD
+       org: Oxford
+   after:
+     - title: COFUND Fellowship
+       org: CERN
+     - title: Staff Scientist
+       org: CERN
+
+
+ - name: Keith Rehermann
+   at:
+     - dates: Fall 2010 - Spring 2012
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: Johns Hopkins
+   after:
+     - title: Consultant
+       org: Ab Initio Software Corporation
+
 
 phd_students:
 
-  - name:    Rikab Gambhir
-    date:    2025
-    url:     http://rikabgambhir.com/
+  - name: Rikab Gambhir
+    date: 2025
+    url: http://rikabgambhir.com/
     
-  - name:    Samuel Alipour-Fard
-    date:    2024
+  - name: Samuel Alipour-Fard
+    date: 2024
 
-  - name:        Patrick Komiske
-    date:        2021
-    thesis:      "Machine Learning for High-Energy Collider Physics"
-    after_title: "Researcher"
-    after_org:   PDT Partners
-    url:         https://pkomiske.com/
+  - name: Patrick Komiske
+    date: 2021
+    thesis: "Machine Learning for High-Energy Collider Physics"
+    after:
+      - title: "Researcher"
+        org: PDT Partners
+    url: https://pkomiske.com/
 
+  - name: Eric Metodiev
+    date: 2020
+    thesis: "Energy Flow in Particle Collisions"
+    after:
+      - title: Research Scientist
+        org: Renaissance Technologies
+    url: https://www.ericmetodiev.com
+
+
+  - name: Benjamin Elder
+    date: 2018
+    thesis: "Jet Fragmentation at the LHC"
+    after:
+       - title: Cognitive Software Developer
+         org: IBM
+
+  - name: Lina Necib
+    date: 2017
+    thesis: "Boosting (In)direct Detection of Dark Matter"
+    after:
+      - title: Fairchild Postdoctoral Scholar
+        org: Caltech
+      - title: Assistant Professor
+        org: MIT
+    awards:
+      - name: Vazquez Award for Outstanding Research
+        org:  MIT Physics Department
+        date: 2016
+    url: https://lnecib.com/
+
+  - name: Yonatan Kahn
+    date: 2015
+    thesis: "Forces and Gauge Groups Beyond the Standard Model"
+    after:
+      - title: Postdoctoral Researcher
+        org: Princeton
+      - title: Assistant Professor
+        org: U. Illinois, Urbana-Champaign
+    awards:
+      - name: Andrew M. Lockett III Memorial Fund Award
+        org: MIT Physics Department
+        date: 2014
+      - name: J.J. and Noriko Sakurai Dissertation Award
+        org: American Physical Society
+        date: 2016
+    url:  http://yonatan-kahn.squarespace.com
+
+
+  - name: Daniele Bertolini
+    date: 2014
+    thesis: "Electroweak Symmetry Breaking in the Era of the Higgs Boson Discovery"
+    after:
+      - title: Postdoctoral Researcher
+        org: U.C. Berkeley
+      - title: Data Scientist
+        org: Quid
+    awards:
+      - name: LHC-TI Graduate Fellowship
+        org: LHC Theory Initiative
+        date: 2013
+       
+  - name: Zoe Thomas
+    date: 2014
+    thesis: "Supersymmetry at the Dawn of the LHC Era"
+    after:
+      - title: Postdoctoral Researcher
+        org: U. Minnesota
+      - title: Applied Research Mathematician
+        org: Department of Defense
+
+  - name: Francesco D'Eramo
+    date: 2012
+    thesis: "Hot and Dark Matter"
+    joint: Krishna Rajagopal and Hong Liu
+    after:
+      - title: Miller Research Fellow
+        org: U.C. Berkeley
+      - title: Associate Professor
+        org: U. Padova
+    awards:
+      - name: Vazquez Award for Outstanding Research
+        org: MIT Physics Department
+        date: 2011
+
+#meng_students:
+#
+# - name:  Raymond Wynne
+#    date:   2022
+#    thesis:
+#    after_title:
+#    after_org:
+#    Url:
+#
+#
+# - name:   Nilai Sarda
+#    date:   2020
+#    thesis: "Group Anomaly Detection in Collider Data" (with Justin Solomon)
+#    after_title:
+#    After_org:
+#Other: Johnson Artificial Intelligence and Decision Making Thesis Award, MIT EECS Department, 2020
+#    Url:
+#
+# - name:  Preksha Naik
+#    date:  2019
+#    thesis:  "Exploring the Space of Jets with CMS Open Data"
+#    after_title: Physics Ph.D. Candidate
+#    after_org:   Caltech
+#    Url:
+
+#bs_students:
+#
+# - name: Octavio Vega
+#    date:  2022
+#    thesis:
+#    after_title:
+#    after_org:
+#Other: UROP Research: Spring 2021, Summer 2021, Fall 2021
+#    Url:
+#** Anticipated
+#
+# - name:  Nishat Protyasha
+#    date:  2022
+#    thesis:
+#    after_title:
+#    After_org:
+#other: UROP Research: Summer 2020, Fall 2020, Spring 2021, Summer 2021
+#    Other: FUTURE of Physics Participant, //Caltech, 2020//
+#    Url:
+#** Anticipated
+#
+# - name:  Serhii Kryhin
+#    date:   2022
+#    thesis: "Application of Unsupervised Machine Learning for Event Classification"
+#    after_title:
+#    after_org:
+#
+#  other: Morse/Orloff Research Award, //MIT Physics Department, 2017//
+#   Other: Independent Research: Fall 2019, Fall 2020
+#   Other:  UROP Research: Spring 2020, Summer 2020, Spring 2021, Summer 2021
+# Url:
+#
+# - name: Christopher Miller
+#    date:    2021
+#    thesis:
+#    after_title:
+#    after_org:
+#other:  UROP Research: Fall 2020
+#    Url:
+#
+#   - name:  Debaditya Pramanik
+#    date:   2021
+#    thesis:   "Collinear Supergravity at Linear Order"
+#    after_title:
+#    After_org:
+#Other: Senior Thesis Research:  Fall 2020
+#    Other: UROP Research:  Spring 2020, Summer 2020
+#    Url:
+#
+#
+# - name:  Ziqi Zhou
+#    date:   2020
+#    thesis:
+#    after_title:
+#    after_org:
+#Other:  Independent Research: Summer 2018
+#    Other: UROP Research:  Fall 2018
+#    Url:
+#
+#
+# - name:  Talya Klinger
+#    date:  2020
+#    thesis:
+#    after_title:
+#    After_org:
+#Other:  UROP Research: Spring 2017
+#    Url:
+#
+#
+#- name:   Radha Mastandrea
+#    date:  2019
+#    thesis: “Analyzing CMS Open Collider Data through Topic Modeling”
+#    after_title:
+#    after_org:
+#Other: UROP Research: Spring 2017, Fall 2017, Spring 2018, Summer 2018
+#other: UROP Research: Spring 2017, Fall 2017, Spring 2018, Summer 2018
+#Other: Joel Matthew Orloff Award for Outstanding Service, MIT Physics Department, 2019
+#Other: Physics Research Fellowship, Heising-Simons Foundation, 2018
+#Other: FUTURE of Physics Participant, Caltech, 2018
+#Url: https://dspace.mit.edu/handle/1721.1/123389
+#
+#
+# - name: Eleanor Hall
+#    date: 2018
+#    thesis: “Photon Isolation and Jet Substructure”
+#    After_title: Physics Ph.D. Candidate
+#    after_org:  U.C. Berkeley
+#Other: UROP Research: Spring 2017, Summer 2017, Fall 2017
+#Othery: Joel Matthew Orloff Award for Outstanding Service, MIT Physics Department, 2017
+#Url: https://www.nellhall.com/
+#
+# - name:   Matthew Burns, B.S. 2018
+#    date:    2018
+#    thesis:
+#    after_title:
+#    after_org:
+#Other: UROP Research: Fall 2014, Spring 2015
+#    Url:
+#
+# - name: Kevin Zhou
+#    date:  2017
+#    thesis:
+#    after_title: Marshall Scholarship
+#    after_org: U. Cambridge
+#Other: UROP Research: IAP 2016, Spring 2016, Summer 2016, Fall 2016, Spring 2017
+#Other: Joel Matthew Orloff Award for Outstanding Research, MIT Physics Department, 2017
+#Other: Currently, Physics Ph.D Candidate, //Stanford//
+#    Url: https://knzhou.github.io
+#
+# - name:   Aashish Tripathee
+#    date:  2017
+#    thesis:   “Jet Substructure at the Large Hadron Collider”
+#    After_title: Physics Ph.D. Candidate
+#    After_org:  U. Michigan
+#  other:Senior Thesis, Spring 2017
+#Other: https://dspace.mit.edu/handle/1721.1/111882
+#Other: Independent Research: IAP 2015
+#   Other: UROP Research:  Spring 2015, Summer 2015, Fall 2015, IAP 2016,
+#Other: Philip Morse Memorial Award, //MIT Physics Department, 2017Spring 2016, Summer 2016, Fall 2016
+#    Url:
+#
+# - name:  Trung Phan
+#    date:   2015
+#    thesis: “Relativistic Quantum Fields in Theoretical Physics”
+#    after_title:
+#    after_org:
+#Other: Senior Thesis, Fall 2014-Spring 2015
+#Other: https://dspace.mit.edu/handle/1721.1/100333
+#Other: UROP Research: Spring 2014, Summer 2014
+#other: After MIT:  Physics Ph.D. Candidate, //Princeton//
+#    Url:
+#
+#   - name: T.J. Wilkason
+#    date:  2015
+#    thesis:  “Exclusive Cone Jet Algorithms for High Energy Particle Colliders”
+#    After_title: Physics Ph.D. Candidate
+#    after_org:  Stanford
+#Other: Senior Thesis, Fall 2014-Spring 2015
+#Other: https://dspace.mit.edu/handle/1721.1/100326
+#Other: Joel Matthew Orloff Award for Outstanding Service, MIT Physics Department, 2015
+# Other: Independent Research: IAP 2015
+# Other: UROP Research: Fall 2013, Spring 2014, Summer 2014
+#    Url:
+#
+# - name:  Mobolaji Williams
+#    date:  2013
+#    thesis:  “Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking”
+#    After_title: Physics Ph.D. Candidate
+#    after_org: Harvard
+#other:  Senior Thesis, Fall 2012-Spring 2013
+#Other: https://dspace.mit.edu/handle/1721.1/83778
+#Other: Independent Research:  Spring 2012
+#Other: UROP Research: Fall 2010, Spring 2011, Summer 2012
+#    Url:
+#
+# - name:  Dustin Katzin
+#    date:  2012
+#    thesis:   “The DarkLight Experiment: Searching for the Dark Photon”
+#    after_title:
+#    after_org:  Part III at University of Cambridge
+#Other: https://dspace.mit.edu/handle/1721.1/78551
+#other: UROP Research: Fall 2011, IAP 2012
+#otherL Currently:  Analyst, American International Group
+#    Url:
+#
+# - name: Tucker Chan
+#    date:  2012
+#    thesis:
+#    after_title: Physics Ph.D. Candidate
+#    After_org: Stanford
+#Other: UROP Research: Summer 2011, Fall 2011, Spring 2012
+#    Url:
+#
+# - name:  Lin Fei
+#    date: 2011
+#    thesis: “Dark Matter Dynamics in the Early Universe”
+#    after_title: Physics Ph.D. Candidate
+#    after_org:  Princeton
+#Other: https://dspace.mit.edu/handle/1721.1/72934|Dark Matter Dynamics in the Early Universe
+#    Url:
+#
+# - name:  Ken Van Tilburg
+#    date:    2011
+#    thesis:   “Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering”
+#    after_title: Physics Ph.D
+#    after_org:  Stanford
+#Other: Apker Award Finalist, //American Physical Society, 2011
+#Other: Joel Matthew Orloff Award for Outstanding Research in Physics, MIT Physics Department, 2011
+#Other: UROP Research: Summer 2010, Fall 2010
+#Other: Currently:  Postdoctoral Researcher, Institute for Advanced Study and New York University
+#Url:
+#
+
+#visitors:
+#
+# - name: Pedro Rivera-Cardona
+#    date: Summer 2021
+#    thesis:  "Implementation of U(1) Group Symmetry on Energy Flow Networks"
+#    after_title: PhD Candidate
+#    after_org: University of Illinois, Urbana-Champaign
+#Other: MIT Summer Research Program
+#other:  Home Institution:  University of Puerto Rico, Mayaguez
+#    Url:
+#
+#
+# - name:  Athis Osathapan
+#    date: Spring 2021, Summer 2021
+#    thesis:
+#    after_title:
+#    After_org:
+#Other: Independent Research
+#Other: Home Institution:  Bowdoin College
+#    Url:
+#
+#
+# - name:  Shira Jackson
+#    date:   Summer 2020
+#    thesis:    "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
+#    after_title:
+#    after_org:
+#Other: MIT Summer Research Program
+#Other: Home Institution:  University of Cincinnati
+#    Url:
+#
+# - name: Andrew Turner
+#    date: 2018-201
+#Title: Tushar Shah and Sara Zion Physics Fellowship, MIT Physics Department
+#    thesis:
+#    after_title:
+#    after_org:
+#Other: Ph.D. Advisor:  Washington Taylor, MI
+#    Url:
+#
+# - name: Maximilian Henderson
+#    date:  Summer 2018
+#    thesis:
+#    after_title:
+#    After_org:
+#Other: International Research Opportunities Programme
+#Other: Home Institution:  Imperial College London
+#    Url:
+#
+#
+# - name: Edward Hirst
+#    date:   Summer 2018
+#    thesis:
+#    after_title:
+#    after_org:
+#Other: International Research Opportunities Programme
+#Other: Home Institution:  Imperial College London
+#    Url:
+#
+# - name:   Rahim Leung
+#    date:  Summer 2017
+#    thesis:
+#    after_title:
+#    after_org:
+#Other: International Research Opportunities Programme
+#Other: ome Institution:  Imperial College London
+#    Url:
+#
+# - name: Markus Schulze
+#    date:     Fall 2015
+#Title: Visiting Postdoc
+#    thesis:
+#    after_title:
+#    After_org:
+#Other:  Home Institution:  CERN
+#    Url:
+#
+# - name: Alexis Romero
+#    date:  Summer 2015
+#    thesis:  "Jet Physics Measurements on CMS Open Data"
+#    after_title:
+#    After_org:
+#Other: MIT Summer Research Program
+#Other: Home Institution:  San Diego State University
+#
+#    url:
+#
+#
+# - name: Nayara Fonseca
+#    date:  Spring 2014-Fall 2014
+#    thesis:
+#    after_title:
+#    After_org:
+#Other: FAPESP Fellowship
+#other: Ph.D. Advisor:  Gustavo Burdman, University of Sao Paulo, Brazil
+#    Url:

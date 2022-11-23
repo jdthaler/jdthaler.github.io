@@ -37,9 +37,7 @@ aside:
 
 #### Research in Theoretical Particle Physics
 
-
-{% for theme in site.data.research.themes %}
-   * **[{{theme.title}}](research.html#{{theme.key}})**
+{% for theme in site.data.research.themes %}  * **[{{theme.title}}](research.html#{{theme.key}})**
 {% endfor %}
 
 
@@ -97,111 +95,43 @@ aside:
 
 ## Awards & Fellowships
 
-{% for award in site.data.cv_awards.awards %}
-  {% if award.url %}
+{% for award in site.data.cv_awards.awards -%}
+  {%- if award.url %}
   * **[{{award.name}}]({{award.url}})**, *{{award.org}}*, *{{award.date}}*
-  {% else %}
-  * **{{award.name}}**, *{{award.org}}*, *{{award.date}}* 
-  {% endif %}
-{% endfor %}
-
-
-
+  {%- else %}
+  * **{{award.name}}**, *{{award.org}}*, *{{award.date}}*
+  {%- endif %}
+{%- endfor %}
 
 ## Mentoring
 
 ### Postdoctoral Researchers
- 
-{% for postdoc in site.data.cv_mentoring.postdocs %}
-  * **{{postdoc.name}}**, {{postdoc.title}}, *{{postdoc.dates}}*
-  {% if postdoc.phd and postdoc.postdoc %}  * Before MIT:  {{postdoc.phd}} (PhD), {{postdoc.postdoc}} (Postdoc)
-  {% elsif postdoc.before_phd %}  * Before MIT:  {{postdoc.before_phd}} (PhD) {% endif %}
-  {% if postdoc.after_title %}  * After MIT:  {{postdoc.after_title}}, *{{postdoc.after_org}}* {% endif %}
+
+{% for person in site.data.cv_mentoring.postdocs -%}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %} ; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
+  {%- if person.before[0] %}
+    * Before MIT: {{person.before[0].org}} ({{person.before[0].title}}){% endif %}{% if person.before[1] %}, {{person.before[1].org}} ({{person.before[1].title}}){% endif %}{% if person.before[2] %}, {{person.before[2].org}} ({{person.before[2].title}}) {% endif %}
+  {%- if person.after.size > 1 %}
+    * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+    * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
 {% endfor %}
- 
-  * Pouya Asadi, CTP Postdoctoral Researcher, Fall 2019-Spring 2022
-    * Before MIT: Rutgers (PhD)
-  * Bernhard Mistlberger, Pappalardo Fellow, Fall 2018-Spring 2020
-    * Before MIT: ETH Zurich (PhD), CERN (Postdoc)
-    * After MIT: Associate Staff Scientist, //SLAC//  
-  * Frédéric Dreyer, Early Postdoc.Mobility Fellow, Fall 2016-Spring 2018
-    * Before MIT: Universite Pierre et Marie Curie (PhD)
-    * After MIT: Postdoctoral Researcher, //Oxford//
-  * Yotam Soreq, Rothschild Fellow, Fall 2015-Spring 2018 
-    * Before MIT:  Weizmann Institute of Science (PhD)
-    * After MIT: Postdoctoral Researcher, //CERN//
-    * Currently:  Assistant Professor, //Technion//
-  * Benjamin Safdi, Pappalardo Fellow, Fall 2014-Spring 2017
-    * Before MIT:  Princeton (PhD)
-    * After MIT:  Assistant Professor, //University of Michigan//
-  * Wei Xue, CTP Postdoctoral Researcher, Fall 2014-Spring 2017
-    * Before MIT:  McGill (PhD), INFN/SISSA (Postdoc)
-    * After MIT:  Postdoctoral Fellow, //CERN//
-    * Currently:  Assistant Professor, //University of Florida//
-  * Simone Marzani, LHC Theory Initiative Postdoctoral Fellow (with Iain Stewart), Fall 2014-Spring 2015
-    * Before MIT:  Edinburgh (PhD), Manchester (Postdoc), Durham (Postdoc)
-    * After MIT:  Assistant Professor, //University at Buffalo//
-    * Currently:  Tenure-track Researcher, //University of Genova//
-  * Gilly Elor, CTP Postdoctoral Researcher, Fall 2013-Spring 2016
-    * Before MIT:  U.C. Berkeley (PhD)
-    * After MIT:  Postdoctoral Researcher, //University of Oregon//
-    * Currently:  Postdoctoral Researcher, //University of Washington, Seattle //
-  * Duff Neill, Pappalardo Fellow, Fall 2012-Spring 2015; CTP Postdoctoral Researcher, Spring 2015-Spring 2016
-    * Before MIT:  Carnegie Mellon (PhD)
-    * After MIT:  Director's Fellow, //Los Alamos National Laboratory// 
-    * Currently:  Feynman Fellow, //Los Alamos National Laboratory// 
-  * Andrew Larkoski, CTP Postdoctoral Researcher, Fall 2012-Spring 2015
-    * Before MIT:  Stanford (PhD)
-    * After MIT:  LHC Theoretical Initiative Postdoctoral Fellow, //Harvard//
-    * Currently:  Visiting Assistant Professor, //Reed College//
-    * Wu-Ki Tung Award for Early Career Research on QCD, //CTEQ Collaboration, 2017//
-  * Matthew McCullough, Simons Postdoctoral Fellow, Fall 2011-Spring 2014
-    * Before MIT:  Oxford (PhD)
-    * After MIT:  COFUND Fellowship, //CERN//
-    * Currently:  Staff Scientist, //CERN//
-  * Keith Rehermann, CTP Postdoctoral Researcher, Fall 2010-Spring 2012
-    * Before MIT:  Johns Hopkins (PhD)
-    * Currently:  Consultant, //Ab Initio Software Corporation//
 
 ### Ph.D. Students
 
-{% for phd_student in site.data.cv_mentoring.phd_students %}
-  * {% if phd_student.url %} **[{{phd_student.name}}]({{phd_student.url}})**, {% else %} **{{phd_student.name}}**, {% endif %}
-    {% if phd_student.thesis %} Ph.D. {% else %} anticipated Ph.D. {% endif %} {{phd_student.date}}
-    {% if phd_student.thesis %}    * Thesis: "{{phd_student.thesis}}"   {% endif %}
-    {% if phd_student.after_title %}  * After MIT:  {{phd_student.after_title}}, *{{phd_student.after_org}}* {% endif %}
+{% for person in site.data.cv_mentoring.phd_students -%}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}Ph.D.{% else %}anticipated Ph.D.{% endif %} {{person.date}}
+  {%- if person.thesis %}
+      * Thesis: "{{person.thesis}}"  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+  {%- if person.after[0] %}
+      * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
+  {%- if person.after.size > 1 %}
+      * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
 {% endfor %}
-
-  * [[https://www.ericmetodiev.com/|Eric Metodiev]], Ph.D. 2020
-    * Thesis:  "Energy Flow in Particle Collisions"
-    * After MIT:  Research Scientist, //Renaissance Technologies//
-  * Benjamin Elder, Ph.D. 2018
-    * Thesis:  "Jet Fragmentation at the LHC"
-    * After MIT:  Cognitive Software Developer, //IBM//
-  * [[https://lnecib.com/|Lina Necib]], Ph.D. 2017
-    * Thesis:  "Boosting (In)direct Detection of Dark Matter"
-    * Vazquez Award for Outstanding Research, //MIT Physics Department, 2016//
-    * After MIT:  Fairchild Postdoctoral Scholar, //Caltech//
-  * [[http://yonatan-kahn.squarespace.com/|Yonatan Kahn]], Ph.D. 2015
-    * Thesis:  "Forces and Gauge Groups Beyond the Standard Model"
-    * Andrew M. Lockett III Memorial Fund Award, //MIT Physics Department, 2014//
-    * J.J. and Noriko Sakurai Dissertation Award, // American Physical Society, 2016//
-    * After MIT:  Postdoctoral Researcher, //Princeton//
-    * Currently:  Assistant Professor, //U. Illinois, Urbana-Champaign//
-  * Daniele Bertolini, Ph.D. 2014
-    * Thesis:  "Electroweak Symmetry Breaking in the Era of the Higgs Boson Discovery"
-    * LHC-TI Graduate Fellowship, //LHC Theory Initiative, 2013//
-    * After MIT:  Postdoctoral Researcher, //U.C. Berkeley//
-    * Currently:  Data Scientist, //Quid//
-  * Zoe Thomas, Ph.D. 2014
-    * Thesis:  "Supersymmetry at the Dawn of the LHC Era"
-    * After MIT:  Postdoctoral Researcher, //U. Minnesota//
-    * Currently:  Applied Research Mathematician, //Department of Defense//
-  * Francesco D'Eramo, Ph.D. 2012
-    * Thesis:  "Hot and Dark Matter" (jointly advised with K. Rajagopal and H. Liu)
-    * Vazquez Award for Outstanding Research, //MIT Physics Department, 2011//
-    * After MIT:  Miller Research Fellow, //U.C. Berkeley//
-    * Currently:  Associate Professor, //U. Padova//
 
 ### M.Eng. Students
 
