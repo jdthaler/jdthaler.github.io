@@ -45,7 +45,7 @@ aside:
 
 ![MOD](design/jthaler_MOD_Logo.png){:.image--sm}     [MOD Logo](design/jthaler_MOD_Logo.pdf)
 
-![MOD Event](design/jthaler_MOD_EVentDisplay.png){:.image--sm} [MOD Event Display](design/jthaler_MOD_EventDisplay.pdf)
+![MOD Event](design/jthaler_MOD_EventDisplay.png){:.image--sm} [MOD Event Display](design/jthaler_MOD_EventDisplay.pdf)
 
 MIT Open Data, *MIT, July 2015*
 
