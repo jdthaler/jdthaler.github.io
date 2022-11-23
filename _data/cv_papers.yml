@@ -36,7 +36,7 @@ papers:
     journal: JHEP 2209:021 (2022)
     arxiv: "2205.06818"
     year: 2022
-    topic: precision
+    topic: boost
 
   - title: "Bias and Priors in Machine Learning Calibrations for High Energy Physics"
     authors: Rikab Gambhir, Benjamin Nachman, and Jesse Thaler
@@ -228,7 +228,7 @@ papers:
     journal: JHEP 2002:146 (2020)
     arxiv: "1810.11032"
     year: 2018
-    topic: adv_spa
+    topic: adv_sp
 
   - title: "Energy Flow Networks: Deep Sets for Particle Jets"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -615,7 +615,7 @@ papers:
     journal: TASI 2012
     arxiv: "1302.6229"
     year: 2013
-    topic: adv_space
+    topic: adv_sp
 
   - title: "Multiple Gamma Lines from Semi-Annihilation"
     authors: Francesco D'Eramo, Matthew McCullough, and Jesse Thaler
