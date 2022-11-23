@@ -11,7 +11,7 @@ postdocs:
        org: Perimeter Institute
 
  - name: Katelin Schutz
-   url:  https://katelinschutz.com/
+   url: https://katelinschutz.com/
    at:
      - dates: Fall 2019 - Spring 2021
        title: Pappalardo Fellow
@@ -151,7 +151,7 @@ postdocs:
      - title: Visiting Assistant Professor
        org: Reed College
    awards:
-     - name:  Wu-Ki Tung Award for Early Career Research on QCD
+     - name: Wu-Ki Tung Award for Early Career Research on QCD
        org: CTEQ Collaboration
        date: 2017
 
@@ -224,7 +224,7 @@ phd_students:
         org: MIT
     awards:
       - name: Vazquez Award for Outstanding Research
-        org:  MIT Physics Department
+        org: MIT Physics Department
         date: 2016
     url: https://lnecib.com/
 
@@ -243,7 +243,7 @@ phd_students:
       - name: J.J. and Noriko Sakurai Dissertation Award
         org: American Physical Society
         date: 2016
-    url:  http://yonatan-kahn.squarespace.com
+    url: http://yonatan-kahn.squarespace.com
 
 
   - name: Daniele Bertolini
@@ -282,124 +282,113 @@ phd_students:
         org: MIT Physics Department
         date: 2011
 
-#meng_students:
-#
-# - name:  Raymond Wynne
-#    date:   2022
-#    thesis:
-#    after_title:
-#    after_org:
-#    Url:
-#
-#
-# - name:   Nilai Sarda
-#    date:   2020
-#    thesis: "Group Anomaly Detection in Collider Data" (with Justin Solomon)
-#    after_title:
-#    After_org:
-#Other: Johnson Artificial Intelligence and Decision Making Thesis Award, MIT EECS Department, 2020
-#    Url:
-#
-# - name:  Preksha Naik
-#    date:  2019
-#    thesis:  "Exploring the Space of Jets with CMS Open Data"
-#    after_title: Physics Ph.D. Candidate
-#    after_org:   Caltech
-#    Url:
+meng_students:
 
-#bs_students:
-#
-# - name: Octavio Vega
-#    date:  2022
-#    thesis:
-#    after_title:
-#    after_org:
-#Other: UROP Research: Spring 2021, Summer 2021, Fall 2021
-#    Url:
-#** Anticipated
-#
-# - name:  Nishat Protyasha
-#    date:  2022
-#    thesis:
-#    after_title:
-#    After_org:
-#other: UROP Research: Summer 2020, Fall 2020, Spring 2021, Summer 2021
-#    Other: FUTURE of Physics Participant, //Caltech, 2020//
-#    Url:
-#** Anticipated
-#
-# - name:  Serhii Kryhin
-#    date:   2022
-#    thesis: "Application of Unsupervised Machine Learning for Event Classification"
-#    after_title:
-#    after_org:
-#
-#  other: Morse/Orloff Research Award, //MIT Physics Department, 2017//
-#   Other: Independent Research: Fall 2019, Fall 2020
-#   Other:  UROP Research: Spring 2020, Summer 2020, Spring 2021, Summer 2021
-# Url:
-#
-# - name: Christopher Miller
-#    date:    2021
-#    thesis:
-#    after_title:
-#    after_org:
-#other:  UROP Research: Fall 2020
-#    Url:
-#
-#   - name:  Debaditya Pramanik
-#    date:   2021
-#    thesis:   "Collinear Supergravity at Linear Order"
-#    after_title:
-#    After_org:
-#Other: Senior Thesis Research:  Fall 2020
-#    Other: UROP Research:  Spring 2020, Summer 2020
-#    Url:
-#
-#
-# - name:  Ziqi Zhou
-#    date:   2020
-#    thesis:
-#    after_title:
-#    after_org:
-#Other:  Independent Research: Summer 2018
-#    Other: UROP Research:  Fall 2018
-#    Url:
-#
-#
-# - name:  Talya Klinger
-#    date:  2020
-#    thesis:
-#    after_title:
-#    After_org:
-#Other:  UROP Research: Spring 2017
-#    Url:
-#
-#
-#- name:   Radha Mastandrea
-#    date:  2019
-#    thesis: “Analyzing CMS Open Collider Data through Topic Modeling”
-#    after_title:
-#    after_org:
-#Other: UROP Research: Spring 2017, Fall 2017, Spring 2018, Summer 2018
-#other: UROP Research: Spring 2017, Fall 2017, Spring 2018, Summer 2018
-#Other: Joel Matthew Orloff Award for Outstanding Service, MIT Physics Department, 2019
-#Other: Physics Research Fellowship, Heising-Simons Foundation, 2018
-#Other: FUTURE of Physics Participant, Caltech, 2018
-#Url: https://dspace.mit.edu/handle/1721.1/123389
+  - name: Raymond Wynne
+    date: 2022
+
+  - name: Nilai Sarda
+    date: 2020
+    thesis: "Group Anomaly Detection in Collider Data"
+    joint: Justin Solomon
+    awards:
+      - name: Johnson Artificial Intelligence and Decision Making Thesis Award
+        org: MIT EECS Department
+        date: 2020
+
+  - name: Preksha Naik
+    date: 2019
+    thesis: "Exploring the Space of Jets with CMS Open Data"
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Caltech
+
+bs_students:
+
+  - name: Octavio Vega
+    date: 2022
+    urop: Spring 2021, Summer 2021, Fall 2021
+
+
+  - name: Nishat Protyasha
+    date: 2022
+    urop:  Summer 2020, Fall 2020, Spring 2021, Summer 2021
+    awards:
+      - name: FUTURE of Physics Participant
+        org: Caltech
+        date: 2020
+
+
+  - name: Serhii Kryhin
+    date: 2022
+    thesis: "Application of Unsupervised Machine Learning for Event Classification"
+    thesis_dates: Fall 2021 - Spring 2022
+    awards:
+      - name: Morse/Orloff Research Award
+        org: MIT Physics Department
+        date: 2017
+    independent: Fall 2019, Fall 2020
+    urop: Spring 2020, Summer 2020, Spring 2021, Summer 2021
+
+
+  - name: Christopher Miller
+    date: 2021
+    urop: Fall 2020
+
+
+  - name: Debaditya Pramanik
+    date: 2021
+    thesis: "Collinear Supergravity at Linear Order"
+    thesis_dates: Fall 2020 - Spring 2021
+    urop: Spring 2020, Summer 2020
+
+
+  - name: Ziqi Zhou
+    date: 2020
+    graduated: true
+    thesis:
+    indepdent: Summer 2018
+    urop: Fall 2018
+
+
+  - name: Talya Klinger
+    graduated: true
+    date: 2020
+    urop: Spring 2017
+
+  - name: Radha Mastandrea
+    date: 2019
+    thesis: "Analyzing CMS Open Collider Data through Topic Modeling"
+    thesis_dates: Spring 2019
+    thesis_url:  https://dspace.mit.edu/handle/1721.1/123389
+    urop: Spring 2017, Fall 2017, Spring 2018, Summer 2018
+    awards:
+      - name: Joel Matthew Orloff Award for Outstanding Service
+        org: MIT Physics Department
+        date: 2019
+      - name: Physics Research Fellowship
+        org: Heising-Simons Foundation
+        date: 2018
+      - name: FUTURE of Physics Participant
+        org: Caltech
+        date: 2018
+    after:
+      - title:  Marshall Scholarship
+        org:  U. Cambridge
+
 #
 #
 # - name: Eleanor Hall
 #    date: 2018
 #    thesis: “Photon Isolation and Jet Substructure”
 #    After_title: Physics Ph.D. Candidate
-#    after_org:  U.C. Berkeley
+#    after_org: U.C. Berkeley
 #Other: UROP Research: Spring 2017, Summer 2017, Fall 2017
 #Othery: Joel Matthew Orloff Award for Outstanding Service, MIT Physics Department, 2017
 #Url: https://www.nellhall.com/
 #
-# - name:   Matthew Burns, B.S. 2018
-#    date:    2018
+# - name: Matthew Burns, B.S. 2018
+#    date: 2018
 #    thesis:
 #    after_title:
 #    after_org:
@@ -407,7 +396,7 @@ phd_students:
 #    Url:
 #
 # - name: Kevin Zhou
-#    date:  2017
+#    date: 2017
 #    thesis:
 #    after_title: Marshall Scholarship
 #    after_org: U. Cambridge
@@ -416,34 +405,34 @@ phd_students:
 #Other: Currently, Physics Ph.D Candidate, //Stanford//
 #    Url: https://knzhou.github.io
 #
-# - name:   Aashish Tripathee
-#    date:  2017
-#    thesis:   “Jet Substructure at the Large Hadron Collider”
+# - name: Aashish Tripathee
+#    date: 2017
+#    thesis: “Jet Substructure at the Large Hadron Collider”
 #    After_title: Physics Ph.D. Candidate
-#    After_org:  U. Michigan
+#    After_org: U. Michigan
 #  other:Senior Thesis, Spring 2017
 #Other: https://dspace.mit.edu/handle/1721.1/111882
 #Other: Independent Research: IAP 2015
-#   Other: UROP Research:  Spring 2015, Summer 2015, Fall 2015, IAP 2016,
+#   Other: UROP Research: Spring 2015, Summer 2015, Fall 2015, IAP 2016,
 #Other: Philip Morse Memorial Award, //MIT Physics Department, 2017Spring 2016, Summer 2016, Fall 2016
 #    Url:
 #
-# - name:  Trung Phan
-#    date:   2015
+# - name: Trung Phan
+#    date: 2015
 #    thesis: “Relativistic Quantum Fields in Theoretical Physics”
 #    after_title:
 #    after_org:
 #Other: Senior Thesis, Fall 2014-Spring 2015
 #Other: https://dspace.mit.edu/handle/1721.1/100333
 #Other: UROP Research: Spring 2014, Summer 2014
-#other: After MIT:  Physics Ph.D. Candidate, //Princeton//
+#other: After MIT: Physics Ph.D. Candidate, //Princeton//
 #    Url:
 #
 #   - name: T.J. Wilkason
-#    date:  2015
-#    thesis:  “Exclusive Cone Jet Algorithms for High Energy Particle Colliders”
+#    date: 2015
+#    thesis: “Exclusive Cone Jet Algorithms for High Energy Particle Colliders”
 #    After_title: Physics Ph.D. Candidate
-#    after_org:  Stanford
+#    after_org: Stanford
 #Other: Senior Thesis, Fall 2014-Spring 2015
 #Other: https://dspace.mit.edu/handle/1721.1/100326
 #Other: Joel Matthew Orloff Award for Outstanding Service, MIT Physics Department, 2015
@@ -451,52 +440,52 @@ phd_students:
 # Other: UROP Research: Fall 2013, Spring 2014, Summer 2014
 #    Url:
 #
-# - name:  Mobolaji Williams
-#    date:  2013
-#    thesis:  “Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking”
+# - name: Mobolaji Williams
+#    date: 2013
+#    thesis: “Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking”
 #    After_title: Physics Ph.D. Candidate
 #    after_org: Harvard
-#other:  Senior Thesis, Fall 2012-Spring 2013
+#other: Senior Thesis, Fall 2012-Spring 2013
 #Other: https://dspace.mit.edu/handle/1721.1/83778
-#Other: Independent Research:  Spring 2012
+#Other: Independent Research: Spring 2012
 #Other: UROP Research: Fall 2010, Spring 2011, Summer 2012
 #    Url:
 #
-# - name:  Dustin Katzin
-#    date:  2012
-#    thesis:   “The DarkLight Experiment: Searching for the Dark Photon”
+# - name: Dustin Katzin
+#    date: 2012
+#    thesis: “The DarkLight Experiment: Searching for the Dark Photon”
 #    after_title:
-#    after_org:  Part III at University of Cambridge
+#    after_org: Part III at University of Cambridge
 #Other: https://dspace.mit.edu/handle/1721.1/78551
 #other: UROP Research: Fall 2011, IAP 2012
-#otherL Currently:  Analyst, American International Group
+#otherL Currently: Analyst, American International Group
 #    Url:
 #
 # - name: Tucker Chan
-#    date:  2012
+#    date: 2012
 #    thesis:
 #    after_title: Physics Ph.D. Candidate
 #    After_org: Stanford
 #Other: UROP Research: Summer 2011, Fall 2011, Spring 2012
 #    Url:
 #
-# - name:  Lin Fei
+# - name: Lin Fei
 #    date: 2011
 #    thesis: “Dark Matter Dynamics in the Early Universe”
 #    after_title: Physics Ph.D. Candidate
-#    after_org:  Princeton
+#    after_org: Princeton
 #Other: https://dspace.mit.edu/handle/1721.1/72934|Dark Matter Dynamics in the Early Universe
 #    Url:
 #
-# - name:  Ken Van Tilburg
-#    date:    2011
-#    thesis:   “Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering”
+# - name: Ken Van Tilburg
+#    date: 2011
+#    thesis: “Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering”
 #    after_title: Physics Ph.D
-#    after_org:  Stanford
+#    after_org: Stanford
 #Other: Apker Award Finalist, //American Physical Society, 2011
 #Other: Joel Matthew Orloff Award for Outstanding Research in Physics, MIT Physics Department, 2011
 #Other: UROP Research: Summer 2010, Fall 2010
-#Other: Currently:  Postdoctoral Researcher, Institute for Advanced Study and New York University
+#Other: Currently: Postdoctoral Researcher, Institute for Advanced Study and New York University
 #Url:
 #
 
@@ -504,31 +493,31 @@ phd_students:
 #
 # - name: Pedro Rivera-Cardona
 #    date: Summer 2021
-#    thesis:  "Implementation of U(1) Group Symmetry on Energy Flow Networks"
+#    thesis: "Implementation of U(1) Group Symmetry on Energy Flow Networks"
 #    after_title: PhD Candidate
 #    after_org: University of Illinois, Urbana-Champaign
 #Other: MIT Summer Research Program
-#other:  Home Institution:  University of Puerto Rico, Mayaguez
+#other: Home Institution: University of Puerto Rico, Mayaguez
 #    Url:
 #
 #
-# - name:  Athis Osathapan
+# - name: Athis Osathapan
 #    date: Spring 2021, Summer 2021
 #    thesis:
 #    after_title:
 #    After_org:
 #Other: Independent Research
-#Other: Home Institution:  Bowdoin College
+#Other: Home Institution: Bowdoin College
 #    Url:
 #
 #
-# - name:  Shira Jackson
-#    date:   Summer 2020
-#    thesis:    "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
+# - name: Shira Jackson
+#    date: Summer 2020
+#    thesis: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
 #    after_title:
 #    after_org:
 #Other: MIT Summer Research Program
-#Other: Home Institution:  University of Cincinnati
+#Other: Home Institution: University of Cincinnati
 #    Url:
 #
 # - name: Andrew Turner
@@ -537,62 +526,62 @@ phd_students:
 #    thesis:
 #    after_title:
 #    after_org:
-#Other: Ph.D. Advisor:  Washington Taylor, MI
+#Other: Ph.D. Advisor: Washington Taylor, MI
 #    Url:
 #
 # - name: Maximilian Henderson
-#    date:  Summer 2018
+#    date: Summer 2018
 #    thesis:
 #    after_title:
 #    After_org:
 #Other: International Research Opportunities Programme
-#Other: Home Institution:  Imperial College London
+#Other: Home Institution: Imperial College London
 #    Url:
 #
 #
 # - name: Edward Hirst
-#    date:   Summer 2018
+#    date: Summer 2018
 #    thesis:
 #    after_title:
 #    after_org:
 #Other: International Research Opportunities Programme
-#Other: Home Institution:  Imperial College London
+#Other: Home Institution: Imperial College London
 #    Url:
 #
-# - name:   Rahim Leung
-#    date:  Summer 2017
+# - name: Rahim Leung
+#    date: Summer 2017
 #    thesis:
 #    after_title:
 #    after_org:
 #Other: International Research Opportunities Programme
-#Other: ome Institution:  Imperial College London
+#Other: ome Institution: Imperial College London
 #    Url:
 #
 # - name: Markus Schulze
-#    date:     Fall 2015
+#    date: Fall 2015
 #Title: Visiting Postdoc
 #    thesis:
 #    after_title:
 #    After_org:
-#Other:  Home Institution:  CERN
+#Other: Home Institution: CERN
 #    Url:
 #
 # - name: Alexis Romero
-#    date:  Summer 2015
-#    thesis:  "Jet Physics Measurements on CMS Open Data"
+#    date: Summer 2015
+#    thesis: "Jet Physics Measurements on CMS Open Data"
 #    after_title:
 #    After_org:
 #Other: MIT Summer Research Program
-#Other: Home Institution:  San Diego State University
+#Other: Home Institution: San Diego State University
 #
 #    url:
 #
 #
 # - name: Nayara Fonseca
-#    date:  Spring 2014-Fall 2014
+#    date: Spring 2014-Fall 2014
 #    thesis:
 #    after_title:
 #    After_org:
 #Other: FAPESP Fellowship
-#other: Ph.D. Advisor:  Gustavo Burdman, University of Sao Paulo, Brazil
+#other: Ph.D. Advisor: Gustavo Burdman, University of Sao Paulo, Brazil
 #    Url:

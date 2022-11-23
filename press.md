@@ -93,8 +93,6 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 <!--
 ## Research Interests
 
-{{ careermap.png?784 |Early Career Trajectory}}
-
 The dots above indicate publications on my [[cv]].  My research interests span a [[research details|wide range of topics]] in and beyond the standard model:
 
   * Collider Physics and Quantum Chromodynamics

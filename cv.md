@@ -135,46 +135,39 @@ aside:
 
 ### M.Eng. Students
 
-  * Raymond Wynne, anticipated M.Eng. 2022
+{% for person in site.data.cv_mentoring.meng_students -%}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}M.Eng.{% else %}anticipated M.Eng.{% endif %} {{person.date}}
+  {%- if person.thesis %}
+      * Thesis: "{{person.thesis}}"  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+  {%- if person.after[0] %}
+      * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
+  {%- if person.after.size > 1 %}
+      * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
+{% endfor %}
 
-  * Nilai Sarda, M.Eng. 2020
-    * Thesis:  "Group Anomaly Detection in Collider Data" (with Justin Solomon)
-    * Johnson Artificial Intelligence and Decision Making Thesis Award, //MIT EECS Department, 2020//
-
-  * Preksha Naik, M.Eng. 2019
-    * Thesis:  "Exploring the Space of Jets with CMS Open Data"
-    * After MIT:  Physics Ph.D. Candidate, //Caltech//
 
 ### B.S. Students
 
-  * Octavio Vega, B.S. 2022
-    * UROP Research: Spring 2021, Summer 2021, Fall 2021
-  * Nishat Protyasha, anticipated B.S. 2022
-    * UROP Research: Summer 2020, Fall 2020, Spring 2021, Summer 2021
-    * FUTURE of Physics Participant, //Caltech, 2020//
-  * Serhii Kryhin, B.S. 2022
-    * Senior Thesis, Fall 2021 - Spring 2022:  "Application of Unsupervised Machine Learning for Event Classification"
-    * Morse/Orloff Research Award, //MIT Physics Department, 2017//
-    * Independent Research: Fall 2019, Fall 2020
-    * UROP Research: Spring 2020, Summer 2020, Spring 2021, Summer 2021
-  * Christopher Miller, anticipated B.S. 2021
-    * UROP Research: Fall 2020
-  * Debaditya Pramanik, B.S. 2021
-    * Senior Thesis, Spring 2021:  "Collinear Supergravity at Linear Order"
-    * Senior Thesis Research:  Fall 2020
-    * UROP Research:  Spring 2020, Summer 2020
-  * Ziqi Zhou, B.S. 2020
-    * Independent Research: Summer 2018
-    * UROP Research:  Fall 2018
-  * Talya Klinger, B.S. 2020
-    * UROP Research: Spring 2017
-  * Radha Mastandrea, B.S. 2019
-    * Senior Thesis, Spring 2019:  "[[https://dspace.mit.edu/handle/1721.1/123389|Analyzing CMS Open Collider Data through Topic Modeling]]"
-    * UROP Research: Spring 2017, Fall 2017, Spring 2018, Summer 2018
-    * Joel Matthew Orloff Award for Outstanding Service, //MIT Physics Department, 2019//
-    * Physics Research Fellowship, //Heising-Simons Foundation, 2018//
-    * FUTURE of Physics Participant, //Caltech, 2018//
-    * After MIT:  Marshall Scholarship, //U. Cambridge//
+{% for person in site.data.cv_mentoring.bs_students -%}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis or person.graduated %}B.S.{% else %}anticipated B.S.{% endif %} {{person.date}}
+  {%- if person.thesis %}
+      * Senior Thesis, {{person.thesis_dates}}:  {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}     {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+  {%- if person.independent %}
+      * Independent Research: {{person.independent}} {% endif %}
+  {%- if person.urop %}
+      * UROP Research: {{person.urop}} {% endif %}
+  {%- if person.after[0] %}
+      * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
+  {%- if person.after.size > 1 %}
+      * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
+{% endfor %}
+
   * [[http://www.nellhall.com/|Eleanor Hall]], B.S. 2018
     * Senior Thesis, Spring 2018:  "[[https://dspace.mit.edu/handle/1721.1/120219|Photon Isolation and Jet Substructure]]"
     * UROP Research: Spring 2017, Summer 2017, Fall 2017
