@@ -109,13 +109,13 @@ aside:
 
 {% for person in site.data.cv_mentoring.postdocs -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %} ; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+    * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
   {%- if person.before[0] %}
     * Before MIT: {{person.before[0].org}} ({{person.before[0].title}}){% endif %}{% if person.before[1] %}, {{person.before[1].org}} ({{person.before[1].title}}){% endif %}{% if person.before[2] %}, {{person.before[2].org}} ({{person.before[2].title}}) {% endif %}
   {%- if person.after.size > 1 %}
     * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- if person.awards %}{% for award in person.awards %}
-    * {{award.name}}, *{{award.org}}, {{award.date}}*  
-  {%- endfor %}{% endif %}
 {% endfor %}
 
 ### Ph.D. Students
@@ -124,13 +124,13 @@ aside:
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}Ph.D.{% else %}anticipated Ph.D.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Thesis: "{{person.thesis}}"  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
   {%- if person.after[0] %}
       * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
   {%- if person.after.size > 1 %}
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- if person.awards %}{% for award in person.awards %}
-      * {{award.name}}, *{{award.org}}, {{award.date}}*  
-  {%- endfor %}{% endif %}
 {% endfor %}
 
 ### M.Eng. Students
@@ -139,13 +139,13 @@ aside:
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}M.Eng.{% else %}anticipated M.Eng.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Thesis: "{{person.thesis}}"  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
   {%- if person.after[0] %}
       * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
   {%- if person.after.size > 1 %}
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- if person.awards %}{% for award in person.awards %}
-      * {{award.name}}, *{{award.org}}, {{award.date}}*  
-  {%- endfor %}{% endif %}
 {% endfor %}
 
 
@@ -159,66 +159,15 @@ aside:
       * Independent Research: {{person.independent}} {% endif %}
   {%- if person.urop %}
       * UROP Research: {{person.urop}} {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
   {%- if person.after[0] %}
       * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
   {%- if person.after.size > 1 %}
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- if person.awards %}{% for award in person.awards %}
-      * {{award.name}}, *{{award.org}}, {{award.date}}*  
-  {%- endfor %}{% endif %}
 {% endfor %}
 
-  * [[http://www.nellhall.com/|Eleanor Hall]], B.S. 2018
-    * Senior Thesis, Spring 2018:  "[[https://dspace.mit.edu/handle/1721.1/120219|Photon Isolation and Jet Substructure]]"
-    * UROP Research: Spring 2017, Summer 2017, Fall 2017
-    * Joel Matthew Orloff Award for Outstanding Service, //MIT Physics Department, 2017//
-    * After MIT, Physics Ph.D. Candidate, //U.C. Berkeley//
-  * Matthew Burns, B.S. 2018
-    * UROP Research: Fall 2014, Spring 2015
-  * [[https://knzhou.github.io/|Kevin Zhou]], B.S. 2017
-    * UROP Research: IAP 2016, Spring 2016, Summer 2016, Fall 2016, Spring 2017
-    * Joel Matthew Orloff Award for Outstanding Research, //MIT Physics Department, 2017//
-    * After MIT:  Marshall Scholarship, //U. Cambridge//
-    * Currently, Physics Ph.D Candidate, //Stanford//
-  * Aashish Tripathee, B.S. 2017
-    * Senior Thesis, Spring 2017:  "[[https://dspace.mit.edu/handle/1721.1/111882|Jet Substructure at the Large Hadron Collider]]"
-    * Independent Research: IAP 2015
-    * UROP Research:  Spring 2015, Summer 2015, Fall 2015, IAP 2016, Spring 2016, Summer 2016, Fall 2016
-    * Philip Morse Memorial Award, //MIT Physics Department, 2017//
-    * After MIT:  Physics Ph.D. Candidate, //U. Michigan//
-  * Trung Phan, B.S. 2015
-    * Senior Thesis, Fall 2014-Spring 2015:  "[[https://dspace.mit.edu/handle/1721.1/100333|Relativistic Quantum Fields in Theoretical Physics]]"
-    * UROP Research: Spring 2014, Summer 2014
-    * After MIT:  Physics Ph.D. Candidate, //Princeton//
-  * T.J. Wilkason, B.S. 2015
-    * Senior Thesis, Fall 2014-Spring 2015:  "[[https://dspace.mit.edu/handle/1721.1/100326|Exclusive Cone Jet Algorithms for High Energy Particle Colliders]]"
-    * Joel Matthew Orloff Award for Outstanding Service, //MIT Physics Department, 2015//
-    * Independent Research: IAP 2015
-    * UROP Research: Fall 2013, Spring 2014, Summer 2014
-    * After MIT:  Physics Ph.D. Candidate, //Stanford//
-  * Mobolaji Williams, B.S. 2013
-    * Senior Thesis, Fall 2012-Spring 2013:  "[[https://dspace.mit.edu/handle/1721.1/83778|Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking]]"
-    * Independent Research:  Spring 2012 
-    * UROP Research: Fall 2010, Spring 2011, Summer 2012
-    * After MIT:  Physics Ph.D. Candidate, //Harvard//
-  * Dustin Katzin, B.S. 2012
-    * Senior Thesis, Spring 2012:  "[[https://dspace.mit.edu/handle/1721.1/78551|The DarkLight Experiment: Searching for the Dark Photon]]"
-    * UROP Research: Fall 2011, IAP 2012
-    * After MIT: Part III at University of Cambridge 
-    * Currently:  Analyst, //American International Group//
-  * Tucker Chan, B.S. 2012 (deceased)
-    * UROP Research: Summer 2011, Fall 2011, Spring 2012
-    * After MIT:  Physics Ph.D. Candidate, //Stanford//
-  * Lin Fei, B.S. 2011
-    * Senior Thesis, Spring 2011:  "[[https://dspace.mit.edu/handle/1721.1/72934|Dark Matter Dynamics in the Early Universe]]"
-    * After MIT:  Physics Ph.D. Candidate, //Princeton//
-  * Ken Van Tilburg, B.S. 2011
-    * Senior Thesis, Spring 2011:  "[[https://dspace.mit.edu/handle/1721.1/65536|Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering]]"
-    * Apker Award Finalist, //American Physical Society, 2011//
-    * Joel Matthew Orloff Award for Outstanding Research in Physics, //MIT Physics Department, 2011//
-    * UROP Research: Summer 2010, Fall 2010
-    * After MIT:  Physics Ph.D., //Stanford//
-    * Currently:  Postdoctoral Researcher, //Institute for Advanced Study and New York University//
 
 ### Visiting Students/Postdocs
 

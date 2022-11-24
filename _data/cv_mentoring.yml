@@ -376,118 +376,150 @@ bs_students:
       - title:  Marshall Scholarship
         org:  U. Cambridge
 
-#
-#
-# - name: Eleanor Hall
-#    date: 2018
-#    thesis: “Photon Isolation and Jet Substructure”
-#    After_title: Physics Ph.D. Candidate
-#    after_org: U.C. Berkeley
-#Other: UROP Research: Spring 2017, Summer 2017, Fall 2017
-#Othery: Joel Matthew Orloff Award for Outstanding Service, MIT Physics Department, 2017
-#Url: https://www.nellhall.com/
-#
-# - name: Matthew Burns, B.S. 2018
-#    date: 2018
-#    thesis:
-#    after_title:
-#    after_org:
-#Other: UROP Research: Fall 2014, Spring 2015
-#    Url:
-#
-# - name: Kevin Zhou
-#    date: 2017
-#    thesis:
-#    after_title: Marshall Scholarship
-#    after_org: U. Cambridge
-#Other: UROP Research: IAP 2016, Spring 2016, Summer 2016, Fall 2016, Spring 2017
-#Other: Joel Matthew Orloff Award for Outstanding Research, MIT Physics Department, 2017
-#Other: Currently, Physics Ph.D Candidate, //Stanford//
-#    Url: https://knzhou.github.io
-#
-# - name: Aashish Tripathee
-#    date: 2017
-#    thesis: “Jet Substructure at the Large Hadron Collider”
-#    After_title: Physics Ph.D. Candidate
-#    After_org: U. Michigan
-#  other:Senior Thesis, Spring 2017
-#Other: https://dspace.mit.edu/handle/1721.1/111882
-#Other: Independent Research: IAP 2015
-#   Other: UROP Research: Spring 2015, Summer 2015, Fall 2015, IAP 2016,
-#Other: Philip Morse Memorial Award, //MIT Physics Department, 2017Spring 2016, Summer 2016, Fall 2016
-#    Url:
-#
-# - name: Trung Phan
-#    date: 2015
-#    thesis: “Relativistic Quantum Fields in Theoretical Physics”
-#    after_title:
-#    after_org:
-#Other: Senior Thesis, Fall 2014-Spring 2015
-#Other: https://dspace.mit.edu/handle/1721.1/100333
-#Other: UROP Research: Spring 2014, Summer 2014
-#other: After MIT: Physics Ph.D. Candidate, //Princeton//
-#    Url:
-#
-#   - name: T.J. Wilkason
-#    date: 2015
-#    thesis: “Exclusive Cone Jet Algorithms for High Energy Particle Colliders”
-#    After_title: Physics Ph.D. Candidate
-#    after_org: Stanford
-#Other: Senior Thesis, Fall 2014-Spring 2015
-#Other: https://dspace.mit.edu/handle/1721.1/100326
-#Other: Joel Matthew Orloff Award for Outstanding Service, MIT Physics Department, 2015
-# Other: Independent Research: IAP 2015
-# Other: UROP Research: Fall 2013, Spring 2014, Summer 2014
-#    Url:
-#
-# - name: Mobolaji Williams
-#    date: 2013
-#    thesis: “Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking”
-#    After_title: Physics Ph.D. Candidate
-#    after_org: Harvard
-#other: Senior Thesis, Fall 2012-Spring 2013
-#Other: https://dspace.mit.edu/handle/1721.1/83778
-#Other: Independent Research: Spring 2012
-#Other: UROP Research: Fall 2010, Spring 2011, Summer 2012
-#    Url:
-#
-# - name: Dustin Katzin
-#    date: 2012
-#    thesis: “The DarkLight Experiment: Searching for the Dark Photon”
-#    after_title:
-#    after_org: Part III at University of Cambridge
-#Other: https://dspace.mit.edu/handle/1721.1/78551
-#other: UROP Research: Fall 2011, IAP 2012
-#otherL Currently: Analyst, American International Group
-#    Url:
-#
-# - name: Tucker Chan
-#    date: 2012
-#    thesis:
-#    after_title: Physics Ph.D. Candidate
-#    After_org: Stanford
-#Other: UROP Research: Summer 2011, Fall 2011, Spring 2012
-#    Url:
-#
-# - name: Lin Fei
-#    date: 2011
-#    thesis: “Dark Matter Dynamics in the Early Universe”
-#    after_title: Physics Ph.D. Candidate
-#    after_org: Princeton
-#Other: https://dspace.mit.edu/handle/1721.1/72934|Dark Matter Dynamics in the Early Universe
-#    Url:
-#
-# - name: Ken Van Tilburg
-#    date: 2011
-#    thesis: “Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering”
-#    after_title: Physics Ph.D
-#    after_org: Stanford
-#Other: Apker Award Finalist, //American Physical Society, 2011
-#Other: Joel Matthew Orloff Award for Outstanding Research in Physics, MIT Physics Department, 2011
-#Other: UROP Research: Summer 2010, Fall 2010
-#Other: Currently: Postdoctoral Researcher, Institute for Advanced Study and New York University
-#Url:
-#
+
+  - name: Eleanor Hall
+    url: https://www.nellhall.com/
+    date: 2018
+    thesis: "Photon Isolation and Jet Substructure"
+    thesis_dates: Spring 2018
+    thesis_url: https://dspace.mit.edu/handle/1721.1/120219
+    after:
+      - title: Physics Ph.D. Candidate
+        org: U.C. Berkeley
+    urop: Spring 2017, Summer 2017, Fall 2017
+    awards:
+      - name: Joel Matthew Orloff Award for Outstanding Service
+        org: MIT Physics Department
+        date: 2017
+
+
+
+  - name: Matthew Burns
+    graduated: true
+    date: 2018
+    urop: Fall 2014, Spring 2015
+
+  - name: Kevin Zhou
+    url: https://knzhou.github.io
+    date: 2017
+    graduated: true
+    after:
+      - title: Marshall Scholarship
+        org: U. Cambridge
+      - title: Physics Ph.D Candidate
+        org: Stanford
+    urop: IAP 2016, Spring 2016, Summer 2016, Fall 2016, Spring 2017
+    awards:
+      - name: Joel Matthew Orloff Award for Outstanding Research
+        org: MIT Physics Department
+        date: 2017
+
+  - name: Aashish Tripathee
+    date: 2017
+    thesis: "Jet Substructure at the Large Hadron Collider"
+    thesis_dates: Spring 2017
+    thesis_url: https://dspace.mit.edu/handle/1721.1/111882
+    after:
+      - title: Physics Ph.D. Candidate
+        org: U. Michigan
+    independent: IAP 2015
+    urop: Spring 2015, Summer 2015, Fall 2015, IAP 2016, Spring 2016, Summer 2016, Fall 2016
+    awards:
+      - name: Philip Morse Memorial Award
+        org: MIT Physics Department
+        date: 2017
+
+
+  - name: Trung Phan
+    date: 2015
+    thesis: "Relativistic Quantum Fields in Theoretical Physics"
+    thesis_dates:  Fall 2014 - Spring 2015
+    thesis_url: https://dspace.mit.edu/handle/1721.1/100333
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Princeton
+    urop: Spring 2014, Summer 2014
+
+
+
+
+  - name: T.J. Wilkason
+    date: 2015
+    thesis: "Exclusive Cone Jet Algorithms for High Energy Particle Colliders"
+    thesis_dates: Fall 2014 - Spring 2015
+    thesis_url: https://dspace.mit.edu/handle/1721.1/100326
+    independent: IAP 2015
+    urop: Fall 2013, Spring 2014, Summer 2014
+    awards:
+      - name: Joel Matthew Orloff Award for Outstanding Service
+        org: MIT Physics Department
+        date: 2015
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Stanford
+         
+
+  - name: Mobolaji Williams
+    date: 2013
+    thesis: "Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking"
+    thesis_dates: Fall 2012 - Spring 2013
+    thesis_url: https://dspace.mit.edu/handle/1721.1/83778
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Harvard
+    independent: Spring 2012
+    urop: Fall 2010, Spring 2011, Summer 2012
+
+
+
+  - name: Dustin Katzin
+    date: 2012
+    thesis: "The DarkLight Experiment: Searching for the Dark Photon"
+    thesis_dates: Spring 2012
+    thesis_url: https://dspace.mit.edu/handle/1721.1/78551
+    after:
+      - title: Part III
+        org: University of Cambridge
+      - title: Analyst
+        org: American International Group
+    urop: Fall 2011, IAP 2012
+
+  - name: Tucker Chan
+    date: 2012
+    graduated: true
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Stanford
+    urop: Summer 2011, Fall 2011, Spring 2012
+
+
+  - name: Lin Fei
+    date: 2011
+    thesis: "Dark Matter Dynamics in the Early Universe"
+    thesis_dates: Spring 2011
+    thesis_url: https://dspace.mit.edu/handle/1721.1/72934
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Princeton
+
+  - name: Ken Van Tilburg
+    date: 2011
+    thesis: "Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering"
+    after:
+      - title: Physics Ph.D
+        org: Stanford
+      - title: Postdoctoral Researcher
+        org: Institute for Advanced Study and New York University
+    urop: Summer 2010, Fall 2010
+    awards:
+      - name: Apker Award Finalist
+        org: American Physical Society
+        date: 2011
+      - name: Joel Matthew Orloff Award for Outstanding Research in Physics
+        org: MIT Physics Department
+        date: 2011
+        
+
 
 #visitors:
 #
