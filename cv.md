@@ -171,6 +171,22 @@ aside:
 
 ### Visiting Students/Postdocs
 
+{% for person in site.data.cv_mentoring.visitors -%}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.program}}, *{{person.dates}}*
+  {%- if person.project %}
+      * Project: "{{person.project}}" {% endif %}
+  {%- if person.home %}
+      * Home Institution: {{person.home}} {% if person.home_advisor %} ({{person.home_advisor}}) {% endif %} {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
+  {%- if person.after[0] %}
+      * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
+  {%- if person.after.size > 1 %}
+      * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
+{% endfor %}
+
+
   * Pedro Rivera-Cardona
     * MIT Summer Research Program, //Summer 2021//
     * Project:  "Implementation of U(1) Group Symmetry on Energy Flow Networks"

@@ -521,99 +521,63 @@ bs_students:
         
 
 
-#visitors:
-#
-# - name: Pedro Rivera-Cardona
-#    date: Summer 2021
-#    thesis: "Implementation of U(1) Group Symmetry on Energy Flow Networks"
-#    after_title: PhD Candidate
-#    after_org: University of Illinois, Urbana-Champaign
-#Other: MIT Summer Research Program
-#other: Home Institution: University of Puerto Rico, Mayaguez
-#    Url:
-#
-#
-# - name: Athis Osathapan
-#    date: Spring 2021, Summer 2021
-#    thesis:
-#    after_title:
-#    After_org:
-#Other: Independent Research
-#Other: Home Institution: Bowdoin College
-#    Url:
-#
-#
-# - name: Shira Jackson
-#    date: Summer 2020
-#    thesis: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
-#    after_title:
-#    after_org:
-#Other: MIT Summer Research Program
-#Other: Home Institution: University of Cincinnati
-#    Url:
-#
-# - name: Andrew Turner
-#    date: 2018-201
-#Title: Tushar Shah and Sara Zion Physics Fellowship, MIT Physics Department
-#    thesis:
-#    after_title:
-#    after_org:
-#Other: Ph.D. Advisor: Washington Taylor, MI
-#    Url:
-#
-# - name: Maximilian Henderson
-#    date: Summer 2018
-#    thesis:
-#    after_title:
-#    After_org:
-#Other: International Research Opportunities Programme
-#Other: Home Institution: Imperial College London
-#    Url:
-#
-#
-# - name: Edward Hirst
-#    date: Summer 2018
-#    thesis:
-#    after_title:
-#    after_org:
-#Other: International Research Opportunities Programme
-#Other: Home Institution: Imperial College London
-#    Url:
-#
-# - name: Rahim Leung
-#    date: Summer 2017
-#    thesis:
-#    after_title:
-#    after_org:
-#Other: International Research Opportunities Programme
-#Other: ome Institution: Imperial College London
-#    Url:
-#
-# - name: Markus Schulze
-#    date: Fall 2015
-#Title: Visiting Postdoc
-#    thesis:
-#    after_title:
-#    After_org:
-#Other: Home Institution: CERN
-#    Url:
-#
-# - name: Alexis Romero
-#    date: Summer 2015
-#    thesis: "Jet Physics Measurements on CMS Open Data"
-#    after_title:
-#    After_org:
-#Other: MIT Summer Research Program
-#Other: Home Institution: San Diego State University
-#
-#    url:
-#
-#
-# - name: Nayara Fonseca
-#    date: Spring 2014-Fall 2014
-#    thesis:
-#    after_title:
-#    After_org:
-#Other: FAPESP Fellowship
-#other: Ph.D. Advisor: Gustavo Burdman, University of Sao Paulo, Brazil
-#    Url:
+visitors:
+
+  - name: Pedro Rivera-Cardona
+    program: MIT Summer Research Program
+    dates: Summer 2021
+    project: "Implementation of U(1) Group Symmetry on Energy Flow Networks"
+    after:
+      - title: PhD Candidate
+        org: University of Illinois, Urbana-Champaign
+    home: University of Puerto Rico, Mayaguez
+
+  - name: Athis Osathapan
+    program: Research Internship
+    dates: Spring 2021, Summer 2021
+    home: Bowdoin College
+
+  - name: Shira Jackson
+    program: MIT Summer Research Program
+    dates: Summer 2020
+    project: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
+    home: University of Cincinnati
+
+  - name: Andrew Turner
+    dates: 2018 - 2019
+    program: Tushar Shah and Sara Zion Physics Fellowship
+    home: MIT
+    home_advisor: Washington Taylor
+
+  - name: Maximilian Henderson
+    program: International Research Opportunities Programme
+    dates: Summer 2018
+    home: Imperial College London
+
+
+  - name: Edward Hirst
+    program: International Research Opportunities Programme
+    dates: Summer 2018
+    home: Imperial College London
+
+  - name: Rahim Leung
+    program: International Research Opportunities Programme
+    dates: Summer 2017
+    home: Imperial College London
+
+  - name: Markus Schulze
+    program: Visiting Postdoc
+    dates: Fall 2015
+    home: CERN
+
+  - name: Alexis Romero
+    program: MIT Summer Research Program
+    dates: Summer 2015
+    project: "Jet Physics Measurements on CMS Open Data"
+    home: San Diego State University
+
+  - name: Nayara Fonseca
+    program: FAPESP Fellowship
+    dates: Spring 2014 - Fall 2014
+    home: University of Sao Paulo, Brazil
+    home_advisor: Gustavo Burdman
