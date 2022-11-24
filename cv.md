@@ -186,52 +186,6 @@ aside:
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
 {% endfor %}
 
-
-  * Pedro Rivera-Cardona
-    * MIT Summer Research Program, //Summer 2021//
-    * Project:  "Implementation of U(1) Group Symmetry on Energy Flow Networks"
-    * Home Institution:  University of Puerto Rico, Mayaguez
-    * After MIT:  PhD Candidate, University of Illinois, Urbana-Champaign
-
-  * Athis Osathapan
-    * Independent Research, //Spring 2021, Summer 2021//
-    * Home Institution:  Bowdoin College
-
-  * Shira Jackson
-    * MIT Summer Research Program, //Summer 2020//
-    * Project:  "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
-    * Home Institution:  University of Cincinnati
-
-  * Andrew Turner
-    * Tushar Shah and Sara Zion Physics Fellowship, //MIT Physics Department, 2018-2019//
-    * Ph.D. Advisor:  Washington Taylor, MIT
-
-  * Maximilian Henderson
-    * International Research Opportunities Programme, //Summer 2018//
-    * Home Institution:  Imperial College London
-
-  * Edward Hirst
-    * International Research Opportunities Programme, //Summer 2018//
-    * Home Institution:  Imperial College London
-
-  * Rahim Leung
-    * International Research Opportunities Programme, //Summer 2017//
-    * Home Institution:  Imperial College London
-
-  * Markus Schulze
-    * Visiting Postdoc, //Fall 2015//
-    * Home Institution:  CERN
-
-  * Alexis Romero
-    * MIT Summer Research Program, //Summer 2015//
-    * Project:  "Jet Physics Measurements on CMS Open Data"
-    * Home Institution:  San Diego State University
-
-  * Nayara Fonseca
-    * FAPESP Fellowship, //Spring 2014-Fall 2014//
-    * Ph.D. Advisor:  Gustavo Burdman, University of Sao Paulo, Brazil
-
-
 ## Teaching
 
 ### MIT
@@ -270,18 +224,18 @@ aside:
 
 ### Guest Lectures
 
-  * "[[http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf|Collision Course]]", 8.S50 (Computational Data Science in Physics), //IAP 2021//
-  * "[[http://www.jthaler.net/talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf|Collision Course]]", 8.S50 (Computational Data Science in Physics), //IAP 2021//
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_8_398.pdf|The Hidden Geometry of Particle Collisions]]", 8.398 (Selected Topics in Graduate Physics), //Fall 2020//
-  * "[[http://www.jthaler.net/talks/jthaler_2019_11_JetLecture_8_701.pdf|One Lecture on Jets]]", 8.701 (Introduction to Nuclear and Particle Physics), //Fall 2019//
-  * "[[http://www.jthaler.net/talks/jthaler_2019_10_JetLecture_8_811.pdf|One Lecture on Jets]]", 8.811 (Particle Physics II), //Fall 2019//
+  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2021*
+  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2021*
+  * ["The Hidden Geometry of Particle Collisions"](http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_8_398.pdf), 8.398 (Selected Topics in Graduate Physics), *Fall 2020*
+  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_11_JetLecture_8_701.pdf), 8.701 (Introduction to Nuclear and Particle Physics), *Fall 2019*
+  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_10_JetLecture_8_811.pdf), 8.811 (Particle Physics II), *Fall 2019*
 
 ### Before MIT
 
-  * Teaching Fellow, Widely Applied Physics (Nima Arkani-Hamed), //Harvard University, Fall 2005//
-  * Teaching Assistant, Linear Algebra (Thomas Banchoff), //Brown University, Spring 2001//
-  * Math/Physics Tutor, //Brown University, 1999 - 2000//
-  * Classroom Assistant, Algebra I and II, //Textron/Chamber of Commerce Charter High School, Providence, RI, Fall 1999//
+  * Teaching Fellow, Widely Applied Physics (Nima Arkani-Hamed), *Harvard University, Fall 2005*
+  * Teaching Assistant, Linear Algebra (Thomas Banchoff), *Brown University, Spring 2001*
+  * Math/Physics Tutor, *Brown University, 1999 - 2000*
+  * Classroom Assistant, Algebra I and II, *Textron/Chamber of Commerce Charter High School, Providence, RI, Fall 1999*
 
 
 ## Publications & Preprints
