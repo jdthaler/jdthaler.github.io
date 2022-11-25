@@ -536,7 +536,14 @@ aside:
 <!---->
 <!--  * **Dynamics of black hole formation in an exactly solvable model**.\\ Antal Jevicki and Jesse Thaler.\\  [[http://link.aps.org/abstract/PRD/v66/e024041|Phys. Rev. D66 024041 (2002)]], [[http://www.arXiv.org/abs/hep-th/0203172|hep-th/0203172]].-->
 
-#### Conference Proceedings (All Years)
+### Conference Proceedings
+
+{% for paper in site.data.cv_papers.conference %}
+  * **{{paper.title}}**. \\
+    {{paper.authors}}.\\
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}})
+{% endfor%}
+
 
   * **Snowmass Theory Frontier Report**. \\ Nathaniel Craig, Csaba Csáki, Aida X. El-Khadra, et al. \\ [[http://arxiv.org/abs/2211.05772|arXiv:2211.05772]].
 
@@ -561,7 +568,14 @@ aside:
 
   * **Jet Substructure at the Tevatron and LHC: New results, new tools, new benchmarks**.\\ Lily Asquith, Salvatore Rappoccio, Christopher Vermilion, et al.\\ [[http://dx.doi.org/10.1088/0954-3899/39/6/063001|J.Phys.G G39:063001 (2012)]], [[http://arXiv.org/abs/arXiv:1201.0008|arXiv:1201.0008]].
 
-#### Incidental Authorship (All Years)
+### Incidental Authorship
+
+{% for paper in site.data.cv_papers.incidental %}
+  * **{{paper.title}}**. \\
+    {{paper.authors}}.\\
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}})
+{% endfor%}
+
 
   * **Jet energy spectrum and substructure in e+e− collisions at 91.2 GeV with ALEPH Archived Data**. \\ Yi Chen, Anthony Badea, Austin Baty, Paoti Chang, Yang-Ting Chien, Gian Michele Innocenti, Marcello Maggi, Christopher McGinn, Dennis V. Perepelitsa, Michael Peters, Tzu-An Sheng, Jesse Thaler, Yen-Jie Lee. \\ [[https://arxiv.org/abs/2111.09914|arXiv:2111.09914]].
 
@@ -580,6 +594,10 @@ aside:
 ## Presentations
 
 ### Colloquia
+
+{% for talk in site.data.cv_talks.colloquia %}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+{% endfor%}
 
   * "[[http://www.jthaler.net/talks/jthaler_2022_11_Brown_Colloquium.pdf|Particle Physics through the Lens of Machine Learning]]", Physics Colloquium, //Brown, November 2022//
   * "[[http://www.jthaler.net/talks/jthaler_2022_02_HiddenGeometry_Brandeis.pdf|The Geometry of Particle Collisions: Hidden in Plain Sight]]", Physics Colloquium, //Brandeis, February 2022// (In Person!)
@@ -623,6 +641,14 @@ aside:
   * "The Shape of Jets to Come", Colloquium, //MIT Laboratory for Nuclear Science, February 2010//
 
 ### Public Lectures
+
+{% for talk in site.data.cv_talks.public %}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %},
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}talk.event{% endif %},
+    *{{talk.org}}, {{talk.date}}*
+    {% if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor%}
+
 
   * [[http://www.jthaler.net/talks/jthaler_2021_03_EmTech_InsideTrack.pdf|"Artificial Intelligence Meets Fundamental Physics"]], MIT Inside Track Master Class, [[https://event.technologyreview.com/emtech-digital-2021/|EmTech Digital]], //Virtual, March 2021//
   * [[http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf|"Collision Course: Artificial Intelligence meets Fundamental Physics"]], Keynote Presentation, [[http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html|"Tommy Flowers Network Conference"]], //Virtual, October 2020//
