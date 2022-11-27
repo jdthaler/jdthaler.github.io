@@ -68,6 +68,7 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 ### Quotations and Perspectives
 
+  * [New Scientist on Symbolic Regression](https://www.newscientist.com/article/mg25634141-200-will-artificial-intelligence-ever-discover-new-laws-of-physics/)
   * [IEEE Spectrum on Machine Learning](https://spectrum.ieee.org/machine-learning-in-physics)
   * [Quanta Magazine on Axion Dark Matter](https://www.quantamagazine.org/a-hint-of-dark-matter-sends-physicists-looking-to-the-skies-20211019/)
   * [Facebook AI on Deep Networks](https://ai.facebook.com/blog/advancing-ai-theory-with-a-first-principles-understanding-of-deep-neural-networks/)
