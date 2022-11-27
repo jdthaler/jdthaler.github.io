@@ -109,13 +109,13 @@ aside:
 
 {% for person in site.data.cv_mentoring.postdocs -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %} ; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+    * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
   {%- if person.before[0] %}
     * Before MIT: {{person.before[0].org}} ({{person.before[0].title}}){% endif %}{% if person.before[1] %}, {{person.before[1].org}} ({{person.before[1].title}}){% endif %}{% if person.before[2] %}, {{person.before[2].org}} ({{person.before[2].title}}) {% endif %}
   {%- if person.after.size > 1 %}
     * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- if person.awards %}{% for award in person.awards %}
-    * {{award.name}}, *{{award.org}}, {{award.date}}*  
-  {%- endfor %}{% endif %}
 {% endfor %}
 
 ### Ph.D. Students
@@ -124,13 +124,13 @@ aside:
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}Ph.D.{% else %}anticipated Ph.D.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Thesis: "{{person.thesis}}"  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
   {%- if person.after[0] %}
       * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
   {%- if person.after.size > 1 %}
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- if person.awards %}{% for award in person.awards %}
-      * {{award.name}}, *{{award.org}}, {{award.date}}*  
-  {%- endfor %}{% endif %}
 {% endfor %}
 
 ### M.Eng. Students
@@ -139,13 +139,13 @@ aside:
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}M.Eng.{% else %}anticipated M.Eng.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Thesis: "{{person.thesis}}"  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
   {%- if person.after[0] %}
       * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
   {%- if person.after.size > 1 %}
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- if person.awards %}{% for award in person.awards %}
-      * {{award.name}}, *{{award.org}}, {{award.date}}*  
-  {%- endfor %}{% endif %}
 {% endfor %}
 
 
@@ -159,113 +159,32 @@ aside:
       * Independent Research: {{person.independent}} {% endif %}
   {%- if person.urop %}
       * UROP Research: {{person.urop}} {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
   {%- if person.after[0] %}
       * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
   {%- if person.after.size > 1 %}
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- if person.awards %}{% for award in person.awards %}
-      * {{award.name}}, *{{award.org}}, {{award.date}}*  
-  {%- endfor %}{% endif %}
 {% endfor %}
 
-  * [[http://www.nellhall.com/|Eleanor Hall]], B.S. 2018
-    * Senior Thesis, Spring 2018:  "[[https://dspace.mit.edu/handle/1721.1/120219|Photon Isolation and Jet Substructure]]"
-    * UROP Research: Spring 2017, Summer 2017, Fall 2017
-    * Joel Matthew Orloff Award for Outstanding Service, //MIT Physics Department, 2017//
-    * After MIT, Physics Ph.D. Candidate, //U.C. Berkeley//
-  * Matthew Burns, B.S. 2018
-    * UROP Research: Fall 2014, Spring 2015
-  * [[https://knzhou.github.io/|Kevin Zhou]], B.S. 2017
-    * UROP Research: IAP 2016, Spring 2016, Summer 2016, Fall 2016, Spring 2017
-    * Joel Matthew Orloff Award for Outstanding Research, //MIT Physics Department, 2017//
-    * After MIT:  Marshall Scholarship, //U. Cambridge//
-    * Currently, Physics Ph.D Candidate, //Stanford//
-  * Aashish Tripathee, B.S. 2017
-    * Senior Thesis, Spring 2017:  "[[https://dspace.mit.edu/handle/1721.1/111882|Jet Substructure at the Large Hadron Collider]]"
-    * Independent Research: IAP 2015
-    * UROP Research:  Spring 2015, Summer 2015, Fall 2015, IAP 2016, Spring 2016, Summer 2016, Fall 2016
-    * Philip Morse Memorial Award, //MIT Physics Department, 2017//
-    * After MIT:  Physics Ph.D. Candidate, //U. Michigan//
-  * Trung Phan, B.S. 2015
-    * Senior Thesis, Fall 2014-Spring 2015:  "[[https://dspace.mit.edu/handle/1721.1/100333|Relativistic Quantum Fields in Theoretical Physics]]"
-    * UROP Research: Spring 2014, Summer 2014
-    * After MIT:  Physics Ph.D. Candidate, //Princeton//
-  * T.J. Wilkason, B.S. 2015
-    * Senior Thesis, Fall 2014-Spring 2015:  "[[https://dspace.mit.edu/handle/1721.1/100326|Exclusive Cone Jet Algorithms for High Energy Particle Colliders]]"
-    * Joel Matthew Orloff Award for Outstanding Service, //MIT Physics Department, 2015//
-    * Independent Research: IAP 2015
-    * UROP Research: Fall 2013, Spring 2014, Summer 2014
-    * After MIT:  Physics Ph.D. Candidate, //Stanford//
-  * Mobolaji Williams, B.S. 2013
-    * Senior Thesis, Fall 2012-Spring 2013:  "[[https://dspace.mit.edu/handle/1721.1/83778|Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking]]"
-    * Independent Research:  Spring 2012 
-    * UROP Research: Fall 2010, Spring 2011, Summer 2012
-    * After MIT:  Physics Ph.D. Candidate, //Harvard//
-  * Dustin Katzin, B.S. 2012
-    * Senior Thesis, Spring 2012:  "[[https://dspace.mit.edu/handle/1721.1/78551|The DarkLight Experiment: Searching for the Dark Photon]]"
-    * UROP Research: Fall 2011, IAP 2012
-    * After MIT: Part III at University of Cambridge 
-    * Currently:  Analyst, //American International Group//
-  * Tucker Chan, B.S. 2012 (deceased)
-    * UROP Research: Summer 2011, Fall 2011, Spring 2012
-    * After MIT:  Physics Ph.D. Candidate, //Stanford//
-  * Lin Fei, B.S. 2011
-    * Senior Thesis, Spring 2011:  "[[https://dspace.mit.edu/handle/1721.1/72934|Dark Matter Dynamics in the Early Universe]]"
-    * After MIT:  Physics Ph.D. Candidate, //Princeton//
-  * Ken Van Tilburg, B.S. 2011
-    * Senior Thesis, Spring 2011:  "[[https://dspace.mit.edu/handle/1721.1/65536|Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering]]"
-    * Apker Award Finalist, //American Physical Society, 2011//
-    * Joel Matthew Orloff Award for Outstanding Research in Physics, //MIT Physics Department, 2011//
-    * UROP Research: Summer 2010, Fall 2010
-    * After MIT:  Physics Ph.D., //Stanford//
-    * Currently:  Postdoctoral Researcher, //Institute for Advanced Study and New York University//
 
 ### Visiting Students/Postdocs
 
-  * Pedro Rivera-Cardona
-    * MIT Summer Research Program, //Summer 2021//
-    * Project:  "Implementation of U(1) Group Symmetry on Energy Flow Networks"
-    * Home Institution:  University of Puerto Rico, Mayaguez
-    * After MIT:  PhD Candidate, University of Illinois, Urbana-Champaign
-
-  * Athis Osathapan
-    * Independent Research, //Spring 2021, Summer 2021//
-    * Home Institution:  Bowdoin College
-
-  * Shira Jackson
-    * MIT Summer Research Program, //Summer 2020//
-    * Project:  "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
-    * Home Institution:  University of Cincinnati
-
-  * Andrew Turner
-    * Tushar Shah and Sara Zion Physics Fellowship, //MIT Physics Department, 2018-2019//
-    * Ph.D. Advisor:  Washington Taylor, MIT
-
-  * Maximilian Henderson
-    * International Research Opportunities Programme, //Summer 2018//
-    * Home Institution:  Imperial College London
-
-  * Edward Hirst
-    * International Research Opportunities Programme, //Summer 2018//
-    * Home Institution:  Imperial College London
-
-  * Rahim Leung
-    * International Research Opportunities Programme, //Summer 2017//
-    * Home Institution:  Imperial College London
-
-  * Markus Schulze
-    * Visiting Postdoc, //Fall 2015//
-    * Home Institution:  CERN
-
-  * Alexis Romero
-    * MIT Summer Research Program, //Summer 2015//
-    * Project:  "Jet Physics Measurements on CMS Open Data"
-    * Home Institution:  San Diego State University
-
-  * Nayara Fonseca
-    * FAPESP Fellowship, //Spring 2014-Fall 2014//
-    * Ph.D. Advisor:  Gustavo Burdman, University of Sao Paulo, Brazil
-
+{% for person in site.data.cv_mentoring.visitors -%}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.program}}, *{{person.dates}}*
+  {%- if person.project %}
+      * Project: "{{person.project}}" {% endif %}
+  {%- if person.home %}
+      * Home Institution: {{person.home}} {% if person.home_advisor %} ({{person.home_advisor}}) {% endif %} {% endif %}
+  {%- if person.awards %}{% for award in person.awards %}
+      * {{award.name}}, *{{award.org}}, {{award.date}}*  
+  {%- endfor %}{% endif %}
+  {%- if person.after[0] %}
+      * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
+  {%- if person.after.size > 1 %}
+      * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
+{% endfor %}
 
 ## Teaching
 
@@ -305,18 +224,18 @@ aside:
 
 ### Guest Lectures
 
-  * "[[http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf|Collision Course]]", 8.S50 (Computational Data Science in Physics), //IAP 2021//
-  * "[[http://www.jthaler.net/talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf|Collision Course]]", 8.S50 (Computational Data Science in Physics), //IAP 2021//
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_8_398.pdf|The Hidden Geometry of Particle Collisions]]", 8.398 (Selected Topics in Graduate Physics), //Fall 2020//
-  * "[[http://www.jthaler.net/talks/jthaler_2019_11_JetLecture_8_701.pdf|One Lecture on Jets]]", 8.701 (Introduction to Nuclear and Particle Physics), //Fall 2019//
-  * "[[http://www.jthaler.net/talks/jthaler_2019_10_JetLecture_8_811.pdf|One Lecture on Jets]]", 8.811 (Particle Physics II), //Fall 2019//
+  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2021*
+  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2021*
+  * ["The Hidden Geometry of Particle Collisions"](http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_8_398.pdf), 8.398 (Selected Topics in Graduate Physics), *Fall 2020*
+  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_11_JetLecture_8_701.pdf), 8.701 (Introduction to Nuclear and Particle Physics), *Fall 2019*
+  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_10_JetLecture_8_811.pdf), 8.811 (Particle Physics II), *Fall 2019*
 
 ### Before MIT
 
-  * Teaching Fellow, Widely Applied Physics (Nima Arkani-Hamed), //Harvard University, Fall 2005//
-  * Teaching Assistant, Linear Algebra (Thomas Banchoff), //Brown University, Spring 2001//
-  * Math/Physics Tutor, //Brown University, 1999 - 2000//
-  * Classroom Assistant, Algebra I and II, //Textron/Chamber of Commerce Charter High School, Providence, RI, Fall 1999//
+  * Teaching Fellow, Widely Applied Physics (Nima Arkani-Hamed), *Harvard University, Fall 2005*
+  * Teaching Assistant, Linear Algebra (Thomas Banchoff), *Brown University, Spring 2001*
+  * Math/Physics Tutor, *Brown University, 1999 - 2000*
+  * Classroom Assistant, Algebra I and II, *Textron/Chamber of Commerce Charter High School, Providence, RI, Fall 1999*
 
 
 ## Publications & Preprints
@@ -617,7 +536,14 @@ aside:
 <!---->
 <!--  * **Dynamics of black hole formation in an exactly solvable model**.\\ Antal Jevicki and Jesse Thaler.\\  [[http://link.aps.org/abstract/PRD/v66/e024041|Phys. Rev. D66 024041 (2002)]], [[http://www.arXiv.org/abs/hep-th/0203172|hep-th/0203172]].-->
 
-#### Conference Proceedings (All Years)
+### Conference Proceedings
+
+{% for paper in site.data.cv_papers.conference %}
+  * **{{paper.title}}**. \\
+    {{paper.authors}}.\\
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}})
+{% endfor%}
+
 
   * **Snowmass Theory Frontier Report**. \\ Nathaniel Craig, Csaba Csáki, Aida X. El-Khadra, et al. \\ [[http://arxiv.org/abs/2211.05772|arXiv:2211.05772]].
 
@@ -642,7 +568,14 @@ aside:
 
   * **Jet Substructure at the Tevatron and LHC: New results, new tools, new benchmarks**.\\ Lily Asquith, Salvatore Rappoccio, Christopher Vermilion, et al.\\ [[http://dx.doi.org/10.1088/0954-3899/39/6/063001|J.Phys.G G39:063001 (2012)]], [[http://arXiv.org/abs/arXiv:1201.0008|arXiv:1201.0008]].
 
-#### Incidental Authorship (All Years)
+### Incidental Authorship
+
+{% for paper in site.data.cv_papers.incidental %}
+  * **{{paper.title}}**. \\
+    {{paper.authors}}.\\
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}})
+{% endfor%}
+
 
   * **Jet energy spectrum and substructure in e+e− collisions at 91.2 GeV with ALEPH Archived Data**. \\ Yi Chen, Anthony Badea, Austin Baty, Paoti Chang, Yang-Ting Chien, Gian Michele Innocenti, Marcello Maggi, Christopher McGinn, Dennis V. Perepelitsa, Michael Peters, Tzu-An Sheng, Jesse Thaler, Yen-Jie Lee. \\ [[https://arxiv.org/abs/2111.09914|arXiv:2111.09914]].
 
@@ -661,6 +594,10 @@ aside:
 ## Presentations
 
 ### Colloquia
+
+{% for talk in site.data.cv_talks.colloquia %}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+{% endfor%}
 
   * "[[http://www.jthaler.net/talks/jthaler_2022_11_Brown_Colloquium.pdf|Particle Physics through the Lens of Machine Learning]]", Physics Colloquium, //Brown, November 2022//
   * "[[http://www.jthaler.net/talks/jthaler_2022_02_HiddenGeometry_Brandeis.pdf|The Geometry of Particle Collisions: Hidden in Plain Sight]]", Physics Colloquium, //Brandeis, February 2022// (In Person!)
@@ -704,6 +641,14 @@ aside:
   * "The Shape of Jets to Come", Colloquium, //MIT Laboratory for Nuclear Science, February 2010//
 
 ### Public Lectures
+
+{% for talk in site.data.cv_talks.public %}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %},
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}talk.event{% endif %},
+    *{{talk.org}}, {{talk.date}}*
+    {% if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor%}
+
 
   * [[http://www.jthaler.net/talks/jthaler_2021_03_EmTech_InsideTrack.pdf|"Artificial Intelligence Meets Fundamental Physics"]], MIT Inside Track Master Class, [[https://event.technologyreview.com/emtech-digital-2021/|EmTech Digital]], //Virtual, March 2021//
   * [[http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf|"Collision Course: Artificial Intelligence meets Fundamental Physics"]], Keynote Presentation, [[http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html|"Tommy Flowers Network Conference"]], //Virtual, October 2020//

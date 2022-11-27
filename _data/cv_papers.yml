@@ -1004,3 +1004,16 @@ papers:
     year: 2002
     topic: black_holes
 
+conference:
+
+  - title: "Snowmass Theory Frontier Report"
+    authors: Nathaniel Craig, Csaba Csáki, Aida X. El-Khadra, et al.
+    arxiv: 2211.05772
+    year: 2022
+    
+incidental:
+
+  - title: "Jet energy spectrum and substructure in e+e− collisions at 91.2 GeV with ALEPH Archived Data"
+    authors: Yi Chen, Anthony Badea, Austin Baty, Paoti Chang, Yang-Ting Chien, Gian Michele Innocenti, Marcello Maggi, Christopher McGinn, Dennis V. Perepelitsa, Michael Peters, Tzu-An Sheng, Jesse Thaler, Yen-Jie Lee
+    arxiv: 2111.09914
+
