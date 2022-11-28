@@ -596,6 +596,7 @@ bs_students:
 visitors:
 
   - name: Pedro Rivera-Cardona
+    url: https://priverac.github.io/
     program: MIT Summer Research Program
     dates: Summer 2021
     project: "Implementation of U(1) Group Symmetry on Energy Flow Networks"
@@ -614,12 +615,18 @@ visitors:
     dates: Summer 2020
     project: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
     home: University of Cincinnati
+    after:
+      - title: PhD Candidate
+        org: NYU
 
   - name: Andrew Turner
     dates: 2018 - 2019
     program: Tushar Shah and Sara Zion Physics Fellowship
     home: MIT
     home_advisor: Washington Taylor
+    after:
+      - title: Postdoctoral Researcher
+        org: UPenn
 
   - name: Maximilian Henderson
     program: International Research Opportunities Programme
@@ -636,6 +643,9 @@ visitors:
     program: International Research Opportunities Programme
     dates: Summer 2017
     home: Imperial College London
+    after:
+      - title: PhD Candidate
+        org: Imperial College London
 
   - name: Markus Schulze
     program: Visiting Postdoc
@@ -647,9 +657,16 @@ visitors:
     dates: Summer 2015
     project: "Jet Physics Measurements on CMS Open Data"
     home: San Diego State University
+    after:
+      - title: PhD Candidate
+        org: UC Irvine
 
   - name: Nayara Fonseca
+    url: https://www.nayarafonseca.com/
     program: FAPESP Fellowship
     dates: Spring 2014 - Fall 2014
     home: University of Sao Paulo, Brazil
     home_advisor: Gustavo Burdman
+    after:
+      - title: Research Scientist
+        org: IBM Research
