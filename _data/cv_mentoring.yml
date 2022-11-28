@@ -165,6 +165,8 @@ postdocs:
        org: University of Oregon
      - title: Postdoctoral Researcher
        org: University of Washington, Seattle
+     - title: Postdoctoral Researcher
+       org: JGU Mainz
 
  - name: Duff Neill
    at:
@@ -182,6 +184,7 @@ postdocs:
        org: Los Alamos National Laboratory
 
  - name: Andrew Larkoski
+   url: http://web.stanford.edu/~larkoski/
    at:
      - dates: Fall 2012 - Spring 2015
        title: CTP Postdoctoral Researcher
@@ -193,6 +196,10 @@ postdocs:
        org: Harvard
      - title: Visiting Assistant Professor
        org: Reed College
+     - title: Acting Assistant Professor
+       org: SLAC
+     - title: Assistant Project Scientist
+       org: UCLA
    awards:
      - name: Wu-Ki Tung Award for Early Career Research on QCD
        org: CTEQ Collaboration
@@ -303,6 +310,8 @@ phd_students:
         org: U.C. Berkeley
       - title: Data Scientist
         org: Quid
+      - title: Data Scientist
+        org: Unlearn
     awards:
       - name: LHC-TI Graduate Fellowship
         org: LHC Theory Initiative
@@ -337,6 +346,7 @@ meng_students:
     date: 2022
 
   - name: Nilai Sarda
+    url: http://nilai.cc/
     date: 2020
     thesis: "Group Anomaly Detection in Collider Data"
     joint: Justin Solomon
@@ -385,6 +395,7 @@ bs_students:
   - name: Christopher Miller
     date: 2021
     urop: Fall 2020
+    graduated: true
 
 
   - name: Debaditya Pramanik
@@ -411,6 +422,7 @@ bs_students:
     urop: Spring 2017
 
   - name: Radha Mastandrea
+    url: https://rmastand.github.io/
     date: 2019
     thesis: "Analyzing CMS Open Collider Data through Topic Modeling"
     thesis_dates: Spring 2019
@@ -514,13 +526,16 @@ bs_students:
          
 
   - name: Mobolaji Williams
+    url: http://mowillia.github.io/
     date: 2013
     thesis: "Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking"
     thesis_dates: Fall 2012 - Spring 2013
     thesis_url: https://dspace.mit.edu/handle/1721.1/83778
     after:
-      - title: Physics Ph.D. Candidate
+      - title: Physics Ph.D.
         org: Harvard
+      - title: Data Scientist
+        org: Jellyfish
     independent: Spring 2012
     urop: Fall 2010, Spring 2011, Summer 2012
 
@@ -559,11 +574,14 @@ bs_students:
   - name: Ken Van Tilburg
     date: 2011
     thesis: "Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering"
+    thesis_dates: Spring 2011
     after:
       - title: Physics Ph.D
         org: Stanford
       - title: Postdoctoral Researcher
         org: Institute for Advanced Study and New York University
+      - title: Assistant Professor
+        org: NYU
     urop: Summer 2010, Fall 2010
     awards:
       - name: Apker Award Finalist
