@@ -114,6 +114,8 @@ aside:
   {%- endfor %}{% endif %}
   {%- if person.before[0] %}
     * Before MIT: {{person.before[0].org}} ({{person.before[0].title}}){% endif %}{% if person.before[1] %}, {{person.before[1].org}} ({{person.before[1].title}}){% endif %}{% if person.before[2] %}, {{person.before[2].org}} ({{person.before[2].title}}) {% endif %}
+  {%- if person.after[0] %}
+    * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
   {%- if person.after.size > 1 %}
     * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
 {% endfor %}

@@ -1,5 +1,36 @@
 postdocs:
 
+
+ - name: Cari Cesarotti
+   url: http://caricesarotti.com/
+   at:
+     - dates: Fall 2022 - Spring 2025
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: Harvard
+
+ - name: Sokratis Trifinopoulos
+   at:
+     - dates: Fall 2022 - Spring 2024
+       title: Early Postdoc.Mobility Fellow
+   before:
+     - title: PhD
+       org: Zurich
+     - title: Postdoc
+       org: SISSA
+
+ - name: Siddharth Mishra-Sharma
+   url: https://smsharma.io/
+   at:
+     - dates: Fall 2021 - Spring 2024
+       title: IAIFI Fellow
+   before:
+     - title: PhD
+       org: Princeton
+     - title: Postdoc
+       org: NYU
+
  - name: Lena Funcke
    at:
      - dates: Fall 2021 - Fall 2022
@@ -9,6 +40,9 @@ postdocs:
        org: Munich
      - title: Postdoc
        org: Perimeter Institute
+   after:
+     - title: Assistant Professor
+       org: University of Bonn
 
  - name: Katelin Schutz
    url: https://katelinschutz.com/
@@ -29,6 +63,9 @@ postdocs:
    before:
      - title: PhD
        org: Rutgers
+   after:
+     - title: Postdoctoral Researcher
+       org: University of Oregon
        
  - name: Bernhard Mistlberger
    at:
@@ -77,6 +114,8 @@ postdocs:
    after:
      - title: Assistant Professor
        org: University of Michigan
+     - title: Assistant Professor
+       org: U.C. Berkeley
 
  - name: Wei Xue
    at:
@@ -94,6 +133,7 @@ postdocs:
        org: University of Florida
 
  - name: Simone Marzani
+   url: https://www.ge.infn.it/~smarzani/
    at:
      - dates: Fall 2014 - Spring 2015
        title: LHC Theory Initiative Postdoctoral Fellow
@@ -109,6 +149,9 @@ postdocs:
        org: University at Buffalo
      - title: Tenure-track Researcher
        org: University of Genova
+     - title: Associate Professor
+       org: University of Genova
+
 
  - name: Gilly Elor
    at:
@@ -182,6 +225,12 @@ postdocs:
 
 
 phd_students:
+
+  - name: Pamela Pajarillo
+    date: 2027
+
+  - name: Sean Benevedes
+    date: 2026
 
   - name: Rikab Gambhir
     date: 2025
@@ -329,7 +378,9 @@ bs_students:
         date: 2017
     independent: Fall 2019, Fall 2020
     urop: Spring 2020, Summer 2020, Spring 2021, Summer 2021
-
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Harvard
 
   - name: Christopher Miller
     date: 2021
@@ -341,6 +392,9 @@ bs_students:
     thesis: "Collinear Supergravity at Linear Order"
     thesis_dates: Fall 2020 - Spring 2021
     urop: Spring 2020, Summer 2020
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Princeton
 
 
   - name: Ziqi Zhou
