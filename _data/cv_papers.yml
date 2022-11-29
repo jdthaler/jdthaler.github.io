@@ -1008,12 +1008,109 @@ conference:
 
   - title: "Snowmass Theory Frontier Report"
     authors: Nathaniel Craig, Csaba Csáki, Aida X. El-Khadra, et al.
-    arxiv: 2211.05772
+    arxiv: "2211.05772"
     year: 2022
+    
+  - title: "TF07 Snowmass Report: Theory of Collider Phenomena"
+    authors: Fabio Maltoni, Shufang Su, and Jesse Thaler
+    arxiv: "2210.02591"
+    year: 2022
+
+  - title: "Presenting Unbinned Differential Cross Section Results"
+    authors: Miguel Arratia, Anja Butter, Mario Campanelli, Vincent Croft, Dag Gillberg, Kristin Lohwasser, Bogdan Malaescu, Vinicius Mikuni, Benjamin Nachman, Juan Rojo, Jesse Thaler, and Ramon Winterhalder
+    arxiv: "2109.13243"
+    year: 2021
+    doi: 10.1088/1748-0221/17/01/P01024
+    journal: JINST 17:P01024 (2022)
+
+  - title: "Unveiling Hidden Physics at the LHC"
+    authors: Oliver Fischer, Bruce Mellado, et al.
+    arxiv: "2109.06065"
+    year: 2021
+    journal:  Eur. Phys. J. C82:665 (2022)
+    doi: 10.1140/epjc/s10052-022-10541-4
+
+  - title: "Scaffolding Simulations with Deep Learning for High-dimensional Deconvolution"
+    authors: Anders Andreassen, Patrick T. Komiske, Eric M. Metodiev, Benjamin Nachman, Adi Suresh, and Jesse Thaler
+    arxiv: "2105.04448"
+    year: 2021
+    journal: ICLR SimDL Workshop 2021
+    journal_url: https://simdl.github.io/files/12.pdf
+    
+  - title: "The LHC Olympics 2020: A Community Challenge for Anomaly Detection in High Energy Physics"
+    authors: Gregor Kasieczka, Benjamin Nachman, David Shih, et al.
+    arxiv: "2101.08320"
+    year: 2021
+    doi: 10.1088/1361-6633/ac36b9
+    journal: Rept. Prog. Phys. 84:124201 (2021)
+
+  - title: "Les Houches 2017: Physics at TeV Colliders Standard Model Working Group Report"
+    authors: Joshua Bendavid, Fabrizio Caola, Vitaliano Ciulli, Robert Harlander, Gudrun Heinrich, Joey Huston, Stefan Kallweit, Stefan Prestel, Emanuele Re, Kerstin Tackmann, Jesse Thaler, Konstantinos Theofilatos, et al.
+    arxiv: "1803.07977"
+    year: 2018
+  
+  - title: "Les Houches 2015: Physics at TeV Colliders Standard Model Working Group Report"
+    authors: Simon Badger, Joshua Bendavid, Vitaliano Ciulli, Ansgar Denner, Rikkert Frederix, Massimiliano Grazzini, Joey Huston, Marek Schoenherr, Kerstin Tackmann, Jesse Thaler, Ciaran Williams, et al.
+    arxiv: "1605.04692"
+    year: 2016
+  
+  - title: "Towards an Understanding of the Correlations in Jet Substructure"
+    authors: Ben Cooper, Stephen D. Ellis, Marat Freytsis, Andrew Hornig, Andrew Larkoski, David Lopez Mateos, Brian Shuve, Nhan V. Tran, et al.
+    arxiv: "1504.00679"
+    year: 2015
+    doi: 10.1140/epjc/s10052-015-3587-2
+    journal: Eur. Phys. J. C75:409 (2015)
+ 
+  - title: "Boosted Objects and Jet Substructure at the LHC"
+    authors: Marcel Vos, et al.
+    arxiv: "1311.2708"
+    year: 2013
+    doi: 10.1140/epjc/s10052-014-2792-8
+    journal: Eur. Phys. J. C74:2792 (2014)
+  
+  - title: "Jet Substructure at the Tevatron and LHC: New results, new tools, new benchmarks"
+    authors: Lily Asquith, Salvatore Rappoccio, Christopher Vermilion, et al.
+    arxiv: "1201.0008"
+    year: 2012
+    doi: 10.1088/0954-3899/39/6/063001
+    journal: J. Phys. G39:063001 (2012)
+    
     
 incidental:
 
   - title: "Jet energy spectrum and substructure in e+e− collisions at 91.2 GeV with ALEPH Archived Data"
     authors: Yi Chen, Anthony Badea, Austin Baty, Paoti Chang, Yang-Ting Chien, Gian Michele Innocenti, Marcello Maggi, Christopher McGinn, Dennis V. Perepelitsa, Michael Peters, Tzu-An Sheng, Jesse Thaler, Yen-Jie Lee
-    arxiv: 2111.09914
+    arxiv: "2111.09914"
+
+  - title: "Measurements of two-particle correlations in e+e− collisions at 91 GeV with ALEPH archived data"
+    authors: Anthony Badea, Austin Baty, Paoti Chang, Gian Michele Innocenti, Marcello Maggi, Christopher McGinn, Michael Peters, Tzu-An Sheng, Jesse Thaler, Yen-Jie Lee
+    arxiv: "1906.00489"
+    doi: 10.1103/PhysRevLett.123.212002
+    journal: Phys. Rev. Lett. 123:212002 (2019)
+
+  - title: "Design and Implementation of the ABRACADABRA-10 cm Axion Dark Matter Search"
+    authors: Jonathan L. Ouellet, Chiara P. Salemi, Joshua W. Foster, Reyco Henning, Zachary Bogorad, Janet M. Conrad, Joseph A. Formaggio, Yonatan Kahn, Joe Minervini, Alexey Radovinsky, Nicholas L. Rodd, Benjamin R. Safdi, Jesse Thaler, Daniel Winklehner, Lindley Winslow
+    arxiv: "1901.10652"
+    doi: 10.1103/PhysRevD.99.052012
+    journal: Phys. Rev. D99:052012 (2019)
+
+  - title: "First Results from ABRACADABRA-10 cm: A Search for Sub-μeV Axion Dark Matter"
+    authors: Jonathan L. Ouellet, Chiara P. Salemi, Joshua W. Foster, Reyco Henning, Zachary Bogorad, Janet M. Conrad, Joseph A. Formaggio, Yonatan Kahn, Joe Minervini, Alexey Radovinsky, Nicholas L. Rodd, Benjamin R. Safdi, Jesse Thaler, Daniel Winklehner, Lindley Winslow
+    arxiv: "1810.12257"
+    doi: 10.1103/PhysRevLett.122.121802
+    journal: Phys. Rev. Lett. 122:121802 (2019)
+  
+  - title: "qSR: a quantitative super-resolution analysis tool reveals the cell-cycle dependent organization of RNA Polymerase I in live human cells"
+    authors: J. Owen Andrews, William Conway, Won-Ki Cho, Arjun Narayanan, Jan-Hendrik Spille, Namrata Jayanth, Takuma Inoue, Susan Mullen, Jesse Thaler, Ibrahim I.~Cissé
+    doi: 10.1038/s41598-018-25454-0
+    journal: Scientific Reports 8:7424 (2018)
+  
+  - title: "qSR: A software for quantitative analysis of single molecule and super-resolution data"
+    authors: J. Owen Andrews, Arjun Narayanan, Jan-Hendrik Spille, Won-Ki Cho, Jesse Thaler, Ibrahim I. Cissé
+    journal: "bioRXiv:146241"
+    doi: 10.1101/146241
+
+  - title: "The DarkLight Experiment: A Precision Search for New Physics at Low Energies"
+    authors: J. Balewski, J. Bernauer, J. Bessuille, R. Corliss, R. Cowan, C. Epstein, P. Fisher, D. Hasell, E. Ihloff, Y. Kahn, J. Kelsey, R. Milner, S. Steadman, J. Thaler, C. Tschalaer, C. Vidal, S. Benson, J. Boyce, D. Douglas, P. Evtushenko, C. Hernandez-Garcia, C. Keith, C. Tennant, S. Zhang, R. Alarcon, D. Blyth, R. Dipert, L. Ice, G. Randall, B. Dongwi, N. Kalantarians, M. Kohl, A. Liyanage, J. Nazeer, M. Garcon, R. Cervantes, K. Dehmelt, A. Deshpande, N. Feege, B. Surrow
+    arxiv: "1412.4717"
 
