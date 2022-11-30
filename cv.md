@@ -242,19 +242,19 @@ aside:
 
 {% for year in site.data.cv_papers.years %}
 #### {{year}}
-{% for paper in site.data.cv_papers.papers %}
-{% if year == paper.year%}
+{% for paper in site.data.cv_papers.papers -%}
+{% if year == paper.year -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
     {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
-{% endif %}
-{% endfor%}
-{% endfor%}
+{%- endif %}
+{% endfor %}
+{% endfor %}
 
 
 ### Conference Proceedings
 
-{% for paper in site.data.cv_papers.conference %}
+{% for paper in site.data.cv_papers.conference -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
     {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} {% if paper.journal_url %}  [{{paper.journal}}]({{paper.journal_url}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
@@ -262,81 +262,33 @@ aside:
 
 ### Incidental Authorship
 
-{% for paper in site.data.cv_papers.incidental %}
+{% for paper in site.data.cv_papers.incidental -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
     {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}){% endif %}
     {%- if paper.journal_url %}  [{{paper.journal}}]({{paper.journal_url}}){% endif %}
     {%- if paper.arxiv and paper.doi or paper.journal_url-%}, {% endif %}
     {%- if paper.arxiv %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}){% endif %}.
-{% endfor%}
+{% endfor %}
 
 
 ## Presentations
 
 ### Colloquia
 
-{% for talk in site.data.cv_talks.colloquia %}
+{% for talk in site.data.cv_talks.colloquia -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-{% endfor%}
-
-  * "[[http://www.jthaler.net/talks/jthaler_2022_11_Brown_Colloquium.pdf|Particle Physics through the Lens of Machine Learning]]", Physics Colloquium, //Brown, November 2022//
-  * "[[http://www.jthaler.net/talks/jthaler_2022_02_HiddenGeometry_Brandeis.pdf|The Geometry of Particle Collisions: Hidden in Plain Sight]]", Physics Colloquium, //Brandeis, February 2022// (In Person!)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_05_EMD_Colloquium_UCSD.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //U.C. San Diego, May 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_04_EMD_Colloquium_UNM.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics and Astronomy Colloquium, //U. New Mexico, April 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_04_EMD_Colloquium_UCSB.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //U.C. Santa Barbara, April 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_02_EMD_Colloquium_NIU.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //Northern Illinois University, February 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_02_EMD_Colloquium_NORDITA.pdf|Collision Course:  Particle Physics meets Machine Learning]]", [[http://video.albanova.se/arc2021_06.html|AlbaNova/Nordita Colloquium]], //Stockholm University, February 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_02_EMD_Colloquium_UChicago.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //University of Chicago, February 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_KIT.pdf|The Hidden Geometry of Particle Collisions]]", Particle Physics Colloquium, //KIT Karlsruhe, November 2020// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_EMD_Colloquium_Israel.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //All Israel, November 2020// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_EMD_Colloquium_Harvard.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //Harvard, November 2020//  (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_10_UMD_Colloquium.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //University of Maryland, October 2020// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_09_OpenData_FermilabColloquium.pdf|The Future is Open:  Adventures with Public Collider Data]]", [[https://events.fnal.gov/colloquium/events/event/no-colloquium-9/|Colloquium]], //Fermilab, September 2020// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_05_CERN_Colloquium.pdf|The Hidden Geometry of Particle Collisions]]", [[https://indico.cern.ch/event/888504/|Theory Colloquium]], //CERN, May 2020// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2019_11_CaseWestern_Colloquium.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //Case Western Reserve University, November 2019//
-  * "[[http://www.jthaler.net/talks/jthaler_2019_10_Rice_Colloquium.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics and Astronomy Colloquium, //Rice University, October 2019//
-  * "[[http://www.jthaler.net/talks/jthaler_2019_10_Colloquium_Oakland.pdf|Collision Course:  Particle Physics meets Machine Learning]]", Physics Colloquium, //Oakland University, October 2019//
-  * "[[http://www.jthaler.net/talks/jthaler_2019_09_Colloquium_Tufts.pdf|Collision Course:  Particle Physics meets Machine Learning"]]", Physics Colloquium, //Tufts University, September 2019//
-  * "[[http://www.jthaler.net/talks/jthaler_2018_03_Milano_Colloquium.pdf|Jet Substructure at the Frontiers of Particle Physics]]", Physics Colloquium, //University of Milan, March 2018//
-  * "Jet Substructure at the Frontiers of Particle Physics", Physics Colloquium, //University of Illinois, Urbana-Champaign, October 2017//
-  * "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider", Colloquium, //Perimeter Institute, May 2017//
-  * "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider", Physics Colloquium, //U.C. Berkeley, April 2017//
-  * "[[http://www.jthaler.net/talks/jthaler_2017_03_UTAustin_Colloquium.pdf|New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider]]", Physics Colloquium, //University of Texas, Austin, March 2017//
-  * "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider", Physics Colloquium, //MIT, October 2016//
-  * "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider", Physics and Astronomy Colloquium, //University of California, Riverside, October 2016//
-  * "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider", Physics Colloquium, //University at Buffalo, September 2016//
-  * "[[http://www.jthaler.net/talks/jthaler_2016_05_ChicagoColloquium.pdf|Jet Substructure:  Boosting the Search for New Physics at the LHC]]", Physics Colloquium, //University of Chicago, May 2016//
-  * "Jet Substructure:  Boosting the Search for New Physics at the LHC", Physics Colloquium, //Michigan State University, January 2016//
-  * "The Rise of Jet Substructure:  Boosting the Search for New Physics at the LHC", Physics Colloquium, //U.C. Santa Cruz, November 2015//
-  * "The Rise of Jet Substructure:  Boosting the Search for New Physics at the LHC", Physics Colloquium, //Brandeis, September 2015//
-  * "The Case for Jet Substructure", Physics Colloquium, //Caltech, November 2014//
-  * "The Case for Jet Substructure", Colloquium, //MIT Laboratory for Nuclear Science, April 2014//
-  * "(Non)perturbative QCD and Jet Substructure", Triangle Nuclear Theory Colloquium, //Duke University, March 2014//
-  * "(Non)perturbative QCD and Jet Substructure", Theory Colloquium, //University of Maryland, October 2013//
-  * "The Shape of Jets to Come:  Boosting the Search for New Physics at the LHC", Physics Colloquium, //University of Oregon, May 2013//
-  * "The Shape of Jets to Come:  Boosting the Search for New Physics at the LHC", Physics Colloquium, //Cornell University, February 2013//
-  * "The Higgs Boson:  Triumph of the Standard Model", //MIT Lecture Series Committee, October 2012//
-  * "Anticipating New Data from the Energy Frontier", Physics Colloquium, //Brown University, February 2011//
-  * "The Large Hadron Collider", Physics Colloquium, //Wellesley College, October 2010//
-  * "The Shape of Jets to Come", Colloquium, //MIT Laboratory for Nuclear Science, February 2010//
+    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor %}
 
 ### Public Lectures
 
-{% for talk in site.data.cv_talks.public %}
+{% for talk in site.data.cv_talks.public -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}talk.event{% endif %},
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
-    {% if talk.virtual %} (Virtual Talk) {% endif %}
-{% endfor%}
-
-
-  * [[http://www.jthaler.net/talks/jthaler_2021_03_EmTech_InsideTrack.pdf|"Artificial Intelligence Meets Fundamental Physics"]], MIT Inside Track Master Class, [[https://event.technologyreview.com/emtech-digital-2021/|EmTech Digital]], //Virtual, March 2021//
-  * [[http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf|"Collision Course: Artificial Intelligence meets Fundamental Physics"]], Keynote Presentation, [[http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html|"Tommy Flowers Network Conference"]], //Virtual, October 2020//
-  * [[http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf|"Listening to the Invisible Universe"]], Program with [[https://afarcry.org/|A Far Cry]], [[https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#|Open Rehearsal of Gravity]], //Harvard Education Portal, April 2019//
-  * [[http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf|"Confronting the Invisible Universe"]], MIT Club of Great Britain Event, //London, May 2018//
-  * [[https://www.youtube.com/watch?v=QNmSNY8VenQ|"Confronting the Invisible Universe"]], Public Talk, //Aspen Center for Physics, March 2017//
-
+    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor %}
 
 
 ### Lecture Series & Schools
@@ -832,7 +784,7 @@ aside:
   * ["The Future of Particle Physics is 'Open'"](https://cylindricalonion.web.cern.ch/blogs/future-particle-physics-open), Guest Blog Post, The Cylindrical Onion, *CMS Experiment, December 2017*
   * ["Confronting the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf), MIT Club of Great Britain Event, *London, May 2018*
   * ["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ), Public Talk, *Aspen Center for Physics, March 2017*
-  * ["The Higgs Boson:  Triumph of the Standard Model"](http://vimeo.com/58392070), 24th Annual Kavli Frontiers of Science, National Academy of Sciences, *U.C. Irvine, November 2012*
+  * ["The Higgs Boson:  Triumph of the Standard Model"](http://vimeo.com/58392070), 24th Annual Kavli Frontiers of Science, *National Academy of Sciences, U.C. Irvine, November 2012*
   * Appearance in Documentary Film, "Particle Fever", 2013 
     * After film Q&A, BOOST 2015 Workshop Public Event, August 2015
     * After film Q&A, MIT Lecture Series Committee, September 2014

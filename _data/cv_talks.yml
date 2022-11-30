@@ -5,10 +5,244 @@ colloquia:
     event: Physics Colloquium
     org: Brown
     date: November 2022
+   
+  - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
+    url: http://www.jthaler.net/talks/jthaler_2022_02_HiddenGeometry_Brandeis.pdf
+    event: Physics Colloquium
+    org: Brandeis
+    date: February 2022
+  
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2021_05_EMD_Colloquium_UCSD.pdf
+    event: Physics Colloquium
+    org: U.C. San Diego
+    date: May 2021
+    virtual: true
+    
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2021_04_EMD_Colloquium_UNM.pdf
+    event: Physics and Astronomy Colloquium
+    org: U. New Mexico
+    date: April 2021
+    virtual: true
+  
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2021_04_EMD_Colloquium_UCSB.pdf
+    event: Physics Colloquium
+    org: U.C. Santa Barbara
+    date: April 2021
+    virtual: true
+    
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2021_02_EMD_Colloquium_NIU.pdf
+    event: Physics Colloquium
+    org: Northern Illinois University
+    date: February 2021
+    virtual: true
+    
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2021_02_EMD_Colloquium_NORDITA.pdf
+    event: Nordita Colloquium
+    event_url: http://video.albanova.se/arc2021_06.html|AlbaNova/Nordita Colloquium
+    org: Stockholm University
+    date: February 2021
+    virtual: true
+    
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2021_02_EMD_Colloquium_UChicago.pdf
+    event: Physics Colloquium
+    org: University of Chicago
+    date: February 2021
+    virtual: true
 
+    
+  - title: "The Hidden Geometry of Particle Collisions"
+    url: http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_KIT.pdf
+    event: Particle Physics Colloquium
+    org: KIT Karlsruhe
+    date: November 2020
+    virtual: true
+  
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2020_11_EMD_Colloquium_Israel.pdf
+    event: Physics Colloquium
+    org: All Israel
+    date: November 2020
+    virtual: true
+  
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2020_11_EMD_Colloquium_Harvard.pdf
+    event: Physics Colloquium
+    org: Harvard
+    date: November 2020
+    virtual: true
+  
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2020_10_UMD_Colloquium.pdf
+    event: Physics Colloquium
+    org: University of Maryland
+    date: October 2020
+    virtual: true
+    
+  - title: "The Future is Open:  Adventures with Public Collider Data"
+    url: http://www.jthaler.net/talks/jthaler_2020_09_OpenData_FermilabColloquium.pdf
+    event: Colloquium
+    event_url: https://events.fnal.gov/colloquium/events/event/no-colloquium-9/
+    org: Fermilab
+    date: eptember 2020
+    virtual: true
+  
+  - title: "The Hidden Geometry of Particle Collisions"
+    url: http://www.jthaler.net/talks/jthaler_2020_05_CERN_Colloquium.pdf
+    event: Theory Colloquium
+    event_url: https://indico.cern.ch/event/888504/
+    org: CERN
+    date:  May 2020
+    virtual: true
+    
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2019_11_CaseWestern_Colloquium.pdf
+    event: Physics Colloquium
+    org: Case Western Reserve University
+    date: November 2019
+
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2019_10_Rice_Colloquium.pdf
+    event: Physics and Astronomy Colloquium
+    org: Rice University
+    date: October 2019
+ 
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2019_10_Colloquium_Oakland.pdf
+    event: Physics Colloquium
+    org: Oakland University
+    date: October 2019
+  
+  - title: "Collision Course:  Particle Physics meets Machine Learning"
+    url: http://www.jthaler.net/talks/jthaler_2019_09_Colloquium_Tufts.pdf
+    event: Physics Colloquium
+    org: Tufts University
+    date: September 2019
+  
+  - title: "Jet Substructure at the Frontiers of Particle Physics"
+    url: http://www.jthaler.net/talks/jthaler_2018_03_Milano_Colloquium.pdf
+    event: Physics Colloquium
+    org: University of Milan
+    date: March 2018
+  
+  - title: "Jet Substructure at the Frontiers of Particle Physics"
+    event: Physics Colloquium
+    org: University of Illinois, Urbana-Champaign
+    date: October 2017
+  
+  - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    event: Colloquium
+    org: Perimeter Institute
+    date: May 2017
+    
+  - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    event: Physics Colloquium
+    org: U.C. Berkeley
+    date: April 2017
+  
+  - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    url: http://www.jthaler.net/talks/jthaler_2017_03_UTAustin_Colloquium.pdf
+    event: Physics Colloquium
+    org: University of Texas, Austin
+    date: March 2017
+  
+  - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    event: Physics Colloquium
+    org: MIT
+    date: October 2016
+  
+  - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    event: Physics and Astronomy Colloquium
+    org: University of California, Riverside
+    date: October 2016
+  
+  - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    event: Physics Colloquium
+    org: University at Buffalo
+    date: September 2016
+  
+  - title: "Jet Substructure:  Boosting the Search for New Physics at the LHC"
+    url: http://www.jthaler.net/talks/jthaler_2016_05_ChicagoColloquium.pdf
+    event: Physics Colloquium
+    org: University of Chicago
+    date: May 2016
+  
+  - title: "Jet Substructure:  Boosting the Search for New Physics at the LHC"
+    event: Physics Colloquium
+    org: Michigan State University
+    date: January 2016
+  
+  - title: "The Rise of Jet Substructure:  Boosting the Search for New Physics at the LHC"
+    event: Physics Colloquium
+    org: U.C. Santa Cruz
+    date: November 2015
+    
+  - title: "The Rise of Jet Substructure:  Boosting the Search for New Physics at the LHC"
+    event: Physics Colloquium
+    org: Brandeis
+    date: September 2015
+  
+  - title: "The Case for Jet Substructure"
+    event: Physics Colloquium
+    org: Caltech
+    date: November 2014
+    
+  - title: "The Case for Jet Substructure"
+    event: Colloquium
+    org: MIT Laboratory for Nuclear Science
+    date: April 2014
+    
+  - title: "(Non)perturbative QCD and Jet Substructure"
+    event: Triangle Nuclear Theory Colloquium
+    org: Duke University
+    date: March 2014
+    
+  - title: "(Non)perturbative QCD and Jet Substructure"
+    event: Theory Colloquium
+    org: University of Maryland
+    date: October 2013
+  
+  - title: "The Shape of Jets to Come:  Boosting the Search for New Physics at the LHC"
+    event: Physics Colloquium
+    org: University of Oregon
+    date: May 2013
+  
+  - title: "The Shape of Jets to Come:  Boosting the Search for New Physics at the LHC"
+    event: Physics Colloquium
+    org: Cornell University
+    date: February 2013
+  
+  - title: "Anticipating New Data from the Energy Frontier"
+    event: Physics Colloquium
+    org: Brown University
+    date: February 2011
+  
+  - title: "The Large Hadron Collider"
+    event: Physics Colloquium
+    org: Wellesley College
+    date: October 2010
+    
+  - title: "The Shape of Jets to Come"
+    event: Colloquium
+    org: MIT Laboratory for Nuclear Science
+    date: February 2010
+    
 public:
 
-  - title: Artificial Intelligence Meets Fundamental Physics
+  - title: "Artificial Intelligence Meets Fundamental Physics"
+    url: http://www.jthaler.net/talks/jthaler_2021_03_EmTech_InsideTrack.pdf
+    event: MIT Inside Track Master Class
+    event_url: https://event.technologyreview.com/emtech-digital-2021/
+    org: EmTech Digital
+    date: March 2021
+    virtual: true
+    
+  - title: "Artificial Intelligence Meets Fundamental Physics"
     url: http://www.jthaler.net/talks/jthaler_2021_03_EmTech_InsideTrack.pdf
     event: MIT Inside Track Master Class
     event_url: https://event.technologyreview.com/emtech-digital-2021/
@@ -16,6 +250,44 @@ public:
     date: March 2021
     virtual: true
 
+  - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
+    url: http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf
+    event: Keynote Presentation
+    event_url: http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html
+    org: Tommy Flowers Network Conference
+    date: October 2020
+    virtual: true
+  
+  - title: "Listening to the Invisible Universe"
+    url: http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf
+    event: "Program with A Far Cry: Open Rehearsal of Gravity"
+    event_url: https://afarcry.org/
+    org: Harvard Education Portal
+    date: April 2019
+  
+  - title: "Confronting the Invisible Universe"
+    url: http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf
+    event: MIT Club of Great Britain Event
+    org: London
+    date: May 2018
+  
+  - title: "Confronting the Invisible Universe"
+    url: https://www.youtube.com/watch?v=QNmSNY8VenQ
+    event: Public Talk
+    org: Aspen Center for Physics
+    date: March 2017
+
+  - title: "The Higgs Boson:  Triumph of the Standard Model"
+    url: http://vimeo.com/58392070
+    event: 24th Annual Kavli Frontiers of Science
+    org: National Academy of Sciences, U.C. Irvine
+    date: November 2012
+
+  - title: "The Higgs Boson:  Triumph of the Standard Model"
+    event: Lecture Series Committee
+    org: MIT
+    date: October 2012
+    
 schools:
 
 
