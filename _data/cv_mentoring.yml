@@ -595,6 +595,13 @@ bs_students:
 
 visitors:
 
+  - name: Sergio Diaz
+    program: MIT Summer Research Program
+    dates: Summer 2022
+    project: "Determination of the W Mass Parameter using Machine Learning"
+    home: University of Maryland, Baltimore County
+
+
   - name: Pedro Rivera-Cardona
     url: https://priverac.github.io/
     program: MIT Summer Research Program
