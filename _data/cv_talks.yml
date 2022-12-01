@@ -290,8 +290,109 @@ public:
     
 schools:
 
-
-
+  - title: "The Standard Model"
+    url: http://www.jthaler.net/talks/jthaler_2022_09_Perimeter_TableTop.pdf
+    event: School on Table-Top Experiments for Fundamental Physics
+    event_url: https://events.perimeterinstitute.ca/event/14/
+    org: Perimeter Institute
+    date: September 2022
+  
+  - title: "Confronting the Invisible Universe"
+    url: http://www.jthaler.net/talks/jthaler_2022_03_DarkMatter_LL.pdf
+    event: Intro to Modern Physics
+    org: MIT Lincoln Labs
+    date: March 2022
+  
+  - title: "QCD & Collider Physics"
+    parts:
+      - title: Overview and Inspiration
+        url: http://www.jthaler.net/talks/jthaler_2020_01_GGI_QCDCollider_Lecture1.pdf
+      - title: From Diagrams to Cross Sections
+        url: http://www.jthaler.net/talks/jthaler_2020_01_GGI_QCDCollider_Lecture2.pdf
+      - title: An Introduction to Jets
+        url: http://www.jthaler.net/talks/jthaler_2020_01_GGI_QCDCollider_Lecture3.pdf
+      - title: A Case Study in Jet Substructure
+        url: http://www.jthaler.net/talks/jthaler_2020_01_GGI_QCDCollider_Lecture4.pdf
+    event: Lectures on the Theory of Fundamental Interactions
+    event_url: http://www.ggi.infn.it/ggilectures/ggilectures2020/
+    org: GGI, Florence
+    date: January 2020
+  
+  - title: "Collider Physics"
+    parts:
+      - title: Ingredients and Kinematics
+        url: http://www.jthaler.net/talks/jthaler_2018_07_Cargese_JetLecture1.pdf
+      - title: From Diagrams to Cross Sections
+        url: http://www.jthaler.net/talks/jthaler_2018_07_Cargese_JetLecture2.pdf
+      - title: An Introduction to Jets
+        url: http://www.jthaler.net/talks/jthaler_2018_07_Cargese_JetLecture3.pdf
+    event: Cargese 2018 International Summer School
+    event_url: https://indico.desy.de/indico/event/18951/overview
+    org: Corsica
+    date: July 2018
+  
+  - title: "Jet Substructure"
+    parts:
+      - title: "Introduction to Jet Substructure at the LHC"
+        url: http://www.jthaler.net/talks/jthaler_2017_01_Japan_Lecture1.pdf
+      - title: "A New Angle on Jet Substructure"
+        url: http://www.jthaler.net/talks/jthaler_2017_01_Japan_Lecture2.pdf
+      - title: "Introduction to Jet Physics from QCD"
+        url: http://www.jthaler.net/talks/jthaler_2017_01_Japan_Lecture3.pdf
+      - title: "Jets at the Frontier of Perturbative QCD"
+        url: http://www.jthaler.net/talks/jthaler_2017_01_Japan_Lecture4.pdf
+    event: Theoretical and Experimental Issues on Jet Structure at Hadron Colliders
+    org: Kavli IMPU and KEK
+    date: January 2017
+    other: "[[|]], [[|]], [[|]], //"
+  
+  - title: "Jet Physics"
+    parts:
+      - title: Introduction to Jets
+        url: http://www.jthaler.net/talks/jthaler_2016_07_MITP_Lecture1.pdf
+      - title: Jet Algorithms
+        url: http://www.jthaler.net/talks/jthaler_2016_07_MITP_Lecture2.pdf
+      - title: The Soft/Collinear Limit of QCD
+        url: http://www.jthaler.net/talks/jthaler_2016_07_MITP_Lecture3.pdf
+      - title: The Substructure (R)evolution
+        url: http://www.jthaler.net/talks/jthaler_2016_07_MITP_Lecture4.pdf
+    event: MITP Summer School
+    org: Mainz
+    date: July 2016
+ 
+  - title: "The Case for Jet Substructure"
+    event: Theorist of the Month
+    org: DESY
+    date: June 2014
+  
+  - title: "Jet Substructure"
+    event: PiTP Summer School
+    org: Princeton
+    date: July 2013
+  
+  - title: "Super-tricks for Superspace"
+    event: TASI Summer School
+    org: C.U. Boulder
+    date: June 2012
+  
+  - title: "Little Lessons for a Little Higgs"
+    event: ICTP Winter School
+    org: Trieste
+    date: January 2012
+   
+  - title: Event Topologies for Early LHC
+    parts:
+      - title: "Goldstini"
+      - title: "The Shape of Jets to Come"
+    event:  Topic of the Week Lecture Series
+    org: Fermilab
+    date: November 2010
+    other:
+  
+  - title: "Entering the LHC Era"
+    event: Felix Villars Theoretical Physics Retreat
+    org: MIT CTP
+    date: January 2010
 
 invited:
 

@@ -12,7 +12,6 @@ aside:
 ## Jesse Diaz Thaler
 
 
-
 * **Wires**
   *  *Email:* [jthaler@mit.edu](jthaler@mit.edu) 
   *  *Web:* [http://www.jthaler.net/](http://www.jthaler.net) 
@@ -284,7 +283,7 @@ aside:
 ### Public Lectures
 
 {% for talk in site.data.cv_talks.public -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %},
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{%- endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} (Virtual Talk) {% endif %}
@@ -293,18 +292,19 @@ aside:
 
 ### Lecture Series & Schools
 
-  * "[[http://www.jthaler.net/talks/jthaler_2022_09_Perimeter_TableTop.pdf|The Standard Model]]", [[https://events.perimeterinstitute.ca/event/14/|School on Table-Top Experiments for Fundamental Physics]], //Perimeter Institute, September 2022//
-  * "[[http://www.jthaler.net/talks/jthaler_2022_03_DarkMatter_LL.pdf|Confronting the Invisible Universe]]", Intro to Modern Physics, //MIT Lincoln Labs, March 2022// 
-  * "QCD & Collider Physics" ([[http://www.jthaler.net/talks/jthaler_2020_01_GGI_QCDCollider_Lecture1.pdf|Overview and Inspiration]], [[http://www.jthaler.net/talks/jthaler_2020_01_GGI_QCDCollider_Lecture2.pdf|From Diagrams to Cross Sections]], [[http://www.jthaler.net/talks/jthaler_2020_01_GGI_QCDCollider_Lecture3.pdf|An Introduction to Jets]], [[http://www.jthaler.net/talks/jthaler_2020_01_GGI_QCDCollider_Lecture4.pdf|A Case Study in Jet Substructure]]), //[[http://www.ggi.infn.it/ggilectures/ggilectures2020/| GGI Lectures on the Theory of Fundamental Interactions]], Florence, January 2020//
-  * "Collider Physics" ([[http://www.jthaler.net/talks/jthaler_2018_07_Cargese_JetLecture1.pdf|Ingredients and Kinematics]], [[http://www.jthaler.net/talks/jthaler_2018_07_Cargese_JetLecture2.pdf|From Diagrams to Cross Sections]], [[http://www.jthaler.net/talks/jthaler_2018_07_Cargese_JetLecture3.pdf|An Introduction to Jets]]), //[[https://indico.desy.de/indico/event/18951/overview|Cargese 2018 International Summer School]], Corsica, July 2018//
-  * [[http://www.jthaler.net/talks/jthaler_2017_01_Japan_Lecture1.pdf|"Introduction to Jet Substructure at the LHC"]], [[http://www.jthaler.net/talks/jthaler_2017_01_Japan_Lecture2.pdf|"A New Angle on Jet Substructure"]], [[http://www.jthaler.net/talks/jthaler_2017_01_Japan_Lecture3.pdf|"Introduction to Jet Physics from QCD"]], [[http://www.jthaler.net/talks/jthaler_2017_01_Japan_Lecture4.pdf|"Jets at the Frontier of Perturbative QCD"]], //Theoretical and Experimental Issues on Jet Structure at Hadron Colliders, Kavli IMPU and KEK, January 2017//
-  * "Jet Physics" ([[http://www.jthaler.net/talks/jthaler_2016_07_MITP_Lecture1.pdf|Introduction to Jets]], [[http://www.jthaler.net/talks/jthaler_2016_07_MITP_Lecture2.pdf|Jet Algorithms]], [[http://www.jthaler.net/talks/jthaler_2016_07_MITP_Lecture3.pdf|The Soft/Collinear Limit of QCD]], [[http://www.jthaler.net/talks/jthaler_2016_07_MITP_Lecture4.pdf|The Substructure (R)evolution]]), //MITP Summer School, Mainz, July 2016//
-  * "The Case for Jet Substructure", //Theorist of the Month, DESY, June 2014//
-  * "Jet Substructure", //PiTP Summer School, Princeton, July 2013//
-  * "Super-tricks for Superspace", //TASI Summer School, C.U. Boulder, June 2012//
-  * "Little Lessons for a Little Higgs", //ICTP Winter School, Trieste, January 2012//
-  * "Goldstini", "The Shape of Jets to Come", "Event Topologies for Early LHC", //Topic of the Week Lecture Series, Fermilab, November 2010//
-  * "Entering the LHC Era", //MIT-CTP Felix Villars Theoretical Physics Retreat, January 2010//
+{% for talk in site.data.cv_talks.schools -%}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}
+      {%- if talk.parts %} (
+      {%- for part in talk.parts -%}
+        {% if part.url %}**[{{part.title}}]({{part.url}})**{% else %}**{{part.title}}**{% endif %}
+      {%- if forloop.last != true-%}, {% endif -%}{% endfor -%}
+      )
+      {%- endif -%},
+   {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
+    *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor %}
+
 
 ### Invited Talks
 
