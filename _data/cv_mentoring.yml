@@ -249,6 +249,7 @@ phd_students:
   - name: Patrick Komiske
     date: 2021
     thesis: "Machine Learning for High-Energy Collider Physics"
+    thesis_url: https://hdl.handle.net/1721.1/142702
     after:
       - title: "Researcher"
         org: PDT Partners
@@ -266,6 +267,7 @@ phd_students:
   - name: Benjamin Elder
     date: 2018
     thesis: "Jet Fragmentation at the LHC"
+    thesis_url: http://hdl.handle.net/1721.1/119105
     after:
        - title: Cognitive Software Developer
          org: IBM
@@ -349,7 +351,8 @@ meng_students:
   - name: Nilai Sarda
     url: http://nilai.cc/
     date: 2020
-    thesis: "Group Anomaly Detection in Collider Data"
+    thesis: "On Anomaly Detection in Particle Accelerators"
+    thesis_url: https://hdl.handle.net/1721.1/127518
     joint: Justin Solomon
     awards:
       - name: Johnson Artificial Intelligence and Decision Making Thesis Award
@@ -359,6 +362,7 @@ meng_students:
   - name: Preksha Naik
     date: 2019
     thesis: "Exploring the Space of Jets with CMS Open Data"
+    thesis_url: "https://hdl.handle.net/1721.1/123044"
     after:
       - title: Physics Ph.D. Candidate
         org: Caltech
@@ -390,6 +394,7 @@ bs_students:
   - name: Serhii Kryhin
     date: 2022
     thesis: "Application of Unsupervised Machine Learning for Event Classification"
+    thesis_url: https://hdl.handle.net/1721.1/144940
     thesis_dates: Fall 2021 - Spring 2022
     awards:
       - name: Morse/Orloff Research Award
@@ -436,7 +441,7 @@ bs_students:
     date: 2019
     thesis: "Analyzing CMS Open Collider Data through Topic Modeling"
     thesis_dates: Spring 2019
-    thesis_url:  https://dspace.mit.edu/handle/1721.1/123389
+    thesis_url:  https://hdl.handle.net/1721.1/123389
     urop: Spring 2017, Fall 2017, Spring 2018, Summer 2018
     awards:
       - name: Joel Matthew Orloff Award for Outstanding Service
@@ -458,7 +463,7 @@ bs_students:
     date: 2018
     thesis: "Photon Isolation and Jet Substructure"
     thesis_dates: Spring 2018
-    thesis_url: https://dspace.mit.edu/handle/1721.1/120219
+    thesis_url: https://hdl.handle.net/1721.1/120219
     after:
       - title: Physics Ph.D. Candidate
         org: U.C. Berkeley
@@ -494,7 +499,7 @@ bs_students:
     date: 2017
     thesis: "Jet Substructure at the Large Hadron Collider"
     thesis_dates: Spring 2017
-    thesis_url: https://dspace.mit.edu/handle/1721.1/111882
+    thesis_url: https://hdl.handle.net/1721.1/111882
     after:
       - title: Physics Ph.D. Candidate
         org: U. Michigan
@@ -510,7 +515,7 @@ bs_students:
     date: 2015
     thesis: "Relativistic Quantum Fields in Theoretical Physics"
     thesis_dates:  Fall 2014 - Spring 2015
-    thesis_url: https://dspace.mit.edu/handle/1721.1/100333
+    thesis_url: https://hdl.handle.net/1721.1/100333
     after:
       - title: Physics Ph.D. Candidate
         org: Princeton
@@ -523,7 +528,7 @@ bs_students:
     date: 2015
     thesis: "Exclusive Cone Jet Algorithms for High Energy Particle Colliders"
     thesis_dates: Fall 2014 - Spring 2015
-    thesis_url: https://dspace.mit.edu/handle/1721.1/100326
+    thesis_url: https://hdl.handle.net/1721.1/100326
     independent: IAP 2015
     urop: Fall 2013, Spring 2014, Summer 2014
     awards:
@@ -540,7 +545,7 @@ bs_students:
     date: 2013
     thesis: "Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking"
     thesis_dates: Fall 2012 - Spring 2013
-    thesis_url: https://dspace.mit.edu/handle/1721.1/83778
+    thesis_url: https://hdl.handle.net/1721.1/83778
     after:
       - title: Physics Ph.D.
         org: Harvard
@@ -555,7 +560,7 @@ bs_students:
     date: 2012
     thesis: "The DarkLight Experiment: Searching for the Dark Photon"
     thesis_dates: Spring 2012
-    thesis_url: https://dspace.mit.edu/handle/1721.1/78551
+    thesis_url: https://hdl.handle.net/1721.1/78551
     after:
       - title: Part III
         org: University of Cambridge
@@ -576,7 +581,7 @@ bs_students:
     date: 2011
     thesis: "Dark Matter Dynamics in the Early Universe"
     thesis_dates: Spring 2011
-    thesis_url: https://dspace.mit.edu/handle/1721.1/72934
+    thesis_url: https://hdl.handle.net/1721.1/72934
     after:
       - title: Physics Ph.D. Candidate
         org: Princeton
@@ -584,6 +589,7 @@ bs_students:
   - name: Ken Van Tilburg
     date: 2011
     thesis: "Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering"
+    thesis_url: http://hdl.handle.net/1721.1/65536
     thesis_dates: Spring 2011
     after:
       - title: Physics Ph.D

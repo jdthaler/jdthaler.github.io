@@ -124,7 +124,7 @@ aside:
 {% for person in site.data.cv_mentoring.phd_students -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}Ph.D.{% else %}anticipated Ph.D.{% endif %} {{person.date}}
   {%- if person.thesis %}
-      * Thesis: "{{person.thesis}}"  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+      * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
       * {{award.name}}, *{{award.org}}, {{award.date}}*  
   {%- endfor %}{% endif %}
@@ -139,7 +139,7 @@ aside:
 {% for person in site.data.cv_mentoring.meng_students -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}M.Eng.{% else %}anticipated M.Eng.{% endif %} {{person.date}}
   {%- if person.thesis %}
-      * Thesis: "{{person.thesis}}"  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+      * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
       * {{award.name}}, *{{award.org}}, {{award.date}}*  
   {%- endfor %}{% endif %}
