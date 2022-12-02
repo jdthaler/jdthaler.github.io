@@ -7,9 +7,9 @@ aside:
 ---
 
 
-====== Research Questions ======
+## Research
 
-==== I'm interested in working in your research group.  Where do I sign up? ====
+== I'm interested in working in your research group.  Where do I sign up? ====
 
 There is some information about [[join|joining]] my group.  If you have further questions, [[jthaler@jthaler.net|send me an email]].
 
@@ -53,7 +53,7 @@ If I am on your PhD thesis committee and you make one of the above bold statemen
 
 You mean "[[http://abracadabra.mit.edu/|ABRACADABRA]]" (A Broadband or Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus)?  Or "[[http://dmtpc.mit.edu/DarkLight/|DarkLight]]" (Detecting A Resonance Kinematically with Leptons Incident on a Gaseous Hydrogen Target)?  Or the infamous "[[https://arxiv.org/abs/1712.07124|P...B...S...]]" (Polynomial... Basis... for... Substructure..., see footnote 10), which would likely best the competition at [[https://www.cfa.harvard.edu/~gpetitpas/Links/Astroacro.html|DOOFAAS]]?  I write down a sentence describing the idea, take the first letters of (most) of the words, and watch my collaborators cringe.
 
-====== Mentoring Questions ======
+## Mentoring
 
 ==== Do you have advice for a starting theoretical physicist? ====
 
@@ -129,62 +129,44 @@ In terms of specific advice, here are three typical suggestions I make at practi
 
 
 
-====== Teaching Questions ======
+## Teaching
 
-==== Have you ever let your students down? ====
+#### Have you ever let your students down?
 
-During the covid pandemic in Spring 2020, we faced difficult decisions about how to assess student understanding of the material in [[http://stellar.mit.edu/S/course/8/sp20/8.044/|8.044 (Statistical Mechanics)]].  One student asked whether the final assignment grade could be dropped if their problem set grades were higher.  In response, I posted the following message to [[https://piazza.com/|Piazza]]:
+During the covid pandemic in Spring 2020, we faced difficult decisions about how to assess student understanding of the material in [8.044 (Statistical Mechanics)](http://stellar.mit.edu/S/course/8/sp20/8.044/).  One student asked whether the final assignment grade could be dropped if their problem set grades were higher.  In response, I posted the following message to [Piazza](https://piazza.com/):
 
-> We have developed the following [[https://www.youtube.com/watch?v=dQw4w9WgXcQ|official policy]] about whether it might be possible to give up the final assignment grade.
+> We have developed the following [official policy](https://www.youtube.com/watch?v=dQw4w9WgXcQ) about whether it might be possible to give up the final assignment grade.
 
 At the end of the semester, some students got together to make their opinions known:
 
-> W​e have collaborated on the following [[https://youtu.be/CcV5M7IMLt0|official evaluation]] ​of 8.044 this semester.
+> W​e have collaborated on the following [official evaluation](https://youtu.be/CcV5M7IMLt0) ​of 8.044 this semester.
 
-I appreciated their candor in telling us just how they're feeling and making us understand.  Certainly, a learning experience for everyone.  Thank goodness we were on [[https://facultygovernance.mit.edu/rules-and-regulations#2-64|emergency pass/no record grading]].
+I appreciated their candor in telling us just how they're feeling and making us understand.  Certainly, a learning experience for everyone.  Thank goodness we were on [emergency pass/no record grading](https://facultygovernance.mit.edu/rules-and-regulations#2-64).
 
-====== Personal Questions ======
+## Personal
 
-==== What are your pronouns? ====
+#### What are your pronouns?
 
 He/him/his.
 
 I have debated many times with myself about whether I should put this information in my email signature, and I finally decided to add this information in October 2021, for reasons I explain below.
 
-First, let me explain my long hesitation.  "Jesse" is a somewhat gender ambiguous name, and I don't mind (too much) when people add an extra "i" by mistake.  It felt a bit uncomfortable to assert my gender at this point in my career when the gender ambiguity in my name (and in my past [[http://v1.jthaler.net/photos/images/2002.05.C/dance_rig.jpg|hairstyle]]) was part of my experience growing up.  Also, physics is a rather male-dominated field, and I worried that providing my pronouns would somehow reinforce male-ness as the default for a physics professor, though I also appreciated that my reticence was probably doing so implicitly.  I do like the way that providing pronouns signals an aspiration towards a more diverse and inclusive physics environment.  As I often tell my students: there are as many ways to be a successful physicist as there are successful physicists.  So while I didn't give my preferred pronouns, my email signature did (and still does) have a link to the [[https://physics.mit.edu/about-physics/community-values/|MIT Physics Community Values]].
+First, let me explain my long hesitation.  "Jesse" is a somewhat gender ambiguous name, and I don't mind (too much) when people add an extra "i" by mistake.  It felt a bit uncomfortable to assert my gender at this point in my career when the gender ambiguity in my name (and in my past [hairstyle](http://v1.jthaler.net/photos/images/2002.05.C/dance_rig.jpg)) was part of my experience growing up.  Also, physics is a rather male-dominated field, and I worried that providing my pronouns would somehow reinforce male-ness as the default for a physics professor, though I also appreciated that my reticence was probably doing so implicitly.  I do like the way that providing pronouns signals an aspiration towards a more diverse and inclusive physics environment.  As I often tell my students: there are as many ways to be a successful physicist as there are successful physicists.  So while I didn't give my preferred pronouns, my email signature did (and still does) have a link to the [MIT Physics Community Values](https://physics.mit.edu/about-physics/community-values/).
 
-What made me change my mind to include my pronouns?  I received an email from a student who put not only their pronouns but also the pronunciation of their name in their email signature.  In the same way that misgendering a person is disrespectful, mispronouncing their name is as well.  Providing this information seemed like a positive (albeit small) step towards making the physics community more welcome.  So while I didn't go so far as to create an [[https://diversity.lbl.gov/2020/09/15/how-do-you-pronounce-your-name-add-an-audio-pronunciation-link-to-your-email/|audio version of my name]], I now state both my pronouns (he/him/his) and my pronunciation (JEH-see THAY-lr) in my signature. 
-
-
+What made me change my mind to include my pronouns?  I received an email from a student who put not only their pronouns but also the pronunciation of their name in their email signature.  In the same way that misgendering a person is disrespectful, mispronouncing their name is as well.  Providing this information seemed like a positive (albeit small) step towards making the physics community more welcoming.  So while I didn't go so far as to create an [audio version of my name](https://diversity.lbl.gov/2020/09/15/how-do-you-pronounce-your-name-add-an-audio-pronunciation-link-to-your-email/), I now state both my pronouns (he/him/his) and my pronunciation (JEH-see THAY-lr) in my signature. 
 
 
+#### What's up with your website?
 
-====== Website Questions ======
+Though I loved my old [custom html black and white](http://v1.jthaler.net/) webpage, I never got around to editting it much.  In 2007, I decided to move to [DokuWiki](http://v2.jthaler.net/).  In the wiki format, editing and viewing pages takes the same amount of work, so I was hoping that my innate narcissism would drive me to actually create updated content.
+
+What actually happened, though, is that I just kept adding items to my [cc](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
+
+So I decided that I really needed two websites, one for "[ready for my TED talk](https://www.squarespace.com/)" Jesse and one for "[pip install my student's code](https://github.com/)" Jesse.  Perhaps someday they will once again merge into a one webpage... that I never get around to editting very much.
 
 
-==== Why a wiki? ====
+## Logic
 
-Though I loved my [[http://v1.jthaler.net/|old black and white]] webpage, I never got around to editting it much.  In the wiki format, editing and viewing pages take the same amount of work, so my innate narcissism will drive me to actually make updated content.  Or at least that's the hope...
-
-==== What wiki server do you use? ====
-
-I use [[http://www.splitbrain.org/projects/dokuwiki|DokuWiki]] because... well, I'm not sure why, but it works.
-
-==== Why don't you ever update your website? ====
-
-Because I am too busy padding my [[cv]].
-
-==== Why don't you have a blog? ====
-
-See above.  Though I do think that scientific communication to the general public is very important, so I participate in the [[http://www.physicstheorynet.org|TheoryNet]] program to visit high school physics classes in the Boston area.  Also, I appear briefly in a [[http://particlefever.com/|particle physics documentary]].
-==== Who chose your color scheme? ====
-
-{{ images:jazz2005.gif |San Francisco Jazz Festival}}
-
-What?  You don't like [[orange links]]?  I was semi-inspired by the [[http://www.sfjazz.org/|SFJAZZ]] poster hanging in my office, but a certain someone refused to let me use purple.  Consider yourself lucky I didn't use the {{::sfjazz2004.png?linkonly|2004}} color scheme.
-
-====== Logic Questions ======
-
-==== Is today opposite day? ====
+#### Is today opposite day?
 
 Today is and is not opposite day.  [h/t Adrian]
