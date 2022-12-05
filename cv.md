@@ -308,6 +308,11 @@ aside:
 
 ### Invited Talks
 
+{% for talk in site.data.cv_talks.invited -%}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor %}
+
   * "[[http://www.jthaler.net/talks/jthaler_2022_07_Snowmass_Pheno.pdf|The Frontiers of Phenomenological Theory]]", [[https://indico.fnal.gov/event/22303/|Snowmass Community Summer Study]], //U. Washington, Seattle, July 2022//
   * "[[http://www.jthaler.net/talks/jthaler_2022_07_KIAS_Summer_School.pdf|Weak Supervision for the Strong Force]]", [[http://events.kias.re.kr/h/QUCAI2022/|QUC Summer School]], //KIAS, July 2022// (Virtual Talk)
   * "[[http://www.jthaler.net/talks/jthaler_2022_06_PhysicsMeetsML.pdf|Weak Supervision for the Strong Force]]", [[http://www.physicsmeetsml.org/posts/sem_2022_06_01/|Physics Meets ML]], //Virtual, June 2022//
@@ -363,6 +368,11 @@ aside:
 
 ### Local Presentations
 
+{% for talk in site.data.cv_talks.local -%}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor %}
+
 
   * "[[http://www.jthaler.net/talks/jthaler_2022_05_IAIFI_Faculty_Lunch.pdf|Deep Learning: Lessons from the Launch of IAIFI]]", MIT Physics Faculty Lunch, //May 2022//
   * "SPS/PGSC Career Panel", MIT Physics, //November 2021//
@@ -383,6 +393,11 @@ aside:
   * "The LHC Won’t Destroy the Planet (But Will Spark a Revolution)", //MIT Physics IAP Lecture 2010//
 
 ### Invited Seminars
+
+{% for talk in site.data.cv_talks.seminars -%}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor %}
 
   * "[[http://www.jthaler.net/talks/jthaler_2022_11_Brown_Seminar.pdf|Machine Learning for the Skeptical HEP Theorist]]", Brown, November 2022
   * "[[http://www.jthaler.net/talks/jthaler_2022_05_HiddenGeometry_Bern.pdf|The Geometry of Particle Collisions: Hidden in Plain Sight]]", Bern, May 2022 (virtual talk)
@@ -510,6 +525,11 @@ aside:
   * "Little Technicolor", New York U., March 2005 
 
 ### Additional Conferences/Workshops
+
+{% for talk in site.data.cv_talks.additional -%}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+{% endfor %}
 
 
   * Panelist, [[https://indico.cern.ch/event/1159913/|ML4Jets 2020]], //Rutgers, November 2022// (Advisory Board)
