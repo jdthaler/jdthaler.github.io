@@ -409,6 +409,14 @@ invited:
     date: July 2022
     virtual: true
   
+  - title: "Weak Supervision for the Strong Force"
+    url: http://www.jthaler.net/talks/jthaler_2022_06_PhysicsMeetsML.pdf
+    event: Physics Meets ML
+    event_url: http://www.physicsmeetsml.org/posts/sem_2022_06_01/
+    org: Virtual
+    date: June 2022
+    virtual: true
+  
   - title: "Machine Learning in Collider Physics"
     url: http://www.jthaler.net/talks/jthaler_2022_03_Brown_Snowmass.pdf
     event: Snowmass Energy Frontier Workshop
@@ -461,7 +469,8 @@ invited:
     event_url: https://indico.cern.ch/event/1009701/
     org: CERN-TH Workshop
     date: June 2021
-    
+    virtual: true
+
   
   - title: "QCD and Jets through the Lens of Machine Learning"
     url: http://www.jthaler.net/talks/jthaler_2021_05_MITP_Lattice_QCD_ML.pdf
@@ -488,36 +497,34 @@ invited:
     virtual: true
   
   - title: "QCD and Jets through the Lens of Machine Learning"
+    collab: "Frédéric Dreyer"
     url: http://www.jthaler.net/talks/jthaler_2021_03_KITP_ML_w_Dreyer.pdf
     event: New Physics from Precision at High Energies
     event_url: https://www.kitp.ucsb.edu/activities/precision21
     org: KITP, Santa Barbara
     date: March 2021
     virtual: true
-    other: (with Frédéric Dreyer)
     
   - title: "Artificial Intelligence for Physics Discovery: Theory Perspective"
     url: http://www.jthaler.net/talks/jthaler_2021_02_AAAS_AI_Theory.pdf
     event: Session on Artificial Intelligence for Physics
-    event_url: https://aaas.confex.com/aaas/2021/meetingapp.cgi/Paper/28417
+    event_url: https://indico.cern.ch/event/1031957/
     org: AAAS Annual Meeting
     date: February 2021
-    other: https://indico.cern.ch/event/1031957/
-    other: (Recorded Talk)
   
   - title: "Machine Learning for Fundamental Physics"
     url: http://www.jthaler.net/talks/jthaler_2021_01_HKUST_HEP.pdf
-    event: HKUST IAS Program on High Energy Physics
+    event: Program on High Energy Physics
     event_url: https://indico.cern.ch/event/971970/
-    org:
+    org: HKUST IAS
     date: January 2021
     virtual: true
   
   - title: "Collider Physics and Machine Learning"
     url: http://www.jthaler.net/talks/jthaler_2020_12_IFT_Xmas.pdf
-    event: XXVI IFT Christmas Workshop
+    event: XXVI  Christmas Workshop
     event_url: https://workshops.ift.uam-csic.es/Xmas20
-    org:
+    org: IFT
     date: December 2020
     virtual: true
   
@@ -541,7 +548,6 @@ invited:
     event_url: https://indico.cern.ch/event/777988/
     org: Pittsburg
     date: May 2019
-    other:
   
   - title: "Collision Course: Particle Physics as a Machine-Learning Testbed"
     url: http://www.jthaler.net/talks/jthaler_2019_02_Hamburg_Collision.pdf
@@ -563,7 +569,6 @@ invited:
     event_url: https://indico.cern.ch/event/745718/
     org: Fermilab
     date: November 2018
-    other: (Opening Talk)
   
   - title: "New Improvements in Jet Physics"
     url: http://www.jthaler.net/talks/jthaler_2018_07_SUSY18_Jets.pdf
@@ -578,7 +583,6 @@ invited:
     event_url: https://indico.cern.ch/e/boost2018
     org: Paris
     date: July 2018
-    other: (Closing Talk)
   
   - title: "The Future is Open:  Jet Substructure with CMS Public Data"
     url: http://www.jthaler.net/talks/jthaler_2018_06_CMSWeek_OpenData.pdf
@@ -621,7 +625,6 @@ invited:
     event: Boost 2016
     org: Zurich
     date: July 2016
-    other: (Refocus Talk)
   
   - title: "Probing the Core of QCD with Jet Substructure"
     event: Stress-testing the Standard Model at the LHC
@@ -647,7 +650,6 @@ invited:
     event: Boost 2015
     org: Chicago
     date: August 2015
-    other: (Advisory Committee)
   
   - title: "Unsafe but Calculable: Jets at the Frontier of Perturbative QCD"
     event: PASCOS 2015
@@ -676,9 +678,8 @@ invited:
   
   - title: "New Observables for Jet Substructure"
     event: 43rd International Symposium on Multiparticle Dynamics (ISMD13)
-    org:
+    org: Chicago
     date: September 2013
-    other: Chicago
   
   - title: "The Case for Jet Substructure"
     event: SEARCH 2013
@@ -692,9 +693,8 @@ invited:
   
   - title: "Supersymmetry at the Frontiers"
     event: Snowmass on the Pacific
-    org: KITP, Santa Barbara,
+    org: KITP, Santa Barbara
     date: May 2013
-    other: (Rapporteur Talk)
   
   - title: "Jet Substructure and N-subjettiness"
     event: Monte Carlo for Beyond the Standard Model 2012
@@ -702,8 +702,8 @@ invited:
     date: March 2012
   
   - title: "Big Questions in Particle Physics"
-    url: http://web.mit.edu/panic11/
     event: PANIC11
+    event_url: http://web.mit.edu/panic11/
     org: MIT
     date: July 2011
   
@@ -711,7 +711,6 @@ invited:
     event: Hadron Collider Physics Symposium
     org: Toronto
     date: August 2010
-    other: (Closing Talk)
   
   - title: "Supersymmetry Breaks (Again)"
     event: Honoring Gerry Guralnik's 2010 Sakurai Prize
@@ -727,7 +726,6 @@ invited:
     event: Physics in the LHC Era
     org: Aspen Center for Physics
     date: February 2009
-    other: (Opening Talk)
 
 
 local:
@@ -755,9 +753,9 @@ local:
     org: MIT AI+D
     date: September 2020
   
-  - title: "Making the Cut - Job Searching During a COVID-19 Economy: A Panel Discussion"
-    event: MIT Postdoctoral Association
-    org: MIT
+  - title: "Making the Cut - Job Searching During a COVID-19 Economy"
+    event: Panel Discussion
+    org: MIT Postdoctoral Association
     date: June 2020
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
@@ -767,33 +765,33 @@ local:
     date: September 2019
   
   - title: "The Nuts and Bolts of Academic Job Search"
-    event: MIT Graduate Student Council
-    org:
+    event: Panel Discussion
+    org: MIT Graduate Student Council
     date: July 2018
   
   - title: "(B)SM Physics"
-    event: Physics Graduate Student Lunch
-    org:
+    event:  Graduate Student Lunch
+    org: MIT Physics
     date: November 2016
   
   - title: "Jet Substructure"
     event: Tenure-Track Faculty Lunch
-    org:
+    org: MIT School of Science
     date: November 2015
   
   - title: "Implications of the Higgs Boson"
-    event: MIT PhysPOP Orientation Lecture
-    org:
+    event: Orientation Lecture
+    org: MIT PhysPOP
     date: August 2013
   
   - title: "The Higgs Boson: Keystone of the Standard Model"
-    event: MIT MISTI Presentation
-    org:
+    event: Presentation
+    org: MIT MISTI
     date: April 2013
   
   - title: "Dark Matter Beyond the Standard Model"
-    event: MIT Astronomical Event
-    org:
+    event: Presentation
+    org: MIT Astronomical Event
     date: October 2012
   
   - title: "Hints of New Physics at the Energy Frontier"
@@ -829,13 +827,6 @@ seminars:
     org: Brown
     date: November 2022
   
-  - title: "Weak Supervision for the Strong Force"
-    url: http://www.jthaler.net/talks/jthaler_2022_06_PhysicsMeetsML.pdf
-    event: Physics Meets ML Seminar
-    event_url: http://www.physicsmeetsml.org/posts/sem_2022_06_01/
-    org: Physics Meets ML
-    date: June 2022
-    virtual: true
   
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
     url: http://www.jthaler.net/talks/jthaler_2022_05_HiddenGeometry_Bern.pdf
@@ -848,20 +839,21 @@ seminars:
     url: http://www.jthaler.net/talks/jthaler_2022_04_SLAC_Quantum.pdf
     event: Seminar
     org: SLAC
-    date: Apr 2022
+    date: April 2022
     virtual: true
   
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
     url: http://www.jthaler.net/talks/jthaler_2022_04_HiddenGeometry_Austin.pdf
     event: Seminar
     org: UT Austin
-    date: Apr 2022
+    date: April 2022
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
     url: http://www.jthaler.net/talks/jthaler_2022_03_HiddenGeometry_Sussex.pdf
+    event: Seminar
     org: Sussex
-    date: Mar 2022
+    date: March 2022
     virtual: true
     
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
@@ -869,14 +861,14 @@ seminars:
     event: MIT Stochastics and Statistics Seminar
     event_url: https://stat.mit.edu/seminars/
     org: MIT
-    date: Dec 2021
+    date: December 2021
   
   - title: "Quantum (Inspired) Algorithms for Collider Physics"
     url: http://www.jthaler.net/talks/jthaler_2021_11_QuantHEP.pdf
     event: QuantHEP Seminar
     event_url: http://quanthep-seminar.org/session/session-13/
     org:
-    date: Nov 2021
+    date: November 2021
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
@@ -917,6 +909,8 @@ seminars:
     event_url: https://conference.ippp.dur.ac.uk/event/1006/
     org: IPPP Durham
     date: May 2021
+    virtual: true
+
     
   - title: "The Hidden Geometry of Particle Collisions"
     url: http://www.jthaler.net/talks/jthaler_2021_04_HiddenGeometry_TUM.pdf
@@ -943,7 +937,7 @@ seminars:
     url: http://www.jthaler.net/talks/jthaler_2021_02_HiddenGeometry_Paris.pdf
     event: Particle Physics in Paris
     event_url: https://indico.in2p3.fr/event/22930/
-    org:
+    org: Paris
     date: February 2021
     virtual: true
   
@@ -984,17 +978,15 @@ seminars:
   
   - title: "Quantum Algorithms for Collider Physics"
     url: http://www.jthaler.net/talks/jthaler_2019_11_CaseWestern_QI.pdf
-    event: Seminar
+    event: Informal Talk
     org: Case Western
     date: November 2019
-    other: (informal talk)
   
   - title: "Data-Driven Approaches to Jet Quenching"
     url: http://www.jthaler.net/talks/jthaler_2019_10_Rice_Informal.pdf
-    event: Seminar
+    event: Informal Talk
     org: Rice
     date: October 2019
-    other: (informal talk)
   
   - title: "The Space of Collider Events"
     url: http://www.jthaler.net/talks/jthaler_2019_06_Ljubljana_EMD.pdf
@@ -1004,13 +996,13 @@ seminars:
   
   - title: "The Space of Collider Events"
     url: http://www.jthaler.net/talks/jthaler_2019_04_SLAC_EMD.pdf
-    event:
+    event: Seminar
     org: SLAC
     date: April 2019
   
   - title: "The Space of Collider Events"
     url: http://www.jthaler.net/talks/jthaler_2019_04_UCSC_EMD.pdf
-    event:
+    event: Seminar
     org: U.C. Santa Cruz
     date: April 2019
   
@@ -1523,29 +1515,21 @@ seminars:
 
 additional:
 
-  - title:
-    url:
+  - panelist: true
     event: ML4Jets 2020
     event_url: https://indico.cern.ch/event/1159913/
     org: Rutgers
     date: November 2022
-    panelist: true
-    other: (Advisory Board)
   
-  - title:
-    url:
-    event: 2022 Mathematics and Physical Sciences Annual Meeting
+  - event: 2022 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2022/
     org: Simons Foundation
     date: October 2022
-    talk: false
   
-  - title: "Does the World need a new particle collider – and why?"
-    url:
-    event: European Committee for Future Accelerators
-    org:
+  - panelist: true
+    event: "Does the World need a new particle collider – and why?"
+    org: European Committee for Future Accelerators, Hamburg
     date: October 2022
-    panelist: true
     other: Virtual to Hamburg
   
   - title: "Machine Learning for High Energy Physics"
@@ -1555,13 +1539,10 @@ additional:
     org: GGI
     date: Aug 2022
   
-  - title: "Summiting the Unknown: New Physics, New Opportunities, New Voices"
-    url:
-    event:
+  - event: "Summiting the Unknown: New Physics, New Opportunities, New Voices"
     event_url: https://indico.fnal.gov/event/22915/
     org: U. Washington
     date: July 2022
-    talk: false
     other: Seattle
   
   - title:
@@ -1569,26 +1550,23 @@ additional:
     event: Interplay of Fundamental Physics and Machine Learning
     org: Aspen Center for Physics
     date: June 2022
-    talk: false
-    other: (Organizer)
   
-  - title:
+  - panelist: true
+    title:
     url: http://www.jthaler.net/talks/jthaler_2022_02_IAIFI_AAAI.pdf
     event: AAAI-22
     event_url: https://aaai.org/Conferences/AAAI-22/
     org:
     date: February 2022
     other: USDA/NSF AI Institutes
-    panelist: true
     virtual: true
     
   - title: "AI and Science"
     url: http://www.jthaler.net/talks/jthaler_2022_02_IAIFI_CACM.pdf
-    event: CACM Digital Event
+    event: Digital Event
     event_url: https://cacm.acm.org/magazines/2022/4/259397-communications-digital-initiative-and-its-first-digital-event/fulltext
-    org:
+    org: CACM
     date: February 2022
-    panelist: true
     virtual: true
     
   - title: "The current limits of AI in science"
@@ -1607,7 +1585,6 @@ additional:
     event_url: https://indico.fnal.gov/event/44870/sessions/16258/
     org:
     date: October 2020
-    other: Convener
     other: https://indico.cern.ch/e/CMSOpenDataForTheorists
     other: Snowmass Community Planning Meeting
  
@@ -1615,13 +1592,11 @@ additional:
     url: http://www.jthaler.net/talks/jthaler_2020_09_OpenData_WorkshopWelcome.pdf
     event: CMS Open Data Workshop for Theorists
     event_url: https://indico.cern.ch/e/CMSOpenDataForTheorists
-    org:
+    org: Fermilab LPC
     date: September 2020
     virtual: Online
   
-  - title:
-    url:
-    event: BOOST 2020
+  - event: BOOST 2020
     event_url: https://indico.cern.ch/event/775951
     org: BOOST 2020
     date: July 2020
@@ -1629,23 +1604,17 @@ additional:
     virtual: true
     other: Webinars
   
-  - title:
-    url:
-    event: Anomaly Detection Mini-Workshop
+  - event: Anomaly Detection Mini-Workshop
     event_url: https://indico.desy.de/indico/event/25341/
     org:
     date: July 2020
-    talk: false
     virtual: true
   
-  - title:
-    url:
-    event: ML4Jets 2020
+  - event: ML4Jets 2020
     event_url: https://indico.cern.ch/event/809820/
     org: NYU
     date: January 2019
     talk: false
-    other: (Organizer)
   
   - title: "Deep Learning (and Deep Thinking) in Collider Physics"
     url: http://www.jthaler.net/talks/jthaler_2019_08_USATLAS_ML.pdf
@@ -1654,13 +1623,10 @@ additional:
     org: UMass Amherst
     date: August 2019
   
-  - title:
-    url:
-    event: Boost 2019
+  - event: Boost 2019
     event_url: https://indico.cern.ch/e/boost2019
     org: MIT
     date: July 2019
-    talk: false
     other: (Organizer)
   
   - title: "Voyages into Machine Learning"
@@ -1680,21 +1646,16 @@ additional:
     other: (Poster)
     other: Rockville, MD.
   
-  - title:
-    url:
-    event: Boosted Objects for New Physics Searches
+  - event: Boosted Objects for New Physics Searches
     event_url: https://indico.cern.ch/event/750705/
     org: Fermilab
     date: November 2018
     talk: false
   
-  - title:
-    url:
-    event: 2018 Mathematics and Physical Sciences Annual Meeting
+  - event: 2018 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/2018-mps-annual-meeting/
     org: Simons Foundation
     date: October 2018
-    talk: false
   
   - title: "The Energy Flow Basis"
     url: http://www.jthaler.net/talks/jthaler_2018_04_MIT_RecoML.pdf
@@ -1703,21 +1664,15 @@ additional:
     org: MIT
     date: April 2018
   
-  - title:
-    url:
-    event: IsoDAR Workshop
+  - event: IsoDAR Workshop
     event_url: http://www-personal.umich.edu/%7Espitzj/Spitz_group_at_UM/IsoDAR_workshop.html
     org: MIT
     date: January 2018
-    talk: false
   
-  - title:
-    url:
-    event: Jet Physics Mini-Workshop
+  - event: Jet Physics Mini-Workshop
     event_url: https://indico.cern.ch/event/690007/
     org: MIT
     date: January 2018
-    talk: false
  
   - title: "The Future is Open: Jet Substructure with CMS Public Data"
     url: http://www.jthaler.net/talks/jthaler_2017_10_Fermilab_OpenData.pdf
@@ -1727,71 +1682,58 @@ additional:
     date: October 2017
     virtual: true
     
-  - title:
-    url:
-    event: Boost 2017
+  - event: Boost 2017
     event_url: https://indico.cern.ch/event/579660/
-    org:
+    org: Buffalo
     date: July 2017
     talk: false
-    other: Buffalo
   
   - title: "Jet Studies for Les Houches"
     url: http://www.jthaler.net/talks/jthaler_2017_06_LesHouches_JetIntro.pdf
     event: Physics at TeV Colliders Workshop
-    org:
+    org: Les Houches
     date: June 2017
-    other: http://www.jthaler.net/talks/jthaler_2017_06_LesHouches_JetSummary.pdf
-    other: "Report of the Les Houches Jet Physics Subgroup"
-    other: Les Houches
-    other: (Jet Convener)
-  
+
+  - title: "Report of the Les Houches Jet Physics Subgroup"
+    url: http://www.jthaler.net/talks/jthaler_2017_06_LesHouches_JetSummary.pdf
+    event: Physics at TeV Colliders Workshop
+    org: Les Houches
+    date: June 2017
+
+
   - title: "Confronting the Invisible Universe"
     url: https://www.youtube.com/watch?v=QNmSNY8VenQ|
     event: Public Talk
     org: Aspen Center for Physics
     date: March 2017
   
-  - title: Aspects of Jets from First Principles"
-    url:
+  - title: "Aspects of Jets from First Principles"
     event: Jets @ LHC Discussion Meeting
-    org:
+    org:  ICTS, Bengaluru
     date: January 2017
-    other: ICTS, Bengaluru
-    virtua: true
+    virtual: true
   
   - title: "Jet Substructure from Protons to Ions"
-    url:
     event: Heavy Ions for 2020 Workshop
     org: MIT
     date: October 2016
   
-  - title: "The LHC Awakens: A New Energy Frontier"
-    url:
-    event: Aspen Center for Physics Workshop
+  - event: "The LHC Awakens: A New Energy Frontier"
     org: Aspen Center for Physics
     date: August 2016
-    talk: false
-    other: (Organizer)
   
   - title: "Discussion of the ATLAS Diboson Excess"
-    url:
     event: Gearing up for LHC13
     org: GGI
     date: Fall 2015
     other: Florence
-    other: (Organizer)
   
   - title: "Jet Studies for Les Houches"
-    url:
     event: Physics at TeV Colliders Workshop
-    org:
+    org: Les Houches
     date: June 2015
-    other: Les Houches
-    other: (Jet Convener)
   
   - title: "Lessons from Jet Substructure for Heavy Ions"
-    url:
     event: ALICE Jet Workshop
     org: Yale
     date: May 2015
@@ -1805,30 +1747,21 @@ additional:
   
   - title: "Mutual Information and Quark/Gluon Discrimination"
     event: Boost 2014
-    org:
+    org: London
     date: August 2014
-    other: London
-    other: (Advisory Committee)
   
-  - title:
-    event: Debates on the Nature of Dark Matter
+  - event: Debates on the Nature of Dark Matter
     org: Harvard
     date: May 2014
-    talk: false
   
-  - title:
-    event: Boston Jet Physics Workshop
+  - event: Boston Jet Physics Workshop
     org: MIT
     date: January 2014
-    talk: false
-    other: (Organizer)
   
   - title: "Unsafe but Calculable"
     event: Boost 2013
     org: Flagstaff
     date: August 2013
-    other:
-    other: (Advisory Committee)
   
   - title: "N-jettiness as a Jet Algorithm"
     event: Snowmass@Brookhaven
@@ -1841,15 +1774,12 @@ additional:
     org: Aspen Center for Physics
     date: August 2012
   
-  - title: Progress in N-subjettiness"
+  - title: "Progress in N-subjettiness"
     event: Boost 2012
     org: Valencia
     date: July 2012
-    other: (Advisory Committee)
   
-  - title:
-    url:
-    event: SEARCH 2012
+  - event: SEARCH 2012
     org: U. Maryland
     date: March 2012
     talk: false
@@ -1864,12 +1794,9 @@ additional:
     org: CERN
     date: August 2011
   
-  - title:
-    event: Year One of the LHC
+  - event: "Year One of the LHC"
     org: Aspen Center for Physics
     date: July 2011
-    talk: false
-    other: (Organizer)
   
   - title: "Big Questions in Particle Physics"
     event: PANIC11
@@ -1887,40 +1814,30 @@ additional:
     date: May 2011
     other: PCTP
   
-  - title: "New Data from the Energy Frontier"
-    url: https://indico.cern.ch/event/103979/
-    event:
+  - event: "New Data from the Energy Frontier"
+    event_url: https://indico.cern.ch/event/103979/
     org: Aspen Center for Physics
     date: February 2011
-    talk: false
-    other: (Organizer)
   
-  - title:
+  - event: Boston Jet Physics Workshop
     url: https://indico.cern.ch/event/113980/
-    event: Boston Jet Physics Workshop
     org: Harvard
     date: January 2011
-    talk: false
-    other: (Organizer)
   
   - title: "Introducing the DarkLight Experiment"
     event: Searching for a New Gauge Boson at JLab
     org: Jefferson Lab
     date: September 2010
   
-  - title: "Implications of First LHC Data"
-    url: http://www-ctp.mit.edu/lhc/
-    event:
+  - title:
+    event: "Implications of First LHC Data"
+    event_url: http://www-ctp.mit.edu/lhc/
     org: MIT
     date: August 2010
-    talk: false
-    other: (Organizer)
   
-  - title:
-    event: From Colliders to the Dark Sector
+  - event: From Colliders to the Dark Sector
     org: Aspen Center for Physics
     date: June 2010
-    talk: false
   
   - title: "Search for New Light Bosons in Electron-Proton Collisions Using the JLab FEL"
     event: Dark Forces Workshop
@@ -1933,11 +1850,9 @@ additional:
     date: August 2009
     other: BSM Institute
     
-  - title:
-    event: Beyond the Standard Model Physics at the Threshold
+  - event: Beyond the Standard Model Physics at the Threshold
     org: Aspen Center for Physics
     date: July 2009
-    talk: false
   
   - title: "Variable Jet Sizes and Anti-kT"
     event: US ATLAS Hadronic Final State Forum
@@ -1981,11 +1896,9 @@ additional:
     org: KITP, Santa Barbara
     date: February 2008
   
-  - title:
-    event: West Coast LHC Theory Network
+  - event: West Coast LHC Theory Network
     org: SLAC
     date: January 2008
-    talk: false
   
   - title: "GenEvA: A New Framework for Event Generation"
     event: LHC New Physics Signatures Workshop
@@ -1993,12 +1906,9 @@ additional:
     date: January 2008
     other: Michigan
   
-  - title:
-    event: New Physics and the LHC
-    org: CERN
+  - event: New Physics and the LHC
+    org: CERN BSM Institute
     date: August 2007
-    talk: false
-    other: BSM Institute
   
   - title: "Good Things Come to Those Who Weight"
     event: Eötvös-Cornell BTSM Workshop

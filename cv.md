@@ -309,62 +309,12 @@ aside:
 ### Invited Talks
 
 {% for talk in site.data.cv_talks.invited -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}
+    {%- if talk.collab %} (with {{talk.collab}}), {% else %}, {% endif %}
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
+    *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} (Virtual Talk) {% endif %}
 {% endfor %}
-
-  * "[[http://www.jthaler.net/talks/jthaler_2022_07_Snowmass_Pheno.pdf|The Frontiers of Phenomenological Theory]]", [[https://indico.fnal.gov/event/22303/|Snowmass Community Summer Study]], //U. Washington, Seattle, July 2022//
-  * "[[http://www.jthaler.net/talks/jthaler_2022_07_KIAS_Summer_School.pdf|Weak Supervision for the Strong Force]]", [[http://events.kias.re.kr/h/QUCAI2022/|QUC Summer School]], //KIAS, July 2022// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2022_06_PhysicsMeetsML.pdf|Weak Supervision for the Strong Force]]", [[http://www.physicsmeetsml.org/posts/sem_2022_06_01/|Physics Meets ML]], //Virtual, June 2022//
-  * "[[http://www.jthaler.net/talks/jthaler_2022_03_Brown_Snowmass.pdf|Machine Learning in Collider Physics]]", [[https://indico.fnal.gov/event/52465/|Snowmass Energy Frontier Workshop]], //Brown, March 2022//
-  * "[[http://www.jthaler.net/talks/jthaler_2022_03_OT_Simons.pdf|Optimal Transport for QCD and Jets]]", [[http://scgp.stonybrook.edu/archives/31750|Flowing into the Future]], //Simons Center, Stony Brook, March 2022//
-  * "[[http://www.jthaler.net/talks/jthaler_2022_02_KITP_Snowmass_2022.pdf|Machine Learning for the Theory Frontier]]", [[https://www.kitp.ucsb.edu/activities/snowmass-c22|Snowmass Theory Frontier Conference]], //KITP, February 2022//
-  * "[[http://www.jthaler.net/talks/jthaler_2021_11_ISTLisbon.pdf|Collision Course:  Particle Physics meets Machine Learning]]", [[http://phdopendays.tecnico.ulisboa.pt|PhD Open Days]], //IST Lisbon, November 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_07_LISHEP_AI.pdf|Artificial Intelligence and Fundamental Physics]]", [[https://indico.cern.ch/event/879856/|LISHEP 2021]], //Brazil, July 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_06_Amsterdam_Master.pdf|Artificial Intelligence and High-Energy Physics]]", [[https://indico.cern.ch/event/1027683/|Master Your Physics]], //U. Amsterdam, June 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_06_CERN_Jets.pdf|Theory Perspective on Machine Learning for Jets ]]", [[https://indico.cern.ch/event/1009701/|Jets and their Substructure from LHC Data]], //CERN-TH Workshop, June 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_05_MITP_Lattice_QCD_ML.pdf|QCD and Jets through the Lens of Machine Learning]]", [[https://indico.mitp.uni-mainz.de/event/231/overview|Machine Learning Techniques in Lattice QCD]], //MITP Workshop, May 2021// (Virtual Talk) 
-  * "[[http://www.jthaler.net/talks/jthaler_2021_05_ICLR_Simulation.pdf|Deep Learning for Collider Physics Simulation]]", [[https://simdl.github.io/schedule/|Deep Learning for Simulation (SimDL)]], //ICLR 2021 Workshop, May 2021// (Recorded Talk) 
-  * "[[http://www.jthaler.net/talks/jthaler_2021_04_APS_April_AI.pdf|Artificial Intelligence and High-Energy Physics]]", [[https://meetings.aps.org/Meeting/APR21/Session/H02|Recent Advances in Theoretical Physics]], //APS April Meeting, April 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_03_KITP_ML_w_Dreyer.pdf|QCD and Jets through the Lens of Machine Learning]]" (with Frédéric Dreyer), [[https://www.kitp.ucsb.edu/activities/precision21|New Physics from Precision at High Energies]], //KITP, Santa Barbara, March 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_02_AAAS_AI_Theory.pdf|Artificial Intelligence for Physics Discovery: Theory Perspective]]", [[https://aaas.confex.com/aaas/2021/meetingapp.cgi/Paper/28417|AAAS Annual Meeting]], [[https://indico.cern.ch/event/1031957/|Session on Artificial Intelligence for Physics]], //February 2021// (Recorded Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_01_HKUST_HEP.pdf|Machine Learning for Fundamental Physics]]", [[https://indico.cern.ch/event/971970/|HKUST IAS Program on High Energy Physics]], //January 2021// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_12_IFT_Xmas.pdf|Collider Physics and Machine Learning]]", [[https://workshops.ift.uam-csic.es/Xmas20|XXVI IFT Christmas Workshop]], //December 2020// (Virtual Talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_IAIFI_GeorgiaTech.pdf|Collision Course:  Artificial Intelligence meets Fundamental Interactions]]", IDEaS AI Seminar, //Georgia Tech, November 2020// (Virtual Talk)
-  * [[http://www.jthaler.net/talks/jthaler_2019_07_QCDLHC_ML.pdf|"Deep Learning (and Deep Thinking) for QCD"]], [[https://indico.fnal.gov/event/19380/|QCD@LHC 2019]], //Buffalo, July 2019//
-  * [[http://www.jthaler.net/talks/jthaler_2019_05_Pheno_ML.pdf|"Deep Learning (and Deep Thinking) in Collider Physics"]], [[https://indico.cern.ch/event/777988/|Pheno 2019]], //Pittsburg, May 2019//
-  * [[http://www.jthaler.net/talks/jthaler_2019_02_Hamburg_Collision.pdf|"Collision Course: Particle Physics as a Machine-Learning Testbed"]], [[https://indico.cern.ch/event/765224/|Deep Learning in the Natural Sciences]], //University of Hamburg, February 2019//
-  * [[http://www.jthaler.net/talks/jthaler_2019_01_AspenML_Collision.pdf|"Collision Course: Particle Physics as a Machine-Learning Testbed"]], [[https://sites.google.com/view/phys4ml|Theoretical Physics for Machine Learning]], //Aspen Center for Physics, January 2019//
-  * [[http://www.jthaler.net/talks/jthaler_2018_11_ML4Jets_Intro.pdf|"A Theorist's Perspective on Machine Learning for Jets"]] (Opening Talk), [[https://indico.cern.ch/event/745718/|Machine Learning for Jet Physics]], //Fermilab, November 2018//
-  * [[http://www.jthaler.net/talks/jthaler_2018_07_SUSY18_Jets.pdf|"New Improvements in Jet Physics"]], [[https://susy2018.ifae.es/|SUSY 2018]], //Barcelona, July 2018//
-  * [[http://www.jthaler.net/talks/jthaler_2018_07_Boost2018_Summary.pdf|"Theory Summary"]] (Closing Talk), [[https://indico.cern.ch/e/boost2018|Boost 2018]], //Paris, July 2018//
-  * [[http://www.jthaler.net/talks/jthaler_2018_06_CMSWeek_OpenData.pdf|"The Future is Open:  Jet Substructure with CMS Public Data"]], CMS Week, // CERN, June 2018//
-  * [[http://www.jthaler.net/talks/jthaler_2017_06_CERN_OpenData.pdf|"The Future is Open:  Jet Substructure with CMS Public Data"]], [[https://indico.cern.ch/event/572734/|LHC and the Standard Model: Physics and Tools]], // CERN, June 2017//
-  * [[http://www.jthaler.net/talks/jthaler_2017_03_Aspen_Jet.pdf|"Recent Progress in Jet Physics"]], [[https://indico.cern.ch/event/550030/|From the LHC to Dark Matter and Beyond]], //Aspen Center for Physics, March 2017//
-  * [[http://www.jthaler.net/talks/jthaler_2017_01_APS_DM_Overview.pdf|"New Frontiers in Dark Matter Detection"]], APS April Meeting, //Washington, DC, January 2017//
-  * [[http://www.jthaler.net/talks/jthaler_2017_01_APS_GPMFC_ABRA.pdf|"Prospects for Cosmic Axion Detection with ABRACADABRA"]], GPMFC Workshop on Ultralight Dark Matter, //Washington, DC, January 2017//
-  * "Using Jets and QCD to Boost the Search for New Physics", Physics in LHC and Early Universe, //U. Tokyo, January 2017//
-  * "The Shape of Jets to Come" (Refocus Talk), Boost 2016, //Zurich, July 2016// 
-  * "Probing the Core of QCD with Jet Substructure", Stress-testing the Standard Model at the LHC, //KITP, Santa Barbara, May 2016//
-  * "Jet Substructure: Boosting the Search for New Physics at the LHC", APS April Meeting, //Salt Lake City, April 2016//
-  * "Theoretical Advances in Jet Substructure", Rencontres de Moriond QCD, //La Thuile, March 2016//
-  * "Theoretical Advances in Jet Substructure", Particle Physics on the Verge of Another Discovery, //Aspen Center for Physics, January 2016//
-  * "Probing the Core of QCD", Boost 2015, //Chicago, August 2015// (Advisory Committee)
-  * "Unsafe but Calculable: Jets at the Frontier of Perturbative QCD", PASCOS 2015, //ICTP, Trieste, July 2015//
-  * "Pushing the Frontiers of Perturbative QCD", Pheno 2015, //Pittsburg, May 2015//
-  * "Hidden Sectors and Dark Forces", BLV 2015, //UMass Amherst, April 2015//
-  * "Physics Opportunities for Future Circular Colliders", FCC Week, //Washington, DC, March 2015//
-  * "Jets in QCD: The Case for Jet Substructure", Quark Confinement and the Hadron Spectrum XI, //St. Petersburg, September 2014//
-  * "New Observables for Jet Substructure", 43rd International Symposium on Multiparticle Dynamics (ISMD13), //Chicago, September 2013// 
-  * "The Case for Jet Substructure", SEARCH 2013, //Stonybrook, August 2013//
-  * "Theoretical Progress in Dissecting Jets", Boost 2013, //Flagstaff, August 2013//
-  * "Supersymmetry at the Frontiers" (Rapporteur Talk), Snowmass on the Pacific, //KITP, Santa Barbara, May 2013// 
-  * "Jet Substructure and N-subjettiness", Monte Carlo for Beyond the Standard Model 2012, //Cornell, March 2012// 
-  * "Big Questions in Particle Physics" (Pedagogical Lecture), [[http://web.mit.edu/panic11/|PANIC11]], //MIT, July 2011//
-  * "Two Views of the Universe" (Closing Talk), Hadron Collider Physics Symposium, //Toronto, August 2010// 
-  * "Supersymmetry Breaks (Again)", in honor of Gerry Guralnik's 2010 Sakurai Prize, //Brown University, May 2010// 
-  * "Goldstini", Emerging Problems in Particle Phenomenology, //ITS/CUNY, April 2010// 
-  * "The Window to the Terascale" (Opening Talk), Physics in the LHC Era, //Aspen Center for Physics, February 2009//   
 
 ### Local Presentations
 
@@ -373,241 +323,24 @@ aside:
     {%- if talk.virtual %} (Virtual Talk) {% endif %}
 {% endfor %}
 
-
-  * "[[http://www.jthaler.net/talks/jthaler_2022_05_IAIFI_Faculty_Lunch.pdf|Deep Learning: Lessons from the Launch of IAIFI]]", MIT Physics Faculty Lunch, //May 2022//
-  * "SPS/PGSC Career Panel", MIT Physics, //November 2021//
-  * "[[http://www.jthaler.net/talks/jthaler_2021_07_IAIFI_WarriorScholar.pdf|IAIFI at MIT Physics]]", Warrior-Scholar Program Open House, //July 2021//
-  * "[[http://www.jthaler.net/talks/jthaler_2020_09_IAIFI_AI+D.pdf|The NSF AI Institute for Artificial Intelligence and Fundamental Interactions]]", MIT AI+D Lunch, //September 2020//
-  * "Making the Cut - Job Searching During a COVID-19 Economy: A Panel Discussion", MIT Postdoctoral Association, //June 2020//
-  * "[[http://www.jthaler.net/talks/jthaler_2019_09_FacultyLunch.pdf|Collision Course:  Particle Physics meets Machine Learning]]", MIT Physics Faculty Lunch, //September 2019//
-  * "The Nuts and Bolts of Academic Job Search", MIT Graduate Student Council, //July 2018//
-  * "(B)SM Physics", Physics Graduate Student Lunch, //November 2016//
-  * "Jet Substructure", Tenure-Track Faculty Lunch, //November 2015//
-  * "Implications of the Higgs Boson", MIT PhysPOP Orientation Lecture, //August 2013//
-  * "The Higgs Boson: Keystone of the Standard Model", MIT MISTI Presentation, //April 2013//
-  * "Dark Matter Beyond the Standard Model", MIT Astronomical Event, //October 2012//
-  * "Hints of New Physics at the Energy Frontier", MIT Physics Alumni Breakfast, //May 2012//
-  * "Beyond the Standard Model at the Frontiers", MIT PhysPOP Orientation Lecture, //August 2011//
-  * "Goldstini at the LHC", MIT Physics Visiting Committee Presentation, //October 2010//
-  * "Supersymmetry Breaks (Again)", MIT Physics Faculty Lunch, //April 2010//
-  * "The LHC Won’t Destroy the Planet (But Will Spark a Revolution)", //MIT Physics IAP Lecture 2010//
-
-### Invited Seminars
+### Seminars
 
 {% for talk in site.data.cv_talks.seminars -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %},
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
+    *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} (Virtual Talk) {% endif %}
 {% endfor %}
 
-  * "[[http://www.jthaler.net/talks/jthaler_2022_11_Brown_Seminar.pdf|Machine Learning for the Skeptical HEP Theorist]]", Brown, November 2022
-  * "[[http://www.jthaler.net/talks/jthaler_2022_05_HiddenGeometry_Bern.pdf|The Geometry of Particle Collisions: Hidden in Plain Sight]]", Bern, May 2022 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2022_04_SLAC_Quantum.pdf|Quantum (Inspired) Algorithms for Collider Physics]]", SLAC, Apr 2022 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2022_04_HiddenGeometry_Austin.pdf|The Geometry of Particle Collisions: Hidden in Plain Sight]]", UT Austin, Apr 2022 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2022_03_HiddenGeometry_Sussex.pdf|The Hidden Geometry of Particle Collisions]]", Sussex, Mar 2022 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_12_HiddenGeometry_SDSC.pdf|The Geometry of Particle Collisions: Hidden in Plain Sight]]", [[https://stat.mit.edu/seminars/|MIT Stochastics and Statistics Seminar]], Dec 2021 (in-person talk!) 
-  * "[[http://www.jthaler.net/talks/jthaler_2021_11_QuantHEP.pdf|Quantum (Inspired) Algorithms for Collider Physics]]", [[http://quanthep-seminar.org/session/session-13/|QuantHEP Seminar]], Nov 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_10_HiddenGeometry_Zurich.pdf|The Hidden Geometry of Particle Collisions]]", [[https://www.physik.uzh.ch/en/seminars/ttpseminar/HS2021/thaler.html|Zurich]], Oct 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_06_HiddenGeometry_GGI.pdf|The Hidden Geometry of Particle Collisions]]", [[https://www.ggi.infn.it/images/TeaBreaks/Jesse_v1.jpg|GGI Tea Breaks' Seminar]], June 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_06_IAIFI_STAMPS.pdf|A Few Collisions between Particle Physics and Machine Learning]]", CMU STAMPS Group Meeting, June 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_06_HiddenGeometry_Heidelberg_MITP.pdf|The Hidden Geometry of Particle Collisions]]", [[https://www.thphys.uni-heidelberg.de/~teilchentee/index.php?n1=ss21&n2=9|Joint Heidelberg Teilchentee]] / [[https://indico.mitp.uni-mainz.de/event/199/sessions/855/|MITP Workshop Seminar]], June 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_05_HiddenGeometry_IPPP.pdf|The Hidden Geometry of Particle Collisions]]", [[https://conference.ippp.dur.ac.uk/event/1006/|IPPP Durham]], May 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_04_HiddenGeometry_TUM.pdf|The Hidden Geometry of Particle Collisions]]", Munich, April 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_04_HiddenGeometry_Florida.pdf|The Hidden Geometry of Particle Collisions]]", Joint Florida HEP Seminar, April 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_02_HiddenGeometry_Oxford.pdf|The Hidden Geometry of Particle Collisions]]", Oxford, February 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2021_02_HiddenGeometry_Paris.pdf|The Hidden Geometry of Particle Collisions]]", [[https://indico.in2p3.fr/event/22930/|Particle Physics in Paris]], February 2021 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_UCDavis.pdf|The Hidden Geometry of Particle Collisions]]", U.C. Davis, November 2020 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_UCSD.pdf|The Hidden Geometry of Particle Collisions]]", U.C. San Diego, November 2020 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_LBNL.pdf|The Hidden Geometry of Particle Collisions]]", LBNL RPM, November 2020 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_10_HiddenGeometry_Cambridge.pdf|The Hidden Geometry of Particle Collisions]]", Cambridge, October 2020 (virtual talk)
-  * "[[http://www.jthaler.net/talks/jthaler_2020_06_TIFR_FreeMeson.pdf|The Hidden Geometry of Particle Collisions]]", TIFR, June 2020 (virtual talk)
-  * [[http://www.jthaler.net/talks/jthaler_2019_11_CaseWestern_QI.pdf|"Quantum Algorithms for Collider Physics"]], Case Western, November 2019 (informal talk)
-  * [[http://www.jthaler.net/talks/jthaler_2019_10_Rice_Informal.pdf|"Data-Driven Approaches to Jet Quenching"]], Rice, October 2019 (informal talk)
-  * [[http://www.jthaler.net/talks/jthaler_2019_06_Ljubljana_EMD.pdf|"The Space of Collider Events"]], Ljubljana, June 2019
-  * [[http://www.jthaler.net/talks/jthaler_2019_04_SLAC_EMD.pdf|"The Space of Collider Events"]], SLAC, April 2019
-  * [[http://www.jthaler.net/talks/jthaler_2019_04_UCSC_EMD.pdf|"The Space of Collider Events"]], U.C. Santa Cruz, April 2019
-  * [[http://www.jthaler.net/talks/jthaler_2019_04_Google_Collision.pdf|"Collision Course: Particle Physics meets Machine Learning"]], Google X Tech Talk, April 2019
-  * [[http://www.jthaler.net/talks/jthaler_2019_03_BU_EMD.pdf|"The Space of Collider Events"]], Boston U., March 2019
-  * [[http://www.jthaler.net/talks/jthaler_2019_02_Brandeis_Collision.pdf|"Collision Course: Particle Physics as a Machine-Learning Testbed"]], Brandeis, February 2019
-  * [[http://www.jthaler.net/talks/jthaler_2018_11_UMich_EFN.pdf|"Deep Sets for Particle Jets"]], U. Michigan, November 2018 
-  * [[http://www.jthaler.net/talks/jthaler_2018_10_NYU_EFN.pdf|"Deep Sets for Particle Jets"]], New York U., October 2018 
-  * [[http://www.jthaler.net/talks/jthaler_2018_10_PDT_Collision.pdf|"Collision Course: Particle Physics as a Machine-Learning Testbed"]], PDT Partners, October 2018
-  * [[http://www.jthaler.net/talks/jthaler_2018_05_Cambridge_Jet_Topics.pdf|"On the Topic of Jets"]], U. Cambridge, May 2018
-  * [[http://www.jthaler.net/talks/jthaler_2018_03_Bicocca_Jet_Topics.pdf|"On the Topic of Jets"]], Milano Bicocca, March 2018
-  * [[http://www.jthaler.net/talks/jthaler_2018_03_Genoa_Jet_Topics.pdf|"On the Topic of Jets"]], Genova, March 2018
-  * [[http://www.jthaler.net/talks/jthaler_2018_02_Carleton_Topics.pdf|"On the Topic of Jets"]], Carleton, February 2018
-  * [[http://www.jthaler.net/talks/jthaler_2017_12_Yale_SysJets.pdf|"Towards Systematic Jet Dissection"]], Yale, December 2017
-  * [[http://www.jthaler.net/talks/jthaler_2017_12_Yale_OpenData.pdf|"The Future is Open: Jet Substructure with CMS Public Data"]], Yale, December 2017
-  * "Casimir Meets Poisson", U.C. Berkeley, April 2017
-  * [[http://www.jthaler.net/talks/jthaler_2017_03_UTAustin_Seminar.pdf|"Casimir Meets Poisson"]], U. Texas, March 2017
-  * "A New Angle on Jet Substructure", SUNY Stony Brook, October 2016
-  * "A New Angle on Jet Substructure", Rutgers, October 2016
-  * "A New Angle on Jet Substructure", Boston U., September 2016
-  * "Probing the Core of QCD with Jet Substructure", Joint Experimental-Theoretical Physics Seminar, Fermilab, May 2016
-  * "Probing the Core of QCD with Jet Substructure", Princeton, May 2016
-  * "Probing the Core of QCD with Jet Substructure", CERN, March 2016
-  * "Hidden Sectors and Dark Forces", Ohio State University, January 2016
-  * "Unsafe but Calculable", University of Toronto, December 2015
-  * "Lessons from DarkLight for Invisible Dark Photon Searches", NEXT Collaboration, December 2015 (remote talk)
-  * "Minimal Supersymmetric Slow-roll Inflation", Stanford, November 2015
-  * "Jet Substructure at a Future Hadron Collider", Fermilab VHEPP Forum, October 2015 (remote talk)
-  * "What is Sudakov Safety?", U. Michigan, February 2015
-  * "What is Sudakov Safety?", U. Minnesota, February 2015
-  * "Jet Substructure and the Frontiers of QCD", Université Catholique de Louvain, January 2015
-  * "(In)direct Detection of Boosted Dark Matter", Vrije Universiteit Brussel, January 2015
-  * "Sudakov Safety", Caltech, November 2014
-  * "(Non)perturbative QCD and Jet Substructure", UMass Amherst, October 2014
-  * "(Non)perturbative QCD and Jet Substructure", Perimeter Institute, October 2014
-  * "Anomaly Mediation from Unbroken Supergravity", U. Chicago, April 2014 
-  * "Anomaly Mediation from Unbroken Supergravity", U.C. Irvine, January 2014 
-  * "Jets Without Jets", Caltech, January 2014
-  * "Jets Without Jets", U.C. Berkeley, December 2013 
-  * "Jets Without Jets", Boston U., December 2013 
-  * "(Non)perturbative QCD and Jet Substructure", U. Oregon, May 2013 
-  * "The Shape of Jets to Come", U. Delaware, April 2013 
-  * "(Non)perturbative QCD and Jet Substructure", Boston U., September 2012 
-  * "The Two Faces of Anomaly Mediation", SLAC, April 2012 
-  * "The Two Faces of Anomaly Mediation", Princeton, March 2012 
-  * "The Two Faces of Anomaly Mediation", Rutgers, March 2012 
-  * "The Two Faces of Anomaly Mediation", New York U., January 2012 
-  * "Goldstini at the LHC", Columbia U., January 2012 
-  * "Goldstini at the LHC", U. New Hampshire, November 2011 
-  * "N-subjettiness", U. Maryland, October 2011 
-  * "N-subjettiness", U. Michigan, October 2011 
-  * "The Spectrum of Goldstini", U. Minnesota, June 2011 
-  * "N-subjettiness", U.C. Davis, March 2011 
-  * "N-subjettiness", U.C. Berkeley, March 2011 
-  * "Aspects of Goldstini", Cornell, October 2010 
-  * "Aspects of Goldstini", Boston U., October 2010 
-  * "Aspects of Goldstini", Harvard, September 2010 
-  * "Aspects of Goldstini", SLAC, June 2010 
-  * "Goldstini", Yale University Particle Theory Seminar, April 2010 
-  * "Goldstini", SUNY Stony Brook/Brookhaven National Laboratory Joint Theory Seminar, March 2010 
-  * "Cosmic Signal from the Hidden Sector", U.C. Santa Cruz, November 2009 
-  * "Dark Force Detection in Low Energy e-p Collisions", U.C. Davis, October 2009 
-  * "Cosmic Signals from the Hidden Sector", Fermilab, October 2009 
-  * "Cosmic Signals from the Hidden Sector", Argonne N.L., October 2009 
-  * "Dark Matter through the Axion Portal", Johns Hopkins, May 2009 
-  *  "Dark Matter through the Axion Portal", U. Maryland, May 2009 
-  * "Collective Quartics and Dangerous Singlets in Little Higgs", SLAC, April 2009 
-  * "Dark Matter through the Axion Portal", Rutgers, March 2009 
-  * "Dark Matter through the Axion Portal", MIT, February 2009 
-  * "Dark Matter through the Axion Portal", Cornell, November 2008 
-  * "GenEvA: A New Framework for Event Generation", U.C. Davis, June 2008 
-  * "GenEvA: A New Framework for Event Generation", Ohio State, May 2008 
-  * "GenEvA: A New Framework for Event Generation", MIT, April 2008 
-  * "GenEvA: A New Framework for Event Generation", U. Arizona, March 2008 
-  * "GenEvA: A New Framework for Event Generation", U. Texas, March 2008 
-  * "GenEvA: A New Framework for Event Generation", SLAC, February 2008
-  * "GenEvA: A New Framework for Event Generation", Princeton, November 2007 
-  * "GenEvA: A New Framework for Event Generation", Rutgers, November 2007 
-  * "Particle Theory and Monte Carlo", Stanford, November 2007 
-  * "Natural/Unnatural", U.C. San Diego, April 2007 
-  * "Natural/Unnatural", U. Michigan, February 2007 
-  * "Natural/Unnatural", Princeton, February 2007 
-  * "Di-Higgs at Dimension Six", Weizmann I., January 2007 
-  * "MARMOSET: Signal-Based Monte Carlo for the LHC", Neve Shalom, January 2007 
-  * "Di-Higgs at Dimension Six", Technion, January 2007 
-  * "Unified Frameworks for the LHC", U. Washington, December 2006 
-  * "Di-Higgs at Dimension Six", SLAC, October 2006 
-  * "Unified Frameworks for the LHC", U.C. Davis, October 2006 
-  * "Unified Frameworks for the LHC", U.C. Irvine, October 2006 
-  * "Supersymmetry and the LHC Inverse Problem", U. Chicago (CDF), March 2006 
-  * "Supersymmetry and the LHC Inverse Problem", U. Minnesota, March 2006 
-  * "Supersymmetry and the LHC Inverse Problem", Perimeter I., March 2006 
-  * "Supersymmetry and the LHC Inverse Problem", Rutgers, December 2005 
-  * "Supersymmetry and the LHC Inverse Problem", U. Pennsylvannia, December 2005 
-  * "Supersymmetry and the LHC Inverse Problem", Princeton, November 2005 
-  * "Supersymmetry and the LHC Inverse Problem", U.C. Berkeley, November 2005 
-  * "Confronting a Degenerate MSSM at the LHC", Stanford, October 2005 
-  * "Supersymmetry and the LHC Inverse Problem", Johns Hopkins, October 2005 
-  * "The Degenerate MSSM", U. Texas, October 2005 
-  * "Little Technicolor", Boston U., April 2005 
-  * "Little Technicolor", New York U., March 2005 
-
-### Additional Conferences/Workshops
+### Additional Events
 
 {% for talk in site.data.cv_talks.additional -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% elsif talk.panelist %}**Panelist**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
+    *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} (Virtual Talk) {% endif %}
 {% endfor %}
 
-
-  * Panelist, [[https://indico.cern.ch/event/1159913/|ML4Jets 2020]], //Rutgers, November 2022// (Advisory Board)
-  * No Talk, [[https://www.simonsfoundation.org/event/mps-annual-meeting-2022/|2022 Mathematics and Physical Sciences Annual Meeting]], //Simons Foundation, October 2022//
-  * Panelist, "Does the World need a new particle collider – and why?", European Committee for Future Accelerators, //Virtual to Hamburg, October 2022//
-  * "[[http://www.jthaler.net/talks/jthaler_2022_08_GGI_Snowmass.pdf|Machine Learning for High Energy Physics]]", [[https://www.ggi.infn.it/showevent.pl?id=411|Machine Learning at GGI]], GGI, Aug 2022
-  * No Talk, [[https://indico.fnal.gov/event/22915/|Summiting the Unknown: New Physics, New Opportunities, New Voices]], //U. Washington, Seattle, July 2022//
-  * No Talk, Interplay of Fundamental Physics and Machine Learning, //Aspen Center for Physics, June 2022// (Organizer)
-  * Panelist, "[[http://www.jthaler.net/talks/jthaler_2022_02_IAIFI_AAAI.pdf|USDA/NSF AI Institutes]]", [[https://aaai.org/Conferences/AAAI-22/|AAAI-22]], //Online, February 2022//
-  * Panelist, "[[http://www.jthaler.net/talks/jthaler_2022_02_IAIFI_CACM.pdf|AI and Science]]", [[https://cacm.acm.org/magazines/2022/4/259397-communications-digital-initiative-and-its-first-digital-event/fulltext|CACM Digital Event]], //Online, February 2022//
-  * Panelist, "The current limits of AI in science", OECD workshop: [[https://www.oecd.org/sti/inno/ai-productivity-of-science.htm|AI and the productivity of science]], //Online, November 2021//  
-  * Convener, "[[https://indico.fnal.gov/event/44870/sessions/16380/|Collider Data Analysis Strategies]]", "[[https://indico.fnal.gov/event/44870/sessions/16258/|Advances in Event Generation and Detector Simulation]]", [[https://indico.cern.ch/e/CMSOpenDataForTheorists|Snowmass Community Planning Meeting]], //Online, October 2020//
-  * "[[http://www.jthaler.net/talks/jthaler_2020_09_OpenData_WorkshopWelcome.pdf|Welcome]]", [[https://indico.cern.ch/e/CMSOpenDataForTheorists|CMS Open Data Workshop for Theorists]], //Online, September 2020//
-  * No Talk, [[https://indico.cern.ch/event/775951/|BOOST 2020 Webinars]], //Online, July 2020//
-  * No Talk, [[https://indico.desy.de/indico/event/25341/|Anomaly Detection Mini-Workshop]], //Online, July 2020//
-  * No Talk, [[https://indico.cern.ch/event/809820/|ML4Jets 2020]], //NYU, January 2019// (Organizer)
-  * [[http://www.jthaler.net/talks/jthaler_2019_08_USATLAS_ML.pdf|"Deep Learning (and Deep Thinking) in Collider Physics"]], [[https://indico.cern.ch/event/813845|US ATLAS Workshop]], //UMass Amherst, August 2019//
-  * No Talk, [[https://indico.cern.ch/e/boost2019|Boost 2019]], //MIT, July 2019// (Organizer)
-  * [[http://www.jthaler.net/talks/jthaler_2019_07_Voyages_ML.pdf|"Voyages into Machine Learning"]], [[https://indico.cern.ch/event/814878/|Voyages Beyond the Standard Model III]], //Zadar, Croatia, July 2019//
-  * [[http://www.jthaler.net/talks/jthaler_2019_01_QuantISED_Poster.pdf|"Quantum Algorithms for Collider Physics"]] (Poster), [[https://www.orau.gov/qispi2018/|DOE Quantum Information Science Kick Off Meeting]], //Rockville, MD, January 2019//
-  * No Talk, [[https://indico.cern.ch/event/750705/|Boosted Objects for New Physics Searches]], //Fermilab, November 2018//
-  * No Talk, [[https://www.simonsfoundation.org/event/2018-mps-annual-meeting/|2018 Mathematics and Physical Sciences Annual Meeting]], //Simons Foundation, October 2018//
-  * [[http://www.jthaler.net/talks/jthaler_2018_04_MIT_RecoML.pdf|"The Energy Flow Basis"]], [[https://indico.cern.ch/event/714134/|Reconstruction, Trigger, and Machine Learning for the HL-LHC]], //MIT, April 2018//
-  * No Talk, [[http://www-personal.umich.edu/%7Espitzj/Spitz_group_at_UM/IsoDAR_workshop.html|IsoDAR Workshop]], //MIT, January 2018// 
-  * No Talk, [[https://indico.cern.ch/event/690007/|Jet Physics Mini-Workshop]], //MIT, January 2018// 
-  * [[http://www.jthaler.net/talks/jthaler_2017_10_Fermilab_OpenData.pdf |"The Future is Open:  Jet Substructure with CMS Public Data"]], [[https://indico.cern.ch/event/639314/|Reinterpretation Forum Workshop]], //Fermilab, October 2017// (Remote Talk)
-  * No Talk, [[https://indico.cern.ch/event/579660/|Boost 2017]], //Buffalo, July 2017// 
-  * [[http://www.jthaler.net/talks/jthaler_2017_06_LesHouches_JetIntro.pdf|"Jet Studies for Les Houches"]], [[http://www.jthaler.net/talks/jthaler_2017_06_LesHouches_JetSummary.pdf|"Report of the Les Houches Jet Physics Subgroup"]], Physics at TeV Colliders Workshop, //Les Houches, June 2017// (Jet Convener)
-  * [[https://www.youtube.com/watch?v=QNmSNY8VenQ|"Confronting the Invisible Universe"]], Public Talk, //Aspen Center for Physics, March 2017//
-  * "Aspects of Jets from First Principles", Jets @ LHC Discussion Meeting, //ICTS, Bengaluru, January 2017// (Remote Talk)
-  * "Jet Substructure from Protons to Ions", Heavy Ions for 2020 Workshop, //MIT, October 2016//
-  * No Talk, Aspen Center for Physics Workshop: "The LHC Awakens: A New Energy Frontier", //August 2016// (Organizer)
-  * "Discussion of the ATLAS Diboson Excess", Gearing up for LHC13, //GGI, Florence, Fall 2015// (Organizer)
-  * "Jet Studies for Les Houches", Physics at TeV Colliders Workshop, //Les Houches, June 2015// (Jet Convener)
-  * "Lessons from Jet Substructure for Heavy Ions", ALICE Jet Workshop, //Yale, May 2015// (Remote Talk)
-  * "The Case for Jet Substructure", International Workshop on Future Linear Colliders (LCWS14), //Belgrade, October 2014// (Remote Talk)
-  * "Mutual Information and Quark/Gluon Discrimination", Boost 2014, //London, August 2014// (Advisory Committee)
-  * No Talk, Debates on the Nature of Dark Matter, //Harvard, May 2014//
-  * No Talk, Boston Jet Physics Workshop, //MIT, January 2014//    (Organizer)
-  * "Unsafe but Calculable", Boost 2013, //Flagstaff, August 2013// (Advisory Committee)
-  * "N-jettiness as a Jet Algorithm", Snowmass@Brookhaven, //Brookhaven, April 2013// (Remote Talk)
-  * "Progress in Jet Substructure", The LHC Shows the Way, //Aspen Center for Physics, August 2012//
-  * "Progress in N-subjettiness", Boost 2012, //Valencia, July 2012// (Advisory Committee)
-  * No Talk, SEARCH 2012, //U. Maryland, March 2012//
-  * "Goldstini", SUSY 2011, //Fermilab, August 2011//
-  * "N-subjettiness", TH-LPCC Summer Institute on LHC Physics, //CERN, August 2011//  
-  * No Talk, Year One of the LHC, //Aspen Center for Physics, July 2011// (Organizer)
-  * "Big Questions in Particle Physics" (Pedagogical Lecture), "N-subjettiness", PANIC11, //MIT, July 2011// (Program Committee)
-  * "N-subjettiness", Boost 2011, //PCTP, Princeton, May 2011//
-  * No Talk, [[https://indico.cern.ch/event/103979/|New Data from the Energy Frontier]], //Aspen Center for Physics, February 2011// (Organizer)
-  * No Talk, [[https://indico.cern.ch/event/113980/|Boston Jet Physics Workshop]], //Harvard, January 2011//    (Organizer)
-  * "Introducing the DarkLight Experiment", Searching for a New Gauge Boson at JLab, //Jefferson Lab, September 2010// 
-  * No Talk, [[http://www-ctp.mit.edu/lhc/|Implications of First LHC Data]], //MIT, August 2010// (Organizer)
-  * No Talk, From Colliders to the Dark Sector, //Aspen Center for Physics, June 2010//  
-  * "Search for New Light Bosons in Electron-Proton Collisions Using the JLab FEL", Dark Forces Workshop, //SLAC, September 2009//  
-  * "Cosmic Signals from the Hidden Sector", BSM Institute, Physics at the LHC, //CERN, August 2009//  
-  * No Talk, Beyond the Standard Model Physics at the Threshold, //Aspen Center for Physics, July 2009//  
-  * "Variable Jet Sizes and Anti-kT", US ATLAS Hadronic Final State Forum, //SLAC, April 2009//  
-  * "The NLO Cascade", SCET 2009, //MIT, March 2009// 
-  * "Dark Matter through the Axion Portal", LHC and Dark Matter Workshop, //MCTP, Michigan, January 2009//  
-  * "GenEvA: A New Framework for Event Generation", New Physics Beyond the Standard Model, //KITPC, Beijing, October 2008//  
-  * "GenEvA: A New Framework for Event Generation", Beyond the Standard Model Signals in a QCD Environment, //Aspen Center for Physics, August 2008//  
-  * "GenEvA: A New Framework for Event Generation", LHC from Data to Discovery, //LANL, Santa Fe, July 2008//  
-  * "GenEvA: A New Framework for Event Generation", Vector Boson Plus Jets Production, //LBL, Berkeley, March 2008//  
-  * "GenEvA: A New Framework for Event Generation", Physics of the Large Hadron Collider, //KITP, Santa Barbara, February 2008//  
-  * No Talk, West Coast LHC Theory Network, //SLAC, January 2008// 
-  * "GenEvA: A New Framework for Event Generation", LHC New Physics Signatures Workshop, //MCTP, Michigan, January 2008// 
-  * No Talk, BSM Institute, New Physics and the LHC, //CERN, August 2007//  
-  * "Good Things Come to Those Who Weight", Eötvös-Cornell BTSM Workshop, //Eötvös University, Budapest, June 2007// 
-  * "MARMOSET", West Coast LHC Theory Network, //U.C. Irvine, May 2007// 
-  * "MARMOSET", Physics at LHC from Experiment to Theory, //PCTP, Princeton, March 2007//  
-  * "MARMOSET", West Coast LHC Theory Network, //U.C. Davis, December 2006// 
-  * "Little M-theory", Joint Meeting of APS-DPF and JPS 2006, //Waikiki, Hawaii, October 2006//  
-  * "Little M-theory", LHC Olympics III, //KITP, Santa Barbara, August 2006// 
-  * "The Harvard Black Box", LHC Olympics II, //CERN, February 2006// 
-  * "The Degenerate MSSM", LHC Olympics, //CERN, July 2005//
-  * "Little Technicolor", "The Degenerate MSSM", SUSY 2005, //IPPP, Durham, July 2005//
-  * "Universal Dynamics of Spontaneous Lorentz-Violation", Fundamental Symmetries and Fundamental Constants, //ICTP, Trieste, September 2004// 
 
 ## Research Grants
 
