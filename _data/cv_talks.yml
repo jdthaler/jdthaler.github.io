@@ -233,14 +233,6 @@ colloquia:
     date: February 2010
     
 public:
-
-  - title: "Artificial Intelligence Meets Fundamental Physics"
-    url: http://www.jthaler.net/talks/jthaler_2021_03_EmTech_InsideTrack.pdf
-    event: MIT Inside Track Master Class
-    event_url: https://event.technologyreview.com/emtech-digital-2021/
-    org: EmTech Digital
-    date: March 2021
-    virtual: true
     
   - title: "Artificial Intelligence Meets Fundamental Physics"
     url: http://www.jthaler.net/talks/jthaler_2021_03_EmTech_InsideTrack.pdf
@@ -379,10 +371,11 @@ schools:
     org: Trieste
     date: January 2012
    
-  - title: Event Topologies for Early LHC
+  - title: "Anticipating New Data from the Energy Frontier"
     parts:
-      - title: "Goldstini"
       - title: "The Shape of Jets to Come"
+      - title: "Event Topologies for Early LHC"
+      - title: "Goldstini at the LHC"
     event:  Topic of the Week Lecture Series
     org: Fermilab
     date: November 2010
@@ -1545,20 +1538,16 @@ additional:
     date: July 2022
     other: Seattle
   
-  - title:
-    url:
-    event: Interplay of Fundamental Physics and Machine Learning
+  - event: Interplay of Fundamental Physics and Machine Learning
     org: Aspen Center for Physics
     date: June 2022
   
-  - panelist: true
-    title:
+  - title: "The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"
     url: http://www.jthaler.net/talks/jthaler_2022_02_IAIFI_AAAI.pdf
-    event: AAAI-22
+    event: USDA/NSF AI Institutes Panel
     event_url: https://aaai.org/Conferences/AAAI-22/
-    org:
+    org: AAAI-22
     date: February 2022
-    other: USDA/NSF AI Institutes
     virtual: true
     
   - title: "AI and Science"
@@ -1570,7 +1559,6 @@ additional:
     virtual: true
     
   - title: "The current limits of AI in science"
-    url:
     event: OECD workshop
     event_url: https://www.oecd.org/sti/inno/ai-productivity-of-science.htm
     org:
@@ -1633,9 +1621,9 @@ additional:
     url: http://www.jthaler.net/talks/jthaler_2019_07_Voyages_ML.pdf
     event: Voyages Beyond the Standard Model III
     event_url: https://indico.cern.ch/event/814878/
-    org:
+    org: Zadar, Croatia
     date: July 2019
-    other: Zadar, Croatia
+    other:
   
   - title: "Quantum Algorithms for Collider Physics"
     url: http://www.jthaler.net/talks/jthaler_2019_01_QuantISED_Poster.pdf
@@ -1820,7 +1808,7 @@ additional:
     date: February 2011
   
   - event: Boston Jet Physics Workshop
-    url: https://indico.cern.ch/event/113980/
+    event_url: https://indico.cern.ch/event/113980/
     org: Harvard
     date: January 2011
   
