@@ -481,21 +481,23 @@ aside:
 
 #### Scientific Advising
 
+  * [High Energy Physics Advisory Panel (HEPAP)](https://science.osti.gov/hep/hepap)
+    * Member, HEPAP, *August 2021 - March 2024*
+    * Member, Particle Physics Project Prioritization Panel (P5), *December 2022 - October 2023*
+    * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](http://www.jthaler.net/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf), [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/202012), *December 2020*
+    * ["The High Energy Physics Landscape in 2019"](http://www.jthaler.net/talks/jthaler_2019_05_HEPAP.pdf), [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/201905), *May 2019*
+  * Sakurai Dissertation Award Selection Committee, American Physical Society (Fall 2016, Fall 2022)
   * International Scientific Advisory Board, [AI for Science and Science for AI (AISSAI) Center](https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center), French CNRS, *2022-present*
   * International Advisory Committee, Grant-in-Aid for Transformative Research Areas, JSPS/MEXT Japan, *2022-2026*
-  * Member, [High Energy Physics Advisory Panel (HEPAP)](https://science.osti.gov/hep/hepap), *August 2021-March 2024*
-  * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](http://www.jthaler.net/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf), [High Energy Physics Advisory Panel](https://science.osti.gov/hep/hepap/Meetings/202012), *Dec 2020*
-  * ["The High Energy Physics Landscape in 2019"](http://www.jthaler.net/talks/jthaler_2019_05_HEPAP.pdf), [High Energy Physics Advisory Panel](https://science.osti.gov/hep/hepap/Meetings/201905), *May 2019*
   * Science Advisory Board, USQCD Collaboration (Spring 2013-Fall 2016)
-  * Sakurai Dissertation Award Selection Committee, American Physical Society (Fall 2016)
   * LHC Theory Initiative, Fellowship Selection Committee (Fall 2013-Fall 2014, Chair: Fall 2014)
 
 #### Peer Review
 
   * [Journal of High Energy Physics](https://jhep.sissa.it/)
-    * Editorial Board, *Fall 2019-present*
+    * Editorial Board, *Fall 2019 - present*
   * [SciPost Physics](https://scipost.org/SciPostPhys)
-    * Editorial College, *Fall 2019-present*
+    * Editorial College, *Fall 2019 - present*
   * Frontiers of Artificial Intelligence
     * Co-Topic Editor, ["Efficient AI in Particle Physics and Astrophysics"](https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics), *Spring 2022*
   * Physical Review Letters
