@@ -3,6 +3,7 @@ postdocs:
 
  - name: Cari Cesarotti
    url: http://caricesarotti.com/
+   email: ccesar@mit.edu
    at:
      - dates: Fall 2022 - Spring 2025
        title: CTP Postdoctoral Researcher
@@ -11,6 +12,7 @@ postdocs:
        org: Harvard
 
  - name: Sokratis Trifinopoulos
+   email: trifinos@mit.edu
    at:
      - dates: Fall 2022 - Spring 2024
        title: Early Postdoc.Mobility Fellow
@@ -22,6 +24,7 @@ postdocs:
 
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
+   email: smsharma@mit.edu
    at:
      - dates: Fall 2021 - Spring 2024
        title: IAIFI Fellow
@@ -32,6 +35,7 @@ postdocs:
        org: NYU
 
  - name: Lena Funcke
+   email: lfuncke@uni-bonn.de
    at:
      - dates: Fall 2021 - Fall 2022
        title: CTP Postdoctoral Researcher
@@ -46,6 +50,7 @@ postdocs:
 
  - name: Katelin Schutz
    url: https://katelinschutz.com/
+   email: katelin.schutz@mcgill.ca
    at:
      - dates: Fall 2019 - Spring 2021
        title: Pappalardo Fellow
@@ -57,6 +62,7 @@ postdocs:
        org: McGill
    
  - name: Pouya Asadi
+   email: pasadi@mit.edu
    at:
      - dates: Fall 2019 - Spring 2022
        title: CTP Postdoctoral Researcher
@@ -68,6 +74,7 @@ postdocs:
        org: University of Oregon
        
  - name: Bernhard Mistlberger
+   email: bernhard@slac.stanford.edu
    at:
      - dates: Fall 2018 - Spring 2020
        title: Pappalardo Fellow
@@ -81,6 +88,7 @@ postdocs:
        org: SLAC
   
  - name: Frédéric Dreyer
+   email: frederic.dreyer@physics.ox.ac.uk
    at:
      - dates: Fall 2016 - Spring 2018
        title: Early Postdoc.Mobility Fellow
@@ -92,6 +100,7 @@ postdocs:
        org: Oxford
 
  - name: Yotam Soreq
+   email: soreqy@physics.technion.ac.il
    at:
      - dates: Fall 2015 - Spring 2018
        title: Rothschild Fellow
@@ -105,6 +114,7 @@ postdocs:
        org: Technion
 
  - name: Benjamin Safdi
+   email: brsafdi@berkeley.edu
    at:
      - dates: Fall 2014 - Spring 2017
        title: Pappalardo Fellow
@@ -118,6 +128,7 @@ postdocs:
        org: U.C. Berkeley
 
  - name: Wei Xue
+   email: weixue@ufl.edu
    at:
      - dates: Fall 2014 - Spring 2017
        title: CTP Postdoctoral Researcher
@@ -134,6 +145,7 @@ postdocs:
 
  - name: Simone Marzani
    url: https://www.ge.infn.it/~smarzani/
+   email: simone.marzani@unige.it
    at:
      - dates: Fall 2014 - Spring 2015
        title: LHC Theory Initiative Postdoctoral Fellow
@@ -154,6 +166,7 @@ postdocs:
 
 
  - name: Gilly Elor
+   email: gelor@uni-mainz.de
    at:
      - dates: Fall 2013 - Spring 2016
        title: CTP Postdoctoral Researcher
@@ -169,6 +182,7 @@ postdocs:
        org: JGU Mainz
 
  - name: Duff Neill
+   email: duff.neill@gmail.com
    at:
      - dates: Fall 2012 - Spring 2015
        title: Pappalardo Fellow
@@ -185,6 +199,7 @@ postdocs:
 
  - name: Andrew Larkoski
    url: http://web.stanford.edu/~larkoski/
+   email: larkoski@g.ucla.edu
    at:
      - dates: Fall 2012 - Spring 2015
        title: CTP Postdoctoral Researcher
@@ -206,6 +221,7 @@ postdocs:
        date: 2017
 
  - name: Matthew McCullough
+   email: matthew.mccullough@cern.ch
    at:
      - dates: Fall 2011 - Spring 2014
        title: Simons Postdoctoral Fellow
@@ -220,6 +236,7 @@ postdocs:
 
 
  - name: Keith Rehermann
+   email: keith.rehermann@gmail.com
    at:
      - dates: Fall 2010 - Spring 2012
        title: CTP Postdoctoral Researcher
@@ -234,37 +251,44 @@ postdocs:
 phd_students:
 
   - name: Pamela Pajarillo
+    email: pampaja@mit.edu
     date: 2027
 
   - name: Sean Benevedes
+    email: seanmb@mit.edu
     date: 2026
 
   - name: Rikab Gambhir
+    email: rikab@mit.edu
     date: 2025
     url: http://rikabgambhir.com/
     
-  - name: Samuel Alipour-Fard
+  - name: Samuel Alipour-fard
+    email: samuelaf@mit.edu
     date: 2024
 
   - name: Patrick Komiske
+    url: https://pkomiske.com/
+    email: pkomiske@gmail.com
     date: 2021
     thesis: "Machine Learning for High-Energy Collider Physics"
     thesis_url: https://hdl.handle.net/1721.1/142702
     after:
       - title: "Researcher"
         org: PDT Partners
-    url: https://pkomiske.com/
 
   - name: Eric Metodiev
+    url: https://www.ericmetodiev.com
+    email: eric.metodiev@gmail.com
     date: 2020
     thesis: "Energy Flow in Particle Collisions"
     after:
       - title: Research Scientist
         org: Renaissance Technologies
-    url: https://www.ericmetodiev.com
 
 
   - name: Benjamin Elder
+    email: benjamin.elder11@gmail.com
     date: 2018
     thesis: "Jet Fragmentation at the LHC"
     thesis_url: http://hdl.handle.net/1721.1/119105
@@ -273,6 +297,7 @@ phd_students:
          org: IBM
 
   - name: Lina Necib
+    email: lnecib@mit.edu
     date: 2017
     thesis: "Boosting (In)direct Detection of Dark Matter"
     after:
@@ -287,6 +312,7 @@ phd_students:
     url: https://lnecib.com/
 
   - name: Yonatan Kahn
+    email: yfkahn@illinois.edu
     date: 2015
     thesis: "Forces and Gauge Groups Beyond the Standard Model"
     after:
@@ -305,6 +331,7 @@ phd_students:
 
 
   - name: Daniele Bertolini
+    email: dbertolini84@gmail.com
     date: 2014
     thesis: "Electroweak Symmetry Breaking in the Era of the Higgs Boson Discovery"
     after:
@@ -320,6 +347,7 @@ phd_students:
         date: 2013
        
   - name: Zoe Thomas
+    email: ztt628@gmail.com
     date: 2014
     thesis: "Supersymmetry at the Dawn of the LHC Era"
     after:
@@ -329,6 +357,7 @@ phd_students:
         org: Department of Defense
 
   - name: Francesco D'Eramo
+    email: francesco.deramo@pd.infn.it
     date: 2012
     thesis: "Hot and Dark Matter"
     joint: Krishna Rajagopal and Hong Liu
@@ -345,11 +374,13 @@ phd_students:
 meng_students:
 
   - name: Raymond Wynne
+    email: wynnera@mit.edu
     date: 2023
     
   
   - name: Nilai Sarda
     url: http://nilai.cc/
+    email: nilaisarda@gmail.com
     date: 2020
     thesis: "On Anomaly Detection in Particle Accelerators"
     thesis_url: https://hdl.handle.net/1721.1/127518
@@ -360,6 +391,7 @@ meng_students:
         date: 2020
 
   - name: Preksha Naik
+    email: prekshan@mit.edu
     date: 2019
     thesis: "Exploring the Space of Jets with CMS Open Data"
     thesis_url: "https://hdl.handle.net/1721.1/123044"
@@ -370,10 +402,12 @@ meng_students:
 bs_students:
 
   - name: Mohit Dighamber
+    email: mdighamb@mit.edu
     date: 2023
     urop: Fall 2022
 
   - name: Octavio Vega
+    email: ovega84@mit.edu
     date: 2022
     urop: Spring 2021, Summer 2021, Fall 2021
     after:
@@ -383,6 +417,7 @@ bs_students:
 
 
   - name: Nishat Protyasha
+    email: protya@mit.edu
     date: 2022
     urop:  Summer 2020, Fall 2020, Spring 2021, Summer 2021
     awards:
@@ -392,6 +427,7 @@ bs_students:
 
 
   - name: Serhii Kryhin
+    email: skryhin@g.harvard.edu
     date: 2022
     thesis: "Application of Unsupervised Machine Learning for Event Classification"
     thesis_url: https://hdl.handle.net/1721.1/144940
@@ -407,12 +443,14 @@ bs_students:
         org: Harvard
 
   - name: Christopher Miller
+    email: bowties@mit.edu
     date: 2021
     urop: Fall 2020
     graduated: true
 
 
   - name: Debaditya Pramanik
+    email: dp7624@princeton.edu
     date: 2021
     thesis: "Collinear Supergravity at Linear Order"
     thesis_url:  https://hdl.handle.net/1721.1/138927
@@ -424,6 +462,7 @@ bs_students:
 
 
   - name: Ziqi Zhou
+    email: ziqiphyzhou@gmail.com
     date: 2020
     graduated: true
     thesis:
@@ -432,12 +471,14 @@ bs_students:
 
 
   - name: Talya Klinger
+    email: tklinger@mit.edu
     graduated: true
     date: 2020
     urop: Spring 2017
 
   - name: Radha Mastandrea
     url: https://rmastand.github.io/
+    email: rmastand@berkeley.edu
     date: 2019
     thesis: "Analyzing CMS Open Collider Data through Topic Modeling"
     thesis_dates: Spring 2019
@@ -460,6 +501,7 @@ bs_students:
 
   - name: Eleanor Hall
     url: https://www.nellhall.com/
+    email: nellhall@berkeley.edu
     date: 2018
     thesis: "Photon Isolation and Jet Substructure"
     thesis_dates: Spring 2018
@@ -476,12 +518,14 @@ bs_students:
 
 
   - name: Matthew Burns
+    email: miburns@mit.edu
     graduated: true
     date: 2018
     urop: Fall 2014, Spring 2015
 
   - name: Kevin Zhou
     url: https://knzhou.github.io
+    email:  knzhou@stanford.edu
     date: 2017
     graduated: true
     after:
@@ -496,6 +540,7 @@ bs_students:
         date: 2017
 
   - name: Aashish Tripathee
+    email: aashisht@umich.edu
     date: 2017
     thesis: "Jet Substructure at the Large Hadron Collider"
     thesis_dates: Spring 2017
@@ -512,6 +557,7 @@ bs_students:
 
 
   - name: Trung Phan
+    email: tvphan@princeton.edu
     date: 2015
     thesis: "Relativistic Quantum Fields in Theoretical Physics"
     thesis_dates:  Fall 2014 - Spring 2015
@@ -525,6 +571,7 @@ bs_students:
 
 
   - name: T.J. Wilkason
+    email: wilkason@stanford.edu
     date: 2015
     thesis: "Exclusive Cone Jet Algorithms for High Energy Particle Colliders"
     thesis_dates: Fall 2014 - Spring 2015
@@ -541,6 +588,7 @@ bs_students:
          
 
   - name: Mobolaji Williams
+    email: mobolajiwilliams@g.harvard.edu
     url: http://mowillia.github.io/
     date: 2013
     thesis: "Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking"
@@ -557,6 +605,7 @@ bs_students:
 
 
   - name: Dustin Katzin
+    email: drkatzin@mit.edu
     date: 2012
     thesis: "The DarkLight Experiment: Searching for the Dark Photon"
     thesis_dates: Spring 2012
@@ -571,6 +620,7 @@ bs_students:
   - name: Tucker Chan
     date: 2012
     graduated: true
+    deceased: true
     after:
       - title: Physics Ph.D. Candidate
         org: Stanford
@@ -578,6 +628,7 @@ bs_students:
 
 
   - name: Lin Fei
+    email: lfei@mit.edu
     date: 2011
     thesis: "Dark Matter Dynamics in the Early Universe"
     thesis_dates: Spring 2011
@@ -587,6 +638,7 @@ bs_students:
         org: Princeton
 
   - name: Ken Van Tilburg
+    email: kenvantilburg@gmail.com
     date: 2011
     thesis: "Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering"
     thesis_url: http://hdl.handle.net/1721.1/65536
@@ -612,6 +664,7 @@ bs_students:
 visitors:
 
   - name: Sergio Diaz
+    email: sdiaz1@mit.edu
     program: MIT Summer Research Program
     dates: Summer 2022
     project: "Determination of the W Mass Parameter using Machine Learning"
@@ -619,6 +672,7 @@ visitors:
 
 
   - name: Pedro Rivera-Cardona
+    email: pedro.rivera50@upr.edu
     url: https://priverac.github.io/
     program: MIT Summer Research Program
     dates: Summer 2021
@@ -629,11 +683,13 @@ visitors:
     home: University of Puerto Rico, Mayaguez
 
   - name: Athis Osathapan
+    email: aosathap@bowdoin.edu
     program: Research Internship
     dates: Spring 2021, Summer 2021
     home: Bowdoin College
 
   - name: Shira Jackson
+    email: jacksons@mit.edu
     program: MIT Summer Research Program
     dates: Summer 2020
     project: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
@@ -643,6 +699,7 @@ visitors:
         org: NYU
 
   - name: Andrew Turner
+    email: turnerap@sas.upenn.edu
     dates: 2018 - 2019
     program: Tushar Shah and Sara Zion Physics Fellowship
     home: MIT
@@ -652,17 +709,20 @@ visitors:
         org: UPenn
 
   - name: Maximilian Henderson
+    email: maximilian.henderson15@imperial.ac.uk
     program: International Research Opportunities Programme
     dates: Summer 2018
     home: Imperial College London
 
 
   - name: Edward Hirst
+    email: edward.hirst15@imperial.ac.uk
     program: International Research Opportunities Programme
     dates: Summer 2018
     home: Imperial College London
 
   - name: Rahim Leung
+    email: rahim.leung14@imperial.ac.uk
     program: International Research Opportunities Programme
     dates: Summer 2017
     home: Imperial College London
@@ -671,11 +731,13 @@ visitors:
         org: Imperial College London
 
   - name: Markus Schulze
+    email: markus.schulze@cern.ch
     program: Visiting Postdoc
     dates: Fall 2015
     home: CERN
 
   - name: Alexis Romero
+    email: alexir2@uci.edu
     program: MIT Summer Research Program
     dates: Summer 2015
     project: "Jet Physics Measurements on CMS Open Data"
@@ -685,6 +747,7 @@ visitors:
         org: UC Irvine
 
   - name: Nayara Fonseca
+    email: nayara.focs@gmail.com
     url: https://www.nayarafonseca.com/
     program: FAPESP Fellowship
     dates: Spring 2014 - Fall 2014
