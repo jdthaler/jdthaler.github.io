@@ -1508,6 +1508,11 @@ seminars:
 
 additional:
 
+  - event: Summit for AI Institutes Leadership (SAIL)
+    event_url: https://na.eventscloud.com/website/42198/
+    org: Asilomar
+    date: December 2022
+
   - panelist: true
     event: ML4Jets 2020
     event_url: https://indico.cern.ch/event/1159913/
