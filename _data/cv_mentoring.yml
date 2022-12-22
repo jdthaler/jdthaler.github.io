@@ -10,6 +10,7 @@ postdocs:
    before:
      - title: PhD
        org: Harvard
+   current: true
 
  - name: Sokratis Trifinopoulos
    email: trifinos@mit.edu
@@ -21,6 +22,8 @@ postdocs:
        org: Zurich
      - title: Postdoc
        org: SISSA
+   current: true
+
 
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
@@ -33,6 +36,7 @@ postdocs:
        org: Princeton
      - title: Postdoc
        org: NYU
+   current: true
 
  - name: Lena Funcke
    email: lfuncke@uni-bonn.de
@@ -253,19 +257,23 @@ phd_students:
   - name: Pamela Pajarillo
     email: pampaja@mit.edu
     date: 2027
+    current: true
 
   - name: Sean Benevedes
     email: seanmb@mit.edu
     date: 2026
+    current: true
 
   - name: Rikab Gambhir
     email: rikab@mit.edu
     date: 2025
     url: http://rikabgambhir.com/
-    
+    current: true
+
   - name: Samuel Alipour-fard
     email: samuelaf@mit.edu
     date: 2024
+    current: true
 
   - name: Patrick Komiske
     url: https://pkomiske.com/
@@ -376,7 +384,8 @@ meng_students:
   - name: Raymond Wynne
     email: wynnera@mit.edu
     date: 2023
-    
+    current: true
+
   
   - name: Nilai Sarda
     url: http://nilai.cc/
@@ -405,6 +414,7 @@ bs_students:
     email: mdighamb@mit.edu
     date: 2023
     urop: Fall 2022
+    current: true
 
   - name: Octavio Vega
     email: ovega84@mit.edu
@@ -414,7 +424,6 @@ bs_students:
       - title: Research Assistant
         org: University of Hamburg
     graduated: true
-
 
   - name: Nishat Protyasha
     email: protya@mit.edu
