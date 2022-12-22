@@ -22,6 +22,13 @@ years:
   
 papers:
 
+  - title: "Comparing Point Cloud Strategies for Collider Event Classification"
+    authors: Peter Onyisi, Delon Shen, and Jesse Thaler
+    arxiv: "2212.10659"
+    year: 2022
+    topic: ml
+
+
   - title: "Degeneracy Engineering for Classical and Quantum Annealing: A Case Study of Sparse Linear Regression in Collider Physics"
     authors: Eric R. Anschuetz, Lena Funcke, Patrick T. Komiske, Serhii Kryhin, and Jesse Thaler
     doi: 10.1103/PhysRevD.106.056008
@@ -29,6 +36,7 @@ papers:
     arxiv: "2205.10375"
     year: 2022
     topic: qis
+    
  
   - title: "Power Counting Energy Flow Polynomials"
     authors: Pedro Cal, Jesse Thaler, and Wouter J. Waalewijn

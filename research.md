@@ -20,7 +20,7 @@ aside:
 {% if subtopic.key == paper.topic%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
-    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}})
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
 {% endif %}
 
 {% endfor%}

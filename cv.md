@@ -190,7 +190,7 @@ aside:
 ### MIT
 
   * **8.398 --- Selected Topics in Graduate Physics**
-    * Instructor:  [Spring 2021](https://canvas.mit.edu/courses/7673), [Fall 2021](https://canvas.mit.edu/courses/11329), [Spring 2022](https://canvas.mit.edu/courses/13866), [Fall 2022](https://canvas.mit.edu/courses/16823), Spring 2023
+    * Instructor:  [Spring 2021](https://canvas.mit.edu/courses/7673), [Fall 2021](https://canvas.mit.edu/courses/11329), [Spring 2022](https://canvas.mit.edu/courses/13866), [Fall 2022](https://canvas.mit.edu/courses/16823), [Spring 2023](https://canvas.mit.edu/courses/19643)
 
   * **8.03 --- Physics III, Waves & Vibrations**
     * Recitation:  [Fall 2020](https://canvas.mit.edu/courses/4560)
