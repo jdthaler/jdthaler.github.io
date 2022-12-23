@@ -13,23 +13,33 @@ aside:
 
 Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the Center for Theoretical Physics. In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
 
-*For a longer biography, see my [MIT Physics faculty profile](https://physics.mit.edu/faculty/jesse-thaler/).*
+[MIT Physics](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill}
+[Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--outline-primary.button--pill}
+[IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill}
+
+
 
 ### Selected Awards
 
-{% for award in site.data.cv_awards.awards %}
-  {% if award.priority >= 6 %}
+{% for award in site.data.cv_awards.awards -%}
+  {%- if award.priority >= 6 %}
   * **{{award.name}}**, *{{award.org}}*, *{{award.date}}*
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
 
 ### Selected Publications
 
-{% for paper in site.data.cv_papers.papers %}
-  {% if paper.priority >= 6 %}
+{% for paper in site.data.cv_papers.papers -%}
+  {%- if paper.priority >= 6 %}
   * **[{{paper.title}}](https://doi.org/{{paper.doi}})**, *{{paper.authors}} ({{paper.year}})* 
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
+
+
 
 ### Photographs
 
@@ -38,6 +48,8 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
     
   * ![Blackboard Shot](images/jthaler_mit_spotlight.jpg){:.image--sm}
     **[Blackboard Shot](images/jthaler_mit_spotlight.jpg)**
+
+
 
 ## In the News
 
