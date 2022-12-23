@@ -1,23 +1,24 @@
 header:
 
-  - title: Full CV
-    url:   cv
+  - title: About
+    url:   about
 
-  - title: Research Topics
+#  - title: Join
+#    url:   join
+
+  - title: Group
+    url:   group
+
+  - title: Research
     url:   research
-
-  - title: Press Info
-    url:   press
-
-  - title: Graphic Design
-    url:   design
 
   - title: Questions
     url:   questions
 
+  - title: CV
+    url:   cv
+
   - title: Personal
     url:   personal
 
-  - title: jthaler.net
-    url:   http://jthaler.net/
 
