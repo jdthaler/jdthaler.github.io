@@ -25,14 +25,6 @@ aside:
     MIT Center for Theoretical Physics\\
     77 Massachusetts Ave, [6-318](http://whereis.mit.edu/?go=6)\\
     Cambridge, MA 02139
- * **Portals**
-   * [MIT Physics](http://web.mit.edu/physics/people/faculty/thaler_jesse.html)
-   * [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1)
-   * [arXiv](http://arxiv.org/a/thaler_j_1)
-   * [ORCID](https://orcid.org/0000-0002-2406-8160)
-   * [Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler)
-   * [IMDb](http://www.imdb.com/name/nm6007880/)
-
 
 #### Research in Theoretical Particle Physics
 
@@ -170,7 +162,7 @@ aside:
 {% endfor %}
 
 
-### Visiting Students/Postdocs
+### Visitors
 
 {% for person in site.data.cv_mentoring.visitors -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.program}}, *{{person.dates}}*

@@ -8,9 +8,9 @@ aside:
 
 ## Memorials
 
-  * [Aaron](aaron.html)
-  * [Dedushka](dedushka.html)
-  * [Ania](ania.html)
+[Aaron](aaron.html){:.button.button--outline-primary.button--pill}
+[Dedushka](dedushka.html){:.button.button--outline-primary.button--pill}
+[Ania](ania.html){:.button.button--outline-primary.button--pill}
 
 
 ## Graphic Design
@@ -87,6 +87,6 @@ In 2020, I become Director of the [Institute for Artificial Intelligence Fundame
 
 ## Archives
 
-  * [Sasha and Jesse's Wedding](http://wedding.jthaler.net)
-  * [jthaler.net (v1)](http://v1.jthaler.net/)
-  * [jthaler.net (v2)](http://v2.jthaler.net/)
+[Sasha and Jesse's Wedding](http://wedding.jthaler.net){:.button.button--outline-primary.button--pill}
+[jthaler.net (v1)](http://v1.jthaler.net/){:.button.button--outline-primary.button--pill}
+[jthaler.net (v2)](http://v2.jthaler.net/){:.button.button--outline-primary.button--pill}

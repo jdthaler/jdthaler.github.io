@@ -9,41 +9,41 @@ aside:
 
 ## Current
 
+
+{% for category in site.data.cv_mentoring.categories -%}
+### {{category.name}}
+
 <div class="grid-container">
   <div class="grid grid--py-3">
-{% for category in site.data.cv_mentoring -%}
-{% for person in category[1] -%}
+
+{% for person in site.data.cv_mentoring[category.block] -%}
   {% if person.current -%}
-    <div class="cell cell--4">
+    <div class="cell cell--3">
         <center>
-          <img class="image image--sm" src="design/jthaler_IAIFI_Logo.png" title="{{person.name}}"/><br>
+          <img class="image image--sm" src="images/blank_profile.png" title="{{person.name}}"/><br>
               <b>{{person.name}}</b><br>
         </center>
     </div>
   {%- endif %}
 {% endfor %}
-{% endfor %}
   </div>
 </div>
+
+{% endfor %}
+
 
 ## Alumni
 
-<div class="grid-container">
-  <div class="grid grid--py-3">
-{% for category in site.data.cv_mentoring -%}
-{% for person in category[1] -%}
-  {% if person.current -%}{% else %}
-    <div class="cell cell--4">
-        <center>
-              <b>{{person.name}}</b>
-        </center>
-    </div>
+{% for category in site.data.cv_mentoring.categories -%}
+### {{category.name}}
+
+
+{% for person in site.data.cv_mentoring[category.block] -%}
+  {% if person.current -%}{% else -%}
+  * **{{person.name}}**
   {%- endif %}
 {% endfor %}
 {% endfor %}
-  </div>
-</div>
-
 
 
 

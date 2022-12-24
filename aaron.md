@@ -1,6 +1,8 @@
 ---
 layout: article
 title: Aaron Kempner Thaler
+aside:
+  toc: true
 ---
 
 **December 8, 1982 - April 24, 2011**

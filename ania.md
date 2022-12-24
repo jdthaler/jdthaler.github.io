@@ -1,6 +1,8 @@
 ---
 layout: article
 title: Anna Borisovna McCarthy (nee Miroshnichenko)
+aside:
+  toc: true
 ---
 
 **November 23, 1956 - July 6, 2018**

@@ -11,7 +11,7 @@ aside:
 
 #### I'm interested in working in your research group.  Where do I sign up?
 
-Here is information about [joining my group](http://www.jthaler.net/join).
+Here is information about [joining my group](join)!
 
 #### Do you respond to generic emails asking to come to MIT?
 

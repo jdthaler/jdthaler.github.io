@@ -1,6 +1,8 @@
 ---
 layout: article
 title: Boris Yakovlevich Miroshnichenko
+aside:
+  toc: true
 ---
 
 **November 23, 1920 - August 1, 2017**

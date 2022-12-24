@@ -1,5 +1,18 @@
-postdocs:
+categories:
 
+  - name: Postdocs
+    block: postdocs
+  - name: Ph.D. Students
+    block: phd_students
+  - name: B.S. Students
+    block: bs_students
+  - name: M.Eng. Students
+    block: meng_students
+  - name: Visitors
+    block: visitors
+
+
+postdocs:
 
  - name: Cari Cesarotti
    url: http://caricesarotti.com/
@@ -671,6 +684,24 @@ bs_students:
 
 
 visitors:
+
+  - name: Brian Nord
+    url: http://briandnord.com
+    email: nord@fnal.gov
+    program: MIT MLK Visiting Professor
+    dates: Fall 2022 - Spring 2023
+    home: Fermilab and U. Chicago
+    current: true
+
+
+  - name: Kaća Bradonjić
+    url: http://www.kacabradonjic.com
+    email: kaca@kacabradonjic.com
+    program: Visiting Artist
+    dates: Fall 2022
+    home: Hampshire College
+    current: true
+
 
   - name: Sergio Diaz
     email: sdiaz1@mit.edu
