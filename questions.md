@@ -11,7 +11,7 @@ aside:
 
 #### I'm interested in working in your research group.  Where do I sign up?
 
-Here is information about [joining my group](join)!
+Here is information about **[joining my group](join)**!
 
 #### Do you respond to generic emails asking to come to MIT?
 
@@ -34,7 +34,7 @@ Sincerely,
 Jesse Thaler
 ````
 
-If you want to get a more detailed response, then you need to make a more personal connection, at minimum by including my name in your email.  Or saying that your undergraduate advisor (include your advisor's name!) recommended that you contact me.  Or that you are interested in a specific paper of mine (including the reference!).  Even this, my inbox is overflowing with inquiries, so I might still send a stock message.
+If you want to get a more detailed response, then you need to make a more personal connection, at minimum by including my name in your email.  Or saying that your undergraduate advisor (include your advisor's name!) recommended that you contact me.  Or that you are interested in a specific paper of mine (including the reference!).  Even then, my inbox is overflowing with inquiries, so I might still send a stock message.
 
 A generic email saying "Dear Professor, I am very interested in your work." will get the stock email at best, and most likely I won't send anything at all.
 
@@ -143,7 +143,7 @@ What made me change my mind to include my pronouns?  I received an email from a 
 
 #### What's up with your website?
 
-Though I loved my old [custom html black and white](http://v1.jthaler.net/) webpage, I never got around to editting it much.  In 2007, I decided to move to [DokuWiki](http://v2.jthaler.net/).  In the wiki format, editing and viewing pages takes the same amount of work, so I was hoping that my innate narcissism would drive me to actually create updated content.
+Though I loved my old [custom html black and white](http://v1.jthaler.net/) webpage, I never got around to editting it much.  In 2007, I decided to move to [DokuWiki](http://v2.jthaler.net/).  In the wiki format, editing and viewing pages take the same amount of work, so I was hoping that my innate narcissism would drive me to actually create updated content.
 
 What actually happened, though, is that I just kept adding items to my [cc](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
 

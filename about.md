@@ -18,6 +18,17 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 {% for theme in site.data.research.themes %}  * **[{{theme.title}}](research.html#{{theme.key}})**
 {% endfor %}
 
+### Portals
+
+[Full CV](cv){:.button.button--outline-primary.button--pill}
+[MIT Physics](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill}
+[Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--outline-primary.button--pill}
+[IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill}
+
 ### Selected Awards
 
 {% for award in site.data.cv_awards.awards -%}
@@ -34,17 +45,27 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   {%- endif -%}
 {% endfor %}
 
-
-
 ### Photographs
 
-  * ![Head Shot](images/jthaler_photo_2017.jpg){:.image--sm}
-    **[Head Shot](images/jthaler_photo_2017.jpg)**
-    
-  * ![Blackboard Shot](images/jthaler_mit_spotlight.jpg){:.image--sm}
-    **[Blackboard Shot](images/jthaler_mit_spotlight.jpg)**
+<div class="grid-container">
+  <div class="grid grid--py-3">
+    <div class="cell cell--3">
+          <a href="images/jthaler_photo_2017.jpg">
+            <img class="image-h image-h--sm" src="images/jthaler_photo_2017.jpg" title="Thaler Head Shot"/>
+          <br>
+              <b>Head Shot</b>
+          </a>
+    </div>
+    <div class="cell cell--4">
+          <a href="images/jthaler_mit_spotlight.jpg">
+            <img class="image-h image-h--sm" src="images//jthaler_mit_spotlight.jpg" title="Thaler Blackboard Shot"/>
+          <br>
+              <b>Blackboard Shot</b>
+          </a>
+    </div>
 
-
+  </div>
+</div>
 
 ## In the News
 

@@ -1,3 +1,25 @@
 /* start custom scss snippet */
 
+.image-h {
+  max-height: 100%;
+  @extend .image-h--md;
+}
+
+.image-h--md {
+  height: map-get($image, width);
+}
+.image-h--xl {
+  height: map-get($image, width-xl);
+}
+.image-h--lg {
+  height: map-get($image, width-lg);
+}
+.image-h--sm {
+  height: map-get($image, width-sm);
+}
+.image-h--xs {
+  height: map-get($image, width-xs);
+}
+
+
 /* end custom scss snippet */

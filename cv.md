@@ -96,6 +96,9 @@ aside:
 
 ## Mentoring
 
+[Research Group](group){:.button.button--outline-primary.button--pill}
+[Joining My Group](join){:.button.button--outline-primary.button--pill}
+
 ### Postdoctoral Researchers
 
 {% for person in site.data.cv_mentoring.postdocs -%}
@@ -230,6 +233,14 @@ aside:
 
 
 ## Publications & Preprints
+
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill}
+
+[Research Summary](research){:.button.button--outline-primary.button--pill}
+[Publications by Topic](research_detail){:.button.button--outline-primary.button--pill}
 
 {% for year in site.data.cv_papers.years %}
 #### {{year}}
@@ -548,6 +559,19 @@ aside:
     * Cole Gilbert (Traip Academy, November 2017)    
     * Joshua Reynolds (York High School, April 2016)
     * Edward Bengtson (York High School, April 2014)
+
+## Graphic Design
+
+[Design Portfolio](personal#graphic-design){:.button.button--outline-primary.button--pill}
+
+  * **[Banner Design](design/jthaler_IAIFI_Banner.jpg)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*  (based on artwork by [agsandrew](https://agsandrew.myportfolio.com/) - stock.adobe.com)
+  * **[Logo Design](design/jthaler_IAIFI_Logo.pdf)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*
+  * **[Logo Design](design/jthaler_OmniFold_Logo.pdf)**, [OmniFold](https://github.com/ericmetodiev/OmniFold/), *MIT, November 2019*
+  * **[Poster Design](design/jthaler_BOOST2019_Poster.pdf)** ([with bleeds](design/jthaler_BOOST2019_Poster_Bleed.pdf)), [BOOST 2019 Workshop](https://indico.cern.ch/e/boost2019), *MIT, July 2019*
+  * **[Logo Design](design/jthaler_ABRALogo_Large.pdf)** ([Alt.](design/jthaler_ABRALogo_Medium.pdf), [A.](design/jthaler_ABRALogo_Small.pdf)), [ABRACADABRA Experiment](http://abracadabra.mit.edu/), *MIT, August 2017*
+  * **[Logo Design](design/jthaler_MOD_Logo.pdf)** ([Event Display](design/jthaler_MOD_EventDisplay.pdf)), MIT Open Data, *MIT, July 2015*
+  * **[Logo Design](design/jthaler_DarkLight_Logo.pdf)**, [DarkLight Experiment](http://dmtpc.mit.edu/DarkLight/), *MIT, September 2010*
+
 
 ## Memberships
 

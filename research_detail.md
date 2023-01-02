@@ -1,9 +1,13 @@
 ---
 layout: article
-title: Research Details
+title: Research in Detail
 aside:
   toc: true
 ---
+
+[Research Summary](research){:.button.button--outline-primary.button--pill}
+[Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill}
+
 
 {% for topic in site.data.research.topics %}
 ## {{topic.title}}
