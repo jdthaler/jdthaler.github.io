@@ -413,7 +413,7 @@ meng_students:
         date: 2020
 
   - name: Preksha Naik
-    email: prekshan@mit.edu
+    email: pnaik@caltech.edu
     date: 2019
     thesis: "Exploring the Space of Jets with CMS Open Data"
     thesis_url: "https://hdl.handle.net/1721.1/123044"
@@ -610,7 +610,7 @@ bs_students:
          
 
   - name: Mobolaji Williams
-    email: mobolajiwilliams@g.harvard.edu
+    email: williams.mobolaji@gmail.com
     url: http://mowillia.github.io/
     date: 2013
     thesis: "Pseudo-Goldstino to Gravitino Decay: An Implication of Multiple Supersymmetry Breaking"
@@ -729,7 +729,7 @@ visitors:
     home: Bowdoin College
 
   - name: Shira Jackson
-    email: jacksons@mit.edu
+    email: sj3545@nyu.edu
     program: MIT Summer Research Program
     dates: Summer 2020
     project: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
@@ -749,14 +749,14 @@ visitors:
         org: UPenn
 
   - name: Maximilian Henderson
-    email: maximilian.henderson15@imperial.ac.uk
+    email: maxhenderson43@gmail.com
     program: International Research Opportunities Programme
     dates: Summer 2018
     home: Imperial College London
 
 
   - name: Edward Hirst
-    email: edward.hirst15@imperial.ac.uk
+    email: edward.hirst@city.ac.uk
     program: International Research Opportunities Programme
     dates: Summer 2018
     home: Imperial College London
@@ -771,7 +771,7 @@ visitors:
         org: Imperial College London
 
   - name: Markus Schulze
-    email: markus.schulze@cern.ch
+    email: markus.schulze@physik.hu-berlin.de
     program: Visiting Postdoc
     dates: Fall 2015
     home: CERN
