@@ -28,7 +28,7 @@ aside:
 
 #### Research in Theoretical Particle Physics
 
-{% for theme in site.data.research.themes %}  * **[{{theme.title}}](research.html#{{theme.key}})**
+{% for topic in site.data.research.topics %}  * **[{{topic.title}}](research.html#{{topic.key}})**
 {% endfor %}
 
 

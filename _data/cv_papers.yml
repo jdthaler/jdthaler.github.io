@@ -26,7 +26,7 @@ papers:
     authors: Peter Onyisi, Delon Shen, and Jesse Thaler
     arxiv: "2212.10659"
     year: 2022
-    topic: ml
+    topic: point_cloud
 
 
   - title: "Degeneracy Engineering for Classical and Quantum Annealing: A Case Study of Sparse Linear Regression in Collider Physics"
@@ -52,7 +52,7 @@ papers:
     journal: Phys. Rev. D106:036011 (2022)
     arxiv: "2205.05084"
     year: 2022
-    topic: ml
+    topic: reweighting
 
   - title: "Disentangling Quarks and Gluons with CMS Open Data"
     authors: Patrick T. Komiske, Serhii Kryhin, and Jesse Thaler
@@ -60,7 +60,7 @@ papers:
     journal: Phys. Rev. D106:094021 (2022)
     arxiv: "2205.04459"
     year: 2022
-    topic: cms2011
+    topic: open_data
 
 
   - title: "Learning Uncertainties the Frequentist Way: Calibration and Correlation in High Energy Physics"
@@ -69,7 +69,7 @@ papers:
     journal: Phys. Rev. Lett. 129:082001(2022)
     arxiv: "2205.03413"
     year: 2022
-    topic: ml
+    topic: reweighting
 
   - title: "Non-Gaussianities in Collider Energy Flux"
     authors: Hao Chen, Ian Moult, Jesse Thaler, and Hua Xing Zhu
@@ -77,7 +77,7 @@ papers:
     journal: JHEP 2207:146 (2022)
     arxiv: "2205.02857"
     year: 2022
-    topic: cms2011
+    topic: open_data
     priority: 6
 
 
@@ -95,7 +95,7 @@ papers:
     journal:
     arxiv: "2201.07800"
     year: 2022
-    topic: cms2011
+    topic: open_data
 
   - title: "SymmetryGAN: Symmetry Discovery with Deep Learning"
     authors: Krish Desai, Benjamin Nachman, and Jesse Thaler
@@ -103,7 +103,7 @@ papers:
     journal: Phys. Rev. D105:096031 (2022)
     arxiv: "2112.05722"
     year: 2021
-    topic: ml
+    topic: weak
 
   - title: "Neural Conditional Reweighting"
     authors: Benjamin Nachman and Jesse Thaler
@@ -111,7 +111,7 @@ papers:
     journal: Phys. Rev. D105:076015 (2022)
     arxiv: "2107.08979"
     year: 2021
-    topic: ml
+    topic: reweighting
 
 
   - title: "E Pluribus Unum Ex Machina: Learning from Many Collider Events at Once"
@@ -120,7 +120,7 @@ papers:
     journal: Phys. Rev. D103:116013 (2021)
     arxiv: "2101.07263"
     year: 2021
-    topic: ml
+    topic: reweighting
 
   - title: "Mapping Machine-Learned Physics into a Human-Readable Space"
     authors: Taylor Faucett, Jesse Thaler, and Daniel Whiteson
@@ -128,7 +128,7 @@ papers:
     journal: Phys. Rev. D103:036020 (2021)
     arxiv: "2010.11998"
     year: 2020
-    topic: ml
+    topic: weak
 
   - title: "Data-Driven Quark and Gluon Jet Modification in Heavy-Ion Collisions"
     authors: Jasmine Brewer, Jesse Thaler, and Andrew P. Turner
@@ -144,7 +144,7 @@ papers:
     journal: Phys. Rev. D102.076004 (2020)
     arxiv: "2007.11586"
     year: 2020
-    topic: ml
+    topic: reweighting
 
   - title: "A Robust Measure of Event Isotropy at Colliders"
     authors: Cari Cesarotti and Jesse Thaler
@@ -152,7 +152,7 @@ papers:
     journal: JHEP 2008:084 (2020)
     arxiv: "2004.06125"
     year: 2020
-    topic: ml
+    topic: point_cloud
 
   - title: "The Hidden Geometry of Particle Collisions"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -160,7 +160,7 @@ papers:
     journal: JHEP 2007:006 (2020)
     arxiv: "2004.04159"
     year: 2020
-    topic: ml
+    topic: point_cloud
 
   - title: "OmniFold: A Method to Simultaneously Unfold All Observables"
     authors: Anders Andreassen, Patrick T. Komiske, Eric M. Metodiev, Benjamin Nachman, and Jesse Thaler
@@ -168,7 +168,7 @@ papers:
     journal: Phys. Rev. Lett. 124:182001 (2020)
     arxiv: "1911.09107"
     year: 2019
-    topic: ml
+    topic: reweighting
     priority: 3
 
   - title: "Cutting Multiparticle Correlators Down to Size"
@@ -185,7 +185,7 @@ papers:
     journal: JHEP 2002:156 (2020)
     arxiv: "1909.00009"
     year: 2019
-    topic: adv_sp
+    topic: superspace
 
   - title: "Quantum Algorithms for Jet Clustering"
     authors: Annie Y. Wei, Preksha Naik, Aram W. Harrow, and Jesse Thaler
@@ -201,7 +201,7 @@ papers:
     journal: Phys. Rev. D101:034009 (2020)
     arxiv: "1908.08542"
     year: 2019
-    topic: cms2011
+    topic: open_data
 
   - title: "Searching in CMS Open Data for Dimuon Resonances with Substantial Transverse Momentum"
     authors: Cari Cesarotti, Yotam Soreq, Matthew J. Strassler, Jesse Thaler, and Wei Xue
@@ -209,7 +209,7 @@ papers:
     journal: Phys. Rev. D100:015021 (2019)
     arxiv: "1902.04222"
     year: 2019
-    topic: cms2011
+    topic: open_data
 
   - title: "The Metric Space of Collider Events"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -217,7 +217,7 @@ papers:
     journal: Phys. Rev. Lett. 123:041801 (2019)
     arxiv: "1902.02346"
     year: 2019
-    topic: ml
+    topic: point_cloud
     etc: "[[https://physics.aps.org/articles/v12/85|Viewpoint]]"
     priority: 6
 
@@ -236,7 +236,7 @@ papers:
     journal: JHEP 2002:146 (2020)
     arxiv: "1810.11032"
     year: 2018
-    topic: adv_sp
+    topic: superspace
 
   - title: "Energy Flow Networks: Deep Sets for Particle Jets"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -244,7 +244,7 @@ papers:
     journal: JHEP 1901:121 (2019)
     arxiv: "1810.05165"
     year: 2018
-    topic: ml
+    topic: point_cloud
     priority: 3
 
 
@@ -254,7 +254,7 @@ papers:
     journal: Phys. Rev. D100:023548 (2019)
     arxiv: "1809.01656"
     year: 2018
-    topic: axion
+    topic: detecting_dm
 
   - title: "An Operational Definition of Quark and Gluon Jets"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -294,7 +294,7 @@ papers:
     journal: Phys. Rev. Lett. 120:241602 (2018)
     arxiv: "1802.00008"
     year: 2018
-    topic: ml
+    topic: weak
     priority: 3
 
   - title: "Energy Flow Polynomials: A Complete Linear Basis for Jet Substructure"
@@ -319,7 +319,7 @@ papers:
     journal: JHEP 1710:174 (2017)
     arxiv: "1708.02949"
     year: 2017
-    topic: ml
+    topic: weak
     priority: 3
 
 
@@ -337,7 +337,7 @@ papers:
     journal: Phys. Rev. D96:074003 (2017)
     arxiv: "1704.05842"
     year: 2017
-    topic: cms2010
+    topic: open_data
 
 
   - title: "Generalized Fragmentation Functions for Fractal Jet Observables"
@@ -354,7 +354,7 @@ papers:
     journal: Phys. Rev. Lett. 119:132003 (2017)
     arxiv: "1704.05066"
     year: 2017
-    topic: cms2010
+    topic: open_data
     priority: 6
 
   - title: "Systematics of Quark/Gluon Tagging"
@@ -371,7 +371,7 @@ papers:
     journal: JHEP 1706:126 (2017)
     arxiv: "1704.03393"
     year: 2017
-    topic: nb_sym
+    topic: naturalness
 
   - title: "Disentangling Heavy Flavor at Colliders"
     authors: Philip Ilten, Nicholas L. Rodd, Jesse Thaler, and Mike Williams
@@ -379,7 +379,7 @@ papers:
     journal: Phys. Rev. D96:054019 (2017)
     arxiv: "1702.02947"
     year: 2017
-    topic: jet_alg
+    topic: jet_algorithms
 
   - title: "New Angles on Energy Correlation Functions"
     authors: Ian Moult, Lina Necib, and Jesse Thaler
@@ -405,7 +405,7 @@ papers:
     journal: Phys. Rev. Lett. 116:251803 (2016)
     arxiv: "1603.08926"
     year: 2016
-    topic: darkf
+    topic: detecting_dm
     priority: 3
 
 
@@ -415,7 +415,7 @@ papers:
     journal: Phys. Rev. Lett. 117:141801 (2016)
     arxiv: "1602.01086"
     year: 2016
-    topic: axion
+    topic: detecting_dm
     priority: 6
 
   - title: "Cosmology with Orthogonal Nilpotent Superfields"
@@ -424,7 +424,7 @@ papers:
     journal: Phys. Rev. D93:043516 (2016)
     arxiv: "1512.00545"
     year: 2015
-    topic: sup_cosm
+    topic: superspace
 
   - title: "Dark Photons from Charm Mesons at LHCb"
     authors: Philip Ilten, Jesse Thaler, Mike Williams, and Wei Xue
@@ -432,7 +432,7 @@ papers:
     journal: Phys. Rev. D92:115017 (2015)
     arxiv: "1509.06765"
     year: 2015
-    topic: darkf
+    topic: detecting_dm
 
   - title: "Resolving Boosted Jets with XCone"
     authors: Jesse Thaler and Thomas F. Wilkason
@@ -440,7 +440,7 @@ papers:
     journal: JHEP 1512:051 (2015)
     arxiv: "1508.01518"
     year: 2015
-    topic: jet_alg
+    topic: jet_algorithms
 
   - title: "XCone: N-jettiness as an Exclusive Cone Jet Algorithm"
     authors: Iain W. Stewart, Frank J. Tackmann, Jesse Thaler, Christopher K. Vermilion, and Thomas F. Wilkason
@@ -448,7 +448,7 @@ papers:
     journal: JHEP 1511:072 (2015)
     arxiv: "1508.01516"
     year: 2015
-    topic: jet_alg
+    topic: jet_algorithms
 
   - title: "Dark Matter, Shared Asymmetries, and Galactic Gamma Ray Signals"
     authors: Nayara Fonseca, Lina Necib, and Jesse Thaler
@@ -456,7 +456,7 @@ papers:
     journal: JCAP 1602:052 (2016)
     arxiv: "1507.08295"
     year: 2015
-    topic: wimp
+    topic: dark_matter
 
   - title: "Separated at Birth: Jet Maximization, Axis Minimization, and Stable Cone Finding"
     authors: Jesse Thaler
@@ -464,7 +464,7 @@ papers:
     journal: Phys. Rev. D92:074001 (2015)
     arxiv: "1506.07876"
     year: 2015
-    topic: jet_alg
+    topic: jet_algorithms
 
   - title: "The Goldstone and Goldstino of Supersymmetric Inflation"
     authors: Yonatan Kahn, Daniel A. Roberts, and Jesse Thaler
@@ -472,7 +472,7 @@ papers:
     journal: JHEP 1510:001 (2015)
     arxiv: "1504.05958"
     year: 2015
-    topic: sup_cosm
+    topic: superspace
 
 
   - title: "Sudakov Safety in Perturbative QCD"
@@ -499,7 +499,7 @@ papers:
     journal: Phys. Rev. D91:055006 (2015)
     arxiv: "1411.1055"
     year: 2014
-    topic: darkf
+    topic: detecting_dm
 
   - title: "Gaining (Mutual) Information about Quark/Gluon Discrimination"
     authors: Andrew J. Larkoski, Jesse Thaler, and Wouter J. Waalewijn
@@ -523,7 +523,7 @@ papers:
     journal: JCAP 1410:062 (2014)
     arxiv: "1405.7370"
     year: 2014
-    topic: wimp
+    topic: dark_matter
     priority: 3
 
 
@@ -551,7 +551,7 @@ papers:
     journal: JHEP 1404:013 (2014)
     arxiv: "1310.7584"
     year: 2013
-    topic: jet_alg
+    topic: jet_algorithms
 
   - title: "Auxiliary Gauge Mediation: A New Route to Mini-Split Supersymmetry"
     authors: Yonatan Kahn, Matthew McCullough, and Jesse Thaler
@@ -559,7 +559,7 @@ papers:
     journal: JHEP 1311:161 (2013)
     arxiv: "1308.3490"
     year: 2013
-    topic: un_sym
+    topic: susy
 
   - title: "Anomaly Mediation from Unbroken Supergravity"
     authors: Francesco D'Eramo, Jesse Thaler, and Zoe Thomas
@@ -567,7 +567,7 @@ papers:
     journal: JHEP 1309:125 (2013)
     arxiv: "1307.3251"
     year: 2013
-    topic: sup_cosm
+    topic: superspace
 
   - title: "Unsafe but Calculable: Ratios of Angularities in Perturbative QCD"
     authors: Andrew J. Larkoski and Jesse Thaler
@@ -591,7 +591,7 @@ papers:
     journal: JHEP 1310:230 (2013)
     arxiv: "1306.4314"
     year: 2013
-    topic: nb_sym
+    topic: naturalness
 
   - title: "Energy Correlation Functions for Jet Substructure"
     authors: Andrew J. Larkoski, Gavin P. Salam, and Jesse Thaler
@@ -607,7 +607,7 @@ papers:
     journal: JHEP 1308:130 (2013)
     arxiv: "1304.4233"
     year: 2013
-    topic: nb_sym
+    topic: naturalness
 
   - title: "Calculating Track-Based Observables for the LHC"
     authors: Hsi-Ming Chang, Massimiliano Procura, Jesse Thaler, and Wouter J. Waalewijn
@@ -623,7 +623,7 @@ papers:
     journal: TASI 2012
     arxiv: "1302.6229"
     year: 2013
-    topic: adv_sp
+    topic: superspace
 
   - title: "Multiple Gamma Lines from Semi-Annihilation"
     authors: Francesco D'Eramo, Matthew McCullough, and Jesse Thaler
@@ -631,7 +631,7 @@ papers:
     journal: JCAP 1304:030 (2013)
     arxiv: "1210.7817"
     year: 2012
-    topic: wimp
+    topic: dark_matter
 
   - title: "Power Corrections to Event Shapes with Mass-Dependent Operators"
     authors: Vicent Mateu, Iain W. Stewart, and Jesse Thaler
@@ -647,7 +647,7 @@ papers:
     journal: Phys. Rev. D86:115012 (2012)
     arxiv: "1209.0777"
     year: 2012
-    topic: darkf
+    topic: detecting_dm
 
   - title: "Precision Jet Substructure from Boosted Event Shapes"
     authors: Ilya Feige, Matthew D. Schwartz, Iain W. Stewart, and Jesse Thaler
@@ -663,7 +663,7 @@ papers:
     journal: JHEP 1206:046 (2012)
     arxiv: "1203.1622"
     year: 2012
-    topic: un_sym
+    topic: susy
     priority: 3
 
   - title: "Locality in Theory Space"
@@ -672,7 +672,7 @@ papers:
     journal: JHEP 1207:007 (2012)
     arxiv: "1202.5491"
     year: 2012
-    topic: spo_sym
+    topic: little_higgs
 
   - title: "The Two Faces of Anomaly Mediation"
     authors: Francesco D'Eramo, Jesse Thaler, and Zoe Thomas
@@ -680,7 +680,7 @@ papers:
     journal: JHEP 1206:151 (2012)
     arxiv: "1202.1280"
     year: 2012
-    topic: sup_cosm
+    topic: superspace
 
   - title: "The New Flavor of Higgsed Gauge Mediation"
     authors: Nathaniel Craig, Matthew McCullough, and Jesse Thaler
@@ -688,7 +688,7 @@ papers:
     journal: JHEP 1203:049 (2012)
     arxiv: "1201.2179"
     year: 2012
-    topic: un_sym
+    topic: susy
 
 
   - title: "Dark Matter Assimilation into the Baryon Asymmetry"
@@ -697,7 +697,7 @@ papers:
     journal: JCAP 1203:010 (2012)
     arxiv: "1111.5615"
     year: 2011
-    topic: wimp
+    topic: dark_matter
 
   - title: "Visible Supersymmetry Breaking and an Invisible Higgs"
     authors: Daniele Bertolini, Keith Rehermann, and Jesse Thaler
@@ -705,7 +705,7 @@ papers:
     journal: JHEP 1204:130 (2012)
     arxiv: "1111.0628"
     year: 2011
-    topic: gold
+    topic: susy
 
   - title: "Maximizing Boosted Top Identification by Minimizing N-subjettiness"
     authors: Jesse Thaler and Ken Van Tilburg
@@ -722,7 +722,7 @@ papers:
     journal: JHEP 1111:145 (2011)
     arxiv: "1106.2164"
     year: 2011
-    topic: un_sym
+    topic: susy
 
   - title: "The Spectrum of Goldstini and Modulini"
     authors: Clifford Cheung, Francesco D'Eramo, and Jesse Thaler
@@ -730,7 +730,7 @@ papers:
     journal: JHEP 1108:115 (2011)
     arxiv: "1104.2600"
     year: 2011
-    topic: gold
+    topic: susy
 
   - title: "Supergravity Computations without Gravity Complications"
     authors: Clifford Cheung, Francesco D'Eramo, and Jesse Thaler
@@ -738,7 +738,7 @@ papers:
     journal: Phys. Rev. D84:085012 (2011)
     arxiv: "1104.2598"
     year: 2011
-    topic: sup_cosm
+    topic: superspace
 
   - title: "Goldstini Can Give the Higgs a Boost"
     authors: Jesse Thaler and Zoe Thomas
@@ -746,7 +746,7 @@ papers:
     journal: JHEP 1107:060 (2011)
     arxiv: "1103.1631"
     year: 2011
-    topic: gold
+    topic: susy
 
   - title: "Identifying Boosted Objects with N-subjettiness"
     authors: Jesse Thaler and Ken Van Tilburg
@@ -763,7 +763,7 @@ papers:
     journal: JHEP 1009:018 (2010)
     arxiv: "1006.1356"
     year: 2010
-    topic: l_hig
+    topic: little_higgs
 
   - title: "A Definitive Signal of Multiple Supersymmetry Breaking"
     authors: Clifford Cheung, Jeremy Mardon, Yasunori Nomura, and Jesse Thaler
@@ -771,7 +771,7 @@ papers:
     journal: JHEP 1007:035 (2010)
     arxiv: "1004.4637"
     year: 2010
-    topic: gold
+    topic: susy
 
   - title: "Dark Matter from Dynamical SUSY Breaking"
     authors: JiJi Fan, Jesse Thaler, and Lian-Tao Wang
@@ -779,7 +779,7 @@ papers:
     journal: JHEP 1006:045 (2010)
     arxiv: "1004.0008"
     year: 2010
-    topic: axionp
+    topic: dark_matter
 
   - title: "Semi-annihilation of Dark Matter"
     authors: Francesco D'Eramo and Jesse Thaler
@@ -787,7 +787,7 @@ papers:
     journal: JHEP 1006:109 (2010)
     arxiv: "1003.5912"
     year: 2010
-    topic: wimp
+    topic: dark_matter
 
   - title: "Goldstini"
     authors: Clifford Cheung, Yasunori Nomura, and Jesse Thaler
@@ -795,7 +795,7 @@ papers:
     journal: JHEP 1003:073 (2010)
     arxiv: "1002.1967"
     year: 2010
-    topic: gold
+    topic: susy
 
   - title: "Jet Trimming"
     authors: David Krohn, Jesse Thaler, and Lian-Tao Wang
@@ -811,7 +811,7 @@ papers:
     journal: Phys. Rev. D81:034001 (2010)
     arxiv: "0911.5355"
     year: 2009
-    topic: axionp
+    topic: dark_matter
 
   - title: "Supermodels for early LHC"
     authors: Christian W. Bauer, Zoltan Ligeti, Martin Schmaltz, Jesse Thaler, and Devin G.E. Walker
@@ -819,7 +819,7 @@ papers:
     journal: Phys. Lett. B 690:280-288 (2010)
     arxiv: "0909.5213"
     year: 2009
-    topic: sb_stand
+    topic: lhc_inverse
 
   - title: "Dark Force Detection in Low Energy e-p Collisions"
     authors: Marat Freytsis, Grigory Ovanesyan, and Jesse Thaler
@@ -827,7 +827,7 @@ papers:
     journal: JHEP 1001:111 (2010)
     arxiv: "0909.2862"
     year: 2009
-    topic: darkf
+    topic: detecting_dm
 
   - title: "Cosmic Signals from the Hidden Sector"
     authors: Jeremy Mardon, Yasunori Nomura, and Jesse Thaler
@@ -835,7 +835,7 @@ papers:
     journal: Phys. Rev. D80:035013 (2009)
     arxiv: "0905.3749"
     year: 2009
-    topic: axionp
+    topic: dark_matter
 
   - title: "Jets with Variable R"
     authors: David Krohn, Jesse Thaler, and Lian-Tao Wang
@@ -843,7 +843,7 @@ papers:
     journal: JHEP 0906:059 (2009)
     arxiv: "0903.0392"
     year: 2009
-    topic: jet_alg
+    topic: jet_algorithms
 
   - title: "Dark Matter Signals from Cascade Annihilations"
     authors: Jeremy Mardon, Yasunori Nomura, Daniel Stolarski, and Jesse Thaler
@@ -851,7 +851,7 @@ papers:
     journal: JCAP 0905:016 (2009)
     arxiv: "0901.2926"
     year: 2009
-    topic: axionp
+    topic: dark_matter
 
   - title: "Collective Quartics and Dangerous Singlets in Little Higgs"
     authors: Martin Schmaltz and Jesse Thaler
@@ -859,7 +859,7 @@ papers:
     journal: JHEP 0903:137 (2009)
     arxiv: "0812.2477"
     year: 2008
-    topic: l_hig
+    topic: little_higgs
 
   - title: "Dark Matter through the Axion Portal"
     authors: Yasunori Nomura and Jesse Thaler
@@ -867,7 +867,7 @@ papers:
     journal: Phys. Rev. D79:075008 (2009)
     arxiv: "0810.5397"
     year: 2008
-    topic: axionp
+    topic: dark_matter
 
   - title: "The Dark Top"
     authors: David Poland and Jesse Thaler
@@ -875,7 +875,7 @@ papers:
     journal: JHEP 0811:083 (2008)
     arxiv: "0808.1290"
     year: 2008
-    topic: nb_sym
+    topic: naturalness
 
   - title: "Strategies to Identify Boosted Tops"
     authors: Jesse Thaler and Lian-Tao Wang
@@ -891,7 +891,7 @@ papers:
     journal: JHEP 0812:011 (2008)
     arxiv: "0801.4028"
     year: 2008
-    topic: sm_back
+    topic: lhc_inverse
 
   - title: "GenEvA (I): A new framework for event generation"
     authors: Christian W. Bauer, Frank J. Tackmann, and Jesse Thaler
@@ -899,7 +899,7 @@ papers:
     journal: JHEP 0812:010 (2008)
     arxiv: "0801.4026"
     year: 2008
-    topic: sm_back
+    topic: lhc_inverse
 
   - title: "Probing Minimal Flavor Violation at the LHC"
     authors: Yuval Grossman, Yosef Nir, Jesse Thaler, Tomer Volansky, and Jure Zupan
@@ -907,13 +907,13 @@ papers:
     journal: Phys. Rev. D76:096006 (2007)
     arxiv: "0706.1845"
     year: 2007
-    topic: nb_sym
+    topic: naturalness
 
   - title: "MARMOSET: The Path from LHC Data to the New Standard Model via On-Shell Effective Theories"
     authors: Nima Arkani-Hamed, Bruce Knuteson, Stephen Mrenna, Philip Schuster, Jesse Thaler, Natalia Toro, and Lian-Tao Wang
     arxiv: "hep-ph/0703088"
     year: 2007
-    topic: sb_stand
+    topic: lhc_inverse
 
   - title: "Natural Dark Matter from an Unnatural Higgs Boson and New Colored Particles at the TeV Scale"
     authors: Aaron Pierce and Jesse Thaler
@@ -921,7 +921,7 @@ papers:
     journal: JHEP 0708:026 (2007)
     arxiv: "hep-ph/0703056"
     year: 2007
-    topic: nb_sym
+    topic: naturalness
 
   - title: "Disentangling Dimension Six Operators through Di-Higgs Boson Production"
     authors: Aaron Pierce, Jesse Thaler, and Lian-Tao Wang
@@ -929,7 +929,7 @@ papers:
     journal: JHEP 0705:070 (2007)
     arxiv: "hep-ph/0609049"
     year: 2006
-    topic: nb_sym
+    topic: naturalness
 
   - title: "Little M-theory"
     authors: Hsin-Chia Cheng, Jesse Thaler, and Lian-Tao Wang
@@ -937,7 +937,7 @@ papers:
     journal: JHEP 0609:003 (2006)
     arxiv: "hep-ph/0607205"
     year: 2006
-    topic: l_hig
+    topic: little_higgs
 
   - title: "(Reverse) Engineering Vacuum Alignment"
     authors: Clifford Cheung and Jesse Thaler
@@ -945,7 +945,7 @@ papers:
     journal: JHEP 0608:016 (2006)
     arxiv: "hep-ph/0604259"
     year: 2006
-    topic: spo_sym
+    topic: little_higgs
 
   - title: "Prospects for Mirage Mediation"
     authors: Aaron Pierce and Jesse Thaler
@@ -953,7 +953,7 @@ papers:
     journal: JHEP 0609:017 (2006)
     arxiv: "hep-ph/0604192"
     year: 2006
-    topic: un_sym
+    topic: susy
 
   - title: "Spontaneous Lorentz Breaking at High Energies"
     authors: Hsin-Chia Cheng, Markus A. Luty, Shinji Mukohyama, and Jesse Thaler
@@ -961,7 +961,7 @@ papers:
     journal: JHEP 0605:076 (2006)
     arxiv: "hep-ph/0603010"
     year: 2006
-    topic: slv
+    topic: gravity
 
   - title: "Supersymmetry and the LHC Inverse Problem"
     authors: Nima Arkani-Hamed, Gordon L. Kane, Jesse Thaler, and Lian-Tao Wang
@@ -969,7 +969,7 @@ papers:
     journal: JHEP 0608:070 (2006)
     arxiv: "hep-ph/0512190"
     year: 2005
-    topic: sb_stand
+    topic: lhc_inverse
 
   - title: "Neutrino Constraints on Spontaneous Lorentz Violation"
     authors: Yuval Grossman, Can Kilic, Jesse Thaler, and Devin G. E. Walker
@@ -977,7 +977,7 @@ papers:
     journal: Phys. Rev. D72:125001 (2005)
     arxiv: "hep-ph/0506216"
     year: 2005
-    topic: slv
+    topic: gravity
 
   - title: "Little Technicolor"
     authors: Jesse Thaler
@@ -985,7 +985,7 @@ papers:
     journal: JHEP 0507:024 (2005)
     arxiv: "hep-ph/0502175"
     year: 2005
-    topic: spo_sym
+    topic: little_higgs
 
   - title: "The Littlest Higgs in Anti-de Sitter Space"
     authors: Jesse Thaler and Itay Yavin
@@ -993,7 +993,7 @@ papers:
     journal: JHEP 0508:022 (2005)
     arxiv: "hep-ph/0501036"
     year: 2005
-    topic: l_hig
+    topic: little_higgs
 
   - title: "Universal Dynamics of Spontaneous Lorentz Violation and a New Spin-Dependent Inverse-Square Law Force"
     authors: Nima Arkani-Hamed, Hsin-Chia Cheng, Markus A. Luty, and Jesse Thaler
@@ -1001,7 +1001,7 @@ papers:
     journal: JHEP 0507:029 (2005)
     arxiv: "hep-ph/0407034"
     year: 2004
-    topic: slv
+    topic: gravity
 
 
   - title: "Dynamics of black hole formation in an exactly solvable model"
@@ -1010,7 +1010,7 @@ papers:
     journal: Phys. Rev. D66 024041 (2002)
     arxiv: "hep-th/0203172"
     year: 2002
-    topic: black_holes
+    topic: gravity
 
 conference:
 

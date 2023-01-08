@@ -1,128 +1,87 @@
-themes:
+topics:
 
   - key: aiml
     title:  Data Science and Machine Learning
-    description:
+    description:  "Machine learning has impacted many scientific fields, and particle physics is no exception. In my research, I aim to enhance the search for new phenomena at colliders by merging the performance of deep learning algorithms with the robustness of “deep thinking” approaches."
+    subtopics:
+        
+      - key:    point_cloud
+        title:  Point Clouds and Optimal Transport
+
+      - key:    reweighting
+        title:  Reweighting, Unfolding, and Calibration
+
+      - key:    weak
+        title:  Weak Supervision and Interpretability
+
+      - key:  open_data
+        title:  Open Data Studies
+        description:  "In November 2014, the CMS experiment at the Large Hadron Collider released the first batch of public collider data. I am involved in the MIT Open Data (MOD) project to apply novel data analysis techniques to this valuable data set."
+
+      - key:    qis
+        title:  Quantum Computation
 
   - key: qcd
     title:  Collider Physics and Quantum Chromodynamics
     description:
-    
-  - key: bsm
-    title:  Physics Beyond the Standard Model
-    description:
-
-
-topics:
-
-  - title:   Jets and Jet Substructure
     subtopics:
-
-      - key:    ml
-        title:  Data Science and Machine Learning
-        description:  "Machine learning has impacted many scientific fields, and particle physics is no exception. In my research, I aim to enhance the search for new phenomena at colliders by merging the performance of deep learning algorithms with the robustness of “deep thinking” approaches."
-
-      - key:    qis
-        title:  Quantum Computation for Colliders
-
+    
       - key:    boost
         title:  Jet Substructure for Boosted Objects
         description:  "Jets are collimated sprays of particles arising from the fragmentation of short-distance quarks and gluons. In traditional collider studies, these jets are reconstructed using jet algorithms, which assign clusters of particles to jet four-vectors. I have shown that the substructure of jets can provide valuable information about the underlying short-distance physics. In extreme cases, physics that would otherwise be unobservable using traditional jet algorithms can be made prominent through jet substructure techniques."
 
+
+
+    
       - key:    precision
         title:  Precision Jet Physics
         description:  "Along with the rise of jet substructure tools, there has been an increased focus on using (non)perturbative QCD methods to predict the properties of jets. In the past, QCD calculations focused on “infrared and collinear safe” (IRC safe) observables which can be calculated order by order in perturbation theory. Now, the calculational toolbox has expanded to include IRC unsafe observables—such as track-based observables and ratio observables—by using new analytic techniques."
          
-      - key:   jet_alg
+      - key:   jet_algorithms
         title:  "New Jet Algorithms"
         description:  "The boundary between jets and jet substructure has blurred over the years, and will continue to do so. The following techniques are primarily aimed applicable at identifying jets themselves, but take lessons learned from jet substructure studies to study the superstructure of events."
+
 
       - key:  qgp
         title:  "Probing the Quark/Gluon Plasma"
 
-  - title:   Open Data Studies
+    
+  - key: bsm
+    title:  Physics Beyond the Standard Model
+    description:
     subtopics:
+    
+      - key:  detecting_dm
+        title:  Detecting Axions and Dark Forces
+        description:  "I work on new ways to probe ultralight axion dark matter (not to be confused with the axion portal below), which requires very different detection techniques than heavy-particle dark matter. Dark matter is five times more abundant than ordinary (baryonic) matter, a fact that is firmly established through a variety of gravitational tests. A key question is whether dark matter might have other interactions with the standard model beyond gravity. One possibility is that dark matter experiences dark forces, which are only feebly felt by the standard model. A new generation of experiments is being pursued to find evidence for such dark forces, and I am involved in an MIT-led proposal called DarkLight to use the energy-recovery linac at Jefferson lab to search for a “dark photon”."
 
-      - key:  cms2011
-        title:  2011 CMS Open Data
-
-
-      - key:  cms2010
-        title:  2010 CMS Open Data
-        description:  "In November 2014, the CMS experiment at the Large Hadron Collider released the first batch of public collider data. I am involved in the MIT Open Data (MOD) project to apply novel data analysis techniques to this valuable data set."
-
-  - title:   Novel Dark Matter Dynamics
-    subtopics:
-
-      - key:  axion
-        title:  Axion Dark Matter Detection
-        description:  "I work on new ways to probe ultralight axion dark matter (not to be confused with the axion portal below), which requires very different detection techniques than heavy-particle dark matter."
-
-      - key:  darkf
-        title:  Dark Forces
-        description: "Dark matter is five times more abundant than ordinary (baryonic) matter, a fact that is firmly established through a variety of gravitational tests. A key question is whether dark matter might have other interactions with the standard model beyond gravity. One possibility is that dark matter experiences dark forces, which are only feebly felt by the standard model. A new generation of experiments is being pursued to find evidence for such dark forces, and I am involved in an MIT-led proposal called DarkLight to use the energy-recovery linac at Jefferson lab to search for a “dark photon”."
-
-      - key:  axionp
-        title:  The Axion Portal
-        description:  "Dark forces are part of a large paradigm of dark portals connecting visible and hidden sectors of nature. I developed the idea of an “axion portal”, where dark matter and ordinary matter interact via a light pseudoscalar particle. While dark matter itself is quite difficult to probe in these scenarios, the axion leaves distinction signatures in collider experiments. Axion-like states and stable dark matter arise quite generically in supersymmetric hidden sectors, which can have an interesting effect on the measured cosmic ray spectrum."
-
-      - key:  wimp
-        title:  Beyond the WIMP Paradigm
-        description: "One of key questions about dark matter is how it is produced in the early universe. In the standard weakly-interacting massive particle (WIMP) paradigm, dark matter is kept in thermal equilibrium when the universe is hot and dense, and once dark matter become sufficiently dilute from the expansion of the universe, it “freezes out” and the relic cold dark matter is what we observe today. However, there are many deviations from this standard paradigm, which lead to different predictions for the interactions of dark matter we can observe in direct and indirect detection experiments."
-
-  - title:  Supersymmetry and Supersymmetry Breaking
-    subtopics:
-
-      - key:  adv_sp
-        title:  Adventures in Superspace
-
-      - key:  sup_cosm
-        title:  Supergravity and Cosmology
+      - key:  dark_matter
+        title:  Models of Dark Matter
+        description:  "Dark forces are part of a large paradigm of dark portals connecting visible and hidden sectors of nature. I developed the idea of an “axion portal”, where dark matter and ordinary matter interact via a light pseudoscalar particle. While dark matter itself is quite difficult to probe in these scenarios, the axion leaves distinction signatures in collider experiments. Axion-like states and stable dark matter arise quite generically in supersymmetric hidden sectors, which can have an interesting effect on the measured cosmic ray spectrum. One of key questions about dark matter is how it is produced in the early universe. In the standard weakly-interacting massive particle (WIMP) paradigm, dark matter is kept in thermal equilibrium when the universe is hot and dense, and once dark matter become sufficiently dilute from the expansion of the universe, it “freezes out” and the relic cold dark matter is what we observe today. However, there are many deviations from this standard paradigm, which lead to different predictions for the interactions of dark matter we can observe in direct and indirect detection experiments."
+    
+      - key:  superspace
+        title:  Superspace, Supergravity, and Cosmology
         description:  "Supersymmetry (SUSY) is well-motivation extension of space-time symmetry, with unique predictions for collider experiments like the LHC. SUSY is particularly interest in the context of cosmology, since the geometry of the universe is de Sitter (dS), but supergravity (SUGRA) retains a memory of an underlying anti-de Sitter (AdS) algebra. I have studied implications this AdS structure, in particular showing that the phenomenon known as “anomaly-mediatied SUSY breaking” does not actually break SUSY, but is rather a SUSY-preserving effect in anti-de Sitter space."
 
-      - key:  gold
-        title:  Goldstini
-        description:  "If SUSY is symmetry of nature, then it must be spontaneously broken. However, very little is known about the dynamics of SUSY breaking, and it is possible (even likely?) that SUSY is broken independently by multiple sectors. In the familiar case where SUSY is broken by a single sector, this gives rise to a single goldstino (a Nambu-Goldstone fermion from SUSY breaking) which is eaten to form the longitudinal components of the gravitino. But if there are multiple sectors that break SUSY, then there is a corresponding multiplicity of “goldstini”, which can affect collider physics and cosmology."
+      - key:  susy
+        title:   Models of Supersymmetry
+        description:  "If SUSY is symmetry of nature, then it must be spontaneously broken. However, very little is known about the dynamics of SUSY breaking, and it is possible (even likely?) that SUSY is broken independently by multiple sectors. In the familiar case where SUSY is broken by a single sector, this gives rise to a single goldstino (a Nambu-Goldstone fermion from SUSY breaking) which is eaten to form the longitudinal components of the gravitino. But if there are multiple sectors that break SUSY, then there is a corresponding multiplicity of “goldstini”, which can affect collider physics and cosmology.  In particle physics, the principle of naturalness states that measured parameters should be closely related to fundamental parameters. Unnatural theories exhibit delicate cancelations between fundamental parameters to yield anomalously small measured parameters. While naturalness is not a sacred principle in particle physics, it is the basis for much theoretical speculation. Naturalness features prominently in supersymmetric scenarios, but interesting theoretical ideas can arise if naturalness is abandoned completely or taken to logical extremes."
 
-      - key:  un_sym
-        title:  (Un)natural Supersymmetry
-        description:  "In particle physics, the principle of naturalness states that measured parameters should be closely related to fundamental parameters. Unnatural theories exhibit delicate cancelations between fundamental parameters to yield anomalously small measured parameters. While naturalness is not a sacred principle in particle physics, it is the basis for much theoretical speculation. Naturalness features prominently in supersymmetric scenarios, but interesting theoretical ideas can arise if naturalness is abandoned completely or taken to logical extremes."
+    
+      - key:  little_higgs
+        title:  Little Higgs Theories
+        description:  "The origin of electroweak symmetry breaking is a key question in and beyond the standard model. In the standard model, the Higgs boson plays a key role in breaking electroweak symmetry, but this is not the only option. Models like technicolor invoke strong dynamics to break electroweak symmetry, and there is an intermediate possibility that strong dynamics yields a composite Higgs boson which subsequently breaks electroweak symmetry at a lower energy. One of the most interesting kinds of composite Higgs theories are “little Higgs” models, which invoke a special pattern of overlapping symmetries. In addition to their phenomenological relevance, little Higgs theories offer an interesting testing ground to study spontaneous symmetry breaking itself. The following theoretical studies are aimed at gaining a better of understanding of the dynamics of composite theories, and the plausibility of various symmetry breaking patterns."
 
-  - title:   Little Higgs/Composite Higgs Theories
-    subtopics:
 
-      - key:  l_hig
-        title:  Models for a Little Higgs
-        description:  "The origin of electroweak symmetry breaking is a key question in and beyond the standard model. In the standard model, the Higgs boson plays a key role in breaking electroweak symmetry, but this is not the only option. Models like technicolor invoke strong dynamics to break electroweak symmetry, and there is an intermediate possibility that strong dynamics yields a composite Higgs boson which subsequently breaks electroweak symmetry at a lower energy. One of the most interesting kinds of composite Higgs theories are “little Higgs” models, which invoke a special pattern of overlapping symmetries."
-
-      - key:  spo_sym
-        title:  Structure of Spontaneous Symmetry Breaking
-        description:  "In addition to their phenomenological relevance, little Higgs theories offer an interesting testing ground to study spontaneous symmetry breaking itself. The following theoretical studies are aimed at gaining a better of understanding of the dynamics of composite theories, and the plausibility of various symmetry breaking patterns."
-
-      - key:  nb_sym
-        title:  Naturalness Beyond Supersymmetry
+      - key:  naturalness
+        title:  Implications of Naturalness
         description: "Motivated in part by compositeness models, I have studied a variety of non-supersymmetric theories that stretch the notions of naturalness. These models have revealed new ways to think about flavor physics, Higgs physics, and dark matter, as well as suggested new ways to search for top partners at the LHC."
 
-  - title:   The LHC Inverse Problem
-    subtopics:
-
-      - key:  sb_stand
-        title:  Characterizing Signals Beyond the Standard Model
-        description:  "With all eyes on the Large Hadron Collider (LHC), particle physics is posed to learn what physics lies beyond the standard model. After a discovery of new particles or new phenomena, the next task is to figure out how that discovery fits into a theoretical framework. Over the years it has become clear that very different theoretical models can give rise to very similar LHC signatures, a challenge dubbed the “LHC Inverse Problem”."
-
-      - key:  sm_back
-        title:  Standard Model Background Estimation
-        description:  "The excitement surrounding the Large Hadron Collider is focused on the possibility of discovering new physics beyond the standard model. However, in order to discover new physics signals, one must have a thorough understanding of standard model background. The workhorse tools for understanding background processes are parton shower generators, which simulate collider events through a variety of controlled and uncontrolled approximations. The goal of the GenEvA project (GENerate EVents Analytically) is to improve the approximations used in Monte Carlo programs as well as smoothly interpolate between different approximation method to construct as complete a picture of the standard model as possible."
-
-  - title:   Adventures in Gravity
-    subtopics:
-
-      - key:  slv
-        title:  Spontaneous Lorentz Violation
-        description:  "Lorentz symmetry is the symmetry between space and time, and it is the basis for all fundamental physics. In particular, the absence of any “luminiferous ether” is well-established, and we know that all particles travel according to relativistic dynamics to an excellent approximation. However, there is still the possibility that Lorentz symmetry is spontaneously broken at low energies, and there are a variety of ongoing searches for this “new ether”, which has subtle effects on standard model properties."
-
-      - key:  black_holes
-        title:  Black Hole Dynamics
-        description:  "One of the most exciting possibilities for the Large Hadron Collider (LHC) is the production of microscopic black holes. This is possible in models of extra dimensions, where the fundamental gravity scale is near the LHC center-of-mass energy. A key question is whether the semi-classical intuition for the black hole production rate is correct in the full quantum picture, and we were able to answer this affirmatively in a simple toy theory."
+      - key:  lhc_inverse
+        title:  The LHC Inverse Problem
+        description:  "With all eyes on the Large Hadron Collider (LHC), particle physics is posed to learn what physics lies beyond the standard model. After a discovery of new particles or new phenomena, the next task is to figure out how that discovery fits into a theoretical framework. Over the years it has become clear that very different theoretical models can give rise to very similar LHC signatures, a challenge dubbed the “LHC Inverse Problem”. The excitement surrounding the Large Hadron Collider is focused on the possibility of discovering new physics beyond the standard model. However, in order to discover new physics signals, one must have a thorough understanding of standard model background. The workhorse tools for understanding background processes are parton shower generators, which simulate collider events through a variety of controlled and uncontrolled approximations. The goal of the GenEvA project (GENerate EVents Analytically) is to improve the approximations used in Monte Carlo programs as well as smoothly interpolate between different approximation method to construct as complete a picture of the standard model as possible."
 
 
+      - key:  gravity
+        title:  Gravity and Lorentz Violation
+        description:  "Lorentz symmetry is the symmetry between space and time, and it is the basis for all fundamental physics. In particular, the absence of any “luminiferous ether” is well-established, and we know that all particles travel according to relativistic dynamics to an excellent approximation. However, there is still the possibility that Lorentz symmetry is spontaneously broken at low energies, and there are a variety of ongoing searches for this “new ether”, which has subtle effects on standard model properties.  One of the most exciting possibilities for the Large Hadron Collider (LHC) is the production of microscopic black holes. This is possible in models of extra dimensions, where the fundamental gravity scale is near the LHC center-of-mass energy. A key question is whether the semi-classical intuition for the black hole production rate is correct in the full quantum picture, and we were able to answer this affirmatively in a simple toy theory."

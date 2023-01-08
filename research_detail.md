@@ -10,19 +10,19 @@ aside:
 
 
 {% for topic in site.data.research.topics %}
-## {{topic.title}}
+## {{topic.title}} {#{{topic.key}}}
 
 {% for subtopic in topic.subtopics %}
-### {{subtopic.title}}
-{% if subtopic.description %} {{subtopic.description}} {% endif %}
+### {{subtopic.title}} {#{{subtopic.key}}}
+<!---{% if subtopic.description %} {{subtopic.description}} {% endif %}--->
 
-{% for paper in site.data.cv_papers.papers %}
-{% if subtopic.key == paper.topic%}
+{% for paper in site.data.cv_papers.papers -%}
+{% if subtopic.key == paper.topic %}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
-    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
+    {% if paper.doi %} [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
 {% endif %}
-
 {% endfor%}
+
 {% endfor%}
 {% endfor%}
