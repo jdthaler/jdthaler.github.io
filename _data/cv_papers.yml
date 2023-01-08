@@ -75,6 +75,7 @@ papers:
     authors: Hao Chen, Ian Moult, Jesse Thaler, and Hua Xing Zhu
     doi: 10.1007/JHEP07(2022)146
     journal: JHEP 2207:146 (2022)
+    short_journal: JHEP 2022
     arxiv: "2205.02857"
     year: 2022
     topic: open_data
@@ -166,6 +167,7 @@ papers:
     authors: Anders Andreassen, Patrick T. Komiske, Eric M. Metodiev, Benjamin Nachman, and Jesse Thaler
     doi: 10.1103/PhysRevLett.124.182001
     journal: Phys. Rev. Lett. 124:182001 (2020)
+    short_journal: PRL 2020
     arxiv: "1911.09107"
     year: 2019
     topic: reweighting
@@ -215,6 +217,7 @@ papers:
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
     doi: 10.1103/PhysRevLett.123.041801
     journal: Phys. Rev. Lett. 123:041801 (2019)
+    short_journal: PRL 2019
     arxiv: "1902.02346"
     year: 2019
     topic: point_cloud
@@ -352,6 +355,7 @@ papers:
     authors: Andrew Larkoski, Simone Marzani, Jesse Thaler, Aashish Tripathee, and Wei Xue
     doi: 10.1103/PhysRevLett.119.132003
     journal: Phys. Rev. Lett. 119:132003 (2017)
+    short_journal: PRL 2017
     arxiv: "1704.05066"
     year: 2017
     topic: open_data
@@ -413,6 +417,7 @@ papers:
     authors: Yonatan Kahn, Benjamin R. Safdi, and Jesse Thaler
     doi: 10.1103/PhysRevLett.117.141801
     journal: Phys. Rev. Lett. 117:141801 (2016)
+    short_journal: PRL 2016
     arxiv: "1602.01086"
     year: 2016
     topic: detecting_dm
@@ -752,6 +757,7 @@ papers:
     authors: Jesse Thaler and Ken Van Tilburg
     doi: 10.1007/JHEP03(2011)015
     journal: JHEP 1103:015 (2011)
+    short_journal: JHEP 2011
     arxiv: "1011.2268"
     year: 2010
     topic: boost

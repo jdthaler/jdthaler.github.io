@@ -17,14 +17,14 @@ aside:
 {%- for subtopic in topic.subtopics -%}
 {%- if subtopic.key == paper.topic -%}
   {%- if paper.priority >= 6 %}
-  * **[{{paper.title}}](https://doi.org/{{paper.doi}})**, *{{paper.authors}} ({{paper.year}})* 
-  {%- endif -%}
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** ([{{paper.short_journal}}](https://doi.org/{{paper.doi}})) \\
+    *{{paper.authors}}*   {%- endif -%}
 {%- endif -%}
 {% endfor %}
 {% endfor %}
 
 
-#### Additional Topics
+#### Topics
 
 {% for subtopic in topic.subtopics %}
   * [{{subtopic.title}}](research_detail#{{subtopic.key}})

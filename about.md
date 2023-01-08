@@ -41,7 +41,8 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 {% for paper in site.data.cv_papers.papers -%}
   {%- if paper.priority >= 6 %}
-  * **[{{paper.title}}](https://doi.org/{{paper.doi}})**, *{{paper.authors}} ({{paper.year}})* 
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** ([{{paper.short_journal}}](https://doi.org/{{paper.doi}})) \\
+    *{{paper.authors}}* 
   {%- endif -%}
 {% endfor %}
 

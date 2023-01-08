@@ -18,7 +18,7 @@ aside:
 
 {% for paper in site.data.cv_papers.papers -%}
 {% if subtopic.key == paper.topic %}
-  * **{{paper.title}}**. \\
+  * **{{paper.title}}**. {% if paper.priority >= 6 %}`recommended`{:.success}{% endif %} \\
     {{paper.authors}}.\\
     {% if paper.doi %} [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
 {% endif %}
