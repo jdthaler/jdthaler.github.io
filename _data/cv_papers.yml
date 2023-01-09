@@ -46,7 +46,7 @@ papers:
     short_journal: JHEP 2022
     arxiv: "2205.06818"
     year: 2022
-    topic: boost
+    topic: correlators
 
   - title: "Bias and Priors in Machine Learning Calibrations for High Energy Physics"
     authors: Rikab Gambhir, Benjamin Nachman, and Jesse Thaler
@@ -65,6 +65,7 @@ papers:
     arxiv: "2205.04459"
     year: 2022
     topic: open_data
+    priority: 3
 
 
   - title: "Learning Uncertainties the Frequentist Way: Calibration and Correlation in High Energy Physics"
@@ -75,6 +76,7 @@ papers:
     arxiv: "2205.03413"
     year: 2022
     topic: reweighting
+    priority: 3
 
   - title: "Non-Gaussianities in Collider Energy Flux"
     authors: Hao Chen, Ian Moult, Jesse Thaler, and Hua Xing Zhu
@@ -83,7 +85,7 @@ papers:
     short_journal: JHEP 2022
     arxiv: "2205.02857"
     year: 2022
-    topic: open_data
+    topic: correlators
     priority: 6
 
 
@@ -192,7 +194,7 @@ papers:
     short_journal: PRD 2020
     arxiv: "1911.04491"
     year: 2019
-    topic: boost
+    topic: correlators
 
   - title: "Circumnavigating Collinear Superspace"
     authors: Timothy Cohen, Gilly Elor, Andrew J. Larkoski, and Jesse Thaler
@@ -211,6 +213,7 @@ papers:
     arxiv: "1908.08949"
     year: 2019
     topic: qis
+    priority: 3
 
   - title: "Exploring the Space of Jets with CMS Open Data"
     authors: Patrick T. Komiske, Radha Mastandrea, Eric M. Metodiev, Preksha Naik, and Jesse Thaler
@@ -250,6 +253,7 @@ papers:
     arxiv: "1812.05111"
     year: 2018
     topic: qgp
+    priority: 3
 
   - title: "Navigating Collinear Superspace"
     authors: Timothy Cohen, Gilly Elor, Andrew J. Larkoski, and Jesse Thaler
@@ -287,7 +291,8 @@ papers:
     short_journal: JHEP 2018
     arxiv: "1809.01140"
     year: 2018
-    topic: boost
+    topic: quark_gluon
+    priority: 3
 
   - title: "Photon Isolation and Jet Substructure"
     authors: Eleanor Hall and Jesse Thaler
@@ -305,7 +310,7 @@ papers:
     short_journal: JHEP 2019
     arxiv: "1805.11109"
     year: 2018
-    topic: precision
+    topic: non-perturbative
 
   - title: "Recursive Soft Drop"
     authors: Frédéric A. Dreyer, Lina Necib, Gregory Soyez, and Jesse Thaler
@@ -324,7 +329,7 @@ papers:
     arxiv: "1802.00008"
     year: 2018
     topic: weak
-    priority: 3
+    priority: 5
 
   - title: "Energy Flow Polynomials: A Complete Linear Basis for Jet Substructure"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -333,7 +338,7 @@ papers:
     short_journal: JHEP 2018
     arxiv: "1712.07124"
     year: 2017
-    topic: boost
+    topic: correlators
 
   - title: "The Importance of Calorimetry for Highly-Boosted Jet Substructure"
     authors: Evan Coleman, Marat Freytsis, Andreas Hinzmann, Meenakshi Narain, Jesse Thaler, Nhan Tran, and Caterina Vernieri
@@ -362,7 +367,7 @@ papers:
     short_journal: JHEP 2017
     arxiv: "1704.06266"
     year: 2017
-    topic: precision
+    topic: quark_gluon
 
   - title: "Jet Substructure Studies with CMS Open Data"
     authors: Aashish Tripathee, Wei Xue, Andrew Larkoski, Simone Marzani, and Jesse Thaler
@@ -381,7 +386,7 @@ papers:
     short_journal: JHEP 2017
     arxiv: "1704.05456"
     year: 2017
-    topic: precision
+    topic: non-perturbative
 
   - title: "Exposing the QCD Splitting Function with CMS Open Data"
     authors: Andrew Larkoski, Simone Marzani, Jesse Thaler, Aashish Tripathee, and Wei Xue
@@ -400,7 +405,7 @@ papers:
     short_journal: JHEP 2017
     arxiv: "1704.03878"
     year: 2017
-    topic: boost
+    topic: quark_gluon
 
   - title: "Colorful Twisted Top Partners and Partnerium at the LHC"
     authors: Yevgeny Kats, Matthew McCullough, Gilad Perez, Yotam Soreq, and Jesse Thaler
@@ -427,7 +432,7 @@ papers:
     short_journal: JHEP 2016
     arxiv: "1609.07483"
     year: 2016
-    topic: boost
+    topic: correlators
     priority: 3
 
 
@@ -448,7 +453,7 @@ papers:
     arxiv: "1603.08926"
     year: 2016
     topic: detecting_dm
-    priority: 3
+    priority: 4
 
 
   - title: "Broadband and Resonant Approaches to Axion Dark Matter Detection"
@@ -514,6 +519,8 @@ papers:
     arxiv: "1506.07876"
     year: 2015
     topic: jet_algorithms
+    priority: 3
+
 
   - title: "The Goldstone and Goldstino of Supersymmetric Inflation"
     authors: Yonatan Kahn, Daniel A. Roberts, and Jesse Thaler
@@ -523,6 +530,8 @@ papers:
     arxiv: "1504.05958"
     year: 2015
     topic: superspace
+    priority: 3
+
 
 
   - title: "Sudakov Safety in Perturbative QCD"
@@ -533,7 +542,7 @@ papers:
     arxiv: "1502.01719"
     year: 2015
     topic: precision
-    priority: 3
+    priority: 5
 
 
   - title: "The First Calculation of Fractional Jets"
@@ -561,9 +570,9 @@ papers:
     short_journal: JHEP 2014
     arxiv: "1408.3122"
     year: 2014
-    topic: boost
+    topic: quark_gluon
 
-  - title: "Aspects of Jets at 100 TeV."
+  - title: "Aspects of Jets at 100 TeV"
     authors: Andrew J. Larkoski and Jesse Thaler
     doi: 10.1103/PhysRevD.90.034010
     journal: Phys. Rev. D90:034010 (2014)
@@ -602,6 +611,8 @@ papers:
     arxiv: "1401.2158"
     year: 2014
     topic: precision
+    priority: 3
+
 
   - title: "Jet Observables Without Jet Algorithms"
     authors: Daniele Bertolini, Tucker Chan, and Jesse Thaler
@@ -629,6 +640,7 @@ papers:
     arxiv: "1307.3251"
     year: 2013
     topic: superspace
+    priority: 3
 
   - title: "Unsafe but Calculable: Ratios of Angularities in Perturbative QCD"
     authors: Andrew J. Larkoski and Jesse Thaler
@@ -639,6 +651,7 @@ papers:
     year: 2013
     topic: precision
 
+
   - title: "Calculating Track Thrust with Track Functions"
     authors: Hsi-Ming Chang, Massimiliano Procura, Jesse Thaler, and Wouter J. Waalewijn
     doi: 10.1103/PhysRevD.88.034030
@@ -646,7 +659,7 @@ papers:
     short_journal: PRD 2013
     arxiv: "1306.6630"
     year: 2013
-    topic: precision
+    topic: non-perturbative
 
   - title: "Exotic Top Partners and Little Higgs"
     authors: John Kearney, Aaron Pierce, and Jesse Thaler
@@ -664,7 +677,7 @@ papers:
     short_journal: JHEP 2013
     arxiv: "1305.0007"
     year: 2013
-    topic: boost
+    topic: correlators
 
   - title: "Top Partner Probes of Extended Higgs Sectors"
     authors: John Kearney, Aaron Pierce, and Jesse Thaler
@@ -682,7 +695,8 @@ papers:
     short_journal: PRL 2013
     arxiv: "1303.6637"
     year: 2013
-    topic: precision
+    topic: non-perturbative
+    priority: 3
 
   - title: "Super-Tricks for Superspace"
     authors: Daniele Bertolini, Jesse Thaler, and Zoe Thomas
@@ -709,7 +723,7 @@ papers:
     short_journal: PRD 2013
     arxiv: "1209.3781"
     year: 2012
-    topic: precision
+    topic: non-perturbative
 
   - title: "Searching for an Invisible A' Vector Boson with DarkLight"
     authors: Yonatan Kahn and Jesse Thaler
@@ -737,7 +751,7 @@ papers:
     arxiv: "1203.1622"
     year: 2012
     topic: susy
-    priority: 3
+    priority: 5
 
   - title: "Locality in Theory Space"
     authors: Yonatan Kahn and Jesse Thaler
@@ -876,6 +890,7 @@ papers:
     arxiv: "1003.5912"
     year: 2010
     topic: dark_matter
+    priority: 5
 
   - title: "Goldstini"
     authors: Clifford Cheung, Yasunori Nomura, and Jesse Thaler
@@ -885,6 +900,7 @@ papers:
     arxiv: "1002.1967"
     year: 2010
     topic: susy
+    priority: 3
 
   - title: "Jet Trimming"
     authors: David Krohn, Jesse Thaler, and Lian-Tao Wang
@@ -902,7 +918,7 @@ papers:
     short_journal: PRD 2010
     arxiv: "0911.5355"
     year: 2009
-    topic: dark_matter
+    topic: detecting_dm
 
   - title: "Supermodels for early LHC"
     authors: Christian W. Bauer, Zoltan Ligeti, Martin Schmaltz, Jesse Thaler, and Devin G.E. Walker
@@ -957,6 +973,7 @@ papers:
     arxiv: "0812.2477"
     year: 2008
     topic: little_higgs
+    priority: 3
 
   - title: "Dark Matter through the Axion Portal"
     authors: Yasunori Nomura and Jesse Thaler
@@ -966,6 +983,8 @@ papers:
     arxiv: "0810.5397"
     year: 2008
     topic: dark_matter
+    priority: 3
+
 
   - title: "The Dark Top"
     authors: David Poland and Jesse Thaler
@@ -975,6 +994,8 @@ papers:
     arxiv: "0808.1290"
     year: 2008
     topic: naturalness
+    priority: 3
+
 
   - title: "Strategies to Identify Boosted Tops"
     authors: Jesse Thaler and Lian-Tao Wang
@@ -1080,6 +1101,8 @@ papers:
     arxiv: "hep-ph/0512190"
     year: 2005
     topic: lhc_inverse
+    priority: 3
+
 
   - title: "Neutrino Constraints on Spontaneous Lorentz Violation"
     authors: Yuval Grossman, Can Kilic, Jesse Thaler, and Devin G. E. Walker
@@ -1098,6 +1121,8 @@ papers:
     arxiv: "hep-ph/0502175"
     year: 2005
     topic: little_higgs
+    priority: 3
+
 
   - title: "The Littlest Higgs in Anti-de Sitter Space"
     authors: Jesse Thaler and Itay Yavin
@@ -1116,6 +1141,8 @@ papers:
     arxiv: "hep-ph/0407034"
     year: 2004
     topic: gravity
+    priority: 3
+
 
 
   - title: "Dynamics of black hole formation in an exactly solvable model"

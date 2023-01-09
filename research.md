@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Research Topics
+title: Research
 aside:
   toc: true
 ---
@@ -10,12 +10,12 @@ aside:
 {% for topic in site.data.research.topics %}
 ## {{topic.title}} {#{{topic.key}}}
 
-### Key Papers
+### Selected Papers
 
 {% for paper in site.data.cv_papers.papers -%}
 {%- for subtopic in topic.subtopics -%}
 {%- if subtopic.key == paper.topic -%}
-  {%- if paper.priority >= 6 %}
+  {%- if paper.priority >= 5 %}
   * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** \\
         *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
   {%- endif -%}
@@ -24,7 +24,7 @@ aside:
 {%- endfor %}
 
 
-### Subtopics
+### Research Topics
 
 
 {% for subtopic in topic.subtopics %}
@@ -34,7 +34,7 @@ aside:
 
 {% for paper in site.data.cv_papers.papers -%}
 {% if subtopic.key == paper.topic %}
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** {% if paper.priority >= 6 %}`recommended`{:.success}{% endif %} \\
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** {% if paper.priority >= 3 %}`recommended`{:.success}{% endif %} \\
     *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
 {%- endif %}
 {%- endfor%}

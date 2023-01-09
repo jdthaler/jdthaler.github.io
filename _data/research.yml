@@ -26,17 +26,23 @@ topics:
     description:
     subtopics:
     
+      - key:    correlators
+        title:  Multi-Particle Correlators
+
+      - key:    quark_gluon
+        title:  Quark/Gluon Discrimination
+
       - key:    boost
         title:  Jet Substructure for Boosted Objects
         description:  "Jets are collimated sprays of particles arising from the fragmentation of short-distance quarks and gluons. In traditional collider studies, these jets are reconstructed using jet algorithms, which assign clusters of particles to jet four-vectors. I have shown that the substructure of jets can provide valuable information about the underlying short-distance physics. In extreme cases, physics that would otherwise be unobservable using traditional jet algorithms can be made prominent through jet substructure techniques."
 
-
-
-    
       - key:    precision
         title:  Precision Jet Physics
         description:  "Along with the rise of jet substructure tools, there has been an increased focus on using (non)perturbative QCD methods to predict the properties of jets. In the past, QCD calculations focused on “infrared and collinear safe” (IRC safe) observables which can be calculated order by order in perturbation theory. Now, the calculational toolbox has expanded to include IRC unsafe observables—such as track-based observables and ratio observables—by using new analytic techniques."
-         
+
+      - key:    non-perturbative
+        title:  "Non-Perturbative Aspects of Jets"
+
       - key:   jet_algorithms
         title:  "New Jet Algorithms"
         description:  "The boundary between jets and jet substructure has blurred over the years, and will continue to do so. The following techniques are primarily aimed applicable at identifying jets themselves, but take lessons learned from jet substructure studies to study the superstructure of events."
