@@ -33,6 +33,7 @@ papers:
     authors: Eric R. Anschuetz, Lena Funcke, Patrick T. Komiske, Serhii Kryhin, and Jesse Thaler
     doi: 10.1103/PhysRevD.106.056008
     journal: Phys. Rev. D106:056008 (2022)
+    short_journal: PRD 2022
     arxiv: "2205.10375"
     year: 2022
     topic: qis
@@ -42,6 +43,7 @@ papers:
     authors: Pedro Cal, Jesse Thaler, and Wouter J. Waalewijn
     doi: 10.1007/JHEP09(2022)021
     journal: JHEP 2209:021 (2022)
+    short_journal: JHEP 2022
     arxiv: "2205.06818"
     year: 2022
     topic: boost
@@ -50,6 +52,7 @@ papers:
     authors: Rikab Gambhir, Benjamin Nachman, and Jesse Thaler
     doi: 10.1103/PhysRevD.106.036011
     journal: Phys. Rev. D106:036011 (2022)
+    short_journal: PRD 2022
     arxiv: "2205.05084"
     year: 2022
     topic: reweighting
@@ -58,6 +61,7 @@ papers:
     authors: Patrick T. Komiske, Serhii Kryhin, and Jesse Thaler
     doi: 10.1103/PhysRevD.106.094021
     journal: Phys. Rev. D106:094021 (2022)
+    short_journal: PRD 2022
     arxiv: "2205.04459"
     year: 2022
     topic: open_data
@@ -67,6 +71,7 @@ papers:
     authors: Rikab Gambhir, Benjamin Nachman, and Jesse Thaler
     doi: 10.1103/PhysRevLett.129.082001
     journal: Phys. Rev. Lett. 129:082001(2022)
+    short_journal: PRL 2022
     arxiv: "2205.03413"
     year: 2022
     topic: reweighting
@@ -86,14 +91,13 @@ papers:
     authors: Andrea Delgado and Jesse Thaler
     doi: 10.1103/physrevd.106.094016
     journal: Phys. Rev. D106:094016 (2022)
+    short_journal: PRD 2022
     arxiv: "2205.02814"
     year: 2022
     topic: qis
 
   - title: "Analyzing N-point Energy Correlators Inside Jets with CMS Open Data"
     authors: Patrick T. Komiske, Ian Moult, Jesse Thaler, and Hua Xing Zhu
-    doi:
-    journal:
     arxiv: "2201.07800"
     year: 2022
     topic: open_data
@@ -102,6 +106,7 @@ papers:
     authors: Krish Desai, Benjamin Nachman, and Jesse Thaler
     doi: 10.1103/PhysRevD.105.096031
     journal: Phys. Rev. D105:096031 (2022)
+    short_journal: PRD 2022
     arxiv: "2112.05722"
     year: 2021
     topic: weak
@@ -110,6 +115,7 @@ papers:
     authors: Benjamin Nachman and Jesse Thaler
     doi: 10.1103/PhysRevD.105.076015
     journal: Phys. Rev. D105:076015 (2022)
+    short_journal: PRD 2022
     arxiv: "2107.08979"
     year: 2021
     topic: reweighting
@@ -119,6 +125,7 @@ papers:
     authors: Benjamin Nachman and Jesse Thaler
     doi: 10.1103/PhysRevD.103.116013
     journal: Phys. Rev. D103:116013 (2021)
+    short_journal: PRD 2021
     arxiv: "2101.07263"
     year: 2021
     topic: reweighting
@@ -127,6 +134,7 @@ papers:
     authors: Taylor Faucett, Jesse Thaler, and Daniel Whiteson
     doi: 10.1103/PhysRevD.103.036020
     journal: Phys. Rev. D103:036020 (2021)
+    short_journal: PRD 2021
     arxiv: "2010.11998"
     year: 2020
     topic: weak
@@ -135,6 +143,7 @@ papers:
     authors: Jasmine Brewer, Jesse Thaler, and Andrew P. Turner
     doi: 10.1103/PhysRevC.103.L021901
     journal: Phys. Rev. C103:L021901 (2021)
+    short_journal: PRC 2021
     arxiv: "2008.08596"
     year: 2020
     topic: qgp
@@ -143,6 +152,7 @@ papers:
     authors: Benjamin Nachman and Jesse Thaler
     doi: 10.1103/PhysRevD.102.076004
     journal: Phys. Rev. D102.076004 (2020)
+    short_journal: PRD 2020
     arxiv: "2007.11586"
     year: 2020
     topic: reweighting
@@ -151,6 +161,7 @@ papers:
     authors: Cari Cesarotti and Jesse Thaler
     doi: 10.1007/JHEP08(2020)084
     journal: JHEP 2008:084 (2020)
+    short_journal: JHEP 2020
     arxiv: "2004.06125"
     year: 2020
     topic: point_cloud
@@ -159,6 +170,7 @@ papers:
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
     doi: 10.1007/JHEP07(2020)006
     journal: JHEP 2007:006 (2020)
+    short_journal: JHEP 2020
     arxiv: "2004.04159"
     year: 2020
     topic: point_cloud
@@ -177,6 +189,7 @@ papers:
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
     doi: 10.1103/PhysRevD.101.036019
     journal: Phys. Rev. D101:036019 (2020)
+    short_journal: PRD 2020
     arxiv: "1911.04491"
     year: 2019
     topic: boost
@@ -185,6 +198,7 @@ papers:
     authors: Timothy Cohen, Gilly Elor, Andrew J. Larkoski, and Jesse Thaler
     doi: 10.1007/JHEP02(2020)156
     journal: JHEP 2002:156 (2020)
+    short_journal: JHEP 2020
     arxiv: "1909.00009"
     year: 2019
     topic: superspace
@@ -193,6 +207,7 @@ papers:
     authors: Annie Y. Wei, Preksha Naik, Aram W. Harrow, and Jesse Thaler
     doi: 10.1103/PhysRevD.101.094015
     journal: Phys. Rev. D101:094015 (2020)
+    short_journal: PRD 2020
     arxiv: "1908.08949"
     year: 2019
     topic: qis
@@ -201,6 +216,7 @@ papers:
     authors: Patrick T. Komiske, Radha Mastandrea, Eric M. Metodiev, Preksha Naik, and Jesse Thaler
     doi: 10.1103/PhysRevD.101.034009
     journal: Phys. Rev. D101:034009 (2020)
+    short_journal: PRD 2020
     arxiv: "1908.08542"
     year: 2019
     topic: open_data
@@ -209,6 +225,7 @@ papers:
     authors: Cari Cesarotti, Yotam Soreq, Matthew J. Strassler, Jesse Thaler, and Wei Xue
     doi: 10.1103/PhysRevD.100.015021
     journal: Phys. Rev. D100:015021 (2019)
+    short_journal: PRD 2019
     arxiv: "1902.04222"
     year: 2019
     topic: open_data
@@ -229,6 +246,7 @@ papers:
     authors: Jasmine Brewer, José Guilherme Milhano, and Jesse Thaler
     doi: 10.1103/PhysRevLett.122.222301
     journal: Phys. Rev. Lett. 122:222301 (2019)
+    short_journal: PRL 2019
     arxiv: "1812.05111"
     year: 2018
     topic: qgp
@@ -237,6 +255,7 @@ papers:
     authors: Timothy Cohen, Gilly Elor, Andrew J. Larkoski, and Jesse Thaler
     doi: 10.1007/JHEP02(2020)146
     journal: JHEP 2002:146 (2020)
+    short_journal: JHEP 2020
     arxiv: "1810.11032"
     year: 2018
     topic: superspace
@@ -245,6 +264,7 @@ papers:
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
     doi: 10.1007/JHEP01(2019)121
     journal: JHEP 1901:121 (2019)
+    short_journal: JHEP 2019
     arxiv: "1810.05165"
     year: 2018
     topic: point_cloud
@@ -255,6 +275,7 @@ papers:
     authors: Hongwan Liu, Brodi D. Elwood, Matthew Evans, and Jesse Thaler
     doi: 10.1103/PhysRevD.100.023548
     journal: Phys. Rev. D100:023548 (2019)
+    short_journal: PRD 2019
     arxiv: "1809.01656"
     year: 2018
     topic: detecting_dm
@@ -263,6 +284,7 @@ papers:
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
     doi: 10.1007/JHEP11(2018)059
     journal: JHEP 1811:059 (2018)
+    short_journal: JHEP 2018
     arxiv: "1809.01140"
     year: 2018
     topic: boost
@@ -271,6 +293,7 @@ papers:
     authors: Eleanor Hall and Jesse Thaler
     doi: 10.1007/JHEP09(2018)164
     journal: JHEP 1809:164 (2018)
+    short_journal: JHEP 2018
     arxiv: "1805.11622"
     year: 2018
     topic: precision
@@ -279,6 +302,7 @@ papers:
     authors: Benjamin T. Elder and Jesse Thaler
     doi: 10.1007/JHEP03(2019)104
     journal: JHEP 1903:104 (2019)
+    short_journal: JHEP 2019
     arxiv: "1805.11109"
     year: 2018
     topic: precision
@@ -287,6 +311,7 @@ papers:
     authors: Frédéric A. Dreyer, Lina Necib, Gregory Soyez, and Jesse Thaler
     doi: 10.1007/JHEP06(2018)093
     journal: JHEP 1806:093 (2018)
+    short_journal: JHEP 2018
     arxiv: "1804.03657"
     year: 2018
     topic: boost
@@ -295,6 +320,7 @@ papers:
     authors: Eric M. Metodiev and Jesse Thaler
     doi: 10.1103/PhysRevLett.120.241602
     journal: Phys. Rev. Lett. 120:241602 (2018)
+    short_journal: PRL 2018
     arxiv: "1802.00008"
     year: 2018
     topic: weak
@@ -304,6 +330,7 @@ papers:
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
     doi: 10.1007/JHEP04(2018)013
     journal: JHEP 1804:013 (2018)
+    short_journal: JHEP 2018
     arxiv: "1712.07124"
     year: 2017
     topic: boost
@@ -312,6 +339,7 @@ papers:
     authors: Evan Coleman, Marat Freytsis, Andreas Hinzmann, Meenakshi Narain, Jesse Thaler, Nhan Tran, and Caterina Vernieri
     doi: 10.1088/1748-0221/13/01/T01003
     journal: JINST 13:T01003 (2018)
+    short_journal: JINST 2018
     arxiv: "1709.08705"
     year: 2017
     topic: boost
@@ -320,6 +348,7 @@ papers:
     authors: Eric M. Metodiev, Benjamin Nachman, and Jesse Thaler
     doi: 10.1007/JHEP10(2017)174
     journal: JHEP 1710:174 (2017)
+    short_journal: JHEP 2017
     arxiv: "1708.02949"
     year: 2017
     topic: weak
@@ -330,6 +359,7 @@ papers:
     authors: Christopher Frye, Andrew J. Larkoski, Jesse Thaler, and Kevin Zhou
     doi: 10.1007/JHEP09(2017)083
     journal: JHEP 1709:085 (2017)
+    short_journal: JHEP 2017
     arxiv: "1704.06266"
     year: 2017
     topic: precision
@@ -338,6 +368,7 @@ papers:
     authors: Aashish Tripathee, Wei Xue, Andrew Larkoski, Simone Marzani, and Jesse Thaler
     doi: 10.1103/PhysRevD.96.074003
     journal: Phys. Rev. D96:074003 (2017)
+    short_journal: PRD 2017
     arxiv: "1704.05842"
     year: 2017
     topic: open_data
@@ -347,6 +378,7 @@ papers:
     authors: Benjamin T. Elder, Massimiliano Procura, Jesse Thaler, Wouter J. Waalewijn, and Kevin Zhou
     doi: 10.1007/JHEP06(2017)085
     journal: JHEP 1706:085 (2017)
+    short_journal: JHEP 2017
     arxiv: "1704.05456"
     year: 2017
     topic: precision
@@ -365,6 +397,7 @@ papers:
     authors: Philippe Gras, Stefan Höche, Deepak Kar, Andrew Larkoski, Leif Lönnblad, Simon Plätzer, Andrzej Siódmok, Peter Skands, Gregory Soyez, and Jesse Thaler
     doi: 10.1007/JHEP07(2017)091
     journal: JHEP 1707:091 (2017)
+    short_journal: JHEP 2017
     arxiv: "1704.03878"
     year: 2017
     topic: boost
@@ -373,6 +406,7 @@ papers:
     authors: Yevgeny Kats, Matthew McCullough, Gilad Perez, Yotam Soreq, and Jesse Thaler
     doi: 10.1007/JHEP06(2017)
     journal: JHEP 1706:126 (2017)
+    short_journal: JHEP 2017
     arxiv: "1704.03393"
     year: 2017
     topic: naturalness
@@ -381,6 +415,7 @@ papers:
     authors: Philip Ilten, Nicholas L. Rodd, Jesse Thaler, and Mike Williams
     doi: 10.1103/PhysRevD.96.054019
     journal: Phys. Rev. D96:054019 (2017)
+    short_journal: PRD 2017
     arxiv: "1702.02947"
     year: 2017
     topic: jet_algorithms
@@ -389,6 +424,7 @@ papers:
     authors: Ian Moult, Lina Necib, and Jesse Thaler
     doi: 10.1007/JHEP12(2016)153
     journal: JHEP 1612:153 (2016)
+    short_journal: JHEP 2016
     arxiv: "1609.07483"
     year: 2016
     topic: boost
@@ -399,6 +435,7 @@ papers:
     authors: Fabio Maltoni, Michele Selvaggi, and Jesse Thaler
     doi: 10.1103/PhysRevD.94.054015
     journal: Phys. Rev. D94:054015 (2016)
+    short_journal: PRD 2016
     arxiv: "1606.03449"
     year: 2016
     topic: boost
@@ -407,6 +444,7 @@ papers:
     authors: Philip Ilten, Yotam Soreq, Jesse Thaler, Mike Williams, and Wei Xue
     doi: 10.1103/PhysRevLett.116.251803
     journal: Phys. Rev. Lett. 116:251803 (2016)
+    short_journal: PRL 2016
     arxiv: "1603.08926"
     year: 2016
     topic: detecting_dm
@@ -427,6 +465,7 @@ papers:
     authors: Sergio Ferrara, Renata Kallosh, and Jesse Thaler
     doi: 10.1103/PhysRevD.93.043516
     journal: Phys. Rev. D93:043516 (2016)
+    short_journal: PRD 2016
     arxiv: "1512.00545"
     year: 2015
     topic: superspace
@@ -435,6 +474,7 @@ papers:
     authors: Philip Ilten, Jesse Thaler, Mike Williams, and Wei Xue
     doi: 10.1103/PhysRevD.92.115017
     journal: Phys. Rev. D92:115017 (2015)
+    short_journal: PRD 2015
     arxiv: "1509.06765"
     year: 2015
     topic: detecting_dm
@@ -443,6 +483,7 @@ papers:
     authors: Jesse Thaler and Thomas F. Wilkason
     doi: 10.1007/JHEP12(2015)051
     journal: JHEP 1512:051 (2015)
+    short_journal: JHEP 2015
     arxiv: "1508.01518"
     year: 2015
     topic: jet_algorithms
@@ -451,6 +492,7 @@ papers:
     authors: Iain W. Stewart, Frank J. Tackmann, Jesse Thaler, Christopher K. Vermilion, and Thomas F. Wilkason
     doi: 10.1007/JHEP11(2015)072
     journal: JHEP 1511:072 (2015)
+    short_journal: JHEP 2015
     arxiv: "1508.01516"
     year: 2015
     topic: jet_algorithms
@@ -459,6 +501,7 @@ papers:
     authors: Nayara Fonseca, Lina Necib, and Jesse Thaler
     doi: 10.1088/1475-7516/2016/02/052
     journal: JCAP 1602:052 (2016)
+    short_journal: JCAP 2015
     arxiv: "1507.08295"
     year: 2015
     topic: dark_matter
@@ -467,6 +510,7 @@ papers:
     authors: Jesse Thaler
     doi: 10.1103/PhysRevD.92.074001
     journal: Phys. Rev. D92:074001 (2015)
+    short_journal: PRD 2015
     arxiv: "1506.07876"
     year: 2015
     topic: jet_algorithms
@@ -475,6 +519,7 @@ papers:
     authors: Yonatan Kahn, Daniel A. Roberts, and Jesse Thaler
     doi: 10.1007/JHEP10(2015)001
     journal: JHEP 1510:001 (2015)
+    short_journal: JHEP 2015
     arxiv: "1504.05958"
     year: 2015
     topic: superspace
@@ -484,6 +529,7 @@ papers:
     authors: Andrew J. Larkoski, Simone Marzani, and Jesse Thaler
     doi: 10.1103/PhysRevD.91.111501
     journal: Phys. Rev. D91:111501 (2015)
+    short_journal: PRD 2015
     arxiv: "1502.01719"
     year: 2015
     topic: precision
@@ -494,6 +540,7 @@ papers:
     authors: Daniele Bertolini, Jesse Thaler, and Jonathan R. Walsh
     doi: 10.1007/JHEP05(2015)008
     journal: JHEP 1505:008 (2015)
+    short_journal: JHEP 2015
     arxiv: "1501.01965"
     year: 2015
     topic: precision
@@ -502,6 +549,7 @@ papers:
     authors: Yonatan Kahn, Gordan Krnjaic, Jesse Thaler, and Matthew Toups
     doi: 10.1103/PhysRevD.91.055006
     journal: Phys. Rev. D91:055006 (2015)
+    short_journal: PRD 2015
     arxiv: "1411.1055"
     year: 2014
     topic: detecting_dm
@@ -510,6 +558,7 @@ papers:
     authors: Andrew J. Larkoski, Jesse Thaler, and Wouter J. Waalewijn
     doi: 10.1007/JHEP11(2014)129
     journal: JHEP 1411:129 (2014)
+    short_journal: JHEP 2014
     arxiv: "1408.3122"
     year: 2014
     topic: boost
@@ -518,6 +567,7 @@ papers:
     authors: Andrew J. Larkoski and Jesse Thaler
     doi: 10.1103/PhysRevD.90.034010
     journal: Phys. Rev. D90:034010 (2014)
+    short_journal: PRD 2014
     arxiv: "1406.7011"
     year: 2014
     topic: boost
@@ -526,6 +576,7 @@ papers:
     authors: Kaustubh Agashe, Yanou Cui, Lina Necib, and Jesse Thaler
     doi: 10.1088/1475-7516/2014/10/062
     journal: JCAP 1410:062 (2014)
+    short_journal: JCAP 2014
     arxiv: "1405.7370"
     year: 2014
     topic: dark_matter
@@ -536,6 +587,7 @@ papers:
     authors: Andrew J. Larkoski, Simone Marzani, Gregory Soyez, and Jesse Thaler
     doi: 10.1007/JHEP05(2014)146
     journal: JHEP 1405:146 (2014)
+    short_journal: JHEP 2014
     arxiv: "1402.2657"
     year: 2014
     topic: boost
@@ -546,6 +598,7 @@ papers:
     authors: Andrew J. Larkoski, Duff Neill, and Jesse Thaler
     doi: 10.1007/JHEP04(2014)017
     journal: JHEP 1404:017 (2014)
+    short_journal: JHEP 2014
     arxiv: "1401.2158"
     year: 2014
     topic: precision
@@ -554,6 +607,7 @@ papers:
     authors: Daniele Bertolini, Tucker Chan, and Jesse Thaler
     doi: 10.1007/JHEP04(2014)013
     journal: JHEP 1404:013 (2014)
+    short_journal: JHEP 2014
     arxiv: "1310.7584"
     year: 2013
     topic: jet_algorithms
@@ -562,6 +616,7 @@ papers:
     authors: Yonatan Kahn, Matthew McCullough, and Jesse Thaler
     doi: 10.1007/JHEP11(2013)161
     journal: JHEP 1311:161 (2013)
+    short_journal: JHEP 2013
     arxiv: "1308.3490"
     year: 2013
     topic: susy
@@ -570,6 +625,7 @@ papers:
     authors: Francesco D'Eramo, Jesse Thaler, and Zoe Thomas
     doi: 10.1007/JHEP09(2013)125
     journal: JHEP 1309:125 (2013)
+    short_journal: JHEP 2013
     arxiv: "1307.3251"
     year: 2013
     topic: superspace
@@ -578,6 +634,7 @@ papers:
     authors: Andrew J. Larkoski and Jesse Thaler
     doi: 10.1007/JHEP09(2013)137
     journal: JHEP 1309:137 (2013)
+    short_journal: JHEP 2013
     arxiv: "1307.1699"
     year: 2013
     topic: precision
@@ -586,6 +643,7 @@ papers:
     authors: Hsi-Ming Chang, Massimiliano Procura, Jesse Thaler, and Wouter J. Waalewijn
     doi: 10.1103/PhysRevD.88.034030
     journal: Phys. Rev. D88:034030 (2013)
+    short_journal: PRD 2013
     arxiv: "1306.6630"
     year: 2013
     topic: precision
@@ -594,6 +652,7 @@ papers:
     authors: John Kearney, Aaron Pierce, and Jesse Thaler
     doi: 10.1007/JHEP10(2013)230
     journal: JHEP 1310:230 (2013)
+    short_journal: JHEP 2013
     arxiv: "1306.4314"
     year: 2013
     topic: naturalness
@@ -602,6 +661,7 @@ papers:
     authors: Andrew J. Larkoski, Gavin P. Salam, and Jesse Thaler
     doi: 10.1007/JHEP06(2013)108
     journal: JHEP 1306:108 (2013)
+    short_journal: JHEP 2013
     arxiv: "1305.0007"
     year: 2013
     topic: boost
@@ -610,6 +670,7 @@ papers:
     authors: John Kearney, Aaron Pierce, and Jesse Thaler
     doi: 10.1007/JHEP08(2013)130
     journal: JHEP 1308:130 (2013)
+    short_journal: JHEP 2013
     arxiv: "1304.4233"
     year: 2013
     topic: naturalness
@@ -618,6 +679,7 @@ papers:
     authors: Hsi-Ming Chang, Massimiliano Procura, Jesse Thaler, and Wouter J. Waalewijn
     doi: 10.1103/PhysRevLett.111.102002
     journal: Phys. Rev. Lett. 111:102002 (2013)
+    short_journal: PRL 2013
     arxiv: "1303.6637"
     year: 2013
     topic: precision
@@ -626,6 +688,7 @@ papers:
     authors: Daniele Bertolini, Jesse Thaler, and Zoe Thomas
     doi: 10.1142/9789814525220_0009
     journal: TASI 2012
+    short_journal: TASI 2012
     arxiv: "1302.6229"
     year: 2013
     topic: superspace
@@ -634,6 +697,7 @@ papers:
     authors: Francesco D'Eramo, Matthew McCullough, and Jesse Thaler
     doi: 10.1088/1475-7516/2013/04/030
     journal: JCAP 1304:030 (2013)
+    short_journal: JCAP 2013
     arxiv: "1210.7817"
     year: 2012
     topic: dark_matter
@@ -642,6 +706,7 @@ papers:
     authors: Vicent Mateu, Iain W. Stewart, and Jesse Thaler
     doi: 10.1103/PhysRevD.87.014025
     journal: Phys. Rev. D87:014025 (2013)
+    short_journal: PRD 2013
     arxiv: "1209.3781"
     year: 2012
     topic: precision
@@ -650,6 +715,7 @@ papers:
     authors: Yonatan Kahn and Jesse Thaler
     doi: 10.1103/PhysRevD.86.115012
     journal: Phys. Rev. D86:115012 (2012)
+    short_journal: PRD 2012
     arxiv: "1209.0777"
     year: 2012
     topic: detecting_dm
@@ -658,6 +724,7 @@ papers:
     authors: Ilya Feige, Matthew D. Schwartz, Iain W. Stewart, and Jesse Thaler
     doi: 10.1103/PhysRevLett.109.092001
     journal: Phys. Rev. Lett. 109:092001 (2012)
+    short_journal: PRL 2012
     arxiv: "1204.3898"
     year: 2012
     topic: precision
@@ -666,6 +733,7 @@ papers:
     authors: Nathaniel Craig, Matthew McCullough, and Jesse Thaler
     doi: 10.1007/JHEP06(2012)046
     journal: JHEP 1206:046 (2012)
+    short_journal: JHEP 2012
     arxiv: "1203.1622"
     year: 2012
     topic: susy
@@ -675,6 +743,7 @@ papers:
     authors: Yonatan Kahn and Jesse Thaler
     doi: 10.1007/JHEP07(2012)007
     journal: JHEP 1207:007 (2012)
+    short_journal: JHEP 2012
     arxiv: "1202.5491"
     year: 2012
     topic: little_higgs
@@ -683,6 +752,7 @@ papers:
     authors: Francesco D'Eramo, Jesse Thaler, and Zoe Thomas
     doi: 10.1007/JHEP06(2012)151
     journal: JHEP 1206:151 (2012)
+    short_journal: JHEP 2012
     arxiv: "1202.1280"
     year: 2012
     topic: superspace
@@ -691,6 +761,7 @@ papers:
     authors: Nathaniel Craig, Matthew McCullough, and Jesse Thaler
     doi: 10.1007/JHEP03(2012)049
     journal: JHEP 1203:049 (2012)
+    short_journal: JHEP 2012
     arxiv: "1201.2179"
     year: 2012
     topic: susy
@@ -700,6 +771,7 @@ papers:
     authors: Francesco D'Eramo, Lin Fei, and Jesse Thaler
     doi: 10.1088/1475-7516/2012/03/010
     journal: JCAP 1203:010 (2012)
+    short_journal: JCAP 2012
     arxiv: "1111.5615"
     year: 2011
     topic: dark_matter
@@ -708,6 +780,7 @@ papers:
     authors: Daniele Bertolini, Keith Rehermann, and Jesse Thaler
     doi: 10.1007/JHEP04(2012)130
     journal: JHEP 1204:130 (2012)
+    short_journal: JHEP 2012
     arxiv: "1111.0628"
     year: 2011
     topic: susy
@@ -716,6 +789,7 @@ papers:
     authors: Jesse Thaler and Ken Van Tilburg
     doi: 10.1007/JHEP02(2012)093
     journal: JHEP 1202:093 (2012)
+    short_journal: JHEP 2012
     arxiv: "1108.2701"
     year: 2011
     topic: boost
@@ -725,6 +799,7 @@ papers:
     authors: Nathaniel Craig, Daniel Stolarski, and Jesse Thaler
     doi: 10.1007/JHEP11(2011)145
     journal: JHEP 1111:145 (2011)
+    short_journal: JHEP 2011
     arxiv: "1106.2164"
     year: 2011
     topic: susy
@@ -733,6 +808,7 @@ papers:
     authors: Clifford Cheung, Francesco D'Eramo, and Jesse Thaler
     doi: 10.1007/JHEP08(2011)115
     journal: JHEP 1108:115 (2011)
+    short_journal: JHEP 2011
     arxiv: "1104.2600"
     year: 2011
     topic: susy
@@ -741,6 +817,7 @@ papers:
     authors: Clifford Cheung, Francesco D'Eramo, and Jesse Thaler
     doi: 10.1103/PhysRevD.84.085012
     journal: Phys. Rev. D84:085012 (2011)
+    short_journal: PRD 2011
     arxiv: "1104.2598"
     year: 2011
     topic: superspace
@@ -749,6 +826,7 @@ papers:
     authors: Jesse Thaler and Zoe Thomas
     doi: 10.1007/JHEP07(2011)060
     journal: JHEP 1107:060 (2011)
+    short_journal: JHEP 2011
     arxiv: "1103.1631"
     year: 2011
     topic: susy
@@ -767,6 +845,7 @@ papers:
     authors: Martin Schmaltz, Daniel Stolarski, and Jesse Thaler
     doi: 10.1007/JHEP09(2010)018
     journal: JHEP 1009:018 (2010)
+    short_journal: JHEP 2010
     arxiv: "1006.1356"
     year: 2010
     topic: little_higgs
@@ -775,6 +854,7 @@ papers:
     authors: Clifford Cheung, Jeremy Mardon, Yasunori Nomura, and Jesse Thaler
     doi: 10.1007/JHEP07(2010)035
     journal: JHEP 1007:035 (2010)
+    short_journal: JHEP 2010
     arxiv: "1004.4637"
     year: 2010
     topic: susy
@@ -783,6 +863,7 @@ papers:
     authors: JiJi Fan, Jesse Thaler, and Lian-Tao Wang
     doi: 10.1007/JHEP06(2010)045
     journal: JHEP 1006:045 (2010)
+    short_journal: JHEP 2010
     arxiv: "1004.0008"
     year: 2010
     topic: dark_matter
@@ -791,6 +872,7 @@ papers:
     authors: Francesco D'Eramo and Jesse Thaler
     doi: 10.1007/JHEP06(2010)109
     journal: JHEP 1006:109 (2010)
+    short_journal: JHEP 2010
     arxiv: "1003.5912"
     year: 2010
     topic: dark_matter
@@ -799,6 +881,7 @@ papers:
     authors: Clifford Cheung, Yasunori Nomura, and Jesse Thaler
     doi: 10.1007/JHEP03(2010)073
     journal: JHEP 1003:073 (2010)
+    short_journal: JHEP 2010
     arxiv: "1002.1967"
     year: 2010
     topic: susy
@@ -807,6 +890,7 @@ papers:
     authors: David Krohn, Jesse Thaler, and Lian-Tao Wang
     doi: 10.1007/JHEP02(2010)084
     journal: JHEP 1002:084 (2010)
+    short_journal: JHEP 2010
     arxiv: "0912.1342"
     year: 2009
     topic: boost
@@ -815,6 +899,7 @@ papers:
     authors: Marat Freytsis, Zoltan Ligeti, and Jesse Thaler
     doi: 10.1103/PhysRevD.81.034001
     journal: Phys. Rev. D81:034001 (2010)
+    short_journal: PRD 2010
     arxiv: "0911.5355"
     year: 2009
     topic: dark_matter
@@ -823,6 +908,7 @@ papers:
     authors: Christian W. Bauer, Zoltan Ligeti, Martin Schmaltz, Jesse Thaler, and Devin G.E. Walker
     doi: 10.1016/j.physletb.2010.05.032
     journal: Phys. Lett. B 690:280-288 (2010)
+    short_journal: PLB 2010
     arxiv: "0909.5213"
     year: 2009
     topic: lhc_inverse
@@ -831,6 +917,7 @@ papers:
     authors: Marat Freytsis, Grigory Ovanesyan, and Jesse Thaler
     doi: 10.1007/JHEP01(2010)111
     journal: JHEP 1001:111 (2010)
+    short_journal: JHEP 2010
     arxiv: "0909.2862"
     year: 2009
     topic: detecting_dm
@@ -839,6 +926,7 @@ papers:
     authors: Jeremy Mardon, Yasunori Nomura, and Jesse Thaler
     doi: 10.1103/PhysRevD.80.035013
     journal: Phys. Rev. D80:035013 (2009)
+    short_journal: PRD 2009
     arxiv: "0905.3749"
     year: 2009
     topic: dark_matter
@@ -847,6 +935,7 @@ papers:
     authors: David Krohn, Jesse Thaler, and Lian-Tao Wang
     doi: 10.1088/1126-6708/2009/06/059
     journal: JHEP 0906:059 (2009)
+    short_journal: JHEP 2009
     arxiv: "0903.0392"
     year: 2009
     topic: jet_algorithms
@@ -855,6 +944,7 @@ papers:
     authors: Jeremy Mardon, Yasunori Nomura, Daniel Stolarski, and Jesse Thaler
     doi: 10.1088/1475-7516/2009/05/016
     journal: JCAP 0905:016 (2009)
+    short_journal: JCAP 2009
     arxiv: "0901.2926"
     year: 2009
     topic: dark_matter
@@ -863,6 +953,7 @@ papers:
     authors: Martin Schmaltz and Jesse Thaler
     doi: 10.1088/1126-6708/2009/03/137
     journal: JHEP 0903:137 (2009)
+    short_journal: JHEP 2009
     arxiv: "0812.2477"
     year: 2008
     topic: little_higgs
@@ -871,6 +962,7 @@ papers:
     authors: Yasunori Nomura and Jesse Thaler
     doi: 10.1103/PhysRevD.79.075008
     journal: Phys. Rev. D79:075008 (2009)
+    short_journal: PRD 2009
     arxiv: "0810.5397"
     year: 2008
     topic: dark_matter
@@ -879,6 +971,7 @@ papers:
     authors: David Poland and Jesse Thaler
     doi: 10.1088/1126-6708/2008/11/083
     journal: JHEP 0811:083 (2008)
+    short_journal: JHEP 2008
     arxiv: "0808.1290"
     year: 2008
     topic: naturalness
@@ -887,6 +980,7 @@ papers:
     authors: Jesse Thaler and Lian-Tao Wang
     doi: 10.1088/1126-6708/2008/07/092
     journal: JHEP 0807:092 (2008)
+    short_journal: JHEP 2008
     arxiv: "0806.0023"
     year: 2008
     topic: boost
@@ -895,6 +989,7 @@ papers:
     authors: Christian W. Bauer, Frank J. Tackmann, and Jesse Thaler
     doi: 10.1088/1126-6708/2008/12/011
     journal: JHEP 0812:011 (2008)
+    short_journal: JHEP 2008
     arxiv: "0801.4028"
     year: 2008
     topic: lhc_inverse
@@ -903,6 +998,7 @@ papers:
     authors: Christian W. Bauer, Frank J. Tackmann, and Jesse Thaler
     doi: 10.1088/1126-6708/2008/12/010
     journal: JHEP 0812:010 (2008)
+    short_journal: JHEP 2008
     arxiv: "0801.4026"
     year: 2008
     topic: lhc_inverse
@@ -911,6 +1007,7 @@ papers:
     authors: Yuval Grossman, Yosef Nir, Jesse Thaler, Tomer Volansky, and Jure Zupan
     doi: 10.1103/PhysRevD.76.096006
     journal: Phys. Rev. D76:096006 (2007)
+    short_journal: PRD 2007
     arxiv: "0706.1845"
     year: 2007
     topic: naturalness
@@ -925,6 +1022,7 @@ papers:
     authors: Aaron Pierce and Jesse Thaler
     doi: 10.1088/1126-6708/2007/08/026
     journal: JHEP 0708:026 (2007)
+    short_journal: JHEP 2007
     arxiv: "hep-ph/0703056"
     year: 2007
     topic: naturalness
@@ -933,6 +1031,7 @@ papers:
     authors: Aaron Pierce, Jesse Thaler, and Lian-Tao Wang
     doi: 10.1088/1126-6708/2007/05/070
     journal: JHEP 0705:070 (2007)
+    short_journal: JHEP 2007
     arxiv: "hep-ph/0609049"
     year: 2006
     topic: naturalness
@@ -941,6 +1040,7 @@ papers:
     authors: Hsin-Chia Cheng, Jesse Thaler, and Lian-Tao Wang
     doi: 10.1088/1126-6708/2006/09/003
     journal: JHEP 0609:003 (2006)
+    short_journal: JHEP 2006
     arxiv: "hep-ph/0607205"
     year: 2006
     topic: little_higgs
@@ -949,6 +1049,7 @@ papers:
     authors: Clifford Cheung and Jesse Thaler
     doi: 10.1088/1126-6708/2006/08/016
     journal: JHEP 0608:016 (2006)
+    short_journal: JHEP 2006
     arxiv: "hep-ph/0604259"
     year: 2006
     topic: little_higgs
@@ -957,6 +1058,7 @@ papers:
     authors: Aaron Pierce and Jesse Thaler
     doi: 10.1088/1126-6708/2006/09/017
     journal: JHEP 0609:017 (2006)
+    short_journal: JHEP 2006
     arxiv: "hep-ph/0604192"
     year: 2006
     topic: susy
@@ -965,6 +1067,7 @@ papers:
     authors: Hsin-Chia Cheng, Markus A. Luty, Shinji Mukohyama, and Jesse Thaler
     doi: 10.1088/1126-6708/2006/05/076
     journal: JHEP 0605:076 (2006)
+    short_journal: JHEP 2006
     arxiv: "hep-ph/0603010"
     year: 2006
     topic: gravity
@@ -973,6 +1076,7 @@ papers:
     authors: Nima Arkani-Hamed, Gordon L. Kane, Jesse Thaler, and Lian-Tao Wang
     doi: 10.1088/1126-6708/2006/08/070
     journal: JHEP 0608:070 (2006)
+    short_journal: JHEP 2006
     arxiv: "hep-ph/0512190"
     year: 2005
     topic: lhc_inverse
@@ -981,6 +1085,7 @@ papers:
     authors: Yuval Grossman, Can Kilic, Jesse Thaler, and Devin G. E. Walker
     doi: 10.1103/PhysRevD.72.125001
     journal: Phys. Rev. D72:125001 (2005)
+    short_journal: PRD 2005
     arxiv: "hep-ph/0506216"
     year: 2005
     topic: gravity
@@ -989,6 +1094,7 @@ papers:
     authors: Jesse Thaler
     doi: 10.1088/1126-6708/2005/07/024
     journal: JHEP 0507:024 (2005)
+    short_journal: JHEP 2005
     arxiv: "hep-ph/0502175"
     year: 2005
     topic: little_higgs
@@ -997,6 +1103,7 @@ papers:
     authors: Jesse Thaler and Itay Yavin
     doi: 10.1088/1126-6708/2005/08/022
     journal: JHEP 0508:022 (2005)
+    short_journal: JHEP 2005
     arxiv: "hep-ph/0501036"
     year: 2005
     topic: little_higgs
@@ -1005,6 +1112,7 @@ papers:
     authors: Nima Arkani-Hamed, Hsin-Chia Cheng, Markus A. Luty, and Jesse Thaler
     doi: 0.1088/1126-6708/2005/07/029
     journal: JHEP 0507:029 (2005)
+    short_journal: JHEP 2005
     arxiv: "hep-ph/0407034"
     year: 2004
     topic: gravity
@@ -1014,6 +1122,7 @@ papers:
     authors: Antal Jevicki and Jesse Thaler
     doi: 10.1103/PhysRevD.66.024041
     journal: Phys. Rev. D66 024041 (2002)
+    short_journal: PRD 2002
     arxiv: "hep-th/0203172"
     year: 2002
     topic: gravity

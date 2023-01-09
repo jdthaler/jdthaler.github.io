@@ -234,13 +234,11 @@ aside:
 
 ## Publications & Preprints
 
+[Publications by Topic](research){:.button.button--outline-primary.button--pill}
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
 [arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
 [Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill}
-
-[Research Summary](research){:.button.button--outline-primary.button--pill}
-[Publications by Topic](research_detail){:.button.button--outline-primary.button--pill}
 
 {% for year in site.data.cv_papers.years %}
 #### {{year}}
