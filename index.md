@@ -9,7 +9,9 @@ aside:
 <img src="images/jthaler_mit_spotlight.jpg" title="Jesse Thaler"/>
 </center>
 
-## Theoretical Particle Physics
+## Research
+
+Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.
 
 {% for topic in site.data.research.topics %}  * **[{{topic.title}}](research.html#{{topic.key}})**
 {% endfor %}
