@@ -1,47 +1,47 @@
 colloquia:
 
   - title: "Particle Physics through the Lens of Machine Learning"
-    url: talks/jthaler_2022_11_Brown_Colloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_11_Brown_Colloquium.pdf
     event: Physics Colloquium
     org: Brown
     date: November 2022
    
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
-    url: talks/jthaler_2022_02_HiddenGeometry_Brandeis.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_02_HiddenGeometry_Brandeis.pdf
     event: Physics Colloquium
     org: Brandeis
     date: February 2022
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2021_05_EMD_Colloquium_UCSD.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_05_EMD_Colloquium_UCSD.pdf
     event: Physics Colloquium
     org: U.C. San Diego
     date: May 2021
     virtual: true
     
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2021_04_EMD_Colloquium_UNM.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_04_EMD_Colloquium_UNM.pdf
     event: Physics and Astronomy Colloquium
     org: U. New Mexico
     date: April 2021
     virtual: true
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2021_04_EMD_Colloquium_UCSB.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_04_EMD_Colloquium_UCSB.pdf
     event: Physics Colloquium
     org: U.C. Santa Barbara
     date: April 2021
     virtual: true
     
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2021_02_EMD_Colloquium_NIU.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_02_EMD_Colloquium_NIU.pdf
     event: Physics Colloquium
     org: Northern Illinois University
     date: February 2021
     virtual: true
     
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2021_02_EMD_Colloquium_NORDITA.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_02_EMD_Colloquium_NORDITA.pdf
     event: Nordita Colloquium
     event_url: http://video.albanova.se/arc2021_06.html|AlbaNova/Nordita Colloquium
     org: Stockholm University
@@ -49,7 +49,7 @@ colloquia:
     virtual: true
     
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2021_02_EMD_Colloquium_UChicago.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_02_EMD_Colloquium_UChicago.pdf
     event: Physics Colloquium
     org: University of Chicago
     date: February 2021
@@ -57,35 +57,35 @@ colloquia:
 
     
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2020_11_HiddenGeometry_KIT.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_11_HiddenGeometry_KIT.pdf
     event: Particle Physics Colloquium
     org: KIT Karlsruhe
     date: November 2020
     virtual: true
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2020_11_EMD_Colloquium_Israel.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_11_EMD_Colloquium_Israel.pdf
     event: Physics Colloquium
     org: All Israel
     date: November 2020
     virtual: true
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2020_11_EMD_Colloquium_Harvard.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_11_EMD_Colloquium_Harvard.pdf
     event: Physics Colloquium
     org: Harvard
     date: November 2020
     virtual: true
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2020_10_UMD_Colloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_10_UMD_Colloquium.pdf
     event: Physics Colloquium
     org: University of Maryland
     date: October 2020
     virtual: true
     
   - title: "The Future is Open:  Adventures with Public Collider Data"
-    url: talks/jthaler_2020_09_OpenData_FermilabColloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_09_OpenData_FermilabColloquium.pdf
     event: Colloquium
     event_url: https://events.fnal.gov/colloquium/events/event/no-colloquium-9/
     org: Fermilab
@@ -93,7 +93,7 @@ colloquia:
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2020_05_CERN_Colloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_05_CERN_Colloquium.pdf
     event: Theory Colloquium
     event_url: https://indico.cern.ch/event/888504/
     org: CERN
@@ -101,31 +101,31 @@ colloquia:
     virtual: true
     
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2019_11_CaseWestern_Colloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_11_CaseWestern_Colloquium.pdf
     event: Physics Colloquium
     org: Case Western Reserve University
     date: November 2019
 
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2019_10_Rice_Colloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_10_Rice_Colloquium.pdf
     event: Physics and Astronomy Colloquium
     org: Rice University
     date: October 2019
  
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2019_10_Colloquium_Oakland.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_10_Colloquium_Oakland.pdf
     event: Physics Colloquium
     org: Oakland University
     date: October 2019
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2019_09_Colloquium_Tufts.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_09_Colloquium_Tufts.pdf
     event: Physics Colloquium
     org: Tufts University
     date: September 2019
   
   - title: "Jet Substructure at the Frontiers of Particle Physics"
-    url: talks/jthaler_2018_03_Milano_Colloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_03_Milano_Colloquium.pdf
     event: Physics Colloquium
     org: University of Milan
     date: March 2018
@@ -146,7 +146,7 @@ colloquia:
     date: April 2017
   
   - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
-    url: talks/jthaler_2017_03_UTAustin_Colloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_03_UTAustin_Colloquium.pdf
     event: Physics Colloquium
     org: University of Texas, Austin
     date: March 2017
@@ -167,7 +167,7 @@ colloquia:
     date: September 2016
   
   - title: "Jet Substructure:  Boosting the Search for New Physics at the LHC"
-    url: talks/jthaler_2016_05_ChicagoColloquium.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2016_05_ChicagoColloquium.pdf
     event: Physics Colloquium
     org: University of Chicago
     date: May 2016
@@ -235,7 +235,7 @@ colloquia:
 public:
     
   - title: "Artificial Intelligence Meets Fundamental Physics"
-    url: talks/jthaler_2021_03_EmTech_InsideTrack.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_03_EmTech_InsideTrack.pdf
     event: MIT Inside Track Master Class
     event_url: https://event.technologyreview.com/emtech-digital-2021/
     org: EmTech Digital
@@ -243,7 +243,7 @@ public:
     virtual: true
 
   - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
-    url: talks/jthaler_2020_10_TommyFlowers_Keynote.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf
     event: Keynote Presentation
     event_url: http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html
     org: Tommy Flowers Network Conference
@@ -251,14 +251,14 @@ public:
     virtual: true
   
   - title: "Listening to the Invisible Universe"
-    url: talks/jthaler_2019_04_FarCry.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_04_FarCry.pdf
     event: "Program with A Far Cry: Open Rehearsal of Gravity"
     event_url: https://afarcry.org/
     org: Harvard Education Portal
     date: April 2019
   
   - title: "Confronting the Invisible Universe"
-    url: talks/jthaler_2018_05_London_Dark_Matter.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_05_London_Dark_Matter.pdf
     event: MIT Club of Great Britain Event
     org: London
     date: May 2018
@@ -283,14 +283,14 @@ public:
 schools:
 
   - title: "The Standard Model"
-    url: talks/jthaler_2022_09_Perimeter_TableTop.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_09_Perimeter_TableTop.pdf
     event: School on Table-Top Experiments for Fundamental Physics
     event_url: https://events.perimeterinstitute.ca/event/14/
     org: Perimeter Institute
     date: September 2022
   
   - title: "Confronting the Invisible Universe"
-    url: talks/jthaler_2022_03_DarkMatter_LL.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_03_DarkMatter_LL.pdf
     event: Intro to Modern Physics
     org: MIT Lincoln Labs
     date: March 2022
@@ -298,13 +298,13 @@ schools:
   - title: "QCD & Collider Physics"
     parts:
       - title: Overview and Inspiration
-        url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture1.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_01_GGI_QCDCollider_Lecture1.pdf
       - title: From Diagrams to Cross Sections
-        url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture2.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_01_GGI_QCDCollider_Lecture2.pdf
       - title: An Introduction to Jets
-        url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture3.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_01_GGI_QCDCollider_Lecture3.pdf
       - title: A Case Study in Jet Substructure
-        url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture4.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_01_GGI_QCDCollider_Lecture4.pdf
     event: Lectures on the Theory of Fundamental Interactions
     event_url: http://www.ggi.infn.it/ggilectures/ggilectures2020/
     org: GGI, Florence
@@ -313,11 +313,11 @@ schools:
   - title: "Collider Physics"
     parts:
       - title: Ingredients and Kinematics
-        url: talks/jthaler_2018_07_Cargese_JetLecture1.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_07_Cargese_JetLecture1.pdf
       - title: From Diagrams to Cross Sections
-        url: talks/jthaler_2018_07_Cargese_JetLecture2.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_07_Cargese_JetLecture2.pdf
       - title: An Introduction to Jets
-        url: talks/jthaler_2018_07_Cargese_JetLecture3.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_07_Cargese_JetLecture3.pdf
     event: Cargese 2018 International Summer School
     event_url: https://indico.desy.de/indico/event/18951/overview
     org: Corsica
@@ -326,13 +326,13 @@ schools:
   - title: "Jet Substructure"
     parts:
       - title: "Introduction to Jet Substructure at the LHC"
-        url: talks/jthaler_2017_01_Japan_Lecture1.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_01_Japan_Lecture1.pdf
       - title: "A New Angle on Jet Substructure"
-        url: talks/jthaler_2017_01_Japan_Lecture2.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_01_Japan_Lecture2.pdf
       - title: "Introduction to Jet Physics from QCD"
-        url: talks/jthaler_2017_01_Japan_Lecture3.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_01_Japan_Lecture3.pdf
       - title: "Jets at the Frontier of Perturbative QCD"
-        url: talks/jthaler_2017_01_Japan_Lecture4.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_01_Japan_Lecture4.pdf
     event: Theoretical and Experimental Issues on Jet Structure at Hadron Colliders
     org: Kavli IMPU and KEK
     date: January 2017
@@ -340,13 +340,13 @@ schools:
   - title: "Jet Physics"
     parts:
       - title: Introduction to Jets
-        url: talks/jthaler_2016_07_MITP_Lecture1.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2016_07_MITP_Lecture1.pdf
       - title: Jet Algorithms
-        url: talks/jthaler_2016_07_MITP_Lecture2.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2016_07_MITP_Lecture2.pdf
       - title: The Soft/Collinear Limit of QCD
-        url: talks/jthaler_2016_07_MITP_Lecture3.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2016_07_MITP_Lecture3.pdf
       - title: The Substructure (R)evolution
-        url: talks/jthaler_2016_07_MITP_Lecture4.pdf
+        url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2016_07_MITP_Lecture4.pdf
     event: MITP Summer School
     org: Mainz
     date: July 2016
@@ -388,14 +388,14 @@ schools:
 invited:
 
   - title: "The Frontiers of Phenomenological Theory"
-    url: talks/jthaler_2022_07_Snowmass_Pheno.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_07_Snowmass_Pheno.pdf
     event: Snowmass Community Summer Study
     event_url: https://indico.fnal.gov/event/22303/
     org: U. Washington, Seattle
     date: July 2022
 
   - title: "Weak Supervision for the Strong Force"
-    url: talks/jthaler_2022_07_KIAS_Summer_School.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_07_KIAS_Summer_School.pdf
     event: QUC Summer School
     event_url: http://events.kias.re.kr/h/QUCAI2022/
     org: KIAS
@@ -403,7 +403,7 @@ invited:
     virtual: true
   
   - title: "Weak Supervision for the Strong Force"
-    url: talks/jthaler_2022_06_PhysicsMeetsML.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_06_PhysicsMeetsML.pdf
     event: Physics Meets ML
     event_url: http://www.physicsmeetsml.org/posts/sem_2022_06_01/
     org: Virtual
@@ -411,28 +411,28 @@ invited:
     virtual: true
   
   - title: "Machine Learning in Collider Physics"
-    url: talks/jthaler_2022_03_Brown_Snowmass.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_03_Brown_Snowmass.pdf
     event: Snowmass Energy Frontier Workshop
     event_url: https://indico.fnal.gov/event/52465/
     org: Brown
     date: March 2022
   
   - title: "Optimal Transport for QCD and Jets"
-    url: talks/jthaler_2022_03_OT_Simons.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_03_OT_Simons.pdf
     event: Flowing into the Future
     event_url: http://scgp.stonybrook.edu/archives/31750
     org: Simons Center, Stony Brook
     date: March 2022
     
   - title: "Machine Learning for the Theory Frontier"
-    url: talks/jthaler_2022_02_KITP_Snowmass_2022.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_02_KITP_Snowmass_2022.pdf
     event: Snowmass Theory Frontier Conference
     event_url: https://www.kitp.ucsb.edu/activities/snowmass-c22
     org: KITP
     date: February 2022
    
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2021_11_ISTLisbon.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_11_ISTLisbon.pdf
     event: PhD Open Days
     event_url: http://phdopendays.tecnico.ulisboa.pt
     org: IST Lisbon
@@ -441,7 +441,7 @@ invited:
     
   
   - title: "Artificial Intelligence and Fundamental Physics"
-    url: talks/jthaler_2021_07_LISHEP_AI.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_07_LISHEP_AI.pdf
     event: LISHEP 2021
     event_url: https://indico.cern.ch/event/879856
     org: Brazil
@@ -449,7 +449,7 @@ invited:
     virtual: true
   
   - title: "Artificial Intelligence and High-Energy Physics"
-    url: talks/jthaler_2021_06_Amsterdam_Master.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_06_Amsterdam_Master.pdf
     event: Master Your Physics
     event_url: https://indico.cern.ch/event/1027683/
     org: U. Amsterdam
@@ -457,7 +457,7 @@ invited:
     virtual: true
    
   - title: "Theory Perspective on Machine Learning for Jets"
-    url: talks/jthaler_2021_06_CERN_Jets.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_06_CERN_Jets.pdf
     event: Jets and their Substructure from LHC Data
     event_url: https://indico.cern.ch/event/1009701/
     org: CERN-TH Workshop
@@ -466,7 +466,7 @@ invited:
 
   
   - title: "QCD and Jets through the Lens of Machine Learning"
-    url: talks/jthaler_2021_05_MITP_Lattice_QCD_ML.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_05_MITP_Lattice_QCD_ML.pdf
     event: Machine Learning Techniques in Lattice QCD
     event_url: https://indico.mitp.uni-mainz.de/event/231/overview
     org: MITP Workshop
@@ -474,7 +474,7 @@ invited:
     virtual: true
   
   - title: "Deep Learning for Collider Physics Simulation"
-    url: talks/jthaler_2021_05_ICLR_Simulation.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_05_ICLR_Simulation.pdf
     event: Deep Learning for Simulation (SimDL)
     event_url: https://simdl.github.io/schedule/
     org: ICLR Workshop
@@ -482,7 +482,7 @@ invited:
     virtual: true
   
   - title: "Artificial Intelligence and High-Energy Physics"
-    url: talks/jthaler_2021_04_APS_April_AI.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_04_APS_April_AI.pdf
     event: Recent Advances in Theoretical Physics
     event_url: https://meetings.aps.org/Meeting/APR21/Session/H02
     org: APS April Meeting
@@ -491,7 +491,7 @@ invited:
   
   - title: "QCD and Jets through the Lens of Machine Learning"
     collab: "Frédéric Dreyer"
-    url: talks/jthaler_2021_03_KITP_ML_w_Dreyer.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_03_KITP_ML_w_Dreyer.pdf
     event: New Physics from Precision at High Energies
     event_url: https://www.kitp.ucsb.edu/activities/precision21
     org: KITP, Santa Barbara
@@ -499,14 +499,14 @@ invited:
     virtual: true
     
   - title: "Artificial Intelligence for Physics Discovery: Theory Perspective"
-    url: talks/jthaler_2021_02_AAAS_AI_Theory.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_02_AAAS_AI_Theory.pdf
     event: Session on Artificial Intelligence for Physics
     event_url: https://indico.cern.ch/event/1031957/
     org: AAAS Annual Meeting
     date: February 2021
   
   - title: "Machine Learning for Fundamental Physics"
-    url: talks/jthaler_2021_01_HKUST_HEP.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_01_HKUST_HEP.pdf
     event: Program on High Energy Physics
     event_url: https://indico.cern.ch/event/971970/
     org: HKUST IAS
@@ -514,7 +514,7 @@ invited:
     virtual: true
   
   - title: "Collider Physics and Machine Learning"
-    url: talks/jthaler_2020_12_IFT_Xmas.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_12_IFT_Xmas.pdf
     event: XXVI  Christmas Workshop
     event_url: https://workshops.ift.uam-csic.es/Xmas20
     org: IFT
@@ -522,89 +522,89 @@ invited:
     virtual: true
   
   - title: "Collision Course:  Artificial Intelligence meets Fundamental Interactions"
-    url: talks/jthaler_2020_11_IAIFI_GeorgiaTech.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_11_IAIFI_GeorgiaTech.pdf
     event: IDEaS AI Seminar
     org: Georgia Tech
     date: November 2020
     virtual: true
   
   - title: "Deep Learning (and Deep Thinking) for QCD"
-    url: talks/jthaler_2019_07_QCDLHC_ML.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_07_QCDLHC_ML.pdf
     event: QCD@LHC 2019
     event_url: https://indico.fnal.gov/event/19380/
     org: Buffalo
     date: July 2019
   
   - title: "Deep Learning (and Deep Thinking) in Collider Physics"
-    url: talks/jthaler_2019_05_Pheno_ML.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_Pheno_ML.pdf
     event: Pheno 2019
     event_url: https://indico.cern.ch/event/777988/
     org: Pittsburg
     date: May 2019
   
   - title: "Collision Course: Particle Physics as a Machine-Learning Testbed"
-    url: talks/jthaler_2019_02_Hamburg_Collision.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_02_Hamburg_Collision.pdf
     event: Deep Learning in the Natural Sciences
     event_url: https://indico.cern.ch/event/765224/
     org: U. Hamburg
     date: February 2019
   
   - title: "Collision Course: Particle Physics as a Machine-Learning Testbed"
-    url: talks/jthaler_2019_01_AspenML_Collision.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_01_AspenML_Collision.pdf
     event: Theoretical Physics for Machine Learning
     event_url: https://sites.google.com/view/phys4ml
     org: Aspen Center for Physics
     date: January 2019
   
   - title: "A Theorist's Perspective on Machine Learning for Jets"
-    url: talks/jthaler_2018_11_ML4Jets_Intro.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_11_ML4Jets_Intro.pdf
     event: Machine Learning for Jet Physics
     event_url: https://indico.cern.ch/event/745718/
     org: Fermilab
     date: November 2018
   
   - title: "New Improvements in Jet Physics"
-    url: talks/jthaler_2018_07_SUSY18_Jets.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_07_SUSY18_Jets.pdf
     event: SUSY 2018
     event_url: https://susy2018.ifae.es/
     org: Barcelona
     date: July 2018
   
   - title: "Theory Summary"
-    url: talks/jthaler_2018_07_Boost2018_Summary.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_07_Boost2018_Summary.pdf
     event: Boost 2018
     event_url: https://indico.cern.ch/e/boost2018
     org: Paris
     date: July 2018
   
   - title: "The Future is Open:  Jet Substructure with CMS Public Data"
-    url: talks/jthaler_2018_06_CMSWeek_OpenData.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_06_CMSWeek_OpenData.pdf
     event: CMS Week
     org: CERN
     date: June 2018
   
   - title: "The Future is Open: Jet Substructure with CMS Public Data"
-    url: talks/jthaler_2017_06_CERN_OpenData.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_06_CERN_OpenData.pdf
     event: "LHC and the Standard Model: Physics and Tools"
     event_url: https://indico.cern.ch/event/572734/
     org: CERN
     date: June 2017
   
   - title: "Recent Progress in Jet Physics"
-    url: talks/jthaler_2017_03_Aspen_Jet.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_03_Aspen_Jet.pdf
     event: From the LHC to Dark Matter and Beyond
     event_url: https://indico.cern.ch/event/550030/
     org: Aspen Center for Physics
     date: March 2017
   
   - title: "New Frontiers in Dark Matter Detection"
-    url: talks/jthaler_2017_01_APS_DM_Overview.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_01_APS_DM_Overview.pdf
     event: APS April Meeting
     org: Washington, DC
     date: January 2017
     
   - title: "Prospects for Cosmic Axion Detection with ABRACADABRA"
-    url: talks/jthaler_2017_01_APS_GPMFC_ABRA.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_01_APS_GPMFC_ABRA.pdf
     event: GPMFC Workshop on Ultralight Dark Matter
     org: Washington, DC
     date: January 2017
@@ -724,7 +724,7 @@ invited:
 local:
 
   - title: "Deep Learning: Lessons from the Launch of IAIFI"
-    url: talks/jthaler_2022_05_IAIFI_Faculty_Lunch.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_05_IAIFI_Faculty_Lunch.pdf
     event:  Faculty Lunch
     org: MIT Physics
     date: May 2022
@@ -735,13 +735,13 @@ local:
     date: November 2021
   
   - title: IAIFI at MIT Physics
-    url: talks/jthaler_2021_07_IAIFI_WarriorScholar.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_07_IAIFI_WarriorScholar.pdf
     event: Open House
     org: Warrior-Scholar Program
     date: July 2021
   
   - title: "The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"
-    url: talks/jthaler_2020_09_IAIFI_AI+D.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_09_IAIFI_AI+D.pdf
     event: Lunch Seminar
     org: MIT AI+D
     date: September 2020
@@ -752,7 +752,7 @@ local:
     date: June 2020
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
-    url: talks/jthaler_2019_09_FacultyLunch.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_09_FacultyLunch.pdf
     event: Faculty Lunch
     org: MIT Physics
     date: September 2019
@@ -815,49 +815,49 @@ local:
 seminars:
 
   - title: "Machine Learning for the Skeptical HEP Theorist"
-    url: talks/jthaler_2022_11_Brown_Seminar.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_11_Brown_Seminar.pdf
     event: Seminar
     org: Brown
     date: November 2022
   
   
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
-    url: talks/jthaler_2022_05_HiddenGeometry_Bern.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_05_HiddenGeometry_Bern.pdf
     event: Seminar
     org: Bern
     date: May 2022
     virtual: true
   
   - title: "Quantum (Inspired) Algorithms for Collider Physics"
-    url: talks/jthaler_2022_04_SLAC_Quantum.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_04_SLAC_Quantum.pdf
     event: Seminar
     org: SLAC
     date: April 2022
     virtual: true
   
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
-    url: talks/jthaler_2022_04_HiddenGeometry_Austin.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_04_HiddenGeometry_Austin.pdf
     event: Seminar
     org: UT Austin
     date: April 2022
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2022_03_HiddenGeometry_Sussex.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_03_HiddenGeometry_Sussex.pdf
     event: Seminar
     org: Sussex
     date: March 2022
     virtual: true
     
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
-    url: talks/jthaler_2021_12_HiddenGeometry_SDSC.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_12_HiddenGeometry_SDSC.pdf
     event: MIT Stochastics and Statistics Seminar
     event_url: https://stat.mit.edu/seminars/
     org: MIT
     date: December 2021
   
   - title: "Quantum (Inspired) Algorithms for Collider Physics"
-    url: talks/jthaler_2021_11_QuantHEP.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_11_QuantHEP.pdf
     event: QuantHEP Seminar
     event_url: http://quanthep-seminar.org/session/session-13/
     org:
@@ -865,7 +865,7 @@ seminars:
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2021_10_HiddenGeometry_Zurich.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_10_HiddenGeometry_Zurich.pdf
     event: Seminar
     event_url: https://www.physik.uzh.ch/en/seminars/ttpseminar/HS2021/thaler.html
     org: Zurich
@@ -873,7 +873,7 @@ seminars:
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2021_06_HiddenGeometry_GGI.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_06_HiddenGeometry_GGI.pdf
     event: Tea Break Seminar
     event_url: https://www.ggi.infn.it/images/TeaBreaks/Jesse_v1.jpg
     org: GGI
@@ -881,14 +881,14 @@ seminars:
     virtual: true
   
   - title: "A Few Collisions between Particle Physics and Machine Learning"
-    url: talks/jthaler_2021_06_IAIFI_STAMPS.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_06_IAIFI_STAMPS.pdf
     event: STAMPS Group Meeting
     org: CMU
     date: June 2021
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2021_06_HiddenGeometry_Heidelberg_MITP.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_06_HiddenGeometry_Heidelberg_MITP.pdf
     event: Joint Heidelberg Teilchentee
     event_url: https://www.thphys.uni-heidelberg.de/~teilchentee/index.php?n1=ss21&n2=9
     org: MITP Workshop Seminar
@@ -897,7 +897,7 @@ seminars:
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2021_05_HiddenGeometry_IPPP.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_05_HiddenGeometry_IPPP.pdf
     event: Seminar
     event_url: https://conference.ippp.dur.ac.uk/event/1006/
     org: IPPP Durham
@@ -906,28 +906,28 @@ seminars:
 
     
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2021_04_HiddenGeometry_TUM.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_04_HiddenGeometry_TUM.pdf
     event: Seminar
     org: Munich
     date: April 2021
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2021_04_HiddenGeometry_Florida.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_04_HiddenGeometry_Florida.pdf
     event: Joint HEP Seminar
     org: Florida
     date: April 2021
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2021_02_HiddenGeometry_Oxford.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_02_HiddenGeometry_Oxford.pdf
     event: Seminar
     org: Oxford
     date: February 2021
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2021_02_HiddenGeometry_Paris.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2021_02_HiddenGeometry_Paris.pdf
     event: Particle Physics in Paris
     event_url: https://indico.in2p3.fr/event/22930/
     org: Paris
@@ -935,138 +935,138 @@ seminars:
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2020_11_HiddenGeometry_UCDavis.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_11_HiddenGeometry_UCDavis.pdf
     event: Seminar
     org: U.C. Davis
     date: November 2020
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2020_11_HiddenGeometry_UCSD.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_11_HiddenGeometry_UCSD.pdf
     event: Seminar
     org: U.C. San Diego
     date: November 2020
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2020_11_HiddenGeometry_LBNL.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_11_HiddenGeometry_LBNL.pdf
     event: Research Progress Meeting
     org: LBNL
     date: November 2020
     virtual: true
     
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2020_10_HiddenGeometry_Cambridge.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_10_HiddenGeometry_Cambridge.pdf
     event: Seminar
     org: Cambridge
     date: October 2020
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
-    url: talks/jthaler_2020_06_TIFR_FreeMeson.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_06_TIFR_FreeMeson.pdf
     event: Seminar
     org: TIFR
     date: June 2020
     virtual: true
   
   - title: "Quantum Algorithms for Collider Physics"
-    url: talks/jthaler_2019_11_CaseWestern_QI.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_11_CaseWestern_QI.pdf
     event: Informal Talk
     org: Case Western
     date: November 2019
   
   - title: "Data-Driven Approaches to Jet Quenching"
-    url: talks/jthaler_2019_10_Rice_Informal.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_10_Rice_Informal.pdf
     event: Informal Talk
     org: Rice
     date: October 2019
   
   - title: "The Space of Collider Events"
-    url: talks/jthaler_2019_06_Ljubljana_EMD.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_06_Ljubljana_EMD.pdf
     event: Seminar
     org: Ljubljana
     date: June 2019
   
   - title: "The Space of Collider Events"
-    url: talks/jthaler_2019_04_SLAC_EMD.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_04_SLAC_EMD.pdf
     event: Seminar
     org: SLAC
     date: April 2019
   
   - title: "The Space of Collider Events"
-    url: talks/jthaler_2019_04_UCSC_EMD.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_04_UCSC_EMD.pdf
     event: Seminar
     org: U.C. Santa Cruz
     date: April 2019
   
   - title: "Collision Course: Particle Physics meets Machine Learning"
-    url: talks/jthaler_2019_04_Google_Collision.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_04_Google_Collision.pdf
     event: Tech Talk
     org: Google X
     date: April 2019
   
   - title: "The Space of Collider Events"
-    url: talks/jthaler_2019_03_BU_EMD.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_03_BU_EMD.pdf
     event: Seminar
     org: Boston U.
     date: March 2019
   
   - title: "Collision Course: Particle Physics as a Machine-Learning Testbed"
-    url: talks/jthaler_2019_02_Brandeis_Collision.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_02_Brandeis_Collision.pdf
     event: Seminar
     org: Brandeis
     date: February 2019
   
   - title: "Deep Sets for Particle Jets"
-    url: talks/jthaler_2018_11_UMich_EFN.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_11_UMich_EFN.pdf
     event: Seminar
     org: U. Michigan
     date: November 2018
   
   - title: "Deep Sets for Particle Jets"
-    url: talks/jthaler_2018_10_NYU_EFN.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_10_NYU_EFN.pdf
     event: Seminar
     org: New York U.
     date: October 2018
   
   - title: "Collision Course: Particle Physics as a Machine-Learning Testbed"
-    url: talks/jthaler_2018_10_PDT_Collision.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_10_PDT_Collision.pdf
     event: Seminar
     org: PDT Partners
     date: October 2018
   
   - title: "On the Topic of Jets"
-    url: talks/jthaler_2018_05_Cambridge_Jet_Topics.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_05_Cambridge_Jet_Topics.pdf
     event: Seminar
     org:  U. Cambridge
     date: May 2018
   
   - title: "On the Topic of Jets"
-    url: talks/jthaler_2018_03_Bicocca_Jet_Topics.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_03_Bicocca_Jet_Topics.pdf
     event: Seminar
     org: Milano Bicocca
     date: March 2018
   
   - title: "On the Topic of Jets"
-    url: talks/jthaler_2018_03_Genoa_Jet_Topics.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_03_Genoa_Jet_Topics.pdf
     event: Seminar
     org: Genova
     date:  March 2018
   
   - title: "On the Topic of Jets"
-    url: talks/jthaler_2018_02_Carleton_Topics.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_02_Carleton_Topics.pdf
     event: Seminar
     org: Carleton
     date: February 2018
   
   - title: "Towards Systematic Jet Dissection"
-    url: talks/jthaler_2017_12_Yale_SysJets.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_12_Yale_SysJets.pdf
     event: Seminar
     org: Yale
     date: December 2017
   
   - title: "The Future is Open: Jet Substructure with CMS Public Data"
-    url: talks/jthaler_2017_12_Yale_OpenData.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_12_Yale_OpenData.pdf
     event: Seminar
     org: Yale
     date: December 2017
@@ -1077,7 +1077,7 @@ seminars:
     date: April 2017
   
   - title: "Casimir Meets Poisson"
-    url: talks/jthaler_2017_03_UTAustin_Seminar.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_03_UTAustin_Seminar.pdf
     event: Seminar
     org: U. Texas
     date: March 2017
@@ -1531,7 +1531,7 @@ additional:
     other: Virtual to Hamburg
   
   - title: "Machine Learning for High Energy Physics"
-    url: talks/jthaler_2022_08_GGI_Snowmass.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_08_GGI_Snowmass.pdf
     event: Machine Learning at GGI
     event_url: https://www.ggi.infn.it/showevent.pl?id=411
     org: GGI
@@ -1548,7 +1548,7 @@ additional:
     date: June 2022
   
   - title: "The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"
-    url: talks/jthaler_2022_02_IAIFI_AAAI.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_02_IAIFI_AAAI.pdf
     event: USDA/NSF AI Institutes Panel
     event_url: https://aaai.org/Conferences/AAAI-22/
     org: AAAI-22
@@ -1556,7 +1556,7 @@ additional:
     virtual: true
     
   - title: "AI and Science"
-    url: talks/jthaler_2022_02_IAIFI_CACM.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_02_IAIFI_CACM.pdf
     event: Digital Event
     event_url: https://cacm.acm.org/magazines/2022/4/259397-communications-digital-initiative-and-its-first-digital-event/fulltext
     org: CACM
@@ -1582,7 +1582,7 @@ additional:
     other: Snowmass Community Planning Meeting
  
   - title: "Welcome"
-    url: talks/jthaler_2020_09_OpenData_WorkshopWelcome.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_09_OpenData_WorkshopWelcome.pdf
     event: CMS Open Data Workshop for Theorists
     event_url: https://indico.cern.ch/e/CMSOpenDataForTheorists
     org: Fermilab LPC
@@ -1610,7 +1610,7 @@ additional:
     talk: false
   
   - title: "Deep Learning (and Deep Thinking) in Collider Physics"
-    url: talks/jthaler_2019_08_USATLAS_ML.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_08_USATLAS_ML.pdf
     event: US ATLAS Workshop
     event_url: https://indico.cern.ch/event/813845
     org: UMass Amherst
@@ -1623,7 +1623,7 @@ additional:
     other: (Organizer)
   
   - title: "Voyages into Machine Learning"
-    url: talks/jthaler_2019_07_Voyages_ML.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_07_Voyages_ML.pdf
     event: Voyages Beyond the Standard Model III
     event_url: https://indico.cern.ch/event/814878/
     org: Zadar, Croatia
@@ -1631,7 +1631,7 @@ additional:
     other:
   
   - title: "Quantum Algorithms for Collider Physics"
-    url: talks/jthaler_2019_01_QuantISED_Poster.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_01_QuantISED_Poster.pdf
     event: DOE Quantum Information Science Kick Off Meeting
     event_url: https://www.orau.gov/qispi2018/
     org:
@@ -1651,7 +1651,7 @@ additional:
     date: October 2018
   
   - title: "The Energy Flow Basis"
-    url: talks/jthaler_2018_04_MIT_RecoML.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_04_MIT_RecoML.pdf
     event: Reconstruction, Trigger, and Machine Learning for the HL-LHC
     event_url: https://indico.cern.ch/event/714134/
     org: MIT
@@ -1668,7 +1668,7 @@ additional:
     date: January 2018
  
   - title: "The Future is Open: Jet Substructure with CMS Public Data"
-    url: talks/jthaler_2017_10_Fermilab_OpenData.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_10_Fermilab_OpenData.pdf
     event: Reinterpretation Forum Workshop
     event_url: https://indico.cern.ch/event/639314/
     org: Fermilab
@@ -1682,13 +1682,13 @@ additional:
     talk: false
   
   - title: "Jet Studies for Les Houches"
-    url: talks/jthaler_2017_06_LesHouches_JetIntro.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_06_LesHouches_JetIntro.pdf
     event: Physics at TeV Colliders Workshop
     org: Les Houches
     date: June 2017
 
   - title: "Report of the Les Houches Jet Physics Subgroup"
-    url: talks/jthaler_2017_06_LesHouches_JetSummary.pdf
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2017_06_LesHouches_JetSummary.pdf
     event: Physics at TeV Colliders Workshop
     org: Les Houches
     date: June 2017
