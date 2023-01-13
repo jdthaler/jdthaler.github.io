@@ -5,15 +5,17 @@ aside:
   toc: true
 ---
 
-## Missing Emails
 
-{% for category in site.data.cv_mentoring %}
-{% for person in category[1] %}
-{% if person.email %}{% elsif person.deceased%}{% else %}{{person.name}} {% endif %}
-{% endfor %}
-{% endfor %}
+## Email Lists for Remaining 2023
 
-## Email Lists
+{% for category in site.data.cv_mentoring -%}
+{%- for person in category[1] -%}
+{%- unless person.updated == 2023 or person.deceased or person.email == nil %}{{person.email}}, {% endunless %}
+{%- endfor -%}
+{%- endfor %}
+
+
+## Full Email List
 
 {% for category in site.data.cv_mentoring -%}
 {%- for person in category[1] -%}

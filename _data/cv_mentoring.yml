@@ -27,20 +27,23 @@ postdocs:
 
  - name: Sokratis Trifinopoulos
    email: trifinos@mit.edu
+   image: images/trifinopoulos.jpg
    at:
      - dates: Fall 2022 - Spring 2024
-       title: Early Postdoc.Mobility Fellow
+       title: Postdoc.Mobility Fellow
    before:
      - title: PhD
        org: Zurich
      - title: Postdoc
        org: SISSA
    current: true
+   updated: 2023
 
 
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
-   email: smsharma@mit.edu
+   email: siddharthmishra19@gmail.com
+   image: images/mishra-sharma.jpg
    at:
      - dates: Fall 2021 - Spring 2024
        title: IAIFI Fellow
@@ -50,6 +53,7 @@ postdocs:
      - title: Postdoc
        org: NYU
    current: true
+   updated: 2023
 
  - name: Lena Funcke
    email: lfuncke@uni-bonn.de
@@ -58,25 +62,29 @@ postdocs:
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
-       org: Munich
+       org: MPP and LMU Munich
      - title: Postdoc
        org: Perimeter Institute
    after:
      - title: Assistant Professor
        org: University of Bonn
+   updated: 2023
 
  - name: Katelin Schutz
    url: https://katelinschutz.com/
    email: katelin.schutz@mcgill.ca
    at:
-     - dates: Fall 2019 - Spring 2021
+     - dates: Fall 2019 - Fall 2020
        title: Pappalardo Fellow
+     - dates: Spring 2021
+       title: NASA Einstein Fellow
    before:
      - title: PhD
        org: U.C. Berkeley
    after:
      - title: Assistant Professor
        org: McGill
+   updated: 2023
    
  - name: Pouya Asadi
    email: pasadi@mit.edu
@@ -91,7 +99,8 @@ postdocs:
        org: University of Oregon
        
  - name: Bernhard Mistlberger
-   email: bernhard@slac.stanford.edu
+   url: https://sites.google.com/view/bernhardmistlberger/
+   email: bernhard.mistlberger@gmail.com
    at:
      - dates: Fall 2018 - Spring 2020
        title: Pappalardo Fellow
@@ -103,7 +112,10 @@ postdocs:
    after:
      - title: Associate Staff Scientist
        org: SLAC
-  
+     - title: Staff Scientist
+       org: SLAC
+   updated: 2023
+
  - name: Frédéric Dreyer
    email: frederic.dreyer@physics.ox.ac.uk
    at:
@@ -117,7 +129,8 @@ postdocs:
        org: Oxford
 
  - name: Yotam Soreq
-   email: soreqy@physics.technion.ac.il
+   url: https://phsites.technion.ac.il/hep/members/yotam-soreq/
+   email: soreqy@gmail.com
    at:
      - dates: Fall 2015 - Spring 2018
        title: Rothschild Fellow
@@ -129,6 +142,7 @@ postdocs:
        org: CERN
      - title: Assistant Professor
        org: Technion
+   updated: 2023
 
  - name: Benjamin Safdi
    email: brsafdi@berkeley.edu
@@ -159,6 +173,8 @@ postdocs:
        org: CERN
      - title: Assistant Professor
        org: University of Florida
+   updated: 2023
+   
 
  - name: Simone Marzani
    url: https://www.ge.infn.it/~smarzani/
@@ -180,10 +196,11 @@ postdocs:
        org: University of Genova
      - title: Associate Professor
        org: University of Genova
+   updated: 2023
 
 
  - name: Gilly Elor
-   email: gelor@uni-mainz.de
+   email: gelor84@gmail.com
    at:
      - dates: Fall 2013 - Spring 2016
        title: CTP Postdoctoral Researcher
@@ -197,6 +214,8 @@ postdocs:
        org: University of Washington, Seattle
      - title: Postdoctoral Researcher
        org: JGU Mainz
+   updated: 2023
+
 
  - name: Duff Neill
    email: duff.neill@gmail.com
@@ -215,8 +234,8 @@ postdocs:
        org: Los Alamos National Laboratory
 
  - name: Andrew Larkoski
-   url: http://web.stanford.edu/~larkoski/
-   email: larkoski@g.ucla.edu
+   url: https://www.physics.ucla.edu/~larkoski/
+   email: larkoski@ucla.edu
    at:
      - dates: Fall 2012 - Spring 2015
        title: CTP Postdoctoral Researcher
@@ -236,6 +255,7 @@ postdocs:
      - name: Wu-Ki Tung Award for Early Career Research on QCD
        org: CTEQ Collaboration
        date: 2017
+   updated: 2023
 
  - name: Matthew McCullough
    email: matthew.mccullough@cern.ch
@@ -285,8 +305,10 @@ phd_students:
 
   - name: Samuel Alipour-fard
     email: samuelaf@mit.edu
+    image: images/alipour-fard.jpg
     date: 2024
     current: true
+    updated: 2023
 
   - name: Patrick Komiske
     url: https://pkomiske.com/
@@ -297,15 +319,21 @@ phd_students:
     after:
       - title: "Researcher"
         org: PDT Partners
+      - title: "Researcher"
+        org: River Run Trading
+    updated: 2023
+
 
   - name: Eric Metodiev
     url: https://www.ericmetodiev.com
     email: eric.metodiev@gmail.com
     date: 2020
     thesis: "Energy Flow in Particle Collisions"
+    thesis_url: https://arxiv.org/abs/2008.04910
     after:
       - title: Research Scientist
         org: Renaissance Technologies
+    updated: 2023
 
 
   - name: Benjamin Elder
@@ -316,11 +344,16 @@ phd_students:
     after:
        - title: Cognitive Software Developer
          org: IBM
+       - title: Research Scientist
+         org: IBM
+    updated: 2023
 
   - name: Lina Necib
-    email: lnecib@mit.edu
+    url: https://lnecib.com/
+    email: lina.necib@gmail.com
     date: 2017
     thesis: "Boosting (In)direct Detection of Dark Matter"
+    thesis_url: http://hdl.handle.net/1721.1/112073
     after:
       - title: Fairchild Postdoctoral Scholar
         org: Caltech
@@ -330,12 +363,15 @@ phd_students:
       - name: Vazquez Award for Outstanding Research
         org: MIT Physics Department
         date: 2016
-    url: https://lnecib.com/
+    updated: 2023
+    
 
   - name: Yonatan Kahn
+    url: https://yfkahn.web.illinois.edu
     email: yfkahn@illinois.edu
     date: 2015
     thesis: "Forces and Gauge Groups Beyond the Standard Model"
+    thesis_url: http://hdl.handle.net/1721.1/99311
     after:
       - title: Postdoctoral Researcher
         org: Princeton
@@ -348,13 +384,14 @@ phd_students:
       - name: J.J. and Noriko Sakurai Dissertation Award
         org: American Physical Society
         date: 2016
-    url: http://yonatan-kahn.squarespace.com
+    updated: 2023
 
 
   - name: Daniele Bertolini
     email: dbertolini84@gmail.com
     date: 2014
     thesis: "Electroweak Symmetry Breaking in the Era of the Higgs Boson Discovery"
+    thesis_url: http://hdl.handle.net/1721.1/91079
     after:
       - title: Postdoctoral Researcher
         org: U.C. Berkeley
@@ -366,21 +403,25 @@ phd_students:
       - name: LHC-TI Graduate Fellowship
         org: LHC Theory Initiative
         date: 2013
+    updated: 2023
        
   - name: Zoe Thomas
     email: ztt628@gmail.com
     date: 2014
     thesis: "Supersymmetry at the Dawn of the LHC Era"
+    thesis_url:  http://hdl.handle.net/1721.1/91074
     after:
       - title: Postdoctoral Researcher
         org: U. Minnesota
       - title: Applied Research Mathematician
         org: Department of Defense
+    updated: 2023
 
   - name: Francesco D'Eramo
     email: francesco.deramo@pd.infn.it
     date: 2012
     thesis: "Hot and Dark Matter"
+    thesis_url: http://hdl.handle.net/1721.1/76977
     joint: Krishna Rajagopal and Hong Liu
     after:
       - title: Miller Research Fellow
@@ -391,6 +432,7 @@ phd_students:
       - name: Vazquez Award for Outstanding Research
         org: MIT Physics Department
         date: 2011
+    updated: 2023
 
 meng_students:
 
@@ -402,7 +444,7 @@ meng_students:
   
   - name: Nilai Sarda
     url: http://nilai.cc/
-    email: nilaisarda@gmail.com
+    email: nilai@alum.mit.edu
     date: 2020
     thesis: "On Anomaly Detection in Particle Accelerators"
     thesis_url: https://hdl.handle.net/1721.1/127518
@@ -411,15 +453,20 @@ meng_students:
       - name: Johnson Artificial Intelligence and Decision Making Thesis Award
         org: MIT EECS Department
         date: 2020
+    after:
+      - title: Researcher
+        org: D.E. Shaw Group
+    updated: 2023
 
   - name: Preksha Naik
-    email: pnaik@caltech.edu
+    email: preksha.naik@gmail.com
     date: 2019
     thesis: "Exploring the Space of Jets with CMS Open Data"
     thesis_url: "https://hdl.handle.net/1721.1/123044"
     after:
       - title: Physics Ph.D. Candidate
         org: Caltech
+    updated: 2023
 
 bs_students:
 
@@ -457,18 +504,25 @@ bs_students:
     awards:
       - name: Morse/Orloff Research Award
         org: MIT Physics Department
-        date: 2017
+        date: 2022
     independent: Fall 2019, Fall 2020
     urop: Spring 2020, Summer 2020, Spring 2021, Summer 2021
     after:
       - title: Physics Ph.D. Candidate
         org: Harvard
+    updated: 2023
+
 
   - name: Christopher Miller
     email: bowties@mit.edu
+    url: https://bow-ties.github.io/
     date: 2021
     urop: Fall 2020
+    after:
+      - title: Technical Instructor
+        org: MIT
     graduated: true
+    updated: 2023
 
 
   - name: Debaditya Pramanik
@@ -493,10 +547,17 @@ bs_students:
 
 
   - name: Talya Klinger
-    email: tklinger@mit.edu
+    email: tklinger@caltech.edu
     graduated: true
     date: 2020
     urop: Spring 2017
+    after:
+      - title: Marshall Scholar
+        org: University of Cambridge and Cardiff University
+      - title: Physics Ph.D. Candidate
+        org: Caltech
+    updated: 2023
+
 
   - name: Radha Mastandrea
     url: https://rmastand.github.io/
@@ -519,6 +580,9 @@ bs_students:
     after:
       - title:  Marshall Scholarship
         org:  U. Cambridge
+      - title: Physics Ph.D Candidate
+        org:  U.C. Berkeley
+    updated: 2023
 
 
   - name: Eleanor Hall
@@ -562,13 +626,15 @@ bs_students:
         date: 2017
 
   - name: Aashish Tripathee
-    email: aashisht@umich.edu
+    email: aashishtripathee@gmail.com
     date: 2017
     thesis: "Jet Substructure at the Large Hadron Collider"
     thesis_dates: Spring 2017
     thesis_url: https://hdl.handle.net/1721.1/111882
     after:
-      - title: Physics Ph.D. Candidate
+      - title: Physics Ph.D.
+        org: U. Michigan
+      - title: Postdoctoral Researcher
         org: U. Michigan
     independent: IAP 2015
     urop: Spring 2015, Summer 2015, Fall 2015, IAP 2016, Spring 2016, Summer 2016, Fall 2016
@@ -576,7 +642,7 @@ bs_students:
       - name: Philip Morse Memorial Award
         org: MIT Physics Department
         date: 2017
-
+    updated: 2023
 
   - name: Trung Phan
     email: tvphan@princeton.edu
@@ -593,7 +659,7 @@ bs_students:
 
 
   - name: T.J. Wilkason
-    email: wilkason@stanford.edu
+    email: tj.wilkason@gmail.com
     date: 2015
     thesis: "Exclusive Cone Jet Algorithms for High Energy Particle Colliders"
     thesis_dates: Fall 2014 - Spring 2015
@@ -739,7 +805,8 @@ visitors:
         org: NYU
 
   - name: Andrew Turner
-    email: turnerap@sas.upenn.edu
+    url: http://apturner.net
+    email: apturner@mac.com
     dates: 2018 - 2019
     program: Tushar Shah and Sara Zion Physics Fellowship
     home: MIT
@@ -747,6 +814,8 @@ visitors:
     after:
       - title: Postdoctoral Researcher
         org: UPenn
+    updated: 2023
+
 
   - name: Maximilian Henderson
     email: maxhenderson43@gmail.com
@@ -756,10 +825,19 @@ visitors:
 
 
   - name: Edward Hirst
+    url: https://www.city.ac.uk/about/people/research-students/ed-hirst
     email: edward.hirst@city.ac.uk
     program: International Research Opportunities Programme
     dates: Summer 2018
     home: Imperial College London
+    after:
+      - title: Physics M.Sci.
+        org: Imperical College London
+      - title: Physics Ph.D.title
+        org: City University of London
+      - title: Postdoc
+        org: Queen Mary University of London
+    updated: 2023
 
   - name: Rahim Leung
     email: rahim.leung14@imperial.ac.uk

@@ -21,7 +21,7 @@ aside:
   {% if person.current -%}
     <div class="cell cell--3">
           {% if person.url %} <a href="{{person.url}}">{% endif%} 
-          <img class="image image--sm" src="images/blank_profile.png" title="{{person.name}}"/><br>
+          <img class="image image--sm image-h--sm rounded" style="object-fit:cover" src="{{person.image | default: "images/blank_profile.png"}}" title="{{person.name}}"/><br>
               <b>{{person.name}}</b>
           {% if person.url %} </a>{% endif%} 
     </div>

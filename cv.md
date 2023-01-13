@@ -13,7 +13,7 @@ aside:
 
 
 * **Wires**
-  *  *Email:* [jthaler@mit.edu](jthaler@mit.edu) 
+  *  *Email:* [jthaler@mit.edu](mailto: jthaler@mit.edu) 
   *  *Web:* [http://www.jthaler.net/](http://www.jthaler.net) 
   *  *Zoom:*  [https://mit.zoom.us/my/jthaler](https://mit.zoom.us/my/jthaler) 
 * **Digits**
@@ -102,7 +102,7 @@ aside:
 ### Postdoctoral Researchers
 
 {% for person in site.data.cv_mentoring.postdocs -%}
-  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %} ; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %}; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
     * {{award.name}}, *{{award.org}}, {{award.date}}*  
   {%- endfor %}{% endif %}

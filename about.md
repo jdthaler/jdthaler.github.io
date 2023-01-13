@@ -13,21 +13,32 @@ aside:
 
 Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the Center for Theoretical Physics. In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
 
-#### Research in Theoretical Particle Physics
-
-{% for topic in site.data.research.topics %}  * **[{{topic.title}}](research.html#{{topic.key}})**
-{% endfor %}
-
-### Portals
+## Curriculum Vitae
 
 [Full CV](cv){:.button.button--outline-primary.button--pill}
-[MIT Physics](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill}
+[MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill}
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
 [arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
 [Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill}
 [Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--outline-primary.button--pill}
 [IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill}
+
+### Education
+
+  * **Harvard University**, Ph.D. Physics, *2006*
+  * **Brown University**, Sc.B. Math/Physics, *2002*
+
+### Key Positions
+
+  * **Massachusetts Institute of Technology**
+      * Professor of Physics, *2021 - Present*
+      * Associate Professor of Physics, *2015 - 2021 (tenured in 2017)*
+      * Assistant Professor of Physics, *2010 - 2015*
+  * **NSF Institute for Artificial Intelligence and Fundamental Interactions**
+      * Director, *2020 - Present*
+  * **University of California, Berkeley**
+      * Miller Research Fellow, *2006 - 2009*
 
 ### Selected Awards
 
@@ -45,6 +56,8 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
     *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
   {%- endif -%}
 {% endfor %}
+
+## Press Information
 
 ### Photographs
 
@@ -68,9 +81,11 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   </div>
 </div>
 
-## In the News
 
-### Profiles and Highlights
+### In the News
+
+<details markdown=1>
+<summary><b>Profiles and Highlights</b></summary>
 
   * [DOE on Early Career](https://www.energy.gov/science/articles/jesse-thaler-then-and-now-2011-early-career-award-winner)
   * [ACM on IAIFI](https://cacm.acm.org/news/253847-using-ai-to-drill-down-in-physics/)
@@ -84,8 +99,11 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   * [CMS Open Data](http://news.mit.edu/2017/first-open-access-data-large-collider-subatomic-particle-patterns-0929)
   * [ABRACADABRA](http://news.mit.edu/2016/team-simulates-magnetar-seek-dark-matter-particle-1007)
   * [Miller Fellow Focus Article](http://www.jthaler.net/downloads/jthaler_MillerNewsletter.pdf)
+</details>
 
-### Awards and Honors
+
+<details markdown=1>
+<summary><b>Awards and Honors</b></summary>
 
   * [APS Fellowship](https://news.mit.edu/2022/american-physical-society-fellows-1019)
   * [Simons Investigator](https://news.mit.edu/2022/three-mit-faculty-members-named-2022-simons-investigators-0624)
@@ -95,8 +113,11 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   * [Sloan Award](http://newsoffice.mit.edu/2013/six-mit-researchers-win-sloan-research-fellowships)
   * [PECASE Award](http://newsoffice.mit.edu/2012/pecase-winners-announced-0723)
   * [DOE Early Career Award](http://science.mit.edu/news/five-mit-receive-doe-early-career-research-grants)
+</details>
 
-### Quotations and Perspectives
+
+<details markdown=1>
+<summary><b>Quotations and Perspectives</b></summary>
 
   * [New Scientist on Symbolic Regression](https://www.newscientist.com/article/mg25634141-200-will-artificial-intelligence-ever-discover-new-laws-of-physics/)
   * [IEEE Spectrum on Machine Learning](https://spectrum.ieee.org/machine-learning-in-physics)
@@ -115,47 +136,12 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   * [Seacoast Online on Particle Fever](http://www.seacoastonline.com/article/20140514/NEWS/405140373)
   * [Symmetry Magazine on Dark Matter](http://www.symmetrymagazine.org/article/november-2013/connecting-the-visible-universe-with-dark-matter)
   * [2012 Medford High School Visit](http://www.mhsmustangnews.com/2012/10/29/academic-news-mits-jesse-thaler-visits-mhs/)
+</details>
 
-### Students in the News
+
+<details markdown=1>
+<summary><b>Students in the News</b></summary>
 
   * [Radha Mastandrea](http://news.mit.edu/2018/Radha-Mastandrea-student-1018)  ([Heising-Simons Fellowship](http://news.mit.edu/2018/paying-it-forward-fellowship-boosts-women-physics-0802))
   * [Kevin Zhou](http://news.mit.edu/2017/student-profile-kevin-zhou-0421)  ([Marshall Scholarship](http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128))
-
-<!--
-## Research Interests
-
-The dots above indicate publications on my [[cv]].  My research interests span a [[research details|wide range of topics]] in and beyond the standard model:
-
-  * Collider Physics and Quantum Chromodynamics
-    * [[research details#Jets and Jet Substructure|Jets and Jet Substructure]]
-    * [[research details#Open Data Studies|Open Data Studies]]
-  * Theoretical Frameworks Beyond the Standard Model
-    * [[research details#Novel Dark Matter Dynamics|Novel Dark Matter Dynamics]]
-    * [[research details#Supersymmetry and Supersymmetry Breaking|Supersymmetry and Supersymmetry Breaking]]
-
-### Selected Publications
-
-  * **Dark Photons from Charm Mesons at LHCb**. \\ Philip Ilten, Jesse Thaler, Mike Williams, and Wei Xue. \\ [[http://dx.doi.org/10.1103/PhysRevD.92.115017|Phys. Rev. D92:115017 (2015)]], [[http://arxiv.org/abs/1509.06765|arXiv:1509.06765]].
-
-  * **The Goldstone and Goldstino of Supersymmetric Inflation**. \\ Yonatan Kahn, Daniel A. Roberts, and Jesse Thaler. \\ [[http://dx.doi.org/10.1007/JHEP10(2015)001|JHEP 1510:001 (2015)]], [[http://arxiv.org/abs/1504.05958|arXiv:1504.05958]].
-
-  * **Sudakov Safety in Perturbative QCD**. \\ Andrew J. Larkoski, Simone Marzani, and Jesse Thaler. \\ [[http://dx.doi.org/10.1103/PhysRevD.91.111501|Phys. Rev. D91:111501 (2015)]], [[http://arxiv.org/abs/1502.01719|arXiv:1502.01719]].
-
-  *  **(In)direct Detection of Boosted Dark Matter**. \\ Kaustubh Agashe, Yanou Cui, Lina Necib, and Jesse Thaler.  \\ [[http://dx.doi.org/10.1088/1475-7516/2014/10/062|JCAP 1410:062 (2014)]], [[http://arxiv.org/abs/1405.7370|arXiv:1405.7370]].
-
-  * **Soft Drop**. \\ Andrew J. Larkoski, Simone Marzani, Gregory Soyez, and Jesse Thaler.\\ [[http://dx.doi.org/10.1007/JHEP05(2014)146|JHEP 1405:146 (2014)]], [[http://arxiv.org/abs/1402.2657|arXiv:1402.2657]].
-
-  * **Anomaly Mediation from Unbroken Supergravity**. \\ Francesco D'Eramo, Jesse Thaler, and Zachary Thomas. \\ [[http://dx.doi.org/10.1007/JHEP09(2013)125|JHEP 1309:125 (2013)]], [[http://arxiv.org/abs/1307.3251|arXiv:1307.3251]].
-
-  * **Flavor Mediation Delivers Natural SUSY**. \\ Nathaniel Craig, Matthew McCullough, and Jesse Thaler. \\ [[http://dx.doi.org/10.1007/JHEP06(2012)046|JHEP 1206:046 (2012)]], [[http://www.arxiv.org/abs/1203.1622|arXiv:1203.1622]].
-
-  * **Identifying Boosted Objects with N-subjettiness**.\\ Jesse Thaler and Ken Van Tilburg.\\ [[http://dx.doi.org/10.1007/JHEP03(2011)015|JHEP 1103:015 (2011)]], [[http://www.arxiv.org/abs/1011.2268|arXiv:1011.2268]].
-
-  * **Semi-annihilation of Dark Matter**.\\ Francesco D'Eramo and Jesse Thaler.\\ [[http://dx.doi.org/10.1007/JHEP06(2010)109|JHEP 1006:109 (2010)]], [[http://www.arxiv.org/abs/1003.5912|arXiv:1003.5912]].
-
-  * **Goldstini**.\\ Clifford Cheung, Yasunori Nomura, and Jesse Thaler.\\  [[http://dx.doi.org/10.1007/JHEP03(2010)073|JHEP 1003:073 (2010)]], [[http://www.arxiv.org/abs/1002.1967|arXiv:1002.1967]].
-
-  * **Jet Trimming**.\\ David Krohn, Jesse Thaler, and Lian-Tao Wang.\\ [[http://dx.doi.org/10.1007/JHEP02(2010)084|JHEP 1002:084 (2010)]], [[http://www.arxiv.org/abs/0912.1342|arXiv:0912.1342]].
-
-  * **Dark Matter through the Axion Portal**.\\ Yasunori Nomura and Jesse Thaler.\\ [[http://link.aps.org/abstract/PRD/v79/e075008|Phys. Rev. D79:075008 (2009)]], [[http://www.arxiv.org/abs/0810.5397|arXiv:0810.5397]].
--->
+</details>

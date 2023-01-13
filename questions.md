@@ -113,7 +113,7 @@ There are as many ways to be a successful physicist as there are successful phys
 
 
 <details markdown=1>
-<summary><b>What is a good practice problem for the MIT Nuclear/Particle Theory oral qualifying exam?</b></summary>
+<summary><b>What are good practice problems for the MIT Nuclear/Particle Theory oral qualifying exam?</b></summary>
 
 Here are three practice problems of increasing difficulty:
 
@@ -175,7 +175,8 @@ Though I loved my old [custom html black and white](http://v1.jthaler.net/) webp
 
 What actually happened, though, is that I just kept adding items to my [cc](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
 
-So I decided that I really needed two websites, one for "[ready for my TED talk](https://www.squarespace.com/)" Jesse and one for "[pip install my student's code](https://github.com/)" Jesse.  Perhaps someday they will once again merge into a one webpage... that I never get around to editting very much.
+So I decided that I really needed to update my website, though exactly how it will look is unclear.  This is an ongoing process, starting with the [Jeykll Text Theme](https://kitian616.github.io/jekyll-TeXt-theme/) on [GitHub Pages](https://pages.github.com/).  Wish me luck!
+
 </details>
 
 
