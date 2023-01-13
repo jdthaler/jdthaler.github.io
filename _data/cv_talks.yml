@@ -1,6 +1,18 @@
 colloquia:
 
   - title: "Particle Physics through the Lens of Machine Learning"
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2023_09_Technion_Colloquium.pdf
+    event: Physics Colloquium
+    org: Technion
+    date: January 2023
+
+  - title: "Particle Physics through the Lens of Machine Learning"
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2023_01_08_TelAviv_Colloquium.pdf
+    event: Physics Colloquium
+    org: Tel Aviv
+    date: January 2023
+
+  - title: "Particle Physics through the Lens of Machine Learning"
     url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_11_Brown_Colloquium.pdf
     event: Physics Colloquium
     org: Brown
