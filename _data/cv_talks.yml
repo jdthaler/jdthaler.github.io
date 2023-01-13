@@ -814,6 +814,13 @@ local:
 
 seminars:
 
+  - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
+    url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2023_01_11_HiddenGeometry_Israel.pdf
+    event: Israel Joint Seminar
+    org: Jerusalem
+    date: January 2023
+
+
   - title: "Machine Learning for the Skeptical HEP Theorist"
     url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2022_11_Brown_Seminar.pdf
     event: Seminar
