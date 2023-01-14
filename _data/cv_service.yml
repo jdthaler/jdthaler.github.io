@@ -1,11 +1,13 @@
 phd-theses:
 
-  - name: Eva Huang
-    advisor: Salvatore Vitale
-    
   - name: Cristian Zanoci
     title: Quantum Algorithms and Non-Equilibrium Dynamics in Disordered Many-Body Systems
     advisor: Mikhail Lukin & Aram W. Harrow
+
+  - name: Eva Huang
+    title: Systematic and Statistical Uncertainties in the Characterization of Gravitational-Wave Sources
+    advisor: Salvatore Vitale
+    date: January 2023
     
   - name: Gregory Ridgway
     title: Exotic Dark Matter in the Early Universe

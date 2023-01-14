@@ -3,21 +3,23 @@ header:
   - title: About
     url:   about
 
+  - title: Contact
+    url:   contact
+
   - title: Group
     url:   group
 
+  - title: Join
+    url:   join
+
   - title: Research
     url:   research
+    
+  - title: Public
+    url:   public
 
   - title: Questions
     url:   questions
 
   - title: CV
     url:   cv
-
-  - title: Personal
-    url:   personal
-
-  - title: Contact
-    url:   contact
-

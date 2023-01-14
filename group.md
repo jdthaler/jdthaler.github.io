@@ -6,9 +6,6 @@ aside:
 
 ---
 
-[Mentoring CV](cv#mentoring){:.button.button--outline-primary.button--pill}
-[Joining My Group](join){:.button.button--outline-primary.button--pill}
-
 ## Current
 
 {% for category in site.data.cv_mentoring.categories -%}
@@ -34,6 +31,8 @@ aside:
 
 
 ## Alumni
+
+[Mentoring CV](cv#mentoring){:.button.button--outline-primary.button--pill}
 
 {% for category in site.data.cv_mentoring.categories -%}
 ### {{category.name}}

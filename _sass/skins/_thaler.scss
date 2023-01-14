@@ -55,18 +55,18 @@ $red:             #f5222d;
 $text-color-function: #fff;
 
 // logo colors
-$mail-color:       #0072c5;
-$facebook-color:   #4267b2;
-$twitter-color:    #1da1f2;
-$weibo-color:      #e6162d;
-$google-plus-color:#ea4335;
-$telegram-color:   #32afed;
-$medium-color:     #000;
-$zhihu-color:      #0084ff;
-$douban-color:     #42bd56;
-$linkedin-color:   #1074af;
-$github-color:     #000;
-$npm-color:        #fff;
+$mail-color:       $main-color-2;
+$facebook-color:   $main-color-2;
+$twitter-color:    $main-color-2;
+$weibo-color:      $main-color-2;
+$google-plus-color:$main-color-2;
+$telegram-color:   $main-color-2;
+$medium-color:     $main-color-2;
+$zhihu-color:      $main-color-2;
+$douban-color:     $main-color-2;
+$linkedin-color:   $main-color-2;
+$github-color:     $main-color-2;
+$npm-color:        $main-color-2;
 
 // highlight colors
 @import "skins/highlight/tomorrow-night-blue";

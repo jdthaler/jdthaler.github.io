@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Full CV
+title: Curriculum Vitae
 aside:
   toc: true
 
@@ -277,24 +277,24 @@ aside:
 ### Colloquia
 
 {% for talk in site.data.cv_talks.colloquia -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Public Lectures
 
 {% for talk in site.data.cv_talks.public -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{%- endif %},
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{%- endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+    {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 
 ### Lecture Series & Schools
 
 {% for talk in site.data.cv_talks.schools -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
       {%- if talk.parts %} (
       {%- for part in talk.parts -%}
         {% if part.url %}**[{{part.title}}]({{part.url}})**{% else %}**{{part.title}}**{% endif %}
@@ -303,43 +303,43 @@ aside:
       {%- endif -%},
    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+    {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 
 ### Invited Talks
 
 {% for talk in site.data.cv_talks.invited -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
     {%- if talk.collab %} (with {{talk.collab}}), {% else %}, {% endif %}
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+    {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Local Presentations
 
 {% for talk in site.data.cv_talks.local -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Seminars
 
 {% for talk in site.data.cv_talks.seminars -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% else %}**"{{talk.title}}"**{% endif %},
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+    {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Additional Events
 
 {% for talk in site.data.cv_talks.additional -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url}})**{% elsif talk.panelist %}**Panelist**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% elsif talk.panelist %}**Panelist**{% elsif talk.convener %}**Convener**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} (Virtual Talk) {% endif %}
+    {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 
@@ -529,7 +529,9 @@ aside:
   * French National Research Agency
   * Hungarian National Research, Development, and Innovation Office
 
-## Outreach
+## Public Engagement
+ 
+[Engagement Portfolio](public){:.button.button--outline-primary.button--pill}
  
   * ["Designing an AI Physicist"](https://cerncourier.com/a/designing-an-ai-physicist/), Opinion Viewpoint, *[CERN Courier, September-October 2021](https://cerncourier.com/wp-content/uploads/2021/08/CERNCourier2021SepOct-digitaledition.pdf#CCSepOct21-digital.indd%3A.17586%3A1070)*
   * ["Collision Course: Artificial Intelligence meets Fundamental Physics"](http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf), Keynote Presentation, ["Tommy Flowers Network Conference"](http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html), *Virtual, October 2020*
@@ -560,7 +562,7 @@ aside:
 
 ## Graphic Design
 
-[Design Portfolio](personal#graphic-design){:.button.button--outline-primary.button--pill}
+[Design Portfolio](public#graphic-design){:.button.button--outline-primary.button--pill}
 
   * **[Banner Design](design/jthaler_IAIFI_Banner.jpg)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*  (based on artwork by [agsandrew](https://agsandrew.myportfolio.com/) - stock.adobe.com)
   * **[Logo Design](design/jthaler_IAIFI_Logo.pdf)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*

@@ -12,108 +12,11 @@ aside:
 [Dedushka](dedushka.html){:.button.button--outline-primary.button--pill}
 [Ania](ania.html){:.button.button--outline-primary.button--pill}
 
+## Archives
 
-## Graphic Design
-
-[Design CV](cv#graphic-design){:.button.button--outline-primary.button--pill}
-
-### Logos
-
-<div class="grid-container">
-  <div class="grid grid--py-3">
-    <div class="cell cell--3">
-          <a href="design/jthaler_IAIFI_Logo.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_IAIFI_Logo.png" title="IAIFI Logo"/>
-          <br>
-              <b>IAIFI</b>
-          </a>
-    </div>
-    <div class="cell cell--3">
-          <a href="design/jthaler_OmniFold_Logo.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_OmniFold_Logo.png" title="OmniFold Logo"/>
-          <br>
-              <b>OmniFold</b>
-          </a>
-    </div>
-    <div class="cell cell--3">
-          <a href="design/jthaler_MOD_Logo.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_MOD_Logo.png" title="MOD"/>
-          <br>
-              <b>MOD</b>
-          </a>
-    </div>
-    <div class="cell cell--3">
-          <a href="design/jthaler_DarkLight_Logo.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_DarkLight_Logo.png" title="DarkLight Logo"/>
-          <br>
-              <b>DarkLight</b>
-          </a>
-    </div>
-    <div class="cell cell--6">
-          <a href="design/jthaler_ABRALogo_Large.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Large.png" title="ABRACADABRA"/>
-          <br>
-              <b>ABRACADABRA</b>
-          </a>
-    </div>
-    <div class="cell cell--3">
-          <a href="design/jthaler_ABRALogo_Medium.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Medium.png" title="ABRA"/>
-          <br>
-              <b>ABRA</b>
-          </a>
-    </div>
-    <div class="cell cell--3">
-          <a href="design/jthaler_ABRALogo_Small.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Small.png" title="A."/>
-          <br>
-              <b>A.</b>
-          </a>
-    </div>
-  </div>
-</div>
-
-
-### Images
-
-
-<div class="grid-container">
-  <div class="grid grid--py-3">
-    <div class="cell cell--4">
-          <a href="design/jthaler_IAIFI_Banner.jpg">
-            <img class="image-h image-h--sm" src="design/jthaler_IAIFI_Banner.jpg" title="[IAIFI Banner"/>
-          <br>
-              <b>IAIFI Banner</b>
-          </a>
-    </div>
-    <div class="cell cell--4">
-          <a href="design/jthaler_MOD_EventDisplay.pdf">
-            <img class="image-h image-h--sm" src="design/jthaler_MOD_EventDisplay.png" title="MOD Event"/>
-          <br>
-              <b>MOD Event Display</b>
-          </a>
-    </div>
-    <div class="cell cell--4">
-          <a href="design/jthaler_BOOST2019_Poster.pdf">
-            <img class="image-h image-h--sm" src="design/jthaler_BOOST2019_Poster.png" title="BOOST 2019 Poster"/>
-          <br>
-              <b>BOOST 2019 Poster</b>
-          </a>
-    </div>
-
-  </div>
-</div>
-
-  
-
-<div class="grid-container">
-  <div class="grid grid--py-3">
-
-
-
-  </div>
-</div>
-
+[Sasha and Jesse's Wedding](http://wedding.jthaler.net){:.button.button--outline-primary.button--pill}
+[jthaler.net (v1)](http://v1.jthaler.net/){:.button.button--outline-primary.button--pill}
+[jthaler.net (v2)](http://v2.jthaler.net/){:.button.button--outline-primary.button--pill}
 
 ## Extended Biography
 
@@ -130,9 +33,3 @@ I then spent a glorious three-and-a-half years in California, doing post-doctori
 Alas, our time on the left coast was short-lived, and Sasha and I moved (back) to New England in 2010.  I am now living the (academic) dream as a [Professor](http://web.mit.edu/physics/people/faculty/thaler_jesse.html) in the [Center for Theoretical Physics](http://www-ctp.mit.edu/) at [MIT](http://www.mit.edu/).  In my research, I attempt to address some of the outstanding questions in fundamental physics, including the nature of dark matter, the apparent weakness of gravity, and the symmetry structure of our universe.
 
 In 2020, I become Director of the [Institute for Artificial Intelligence Fundamental Interactions](http://iaifi.org).  I used to make jokes about how "deep learning" could never compete with "deep thinking", but I guess now the joke's on me.
-
-## Archives
-
-[Sasha and Jesse's Wedding](http://wedding.jthaler.net){:.button.button--outline-primary.button--pill}
-[jthaler.net (v1)](http://v1.jthaler.net/){:.button.button--outline-primary.button--pill}
-[jthaler.net (v2)](http://v2.jthaler.net/){:.button.button--outline-primary.button--pill}

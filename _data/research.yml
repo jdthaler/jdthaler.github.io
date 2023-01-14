@@ -22,8 +22,8 @@ topics:
         title:  Quantum Computation
 
   - key: qcd
-    title:  Collider Physics and Quantum Chromodynamics
-    description:
+    title:  Collider Physics and QCD
+    description: "Quantum Chromodynamics"
     subtopics:
     
       - key:    correlators

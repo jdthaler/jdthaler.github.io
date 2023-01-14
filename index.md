@@ -34,7 +34,7 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
           <a href="http://iaifi.org/">
             <img class="image-h image-h--xs" src="images/logo_iaifi_nsf.png" title="IAIFI"/>
           <br>
-              <b>Director, NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)</b>
+              <b>Director <br> NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)</b>
           </a>
           </center>
     </div>
@@ -85,7 +85,18 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   </div>
 </div>
 
-<!--
-#### Navigation
+
+
+
+
+## Navigation
+
+[Personal Page](personal){:.button.button--outline-primary.button--pill}
+
+<div markdown=1>
 {% for button in site.data.navigation.header %}[{{button.title}}]({{button.url}}){:.button.button--outline-primary.button--pill} {% endfor %}
--->
+</div>
+
+
+
+

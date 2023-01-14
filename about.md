@@ -13,10 +13,11 @@ aside:
 
 Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the Center for Theoretical Physics. In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
 
-## Curriculum Vitae
+## Short CV
 
 [Full CV](cv){:.button.button--outline-primary.button--pill}
 [MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill}
+
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
 [arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
@@ -63,21 +64,21 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 <div class="grid-container">
   <div class="grid grid--py-3">
-    <div class="cell cell--3">
-          <a href="images/jthaler_photo_2017.jpg">
-            <img class="image-h image-h--sm" src="images/jthaler_photo_2017.jpg" title="Thaler Head Shot"/>
-          <br>
-              <b>Head Shot</b>
-          </a>
-    </div>
-    <div class="cell cell--4">
+    <div class="cell cell--6">
           <a href="images/jthaler_mit_spotlight.jpg">
             <img class="image-h image-h--sm" src="images//jthaler_mit_spotlight.jpg" title="Thaler Blackboard Shot"/>
           <br>
               <b>Blackboard Shot</b>
           </a>
     </div>
-
+    
+    <div class="cell cell--6">
+          <a href="images/jthaler_photo_2017.jpg">
+            <img class="image-h image-h--sm" src="images/jthaler_photo_2017.jpg" title="Thaler Head Shot"/>
+          <br>
+              <b>Head Shot</b>
+          </a>
+    </div>
   </div>
 </div>
 
