@@ -14,7 +14,7 @@ aside:
 
 With its huge breadth of research interests and expertise, the [Center for Theoretical Physics (CTP)](http://ctp.mit.edu/) at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the [Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)]([http://iaifi.org/).  Specific postdoctoral opportunities to collaborate with me and my group include:
 
-  * [CTP Postdocs ](http://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--outline-primary.button--pill} (typical deadline mid-November)
+  * [CTP Postdocs](http://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--outline-primary.button--pill} (typical deadline mid-November)
   
   * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--outline-primary.button--pill}  (typical deadline mid-October)
   
@@ -33,10 +33,25 @@ I anticipate at least one opening in my research group in the coming years.  I a
 
 To do meaningful research in theoretical particle physics at the undergraduate level, you must have taken at least a course on Relativity (8.033) and a full year of Quantum Mechanics (8.05/8.06).  I often work with students who have been exposed to some graduate-level courses at MIT, though there are also research projects available for students with extensive programming experience.
 
-  * For current **MIT undergraduate students**, please [send me an email](mailto:jthaler@mit.edu) with your CV and previous research experience.  Funding is available through the MIT [UROP](http://web.mit.edu/UROP/) program.
-  * For students at **other universities**, there are potential opportunities to work with me through the [MIT Summer Research Program](https://oge.mit.edu/graddiversity/msrp/).
+### Current MIT Students
+
+  * If you are interested in working with me, please [send an email](mailto:jthaler@mit.edu) with your CV and previous research experience.
+  
+  * Funding is available through: [Undergraduate Research Opportunities Program](http://web.mit.edu/UROP/){:.button.button--outline-primary.button--pill}
+  
+  * I sometimes work with MIT Master's students through:  [EECS MEng Program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/){:.button.button--outline-primary.button--pill}
+
+### Students from Other Universities
+
+  * Visiting students must have full financial support to come to MIT.  Self-funded visits are not possible.
+  
+  * I primarily work with summer interns through: [MIT Summer Research Program](https://oge.mit.edu/graddiversity/msrp/){:.button.button--outline-primary.button--pill}
+
+  * I do not typically have openings for non-MIT Master's students in my group. 
 
 
 ## Prospective High Schoolers
 
-Currently, I am not conducting research with high school students.  However, MIT offers a number of [Summer Programs](http://www.mitadmissions.org/topics/before/summer_programs/) for high school students to gain research experience.
+  * Currently, I am not conducting research with high school students.
+  
+  * High school students can gain research experience through: [Recommended Summer Programs](https://mitadmissions.org/apply/prepare/summer/){:.button.button--outline-primary.button--pill}
