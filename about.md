@@ -141,8 +141,9 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 
 <details markdown=1>
-<summary><b>Students in the News</b></summary>
+<summary><b>Group Members in the News</b></summary>
 
+  * [Cari Cesarotti on Open Data](https://www.symmetrymagazine.org/article/with-open-data-scientists-share-their-work)
   * [Radha Mastandrea](http://news.mit.edu/2018/Radha-Mastandrea-student-1018)  ([Heising-Simons Fellowship](http://news.mit.edu/2018/paying-it-forward-fellowship-boosts-women-physics-0802))
   * [Kevin Zhou](http://news.mit.edu/2017/student-profile-kevin-zhou-0421)  ([Marshall Scholarship](http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128))
 </details>
