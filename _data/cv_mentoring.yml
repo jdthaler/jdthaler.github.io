@@ -232,6 +232,9 @@ postdocs:
        org: Los Alamos National Laboratory
      - title: Feynman Fellow
        org: Los Alamos National Laboratory
+     - title: Staff Scientist
+       org: Los Alamos National Laboratory
+   updated: 2023
 
  - name: Andrew Larkoski
    url: https://www.physics.ucla.edu/~larkoski/
@@ -475,6 +478,7 @@ bs_students:
     date: 2023
     urop: Fall 2022
     current: true
+    other: "After Graduation: M.Eng candidate in Computer Science, MIT"
 
   - name: Octavio Vega
     email: ovega84@mit.edu
@@ -616,7 +620,7 @@ bs_students:
     graduated: true
     after:
       - title: Marshall Scholarship
-        org: U. Cambridge
+        org: U. Cambridge and U. Oxford
       - title: Physics Ph.D Candidate
         org: Stanford
     urop: IAP 2016, Spring 2016, Summer 2016, Fall 2016, Spring 2017
@@ -624,6 +628,7 @@ bs_students:
       - name: Joel Matthew Orloff Award for Outstanding Research
         org: MIT Physics Department
         date: 2017
+    updated: 2023
 
   - name: Aashish Tripathee
     email: aashishtripathee@gmail.com
@@ -726,7 +731,8 @@ bs_students:
         org: Princeton
 
   - name: Ken Van Tilburg
-    email: kenvantilburg@gmail.com
+    url: https://as.nyu.edu/faculty/ken-van-tilburg.html
+    email: kenvt@nyu.edu
     date: 2011
     thesis: "Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering"
     thesis_url: http://hdl.handle.net/1721.1/65536
@@ -736,8 +742,11 @@ bs_students:
         org: Stanford
       - title: Postdoctoral Researcher
         org: Institute for Advanced Study and New York University
+      - title: Associate Research Scientist
+        org: Flatiron Institute
       - title: Assistant Professor
         org: NYU
+        concurrent: true
     urop: Summer 2010, Fall 2010
     awards:
       - name: Apker Award Finalist
@@ -746,6 +755,7 @@ bs_students:
       - name: Joel Matthew Orloff Award for Outstanding Research in Physics
         org: MIT Physics Department
         date: 2011
+    updated: 2023
         
 
 
@@ -803,6 +813,7 @@ visitors:
     after:
       - title: PhD Candidate
         org: NYU
+    updated: 2023
 
   - name: Andrew Turner
     url: http://apturner.net

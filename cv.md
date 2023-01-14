@@ -161,7 +161,7 @@ aside:
   {%- if person.after[0] %}
       * After MIT: {{person.after[0].title}}, *{{person.after[0].org}}* {% endif %}
   {%- if person.after.size > 1 %}
-      * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
+      * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {%- if person.after[-1].concurrent %} and {{person.after[-2].title}}, *{{person.after[-2].org}}*{% endif %}{% endif %}
 {% endfor %}
 
 
