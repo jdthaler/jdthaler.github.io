@@ -6,7 +6,7 @@ aside:
 ---
 
 <center>
-<img class="image circle image--xl" src="images/jthaler_photo_2017.jpg" title="Jesse Thaler"/>
+<img class="image rounded image--xl" src="images/jthaler_photo_2017.jpg" title="Jesse Thaler"/>
 </center>
 
 ## Biography
@@ -147,3 +147,14 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   * [Radha Mastandrea](http://news.mit.edu/2018/Radha-Mastandrea-student-1018)  ([Heising-Simons Fellowship](http://news.mit.edu/2018/paying-it-forward-fellowship-boosts-women-physics-0802))
   * [Kevin Zhou](http://news.mit.edu/2017/student-profile-kevin-zhou-0421)  ([Marshall Scholarship](http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128))
 </details>
+
+### Image Credits
+
+  * Front Page: <a href="http://spotlight.mit.edu/2017/chalkboard-theorist">Jared Charney, MIT News</a>
+  * About: <http://www.jaredcharney.com/>Jared Charney</a>
+{% for topic in site.data.research.topics -%}
+  * Research, {{topic.title}}: <a href="{{topic.image_url}}">{{topic.image_credit}}</a>
+{% endfor -%}
+  * Public Engagement:  <a href="https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328">Justin Knight, MIT News</a>
+<a href="https://news.mit.edu/2019/new-physics-anomalous-particles-0726">
+

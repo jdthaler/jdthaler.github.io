@@ -5,7 +5,13 @@ aside:
   toc: true
 ---
 
-## Data Science and Machine Learning
+<center>
+<img class="image-h image-h--xl rounded" src="images/stamp_public.jpg" title="Jesse Thaler"/>
+</center>
+
+
+
+## Data Science and AI/ML
 
 ### Artificial Intelligence
 
@@ -25,7 +31,7 @@ aside:
   * ["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf), Contribution to [Felice Frankel](https://www.felicefrankel.com/), [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering), *MIT Press, 2018*
 
 
-## Physics Beyond the Standard Model
+## Beyond the Standard Model
 
 ### Dark Matter
 

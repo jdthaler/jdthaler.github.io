@@ -1,9 +1,12 @@
 ---
 layout: article
-title: Personal
+title: Personal Page
 aside:
   toc: true
 ---
+<center>
+<img class="image-h image-h--xl rounded" src="images/stamp_personal.jpg" title="Jesse Thaler"/>
+</center>
 
 
 ## Memorials

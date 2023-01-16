@@ -7,7 +7,7 @@ aside:
 ---
 
 <center>
-<img class="image-h image-h--lg rounded" src="images/ctp_hallway_small.jpg" title="6-318"/>
+<img class="image-h image-h--xl rounded" src="images/ctp_hallway_small.jpg" title="6-318"/>
 </center>
 
 ## Prospective Postdocs
@@ -41,7 +41,7 @@ To do meaningful research in theoretical particle physics at the undergraduate l
   
   * I sometimes work with MIT Master's students through:  [EECS MEng Program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/){:.button.button--outline-primary.button--pill}
 
-### Students from Other Universities
+### Other Universities
 
   * Visiting students must have full financial support to come to MIT.  Self-funded visits are not possible.
   

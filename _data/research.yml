@@ -1,7 +1,10 @@
 topics:
 
   - key: aiml
-    title:  Data Science and Machine Learning
+    title:  Data Science and AI/ML
+    image:  images/stamp_aiml.jpg
+    image_credit: "Chelsea Turner, MIT News"
+    image_url: https://news.mit.edu/2019/new-physics-anomalous-particles-0726
     description:  "Machine learning has impacted many scientific fields, and particle physics is no exception. In my research, I aim to enhance the search for new phenomena at colliders by merging the performance of deep learning algorithms with the robustness of “deep thinking” approaches."
     subtopics:
         
@@ -23,6 +26,9 @@ topics:
 
   - key: qcd
     title:  Collider Physics and QCD
+    image:  images/stamp_qcd.jpg
+    image_credit: "CERN, MIT News"
+    image_url: https://news.mit.edu/2017/first-open-access-data-large-collider-subatomic-particle-patterns-0929
     description: "Quantum Chromodynamics"
     subtopics:
     
@@ -53,7 +59,10 @@ topics:
 
     
   - key: bsm
-    title:  Physics Beyond the Standard Model
+    title:  Beyond the Standard Model
+    image:  images/stamp_bsm.jpg
+    image_credit:  ABRACADABRA, MIT News
+    image_url:  https://news.mit.edu/2019/dark-matter-experiment-finds-no-evidence-axions-0329
     description:
     subtopics:
     

@@ -21,5 +21,26 @@
   height: map-get($image, width-xs);
 }
 
+.font--xs {
+font-size: map-get($base, font-size-xs);
+}
+
+.font--sm {
+font-size: map-get($base, font-size-sm);
+}
+
+.font--md {
+font-size: map-get($base, font-size-md);
+}
+
+.font--lg {
+font-size: map-get($base, font-size-lg);
+}
+
+.font--xl {
+font-size: map-get($base, font-size-xl);
+}
+
+
 
 /* end custom scss snippet */
