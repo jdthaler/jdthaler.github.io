@@ -1,0 +1,42 @@
+topics:
+
+  - key: aiml
+    title:  Data Science and AI/ML
+    image:  images/stamp_nytimes_aiml.jpg
+    image_credit: "Alex Eben Meyer, NYTimes"
+    image_url: https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html
+    description:  ""
+    subtopics:
+        
+      - key:    ai
+        title:  Artificial Intelligence
+        
+      - key:  open_data
+        title:  Open Data
+
+  - key: qcd
+    title:  Collider Physics and QCD
+    image:  design/jthaler_MOD_EventDisplay.png
+    image_credit: "Jesse Thaler, with Felice Frankel"
+    image_url: http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf
+    description: "Quantum Chromodynamics"
+    subtopics:
+    
+      - key:    jet_sub
+        title:  Jet Substructure
+   
+  - key: bsm
+    title:  Beyond the Standard Model
+    image:  images/stamp_dm.jpg
+    image_credit:  "NASA, ESA, E. Jullo, P. Natarajan, J-P. Kneib"
+    image_url:  https://esahubble.org/images/heic1014a/
+    description:
+    subtopics:
+    
+      - key:  dark_matter
+        title:  Dark Matter
+        description:  ""
+    
+      - key:  higgs
+        title:  Higgs Boson
+        description:  ""

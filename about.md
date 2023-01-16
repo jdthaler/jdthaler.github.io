@@ -172,6 +172,9 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   * ![{{frontimage.hover}}]({{frontimage.image}}){:.image--xs} Front Page: [{{frontimage.image_credit}}](frontimage.image_url)
   * ![{{aboutimage.hover}}]({{aboutimage.image}}){:.image--xs} About Page: [{{aboutimage.image_credit}}](aboutimage.image_url)
 {% for topic in site.data.research.topics -%}
-  * ![{{topic.title}}]({{topic.image}}){:.image--xs} Research Page, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
+  * ![{{topic.title}}]({{topic.image}}){:.image--xs} Research, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
 {% endfor -%}
   * ![{{publicimage.hover}}]({{publicimage.image}}){:.image--xs} Public Engagement Page: [{{publicimage.image_credit}}](publicimage.image_url)
+{% for topic in site.data.public.topics -%}
+  * ![{{topic.title}}]({{topic.image}}){:.image--xs} Public Engagement, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
+{% endfor -%}

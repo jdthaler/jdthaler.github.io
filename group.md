@@ -6,7 +6,11 @@ aside:
 
 ---
 
+Great ideas can come from researchers at any career stage, so I strive to cultivate a collaborative atmosphere in my group while also providing individual mentorship.  We pursue a broad range of research in theoretical particle physics, and we often find connections to adjacent fields.  
+
+
 [Mentoring CV](cv#mentoring){:.button.button--outline-primary.button--pill.button--sm}
+[Joining My Group](join){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Current
 

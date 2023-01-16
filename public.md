@@ -12,6 +12,8 @@ aside:
 </a>
 </center>
 
+I engage with the public through opinion pieces, classroom visits, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data.
+
 [Engagement CV](cv#public-engagement){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Data Science and AI/ML
@@ -58,12 +60,13 @@ aside:
 
 ### Dark Matter
 
-Dark matter is an enigma. Even though it can be “seen” through its influence on gravity, dark matter is invisible to the other known forces of nature. There are numerous ongoing efforts to discover the origin and properties of dark matter, ranging from laboratory experiments to astrophysical investigations. This intense interest is driven in part by tantalizing hints that the nature of dark matter might be linked to other deep and unsolved mysteries in physics. In this talk, Prof. Thaler presents the overwhelming evidence for dark matter as well as speculates on the broader implications of the invisible universe.
+
 
   * **["Listening for Dark Matter from the Basement of Building 24"](https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf)**, coauthored with Lindley Winslow, Contribution to [Physics@MIT Journal](https://web.mit.edu/physics/news/physicsatmit/fall2019.html), *Fall 2019*
   * **["Listening to the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf)**, Program with [A Far Cry](https://afarcry.org/), [Open Rehearsal of Gravity](https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#)**, *April 2019*
   * **["Confronting the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf)**, MIT Club of Great Britain Event, *London, May 2018*
-  * **["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ)**, Public Talk, *Aspen Center for Physics, March 2017*
+  * **["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ)**, Public Talk, *Aspen Center for Physics, March 2017* 
+    > Dark matter is an enigma. Even though it can be “seen” through its influence on gravity, dark matter is invisible to the other known forces of nature. There are numerous ongoing efforts to discover the origin and properties of dark matter, ranging from laboratory experiments to astrophysical investigations. This intense interest is driven in part by tantalizing hints that the nature of dark matter might be linked to other deep and unsolved mysteries in physics. In this talk, Prof. Thaler presents the overwhelming evidence for dark matter as well as speculates on the broader implications of the invisible universe.
   
 ### Higgs Boson
   

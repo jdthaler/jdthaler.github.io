@@ -29,7 +29,7 @@ topics:
     image:  images/stamp_qcd.jpg
     image_credit: "CERN, MIT News"
     image_url: https://news.mit.edu/2017/first-open-access-data-large-collider-subatomic-particle-patterns-0929
-    description: "Quantum Chromodynamics"
+    description: "High-energy particle collisions are dominated by QCD (quantum chromodynamics), which describes fundamental interactions among quarks and gluons.  My research has yielded new ways to analyze collider physics data and new ways to compute the properties of QCD."
     subtopics:
     
       - key:    correlators
@@ -63,7 +63,7 @@ topics:
     image:  images/stamp_bsm.jpg
     image_credit:  ABRACADABRA, MIT News
     image_url:  https://news.mit.edu/2019/dark-matter-experiment-finds-no-evidence-axions-0329
-    description:
+    description:  "The Standard Model has survived a half-century of precision tests, yets it leaves many unanswered questions, such as the nature of dark matter, the apparent weakness of gravity, and the symmetry structure of our Universe.  In my research, I study hypothetical scenarios for physics beyond the Standard Model (BSM) and new experimental strategies to uncover evidence for new physics."
     subtopics:
     
       - key:  detecting_dm

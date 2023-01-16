@@ -10,8 +10,7 @@ aside:
 <img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </center>
 
-
-<br>
+The goal of my research in theoretical particle physics is galvanize the search for new phenomena beyond the Standard Model as well as to illuminate the structure of the Standard Model itself.  In my research, I often combine first-principles calculations in quantum field theory with data analysis techniques from machine learning.
 
 [Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
@@ -27,6 +26,8 @@ aside:
 <img class="image-h image-h--xl rounded" src="{{topic.image}}" title="{{topic.title}}"/>
 </a>
 </center>
+
+{{topic.description}}
 
 ### Selected Papers
 

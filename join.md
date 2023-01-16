@@ -10,6 +10,8 @@ aside:
 <img class="image-h image-h--xl rounded" src="images/ctp_hallway_small.jpg" title="6-318"/>
 </center>
 
+Each year, I typically have a few openings in my group for new researchers.  Depending on your career stage, there are different ways to join my group.
+
 [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Postdocs
