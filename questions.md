@@ -7,6 +7,8 @@ aside:
 ---
 
 
+[Ask Jesse a Question](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}
+
 ## Research
 
 <details markdown=1>
@@ -17,9 +19,9 @@ Here is information about **[joining my group](join)**!
 <details markdown=1>
 <summary><b>Do you respond to generic emails asking to come to MIT?</b></summary>
 
-Well, I try to, but I typically just send stock emails.  Like this one, for a prospective Ph.D. student:
+Well, I try to, but given the large number of inquiries I receive, I typically just send stock emails.  Like this one, for a prospective Ph.D. student:
 
-````
+```
 Dear Prospective Student,
 
 Thank you for your interest in my research.  Information about applying to the MIT Physics Ph.D. program is available at:
@@ -34,7 +36,7 @@ I am happy to discuss opportunities to join my group once you are accepted to MI
 
 Sincerely,
 Jesse Thaler
-````
+```
 
 If you want to get a more detailed response, then you need to make a more personal connection, at minimum by including my name in your email.  Or saying that your undergraduate advisor (include your advisor's name!) recommended that you contact me.  Or that you are interested in a specific paper of mine (including the reference!).  Even then, my inbox is overflowing with inquiries, so I might still send a stock message.
 
@@ -173,7 +175,7 @@ What made me change my mind to include my pronouns?  I received an email from a 
 
 Though I loved my old [custom html black and white](http://v1.jthaler.net/) webpage, I never got around to editting it much.  In 2007, I decided to move to [DokuWiki](http://v2.jthaler.net/).  In the wiki format, editing and viewing pages take the same amount of work, so I was hoping that my innate narcissism would drive me to actually create updated content.
 
-What actually happened, though, is that I just kept adding items to my [cc](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
+What actually happened, though, is that I just kept adding items to my [CV](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
 
 So I decided that I really needed to update my website, though exactly how it will look is unclear.  This is an ongoing process, starting with the [Jeykll Text Theme](https://kitian616.github.io/jekyll-TeXt-theme/) on [GitHub Pages](https://pages.github.com/).  Wish me luck!
 

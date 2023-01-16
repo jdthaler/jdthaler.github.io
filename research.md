@@ -23,9 +23,9 @@ aside:
 ## {{topic.title}} {#{{topic.key}}}
 
 <center>
-<div>
+<a href="{{topic.image_url}}">
 <img class="image-h image-h--xl rounded" src="{{topic.image}}" title="{{topic.title}}"/>
-</div>
+</a>
 </center>
 
 ### Selected Papers

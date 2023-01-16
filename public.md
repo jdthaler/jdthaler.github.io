@@ -7,12 +7,20 @@ aside:
 
 <center>
 {% assign topimage = site.data.images.public[0] %}
+<a href="{{topimage.image_url}}">
 <img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
+</a>
 </center>
 
 [Engagement CV](cv#public-engagement){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Data Science and AI/ML
+
+<center>
+<a href="https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html">
+<img class="image-h image-h--xl rounded" src="images/stamp_nytimes_aiml.jpg" title="NYTimes on AI/ML"/>
+</a>
+</center>
 
 ### Artificial Intelligence
 
@@ -27,6 +35,13 @@ aside:
 
 ## Collider Physics and QCD
 
+
+<center>
+<a href="http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf">
+<img class="image-h image-h--xl rounded" src="design/jthaler_MOD_EventDisplay.png" title="MOD Event Display"/>
+</a>
+</center>
+
 ### Jet Substructure
 
   * **["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf)**, Contribution to [Felice Frankel](https://www.felicefrankel.com/), [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering), *MIT Press, 2018*
@@ -34,11 +49,18 @@ aside:
 
 ## Beyond the Standard Model
 
+<center>
+<a href="https://esahubble.org/images/heic1014a/">
+<img class="image-h image-h--xl rounded" src="images/stamp_dm.jpg" title="Dark Matter in Abell 1689"/>
+
+</a>
+</center>
+
 ### Dark Matter
 
 Dark matter is an enigma. Even though it can be “seen” through its influence on gravity, dark matter is invisible to the other known forces of nature. There are numerous ongoing efforts to discover the origin and properties of dark matter, ranging from laboratory experiments to astrophysical investigations. This intense interest is driven in part by tantalizing hints that the nature of dark matter might be linked to other deep and unsolved mysteries in physics. In this talk, Prof. Thaler presents the overwhelming evidence for dark matter as well as speculates on the broader implications of the invisible universe.
 
-  * **["Listening for Dark Matter from the Basement of Building 24"](https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf)**, coauthored with Lindley Winslow, Contribution to [Physics@MIT Journal](https://web.mit.edu/physics/news/physicsatmit/fall2019.html)**, *Fall 2019*
+  * **["Listening for Dark Matter from the Basement of Building 24"](https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf)**, coauthored with Lindley Winslow, Contribution to [Physics@MIT Journal](https://web.mit.edu/physics/news/physicsatmit/fall2019.html), *Fall 2019*
   * **["Listening to the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf)**, Program with [A Far Cry](https://afarcry.org/), [Open Rehearsal of Gravity](https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#)**, *April 2019*
   * **["Confronting the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf)**, MIT Club of Great Britain Event, *London, May 2018*
   * **["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ)**, Public Talk, *Aspen Center for Physics, March 2017*
