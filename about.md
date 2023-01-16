@@ -6,24 +6,20 @@ aside:
 ---
 
 <center>
-<img class="image rounded image--xl" src="images/jthaler_photo_2017.jpg" title="Jesse Thaler"/>
+{% assign topimage = site.data.images.about[0] %}
+<img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </center>
 
 ## Biography
 
 Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the Center for Theoretical Physics. In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
 
+[MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill.button--sm}
+[Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--outline-primary.button--pill.button--sm}
+[Full CV](cv){:.button.button--outline-primary.button--pill.button--sm}
+
 ## Short CV
 
-[Full CV](cv){:.button.button--outline-primary.button--pill}
-[MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill}
-
-[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
-[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
-[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
-[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill}
-[Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--outline-primary.button--pill}
-[IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill}
 
 ### Education
 
@@ -41,6 +37,14 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   * **University of California, Berkeley**
       * Miller Research Fellow, *2006 - 2009*
 
+<!--
+### Affilations
+
+{% for affiliation in site.data.bio.affiliations %}
+  * **{{affiliation.name}}**
+{%- endfor %}
+-->
+
 ### Selected Awards
 
 {% for award in site.data.cv_awards.awards -%}
@@ -49,14 +53,13 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   {%- endif -%}
 {% endfor %}
 
-### Selected Publications
+### Publications
 
-{% for paper in site.data.cv_papers.papers -%}
-  {%- if paper.priority >= 6 %}
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** \\
-    *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
-  {%- endif -%}
-{% endfor %}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
+
 
 ## Press Information
 
@@ -148,13 +151,26 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   * [Kevin Zhou](http://news.mit.edu/2017/student-profile-kevin-zhou-0421)  ([Marshall Scholarship](http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128))
 </details>
 
+### Selected Articles
+
+{% for paper in site.data.cv_papers.papers -%}
+  {%- if paper.priority >= 6 %}
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** \\
+    *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
+  {%- endif -%}
+{% endfor %}
+
+
 ### Image Credits
 
-  * Front Page: <a href="http://spotlight.mit.edu/2017/chalkboard-theorist">Jared Charney, MIT News</a>
-  * About: <http://www.jaredcharney.com/>Jared Charney</a>
-{% for topic in site.data.research.topics -%}
-  * Research, {{topic.title}}: <a href="{{topic.image_url}}">{{topic.image_credit}}</a>
-{% endfor -%}
-  * Public Engagement:  <a href="https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328">Justin Knight, MIT News</a>
-<a href="https://news.mit.edu/2019/new-physics-anomalous-particles-0726">
+{% assign frontimage = site.data.images.index[0] %}
+{% assign aboutimage = site.data.images.about[0] %}
+{% assign publicimage = site.data.images.public[0] %}
 
+
+  * ![{{frontimage.hover}}]({{frontimage.image}}){:.image--xs} Front Page: [{{frontimage.image_credit}}](frontimage.image_url)
+  * ![{{aboutimage.hover}}]({{aboutimage.image}}){:.image--xs} About Page: [{{aboutimage.image_credit}}](aboutimage.image_url)
+{% for topic in site.data.research.topics -%}
+  * ![{{topic.title}}]({{topic.image}}){:.image--xs} Research Page, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
+{% endfor -%}
+  * ![{{publicimage.hover}}]({{publicimage.image}}){:.image--xs} Public Engagement Page: [{{publicimage.image_credit}}](publicimage.image_url)

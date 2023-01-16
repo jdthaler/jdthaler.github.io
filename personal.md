@@ -11,15 +11,15 @@ aside:
 
 ## Memorials
 
-[Aaron](aaron.html){:.button.button--outline-primary.button--pill}
-[Dedushka](dedushka.html){:.button.button--outline-primary.button--pill}
-[Ania](ania.html){:.button.button--outline-primary.button--pill}
+[Aaron](aaron.html){:.button.button--outline-primary.button--pill.button--sm}
+[Dedushka](dedushka.html){:.button.button--outline-primary.button--pill.button--sm}
+[Ania](ania.html){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Archives
 
-[Sasha and Jesse's Wedding](http://wedding.jthaler.net){:.button.button--outline-primary.button--pill}
-[jthaler.net (v1)](http://v1.jthaler.net/){:.button.button--outline-primary.button--pill}
-[jthaler.net (v2)](http://v2.jthaler.net/){:.button.button--outline-primary.button--pill}
+[Sasha and Jesse's Wedding](http://wedding.jthaler.net){:.button.button--outline-primary.button--pill.button--sm}
+[jthaler.net (v1)](http://v1.jthaler.net/){:.button.button--outline-primary.button--pill.button--sm}
+[jthaler.net (v2)](http://v2.jthaler.net/){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Extended Biography
 

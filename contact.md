@@ -9,28 +9,28 @@ aside:
 <img class="image-h image-h--xl rounded" src="images/6-318.jpg" title="6-318"/>
 </center>
 
-## Wires 
+### Wires 
 
 *Email:* [jthaler@mit.edu](mailto:jthaler@mit.edu) \\
 *Web:* [http://www.jthaler.net/](http://www.jthaler.net) \\
 *Zoom:*  [https://mit.zoom.us/my/jthaler](https://mit.zoom.us/my/jthaler) 
 
-## Digits
+### Digits
 
 *Office:* (617) 253-3713 \\
 *Cell:* (617) 642-8622\\
 *Fax:* (617) 253-8674 
   
-## Social 
+### Social 
 
 *Twitter:* [https://twitter.com/jessethaler](https://twitter.com/jessethaler) \\
 *LinkedIn:* [https://www.linkedin.com/in/jesse-thaler/](https://www.linkedin.com/in/jesse-thaler/)
   
-## Snails
+### Snails
 
 Jesse Thaler\\
 MIT Center for Theoretical Physics\\
 77 Massachusetts Ave, 6-318\\
 Cambridge, MA 02139
 
-[MIT Building 6](http://whereis.mit.edu/?go=6){:.button.button--outline-primary.button--pill}
+[MIT Building 6](http://whereis.mit.edu/?go=6){:.button.button--outline-primary.button--pill.button--sm}

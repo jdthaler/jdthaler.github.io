@@ -6,8 +6,8 @@ aside:
 
 ---
 
-
-[PDF Version](pdfs/jthaler_CV_2022_May.pdf) (updated May 2022)
+[Short CV](about#short-cv){:.button.button--outline-primary.button--pill.button--sm}
+[PDF CV (May 2022)](pdfs/jthaler_CV_2022_May.pdf){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Jesse Diaz Thaler
 
@@ -96,8 +96,8 @@ aside:
 
 ## Mentoring
 
-[Research Group](group){:.button.button--outline-primary.button--pill}
-[Joining My Group](join){:.button.button--outline-primary.button--pill}
+[Research Group](group){:.button.button--outline-primary.button--pill.button--sm}
+[Joining My Group](join){:.button.button--outline-primary.button--pill.button--sm}
 
 ### Postdoctoral Researchers
 
@@ -234,11 +234,11 @@ aside:
 
 ## Publications & Preprints
 
-[Publications by Topic](research){:.button.button--outline-primary.button--pill}
-[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
-[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
-[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
-[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill}
+[Publications by Topic](research){:.button.button--outline-primary.button--pill.button--sm}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
 
 {% for year in site.data.cv_papers.years %}
 #### {{year}}
@@ -531,23 +531,24 @@ aside:
 
 ## Public Engagement
  
-[Engagement Portfolio](public){:.button.button--outline-primary.button--pill}
+[Engagement Portfolio](public){:.button.button--outline-primary.button--pill.button--sm} 
+[IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill.button--sm}
  
-  * ["Designing an AI Physicist"](https://cerncourier.com/a/designing-an-ai-physicist/), Opinion Viewpoint, *[CERN Courier, September-October 2021](https://cerncourier.com/wp-content/uploads/2021/08/CERNCourier2021SepOct-digitaledition.pdf#CCSepOct21-digital.indd%3A.17586%3A1070)*
-  * ["Collision Course: Artificial Intelligence meets Fundamental Physics"](http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf), Keynote Presentation, ["Tommy Flowers Network Conference"](http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html), *Virtual, October 2020*
-  * ["Listening for Dark Matter from the Basement of Building 24"](https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf), coauthored with Lindley Winslow, Contribution to [Physics@MIT Journal](https://web.mit.edu/physics/news/physicsatmit/fall2019.html), *Fall 2019*
-  * ["Slow and Steady"](https://rdcu.be/bMHQn), coauthored with Matthew Strassler, Correspondence, [Nature Physics 15:725 (2019)](https://doi.org/10.1038/s41567-019-0628-z).
-  * ["Listening to the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf), Program with [A Far Cry](https://afarcry.org/), [Open Rehearsal of Gravity](https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#), *April 2019*
-  * ["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf), Contribution to [Felice Frankel](https://www.felicefrankel.com/), [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering), *MIT Press, 2018*
-  * ["The Future of Particle Physics is 'Open'"](https://cylindricalonion.web.cern.ch/blogs/future-particle-physics-open), Guest Blog Post, The Cylindrical Onion, *CMS Experiment, December 2017*
-  * ["Confronting the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf), MIT Club of Great Britain Event, *London, May 2018*
-  * ["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ), Public Talk, *Aspen Center for Physics, March 2017*
-  * ["The Higgs Boson:  Triumph of the Standard Model"](http://vimeo.com/58392070), 24th Annual Kavli Frontiers of Science, *National Academy of Sciences, U.C. Irvine, November 2012*
-  * Appearance in Documentary Film, "Particle Fever", 2013 
+  * **["Designing an AI Physicist"](https://cerncourier.com/a/designing-an-ai-physicist/)**, Opinion Viewpoint, *[CERN Courier, September-October 2021](https://cerncourier.com/wp-content/uploads/2021/08/CERNCourier2021SepOct-digitaledition.pdf#CCSepOct21-digital.indd%3A.17586%3A1070)*
+  * **["Collision Course: Artificial Intelligence meets Fundamental Physics"](http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf)**, Keynote Presentation, ["Tommy Flowers Network Conference"](http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html), *Virtual, October 2020*
+  * **["Listening for Dark Matter from the Basement of Building 24"](https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf)**, coauthored with Lindley Winslow, Contribution to [Physics@MIT Journal](https://web.mit.edu/physics/news/physicsatmit/fall2019.html), *Fall 2019*
+  * **["Slow and Steady"](https://rdcu.be/bMHQn)**, coauthored with Matthew Strassler, Correspondence, [Nature Physics 15:725 (2019)](https://doi.org/10.1038/s41567-019-0628-z).
+  * **["Listening to the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf)**, Program with [A Far Cry](https://afarcry.org/), [Open Rehearsal of Gravity](https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#), *April 2019*
+  * **["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf)**, Contribution to [Felice Frankel](https://www.felicefrankel.com/), [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering), *MIT Press, 2018*
+  * **["The Future of Particle Physics is 'Open'"](https://cylindricalonion.web.cern.ch/blogs/future-particle-physics-open)**, Guest Blog Post, The Cylindrical Onion, *CMS Experiment, December 2017*
+  * **["Confronting the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf)**, MIT Club of Great Britain Event, *London, May 2018*
+  * **["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ)**, Public Talk, *Aspen Center for Physics, March 2017*
+  * **["The Higgs Boson:  Triumph of the Standard Model"](http://vimeo.com/58392070)**, 24th Annual Kavli Frontiers of Science, *National Academy of Sciences, U.C. Irvine, November 2012*
+  * Appearance in Documentary Film, **["Particle Fever"](https://www.imdb.com/title/tt1385956/)**, 2013 
     * After film Q&A, BOOST 2015 Workshop Public Event, August 2015
     * After film Q&A, MIT Lecture Series Committee, September 2014
     * After film Q&A, Portsmouth Music Hall, May 2014
-  * TheoryNet High School Physics Outreach
+  * **TheoryNet**, High School Physics Outreach
     * Scott Goelzer, Coe-Brown Northwood Academy (Fall 2020-Present)
     * Elaine Picard, Concord-Carlisle High School (Fall 2015-Spring 2016, Spring 2017, Spring 2020)
     * Michael Wadness, Medford High School  (Fall 2012-Spring 2015, Spring 2018, Spring 2022)
@@ -562,7 +563,7 @@ aside:
 
 ## Graphic Design
 
-[Design Portfolio](public#graphic-design){:.button.button--outline-primary.button--pill}
+[Design Portfolio](public#graphic-design){:.button.button--outline-primary.button--pill.button--sm}
 
   * **[Banner Design](design/jthaler_IAIFI_Banner.jpg)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*  (based on artwork by [agsandrew](https://agsandrew.myportfolio.com/) - stock.adobe.com)
   * **[Logo Design](design/jthaler_IAIFI_Logo.pdf)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*

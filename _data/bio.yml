@@ -1,0 +1,25 @@
+affiliations:
+
+  - name: Center for Theoretical Physics
+    acronym: CTP
+    image: images/logo_ctp.png
+    url: http://ctp.mit.edu/
+    dates: January 2010 - Present
+  
+  - name: Laboratory for Nuclear Science
+    acronym: LNS
+    image: images/logo_lns.png
+    url: http://web.mit.edu/lns/
+    dates: January 2010 - Present
+    
+  - name:  Statistics and Data Science Center
+    acronym: SDSC
+    image: images/logo_sdsc.png
+    url: https://idss.mit.edu/
+    dates: January 2020 - Present
+
+  - name:  Institute for Data, Systems, and Society
+    acronym: IDSS
+    image: images/logo_idss.jpg
+    url: https://idss.mit.edu/
+    dates: January 2020 - Present

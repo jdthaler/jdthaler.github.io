@@ -14,11 +14,11 @@ aside:
 
 With its huge breadth of research interests and expertise, the [Center for Theoretical Physics (CTP)](http://ctp.mit.edu/) at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the [Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)]([http://iaifi.org/).  Specific postdoctoral opportunities to collaborate with me and my group include:
 
-  * [CTP Postdocs](http://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--outline-primary.button--pill} (typical deadline mid-November)
+  * [CTP Postdocs](http://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--outline-primary.button--pill.button--sm} (typical deadline mid-November)
   
-  * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--outline-primary.button--pill}  (typical deadline mid-October)
+  * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--outline-primary.button--pill.button--sm}  (typical deadline mid-October)
   
-  * [Pappalardo Fellowship](https://physics.mit.edu/research/pappalardo-fellowships-in-physics/){:.button.button--outline-primary.button--pill} (requires nomination in early September)
+  * [Pappalardo Fellowship](https://physics.mit.edu/research/pappalardo-fellowships-in-physics/){:.button.button--outline-primary.button--pill.button--sm} (requires nomination in early September)
 
 
 ## Prospective Grad Students
@@ -37,15 +37,15 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 
   * If you are interested in working with me, please [send an email](mailto:jthaler@mit.edu) with your CV and previous research experience.
   
-  * Funding is available through: [Undergraduate Research Opportunities Program](http://web.mit.edu/UROP/){:.button.button--outline-primary.button--pill}
+  * Funding is available through: [Undergraduate Research Opportunities Program](http://web.mit.edu/UROP/){:.button.button--outline-primary.button--pill.button--sm}
   
-  * I sometimes work with MIT Master's students through:  [EECS MEng Program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/){:.button.button--outline-primary.button--pill}
+  * I sometimes work with MIT Master's students through:  [EECS MEng Program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/){:.button.button--outline-primary.button--pill.button--sm}
 
 ### Other Universities
 
   * Visiting students must have full financial support to come to MIT.  Self-funded visits are not possible.
   
-  * I primarily work with summer interns through: [MIT Summer Research Program](https://oge.mit.edu/graddiversity/msrp/){:.button.button--outline-primary.button--pill}
+  * I primarily work with summer interns through: [MIT Summer Research Program](https://oge.mit.edu/graddiversity/msrp/){:.button.button--outline-primary.button--pill.button--sm}
 
   * I do not typically have openings for non-MIT Master's students in my group. 
 
@@ -54,4 +54,4 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 
   * Currently, I am not conducting research with high school students.
   
-  * High school students can gain research experience through: [Recommended Summer Programs](https://mitadmissions.org/apply/prepare/summer/){:.button.button--outline-primary.button--pill}
+  * High school students can gain research experience through: [Recommended Summer Programs](https://mitadmissions.org/apply/prepare/summer/){:.button.button--outline-primary.button--pill.button--sm}

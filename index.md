@@ -3,7 +3,8 @@ layout: article
 ---
 
 <center>
-<img class="rounded" src="images/jthaler_mit_spotlight.jpg" title="Jesse Thaler"/>
+{% assign topimage = site.data.images.index[0] %}
+<img class="rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </center>
 
 **[Jesse Thaler](about)** is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.
@@ -61,44 +62,17 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
 
 <div class="grid-container">
   <div class="grid grid--py-3">
+    {% for affiliation in site.data.bio.affiliations %}
     <div class="cell cell--3">
           <center>
-          <a href="http://ctp.mit.edu/">
-            <img class="image-h image-h--xs" src="images/logo_ctp.png" title="CTP"/>
+          <a href="{{affiliation.url}}">
+            <img class="image-h image-h--xs" src="{{affiliation.image}}" title="{{affiliation.acronym}}"/>
           <br>
-              <div class="">Center for Theoretical Physics (CTP)</div>
+              <div class="">{{affiliation.name}} ({{affiliation.acronym}})</div>
           </a>
           </center>
     </div>
-        <div class="cell cell--3">
-          <center>
-          <a href="http://web.mit.edu/lns/">
-            <img class="image-h image-h--xs" src="images/logo_lns.png" title="LNS"/>
-          <br>
-              <div class="">Laboratory for Nuclear Science (LNS)</div>
-          </a>
-          </center>
-    </div>
-    <div class="cell cell--3">
-          <center>
-          <a href="https://idss.mit.edu/">
-            <img class="image-h image-h--xs" src="images/logo_sdsc.png" title="SDSC"/>
-          <br>
-                <div class="">Statistics and Data Science Center (SDSC)</div>
-          </a>
-          </center>
-    </div>
-
-    <div class="cell cell--3">
-          <center>
-          <a href="https://idss.mit.edu/">
-            <img class="image-h image-h--xs" src="images/logo_idss.jpg" title="IDSS"/>
-          <br>
-          <div class="">Institute for Data, Systems, and Society (IDSS)</div>
-          </a>
-          </center>
-    </div>
-
+    {% endfor %}    
   </div>
 </div>
 
@@ -106,8 +80,8 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
 ### Navigation
 
 <div align="center" markdown=1>
-{% for button in site.data.navigation.header %}[{{button.title}}]({{button.url}}){:.button.button--outline-primary.button--pill} {% endfor %}
-[Personal Page](personal){:.button.button--outline-primary.button--pill}
+{% for button in site.data.navigation.header %}[{{button.title}}]({{button.url}}){:.button.button--outline-primary.button--pill.button--sm} {% endfor %}
+[Personal Page](personal){:.button.button--outline-primary.button--pill.button--sm}
 </div>
 
 

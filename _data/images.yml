@@ -1,0 +1,26 @@
+index:
+
+  - image: images/jthaler_mit_spotlight.jpg
+    image_credit: Jared Charney, MIT News
+    image_url: http://spotlight.mit.edu/2017/chalkboard-theorist
+    hover: Jesse Thaler
+
+about:
+
+  - image: images/jthaler_photo_2017.jpg
+    image_credit: Jared Charney
+    image_url: http://www.jaredcharney.com/
+    hover: Jesse Thaler
+    
+public:
+
+  - image: images/stamp_public.jpg
+    image_credit: Justin Knight, MIT News
+    image_url: https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
+    hover: Jesse Thaler
+
+research:
+
+  - image: images/stamp_research.jpg
+    hover: Jesse Thaler
+

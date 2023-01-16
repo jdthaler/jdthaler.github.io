@@ -6,16 +6,18 @@ aside:
 ---
 
 <center>
-<img class="image-h image-h--xl rounded" src="images/stamp_research.jpg" title="Jesse Thaler"/>
+{% assign topimage = site.data.images.research[0] %}
+<img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </center>
+
 
 <br>
 
-[Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill}
-[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill}
-[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill}
-[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill}
-[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill}
+[Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
 
 {% for topic in site.data.research.topics %}
 ## {{topic.title}} {#{{topic.key}}}
