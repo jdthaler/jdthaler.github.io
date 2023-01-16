@@ -1,3 +1,11 @@
+public_top:
+  image: images/stamp_public.jpg
+  image_credit: Justin Knight, MIT News
+  image_url: https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
+  hover: CTP@50
+  description: "I engage with the public through opinion pieces, classroom visits, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data."
+  
+
 topics:
 
   - key: aiml

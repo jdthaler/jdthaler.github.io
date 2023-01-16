@@ -6,13 +6,12 @@ aside:
 ---
 
 <center>
-{% assign topimage = site.data.images.public[0] %}
+{% assign topimage = site.data.public.public_top %}
 <a href="{{topimage.image_url}}">
 <img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </a>
 </center>
-
-I engage with the public through opinion pieces, classroom visits, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data.
+{{topimage.description}}
 
 [Engagement CV](cv#public-engagement){:.button.button--outline-primary.button--pill.button--sm}
 

@@ -1,3 +1,13 @@
+group_top:
+
+  description: "Great ideas can come from researchers at any career stage, so I strive to cultivate a collaborative atmosphere in my group while also providing individual mentorship.  We pursue a broad range of research in theoretical particle physics, and we often find connections to adjacent fields."
+
+join_top:
+
+  image: images/ctp_hallway_small.jpg
+  hover: 6-318
+  description: "Each year, I typically have a few openings in my group for new researchers.  Depending on your career stage, there are different ways to join my group."
+
 categories:
 
   - name: Postdocs

@@ -6,11 +6,11 @@ aside:
 ---
 
 <center>
-{% assign topimage = site.data.images.research[0] %}
+{% assign topimage = site.data.research.research_top %}
 <img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </center>
+{{topimage.description}}
 
-The goal of my research in theoretical particle physics is galvanize the search for new phenomena beyond the Standard Model as well as to illuminate the structure of the Standard Model itself.  In my research, I often combine first-principles calculations in quantum field theory with data analysis techniques from machine learning.
 
 [Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
@@ -31,7 +31,7 @@ The goal of my research in theoretical particle physics is galvanize the search 
 
 ### Selected Papers
 
-{% for paper in site.data.cv_papers.papers -%}
+{% for paper in site.data.papers.papers -%}
 {%- for subtopic in topic.subtopics -%}
 {%- if subtopic.key == paper.topic -%}
   {%- if paper.priority >= 5 %}
@@ -51,7 +51,7 @@ The goal of my research in theoretical particle physics is galvanize the search 
 
 <summary><b>{{subtopic.title}}</b></summary>
 
-{% for paper in site.data.cv_papers.papers -%}
+{% for paper in site.data.papers.papers -%}
 {% if subtopic.key == paper.topic %}
   * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** {% if paper.priority >= 3 %}`recommended`{:.success}{% endif %} \\
     *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*

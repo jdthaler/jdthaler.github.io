@@ -6,7 +6,7 @@ aside:
 ---
 
 <center>
-{% assign topimage = site.data.images.about[0] %}
+{% assign topimage = site.data.bio.about_top %}
 <img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </center>
 
@@ -48,7 +48,7 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 ### Selected Awards
 
-{% for award in site.data.cv_awards.awards -%}
+{% for award in site.data.bio.awards -%}
   {%- if award.priority >= 6 %}
   * **{{award.name}}**, *{{award.org}}*, *{{award.date}}*
   {%- endif -%}
@@ -154,7 +154,7 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 ### Selected Articles
 
-{% for paper in site.data.cv_papers.papers -%}
+{% for paper in site.data.papers.papers -%}
   {%- if paper.priority >= 6 %}
   * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** \\
     *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
@@ -164,10 +164,9 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 ### Image Credits
 
-{% assign frontimage = site.data.images.index[0] %}
-{% assign aboutimage = site.data.images.about[0] %}
-{% assign publicimage = site.data.images.public[0] %}
-
+{% assign frontimage = site.data.bio.index_top %}
+{% assign aboutimage = site.data.bio.about_top %}
+{% assign publicimage = site.data.public.public_top %}
 
   * ![{{frontimage.hover}}]({{frontimage.image}}){:.image--xs} Front Page: [{{frontimage.image_credit}}](frontimage.image_url)
   * ![{{aboutimage.hover}}]({{aboutimage.image}}){:.image--xs} About Page: [{{aboutimage.image_credit}}](aboutimage.image_url)

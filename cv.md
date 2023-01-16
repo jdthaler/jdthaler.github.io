@@ -86,7 +86,7 @@ aside:
 
 ## Awards & Fellowships
 
-{% for award in site.data.cv_awards.awards -%}
+{% for award in site.data.bio.awards -%}
   {%- if award.url %}
   * **[{{award.name}}]({{award.url}})**, *{{award.org}}*, *{{award.date}}*
   {%- else %}
@@ -101,7 +101,7 @@ aside:
 
 ### Postdoctoral Researchers
 
-{% for person in site.data.cv_mentoring.postdocs -%}
+{% for person in site.data.mentoring.postdocs -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %}; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
     * {{award.name}}, *{{award.org}}, {{award.date}}*  
@@ -116,7 +116,7 @@ aside:
 
 ### Ph.D. Students
 
-{% for person in site.data.cv_mentoring.phd_students -%}
+{% for person in site.data.mentoring.phd_students -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}Ph.D.{% else %}anticipated Ph.D.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
@@ -131,7 +131,7 @@ aside:
 
 ### M.Eng. Students
 
-{% for person in site.data.cv_mentoring.meng_students -%}
+{% for person in site.data.mentoring.meng_students -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}M.Eng.{% else %}anticipated M.Eng.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
@@ -147,7 +147,7 @@ aside:
 
 ### B.S. Students
 
-{% for person in site.data.cv_mentoring.bs_students -%}
+{% for person in site.data.mentoring.bs_students -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis or person.graduated %}B.S.{% else %}anticipated B.S.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Senior Thesis, {{person.thesis_dates}}:  {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}     {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
@@ -167,7 +167,7 @@ aside:
 
 ### Visitors
 
-{% for person in site.data.cv_mentoring.visitors -%}
+{% for person in site.data.mentoring.visitors -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.program}}, *{{person.dates}}*
   {%- if person.project %}
       * Project: "{{person.project}}" {% endif %}
@@ -240,9 +240,9 @@ aside:
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
 [Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
 
-{% for year in site.data.cv_papers.years %}
+{% for year in site.data.papers.years %}
 #### {{year}}
-{% for paper in site.data.cv_papers.papers -%}
+{% for paper in site.data.papers.papers -%}
 {% if year == paper.year -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
@@ -254,7 +254,7 @@ aside:
 
 ### Conference Proceedings
 
-{% for paper in site.data.cv_papers.conference -%}
+{% for paper in site.data.papers.conference -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
     {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} {% if paper.journal_url %}  [{{paper.journal}}]({{paper.journal_url}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
@@ -262,7 +262,7 @@ aside:
 
 ### Incidental Authorship
 
-{% for paper in site.data.cv_papers.incidental -%}
+{% for paper in site.data.papers.incidental -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
     {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}){% endif %}
@@ -276,14 +276,14 @@ aside:
 
 ### Colloquia
 
-{% for talk in site.data.cv_talks.colloquia -%}
+{% for talk in site.data.talks.colloquia -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Public Lectures
 
-{% for talk in site.data.cv_talks.public -%}
+{% for talk in site.data.talks.public -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{%- endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
@@ -293,7 +293,7 @@ aside:
 
 ### Lecture Series & Schools
 
-{% for talk in site.data.cv_talks.schools -%}
+{% for talk in site.data.talks.schools -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
       {%- if talk.parts %} (
       {%- for part in talk.parts -%}
@@ -309,7 +309,7 @@ aside:
 
 ### Invited Talks
 
-{% for talk in site.data.cv_talks.invited -%}
+{% for talk in site.data.talks.invited -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
     {%- if talk.collab %} (with {{talk.collab}}), {% else %}, {% endif %}
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
@@ -319,14 +319,14 @@ aside:
 
 ### Local Presentations
 
-{% for talk in site.data.cv_talks.local -%}
+{% for talk in site.data.talks.local -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Seminars
 
-{% for talk in site.data.cv_talks.seminars -%}
+{% for talk in site.data.talks.seminars -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
@@ -335,7 +335,7 @@ aside:
 
 ### Additional Events
 
-{% for talk in site.data.cv_talks.additional -%}
+{% for talk in site.data.talks.additional -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% elsif talk.panelist %}**Panelist**{% elsif talk.convener %}**Convener**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
@@ -364,7 +364,7 @@ aside:
 
 #### Ph.D. Thesis Committees
 
-{% for phd-thesis in site.data.cv_service.phd-theses %}
+{% for phd-thesis in site.data.service.phd-theses %}
   * **{{phd-thesis.name}}**, "{{phd-thesis.title | default: "TBA"}}" ({{phd-thesis.advisor}}), *{{phd-thesis.date | default: "in progress"}}*
 {%- endfor %}
 
@@ -431,13 +431,13 @@ aside:
 
 #### External Ph.D. Examiner
 
-{% for phd-thesis in site.data.cv_service.external-phd-theses %}
+{% for phd-thesis in site.data.service.external-phd-theses %}
   * **{{phd-thesis.name}}**, "{{phd-thesis.title | default: "TBA"}}" ({{phd-thesis.advisor}}), *{{phd-thesis.uni}}, {{phd-thesis.date | default: "in progress"}}*
 {%- endfor %}
 
 #### External Mentoring
 
-{% for mentoring in site.data.cv_service.external-mentoring %}
+{% for mentoring in site.data.service.external-mentoring %}
   * **{{mentoring.name}}**, {{mentoring.program}}, *{{mentoring.uni}}, {{mentoring.date}}*
 {%- endfor %}
 
@@ -576,7 +576,7 @@ aside:
 
 ## Memberships
 
-{% for membership in site.data.cv_service.memberships %}
+{% for membership in site.data.service.memberships %}
   * **[{{membership.name}}]({{membership.url}})** 
 {%- endfor %}
 

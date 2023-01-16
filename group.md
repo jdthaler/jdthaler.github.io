@@ -6,7 +6,8 @@ aside:
 
 ---
 
-Great ideas can come from researchers at any career stage, so I strive to cultivate a collaborative atmosphere in my group while also providing individual mentorship.  We pursue a broad range of research in theoretical particle physics, and we often find connections to adjacent fields.  
+{% assign topimage = site.data.mentoring.group_top %}
+{{topimage.description}} 
 
 
 [Mentoring CV](cv#mentoring){:.button.button--outline-primary.button--pill.button--sm}
@@ -14,13 +15,13 @@ Great ideas can come from researchers at any career stage, so I strive to cultiv
 
 ## Current
 
-{% for category in site.data.cv_mentoring.categories -%}
+{% for category in site.data.mentoring.categories -%}
 ### {{category.name}}
 
 <div class="grid-container">
   <div class="grid grid--py-3">
 
-{% for person in site.data.cv_mentoring[category.block] -%}
+{% for person in site.data.mentoring[category.block] -%}
   {% if person.current -%}
     <div class="cell cell--3">
           {% if person.url %} <a href="{{person.url}}">{% endif%} 
@@ -39,10 +40,10 @@ Great ideas can come from researchers at any career stage, so I strive to cultiv
 ## Alumni
 
 
-{% for category in site.data.cv_mentoring.categories -%}
+{% for category in site.data.mentoring.categories -%}
 ### {{category.name}}
 
-{% for person in site.data.cv_mentoring[category.block] -%}
+{% for person in site.data.mentoring[category.block] -%}
   {% if person.current -%}{% else -%}
     {% if person.url %}* **[{{person.name}}]({{person.url}})**{% else %}* **{{person.name}}**{% endif %}
   {%- endif %}

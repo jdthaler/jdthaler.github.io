@@ -1,3 +1,34 @@
+index_top:
+  image: images/jthaler_mit_spotlight.jpg
+  image_credit: Jared Charney, MIT News
+  image_url: http://spotlight.mit.edu/2017/chalkboard-theorist
+  hover: Jesse Thaler
+  description: "**[Jesse Thaler](about)** is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.  \n\n  He is a Professor of Physics at the **[Massachusetts Institute of Technology (MIT)](https://physics.mit.edu/)** and Director of the **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](http://iaifi.org/)**."
+  
+about_top:
+  image: images/jthaler_photo_2017.jpg
+  image_credit: Jared Charney
+  image_url: http://www.jaredcharney.com/
+  hover: Jesse Thaler
+  
+contact_top:
+  image: images/6-318.jpg
+  hover: "6-318"
+
+positions:
+
+  - title: Professor of Physics
+    acronym:  MIT
+    hover:  MIT Physics
+    image: images/logo_mit_physics.png
+    url:  https://physics.mit.edu/
+
+  - title: Director
+    acronym:  IAIFI
+    hover: IAIFI
+    image: images/logo_iaifi_nsf.png
+    url:  http://iaifi.org/
+
 affiliations:
 
   - name: Center for Theoretical Physics
@@ -23,3 +54,152 @@ affiliations:
     image: images/logo_idss.jpg
     url: https://idss.mit.edu/
     dates: January 2020 - Present
+
+awards:
+
+  - name: APS Fellow
+    org:  American Physical Society
+    date: 2022
+    url:  https://www.aps.org/programs/honors/fellowships/archive-all.cfm?initial=&year=2022&unit_id=GDS&institution=Massachusetts+Institute+of+Technology
+    priority: 6
+    citation:  "For original foundational research contributions, leadership, and mentoring in the area of machine learning for fundamental physics."
+
+  - name: Simons Investigator in Physics
+    org:  Simons Foundation
+    date: 2022
+    url:  https://www.simonsfoundation.org/grant/simons-investigators/?tab=awardees&filter_years=2022
+    priority: 6
+
+  - name: Fermilab Distinguished Scholar
+    org:  Fermi National Accelerator Laboratory
+    date: 2018-2020
+    url:  http://theory.fnal.gov/people/distinguished-scholars/
+    priority: 3
+
+  - name: Simons Fellowship in Theoretical Physics
+    org:  Simons Foundation
+    date: 2018
+    url:  https://www.simonsfoundation.org/grant/simons-fellows-in-theoretical-physics/?tab=awardees
+    priority: 3
+
+  - name: Frank E. Perkins Award for Excellence in Graduate Advising
+    org:  MIT
+    date: 2017
+    url:  http://awards.mit.edu/convocation/awards/frank-e-perkins-award-excellence-graduate-advising
+    priority: 3
+
+  - name: Harold E. Edgerton Faculty Achievement Award
+    org:  MIT
+    date: 2016
+    url:  http://web.mit.edu/ir/pop/awards/mit_edgerton.html
+    priority: 6
+
+  - name: Buechner Faculty Award for Teaching
+    org:  MIT Physics Department
+    date: 2014
+    url:  http://web.mit.edu/physics/news/buechner_awards.html
+    priority: 3
+
+  - name: Buechner Faculty Award for Undergraduate Advising
+    org:  MIT Physics Department
+    date: 2013
+    url:  http://web.mit.edu/physics/news/buechner_awards.html
+    priority: 3
+
+  - name: Sloan Research Fellowship
+    org:  Alfred P. Sloan Foundation
+    date: 2013
+    url:  https://sloan.org/past-fellows
+    priority: 6
+
+  - name: Kavli Frontiers Fellow
+    org:  Kavli Foundation
+    date: 2012
+    url:  http://www.nasonline.org/programs/kavli-frontiers-of-science/public-directory.html
+    priority: 3
+
+  - name: Presidential Early Career Award for Scientists and Engineers
+    org:  White House
+    date: 2012
+    url: https://science.energy.gov/about/honors-and-awards/pecase/2012-ceremony/
+    priority: 6
+
+  - name: Class of 1943 Career Development Professorship
+    org:  MIT
+    date: 2012 - 2015
+    priority: 3
+
+  - name: Early Career Research Award
+    org:  U.S. Department of Energy, Office of Science
+    date: 2011 - 2016
+    priority: 6
+
+  - name: Miller Research Fellowship
+    org:  University of California, Berkeley
+    date: 2006 - 2009
+    priority: 3
+
+  - name: Giorgio Gamberini Dissertation Prize
+    org:  Scuola Normale Superiore di Pisa
+    date: 2007
+    priority: 3
+
+  - name: Merit Fellowship
+    org:  Harvard Faculty of Arts and Sciences
+    date: 2006
+    priority: 3
+
+  - name: Goldhaber Prize
+    org:  Harvard Physics Department
+    date: 2005
+    priority: 3
+
+  - name: Certificate of Distinction for Excellence in Teaching
+    org:  Harvard Faculty of Arts and Sciences
+    date: 2005
+    priority: 0
+
+  - name: Graduate Research Fellowship
+    org:  National Science Foundation
+    date: 2002-2005
+    priority: 3
+
+  - name: Apker Award Finalist
+    org:  American Physical Society
+    date: 2002
+    priority: 0
+
+  - name: Magna Cum Laude
+    org:  Brown University
+    date: 2002
+    priority: 0
+
+  - name: Sigma Xi
+    org:  Brown University
+    date: 2002
+    priority: 0
+
+  - name: Lindsey Prize in Physics
+    org:  Brown University
+    date: 2002
+    priority: 0
+
+  - name: Phi Beta Kappa
+    org:  Brown University
+    date: 2001
+    priority: 0
+
+  - name: Undergraduate Teaching and Research Fellowship
+    org:  Brown University
+    date: Summer 2001
+    priority: 0
+
+  - name: Cox Medal
+    org:  Phillips Exeter Academy
+    date: 1998
+    priority: 0
+
+  - name: Cum Laude Society
+    org:  Phillips Exeter Academy
+    date: 1997
+    priority: 0
