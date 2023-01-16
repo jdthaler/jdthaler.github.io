@@ -77,13 +77,4 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
 </div>
 
 
-### Navigation
-
-<div align="center" markdown=1>
-{% for button in site.data.navigation.header %}[{{button.title}}]({{button.url}}){:.button.button--outline-primary.button--pill.button--sm} {% endfor %}
-[Personal Page](personal){:.button.button--outline-primary.button--pill.button--sm}
-</div>
-
-
-
 
