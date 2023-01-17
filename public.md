@@ -21,7 +21,7 @@ aside:
 
 <center>
 <a href="{{topic.image_url}}">
-<img class="image-h image-h--xl rounded" src="{{topic.image}}" title="{{topic.title}}"/>
+<img class="image-h image-h--xl rounded" src="{{topic.image}}" title="{{topic.image_hover}}"/>
 </a>
 </center>
 

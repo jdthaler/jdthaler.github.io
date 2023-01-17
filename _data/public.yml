@@ -13,6 +13,7 @@ topics:
     image:  images/stamp_nytimes_aiml.jpg
     image_credit: "Alex Eben Meyer, NYTimes"
     image_url: https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html
+    image_hover: "AI/ML in the NYTimes"
     description:  ""
     subtopics:
         
@@ -27,6 +28,7 @@ topics:
     image:  design/jthaler_MOD_EventDisplay.png
     image_credit: "Jesse Thaler, with Felice Frankel"
     image_url: http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf
+    image_hover: "MIT Open Data Event Display"
     description: "Quantum Chromodynamics"
     subtopics:
     
@@ -38,6 +40,7 @@ topics:
     image:  images/stamp_dm.jpg
     image_credit:  "NASA, ESA, E. Jullo, P. Natarajan, J-P. Kneib"
     image_url:  https://esahubble.org/images/heic1014a/
+    image_hover: "Dark in Abell 1689"
     description:
     subtopics:
     

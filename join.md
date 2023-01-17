@@ -33,7 +33,7 @@ I anticipate at least one opening for a Ph.D. student in my research group in th
   
 ### Visiting Students
 
-  * Visiting PhD students must have full financial support to visit MIT; self-funded visits are not possible.
+  * Visiting PhD students must have full financial support to visit MIT; **self-funded visits are not possible**.
   * If you have external funding, you can fill out this form to indicate your interest:  [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}
 
 ### Propspective MIT Students
@@ -57,7 +57,7 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 ### Visiting Students
 
   * The primary way that I work with summer interns is through: [MIT Summer Research Program](https://oge.mit.edu/graddiversity/msrp/){:.button.button--outline-primary.button--pill.button--sm}
-  * Visiting undergraduate students must have full financial support to visit MIT; self-funded visits are not possible.
+  * Visiting undergraduate students must have full financial support to visit MIT; **self-funded visits are not possible**.
   * If you external funding, you can fill out this form to indicate your interest:  [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}
 
 ## High Schoolers
