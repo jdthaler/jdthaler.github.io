@@ -245,7 +245,14 @@ colloquia:
     date: February 2010
     
 public:
-    
+
+  - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
+    url: talks/jthaler_2023_01_19_NSF_Lecture.pdf
+    event:  Distinguished Lecture
+    org: National Science Foundation
+    date: January 2023
+    virtual: true
+
   - title: "Artificial Intelligence Meets Fundamental Physics"
     url: talks/jthaler_2021_03_EmTech_InsideTrack.pdf
     event: MIT Inside Track Master Class
