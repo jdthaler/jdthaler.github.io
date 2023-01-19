@@ -274,6 +274,7 @@ postdocs:
 
  - name: Matthew McCullough
    email: matthew.mccullough@cern.ch
+   url: https://th-dep.web.cern.ch/roster/mccullough-matthew
    at:
      - dates: Fall 2011 - Spring 2014
        title: Simons Postdoctoral Fellow
@@ -285,6 +286,7 @@ postdocs:
        org: CERN
      - title: Staff Scientist
        org: CERN
+   updated: 2023
 
 
  - name: Keith Rehermann
@@ -309,8 +311,10 @@ phd_students:
 
   - name: Sean Benevedes
     email: seanmb@mit.edu
+    image: images/benevedes.jpeg
     date: 2026
     current: true
+    updated: 2023
 
   - name: Rikab Gambhir
     email: rikab@mit.edu
@@ -548,7 +552,7 @@ bs_students:
 
 
   - name: Debaditya Pramanik
-    email: dp7624@princeton.edu
+    email: dpramanik@princeton.edu
     date: 2021
     thesis: "Collinear Supergravity at Linear Order"
     thesis_url:  https://hdl.handle.net/1721.1/138927
@@ -557,6 +561,7 @@ bs_students:
     after:
       - title: Physics Ph.D. Candidate
         org: Princeton
+    updated: 2023
 
 
   - name: Ziqi Zhou
@@ -712,6 +717,7 @@ bs_students:
         org: Jellyfish
     independent: Spring 2012
     urop: Fall 2010, Spring 2011, Summer 2012
+    updated: 2023
 
 
 
@@ -806,15 +812,21 @@ visitors:
 
 
   - name: Pedro Rivera-Cardona
-    email: pedro.rivera50@upr.edu
+    email: pedroer2@illinois.edu
     url: https://priverac.github.io/
     program: MIT Summer Research Program
     dates: Summer 2021
     project: "Implementation of U(1) Group Symmetry on Energy Flow Networks"
+    awards:
+      - name: Scholarship
+        org: Puerto Rico Louis Stokes Alliance for Minority Participation
+        date: 2022
     after:
       - title: PhD Candidate
         org: University of Illinois, Urbana-Champaign
     home: University of Puerto Rico, Mayaguez
+    other: Visiting Student 2021-2022
+    updated: 2023
 
   - name: Athis Osathapan
     email: aosathap@bowdoin.edu
