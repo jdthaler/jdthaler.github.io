@@ -306,8 +306,10 @@ phd_students:
 
   - name: Pamela Pajarillo
     email: pampaja@mit.edu
+    image: images/pajarillo.png
     date: 2027
     current: true
+    updated: 2023
 
   - name: Sean Benevedes
     email: seanmb@mit.edu
@@ -503,13 +505,16 @@ bs_students:
     other: "After Graduation: M.Eng candidate in Computer Science, MIT"
 
   - name: Octavio Vega
-    email: ovega84@mit.edu
+    email: vega00087@gmail.com
+    images: images/vega.jpg
     date: 2022
     urop: Spring 2021, Summer 2021, Fall 2021
     after:
       - title: Research Assistant
         org: University of Hamburg
     graduated: true
+    other: No longer researching at University of Hamburg, but recently received a few acceptances to PhD programs for Fall 2023 and waiting to hear from more before making a decision! This spring, tentatively planning on doing some research assistant work at the University of Regensburg in lattice QCD and axial form factors.
+    updated: 2023
 
   - name: Nishat Protyasha
     email: protya@mit.edu
