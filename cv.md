@@ -218,7 +218,7 @@ aside:
 
 ### Guest Lectures
 
-  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2021*
+  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2022*
   * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2021*
   * ["The Hidden Geometry of Particle Collisions"](http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_8_398.pdf), 8.398 (Selected Topics in Graduate Physics), *Fall 2020*
   * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_11_JetLecture_8_701.pdf), 8.701 (Introduction to Nuclear and Particle Physics), *Fall 2019*
