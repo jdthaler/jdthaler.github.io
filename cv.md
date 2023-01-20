@@ -414,7 +414,7 @@ aside:
 
 #### MIT Statistics and Data Science Center
 
-  * [MIT Physics, Statistics, and Data Science (PhysSDS) Committee](https://web.mit.edu/physics/current/graduate/psds_phd.html) (Co-Chair: Fall 2020)
+  * [MIT Physics, Statistics, and Data Science (PhysSDS) Committee](https://web.mit.edu/physics/current/graduate/psds_phd.html) (Co-Chair: Fall 2020 - present)
 
 #### MIT International Science and Technology Initiatives
 

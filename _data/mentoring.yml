@@ -129,7 +129,7 @@ postdocs:
    updated: 2023
 
  - name: Frédéric Dreyer
-   email: frederic.dreyer@physics.ox.ac.uk
+   email: frederic.dreyer@gmail.com
    at:
      - dates: Fall 2016 - Spring 2018
        title: Early Postdoc.Mobility Fellow
@@ -139,6 +139,9 @@ postdocs:
    after:
      - title: Postdoctoral Researcher
        org: Oxford
+     - title: University Research Fellow
+       org: Oxford
+   updated: 2023
 
  - name: Yotam Soreq
    url: https://phsites.technion.ac.il/hep/members/yotam-soreq/
@@ -465,9 +468,13 @@ meng_students:
 
   - name: Raymond Wynne
     email: wynnera@mit.edu
+    image: images/wynne.jpeg
     date: 2023
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Caltech
     current: true
-
+    updated: 2023
   
   - name: Nilai Sarda
     url: http://nilai.cc/
@@ -802,7 +809,7 @@ visitors:
 
   - name: Kaća Bradonjić
     url: http://www.kacabradonjic.com
-    email: kaca@kacabradonjic.com
+    email: kbNS@hampshire.edu
     program: Visiting Artist
     dates: Fall 2022
     home: Hampshire College
@@ -810,11 +817,14 @@ visitors:
 
 
   - name: Sergio Diaz
+    url: https://www.linkedin.com/in/sdiaz211/
     email: sdiaz1@mit.edu
+    image: images/diaz_sergio.jpg
     program: MIT Summer Research Program
     dates: Summer 2022
     project: "Determination of the W Mass Parameter using Machine Learning"
     home: University of Maryland, Baltimore County
+    updated: 2023
 
 
   - name: Pedro Rivera-Cardona
@@ -921,3 +931,4 @@ visitors:
     after:
       - title: Research Scientist
         org: IBM Research
+    updated: 2023
