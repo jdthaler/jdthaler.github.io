@@ -78,7 +78,7 @@ papers:
   - title: "Learning Uncertainties the Frequentist Way: Calibration and Correlation in High Energy Physics"
     authors: Rikab Gambhir, Benjamin Nachman, and Jesse Thaler
     doi: 10.1103/PhysRevLett.129.082001
-    journal: Phys. Rev. Lett. 129:082001(2022)
+    journal: Phys. Rev. Lett. 129:082001 (2022)
     short_journal: PRL 2022
     arxiv: "2205.03413"
     year: 2022
@@ -1238,6 +1238,8 @@ incidental:
   - title: "Jet energy spectrum and substructure in e+e− collisions at 91.2 GeV with ALEPH Archived Data"
     authors: Yi Chen, Anthony Badea, Austin Baty, Paoti Chang, Yang-Ting Chien, Gian Michele Innocenti, Marcello Maggi, Christopher McGinn, Dennis V. Perepelitsa, Michael Peters, Tzu-An Sheng, Jesse Thaler, Yen-Jie Lee
     arxiv: "2111.09914"
+    doi: 10.1007/JHEP06(2022)008
+    journal: JHEP 06:008 (2022)
 
   - title: "Measurements of two-particle correlations in e+e− collisions at 91 GeV with ALEPH archived data"
     authors: Anthony Badea, Austin Baty, Paoti Chang, Gian Michele Innocenti, Marcello Maggi, Christopher McGinn, Michael Peters, Tzu-An Sheng, Jesse Thaler, Yen-Jie Lee

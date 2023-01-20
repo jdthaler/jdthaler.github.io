@@ -449,7 +449,7 @@ aside:
     * Organizer, Summer Workshop, "Interplay of Fundamental Physics and Machine Learning" (Summer 2022)
     * Nominations Committee (Summer 2021; Chair, Summer 2022; Ex officio, Summer 2023)
     * Summer Program Committee (Summer 2020)
-  * Topical Convener in [Collider Phenomenology](https://snowmass21.org/theory/phenomenology), [Snowmass Theory Frontier](https://snowmass21.org/theory/start) (July 2021)
+  * Topical Convener in [Collider Phenomenology](https://snowmass21.org/theory/phenomenology), [Snowmass Theory Frontier](https://snowmass21.org/theory/start) (July 2021, July 2022)
   * Organizer, GGI Workshop: "[Machine Learning at GGI](https://agenda.infn.it/event/32043/)" (August/September 2022)
   * Advisory Committee and Ombuds Team (with Ayana Arce), Online Workshop:  "[Boost 2021](https://indico.cern.ch/event/1037559/)" (August 2021)
   * Advisory Committee, Heidelberg Workshop:  "[ML4Jets](https://indico.cern.ch/event/980214/)" (July 2021)
