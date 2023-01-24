@@ -833,12 +833,18 @@ local:
 
 seminars:
 
+  - title: "Learning Uncertainties the Frequentist Way"
+    url: talks/jthaler_2023_01_25_PhyStat_Uncertainty.pdf
+    event: Seminar
+    org: PHYSTAT
+    date: January 2023
+    virtual: true
+
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
     url: talks/jthaler_2023_01_11_HiddenGeometry_Israel.pdf
     event: Israel Joint Seminar
     org: Jerusalem
     date: January 2023
-
 
   - title: "Machine Learning for the Skeptical HEP Theorist"
     url: talks/jthaler_2022_11_Brown_Seminar.pdf
