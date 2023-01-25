@@ -836,6 +836,7 @@ seminars:
   - title: "Learning Uncertainties the Frequentist Way"
     url: talks/jthaler_2023_01_25_PhyStat_Uncertainty.pdf
     event: Seminar
+    event_url: https://indico.cern.ch/event/1203477/
     org: PHYSTAT
     date: January 2023
     virtual: true
