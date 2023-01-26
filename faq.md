@@ -168,11 +168,6 @@ I appreciated their candor in telling us just how they're feeling and making us 
 ## Personal
 
 <details markdown=1>
-<summary><b>Where can I find high-resolution images of you?</b></summary>
-Here is a link to [press information](press){:.button.button--outline-primary.button--pill.button--sm} of various kinds.
-</details>
-
-<details markdown=1>
 <summary><b>What are your pronouns?</b></summary>
 
 He/him/his.
@@ -184,6 +179,10 @@ First, let me explain my long hesitation.  "Jesse" is a somewhat gender ambiguou
 What made me change my mind to include my pronouns?  I received an email from a student who put not only their pronouns but also the pronunciation of their name in their email signature.  In the same way that misgendering a person is disrespectful, mispronouncing their name is as well.  Providing this information seemed like a positive (albeit small) step towards making the physics community more welcoming.  So while I didn't go so far as to create an [audio version of my name](https://diversity.lbl.gov/2020/09/15/how-do-you-pronounce-your-name-add-an-audio-pronunciation-link-to-your-email/), I now state both my pronouns (he/him/his) and my pronunciation (JEH-see THAY-lr) in my signature. 
 </details>
 
+<details markdown=1>
+<summary><b>Where can I find high-resolution images of you?</b></summary>
+Here is a link to [press information](press){:.button.button--outline-primary.button--pill.button--sm} of various kinds.
+</details>
 
 <details markdown=1>
 <summary><b>What's up with your website?</b></summary>
