@@ -10,16 +10,13 @@ aside:
 {{topimage.description}} 
 
 
-[Mentoring CV](cv#mentoring){:.button.button--outline-primary.button--pill.button--sm}
 [Joining My Group](join){:.button.button--outline-primary.button--pill.button--sm}
 
-## Current
-
 {% for category in site.data.mentoring.categories -%}
-### {{category.name}}
+## {{category.name}}
 
 <div class="grid-container">
-  <div class="grid grid--py-3">
+  <div class="grid grid--p-2">
 
 {% for person in site.data.mentoring[category.block] -%}
   {% if person.current -%}
@@ -39,15 +36,20 @@ aside:
 
 ## Alumni
 
+[Mentoring CV](cv#mentoring){:.button.button--outline-primary.button--pill.button--sm}
 
 {% for category in site.data.mentoring.categories -%}
-### {{category.name}}
+<details markdown=1>
+<summary><b>{{category.name}}</b></summary>
 
 {% for person in site.data.mentoring[category.block] -%}
   {% if person.current -%}{% else -%}
     {% if person.url %}* **[{{person.name}}]({{person.url}})**{% else %}* **{{person.name}}**{% endif %}
+    {%- if person.after[0] %}, {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
   {%- endif %}
 {% endfor %}
+
+</details>
 {% endfor %}
 
 

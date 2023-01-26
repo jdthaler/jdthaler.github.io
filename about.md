@@ -5,29 +5,29 @@ aside:
   toc: true
 ---
 
-<center>
 {% assign topimage = site.data.bio.about_top %}
-<img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
-</center>
 
-## Biography
-
-Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the Center for Theoretical Physics. In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
+<div class="item">
+<div class="item__image">
+<img class="image-h image-h--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}" align="left"/>
+</div>
+<div class="item__content">
+  Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the Center for Theoretical Physics. In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
+  </div>
+</div>
 
 [Personal Page](personal){:.button.button--outline-primary.button--pill.button--sm}
+[Press Information](press){:.button.button--outline-primary.button--pill.button--sm}
 [MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill.button--sm}
 [Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--outline-primary.button--pill.button--sm}
 [Full CV](cv){:.button.button--outline-primary.button--pill.button--sm}
 
-## Short CV
-
-
-### Education
+## Education
 
   * **Harvard University**, Ph.D. Physics, *2006*
   * **Brown University**, Sc.B. Math/Physics, *2002*
 
-### Key Positions
+## Key Positions
 
   * **Massachusetts Institute of Technology**
       * Professor of Physics, *2021 - Present*
@@ -46,7 +46,7 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 {%- endfor %}
 -->
 
-### Selected Awards
+## Selected Awards
 
 {% for award in site.data.bio.awards -%}
   {%- if award.priority >= 6 %}
@@ -54,40 +54,21 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   {%- endif -%}
 {% endfor %}
 
-### Publications
+## Selected Publications
 
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
 [arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
 [Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
 
+{% for paper in site.data.papers.papers -%}
+  {%- if paper.priority >= 6 %}
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** \\
+    *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
+  {%- endif -%}
+{% endfor %}
 
-## Press Information
-
-### Photographs
-
-<div class="grid-container">
-  <div class="grid grid--py-3">
-    <div class="cell cell--6">
-          <a href="images/jthaler_mit_spotlight.jpg">
-            <img class="image-h image-h--sm" src="images//jthaler_mit_spotlight.jpg" title="Thaler Blackboard Shot"/>
-          <br>
-              <b>Blackboard Shot</b>
-          </a>
-    </div>
-    
-    <div class="cell cell--6">
-          <a href="images/jthaler_photo_2017.jpg">
-            <img class="image-h image-h--sm" src="images/jthaler_photo_2017.jpg" title="Thaler Head Shot"/>
-          <br>
-              <b>Head Shot</b>
-          </a>
-    </div>
-  </div>
-</div>
-
-
-### In the News
+## In the News
 
 <details markdown=1>
 <summary><b>Profiles and Highlights</b></summary>
@@ -151,29 +132,3 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
   * [Radha Mastandrea](http://news.mit.edu/2018/Radha-Mastandrea-student-1018)  ([Heising-Simons Fellowship](http://news.mit.edu/2018/paying-it-forward-fellowship-boosts-women-physics-0802))
   * [Kevin Zhou](http://news.mit.edu/2017/student-profile-kevin-zhou-0421)  ([Marshall Scholarship](http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128))
 </details>
-
-### Selected Articles
-
-{% for paper in site.data.papers.papers -%}
-  {%- if paper.priority >= 6 %}
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** \\
-    *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
-  {%- endif -%}
-{% endfor %}
-
-
-### Image Credits
-
-{% assign frontimage = site.data.bio.index_top %}
-{% assign aboutimage = site.data.bio.about_top %}
-{% assign publicimage = site.data.public.public_top %}
-
-  * ![{{frontimage.hover}}]({{frontimage.image}}){:.image--xs} Front Page: [{{frontimage.image_credit}}](frontimage.image_url)
-  * ![{{aboutimage.hover}}]({{aboutimage.image}}){:.image--xs} About Page: [{{aboutimage.image_credit}}](aboutimage.image_url)
-{% for topic in site.data.research.topics -%}
-  * ![{{topic.title}}]({{topic.image}}){:.image--xs} Research, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
-{% endfor -%}
-  * ![{{publicimage.hover}}]({{publicimage.image}}){:.image--xs} Public Engagement Page: [{{publicimage.image_credit}}](publicimage.image_url)
-{% for topic in site.data.public.topics -%}
-  * ![{{topic.title}}]({{topic.image}}){:.image--xs} Public Engagement, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
-{% endfor -%}

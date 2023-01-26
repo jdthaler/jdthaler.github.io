@@ -1,19 +1,19 @@
 ---
 layout: article
-title: Questions
+title: Frequently Asked Questions
 aside:
   toc: true
 
 ---
 
 
-[Ask Jesse a Question](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}
+Have a burning question that isn't answered here?  [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Research
 
 <details markdown=1>
 <summary><b>I'm interested in working in your research group.  Where do I sign up?</b></summary>
-Here is information about **[joining my group](join)**!
+Here is information about [joining my group!](join){:.button.button--outline-primary.button--pill.button--sm}
 </details>
 
 <details markdown=1>
@@ -156,6 +156,11 @@ I appreciated their candor in telling us just how they're feeling and making us 
 
 
 ## Personal
+
+<details markdown=1>
+<summary><b>Where can I find high-resolution images of you?</b></summary>
+Here is a link to [press information](press){:.button.button--outline-primary.button--pill.button--sm} of various kinds.
+</details>
 
 <details markdown=1>
 <summary><b>What are your pronouns?</b></summary>

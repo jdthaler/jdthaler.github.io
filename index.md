@@ -11,12 +11,12 @@ layout: article
 ### Research
 
 <div class="grid-container">
-  <div class="grid grid--py-3">
+  <div class="grid grid--px-2">
   {% for topic in site.data.research.topics %}
       <div class="cell cell--4">
           <center>
           <a href="research.html#{{topic.key}}">
-            <img class="image image--md rounded" style="object-fit: cover" src="{{topic.image}}" title="{{topic.title}}"/>
+            <img class="rounded" style="object-fit: cover" src="{{topic.image}}" title="{{topic.title}}"/>
           <br>
               <b>{{topic.title}}</b>
           </a>

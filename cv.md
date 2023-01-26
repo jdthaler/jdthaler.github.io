@@ -6,12 +6,13 @@ aside:
 
 ---
 
-[Short CV](about#short-cv){:.button.button--outline-primary.button--pill.button--sm}
+[Short CV](about){:.button.button--outline-primary.button--pill.button--sm}
+[Press Information](press){:.button.button--outline-primary.button--pill.button--sm}
 [PDF CV (May 2022)](pdfs/jthaler_CV_2022_May.pdf){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Jesse Diaz Thaler
 
-
+<!--
 * **Wires**
   *  *Email:* [jthaler@mit.edu](mailto: jthaler@mit.edu) 
   *  *Web:* [http://www.jthaler.net/](http://www.jthaler.net) 
@@ -25,6 +26,7 @@ aside:
     MIT Center for Theoretical Physics\\
     77 Massachusetts Ave, [6-318](http://whereis.mit.edu/?go=6)\\
     Cambridge, MA 02139
+-->
 
 #### Research in Theoretical Particle Physics
 
@@ -274,13 +276,6 @@ aside:
 
 ## Presentations
 
-### Colloquia
-
-{% for talk in site.data.talks.colloquia -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
-
 ### Public Lectures
 
 {% for talk in site.data.talks.public -%}
@@ -306,6 +301,12 @@ aside:
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
+### Colloquia
+
+{% for talk in site.data.talks.colloquia -%}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} `virtual` {% endif %}
+{% endfor %}
 
 ### Invited Talks
 
@@ -317,19 +318,19 @@ aside:
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
-### Local Presentations
-
-{% for talk in site.data.talks.local -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
-
 ### Seminars
 
 {% for talk in site.data.talks.seminars -%}
   * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
+    {%- if talk.virtual %} `virtual` {% endif %}
+{% endfor %}
+
+### Local Presentations
+
+{% for talk in site.data.talks.local -%}
+  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
@@ -531,7 +532,7 @@ aside:
 
 ## Public Engagement
  
-[Engagement Portfolio](public){:.button.button--outline-primary.button--pill.button--sm} 
+[Engagement Portfolio](engagement){:.button.button--outline-primary.button--pill.button--sm} 
 [IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill.button--sm}
  
 {% for entry in site.data.public.entries %}
@@ -556,7 +557,7 @@ aside:
 
 ## Graphic Design
 
-[Design Portfolio](public#graphic-design){:.button.button--outline-primary.button--pill.button--sm}
+[Design Portfolio](personal#graphic-design){:.button.button--outline-primary.button--pill.button--sm}
 
   * **[Banner Design](design/jthaler_IAIFI_Banner.jpg)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*  (based on artwork by [agsandrew](https://agsandrew.myportfolio.com/) - stock.adobe.com)
   * **[Logo Design](design/jthaler_IAIFI_Logo.pdf)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*

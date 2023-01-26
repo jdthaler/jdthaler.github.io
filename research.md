@@ -5,12 +5,17 @@ aside:
   toc: true
 ---
 
-<center>
-{% assign topimage = site.data.research.research_top %}
-<img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
-</center>
-{{topimage.description}}
 
+{% assign topimage = site.data.research.research_top %}
+
+<div class="item">
+<div class="item__image">
+<img class="image-h image-h--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
+</div>
+<div class="item__content">
+{{topimage.description}}
+  </div>
+</div>
 
 [Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
@@ -21,13 +26,17 @@ aside:
 {% for topic in site.data.research.topics %}
 ## {{topic.title}} {#{{topic.key}}}
 
-<center>
-<a href="{{topic.image_url}}">
-<img class="image-h image-h--xl rounded" src="{{topic.image}}" title="{{topic.title}}"/>
-</a>
-</center>
 
+<div class="item">
+<div class="item__image">
+<a href="{{topic.image_url}}">
+<img class="image-h image-h--lg rounded" src="{{topic.image}}" title="{{topic.title}}"/>
+</a>
+</div>
+<div class="item__content">
 {{topic.description}}
+</div>
+</div>
 
 ### Selected Papers
 

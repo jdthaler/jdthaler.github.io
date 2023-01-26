@@ -7,12 +7,17 @@ aside:
 ---
 
 {% assign topimage = site.data.mentoring.join_top %}
+
+<!--
 <center>
 <img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </center>
+-->
 {{topimage.description}} 
 
+[Research Group](group){:.button.button--outline-primary.button--pill.button--sm}
 [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}
+
 
 ## Postdocs
 

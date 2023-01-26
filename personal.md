@@ -21,6 +21,97 @@ aside:
 [jthaler.net (v1)](http://v1.jthaler.net/){:.button.button--outline-primary.button--pill.button--sm}
 [jthaler.net (v2)](http://v2.jthaler.net/){:.button.button--outline-primary.button--pill.button--sm}
 
+## Graphic Design
+
+[Design CV](cv#graphic-design){:.button.button--outline-primary.button--pill.button--sm}
+
+### Logos
+
+<div class="grid-container">
+  <div class="grid grid--py-3">
+    <div class="cell cell--3">
+          <a href="design/jthaler_IAIFI_Logo.pdf">
+            <img class="image-h image-h--xs" src="design/jthaler_IAIFI_Logo.png" title="IAIFI Logo"/>
+          <br>
+              <b>IAIFI</b>
+          </a>
+    </div>
+    <div class="cell cell--3">
+          <a href="design/jthaler_OmniFold_Logo.pdf">
+            <img class="image-h image-h--xs" src="design/jthaler_OmniFold_Logo.png" title="OmniFold Logo"/>
+          <br>
+              <b>OmniFold</b>
+          </a>
+    </div>
+    <div class="cell cell--3">
+          <a href="design/jthaler_MOD_Logo.pdf">
+            <img class="image-h image-h--xs" src="design/jthaler_MOD_Logo.png" title="MOD"/>
+          <br>
+              <b>MOD</b>
+          </a>
+    </div>
+    <div class="cell cell--3">
+          <a href="design/jthaler_DarkLight_Logo.pdf">
+            <img class="image-h image-h--xs" src="design/jthaler_DarkLight_Logo.png" title="DarkLight Logo"/>
+          <br>
+              <b>DarkLight</b>
+          </a>
+    </div>
+    <div class="cell cell--6">
+          <a href="design/jthaler_ABRALogo_Large.pdf">
+            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Large.png" title="ABRACADABRA"/>
+          <br>
+              <b>ABRACADABRA</b>
+          </a>
+    </div>
+    <div class="cell cell--3">
+          <a href="design/jthaler_ABRALogo_Medium.pdf">
+            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Medium.png" title="ABRA"/>
+          <br>
+              <b>ABRA</b>
+          </a>
+    </div>
+    <div class="cell cell--3">
+          <a href="design/jthaler_ABRALogo_Small.pdf">
+            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Small.png" title="A."/>
+          <br>
+              <b>A.</b>
+          </a>
+    </div>
+  </div>
+</div>
+
+
+### Images
+
+
+<div class="grid-container">
+  <div class="grid grid--py-3">
+    <div class="cell cell--4">
+          <a href="design/jthaler_IAIFI_Banner.jpg">
+            <img class="image-h image-h--sm" src="design/jthaler_IAIFI_Banner.jpg" title="[IAIFI Banner"/>
+          <br>
+              <b>IAIFI Banner</b>
+          </a>
+    </div>
+    <div class="cell cell--4">
+          <a href="design/jthaler_MOD_EventDisplay.pdf">
+            <img class="image-h image-h--sm" src="design/jthaler_MOD_EventDisplay.png" title="MOD Event"/>
+          <br>
+              <b>MOD Event Display</b>
+          </a>
+    </div>
+    <div class="cell cell--4">
+          <a href="design/jthaler_BOOST2019_Poster.pdf">
+            <img class="image-h image-h--sm" src="design/jthaler_BOOST2019_Poster.png" title="BOOST 2019 Poster"/>
+          <br>
+              <b>BOOST 2019 Poster</b>
+          </a>
+    </div>
+
+  </div>
+</div>
+
 ## Extended Biography
 
 Though I was born in [Minneapolis, Minnesota](https://www.minneapolismn.gov/), I spent my formative years in [York, Maine](http://www.yorkmaine.org/).  My brother, [Aaron](aaron), and I used to play all sorts of fun games including "wig" which nearly resulted in vital organ loss.  I survived through [York Middle School](http://www.yorkschools.org/yms/) despite soldered glasses, a bad hair cut, and one-on-one math tutorials in a janitor's closet.  My success was partly due to a love affair with a tenor saxophone.

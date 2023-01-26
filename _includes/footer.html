@@ -12,9 +12,11 @@
     {%- endif -%}
 
     <div class="site-info mb-2">
+<a href ="/"><div class = "button button--secondary button--pill button--xs">Home</div></a>
 {% for button in site.data.navigation.header %}
 <a href ="{{button.url}}"><div class = "button button--secondary button--pill button--xs">{{button.title}}</div></a>
 {% endfor%}
+<a href ="personal"><div class = "button button--secondary button--pill button--xs">Personal</div></a>
 </div>
 
     <div itemscope itemtype="{{ _site_author_itemtype }}">
