@@ -137,6 +137,16 @@ In terms of specific advice, here are three typical suggestions I make at practi
   * **Don't bury the lede.**  Academic talks shouldn't be whodunnit mysteries.  If you've accomplished something, say so, say it loudly, and say it often.  You might even show your most important plot right at the beginning of the talk as a preview.  But, you say, isn't it more exciting to have a "reveal" at the end?  It might be, if your audience is still engaged, but based on the five-minute advice above, they might not stick around for the punchline.  Plus, [there is still a way to pull off magic even if your audience knows exactly what is going on](https://www.youtube.com/watch?v=8osRaFTtgHo).  If you really want a surprise ending, you can slip in a [Jobsian "one more thing"](https://www.youtube.com/watch?v=in9SX3enCHU), but make sure your main result is front and center.
 </details>
 
+<details markdown=1>
+<summary><b>Will you write me a letter of recommendation?</b></summary>
+
+If you have worked with me closely in a research and/or mentoring context, then there is a 99% chance that I'd be delighted to write you a letter of recommendation!  If you only know me from coursework, then I might also be willing to write on your behalf, but you should first think about whether someone else might be better positioned to advocate for you.
+
+I only write strong letters of recommendation.  If I cannot write you a strong letter, I will let you know.  The main question is how strong my letter can be, so please fill out this form so I have all the information I need to write persuasively on your behalf:  [Letter of Recommendation Request](https://forms.gle/enUPnnBsErMQbGDJA){:.button.button--outline-primary.button--pill.button--sm}
+
+I typically need **at least 2 weeks but ideally 4 weeks** to prepare a new letter.  (The actual writing does not take that long, of course, but I receive many letter requests and I need to get sleep at some point.)  If you are asking for a letter on a shorter time frame than that, then still fill out this form, but [contact me ASAP](jthaler@mit.edu) to explain your situation.
+
+</details>
 
 ## Teaching
 
