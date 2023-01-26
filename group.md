@@ -12,13 +12,14 @@ aside:
 
 [Joining My Group](join){:.button.button--outline-primary.button--pill.button--sm}
 
-{% for category in site.data.mentoring.categories -%}
+{% for category in site.data.mentoring.current_categories -%}
 ## {{category.name}}
 
 <div class="grid-container">
   <div class="grid grid--p-2">
 
-{% for person in site.data.mentoring[category.block] -%}
+{% for block in category.blocks -%}
+{% for person in site.data.mentoring[block] -%}
   {% if person.current -%}
     <div class="cell cell--3">
           {% if person.url %} <a href="{{person.url}}">{% endif%} 
@@ -27,6 +28,7 @@ aside:
           {% if person.url %} </a>{% endif%} 
     </div>
   {%- endif %}
+{% endfor %}
 {% endfor %}
   </div>
 </div>
@@ -38,7 +40,7 @@ aside:
 
 [Mentoring CV](cv#mentoring){:.button.button--outline-primary.button--pill.button--sm}
 
-{% for category in site.data.mentoring.categories -%}
+{% for category in site.data.mentoring.alumni_categories -%}
 <details markdown=1>
 <summary><b>{{category.name}}</b></summary>
 
