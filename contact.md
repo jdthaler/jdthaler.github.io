@@ -17,9 +17,12 @@ Cambridge, MA 02139
 (617) 253-3713
 
 [jthaler@mit.edu](mailto:jthaler@mit.edu){:.button.button--outline-primary.button--pill.button--sm}
-
 [Twitter](https://twitter.com/jessethaler){:.button.button--outline-primary.button--pill.button--sm}
 [LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--outline-primary.button--pill.button--sm}
+
+*Pronouns*:  he/him/his \\
+*Pronunciation*:  JEH-see THAY-lr
+
 </div>
 </div>
 

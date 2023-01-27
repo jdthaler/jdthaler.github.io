@@ -11,6 +11,8 @@ aside:
 
 
 [Joining My Group](join){:.button.button--outline-primary.button--pill.button--sm}
+[MIT Physics Community Values](https://physics.mit.edu/about-physics/community-values/){:.button.button--outline-primary.button--pill.button--sm}
+
 
 {% for category in site.data.mentoring.current_categories -%}
 ## {{category.name}}
