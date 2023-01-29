@@ -51,6 +51,10 @@ postdocs:
    before:
      - title: PhD
        org: Harvard
+   awards:
+      - name: J.J. and Noriko Sakurai Dissertation Award
+        org: American Physical Society
+        date: 2023
    current: true
    updated: 2023
 
