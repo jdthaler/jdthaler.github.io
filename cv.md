@@ -488,11 +488,11 @@ aside:
     * Member, Particle Physics Project Prioritization Panel (P5), *December 2022 - October 2023*
     * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](http://www.jthaler.net/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf), [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/202012), *December 2020*
     * ["The High Energy Physics Landscape in 2019"](http://www.jthaler.net/talks/jthaler_2019_05_HEPAP.pdf), [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/201905), *May 2019*
-  * Sakurai Dissertation Award Selection Committee, American Physical Society (Fall 2016, Fall 2022)
-  * International Scientific Advisory Board, [AI for Science and Science for AI (AISSAI) Center](https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center), French CNRS, *2022-present*
-  * International Advisory Committee, Grant-in-Aid for Transformative Research Areas, JSPS/MEXT Japan, *2022-2026*
-  * Science Advisory Board, USQCD Collaboration (Spring 2013-Fall 2016)
-  * LHC Theory Initiative, Fellowship Selection Committee (Fall 2013-Fall 2014, Chair: Fall 2014)
+  * Sakurai Dissertation Award Selection Committee, American Physical Society, *Fall 2016, Fall 2022, Fall 2023; Chair: Fall 2023*
+  * International Scientific Advisory Board, [AI for Science and Science for AI (AISSAI) Center](https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center), French CNRS, *2022 - present*
+  * International Advisory Committee, Grant-in-Aid for Transformative Research Areas, JSPS/MEXT Japan, *2022 - 2026*
+  * Science Advisory Board, USQCD Collaboration, *Spring 2013 - Fall 2016*
+  * LHC Theory Initiative, Fellowship Selection Committee, *Fall 2013 - Fall 2014; Chair: Fall 2014*
 
 #### Peer Review
 
