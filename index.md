@@ -37,7 +37,7 @@ layout: article
     <div class="cell cell--6">
           <center>
           <a href="{{position.url}}">
-            <img class="image-h image-h--xs" src="{{position.image}}" title="{{position.hover}}"/>
+            <img class="image-h image-h--xs image-contain" src="{{position.image}}" title="{{position.hover}}"/>
           <br>
               <b>{{position.title}}, {{position.acronym}}</b>
           </a>
@@ -56,7 +56,7 @@ layout: article
     <div class="cell cell--3">
           <center>
           <a href="{{affiliation.url}}">
-            <img class="image-h image-h--xs" src="{{affiliation.image}}" title="{{affiliation.acronym}}"/>
+            <img class="image-h image-h--xs image-contain" src="{{affiliation.image}}" title="{{affiliation.acronym}}"/>
           <br>
               <div class="">{{affiliation.name}} ({{affiliation.acronym}})</div>
           </a>

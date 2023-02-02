@@ -42,5 +42,39 @@ font-size: map-get($base, font-size-xl);
 }
 
 
+.image-sq--md {
+  width: map-get($image, width);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.image-sq--xl {
+  width: map-get($image, width-xl);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.image-sq--lg {
+  width: map-get($image, width-lg);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+}
+.image-sq--sm {
+  width: map-get($image, width-sm);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.image-sq--xs {
+  width: map-get($image, width-xs);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.image-contain {
+  object-fit: contain;
+}
+
+
 
 /* end custom scss snippet */
