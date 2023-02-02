@@ -10,7 +10,7 @@ aside:
 
 <div class="item">
 <div class="item__image">
-<img class="image-h image-h--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
+<img class="image-sq--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </div>
 <div class="item__content">
 {{topimage.description}}
@@ -30,7 +30,7 @@ aside:
 <div class="item">
 <div class="item__image">
 <a href="{{topic.image_url}}">
-<img class="image-h image-h--lg rounded" src="{{topic.image}}" title="{{topic.title}}"/>
+<img class="image-96--xl rounded" src="{{topic.image}}" title="{{topic.title}}"/>
 </a>
 </div>
 <div class="item__content">

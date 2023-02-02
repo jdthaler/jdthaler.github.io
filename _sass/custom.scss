@@ -75,6 +75,35 @@ font-size: map-get($base, font-size-xl);
   object-fit: contain;
 }
 
+.image-96--md {
+  width: map-get($image, width);
+  aspect-ratio: 9 / 6;
+  object-fit: cover;
+}
+
+.image-96--xl {
+  width: map-get($image, width-xl);
+  aspect-ratio: 9 / 6;
+  object-fit: cover;
+}
+
+.image-96--lg {
+  width: map-get($image, width-lg);
+  aspect-ratio: 9 / 6;
+  object-fit: cover;
+
+}
+.image-96--sm {
+  width: map-get($image, width-sm);
+  aspect-ratio: 9 / 6;
+  object-fit: cover;
+}
+.image-96--xs {
+  width: map-get($image, width-xs);
+  aspect-ratio: 9 / 6;
+  object-fit: cover;
+}
+
 
 
 /* end custom scss snippet */

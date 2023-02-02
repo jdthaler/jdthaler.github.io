@@ -10,7 +10,7 @@ aside:
 <div class="item">
 <div class="item__image">
 <a href="{{topimage.image_url}}">
-<img class="image-h image-h--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
+<img class="image-96--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </a>
 </div>
 <div class="item__content" markdown=1>
@@ -28,7 +28,7 @@ aside:
 <div class="item">
 <div class="item__image">
 <a href="{{topic.image_url}}">
-<img class="image-h image-h--lg rounded" src="{{topic.image}}" title="{{topic.image_hover}}"/>
+<img class="image-sq--lg rounded" src="{{topic.image}}" title="{{topic.image_hover}}"/>
 </a>
 </div>
 <div class="item__content" markdown=1>
