@@ -40,8 +40,8 @@ I anticipate at least one opening for a Ph.D. student in my research group in th
   
 ### Visiting Students
 
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}  If you have external funding, you can fill out this form to indicate your interest.
-  * Visiting PhD students must have full financial support to visit MIT; **self-funded visits are not possible**.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}  If you have **External Funding**, you can fill out this form to indicate your interest.
+  * Visiting PhD students must have full financial support to visit MIT.  **Self-funded visits are not possible**, and I currently do not have funds to support visiting students.
 
 ### Propspective MIT Students
 
@@ -68,8 +68,8 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 ### Visiting Students
 
   * [MIT MSRP](https://oge.mit.edu/graddiversity/msrp/){:.button.button--outline-primary.button--pill.button--sm} The primary way that I work with summer interns is through the MIT Summer Research Program.
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}  If you have external funding, you can fill out this form to indicate your interest.
-  * Visiting undergraduate students must have full financial support to visit MIT; **self-funded visits are not possible**.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}  If you have **External Funding**, you can fill out this form to indicate your interest.
+  * Visiting undergraduate students must have full financial support to visit MIT.  **Self-funded visits are not possible**, and I currently do not have funds to support visiting students.
 
 
 ## High Schoolers
