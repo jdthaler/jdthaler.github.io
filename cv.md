@@ -391,7 +391,7 @@ aside:
     * Anticipated Ph.D. 2022:  Eric Anschuetz, Samuel Leutheusser, Gregory Ridgway, Annie Wei, Ryan Weller
     * Ph.D. 2020:  Jasmine Brewer
   * MIT Physics Undergraduate Academic Advisor (Fall 2011-present)
-    * Class of 2024:  Omar Abdelghani, Chirag Falor, Lily Moseni, Dylan Raphael, David Suarez, Chris Viets
+    * Class of 2024:  Omar Abdelghani, Chirag Falor, M. Geogdzhayeva, Lily Moseni, Dylan Raphael, Chris Viets (& David Suarez)
     * Class of 2018/2019/2020:  Robert Arnott, Zachary Bogorad, Hannah Field, Rodmy Paredes Alfaro, Saranesh Prembabu, Joshua Rhodes, Kevin Tang, Michael Winer
     * Class of 2014/2015:  Allison Christian, Jay Lawhorn, Joseph Perricone, Jeffrey Prouty, Melih Ucer, Pranjal Vachaspati, Prashanth Venkataram (& Grace Krusell, David Luciano, Netia McCray, Maxwell Plaut)
   * MIT Physics Qualifying Exam, Part III Committee (Spring 2015-Spring 2017)
