@@ -192,7 +192,14 @@ Though I loved my old [custom html black and white](http://v1.jthaler.net/) webp
 What actually happened, though, is that I just kept adding items to my [CV](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
 
 So I decided that I really needed to update my website, though exactly how it will look is unclear.  This is an ongoing process, starting with the [Jeykll Text Theme](https://kitian616.github.io/jekyll-TeXt-theme/) on [GitHub Pages](https://pages.github.com/).  Wish me luck!
+</details>
 
+<details markdown=1>
+<summary><b>Are you on social media?</b></summary>
+
+Until recently, I haven't used social media personally or professionally.  But at least now I have a [LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--outline-primary.button--pill.button--sm} profile!  My goal is to reach 500 connections by the end of 2023.  Wish me luck!
+
+ 
 </details>
 
 
