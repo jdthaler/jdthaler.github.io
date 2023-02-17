@@ -12,8 +12,13 @@ aside:
 <div class="item__image">
 <img class="image-sq--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </div>
-<div class="item__content">
+<div class="item__content" markdown=1>
 {{topimage.description}}
+
+{% for topic in site.data.research.topics %}
+  * [{{topic.title}}](#{{topic.key}}){:.button.button--secondary.button--pill}
+{% endfor %}
+
   </div>
 </div>
 
@@ -30,6 +35,9 @@ aside:
 </div>
 
 {{topimage.description}}-->
+
+
+
 
 
 [Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
