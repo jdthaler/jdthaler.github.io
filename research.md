@@ -17,14 +17,49 @@ aside:
   </div>
 </div>
 
+<!--<style>
+  .hero-example--linear-gradient {
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .25)), url("{{topimage.image}}");
+  }
+</style>
+
+<div class="hero hero--dark hero-example--linear-gradient">
+  <div class="hero__content">
+    <h3>{{topimage.title}}</h3>
+  </div>
+</div>
+
+{{topimage.description}}-->
+
+
 [Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
 [arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
 [Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
 
+
+
+
+
 {% for topic in site.data.research.topics %}
+
 ## {{topic.title}} {#{{topic.key}}}
+
+
+<!--<style>
+  .hero-example--{{topic.key}} {
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .25)), url("{{topic.image}}");
+  }
+</style>
+
+<div class="hero hero--dark hero-example--{{topic.key}}">
+  <div class="hero__content" markdown=1>
+### {{topic.title}} {#{{topic.key}}}
+  <p>{{topic.description}}</p>
+  </div>
+</div>-->
+
 
 
 <div class="item">
@@ -37,6 +72,7 @@ aside:
 {{topic.description}}
 </div>
 </div>
+
 
 ### Selected Papers
 

@@ -1,7 +1,8 @@
 research_top:
+    title: Research in Theoretical Particle Physics
     image: images/stamp_research.jpg
     hover: Jesse Thaler
-    description: "The goal of my research in theoretical particle physics is galvanize the search for new phenomena beyond the Standard Model as well as to illuminate the structure of the Standard Model itself.  In my research, I often combine first-principles calculations in quantum field theory with data analysis techniques from machine learning."
+    description: "My goal is to galvanize the search for new phenomena beyond the Standard Model as well as to illuminate the structure of the Standard Model itself.  My work often combines first-principles calculations in quantum field theory with data analysis techniques from machine learning."
 
 topics:
 
