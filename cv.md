@@ -8,6 +8,7 @@ aside:
 
 [Short CV](about){:.button.button--outline-primary.button--pill.button--sm}
 [Press Information](press){:.button.button--outline-primary.button--pill.button--sm}
+[Publications by Year](#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
 [PDF CV (May 2022)](pdfs/jthaler_CV_2022_May.pdf){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Jesse Diaz Thaler

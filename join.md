@@ -15,11 +15,7 @@ aside:
 -->
 {{topimage.description}}
 
-[Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}  If you are in a situation that isn't addressed below, please send me a question.
-
-[Research Group](group){:.button.button--outline-primary.button--pill.button--sm}
-[Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}
-
+[Current Research Group](group){:.button.button--outline-primary.button--pill.button--sm}
 
 ## Postdocs
 
@@ -76,3 +72,9 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 
   * [Summer Programs](https://mitadmissions.org/apply/prepare/summer/){:.button.button--outline-primary.button--pill.button--sm}  This is a list of recommended summer programs for high school students from the MIT Admissions Office.
   * Currently, I am not conducting research with high school students.
+
+## Other Opportunities
+
+  * [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}  If you are in a situation that isn't addressed above, please send me a question.
+
+
