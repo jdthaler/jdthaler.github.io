@@ -113,7 +113,7 @@ aside:
   * [CERN on Fifth Forces](https://phys.org/news/2019-11-plot-thickens-hypothetical-x17-particle.html)
   * [Symmetry Magazine on Open Data](http://symmetrymagazine.org/article/with-open-data-scientists-share-their-work)
   * [CMS Open Data ML Release](https://cms.cern/news/cms-releases-open-data-machine-learning)
-  * [Fermilab on Ml4Jets](https://news.fnal.gov/2018/11/scientists-meet-at-fermilab-to-discuss-machine-learning-for-jet-physics/)
+  * [Fermilab on ML4Jets](https://news.fnal.gov/2018/11/scientists-meet-at-fermilab-to-discuss-machine-learning-for-jet-physics/)
   * [PNAS on Dark Matter](http://www.pnas.org/content/114/44/11557.full.pdf)
   * [Scientific American on Dark Matter](https://www.scientificamerican.com/article/in-the-dark-about-dark-matter/)
   * [Nature on Fifth Forces](https://www.nature.com/news/has-a-hungarian-physics-lab-found-a-fifth-force-of-nature-1.19957)
@@ -128,8 +128,8 @@ aside:
 <details markdown=1>
 <summary><b>Group Members in the News</b></summary>
 
-  * [Lina Necib, APS Valley Prize](https://www.aps.org/publications/apsnews/202211/valley-prize.cfm)
-  * [Cari Cesarotti on Open Data](https://www.symmetrymagazine.org/article/with-open-data-scientists-share-their-work)
-  * [Radha Mastandrea](http://news.mit.edu/2018/Radha-Mastandrea-student-1018)  ([Heising-Simons Fellowship](http://news.mit.edu/2018/paying-it-forward-fellowship-boosts-women-physics-0802))
-  * [Kevin Zhou](http://news.mit.edu/2017/student-profile-kevin-zhou-0421)  ([Marshall Scholarship](http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128))
+{% for news in site.data.news.group_news -%}
+  * **{{news.person}}**:  "[{{news.title}}]({{news.url}})"
+{% endfor %}
+
 </details>
