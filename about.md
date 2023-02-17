@@ -84,7 +84,7 @@ aside:
 <summary><b>Awards and Honors</b></summary>
 
 {% for news in site.data.news.awards -%}
-  * [{{news.title}}]({{news.url}})
+  * **{{news.short}}**:  "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
@@ -94,7 +94,10 @@ aside:
 <summary><b>Quotations and Perspectives</b></summary>
 
 {% for news in site.data.news.perspectives -%}
-  * [{{news.title}}]({{news.url}})
+  * "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
+{%- if news.quote %}
+  > *{{news.quote}}*
+{%- endif %}
 {% endfor %}
 
 </details>
@@ -104,7 +107,7 @@ aside:
 <summary><b>Group Members in the News</b></summary>
 
 {% for news in site.data.news.group_news -%}
-  * **{{news.person}}**:  "[{{news.title}}]({{news.url}})"
+  * **{{news.person}}**:  "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
