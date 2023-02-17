@@ -23,3 +23,133 @@ group_news:
   - person:  Kevin Zhou
     title:   "Four MIT students named 2017 Marshall Scholars"
     url:     http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128
+
+perspectives:
+
+  - title: New Scientist on Symbolic Regression
+    url: https://www.newscientist.com/article/mg25634141-200-will-artificial-intelligence-ever-discover-new-laws-of-physics/
+
+  - title: IEEE Spectrum on Machine Learning
+    url: https://spectrum.ieee.org/machine-learning-in-physics
+
+  - title: Quanta Magazine on Axion Dark Matter
+    url: https://www.quantamagazine.org/a-hint-of-dark-matter-sends-physicists-looking-to-the-skies-20211019/
+
+  - title: Facebook AI on Deep Networks
+    url: https://ai.facebook.com/blog/advancing-ai-theory-with-a-first-principles-understanding-of-deep-neural-networks/
+
+  - title: The Tech on Flexible P/NR
+    url: https://thetech.com/2020/03/25/faculty-discuss-flexible-pnr
+
+  - title: CERN on Fifth Forces
+    url: https://phys.org/news/2019-11-plot-thickens-hypothetical-x17-particle.html
+
+  - title: Symmetry Magazine on Open Data
+    url: http://symmetrymagazine.org/article/with-open-data-scientists-share-their-work
+
+  - title: CMS Open Data ML Release
+    url: https://cms.cern/news/cms-releases-open-data-machine-learning
+
+  - title: Fermilab on ML4Jets
+    url: https://news.fnal.gov/2018/11/scientists-meet-at-fermilab-to-discuss-machine-learning-for-jet-physics/
+
+  - title: PNAS on Dark Matter
+    url: http://www.pnas.org/content/114/44/11557.full.pdf
+
+  - title: Scientific American on Dark Matter
+    url: https://www.scientificamerican.com/article/in-the-dark-about-dark-matter/
+
+  - title: Nature on Fifth Forces
+    url: https://www.nature.com/news/has-a-hungarian-physics-lab-found-a-fifth-force-of-nature-1.19957
+
+  - title: Bloomberg on After Higgs
+    url: http://www.bloomberg.com/news/articles/2015-04-02/after-higgs-boson-what-physicists-are-looking-for-now
+
+  - title: Wired Magazine on Higgs
+    url: http://www.wired.com/2015/01/higgs-discovery-hijack-attempt/
+
+  - title: Seacoast Online on Particle Fever
+    url: http://www.seacoastonline.com/article/20140514/NEWS/405140373
+
+  - title: Symmetry Magazine on Dark Matter
+    url: http://www.symmetrymagazine.org/article/november-2013/connecting-the-visible-universe-with-dark-matter
+
+  - title: 2012 Medford High School Visit
+    url: http://www.mhsmustangnews.com/2012/10/29/academic-news-mits-jesse-thaler-visits-mhs/
+
+awards:
+
+   - title: APS Fellowship
+     url: https://news.mit.edu/2022/american-physical-society-fellows-1019
+
+   - title: Simons Investigator
+     url: https://news.mit.edu/2022/three-mit-faculty-members-named-2022-simons-investigators-0624
+
+   - title: QuantISED
+     url: http://news.mit.edu/2018/mit-center-theoretical-physics-professors-quantum-information-science-awards-1012
+
+   - title: Promotion
+     url: http://news.mit.edu/2017/seven-mit-science-professors-granted-tenure-0628
+
+   - title: Edgerton Award
+     url: http://news.mit.edu/2016/ribbeck-thale-edgerton-award-0420
+
+   - title: Sloan Award
+     url: http://newsoffice.mit.edu/2013/six-mit-researchers-win-sloan-research-fellowships
+
+   - title: PECASE Award
+     url: http://newsoffice.mit.edu/2012/pecase-winners-announced-0723
+
+   - title: DOE Early Career Award
+     url: http://science.mit.edu/news/five-mit-receive-doe-early-career-research-grants
+
+profiles:
+
+  - title: DOE on Early Career
+    url: https://www.energy.gov/science/articles/jesse-thaler-then-and-now-2011-early-career-award-winner
+
+  - title: ACM on IAIFI
+    url: https://cacm.acm.org/news/253847-using-ai-to-drill-down-in-physics/
+
+  - title: New York Times on IAIFI
+    url: https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html
+
+  - title: IAIFI Launch at MIT
+    url: https://news.mit.edu/2020/nsf-announces-mit-led-institute-artificial-intelligence-fundamental-interactions-0826
+
+  - title: IAIFI Launch at NSF
+    url: https://www.nsf.gov/news/special_reports/announcements/082620.jsp
+
+  - title: IAIFI Launch at Harvard
+    url: https://www.news.harvard.edu/gazette/story/2020/08/harvard-a-partner-in-20-million-ai-institute/
+
+  - title: Energy Mover's Distance at MIT
+    url: http://news.mit.edu/2019/new-physics-anomalous-particles-0726
+
+  - title: Energy Mover's Distance at Collider Blog
+    url:  https://muon.wordpress.com/2019/02/24/miracles-when-you-use-the-right-metric/
+
+  - title: Energy Mover's Distance at Ars Technica
+    url: https://arstechnica.com/science/2019/07/mit-physicists-social-networks-could-hold-the-key-to-finding-new-particles/
+
+  - title: Energy Mover's Distance at Phys.org
+    url:   https://phys.org/news/2019-08-metric-capture-similarity-collider-events.html
+
+  - title: CTP@50
+    url: http://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
+
+  - title: 2017 Faculty Profile
+    url: http://news.mit.edu/2017/faculty-profile-jesse-thaler-1107
+
+  - title: 2017 Faculty Profile at MIT Front Page
+    url: http://spotlight.mit.edu/2017/chalkboard-theorist
+
+  - title: CMS Open Data
+    url: http://news.mit.edu/2017/first-open-access-data-large-collider-subatomic-particle-patterns-0929
+
+  - title: ABRACADABRA
+    url: http://news.mit.edu/2016/team-simulates-magnetar-seek-dark-matter-particle-1007
+
+  - title: Miller Fellow Focus Article
+    url: http://www.jthaler.net/downloads/jthaler_MillerNewsletter.pdf
+
