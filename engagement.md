@@ -7,17 +7,25 @@ aside:
 
 {% assign topimage = site.data.public.public_top %}
 
-<div class="item">
-<div class="item__image">
-<a href="{{topimage.image_url}}">
-<img class="image-96--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
-</a>
+<style>
+  .hero-example--linear-gradient {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("{{topimage.image}}");
+    background-position: top;
+  }
+</style>
+
+<div class="hero hero--dark hero-example--linear-gradient">
+<div class="hero__content px-4 py-2" style="text-align: right;">
+{% for topic in site.data.public.topics %}
+<div markdown="1">
+[{{topic.title}}](#{{topic.key}}){:.button.button--theme-dark.button--pill.button--lg}
 </div>
-<div class="item__content" markdown=1>
-{{topimage.description}}
-  </div>
+{%- endfor %}
+</div>
 </div>
 
+
+{{topimage.description}}
 
 [Engagement CV](cv#public-engagement){:.button.button--outline-primary.button--pill.button--sm}
 
@@ -28,7 +36,7 @@ aside:
 <div class="item">
 <div class="item__image">
 <a href="{{topic.image_url}}">
-<img class="image-sq--lg rounded" src="{{topic.image}}" title="{{topic.image_hover}}"/>
+<img class="image-sq--lg" src="{{topic.image}}" title="{{topic.image_hover}}"/>
 </a>
 </div>
 <div class="item__content" markdown=1>

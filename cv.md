@@ -280,7 +280,7 @@ aside:
 ### Public Lectures
 
 {% for talk in site.data.talks.public -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{%- endif %},
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{%- endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
@@ -290,7 +290,7 @@ aside:
 ### Lecture Series & Schools
 
 {% for talk in site.data.talks.schools -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
       {%- if talk.parts %} (
       {%- for part in talk.parts -%}
         {% if part.url %}**[{{part.title}}]({{part.url}})**{% else %}**{{part.title}}**{% endif %}
@@ -305,15 +305,14 @@ aside:
 ### Colloquia
 
 {% for talk in site.data.talks.colloquia -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}
-    {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Invited Talks
 
 {% for talk in site.data.talks.invited -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
     {%- if talk.collab %} (with {{talk.collab}}), {% else %}, {% endif %}
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
@@ -323,7 +322,7 @@ aside:
 ### Seminars
 
 {% for talk in site.data.talks.seminars -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %},
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
@@ -332,14 +331,14 @@ aside:
 ### Local Presentations
 
 {% for talk in site.data.talks.local -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Additional Events
 
 {% for talk in site.data.talks.additional -%}
-  * {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% elsif talk.panelist %}**Panelist**{% elsif talk.convener %}**Convener**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% elsif talk.panelist %}**Panelist**{% elsif talk.convener %}**Convener**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}

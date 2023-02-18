@@ -4,7 +4,7 @@ layout: article
 
 {% assign topimage = site.data.bio.index_top %}
 <center>
-<img class="rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
+<img class="" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </center>
 {{topimage.description}}
 
@@ -16,7 +16,7 @@ layout: article
       <div class="cell cell--4">
           <center>
           <a href="research.html#{{topic.key}}">
-            <img class="rounded" style="object-fit: cover" src="{{topic.image}}" title="{{topic.title}}"/>
+            <img class="" style="object-fit: cover" src="{{topic.image}}" title="{{topic.title}}"/>
           <br>
               <b>{{topic.title}}</b>
           </a>
