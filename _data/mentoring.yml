@@ -532,7 +532,6 @@ bs_students:
     current: true
     updated: 2023
 
-    
 
   - name: Mohit Dighamber
     email: mdighamb@mit.edu
@@ -671,6 +670,7 @@ bs_students:
       - name: Joel Matthew Orloff Award for Outstanding Service
         org: MIT Physics Department
         date: 2017
+    updated: 2023
 
 
 
