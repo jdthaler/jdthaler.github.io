@@ -42,6 +42,7 @@ html {
   @media print {
     font-size: map-get($base, font-size-root-sm);
   }
+  scroll-behavior: smooth;
 }
 
 body {

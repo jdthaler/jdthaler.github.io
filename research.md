@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Research
+title:  Research in Theoretical Physics
 aside:
   toc: true
 ---
@@ -8,29 +8,26 @@ aside:
 
 {% assign topimage = site.data.research.research_top %}
 
-<div class="item">
-<div class="item__image">
-<img class="image-sq--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
-</div>
-<div class="item__content">
-{{topimage.description}}
-  </div>
-</div>
-
-<!--<style>
+<style>
   .hero-example--linear-gradient {
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .25)), url("{{topimage.image}}");
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("{{topimage.image}}");
+  }
+  .smooth-tag {
+    scroll-behavior: smooth;
   }
 </style>
 
 <div class="hero hero--dark hero-example--linear-gradient">
-  <div class="hero__content">
-    <h3>{{topimage.title}}</h3>
-  </div>
+<div class="hero__content px-4  py-2" style="text-align: right;">
+{% for topic in site.data.research.topics %}
+<div markdown="1"  style="align: right;">
+[{{topic.title}}](#{{topic.key}}){:.button.button--theme-dark.button--pill.button--lg.smooth-tag}
+</div>
+{%- endfor %}
+</div>
 </div>
 
-{{topimage.description}}-->
-
+{{topimage.description}}
 
 [Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
@@ -38,34 +35,14 @@ aside:
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
 [Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
 
-
-
-
-
 {% for topic in site.data.research.topics %}
 
 ## {{topic.title}} {#{{topic.key}}}
 
-
-<!--<style>
-  .hero-example--{{topic.key}} {
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .25)), url("{{topic.image}}");
-  }
-</style>
-
-<div class="hero hero--dark hero-example--{{topic.key}}">
-  <div class="hero__content" markdown=1>
-### {{topic.title}} {#{{topic.key}}}
-  <p>{{topic.description}}</p>
-  </div>
-</div>-->
-
-
-
 <div class="item">
 <div class="item__image">
 <a href="{{topic.image_url}}">
-<img class="image-96--xl rounded" src="{{topic.image}}" title="{{topic.title}}"/>
+<img class="image-96--xl" src="{{topic.image}}" title="{{topic.title}}"/>
 </a>
 </div>
 <div class="item__content">

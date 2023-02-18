@@ -3,105 +3,184 @@ group_news:
   - person:  Lina Necib
     title:   "Astroparticle Physicist Wins 2023 Valley Prize for Work on Dark Matter"
     url:     https://www.aps.org/publications/apsnews/202211/valley-prize.cfm
+    journal: APS News
+    date:    October 2022
 
   - person:  Cari Cesarotti
     title:   "With open data, scientists share their work"
     url:     https://www.symmetrymagazine.org/article/with-open-data-scientists-share-their-work
+    journal: Symmetry Magazine
+    date:    August 2019
 
   - person:  Radha Mastandrea
     title:   "A passionate advocate for open data"
     url:     http://news.mit.edu/2018/Radha-Mastandrea-student-1018
+    journal: MIT News
+    date:    October 2018
     
   - person:  Radha Mastandrea
     title:   "Paying it forward: Fellowship boosts women in physics"
     url:     http://news.mit.edu/2018/paying-it-forward-fellowship-boosts-women-physics-0802
-
+    journal: MIT News
+    date:    August 2018
+    
   - person:  Kevin Zhou
     title:   "Seeking new stories about the physical world"
     url:     http://news.mit.edu/2017/student-profile-kevin-zhou-0421
-
+    journal: MIT News
+    date:    April 2017
+    
   - person:  Kevin Zhou
     title:   "Four MIT students named 2017 Marshall Scholars"
     url:     http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128
-
+    journal: MIT News
+    date:    November 2016
+    
 perspectives:
 
-  - title: New Scientist on Symbolic Regression
+  - title: "Will artificial intelligence ever discover new laws of physics?"
     url: https://www.newscientist.com/article/mg25634141-200-will-artificial-intelligence-ever-discover-new-laws-of-physics/
+    journal: New Scientist
+    date:  November 2022
+#    quote: "I was trained to think about what are the laws of nature in our universe. Now it’s ‘what is the space of all possible rules?’"
 
-  - title: IEEE Spectrum on Machine Learning
+  - title: "Machine Learning Shaking Up Hard Sciences, Too"
     url: https://spectrum.ieee.org/machine-learning-in-physics
+    journal: IEEE Spectrum
+    date:  November 2022
+    quote: "We’d like to have a machine learn to think more like a physicist, but we also just need to learn how to think a little bit more like a machine."
 
-  - title: Quanta Magazine on Axion Dark Matter
+  - title: "A Hint of Dark Matter Sends Physicists Looking to the Skies"
     url: https://www.quantamagazine.org/a-hint-of-dark-matter-sends-physicists-looking-to-the-skies-20211019/
+    journal: Quanta Magazine
+    date:   October 2021
 
-  - title: Facebook AI on Deep Networks
+  - title: "Advancing AI theory with a first-principles understanding of deep neural networks"
     url: https://ai.facebook.com/blog/advancing-ai-theory-with-a-first-principles-understanding-of-deep-neural-networks/
-
-  - title: The Tech on Flexible P/NR
+    journal:  Facebook AI
+    date: June 2021
+    
+  - title: Faculty discuss Flexible P/NR policy
     url: https://thetech.com/2020/03/25/faculty-discuss-flexible-pnr
+    journal:  The Tech
+    date:  March 2020
+    quote:  "Our goal was to come up with a grading policy that was simple, flexible, and discipline agnostic, with mechanisms to ensure that students would always be incentivized to engage in all of their classes."
 
-  - title: CERN on Fifth Forces
+
+  - title: The plot thickens for a hypothetical X17 particle
     url: https://phys.org/news/2019-11-plot-thickens-hypothetical-x17-particle.html
-
-  - title: Symmetry Magazine on Open Data
+    journal:  Phys.org
+    date:  November 2019
+    
+  - title: "With open data, scientists share their work"
     url: http://symmetrymagazine.org/article/with-open-data-scientists-share-their-work
-
-  - title: CMS Open Data ML Release
-    url: https://cms.cern/news/cms-releases-open-data-machine-learning
-
-  - title: Fermilab on ML4Jets
+    journal:  Symmetry Magazine
+    date:  August 2019
+    
+  - title: CMS releases open data for Machine Learning
+    url: https://home.cern/news/news/knowledge-sharing/cms-releases-open-data-machine-learning
+    journal:  CERN News
+    date:  July 2019
+    
+  - title:  "Scientists meet at Fermilab to discuss machine learning for jet physics"
     url: https://news.fnal.gov/2018/11/scientists-meet-at-fermilab-to-discuss-machine-learning-for-jet-physics/
-
-  - title: PNAS on Dark Matter
+    journal:  Fermilab News
+    date:  November 2018
+    quote:
+    
+  - title: Lighting the way for dark matter
     url: http://www.pnas.org/content/114/44/11557.full.pdf
-
-  - title: Scientific American on Dark Matter
+    journal:  PNAS
+    date:   October 2017
+    
+  - title: In the Dark about Dark Matter
     url: https://www.scientificamerican.com/article/in-the-dark-about-dark-matter/
-
-  - title: Nature on Fifth Forces
-    url: https://www.nature.com/news/has-a-hungarian-physics-lab-found-a-fifth-force-of-nature-1.19957
-
-  - title: Bloomberg on After Higgs
+    journal: Scientific American
+    date:   October 2016
+    quote:  "Do we live in a universe where each discovery leads to deeper, more fundamental insights, or do we live in one where some parts have rhyme and reason, but others don't?"
+    
+  - title: Has a Hungarian physics lab found a fifth force of nature?
+    url: https://www.nature.com/articles/nature.2016.19957
+    journal: Nature
+    date:  May 2016
+    
+  - title: What Physicists Are Looking for Now That They’ve Found the Higgs Boson
     url: http://www.bloomberg.com/news/articles/2015-04-02/after-higgs-boson-what-physicists-are-looking-for-now
+    journal: Bloomberg
+    date:  April 2015
 
-  - title: Wired Magazine on Higgs
+  - title: "How Three Guys With $10K and Decades-Old Data Almost Found the Higgs Boson First"
     url: http://www.wired.com/2015/01/higgs-discovery-hijack-attempt/
-
-  - title: Seacoast Online on Particle Fever
-    url: http://www.seacoastonline.com/article/20140514/NEWS/405140373
-
-  - title: Symmetry Magazine on Dark Matter
+    journal: Wired Magazine
+    date: January 2015
+    quote:  "Figuring out what happened in a collider is like trying to figure out what your dog ate at the park yesterday. You can find out, but you have to sort through a lot of shit to do it."
+    
+  - title: "'Particle Fever' documentary follows mystery of Higgs boson"
+    url: https://www.seacoastonline.com/story/news/local/portsmouth-herald/2014/05/14/particle-fever-documentary-follows/36480676007/
+    journal: Portsmouth Herald
+    date:    May 2014
+    
+  - title: Connecting the visible universe with dark matter
     url: http://www.symmetrymagazine.org/article/november-2013/connecting-the-visible-universe-with-dark-matter
+    journal: Symmetry Magazine
+    date:    November 2013
 
-  - title: 2012 Medford High School Visit
+
+  - title: "MIT’s Jesse Thaler Visits MHS"
     url: http://www.mhsmustangnews.com/2012/10/29/academic-news-mits-jesse-thaler-visits-mhs/
+    journal:  Mustang News
+    date:     October 2012
+    quote:  "Here’s the universe, here’s pencil and paper, now go and find something new."
 
 awards:
 
-   - title: APS Fellowship
-     url: https://news.mit.edu/2022/american-physical-society-fellows-1019
+   - short:    APS Fellow
+     title:    Seven from MIT named American Physical Society Fellows for 2022
+     url:      https://news.mit.edu/2022/american-physical-society-fellows-1019
+     journal:  MIT News
+     date:     October 2022
 
-   - title: Simons Investigator
+   - short:    Simons Investigator
+     title: Three MIT faculty members named 2022 Simons Investigators
      url: https://news.mit.edu/2022/three-mit-faculty-members-named-2022-simons-investigators-0624
-
-   - title: QuantISED
+     journal:  MIT News
+     date:     June 2022
+     
+   - short:    DOE QuantISED
+     title: Center for Theoretical Physics professors earn DOE Quantum Information Science Awards
      url: http://news.mit.edu/2018/mit-center-theoretical-physics-professors-quantum-information-science-awards-1012
+     journal:  MIT News
+     date:     Oxtober 2018
 
-   - title: Promotion
+   - short:    Promotion
+     title: School of Science professors granted tenure
      url: http://news.mit.edu/2017/seven-mit-science-professors-granted-tenure-0628
+     journal:  MIT News
+     date:     June 2017
 
-   - title: Edgerton Award
+   - short:    Edgerton Award
+     title: "Biobarrier explorer and dark matter theorist win MIT’s prestigious junior faculty award"
      url: http://news.mit.edu/2016/ribbeck-thale-edgerton-award-0420
+     journal:  MIT News
+     date:     April 2016
 
-   - title: Sloan Award
+   - short:   Sloan Fellowship
+     title: "Six MIT researchers win Sloan Research Fellowships"
      url: http://newsoffice.mit.edu/2013/six-mit-researchers-win-sloan-research-fellowships
+     journal:  MIT News
+     date:     February 2013
 
-   - title: PECASE Award
+   - short:   PECASE Award
+     title: Five MIT researchers win presidential early career honors
      url: http://newsoffice.mit.edu/2012/pecase-winners-announced-0723
+     journal:  MIT News
+     date:     July 2012
 
-   - title: DOE Early Career Award
-     url: http://science.mit.edu/news/five-mit-receive-doe-early-career-research-grants
+   - short:   DOE Early Career Award
+     title: Five from MIT receive DoE early career research grants
+     url: https://news.mit.edu/2011/doe-grants-faculty
+     journal:  MIT News
+     date:     June 2011
 
 profiles:
 

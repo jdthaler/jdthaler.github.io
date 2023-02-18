@@ -1,6 +1,6 @@
 ---
 layout: article
-title: About
+title: Jesse Thaler
 aside:
   toc: true
 ---
@@ -12,7 +12,7 @@ aside:
 <img class="image-h image-h--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}" align="left"/>
 </div>
 <div class="item__content" markdown="1">
-  **Jesse Thaler** is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the Center for Theoretical Physics. In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
+  I am a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. My current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. I joined the MIT Physics Department in 2010, and I am currently a Professor in the Center for Theoretical Physics. In 2020, I became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
   </div>
 </div>
 
@@ -84,7 +84,7 @@ aside:
 <summary><b>Awards and Honors</b></summary>
 
 {% for news in site.data.news.awards -%}
-  * [{{news.title}}]({{news.url}})
+  * **{{news.short}}**:  "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
@@ -94,8 +94,13 @@ aside:
 <summary><b>Quotations and Perspectives</b></summary>
 
 {% for news in site.data.news.perspectives -%}
-  * [{{news.title}}]({{news.url}})
+  * "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
+{%- if news.quote %}
+  > *{{news.quote}}*
+{%- endif %}
 {% endfor %}
+
+
 
 </details>
 
@@ -104,7 +109,7 @@ aside:
 <summary><b>Group Members in the News</b></summary>
 
 {% for news in site.data.news.group_news -%}
-  * **{{news.person}}**:  "[{{news.title}}]({{news.url}})"
+  * **{{news.person}}**:  "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>

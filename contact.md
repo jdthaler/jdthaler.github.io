@@ -6,7 +6,7 @@ title: Contact Information
 
 <div class="item">
 <div class="item__image">
-<img class="image-96--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
+<img class="image-96--xl" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </div>
 <div class="item__content" markdown=1>
 Jesse Thaler\\
