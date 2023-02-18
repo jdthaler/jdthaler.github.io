@@ -38,101 +38,92 @@ group_news:
     
 perspectives:
 
-  - title: New Scientist on Symbolic Regression
+  - title: "Will artificial intelligence ever discover new laws of physics?"
     url: https://www.newscientist.com/article/mg25634141-200-will-artificial-intelligence-ever-discover-new-laws-of-physics/
-    journal:
-    date:
-    quote:
+    journal: New Scientist
+    date:  November 2022
+#    quote: "I was trained to think about what are the laws of nature in our universe. Now it’s ‘what is the space of all possible rules?’"
 
-  - title: IEEE Spectrum on Machine Learning
+  - title: "Machine Learning Shaking Up Hard Sciences, Too"
     url: https://spectrum.ieee.org/machine-learning-in-physics
-    journal:
-    date:
-    quote:
+    journal: IEEE Spectrum
+    date:  November 2022
+    quote: "We’d like to have a machine learn to think more like a physicist, but we also just need to learn how to think a little bit more like a machine."
 
-  - title: Quanta Magazine on Axion Dark Matter
+  - title: "A Hint of Dark Matter Sends Physicists Looking to the Skies"
     url: https://www.quantamagazine.org/a-hint-of-dark-matter-sends-physicists-looking-to-the-skies-20211019/
-    journal:
-    date:
-    quote:
+    journal: Quanta Magazine
+    date:   October 2021
 
-  - title: Facebook AI on Deep Networks
+  - title: "Advancing AI theory with a first-principles understanding of deep neural networks"
     url: https://ai.facebook.com/blog/advancing-ai-theory-with-a-first-principles-understanding-of-deep-neural-networks/
-    journal:
-    date:
-    quote:
+    journal:  Facebook AI
+    date: June 2021
     
-  - title: The Tech on Flexible P/NR
+  - title: Faculty discuss Flexible P/NR policy
     url: https://thetech.com/2020/03/25/faculty-discuss-flexible-pnr
-    journal:
-    date:
-    quote:
-    
-  - title: CERN on Fifth Forces
-    url: https://phys.org/news/2019-11-plot-thickens-hypothetical-x17-particle.html
-    journal:
-    date:
-    quote:
-    
-  - title: Symmetry Magazine on Open Data
-    url: http://symmetrymagazine.org/article/with-open-data-scientists-share-their-work
-    journal:
-    date:
-    quote:
-    
-  - title: CMS Open Data ML Release
-    url: https://cms.cern/news/cms-releases-open-data-machine-learning
-    journal:
-    date:
-    quote:
-    
-  - title: Fermilab on ML4Jets
-    url: https://news.fnal.gov/2018/11/scientists-meet-at-fermilab-to-discuss-machine-learning-for-jet-physics/
-    journal:
-    date:
-    quote:
-    
-  - title: PNAS on Dark Matter
-    url: http://www.pnas.org/content/114/44/11557.full.pdf
-    journal:
-    date:
-    quote:
-    
-  - title: Scientific American on Dark Matter
-    url: https://www.scientificamerican.com/article/in-the-dark-about-dark-matter/
-    journal:
-    date:
-    quote:
-    
-  - title: Nature on Fifth Forces
-    url: https://www.nature.com/news/has-a-hungarian-physics-lab-found-a-fifth-force-of-nature-1.19957
-    journal:
-    date:
-    quote:
-    
-  - title: Bloomberg on After Higgs
-    url: http://www.bloomberg.com/news/articles/2015-04-02/after-higgs-boson-what-physicists-are-looking-for-now
-    journal:
-    date:
-    quote:
+    journal:  The Tech
+    date:  March 2020
+    quote:  "Our goal was to come up with a grading policy that was simple, flexible, and discipline agnostic, with mechanisms to ensure that students would always be incentivized to engage in all of their classes."
 
-  - title: Wired Magazine on Higgs
-    url: http://www.wired.com/2015/01/higgs-discovery-hijack-attempt/
-    journal:
-    date:
+
+  - title: The plot thickens for a hypothetical X17 particle
+    url: https://phys.org/news/2019-11-plot-thickens-hypothetical-x17-particle.html
+    journal:  Phys.org
+    date:  November 2019
+    
+  - title: "With open data, scientists share their work"
+    url: http://symmetrymagazine.org/article/with-open-data-scientists-share-their-work
+    journal:  Symmetry Magazine
+    date:  August 2019
+    
+  - title: CMS releases open data for Machine Learning
+    url: https://home.cern/news/news/knowledge-sharing/cms-releases-open-data-machine-learning
+    journal:  CERN News
+    date:  July 2019
+    
+  - title:  "Scientists meet at Fermilab to discuss machine learning for jet physics"
+    url: https://news.fnal.gov/2018/11/scientists-meet-at-fermilab-to-discuss-machine-learning-for-jet-physics/
+    journal:  Fermilab News
+    date:  November 2018
     quote:
     
-  - title: Seacoast Online on Particle Fever
-    url: http://www.seacoastonline.com/article/20140514/NEWS/405140373
-    journal:
-    date:
-    quote:
+  - title: Lighting the way for dark matter
+    url: http://www.pnas.org/content/114/44/11557.full.pdf
+    journal:  PNAS
+    date:   October 2017
+    
+  - title: In the Dark about Dark Matter
+    url: https://www.scientificamerican.com/article/in-the-dark-about-dark-matter/
+    journal: Scientific American
+    date:   October 2016
+    quote:  "Do we live in a universe where each discovery leads to deeper, more fundamental insights, or do we live in one where some parts have rhyme and reason, but others don't?"
+    
+  - title: Has a Hungarian physics lab found a fifth force of nature?
+    url: https://www.nature.com/articles/nature.2016.19957
+    journal: Nature
+    date:  May 2016
+    
+  - title: What Physicists Are Looking for Now That They’ve Found the Higgs Boson
+    url: http://www.bloomberg.com/news/articles/2015-04-02/after-higgs-boson-what-physicists-are-looking-for-now
+    journal: Bloomberg
+    date:  April 2015
+
+  - title: "How Three Guys With $10K and Decades-Old Data Almost Found the Higgs Boson First"
+    url: http://www.wired.com/2015/01/higgs-discovery-hijack-attempt/
+    journal: Wired Magazine
+    date: January 2015
+    quote:  "Figuring out what happened in a collider is like trying to figure out what your dog ate at the park yesterday. You can find out, but you have to sort through a lot of shit to do it."
+    
+  - title: "'Particle Fever' documentary follows mystery of Higgs boson"
+    url: https://www.seacoastonline.com/story/news/local/portsmouth-herald/2014/05/14/particle-fever-documentary-follows/36480676007/
+    journal: Portsmouth Herald
+    date:    May 2014
     
   - title: Connecting the visible universe with dark matter
     url: http://www.symmetrymagazine.org/article/november-2013/connecting-the-visible-universe-with-dark-matter
-    journal:
-    date:
-    quote:
+    journal: Symmetry Magazine
+    date:    November 2013
 
 
   - title: "MIT’s Jesse Thaler Visits MHS"
