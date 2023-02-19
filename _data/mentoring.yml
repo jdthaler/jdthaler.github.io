@@ -527,6 +527,7 @@ bs_students:
 
   - name: Max Tan
     email: maxt114@mit.edu
+    image: images/tan.png
     date:  2025
     urop:  Spring 2023
     current: true
