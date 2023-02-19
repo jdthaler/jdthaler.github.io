@@ -229,6 +229,8 @@ profiles:
   - title: ABRACADABRA
     url: http://news.mit.edu/2016/team-simulates-magnetar-seek-dark-matter-particle-1007
 
-  - title: Miller Fellow Focus Article
-    url: http://www.jthaler.net/downloads/jthaler_MillerNewsletter.pdf
+  - title: Miller Fellow Focus
+    url: https://miller.berkeley.edu/images/newsletters/2007_fall.pdf
+    journal: Miller Institute Newsletter
+    date: Fall 2007
 
