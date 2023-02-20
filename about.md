@@ -74,7 +74,7 @@ aside:
 <summary><b>Profiles and Highlights</b></summary>
 
 {% for news in site.data.news.profiles -%}
-  * [{{news.title}}]({{news.url}})
+  * "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
