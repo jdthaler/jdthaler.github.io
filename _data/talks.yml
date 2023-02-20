@@ -249,6 +249,7 @@ public:
 
   - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
     url: talks/jthaler_2023_01_19_NSF_Lecture.pdf
+    video:  https://www.youtube.com/live/P1ndOdT-wTY?feature=share
     event:  Distinguished Lecture
     org: National Science Foundation
     date: January 2023
@@ -285,6 +286,7 @@ public:
   
   - title: "Confronting the Invisible Universe"
     url: https://www.youtube.com/watch?v=QNmSNY8VenQ
+    video: https://youtu.be/QNmSNY8VenQ
     event: Public Talk
     org: Aspen Center for Physics
     date: March 2017
@@ -416,6 +418,7 @@ invited:
 
   - title: "Weak Supervision for the Strong Force"
     url: talks/jthaler_2022_07_KIAS_Summer_School.pdf
+    video: https://youtu.be/y-TLIQbDGjo
     event: QUC Summer School
     event_url: http://events.kias.re.kr/h/QUCAI2022/
     org: KIAS
@@ -446,6 +449,7 @@ invited:
     
   - title: "Machine Learning for the Theory Frontier"
     url: talks/jthaler_2022_02_KITP_Snowmass_2022.pdf
+    video: https://youtu.be/O1eznZWGzzA
     event: Snowmass Theory Frontier Conference
     event_url: https://www.kitp.ucsb.edu/activities/snowmass-c22
     org: KITP
@@ -535,6 +539,7 @@ invited:
   
   - title: "Collider Physics and Machine Learning"
     url: talks/jthaler_2020_12_IFT_Xmas.pdf
+    video: https://youtu.be/afE6dLeFn8I
     event: XXVI  Christmas Workshop
     event_url: https://workshops.ift.uam-csic.es/Xmas20
     org: IFT
@@ -892,6 +897,7 @@ seminars:
   
   - title: "Quantum (Inspired) Algorithms for Collider Physics"
     url: talks/jthaler_2021_11_QuantHEP.pdf
+    video: https://www.youtube.com/live/aCW0q0jQ0fY?feature=share
     event: QuantHEP Seminar
     event_url: http://quanthep-seminar.org/session/session-13/
     org: Lisbon
