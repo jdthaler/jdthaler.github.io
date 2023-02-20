@@ -27,7 +27,7 @@ aside:
 
 {{topimage.description}}
 
-[Engagement CV](cv#public-engagement){:.button.button--outline-primary.button--pill.button--sm}
+[Engagement CV](cv#public-engagement){:.button.button--secondary.button--pill.button--sm}
 
 
 {% for topic in site.data.public.topics %}
@@ -35,7 +35,7 @@ aside:
 
 <div class="item">
 <div class="item__image">
-<a href="{{topic.image_url}}">
+<a href="{{topic.image_url}}" target="_blank">
 <img class="image-sq--lg" src="{{topic.image}}" title="{{topic.image_hover}}"/>
 </a>
 </div>

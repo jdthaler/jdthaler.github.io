@@ -3,7 +3,7 @@ public_top:
   image_credit: Justin Knight, MIT News
   image_url: https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
   hover: CTP@50
-  description: "I engage with the public through [classroom visits](http://www.physicstheorynet.org/), opinion pieces, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data."
+  description: 'I engage with the public through [classroom visits](http://www.physicstheorynet.org/){:target="_blank"}, opinion pieces, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data.'
   
 topics:
 
@@ -62,33 +62,33 @@ topics:
 
 entries:
 
-  - markdown: '**["Designing an AI Physicist"](https://cerncourier.com/a/designing-an-ai-physicist/)**, Opinion Viewpoint, *[CERN Courier, September-October 2021](https://cerncourier.com/wp-content/uploads/2021/08/CERNCourier2021SepOct-digitaledition.pdf#CCSepOct21-digital.indd%3A.17586%3A1070)*'
+  - markdown: '**["Designing an AI Physicist"](https://cerncourier.com/a/designing-an-ai-physicist/){:target="_blank"}**, Opinion Viewpoint, *[CERN Courier, September-October 2021](https://cerncourier.com/wp-content/uploads/2021/08/CERNCourier2021SepOct-digitaledition.pdf#CCSepOct21-digital.indd%3A.17586%3A1070){:target="_blank"}*'
     topic: advocacy_ai
 
-  - markdown:  '**["Collision Course: Artificial Intelligence meets Fundamental Physics"](http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf)**, Keynote Presentation, ["Tommy Flowers Network Conference"](http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html), *Virtual, October 2020*'
+  - markdown:  '**["Collision Course: Artificial Intelligence meets Fundamental Physics"](http://www.jthaler.net/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf){:target="_blank"}**, Keynote Presentation, ["Tommy Flowers Network Conference"](http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html){:target="_blank"}, *Virtual, October 2020*'
     topic: public_talks_ai
 
-  - markdown:  '**["Listening for Dark Matter from the Basement of Building 24"](https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf)**, coauthored with Lindley Winslow, Contribution to [Physics@MIT Journal](https://web.mit.edu/physics/news/physicsatmit/fall2019.html), *Fall 2019*'
+  - markdown:  '**["Listening for Dark Matter from the Basement of Building 24"](https://physics.mit.edu/wp-content/uploads/2020/05/physicsatmit_19_winslow-thaler.pdf){:target="_blank"}**, coauthored with Lindley Winslow, Contribution to [Physics@MIT Journal](https://web.mit.edu/physics/news/physicsatmit/fall2019.html){:target="_blank"}, *Fall 2019*'
     topic: essays_dark_matter
 
-  - markdown:  '**["Slow and Steady"](https://rdcu.be/bMHQn)**, coauthored with Matthew Strassler, Correspondence, [Nature Physics 15:725 (2019)](https://doi.org/10.1038/s41567-019-0628-z).'
+  - markdown:  '**["Slow and Steady"](https://rdcu.be/bMHQn){:target="_blank"}**, coauthored with Matthew Strassler, Correspondence, [Nature Physics 15:725 (2019)](https://doi.org/10.1038/s41567-019-0628-z){:target="_blank"}.'
     topic: advocacy_open_data
 
-  - markdown:  '**["Listening to the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf)**, Program with [A Far Cry](https://afarcry.org/), [Open Rehearsal of Gravity](https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#), *April 2019*'
+  - markdown:  '**["Listening to the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2019_04_FarCry.pdf){:target="_blank"}**, Program with [A Far Cry](https://afarcry.org/){:target="_blank"}, [Open Rehearsal of Gravity](https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#){:target="_blank"}, *April 2019*'
     topic: additional_dark_matter
 
-  - markdown:  '**["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf)**, Contribution to [Felice Frankel](https://www.felicefrankel.com/), [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering), *MIT Press, 2018*'
+  - markdown:  '**["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf){:target="_blank"}**, Contribution to [Felice Frankel](https://www.felicefrankel.com/){:target="_blank"}, [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering){:target="_blank"}, *MIT Press, 2018*'
     topic: essays_data_viz
     
-  - markdown:  "**[\"The Future of Particle Physics is 'Open'\"](https://cylindricalonion.web.cern.ch/blogs/future-particle-physics-open)**, Guest Blog Post, The Cylindrical Onion, *CMS Experiment, December 2017*"
+  - markdown:  "**[\"The Future of Particle Physics is 'Open'\"](https://cylindricalonion.web.cern.ch/blogs/future-particle-physics-open){:target=\"_blank\"}**, Guest Blog Post, The Cylindrical Onion, *CMS Experiment, December 2017*"
     topic: advocacy_open_data
 
-  - markdown:  '**["Confronting the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf)**, MIT Club of Great Britain Event, *London, May 2018*'
+  - markdown:  '**["Confronting the Invisible Universe"](http://www.jthaler.net/talks/jthaler_2018_05_London_Dark_Matter.pdf){:target="_blank"}**, MIT Club of Great Britain Event, *London, May 2018*'
     topic: additional_dark_matter
 
-  - markdown:  '**["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ)**, Public Talk, *Aspen Center for Physics, March 2017*'
+  - markdown:  '**["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ){:target="_blank"}**, Public Talk, *Aspen Center for Physics, March 2017*'
     topic: public_talks_dark_matter
     description: "Dark matter is an enigma. Even though it can be “seen” through its influence on gravity, dark matter is invisible to the other known forces of nature. There are numerous ongoing efforts to discover the origin and properties of dark matter, ranging from laboratory experiments to astrophysical investigations. This intense interest is driven in part by tantalizing hints that the nature of dark matter might be linked to other deep and unsolved mysteries in physics. In this talk, Prof. Thaler presents the overwhelming evidence for dark matter as well as speculates on the broader implications of the invisible universe."
 
-  - markdown:  '**["The Higgs Boson:  Triumph of the Standard Model"](http://vimeo.com/58392070)**, 24th Annual Kavli Frontiers of Science, *National Academy of Sciences, U.C. Irvine, November 2012*'
+  - markdown:  '**["The Higgs Boson:  Triumph of the Standard Model"](http://vimeo.com/58392070){:target="_blank"}**, 24th Annual Kavli Frontiers of Science, *National Academy of Sciences, U.C. Irvine, November 2012*'
     topic: public_talks_higgs

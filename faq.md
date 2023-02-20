@@ -7,13 +7,13 @@ aside:
 ---
 
 
-Have a burning question that isn't answered here?  [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}
+Have a burning question that isn't answered here?  [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
 
 ## Research
 
 <details markdown=1>
 <summary><b>I'm interested in working in your research group.  Where do I sign up?</b></summary>
-Here is information about [joining my group!](join){:.button.button--outline-primary.button--pill.button--sm}
+Here is information about [joining my group!](join){:.button.button--secondary.button--pill.button--sm}
 </details>
 
 <details markdown=1>
@@ -142,7 +142,7 @@ In terms of specific advice, here are three typical suggestions I make at practi
 
 If you have worked with me closely in a research and/or mentoring context, then there is a 99% chance that I'd be delighted to write you a letter of recommendation!  If you only know me from coursework, then I might also be willing to write on your behalf, but you should first think about whether someone else might be better positioned to advocate for you.
 
-I only write strong letters of recommendation.  If I cannot write you a strong letter, I will let you know.  The main question is how strong my letter can be, so please fill out this form so I have all the information I need to write persuasively on your behalf:  [Letter of Recommendation Request](https://forms.gle/enUPnnBsErMQbGDJA){:.button.button--outline-primary.button--pill.button--sm}
+I only write strong letters of recommendation.  If I cannot write you a strong letter, I will let you know.  The main question is how strong my letter can be, so please fill out this form so I have all the information I need to write persuasively on your behalf:  [Letter of Recommendation Request](https://forms.gle/enUPnnBsErMQbGDJA){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
 
 I typically need **at least 2 weeks but ideally 4 weeks** to prepare a new letter.  (The actual writing does not take that long, of course, but I receive many letter requests and I need to get sleep at some point.)  If you are asking for a letter on a shorter time frame than that, then still fill out this form, but [contact me ASAP](jthaler@mit.edu) to explain your situation.
 
@@ -153,15 +153,15 @@ I typically need **at least 2 weeks but ideally 4 weeks** to prepare a new lette
 <details markdown=1>
 <summary><b>Have you ever let your students down?</b></summary>
 
-During the covid pandemic in Spring 2020, we faced difficult decisions about how to assess student understanding of the material in [8.044 (Statistical Mechanics)](http://stellar.mit.edu/S/course/8/sp20/8.044/).  One student asked whether the final assignment grade could be dropped if their problem set grades were higher.  In response, I posted the following message to [Piazza](https://piazza.com/):
+During the covid pandemic in Spring 2020, we faced difficult decisions about how to assess student understanding of the material in [8.044 (Statistical Mechanics)](http://stellar.mit.edu/S/course/8/sp20/8.044/){:target="_blank"}.  One student asked whether the final assignment grade could be dropped if their problem set grades were higher.  In response, I posted the following message to [Piazza](https://piazza.com/){:target="_blank"}:
 
-> We have developed the following [official policy](https://www.youtube.com/watch?v=dQw4w9WgXcQ) about whether it might be possible to give up the final assignment grade.
+> We have developed the following [official policy](https://www.youtube.com/watch?v=dQw4w9WgXcQ){:target="_blank"} about whether it might be possible to give up the final assignment grade.
 
 At the end of the semester, some students got together to make their opinions known:
 
-> W​e have collaborated on the following [official evaluation](https://youtu.be/CcV5M7IMLt0) ​of 8.044 this semester.
+> W​e have collaborated on the following [official evaluation](https://youtu.be/CcV5M7IMLt0){:target="_blank"} ​of 8.044 this semester.
 
-I appreciated their candor in telling us just how they're feeling and making us understand.  Certainly, a learning experience for everyone.  Thank goodness we were on [emergency pass/no record grading](https://facultygovernance.mit.edu/rules-and-regulations#2-64).
+I appreciated their candor in telling us just how they're feeling and making us understand.  Certainly, a learning experience for everyone.  Thank goodness we were on [emergency pass/no record grading](https://facultygovernance.mit.edu/rules-and-regulations#2-64){:target="_blank"}.
 </details>
 
 
@@ -174,30 +174,30 @@ He/him/his.
 
 I have debated many times with myself about whether I should put this information in my email signature, and I finally decided to add this information in October 2021, for reasons I explain below.
 
-First, let me explain my long hesitation.  "Jesse" is a somewhat gender ambiguous name, and I don't mind (too much) when people add an extra "i" by mistake.  It felt a bit uncomfortable to assert my gender at this point in my career when the gender ambiguity in my name (and in my past [hairstyle](http://v1.jthaler.net/photos/images/2002.05.C/dance_rig.jpg)) was part of my experience growing up.  Also, physics is a rather male-dominated field, and I worried that providing my pronouns would somehow reinforce male-ness as the default for a physics professor, though I also appreciated that my reticence was probably doing so implicitly.  I do like the way that providing pronouns signals an aspiration towards a more diverse and inclusive physics environment.  As I often tell my students: there are as many ways to be a successful physicist as there are successful physicists.  So while I didn't give my preferred pronouns, my email signature did (and still does) have a link to the [MIT Physics Community Values](https://physics.mit.edu/about-physics/community-values/).
+First, let me explain my long hesitation.  "Jesse" is a somewhat gender ambiguous name, and I don't mind (too much) when people add an extra "i" by mistake.  It felt a bit uncomfortable to assert my gender at this point in my career when the gender ambiguity in my name (and in my past [hairstyle](http://v1.jthaler.net/photos/images/2002.05.C/dance_rig.jpg)){:target="_blank"} was part of my experience growing up.  Also, physics is a rather male-dominated field, and I worried that providing my pronouns would somehow reinforce male-ness as the default for a physics professor, though I also appreciated that my reticence was probably doing so implicitly.  I do like the way that providing pronouns signals an aspiration towards a more diverse and inclusive physics environment.  As I often tell my students: there are as many ways to be a successful physicist as there are successful physicists.  So while I didn't give my preferred pronouns, my email signature did (and still does) have a link to the [MIT Physics Community Values](https://physics.mit.edu/about-physics/community-values/){:target="_blank"}.
 
-What made me change my mind to include my pronouns?  I received an email from a student who put not only their pronouns but also the pronunciation of their name in their email signature.  In the same way that misgendering a person is disrespectful, mispronouncing their name is as well.  Providing this information seemed like a positive (albeit small) step towards making the physics community more welcoming.  So while I didn't go so far as to create an [audio version of my name](https://diversity.lbl.gov/2020/09/15/how-do-you-pronounce-your-name-add-an-audio-pronunciation-link-to-your-email/), I now state both my pronouns (he/him/his) and my pronunciation (JEH-see THAY-lr) in my signature. 
+What made me change my mind to include my pronouns?  I received an email from a student who put not only their pronouns but also the pronunciation of their name in their email signature.  In the same way that misgendering a person is disrespectful, mispronouncing their name is as well.  Providing this information seemed like a positive (albeit small) step towards making the physics community more welcoming.  So while I didn't go so far as to create an [audio version of my name](https://diversity.lbl.gov/2020/09/15/how-do-you-pronounce-your-name-add-an-audio-pronunciation-link-to-your-email/){:target="_blank"}, I now state both my pronouns (he/him/his) and my pronunciation (JEH-see THAY-lr) in my signature. 
 </details>
 
 <details markdown=1>
 <summary><b>Where can I find high-resolution images of you?</b></summary>
-Here is a link to [press information](press){:.button.button--outline-primary.button--pill.button--sm} of various kinds.
+Here is a link to [press information](press){:.button.button--secondary.button--pill.button--sm} of various kinds.
 </details>
 
 <details markdown=1>
 <summary><b>What's up with your website?</b></summary>
 
-Though I loved my old [custom html black and white](http://v1.jthaler.net/) webpage, I never got around to editting it much.  In 2007, I decided to move to [DokuWiki](http://v2.jthaler.net/).  In the wiki format, editing and viewing pages take the same amount of work, so I was hoping that my innate narcissism would drive me to actually create updated content.
+Though I loved my old [custom html black and white](http://v1.jthaler.net/){:target="_blank"} webpage, I never got around to editting it much.  In 2007, I decided to move to [DokuWiki](http://v2.jthaler.net/){:target="_blank"}.  In the wiki format, editing and viewing pages take the same amount of work, so I was hoping that my innate narcissism would drive me to actually create updated content.
 
 What actually happened, though, is that I just kept adding items to my [CV](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
 
-So I decided that I really needed to update my website, though exactly how it will look is unclear.  This is an ongoing process, starting with the [Jeykll Text Theme](https://kitian616.github.io/jekyll-TeXt-theme/) on [GitHub Pages](https://pages.github.com/).  Wish me luck!
+So I decided that I really needed to update my website, though exactly how it will look is unclear.  This is an ongoing process, starting with the [Jeykll Text Theme](https://kitian616.github.io/jekyll-TeXt-theme/){:target="_blank"} on [GitHub Pages](https://pages.github.com/){:target="_blank"}.  Wish me luck!
 </details>
 
 <details markdown=1>
 <summary><b>Are you on social media?</b></summary>
 
-Until recently, I haven't used social media personally or professionally.  But at least now I have a [LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--outline-primary.button--pill.button--sm} profile!  My goal is to reach 500 connections by the end of 2023.  Wish me luck!
+Until recently, I haven't used social media personally or professionally.  But at least now I have a [LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"} profile!  My goal is to reach 500 connections by the end of 2023.  Wish me luck!
 
  
 </details>
