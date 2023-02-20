@@ -29,11 +29,11 @@ aside:
 
 {{topimage.description}}
 
-[Publications by Year](cv#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
-[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
-[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}
-[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
-[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
+[Publications by Year](cv#publications--preprints){:.button.button--secondary.button--pill.button--sm}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
 
 {% for topic in site.data.research.topics %}
 
@@ -41,7 +41,7 @@ aside:
 
 <div class="item">
 <div class="item__image">
-<a href="{{topic.image_url}}">
+<a href="{{topic.image_url}}" target="_blank">
 <img class="image-96--xl" src="{{topic.image}}" title="{{topic.title}}"/>
 </a>
 </div>
@@ -57,8 +57,8 @@ aside:
 {%- for subtopic in topic.subtopics -%}
 {%- if subtopic.key == paper.topic -%}
   {%- if paper.priority >= 5 %}
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** \\
-        *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}** \\
+        *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){:target="_blank"}{% endif %}*
   {%- endif -%}
 {%- endif -%}
 {%- endfor %}
@@ -75,8 +75,8 @@ aside:
 
 {% for paper in site.data.papers.papers -%}
 {% if subtopic.key == paper.topic %}
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** {% if paper.priority >= 3 %}`recommended`{:.success}{% endif %} \\
-    *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}** {% if paper.priority >= 3 %}`recommended`{:.success}{% endif %} \\
+    *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){:target="_blank"}{% endif %}*
 {%- endif %}
 {%- endfor%}
 

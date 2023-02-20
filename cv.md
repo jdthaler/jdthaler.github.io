@@ -6,10 +6,10 @@ aside:
 
 ---
 
-[Short CV](about){:.button.button--outline-primary.button--pill.button--sm}
-[Press Information](press){:.button.button--outline-primary.button--pill.button--sm}
-[Publications by Year](#publications--preprints){:.button.button--outline-primary.button--pill.button--sm}
-[PDF CV (May 2022)](pdfs/jthaler_CV_2022_May.pdf){:.button.button--outline-primary.button--pill.button--sm}
+[Short CV](about){:.button.button--secondary.button--pill.button--sm}
+[Press Information](press){:.button.button--secondary.button--pill.button--sm}
+[Publications by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
+[PDF CV (May 2022)](pdfs/jthaler_CV_2022_May.pdf){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
 
 ## Jesse Diaz Thaler
 
@@ -46,10 +46,10 @@ aside:
    * Class of 1943 Career Development Professor, *July 2012 - July 2015*
    * Assistant Professor of Physics, *January 2010 - July 2015*
  * **Leadership**
-    * Director, [NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/), *August 2020 - Present*
+    * Director, [NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}, *August 2020 - Present*
  * **Affiliations**
-   * [MIT Center for Theoretical Physics (CTP)](http://ctp.mit.edu/) and [Laboratory for Nuclear Science (LNS)](http://web.mit.edu/lns/), *January 2010 - Present*
-   * [MIT Statistics and Data Science Center (SDSC)](https://stat.mit.edu/) and [Institute for Data, Systems, and Society (IDSS)](https://idss.mit.edu/), *January 2020 - Present*
+   * [MIT Center for Theoretical Physics (CTP)](http://ctp.mit.edu/){:target="_blank"} and [Laboratory for Nuclear Science (LNS)](http://web.mit.edu/lns/){:target="_blank"}, *January 2010 - Present*
+   * [MIT Statistics and Data Science Center (SDSC)](https://stat.mit.edu/){:target="_blank"} and [Institute for Data, Systems, and Society (IDSS)](https://idss.mit.edu/){:target="_blank"}, *January 2020 - Present*
 
 ### Visiting
 
@@ -72,7 +72,7 @@ aside:
 ### Harvard
 
   * **Harvard University**, *Fall 2002 - Spring 2006*
-    * Ph.D. Physics, "[Symmetry Breaking at the Energy Frontier](http://inspirehep.net/record/738871)", *June 2006* 
+    * Ph.D. Physics, "[Symmetry Breaking at the Energy Frontier](http://inspirehep.net/record/738871){:target="_blank"}", *June 2006* 
     * A.M. Physics, *June 2004*
     * Advisor:  Nima Arkani-Hamed
 
@@ -91,7 +91,7 @@ aside:
 
 {% for award in site.data.bio.awards -%}
   {%- if award.url %}
-  * **[{{award.name}}]({{award.url}})**, *{{award.org}}*, *{{award.date}}*
+  * **[{{award.name}}]({{award.url}}){:target="_blank"}**, *{{award.org}}*, *{{award.date}}*
   {%- else %}
   * **{{award.name}}**, *{{award.org}}*, *{{award.date}}*
   {%- endif %}
@@ -99,13 +99,13 @@ aside:
 
 ## Mentoring
 
-[Research Group](group){:.button.button--outline-primary.button--pill.button--sm}
-[Joining My Group](join){:.button.button--outline-primary.button--pill.button--sm}
+[Research Group](group){:.button.button--secondary.button--pill.button--sm}
+[Joining My Group](join){:.button.button--secondary.button--pill.button--sm}
 
 ### Postdoctoral Researchers
 
 {% for person in site.data.mentoring.postdocs -%}
-  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %}; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %}; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
     * {{award.name}}, *{{award.org}}, {{award.date}}*  
   {%- endfor %}{% endif %}
@@ -120,7 +120,7 @@ aside:
 ### Ph.D. Students
 
 {% for person in site.data.mentoring.phd_students -%}
-  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}Ph.D.{% else %}anticipated Ph.D.{% endif %} {{person.date}}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}Ph.D.{% else %}anticipated Ph.D.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
@@ -135,7 +135,7 @@ aside:
 ### M.Eng. Students
 
 {% for person in site.data.mentoring.meng_students -%}
-  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}M.Eng.{% else %}anticipated M.Eng.{% endif %} {{person.date}}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}M.Eng.{% else %}anticipated M.Eng.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
@@ -151,7 +151,7 @@ aside:
 ### B.S. Students
 
 {% for person in site.data.mentoring.bs_students -%}
-  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis or person.graduated %}B.S.{% else %}anticipated B.S.{% endif %} {{person.date}}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis or person.graduated %}B.S.{% else %}anticipated B.S.{% endif %} {{person.date}}
   {%- if person.thesis %}
       * Senior Thesis, {{person.thesis_dates}}:  {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}     {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
   {%- if person.independent %}
@@ -171,7 +171,7 @@ aside:
 ### Visitors
 
 {% for person in site.data.mentoring.visitors -%}
-  {% if person.url %}  * **[{{person.name}}]({{person.url}})**,{% else %}  * **{{person.name}}**,{% endif %} {{person.program}}, *{{person.dates}}*
+  {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {{person.program}}, *{{person.dates}}*
   {%- if person.project %}
       * Project: "{{person.project}}" {% endif %}
   {%- if person.home %}
@@ -188,44 +188,44 @@ aside:
 ### MIT
 
   * **8.398 --- Selected Topics in Graduate Physics**
-    * Instructor:  [Spring 2021](https://canvas.mit.edu/courses/7673), [Fall 2021](https://canvas.mit.edu/courses/11329), [Spring 2022](https://canvas.mit.edu/courses/13866), [Fall 2022](https://canvas.mit.edu/courses/16823), [Spring 2023](https://canvas.mit.edu/courses/19643)
+    * Instructor:  [Spring 2021](https://canvas.mit.edu/courses/7673){:target="_blank"}, [Fall 2021](https://canvas.mit.edu/courses/11329){:target="_blank"}, [Spring 2022](https://canvas.mit.edu/courses/13866){:target="_blank"}, [Fall 2022](https://canvas.mit.edu/courses/16823){:target="_blank"}, [Spring 2023](https://canvas.mit.edu/courses/19643){:target="_blank"}
 
   * **8.03 --- Physics III, Waves & Vibrations**
-    * Recitation:  [Fall 2020](https://canvas.mit.edu/courses/4560)
+    * Recitation:  [Fall 2020](https://canvas.mit.edu/courses/4560){:target="_blank"}
 
   * **8.044 --- Statistical Physics I**
-    * Recitation:  [Spring 2020](http://stellar.mit.edu/S/course/8/sp20/8.044/)
+    * Recitation:  [Spring 2020](http://stellar.mit.edu/S/course/8/sp20/8.044/){:target="_blank"}
   
   * **8.831 --- Supersymmetric Quantum Field Theories**
-      * Lecture:  [Spring 2017](http://stellar.mit.edu/S/course/8/sp17/8.831/), [Fall 2019](http://stellar.mit.edu/S/course/8/fa19/8.831/)
+      * Lecture:  [Spring 2017](http://stellar.mit.edu/S/course/8/sp17/8.831/){:target="_blank"}, [Fall 2019](http://stellar.mit.edu/S/course/8/fa19/8.831/){:target="_blank"}
 
   * **8.051 --- Quantum Mechanics II (MITx-based)**
-    * Instructor:  [Spring 2018](http://stellar.mit.edu/S/course/8/sp18/8.051/)
+    * Instructor:  [Spring 2018](http://stellar.mit.edu/S/course/8/sp18/8.051/){:target="_blank"}
 
   * **8.033 --- Relativity**
-    * Lecture: [Fall 2017](http://stellar.mit.edu/S/course/8/fa17/8.033/)
-    * Recitation:  [Fall 2016](http://stellar.mit.edu/S/course/8/fa16/8.033/)
+    * Lecture: [Fall 2017](http://stellar.mit.edu/S/course/8/fa17/8.033/){:target="_blank"}
+    * Recitation:  [Fall 2016](http://stellar.mit.edu/S/course/8/fa16/8.033/){:target="_blank"}
 
   * **8.02 --- Physics II, Electricity & Magnetism** 
-    * TEAL:  [Spring 2014](http://stellar.mit.edu/S/course/8/sp14/8.02/), [Spring 2015](http://stellar.mit.edu/S/course/8/sp15/8.02/), [Spring 2016](http://stellar.mit.edu/S/course/8/sp16/8.02/)
+    * TEAL:  [Spring 2014](http://stellar.mit.edu/S/course/8/sp14/8.02/){:target="_blank"}, [Spring 2015](http://stellar.mit.edu/S/course/8/sp15/8.02/){:target="_blank"}, [Spring 2016](http://stellar.mit.edu/S/course/8/sp16/8.02/){:target="_blank"}
 
   * **8.012 --- Physics I, Classical Mechanics** 
-    * Recitation: [Fall 2014](http://stellar.mit.edu/S/course/8/fa14/8.012/)
+    * Recitation: [Fall 2014](http://stellar.mit.edu/S/course/8/fa14/8.012/){:target="_blank"}
 
   * **8.06 --- Quantum Mechanics III**
-    * Lecture: [Spring 2011](http://stellar.mit.edu/S/course/8/sp11/8.06/), [Spring 2012](http://stellar.mit.edu/S/course/8/sp12/8.06/), [Spring 2013](http://stellar.mit.edu/S/course/8/sp13/8.06/)
-    * Recitation: [Spring 2010](http://stellar.mit.edu/S/course/8/sp10/8.06/)
+    * Lecture: [Spring 2011](http://stellar.mit.edu/S/course/8/sp11/8.06/){:target="_blank"}, [Spring 2012](http://stellar.mit.edu/S/course/8/sp12/8.06/){:target="_blank"}, [Spring 2013](http://stellar.mit.edu/S/course/8/sp13/8.06/){:target="_blank"}
+    * Recitation: [Spring 2010](http://stellar.mit.edu/S/course/8/sp10/8.06/){:target="_blank"}
 
   * **8.05 --- Quantum Mechanics II**
-    * Recitation: [Fall 2010](http://stellar.mit.edu/S/course/8/fa10/8.05/), [Fall 2012](http://stellar.mit.edu/S/course/8/fa12/8.05/)
+    * Recitation: [Fall 2010](http://stellar.mit.edu/S/course/8/fa10/8.05/){:target="_blank"}, [Fall 2012](http://stellar.mit.edu/S/course/8/fa12/8.05/){:target="_blank"}
 
 ### Guest Lectures
 
-  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2022*
-  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf), 8.S50 (Computational Data Science in Physics), *IAP 2021*
-  * ["The Hidden Geometry of Particle Collisions"](http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_8_398.pdf), 8.398 (Selected Topics in Graduate Physics), *Fall 2020*
-  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_11_JetLecture_8_701.pdf), 8.701 (Introduction to Nuclear and Particle Physics), *Fall 2019*
-  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_10_JetLecture_8_811.pdf), 8.811 (Particle Physics II), *Fall 2019*
+  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf){:target="_blank"}, 8.S50 (Computational Data Science in Physics), *IAP 2022*
+  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf){:target="_blank"}, 8.S50 (Computational Data Science in Physics), *IAP 2021*
+  * ["The Hidden Geometry of Particle Collisions"](http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_8_398.pdf){:target="_blank"}, 8.398 (Selected Topics in Graduate Physics), *Fall 2020*
+  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_11_JetLecture_8_701.pdf){:target="_blank"}, 8.701 (Introduction to Nuclear and Particle Physics), *Fall 2019*
+  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_10_JetLecture_8_811.pdf){:target="_blank"}, 8.811 (Particle Physics II), *Fall 2019*
 
 ### Before MIT
 
@@ -237,11 +237,11 @@ aside:
 
 ## Publications & Preprints
 
-[Publications by Topic](research){:.button.button--outline-primary.button--pill.button--sm}
-[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
-[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}
-[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
-[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
+[Publications by Topic](research){:.button.button--secondary.button--pill.button--sm}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
 
 {% for year in site.data.papers.years %}
 #### {{year}}
@@ -249,7 +249,7 @@ aside:
 {% if year == paper.year -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
-    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}){:target="_blank"}, {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}.
 {%- endif %}
 {% endfor %}
 {% endfor %}
@@ -260,7 +260,7 @@ aside:
 {% for paper in site.data.papers.conference -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
-    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}), {% endif %} {% if paper.journal_url %}  [{{paper.journal}}]({{paper.journal_url}}), {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}){:target="_blank"}, {% endif %} {% if paper.journal_url %}  [{{paper.journal}}]({{paper.journal_url}}){:target="_blank"}, {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
 {% endfor%}
 
 ### Incidental Authorship
@@ -268,10 +268,10 @@ aside:
 {% for paper in site.data.papers.incidental -%}
   * **{{paper.title}}**. \\
     {{paper.authors}}.\\
-    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}){% endif %}
-    {%- if paper.journal_url %}  [{{paper.journal}}]({{paper.journal_url}}){% endif %}
+    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}){:target="_blank"}{% endif %}
+    {%- if paper.journal_url %}  [{{paper.journal}}]({{paper.journal_url}}){:target="_blank"}{% endif %}
     {%- if paper.arxiv and paper.doi or paper.journal_url-%}, {% endif %}
-    {%- if paper.arxiv %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}){% endif %}.
+    {%- if paper.arxiv %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}{% endif %}.
 {% endfor %}
 
 
@@ -280,8 +280,8 @@ aside:
 ### Public Lectures
 
 {% for talk in site.data.talks.public -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{%- endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{%- endif %},
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
@@ -290,14 +290,14 @@ aside:
 ### Lecture Series & Schools
 
 {% for talk in site.data.talks.schools -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}
       {%- if talk.parts %} (
       {%- for part in talk.parts -%}
-        {% if part.url %}**[{{part.title}}]({{part.url}})**{% else %}**{{part.title}}**{% endif %}
+        {% if part.url %}**[{{part.title}}]({{part.url}}){:target="_blank"}**{% else %}**{{part.title}}**{% endif %}
       {%- if forloop.last != true-%}, {% endif -%}{% endfor -%}
       )
       {%- endif -%},
-   {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
+   {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
@@ -305,16 +305,16 @@ aside:
 ### Colloquia
 
 {% for talk in site.data.talks.colloquia -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Invited Talks
 
 {% for talk in site.data.talks.invited -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}
     {%- if talk.collab %} (with {{talk.collab}}), {% else %}, {% endif %}
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
@@ -322,7 +322,7 @@ aside:
 ### Seminars
 
 {% for talk in site.data.talks.seminars -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %},
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %},
     {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
@@ -331,15 +331,15 @@ aside:
 ### Local Presentations
 
 {% for talk in site.data.talks.local -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"}{% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
 
 ### Additional Events
 
 {% for talk in site.data.talks.additional -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}})**{% elsif talk.panelist %}**Panelist**{% elsif talk.convener %}**Convener**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
+  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% elsif talk.panelist %}**Panelist**{% elsif talk.convener %}**Convener**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
+    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
@@ -347,17 +347,17 @@ aside:
 
 ## Research Grants
 
-  * AI Research Institute, "[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](http://iaifi.org/)", *National Science Foundation, 2020-2025* ($20M)
+  * AI Research Institute, "[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](http://iaifi.org/){:target="_blank"}", *National Science Foundation, 2020-2025* ($20M)
   * MIT-Israel Zuckerman STEM Fund Award (with Tracy Slatyer, Tomer Volansky, and Yotam Soreq), "The Quest for Dark Matter Interactions", *MIT International Science and Technology Initiative, 2020-2021* ($25.5k)
   * PIER Hamburg-MIT Seed Project (with Gregor Kasieczka, Phil Harris, Andreas Hinzmann, Roman Kogler, Iain Stewart), "Probing the Standard Model with Jet Substructure", *Partnership for Innovation, Education and Research, 2019-2020* (€17k)
-  * Quantum Information Science (QuantISED) Award (with Aram Harrow), "[Quantum Algorithms for Collider Physics](https://doi.org/10.2172/1688696)", *U.S. Department of Energy, Office of High Energy Physics, 2018-2020* ($264k)
+  * Quantum Information Science (QuantISED) Award (with Aram Harrow), "[Quantum Algorithms for Collider Physics](https://doi.org/10.2172/1688696){:target="_blank"}", *U.S. Department of Energy, Office of High Energy Physics, 2018-2020* ($264k)
   * Simons Fellowship, "Theoretical Investigations In and Beyond the Standard Model", *Simons Foundation, 2018-2019* ($143k)
-  * Comparative Review Funding Award, "[Boosting the Search for New Physics at the Frontiers](https://doi.org/10.2172/1361051)", *U.S. Department of Energy, Office of High Energy Physics, 2016-2017* ($120k)
+  * Comparative Review Funding Award, "[Boosting the Search for New Physics at the Frontiers](https://doi.org/10.2172/1361051){:target="_blank"}", *U.S. Department of Energy, Office of High Energy Physics, 2016-2017* ($120k)
   * The Charles E. Reed Faculty Initiatives Fund, "Boosting Jet Physics with Archival Collider Data", *MIT Research Support Committee, 2015-2017* ($75k) 
   * MIT-Belgium Seed Fund Award (with Fabio Maltoni), "Beyond the Standard Model at the LHC", *MIT International Science and Technology Initiative, 2013-2014* ($23.1k)
   * Sloan Research Fellowship, *Alfred P. Sloan Foundation, 2013-2016* ($50k)
   * Global Seed Fund Award (with Iain Stewart, Andre Hoang, and Gavin Salam), "Probing a New Energy Frontier with Jets at the Large Hadron Collider", *MIT International Science and Technology Initiative, 2012-2013* ($15k)
-  * Early Career Research Award, "[Interpreting New Data from the Energy Frontier](https://doi.org/10.2172/1326460)", *U.S. Department of Energy, Office of Science, 2011-2016* ($750k)
+  * Early Career Research Award, "[Interpreting New Data from the Energy Frontier](https://doi.org/10.2172/1326460){:target="_blank"}", *U.S. Department of Energy, Office of Science, 2011-2016* ($750k)
   * Cooperative Research Agreement, “Laboratory for Nuclear Science, High Energy Physics Program: Task C, Center for Theoretical Physics”, *U.S. Department of Energy, Office of Science*
 
 ## Service
@@ -372,7 +372,7 @@ aside:
 
 #### MIT Faculty
 
-  * [MIT Faculty Committee on Curricula](https://registrar.mit.edu/faculty-curriculum-support/faculty-curriculum-committees/committee-curricula) (Fall 2017-Spring 2020)
+  * [MIT Faculty Committee on Curricula](https://registrar.mit.edu/faculty-curriculum-support/faculty-curriculum-committees/committee-curricula){:target="_blank"} (Fall 2017-Spring 2020)
   * MIT First-Year Advisor (Fall 2019-Spring 2020)
     * Class of 2023:  Richter Brzeski, Megha Maran, Catalina Monsalve Rodriguez, Dylan Weber
 
@@ -380,10 +380,10 @@ aside:
 
   * MIT Physics Ad Hoc Committee on Graduate Student Professional Development (Spring 2022)
   * MIT Physics Graduate Admissions Committee (Spring 2021)
-  * MIT Physics [Communic.8 Faculty Liaison](https://piazza.com/mit/fall2020/communic8) (Fall 2020-present)
+  * MIT Physics [Communic.8 Faculty Liaison](https://piazza.com/mit/fall2020/communic8){:target="_blank"} (Fall 2020-present)
   * MIT Physics Qualifying Exam, Written Exam Grading Committee (January 2020)
   * MIT Physics Promotion Committee (Fall 2019, Fall 2020, Fall 2021, Fall 2022, Chair: Fall 2020, Fall 2021, Fall 2022)
-  * MIT Physics [Pappalardo Fellowships Executive Committee](http://web.mit.edu/Physics/research/pappalardo/index.html) (Fall 2016-Fall 2017)
+  * MIT Physics [Pappalardo Fellowships Executive Committee](http://web.mit.edu/Physics/research/pappalardo/index.html){:target="_blank"} (Fall 2016-Fall 2017)
   * MIT Physics Colloquium Committee (Spring 2010-Spring 2014, Chair: Fall 2012-Spring 2014)
   * MIT Physics Graduate Academic Advisor (Fall 2017-present)
     * Anticipated Ph.D. 2025:  Ryan Abbott
@@ -416,7 +416,7 @@ aside:
 
 #### MIT Statistics and Data Science Center
 
-  * [MIT Physics, Statistics, and Data Science (PhysSDS) Committee](https://web.mit.edu/physics/current/graduate/psds_phd.html) (Co-Chair: Fall 2020 - present)
+  * [MIT Physics, Statistics, and Data Science (PhysSDS) Committee](https://web.mit.edu/physics/current/graduate/psds_phd.html){:target="_blank"} (Co-Chair: Fall 2020 - present)
 
 #### MIT International Science and Technology Initiatives
 
@@ -451,17 +451,17 @@ aside:
     * Organizer, Summer Workshop, "Interplay of Fundamental Physics and Machine Learning" (Summer 2022)
     * Nominations Committee (Summer 2021; Chair, Summer 2022; Ex officio, Summer 2023)
     * Summer Program Committee (Summer 2020)
-  * Topical Convener in [Collider Phenomenology](https://snowmass21.org/theory/phenomenology), [Snowmass Theory Frontier](https://snowmass21.org/theory/start) (July 2021, July 2022)
-  * Organizer, GGI Workshop: "[Machine Learning at GGI](https://agenda.infn.it/event/32043/)" (August/September 2022)
-  * Advisory Committee and Ombuds Team (with Ayana Arce), Online Workshop:  "[Boost 2021](https://indico.cern.ch/event/1037559/)" (August 2021)
-  * Advisory Committee, Heidelberg Workshop:  "[ML4Jets](https://indico.cern.ch/event/980214/)" (July 2021)
-  * Organizer, Fermilab Remote Workshop:  "[CMS Open Data for Theorists](https://indico.cern.ch/e/CMSOpenDataForTheorists)" (September 2020)
-  * Advisory Committee and Ombuds Team (with Ayana Arce), Hamburg Workshop:  "[Boost 2020](https://indico.cern.ch/e/boost2020)" (July 2020)
-  * Advisory Committee, Mainz Workshop:  "[Machine Learning for Particle Physics](https://indico.mitp.uni-mainz.de/event/199/)" (May 2020 → June 2021)
-  * Advisory Committee, New York Workshop:  "[ML4Jets](https://indico.cern.ch/event/809820/)" (January 2020)
-  * Local Organizing Committee, Boston Workshop:  "[Boost 2019](https://indico.cern.ch/e/boost2019)" (July 2019)
-  * Advisory Committee, Paris Workshop:  "[Boost 2018](https://indico.cern.ch/e/boost2018)" (July 2018)
-  * Local Organizing Committee, MIT Workshop: "[Rising Stars in Physics](https://physicsrisingstars.mit.edu/)" (April 2018)
+  * Topical Convener in [Collider Phenomenology](https://snowmass21.org/theory/phenomenology){:target="_blank"}, [Snowmass Theory Frontier](https://snowmass21.org/theory/start){:target="_blank"} (July 2021, July 2022)
+  * Organizer, GGI Workshop: "[Machine Learning at GGI](https://agenda.infn.it/event/32043/){:target="_blank"}" (August/September 2022)
+  * Advisory Committee and Ombuds Team (with Ayana Arce), Online Workshop:  "[Boost 2021](https://indico.cern.ch/event/1037559/){:target="_blank"}" (August 2021)
+  * Advisory Committee, Heidelberg Workshop:  "[ML4Jets](https://indico.cern.ch/event/980214/){:target="_blank"}" (July 2021)
+  * Organizer, Fermilab Remote Workshop:  "[CMS Open Data for Theorists](https://indico.cern.ch/e/CMSOpenDataForTheorists){:target="_blank"}" (September 2020)
+  * Advisory Committee and Ombuds Team (with Ayana Arce), Hamburg Workshop:  "[Boost 2020](https://indico.cern.ch/e/boost2020){:target="_blank"}" (July 2020)
+  * Advisory Committee, Mainz Workshop:  "[Machine Learning for Particle Physics](https://indico.mitp.uni-mainz.de/event/199/){:target="_blank"}" (May 2020 → June 2021)
+  * Advisory Committee, New York Workshop:  "[ML4Jets](https://indico.cern.ch/event/809820/){:target="_blank"}" (January 2020)
+  * Local Organizing Committee, Boston Workshop:  "[Boost 2019](https://indico.cern.ch/e/boost2019){:target="_blank"}" (July 2019)
+  * Advisory Committee, Paris Workshop:  "[Boost 2018](https://indico.cern.ch/e/boost2018){:target="_blank"}" (July 2018)
+  * Local Organizing Committee, MIT Workshop: "[Rising Stars in Physics](https://physicsrisingstars.mit.edu/){:target="_blank"}" (April 2018)
   * Advisory Committee, Buffalo Workshop:  "Boost 2017" (July 2017)
   * Jet Convener, Les Houches Workshop:  "Physics at TeV Colliders" (June 2017)
   * Advisory Committee, Cleveland Workshop:  "BLV 2017" (May 2017)
@@ -484,25 +484,25 @@ aside:
 
 #### Scientific Advising
 
-  * [High Energy Physics Advisory Panel (HEPAP)](https://science.osti.gov/hep/hepap)
+  * [High Energy Physics Advisory Panel (HEPAP)](https://science.osti.gov/hep/hepap){:target="_blank"}
     * Member, HEPAP, *August 2021 - March 2024*
     * Member, Particle Physics Project Prioritization Panel (P5), *December 2022 - October 2023*
-    * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](http://www.jthaler.net/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf), [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/202012), *December 2020*
-    * ["The High Energy Physics Landscape in 2019"](http://www.jthaler.net/talks/jthaler_2019_05_HEPAP.pdf), [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/201905), *May 2019*
+    * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](http://www.jthaler.net/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/202012){:target="_blank"}, *December 2020*
+    * ["The High Energy Physics Landscape in 2019"](http://www.jthaler.net/talks/jthaler_2019_05_HEPAP.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/201905){:target="_blank"}, *May 2019*
   * Sakurai Dissertation Award Selection Committee, American Physical Society, *Fall 2016, Fall 2022, Fall 2023; Chair: Fall 2023*
-  * International Scientific Advisory Board, [AI for Science and Science for AI (AISSAI) Center](https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center), French CNRS, *2022 - present*
+  * International Scientific Advisory Board, [AI for Science and Science for AI (AISSAI) Center](https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center){:target="_blank"}, French CNRS, *2022 - present*
   * International Advisory Committee, Grant-in-Aid for Transformative Research Areas, JSPS/MEXT Japan, *2022 - 2026*
   * Science Advisory Board, USQCD Collaboration, *Spring 2013 - Fall 2016*
   * LHC Theory Initiative, Fellowship Selection Committee, *Fall 2013 - Fall 2014; Chair: Fall 2014*
 
 #### Peer Review
 
-  * [Journal of High Energy Physics](https://jhep.sissa.it/)
+  * [Journal of High Energy Physics](https://jhep.sissa.it/){:target="_blank"}
     * Editorial Board, *Fall 2019 - present*
-  * [SciPost Physics](https://scipost.org/SciPostPhys)
+  * [SciPost Physics](https://scipost.org/SciPostPhys){:target="_blank"}
     * Editorial College, *Fall 2019 - present*
   * Frontiers of Artificial Intelligence
-    * Co-Topic Editor, ["Efficient AI in Particle Physics and Astrophysics"](https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics), *Spring 2022*
+    * Co-Topic Editor, ["Efficient AI in Particle Physics and Astrophysics"](https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics){:target="_blank"}, *Spring 2022*
   * Physical Review Letters
   * Physical Review D
   * Journal of Cosmology and Astroparticle Physics
@@ -533,13 +533,13 @@ aside:
 
 ## Public Engagement
  
-[Engagement Portfolio](engagement){:.button.button--outline-primary.button--pill.button--sm} 
-[IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill.button--sm}
+[Engagement Portfolio](engagement){:.button.button--secondary.button--pill.button--sm} 
+[IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
  
 {% for entry in site.data.public.entries %}
   * {{entry.markdown}}
 {%- endfor %}
-  * Appearance in Documentary Film, **["Particle Fever"](https://www.imdb.com/title/tt1385956/)**, 2013 
+  * Appearance in Documentary Film, **["Particle Fever"](https://www.imdb.com/title/tt1385956/){:target="_blank"}**, 2013 
     * After film Q&A, BOOST 2015 Workshop Public Event, August 2015
     * After film Q&A, MIT Lecture Series Committee, September 2014
     * After film Q&A, Portsmouth Music Hall, May 2014
@@ -558,20 +558,20 @@ aside:
 
 ## Graphic Design
 
-[Design Portfolio](personal#graphic-design){:.button.button--outline-primary.button--pill.button--sm}
+[Design Portfolio](personal#graphic-design){:.button.button--secondary.button--pill.button--sm}
 
-  * **[Banner Design](design/jthaler_IAIFI_Banner.jpg)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*  (based on artwork by [agsandrew](https://agsandrew.myportfolio.com/) - stock.adobe.com)
-  * **[Logo Design](design/jthaler_IAIFI_Logo.pdf)**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/), *August 2020*
-  * **[Logo Design](design/jthaler_OmniFold_Logo.pdf)**, [OmniFold](https://github.com/ericmetodiev/OmniFold/), *MIT, November 2019*
-  * **[Poster Design](design/jthaler_BOOST2019_Poster.pdf)** ([with bleeds](design/jthaler_BOOST2019_Poster_Bleed.pdf)), [BOOST 2019 Workshop](https://indico.cern.ch/e/boost2019), *MIT, July 2019*
-  * **[Logo Design](design/jthaler_ABRALogo_Large.pdf)** ([Alt.](design/jthaler_ABRALogo_Medium.pdf), [A.](design/jthaler_ABRALogo_Small.pdf)), [ABRACADABRA Experiment](http://abracadabra.mit.edu/), *MIT, August 2017*
-  * **[Logo Design](design/jthaler_MOD_Logo.pdf)** ([Event Display](design/jthaler_MOD_EventDisplay.pdf)), MIT Open Data, *MIT, July 2015*
-  * **[Logo Design](design/jthaler_DarkLight_Logo.pdf)**, [DarkLight Experiment](http://dmtpc.mit.edu/DarkLight/), *MIT, September 2010*
+  * **[Banner Design](design/jthaler_IAIFI_Banner.jpg){:target="_blank"}**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/){:target="_blank"}, *August 2020*  (based on artwork by [agsandrew](https://agsandrew.myportfolio.com/{:target="_blank"}) - stock.adobe.com)
+  * **[Logo Design](design/jthaler_IAIFI_Logo.pdf){:target="_blank"}**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/){:target="_blank"}, *August 2020*
+  * **[Logo Design](design/jthaler_OmniFold_Logo.pdf){:target="_blank"}**, [OmniFold](https://github.com/ericmetodiev/OmniFold/){:target="_blank"}, *MIT, November 2019*
+  * **[Poster Design](design/jthaler_BOOST2019_Poster.pdf){:target="_blank"}** ([with bleeds](design/jthaler_BOOST2019_Poster_Bleed.pdf){:target="_blank"}), [BOOST 2019 Workshop](https://indico.cern.ch/e/boost2019), *MIT, July 2019*
+  * **[Logo Design](design/jthaler_ABRALogo_Large.pdf){:target="_blank"}** ([Alt.](design/jthaler_ABRALogo_Medium.pdf){:target="_blank"}, [A.](design/jthaler_ABRALogo_Small.pdf){:target="_blank"}), [ABRACADABRA Experiment](http://abracadabra.mit.edu/), *MIT, August 2017*
+  * **[Logo Design](design/jthaler_MOD_Logo.pdf){:target="_blank"}** ([Event Display](design/jthaler_MOD_EventDisplay.pdf){:target="_blank"}), MIT Open Data, *MIT, July 2015*
+  * **[Logo Design](design/jthaler_DarkLight_Logo.pdf){:target="_blank"}**, [DarkLight Experiment](http://dmtpc.mit.edu/DarkLight/){:target="_blank"}, *MIT, September 2010*
 
 
 ## Memberships
 
 {% for membership in site.data.service.memberships %}
-  * **[{{membership.name}}]({{membership.url}})** 
+  * **[{{membership.name}}]({{membership.url}}){:target="_blank"}** 
 {%- endfor %}
 

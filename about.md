@@ -16,11 +16,13 @@ aside:
   </div>
 </div>
 
-[Personal Page](personal){:.button.button--outline-primary.button--pill.button--sm}
-[Press Information](press){:.button.button--outline-primary.button--pill.button--sm}
-[MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill.button--sm}
-[Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--outline-primary.button--pill.button--sm}
-[Full CV](cv){:.button.button--outline-primary.button--pill.button--sm}
+[Personal Page](personal){:.button.button--secondary.button--pill.button--sm}
+[Press Information](press){:.button.button--secondary.button--pill.button--sm}
+[Full CV](cv){:.button.button--secondary.button--pill.button--sm}
+[MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+
+
 
 ## Education
 
@@ -56,14 +58,14 @@ aside:
 
 ## Selected Publications
 
-[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}
-[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}
-[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}
-[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
 
 {% for paper in site.data.papers.papers -%}
   {%- if paper.priority >= 6 %}
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}})** \\
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}** \\
     *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
   {%- endif -%}
 {% endfor %}
@@ -74,7 +76,7 @@ aside:
 <summary><b>Profiles and Highlights</b></summary>
 
 {% for news in site.data.news.profiles -%}
-  * [{{news.title}}]({{news.url}})
+  * "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
@@ -84,7 +86,7 @@ aside:
 <summary><b>Awards and Honors</b></summary>
 
 {% for news in site.data.news.awards -%}
-  * **{{news.short}}**:  "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
+  * **{{news.short}}**:  "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
@@ -94,7 +96,7 @@ aside:
 <summary><b>Quotations and Perspectives</b></summary>
 
 {% for news in site.data.news.perspectives -%}
-  * "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
+  * "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
 {%- if news.quote %}
   > *{{news.quote}}*
 {%- endif %}
@@ -109,7 +111,7 @@ aside:
 <summary><b>Group Members in the News</b></summary>
 
 {% for news in site.data.news.group_news -%}
-  * **{{news.person}}**:  "[{{news.title}}]({{news.url}})", *{{news.journal}}, {{news.date}}*
+  * **{{news.person}}**:  "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
