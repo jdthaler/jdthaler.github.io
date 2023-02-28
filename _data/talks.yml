@@ -78,6 +78,7 @@ colloquia:
   
   - title: "Collision Course:  Particle Physics meets Machine Learning"
     url: talks/jthaler_2020_11_EMD_Colloquium_Israel.pdf
+    video: https://youtu.be/FdqElQTyufU
     event: Physics Colloquium
     org: All Israel
     date: November 2020
@@ -249,6 +250,7 @@ public:
 
   - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
     url: talks/jthaler_2023_01_19_NSF_Lecture.pdf
+    video:  https://www.youtube.com/live/P1ndOdT-wTY?feature=share
     event:  Distinguished Lecture
     org: National Science Foundation
     date: January 2023
@@ -256,6 +258,7 @@ public:
 
   - title: "Artificial Intelligence Meets Fundamental Physics"
     url: talks/jthaler_2021_03_EmTech_InsideTrack.pdf
+    video: https://youtu.be/XWam4Cd3y1Y
     event: MIT Inside Track Master Class
     event_url: https://event.technologyreview.com/emtech-digital-2021/
     org: EmTech Digital
@@ -285,6 +288,7 @@ public:
   
   - title: "Confronting the Invisible Universe"
     url: https://www.youtube.com/watch?v=QNmSNY8VenQ
+    video: https://youtu.be/QNmSNY8VenQ
     event: Public Talk
     org: Aspen Center for Physics
     date: March 2017
@@ -377,6 +381,7 @@ schools:
     date: June 2014
   
   - title: "Jet Substructure"
+    video: https://youtu.be/o5VTjNyDxhU
     event: PiTP Summer School
     org: Princeton
     date: July 2013
@@ -416,6 +421,7 @@ invited:
 
   - title: "Weak Supervision for the Strong Force"
     url: talks/jthaler_2022_07_KIAS_Summer_School.pdf
+    video: https://youtu.be/y-TLIQbDGjo
     event: QUC Summer School
     event_url: http://events.kias.re.kr/h/QUCAI2022/
     org: KIAS
@@ -423,6 +429,7 @@ invited:
     virtual: true
   
   - title: "Weak Supervision for the Strong Force"
+    video: https://youtu.be/1VXPtTuAHuA
     url: talks/jthaler_2022_06_PhysicsMeetsML.pdf
     event: Physics Meets ML
     event_url: http://www.physicsmeetsml.org/posts/sem_2022_06_01/
@@ -446,6 +453,7 @@ invited:
     
   - title: "Machine Learning for the Theory Frontier"
     url: talks/jthaler_2022_02_KITP_Snowmass_2022.pdf
+    video: https://youtu.be/O1eznZWGzzA
     event: Snowmass Theory Frontier Conference
     event_url: https://www.kitp.ucsb.edu/activities/snowmass-c22
     org: KITP
@@ -495,6 +503,7 @@ invited:
   
   - title: "Deep Learning for Collider Physics Simulation"
     url: talks/jthaler_2021_05_ICLR_Simulation.pdf
+    video: https://slideslive.com/38955317
     event: Deep Learning for Simulation (SimDL)
     event_url: https://simdl.github.io/schedule/
     org: ICLR Workshop
@@ -535,6 +544,7 @@ invited:
   
   - title: "Collider Physics and Machine Learning"
     url: talks/jthaler_2020_12_IFT_Xmas.pdf
+    video: https://youtu.be/afE6dLeFn8I
     event: XXVI  Christmas Workshop
     event_url: https://workshops.ift.uam-csic.es/Xmas20
     org: IFT
@@ -542,6 +552,7 @@ invited:
     virtual: true
   
   - title: "Collision Course:  Artificial Intelligence meets Fundamental Interactions"
+    video: https://youtu.be/3Pw62iR7mko
     url: talks/jthaler_2020_11_IAIFI_GeorgiaTech.pdf
     event: IDEaS AI Seminar
     org: Georgia Tech
@@ -892,6 +903,7 @@ seminars:
   
   - title: "Quantum (Inspired) Algorithms for Collider Physics"
     url: talks/jthaler_2021_11_QuantHEP.pdf
+    video: https://www.youtube.com/live/aCW0q0jQ0fY?feature=share
     event: QuantHEP Seminar
     event_url: http://quanthep-seminar.org/session/session-13/
     org: Lisbon
@@ -908,6 +920,7 @@ seminars:
   
   - title: "The Hidden Geometry of Particle Collisions"
     url: talks/jthaler_2021_06_HiddenGeometry_GGI.pdf
+    video: https://youtu.be/PI8EJ5_Ep28
     event: Tea Break Seminar
     event_url: https://www.ggi.infn.it/images/TeaBreaks/Jesse_v1.jpg
     org: GGI
@@ -970,6 +983,7 @@ seminars:
   
   - title: "The Hidden Geometry of Particle Collisions"
     url: talks/jthaler_2020_11_HiddenGeometry_UCDavis.pdf
+    video: https://youtu.be/F04cSwC2ruo
     event: Seminar
     org: U.C. Davis
     date: November 2020
@@ -998,6 +1012,7 @@ seminars:
   
   - title: "The Hidden Geometry of Particle Collisions"
     url: talks/jthaler_2020_06_TIFR_FreeMeson.pdf
+    video: https://youtu.be/HAQ0tVZMJkw
     event: Seminar
     org: TIFR
     date: June 2020
@@ -1566,6 +1581,7 @@ additional:
   
   - title: "Machine Learning for High Energy Physics"
     url: talks/jthaler_2022_08_GGI_Snowmass.pdf
+    video: https://youtu.be/0auRpwSZ8xQ
     event: Machine Learning at GGI
     event_url: https://www.ggi.infn.it/showevent.pl?id=411
     org: GGI
