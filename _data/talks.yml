@@ -412,6 +412,13 @@ schools:
 
 invited:
 
+  - title: "Learning Uncertainties the Frequentist Way"
+    url: jthaler_2023_02_28_ACP_Uncertainty.pdf
+    event: Theoretical Physics for Machine Learning
+    event_url: https://sites.google.com/view/phys4ml-2023/
+    org: Aspen Center for Physics
+    date: February 2023
+
   - title: "The Frontiers of Phenomenological Theory"
     url: talks/jthaler_2022_07_Snowmass_Pheno.pdf
     event: Snowmass Community Summer Study
