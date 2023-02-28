@@ -23,6 +23,13 @@ years:
   
 papers:
 
+  - title:  "SHAPER: Can You Hear the Shape of a Jet?"
+    authors:  Demba Ba, Akshunna S. Dogra, Rikab Gambhir, Abiy Tasissa, and Jesse Thaler
+    arxiv: 2302.12266
+    year: 2023
+    topic: point_cloud
+
+
   - title: "EPiC-GAN: Equivariant Point Cloud Generation for Particle Jets"
     authors: Erik Buhmann, Gregor Kasieczka, and Jesse Thaler
     arxiv: 2301.08128
