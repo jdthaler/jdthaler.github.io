@@ -413,7 +413,7 @@ schools:
 invited:
 
   - title: "Learning Uncertainties the Frequentist Way"
-    url: jthaler_2023_02_28_ACP_Uncertainty.pdf
+    url: talks/jthaler_2023_02_28_ACP_Uncertainty.pdf
     event: Theoretical Physics for Machine Learning
     event_url: https://sites.google.com/view/phys4ml-2023/
     org: Aspen Center for Physics
