@@ -1231,11 +1231,13 @@ seminars:
     date: October 2014
   
   - title: "Anomaly Mediation from Unbroken Supergravity"
+    url: talks/jthaler_2014_04_Chicago_Seminar.pdf
     event: Seminar
     org: U. Chicago
     date: April 2014
   
   - title: "Anomaly Mediation from Unbroken Supergravity"
+    url: talks/jthaler_2014_01_Irvine_Seminar.pdf
     event: Seminar
     org: U.C. Irvine
     date: January 2014
@@ -1271,16 +1273,19 @@ seminars:
     date: September 2012
   
   - title: "The Two Faces of Anomaly Mediation"
+    url: talks/jthaler_2012_04_SLAC_Seminar.pdf
     event: Seminar
     org: SLAC
     date: April 2012
   
   - title: "The Two Faces of Anomaly Mediation"
+    url: talks/jthaler_2012_03_Princeton_Seminar.pdf
     event: Seminar
     org: Princeton
     date: March 2012
   
   - title: "The Two Faces of Anomaly Mediation"
+    url: talks/jthaler_2012_03_Rutgers_Seminar.pdf
     event: Seminar
     org: Rutgers
     date: March 2012
