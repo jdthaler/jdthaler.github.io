@@ -491,6 +491,7 @@ meng_students:
     email: wynnera@mit.edu
     image: images/wynne.jpeg
     date: 2023
+    urop: Summer 2021 
     after:
       - title: Physics Ph.D. Candidate
         org: Caltech
@@ -601,7 +602,7 @@ bs_students:
     thesis: "Collinear Supergravity at Linear Order"
     thesis_url:  https://hdl.handle.net/1721.1/138927
     thesis_dates: Fall 2020 - Spring 2021
-    urop: Spring 2020, Summer 2020
+    urop: Spring 2020, Summer 2020, Fall 2020
     after:
       - title: Physics Ph.D. Candidate
         org: Princeton
