@@ -62,6 +62,9 @@ topics:
 
 entries:
 
+  - markdown: '**["Expanding the Space of Machine Learning for Physics"](https://higherlogicdownload.s3.amazonaws.com/APS/e2ac8551-292d-4bb5-8cfc-50c2fc11d7aa/UploadedImages/GDS_Winter23_NL.pdf){:target="_blank"}**, *APS Topical Group on Data Science Newsletter, Winter 2023*'
+    topic: advocacy_ai
+
   - markdown: '**["Designing an AI Physicist"](https://cerncourier.com/a/designing-an-ai-physicist/){:target="_blank"}**, Opinion Viewpoint, *[CERN Courier, September-October 2021](https://cerncourier.com/wp-content/uploads/2021/08/CERNCourier2021SepOct-digitaledition.pdf#CCSepOct21-digital.indd%3A.17586%3A1070){:target="_blank"}*'
     topic: advocacy_ai
 
