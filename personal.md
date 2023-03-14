@@ -124,6 +124,6 @@ In 2020, I become Director of the [Institute for Artificial Intelligence Fundame
 
 ## Archives
 
-[Sasha and Jesse's Wedding](http://wedding.jthaler.net){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
-[jthaler.net (v1)](http://v1.jthaler.net/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
-[jthaler.net (v2)](http://v2.jthaler.net/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[Sasha and Jesse's Wedding](http://wedding.jthaler.net){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[jthaler.net (v1)](http://v1.jthaler.net/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[jthaler.net (v2)](http://v2.jthaler.net/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}

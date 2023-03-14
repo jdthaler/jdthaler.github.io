@@ -22,10 +22,10 @@ aside:
 
 With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[Center for Theoretical Physics (CTP)](http://ctp.mit.edu/)** at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)]([http://iaifi.org/)**.
 
-  * [CTP Postdocs](http://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  Applications for **CTP Postdocs** are typically due **mid-November**.
-  * [Pappalardo Fellowship](https://physics.mit.edu/research/pappalardo-fellowships-in-physics/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  Nominations for the **Pappalardo Fellowship** are typically due in **early September**. 
-  * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  Applications for the **IAIFI Fellowship** are typically due in **mid-October**.
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, please fill out this form to indicate your interest.
+  * [CTP Postdocs](http://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **CTP Postdocs** are typically due **mid-November**.
+  * [Pappalardo Fellowship](https://physics.mit.edu/research/pappalardo-fellowships-in-physics/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Nominations for the **Pappalardo Fellowship** are typically due in **early September**. 
+  * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for the **IAIFI Fellowship** are typically due in **mid-October**.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, please fill out this form to indicate your interest.
 
 ## Ph.D. Students
 
@@ -33,24 +33,24 @@ I anticipate at least one opening for a Ph.D. student in my research group in th
 
 ### Current MIT Students
 
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  **Current MIT Ph.D. students** should fill out this form to indicate your interest.  
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  **Current MIT Ph.D. students** should fill out this form to indicate your interest.  
   
 ### Visiting Students
 
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, you can fill out this form to indicate your interest.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, you can fill out this form to indicate your interest.
   * Visiting PhD students must have full financial support to visit MIT.  **Self-funded visits are not possible**, and I currently do not have funds to support visiting students.
 
 ### Propspective MIT Students
 
-  * [MIT Physics Ph.D. Program](https://physics.mit.edu/academic-programs/graduate-students/graduate-admissions/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  Applications for **prospective MIT Ph.D. students** are due in **mid-December**.  Note that I cannot provide any specific information about the admissions process.
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  Out of fairness to other applicants, I do not meet with prospective students in advance of their application.  You can alert me to your application by filling out this form, though I will typically not respond.
+  * [MIT Physics Ph.D. Program](https://physics.mit.edu/academic-programs/graduate-students/graduate-admissions/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **prospective MIT Ph.D. students** are due in **mid-December**.  Note that I cannot provide any specific information about the admissions process.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Out of fairness to other applicants, I do not meet with prospective students in advance of their application.  You can alert me to your application by filling out this form, though I will typically not respond.
   * If you are admitted, I would be delighted to talk to you about research opportunities in my group at the **[Physics Graduate Open House](https://physics.mit.edu/openhouse/){:target="_blank"}** event typically held in early April.
   * MIT does not have a separate Master's program in Physics, so you should apply to the Ph.D. program.
 
   
 ## M.Eng. Students
 
-  * [MIT EECS MEng Program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  I sometimes work with Master's students through the MIT EECS M.Eng. program.  This program is open to current MIT undergradates in courses 6-1, 6-2, 6-3, 6-4, 6-7, and 6-14.
+  * [MIT EECS MEng Program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  I sometimes work with Master's students through the MIT EECS M.Eng. program.  This program is open to current MIT undergradates in courses 6-1, 6-2, 6-3, 6-4, 6-7, and 6-14.
   * Currently, I am not conducting research with Master's students from other universities.  Students interested in pursuing Master's research with me should consider applying to the MIT Physics Ph.D. program instead.
 
 ## Undergraduates
@@ -59,23 +59,23 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 
 ### Current MIT Students
 
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  **Current MIT B.S. students** should fill out this form to indicate your interest.
-  * [MIT UROP](http://web.mit.edu/UROP/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  Most of my undergraduates get funding through the MIT Undergraduate Research Opportunities Program.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  **Current MIT B.S. students** should fill out this form to indicate your interest.
+  * [MIT UROP](http://web.mit.edu/UROP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Most of my undergraduates get funding through the MIT Undergraduate Research Opportunities Program.
 
 ### Visiting Students
 
-  * [MIT MSRP](https://oge.mit.edu/graddiversity/msrp/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"} The primary way that I work with summer interns is through the MIT Summer Research Program.
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, you can fill out this form to indicate your interest.
+  * [MIT MSRP](https://oge.mit.edu/graddiversity/msrp/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"} The primary way that I work with summer interns is through the MIT Summer Research Program.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, you can fill out this form to indicate your interest.
   * Visiting undergraduate students must have full financial support to visit MIT.  **Self-funded visits are not possible**, and I currently do not have funds to support visiting students.
 
 
 ## High Schoolers
 
-  * [Summer Programs](https://mitadmissions.org/apply/prepare/summer/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  This is a list of recommended summer programs for high school students from the MIT Admissions Office.
+  * [Summer Programs](https://mitadmissions.org/apply/prepare/summer/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  This is a list of recommended summer programs for high school students from the MIT Admissions Office.
   * Currently, I am not conducting research with high school students.
 
 ## Other Opportunities
 
-  * [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}  If you are in a situation that isn't addressed above, please send me a question.
+  * [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you are in a situation that isn't addressed above, please send me a question.
 
 

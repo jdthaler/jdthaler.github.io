@@ -7,7 +7,7 @@ aside:
 ---
 
 
-Have a burning question that isn't answered here?  [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+Have a burning question that isn't answered here?  [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Research
 
@@ -142,7 +142,7 @@ In terms of specific advice, here are three typical suggestions I make at practi
 
 If you have worked with me closely in a research and/or mentoring context, then there is a 99% chance that I'd be delighted to write you a letter of recommendation!  If you only know me from coursework, then I might also be willing to write on your behalf, but you should first think about whether someone else might be better positioned to advocate for you.
 
-I only write strong letters of recommendation.  If I cannot write you a strong letter, I will let you know.  The main question is how strong my letter can be, so please fill out this form so I have all the information I need to write persuasively on your behalf:  [Letter of Recommendation Request](https://forms.gle/enUPnnBsErMQbGDJA){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+I only write strong letters of recommendation.  If I cannot write you a strong letter, I will let you know.  The main question is how strong my letter can be, so please fill out this form so I have all the information I need to write persuasively on your behalf:  [Letter of Recommendation Request](https://forms.gle/enUPnnBsErMQbGDJA){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 I typically need **at least 2 weeks but ideally 4 weeks** to prepare a new letter.  (The actual writing does not take that long, of course, but I receive many letter requests and I need to get sleep at some point.)  If you are asking for a letter on a shorter time frame than that, then still fill out this form, but [contact me ASAP](jthaler@mit.edu) to explain your situation.
 
@@ -197,7 +197,7 @@ So I decided that I really needed to update my website, though exactly how it wi
 <details markdown=1>
 <summary><b>Are you on social media?</b></summary>
 
-Until recently, I haven't used social media personally or professionally.  But at least now I have a [LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"} profile!  My goal is to reach 500 connections by the end of 2023.  Wish me luck!
+Until recently, I haven't used social media personally or professionally.  But at least now I have a [LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--secondary.button--pill.button--sm}{:target="_blank"} profile!
 
  
 </details>

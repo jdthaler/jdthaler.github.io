@@ -10,7 +10,7 @@ aside:
 [Press Information](press){:.button.button--secondary.button--pill.button--sm}
 [Publications by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [Presentations](#presentations){:.button.button--secondary.button--pill.button--sm}
-[PDF CV (May 2022)](pdfs/jthaler_CV_2022_May.pdf){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[PDF CV (May 2022)](pdfs/jthaler_CV_2022_May.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Jesse Diaz Thaler
 
@@ -239,10 +239,10 @@ aside:
 ## Publications & Preprints
 
 [Publications by Topic](research){:.button.button--secondary.button--pill.button--sm}
-[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
-[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
-[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
-[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[Google Scholar](https://scholar.google.com/citations?user=djDP5SMAAAAJ){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 {% for year in site.data.papers.years %}
 #### {{year}}
@@ -535,7 +535,7 @@ aside:
 ## Public Engagement
  
 [Engagement Portfolio](engagement){:.button.button--secondary.button--pill.button--sm} 
-[IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--outline-primary.button--pill.button--sm}{:target="_blank"}
+[IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
  
 {% for entry in site.data.public.entries %}
   * {{entry.markdown}}
