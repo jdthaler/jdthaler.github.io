@@ -22,8 +22,8 @@ Cambridge, MA 02139
 </div>
 </div>
 
-[Joining My Group](join){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
-[jthaler@mit.edu](mailto:jthaler@mit.edu){:.button.button--outline-primary.button--pill.button--sm}
-[Twitter](https://twitter.com/jessethaler){:.button.button--outline-primary.button--pill.button--sm}
-[LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--outline-primary.button--pill.button--sm}
+[Joining My Group](join){:.button.button--secondary.button--pill.button--sm}
+[jthaler@mit.edu](mailto:jthaler@mit.edu){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[Twitter](https://twitter.com/jessethaler){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
