@@ -1366,6 +1366,7 @@ seminars:
     date: November 2009
   
   - title: "Dark Force Detection in Low Energy e-p Collisions"
+    url: talks/jthaler_2009_10_UCDavis_Seminar.pdf
     event: Seminar
     org: U.C. Davis
     date: October 2009
@@ -1396,6 +1397,7 @@ seminars:
     date: April 2009
   
   - title: "Dark Matter through the Axion Portal"
+    url: talks/jthaler_2009_04_Rutgers_Seminar.pdf
     event: Seminar
     org: Rutgers
     date: March 2009
@@ -1406,6 +1408,7 @@ seminars:
     date: February 2009
   
   - title: "Dark Matter through the Axion Portal"
+    url: talks/jthaler_2018_05_Cambridge_Jet_Topics.pdf
     event: Seminar
     org: Cornell
     date: November 2008
@@ -1486,6 +1489,7 @@ seminars:
     date: January 2007
   
   - title: "Unified Frameworks for the LHC"
+    url: talks/jthaler_2006_Seminar.pdf
     event: Seminar
     org: U. Washington
     date: December 2006
@@ -1496,11 +1500,13 @@ seminars:
     date: October 2006
   
   - title: "Unified Frameworks for the LHC"
+    url: talks/jthaler_2006_Seminar.pdf
     event: Seminar
     org: U.C. Davis
     date: October 2006
   
   - title: "Unified Frameworks for the LHC"
+    url: talks/jthaler_2006_Seminar.pdf
     event: Seminar
     org: U.C. Irvine
     date: October 2006
