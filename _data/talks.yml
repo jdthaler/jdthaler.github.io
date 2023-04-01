@@ -419,7 +419,7 @@ schools:
 invited:
 
   - title: "The Hidden Geometry of Particle Collisions"
-    url: jthaler_2023_03_29_HiddenGeometry_ChicagoAI.pdf
+    url: talks/jthaler_2023_03_29_HiddenGeometry_ChicagoAI.pdf
     event: Pritzker Conference on AI+Science
     event_url: https://datascience.uchicago.edu/aiscience-conference/
     org: UChicago and Caltech
