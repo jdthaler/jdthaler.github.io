@@ -1414,7 +1414,7 @@ seminars:
     url: talks/jthaler_2009_04_Rutgers_Seminar.pdf
     event: Seminar
     org: Rutgers
-    date: March 2009
+    date: April 2009
   
   - title: "Dark Matter through the Axion Portal"
     event: Seminar
@@ -1924,6 +1924,7 @@ additional:
     date: September 2009
   
   - title: "Cosmic Signals from the Hidden Sector"
+    url: talks/jthaler_2009_08_CERN.pdf
     event: Physics at the LHC
     org: CERN
     date: August 2009
@@ -1934,6 +1935,7 @@ additional:
     date: July 2009
   
   - title: "Variable Jet Sizes and Anti-kT"
+    url:  url: talks/jthaler_2009_04_SLAC_Atlas.pdf
     event: US ATLAS Hadronic Final State Forum
     org: SLAC
     date: April 2009
