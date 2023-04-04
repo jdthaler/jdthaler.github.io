@@ -66,6 +66,17 @@ If I am on your PhD thesis committee and you make one of the above bold statemen
 You mean "[ABRACADABRA](http://abracadabra.mit.edu/)" (A Broadband or Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus)?  Or "[DarkLight](http://dmtpc.mit.edu/DarkLight/)" (Detecting A Resonance Kinematically with Leptons Incident on a Gaseous Hydrogen Target)?  Or the infamous "[P...B...S...](https://arxiv.org/abs/1712.07124)" (Polynomial... Basis... for... Substructure..., see footnote 10), which would likely best the competition at [DOOFAAS](https://www.cfa.harvard.edu/~gpetitpas/Links/Astroacro.html)?  I write down a sentence describing the idea, take the first letters of (most) of the words, and watch my collaborators cringe.
 </details>
 
+
+<details markdown=1>
+<summary><b>What technologies do you think will be transformative in particle physics?</b></summary>
+
+[Token frequency analysis](http://caricesarotti.com/n_subjesseness.pdf) and [large language models](https://chatjesset.com/).
+
+</details>
+
+
+
+
 ## Mentoring
 
 <details markdown=1>
