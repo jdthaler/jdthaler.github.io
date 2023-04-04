@@ -1375,6 +1375,7 @@ seminars:
     date: March 2010
   
   - title: "Cosmic Signal from the Hidden Sector"
+    url: talks/jthaler_2009_10_Fermilab_Seminar.pdf
     event: Seminar
     org: U.C. Santa Cruz
     date: November 2009
@@ -1509,9 +1510,10 @@ seminars:
     date: December 2006
   
   - title: "Di-Higgs at Dimension Six"
+    url: talks/jthaler_2007_10_SLAC_Seminar.pdf
     event: Seminar
     org: SLAC
-    date: October 2006
+    date: October 2007
   
   - title: "Unified Frameworks for the LHC"
     url: talks/jthaler_2006_Seminar.pdf
