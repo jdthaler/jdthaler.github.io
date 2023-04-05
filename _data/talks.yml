@@ -1386,7 +1386,6 @@ seminars:
     date: March 2010
   
   - title: "Cosmic Signal from the Hidden Sector"
-    url: talks/jthaler_2009_10_Fermilab_Seminar.pdf
     event: Seminar
     org: U.C. Santa Cruz
     date: November 2009
@@ -1398,6 +1397,7 @@ seminars:
     date: October 2009
   
   - title: "Cosmic Signals from the Hidden Sector"
+    url: talks/jthaler_2009_10_Fermilab_Seminar.pdf
     event: Seminar
     org: Fermilab
     date: October 2009
