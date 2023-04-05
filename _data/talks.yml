@@ -273,6 +273,7 @@ public:
 
   - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
     url: talks/jthaler_2020_10_TommyFlowers_Keynote.pdf
+    video: https://youtu.be/rqqDFIXMsLI
     event: Keynote Presentation
     event_url: http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html
     org: Tommy Flowers Network Conference
@@ -301,6 +302,7 @@ public:
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
     url: http://vimeo.com/58392070
+    video: http://vimeo.com/58392070
     event: 24th Annual Kavli Frontiers of Science
     org: National Academy of Sciences, U.C. Irvine
     date: November 2012
@@ -329,6 +331,7 @@ schools:
     parts:
       - title: Overview and Inspiration
         url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture1.pdf
+        video: https://youtu.be/oXZ5W0H3rZQ
       - title: From Diagrams to Cross Sections
         url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture2.pdf
       - title: An Introduction to Jets
@@ -371,12 +374,16 @@ schools:
     parts:
       - title: Introduction to Jets
         url: talks/jthaler_2016_07_MITP_Lecture1.pdf
+        video: https://youtu.be/u8uHI6WLz6c
       - title: Jet Algorithms
         url: talks/jthaler_2016_07_MITP_Lecture2.pdf
+        video: https://youtu.be/2qmTtOkSMNo
       - title: The Soft/Collinear Limit of QCD
         url: talks/jthaler_2016_07_MITP_Lecture3.pdf
+        video: https://youtu.be/F62OE5eftEs
       - title: The Substructure (R)evolution
         url: talks/jthaler_2016_07_MITP_Lecture4.pdf
+        video: https://youtu.be/3rrzWJ8VDVQ
     event: MITP Summer School
     org: Mainz
     date: July 2016
@@ -388,6 +395,7 @@ schools:
   
   - title: "Jet Substructure"
     video: https://youtu.be/o5VTjNyDxhU
+    video: https://youtu.be/MR95bX7iiuU
     event: PiTP Summer School
     org: Princeton
     date: July 2013
