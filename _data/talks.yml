@@ -331,13 +331,16 @@ schools:
     parts:
       - title: Overview and Inspiration
         url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture1.pdf
-        video: https://youtu.be/oXZ5W0H3rZQ
+        video: https://youtu.be/GKGiHww4RCc
       - title: From Diagrams to Cross Sections
         url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture2.pdf
+        video: https://youtu.be/K1EwaVxa8kU 
       - title: An Introduction to Jets
         url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture3.pdf
+        video: https://youtu.be/aeas99iwODo
       - title: A Case Study in Jet Substructure
         url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture4.pdf
+        video: https://youtu.be/8g0u6cqc1i8
     event: Lectures on the Theory of Fundamental Interactions
     event_url: http://www.ggi.infn.it/ggilectures/ggilectures2020/
     org: GGI, Florence
@@ -394,11 +397,8 @@ schools:
     date: June 2014
   
   - title: "Jet Substructure"
-    parts:
-      - title: Part 1
-        video: https://youtu.be/o5VTjNyDxhU
-      - title: Part 2
-        video: https://youtu.be/MR95bX7iiuU
+    video: https://youtu.be/o5VTjNyDxhU
+    video: https://youtu.be/MR95bX7iiuU
     event: PiTP Summer School
     org: Princeton
     date: July 2013
