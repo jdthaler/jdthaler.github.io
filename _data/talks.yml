@@ -397,8 +397,11 @@ schools:
     date: June 2014
   
   - title: "Jet Substructure"
-    video: https://youtu.be/o5VTjNyDxhU
-    video: https://youtu.be/MR95bX7iiuU
+    parts:
+      - title: Part 1
+        video: https://youtu.be/o5VTjNyDxhU
+      - title: Part 2
+        video: https://youtu.be/MR95bX7iiuU
     event: PiTP Summer School
     org: Princeton
     date: July 2013
