@@ -294,14 +294,12 @@ public:
     date: May 2018
   
   - title: "Confronting the Invisible Universe"
-    url: https://www.youtube.com/watch?v=QNmSNY8VenQ
     video: https://youtu.be/QNmSNY8VenQ
     event: Public Talk
     org: Aspen Center for Physics
     date: March 2017
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
-    url: http://vimeo.com/58392070
     video: http://vimeo.com/58392070
     event: 24th Annual Kavli Frontiers of Science
     org: National Academy of Sciences, U.C. Irvine
@@ -415,7 +413,7 @@ schools:
     parts:
       - title: Little Higgs
         url: talks/jthaler_2012_01_23_ICTP_Lecture1.pdf
-      - title: Collective Yukawa's & Gauge Couplings
+      - title: Collective Yukawas & Gauge Couplings
         url: talks/jthaler_2012_01_23_ICTP_Lecture2.pdf
       - title: Little Technicolor & Gauge Boson Partners
         url: talks/jthaler_2012_01_23_ICTP_Lecture3.pdf
@@ -1810,13 +1808,6 @@ additional:
     event: Physics at TeV Colliders Workshop
     org: Les Houches
     date: June 2017
-
-
-  - title: "Confronting the Invisible Universe"
-    url: https://www.youtube.com/watch?v=QNmSNY8VenQ|
-    event: Public Talk
-    org: Aspen Center for Physics
-    date: March 2017
   
   - title: "Aspects of Jets from First Principles"
     event: Jets @ LHC Discussion Meeting

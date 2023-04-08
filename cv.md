@@ -294,7 +294,7 @@ aside:
   * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}
       {%- if talk.parts %} (
       {%- for part in talk.parts -%}
-          {%if part.video %}[video]({{part.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if part.url %}**["{{part.title}}"]({{part.url}}){:target="_blank"}**{% else %}**"{{part.title}}"**{% endif %}
+          {%if part.video %}[video]({{part.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if part.url %}**["{{part.title}}"]({{part.url}}){:target="_blank"}**{% else %}**"{{part.title}}"**{% endif %}
       {%- if forloop.last != true-%}, {% endif -%}{% endfor -%}
       )
       {%- endif -%},
