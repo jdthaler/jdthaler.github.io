@@ -412,6 +412,13 @@ schools:
     date: June 2012
   
   - title: "Little Lessons for a Little Higgs"
+    parts:
+      - title: Little Higgs
+        url: talks/jthaler_2012_01_23_ICTP_Lecture1.pdf
+      - title: Collective Yukawa's & Gauge Couplings
+        url: talks/jthaler_2012_01_23_ICTP_Lecture2.pdf
+      - title: Little Technicolor & Gauge Boson Partners
+        url: talks/jthaler_2012_01_23_ICTP_Lecture3.pdf
     event: ICTP Winter School
     org: Trieste
     date: January 2012
@@ -1286,6 +1293,7 @@ seminars:
     date: December 2013
   
   - title: "(Non)perturbative QCD and Jet Substructure"
+    url: talks/jthaler_2013_05_10_Uni-Oregon_Seminar.pdf
     event: Seminar
     org: U. Oregon
     date: May 2013
@@ -1296,6 +1304,7 @@ seminars:
     date: April 2013
   
   - title: "(Non)perturbative QCD and Jet Substructure"
+    url: talks/jthaler_2012_09_14_Boston_Uni.pdf
     event: Seminar
     org: Boston U.
     date: September 2012
@@ -1324,11 +1333,13 @@ seminars:
     date: January 2012
   
   - title: "Goldstini at the LHC"
+    url: talks/jthaler_2012_01_30_Columbia.pdf
     event: Seminar
     org: Columbia U.
     date: January 2012
   
   - title: "Goldstini at the LHC"
+    url: talks/jthaler_2011_11_09_Uni_Hampshire.pdf
     event: Seminar
     org: U. New Hampshire
     date: November 2011
@@ -1344,16 +1355,19 @@ seminars:
     date: October 2011
   
   - title: "The Spectrum of Goldstini"
+    url: talks/jthaler_2011_06_02_Uni_Minnesota.pdf
     event: Seminar
     org: U. Minnesota
     date: June 2011
   
   - title: "N-subjettiness"
+    url: talks/jthaler_2011_03_22_UC_Davis.pdf
     event: Seminar
     org: U.C. Davis
     date: March 2011
   
   - title: "N-subjettiness"
+    url: talks/jthaler_2011_03_UC_Berkeley.pdf
     event: Seminar
     org: U.C. Berkeley
     date: March 2011
@@ -1369,11 +1383,13 @@ seminars:
     date: October 2010
   
   - title: "Aspects of Goldstini"
+    url: talks/jthaler_2010_09_28_ICTP_Harvard.pdf
     event: Seminar
     org: Harvard
     date: September 2010
   
   - title: "Aspects of Goldstini"
+    url: talks/jthaler_2010_06_02_SLAC.pdf
     event: Seminar
     org: SLAC
     date: June 2010
@@ -1865,6 +1881,7 @@ additional:
     virtual: true
   
   - title: "Progress in Jet Substructure"
+    url: talks/jthaler_2012_08_07_Aspen.pdf
     event: The LHC Shows the Way
     org: Aspen Center for Physics
     date: August 2012
