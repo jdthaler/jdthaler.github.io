@@ -23,12 +23,18 @@ years:
   
 papers:
 
+  - title: "Pileup and Infrared Radiation Annihilation (PIRANHA): A Paradigm for Continuous Jet Grooming"
+    authors: Samuel Alipour-fard, Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
+    arxiv: 2305.00989
+    year: 2023
+    topic: point_cloud
+    
+
   - title:  "SHAPER: Can You Hear the Shape of a Jet?"
     authors:  Demba Ba, Akshunna S. Dogra, Rikab Gambhir, Abiy Tasissa, and Jesse Thaler
     arxiv: 2302.12266
     year: 2023
     topic: point_cloud
-
 
   - title: "EPiC-GAN: Equivariant Point Cloud Generation for Particle Jets"
     authors: Erik Buhmann, Gregor Kasieczka, and Jesse Thaler
