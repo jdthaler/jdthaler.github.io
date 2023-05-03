@@ -424,8 +424,11 @@ schools:
   - title: "Anticipating New Data from the Energy Frontier"
     parts:
       - title: "The Shape of Jets to Come"
+        url: talks/jthaler_2010_11_Fermilab_Lecture1.pdf
       - title: "Event Topologies for Early LHC"
+        url: talks/jthaler_2010_11_Fermilab_Lecture2.pdf
       - title: "Goldstini at the LHC"
+        url: talks/jthaler_2010_11_Fermilab_Lecture3.pdf
     event:  Topic of the Week Lecture Series
     org: Fermilab
     date: November 2010
@@ -1164,9 +1167,9 @@ seminars:
     event: Seminar
     org: U.C. Berkeley
     date: April 2017
-  
+
   - title: "Casimir Meets Poisson"
-    url: talks/jthaler_2017_03_UTAustin_Seminar.pdf
+    url: talks/jthaler_2017_03_27_UTAustin_Seminar.pdf
     event: Seminar
     org: U. Texas
     date: March 2017
@@ -1487,16 +1490,19 @@ seminars:
     date: February 2008
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url: talks/jthaler_2007_11_Princeton.pdf
     event: Seminar
     org: Princeton
     date: November 2007
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url: talks/jthaler_2007_11_Rutgers.pdf
     event: Seminar
     org: Rutgers
     date: November 2007
   
   - title: "Particle Theory and Monte Carlo"
+    url: talks/jthaler_2007_11_02_Stanford.pdf 
     event: Seminar
     org: Stanford
     date: November 2007
@@ -1965,6 +1971,7 @@ additional:
     date: April 2009
   
   - title: "The NLO Cascade"
+    url: talks/jthaler_2009_03_MIT.pdf
     event: SCET 2009
     org: MIT
     date: March 2009
@@ -1975,11 +1982,13 @@ additional:
     date: January 2009
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url:  talks/jthaler_2008_10_29_KITPC.pdf
     event: New Physics Beyond the Standard Model
     org: KITPC, Beijing
     date: October 2008
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url: talks/jthaler_2008_08_Aspen.pdf
     event: Beyond the Standard Model Signals in a QCD Environment
     org: Aspen Center for Physics
     date: August 2008
