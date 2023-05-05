@@ -238,11 +238,13 @@ colloquia:
     date: February 2013
   
   - title: "Anticipating New Data from the Energy Frontier"
+    url: talks/jthaler_2011_02_28_Brown_Colloquium.pdf
     event: Physics Colloquium
     org: Brown University
     date: February 2011
   
   - title: "The Large Hadron Collider"
+    url: talks/jthaler_2010_10_Wellseley_Colloquium.pdf
     event: Physics Colloquium
     org: Wellesley College
     date: October 2010
@@ -422,6 +424,7 @@ schools:
     date: January 2012
    
   - title: "Anticipating New Data from the Energy Frontier"
+    url: talks/jthaler_2010_11_Fermilab_Lecture.pdf
     parts:
       - title: "The Shape of Jets to Come"
         url: talks/jthaler_2010_11_Fermilab_Lecture1.pdf
@@ -1895,11 +1898,13 @@ additional:
     talk: false
   
   - title: "Goldstini"
+    url: talks/jthaler_2011_08_Fermilab.pdf
     event: SUSY 2011
     org: Fermilab
     date: August 2011
   
   - title: "N-subjettiness"
+    url: talks/jthaler_2011_08_16_CERN.pdf
     event: TH-LPCC Summer Institute on LHC Physics
     org: CERN
     date: August 2011
@@ -1909,17 +1914,21 @@ additional:
     date: July 2011
   
   - title: "Big Questions in Particle Physics"
+    url: talks/jthaler_2011_07_24_MIT.pdf
     event: PANIC11
     org: MIT
     date: July 2011
 
   - title: "N-subjettiness"
+    url: talks/jthaler_2011_07_MIT.pdf
     event: PANIC11
     org: MIT
     date: July 2011
 
   - title: "N-subjettiness"
+    
     event: Boost 2011
+    url: talks/jthaler_2011_05_Princeton.pdf
     org: Princeton
     date: May 2011
     other: PCTP
