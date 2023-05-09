@@ -104,6 +104,10 @@ font-size: map-get($base, font-size-xl);
   object-fit: cover;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 
 
 /* end custom scss snippet */

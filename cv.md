@@ -83,13 +83,11 @@ aside:
     * Sc.B. Math/Physics, *May 2002*
     * Advisor: Antal Jevicki
 
-
 ### PEA
+
   * **Phillips Exeter Academy**, *Fall 1994 - Spring 1998*
 
-
 ## Awards & Fellowships
-
 {% for award in site.data.bio.awards -%}
   {%- if award.url %}
   * **[{{award.name}}]({{award.url}}){:target="_blank"}**, *{{award.org}}*, *{{award.date}}*

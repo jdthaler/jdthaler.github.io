@@ -6,6 +6,8 @@ aside:
 ---
 
 
+
+
 ## Email Lists for Remaining 2023
 
 {% for category in site.data.mentoring -%}
@@ -22,3 +24,13 @@ aside:
 {%- if person.email %}{{person.email}}, {% endif -%}
 {%- endfor -%}
 {%- endfor %}
+
+
+
+
+<details>
+<summary markdown=1># OAISHOIHD
+{:.inline-block}
+</summary>
+Hello
+</details>

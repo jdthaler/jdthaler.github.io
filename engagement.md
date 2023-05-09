@@ -31,6 +31,9 @@ aside:
 
 
 {% for topic in site.data.public.topics %}
+
+<h3>&nbsp;</h3>
+
 ## {{topic.title}} {#{{topic.key}}}
 
 <div class="item">
@@ -52,9 +55,4 @@ aside:
 
 {%- endfor %}
 
-<!--{{topic.description}}-->
-<!--### {{subtopic.title}}-->
-<!--   {%- if entry.description %}-->
-<!--     > {{entry.description}} {% endif -%}-->
-
-
+<h3>&nbsp;</h3>
