@@ -37,6 +37,8 @@ aside:
 
 {% for topic in site.data.research.topics %}
 
+<h3>&nbsp;</h3>
+
 ## {{topic.title}} {#{{topic.key}}}
 
 <div class="item">
@@ -84,3 +86,5 @@ aside:
 {% endfor %}
 
 {% endfor %}
+
+<h3>&nbsp;</h3>

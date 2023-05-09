@@ -28,7 +28,6 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
     </div>
 </div>
 
-
 ### Positions
 
 
@@ -49,7 +48,6 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
   </div>
 </div>
 
-
 ### Affiliations
 
 <div class="grid-container">
@@ -67,6 +65,4 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
     {% endfor %}    
   </div>
 </div>
-
-
 
