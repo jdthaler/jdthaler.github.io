@@ -20,7 +20,7 @@ colloquia:
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2022_11_Brown_Colloquium.pdf
-    video:  https://www.youtube.com/watch?v=dqxdPNzBY0I
+    video: https://www.youtube.com/watch?v=dqxdPNzBY0I
     event: Physics Colloquium
     org: Brown
     date: November 2022
@@ -117,7 +117,7 @@ colloquia:
     event: Theory Colloquium
     event_url: https://indico.cern.ch/event/888504/
     org: CERN
-    date:  May 2020
+    date: May 2020
     virtual: true
     
   - title: "Collision Course:  Particle Physics meets Machine Learning"
@@ -258,8 +258,8 @@ public:
 
   - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
     url: talks/jthaler_2023_01_19_NSF_Lecture.pdf
-    video:  https://www.youtube.com/live/P1ndOdT-wTY?feature=share
-    event:  Distinguished Lecture
+    video: https://www.youtube.com/live/P1ndOdT-wTY?feature=share
+    event: Distinguished Lecture
     org: National Science Foundation
     date: January 2023
     virtual: true
@@ -399,6 +399,7 @@ schools:
   - title: "Jet Substructure"
     parts:
       - title: Part 1
+        url: talks/jthaler_2013_07_PITP_Lecture1.pdf
         video: https://youtu.be/o5VTjNyDxhU
       - title: Part 2
         video: https://youtu.be/MR95bX7iiuU
@@ -407,6 +408,7 @@ schools:
     date: July 2013
   
   - title: "Super-tricks for Superspace"
+    url: talks/jthaler_2012_06_CU_Boulder_SummerSchool.pdf
     event: TASI Summer School
     org: C.U. Boulder
     date: June 2012
@@ -431,7 +433,7 @@ schools:
         url: talks/jthaler_2010_11_Fermilab_Lecture2.pdf
       - title: "Goldstini at the LHC"
         url: talks/jthaler_2010_11_Fermilab_Lecture3.pdf
-    event:  Topic of the Week Lecture Series
+    event: Topic of the Week Lecture Series
     org: Fermilab
     date: November 2010
   
@@ -801,7 +803,7 @@ local:
 
   - title: "Deep Learning: Lessons from the Launch of IAIFI"
     url: talks/jthaler_2022_05_IAIFI_Faculty_Lunch.pdf
-    event:  Faculty Lunch
+    event: Faculty Lunch
     org: MIT Physics
     date: May 2022
   
@@ -839,7 +841,7 @@ local:
     date: July 2018
   
   - title: "(B)SM Physics"
-    event:  Graduate Student Lunch
+    event: Graduate Student Lunch
     org: MIT Physics
     date: November 2016
   
@@ -1132,7 +1134,7 @@ seminars:
   - title: "On the Topic of Jets"
     url: talks/jthaler_2018_05_Cambridge_Jet_Topics.pdf
     event: Seminar
-    org:  U. Cambridge
+    org: U. Cambridge
     date: May 2018
   
   - title: "On the Topic of Jets"
@@ -1145,7 +1147,7 @@ seminars:
     url: talks/jthaler_2018_03_Genoa_Jet_Topics.pdf
     event: Seminar
     org: Genova
-    date:  March 2018
+    date: March 2018
   
   - title: "On the Topic of Jets"
     url: talks/jthaler_2018_02_Carleton_Topics.pdf
@@ -1177,16 +1179,19 @@ seminars:
     date: March 2017
   
   - title: "A New Angle on Jet Substructure"
+    url: talks/jthaler_2016_10_19_Stony-Brook_Seminar.pdf
     event: Seminar
     org: SUNY Stony Brook
     date: October 2016
   
   - title: "A New Angle on Jet Substructure"
+    url: talks/jthaler_2016_10_Rutgers_Seminar.pdf
     event: Seminar
     org: Rutgers
     date: October 2016
   
   - title: "A New Angle on Jet Substructure"
+    url: talks/jthaler_2016_09_Boston-Uni_Seminar.pdf
     event: Seminar
     org: Boston U.
     date: September 2016
@@ -1223,6 +1228,7 @@ seminars:
     virtual: true
   
   - title: "Minimal Supersymmetric Slow-roll Inflation"
+    url: talks/jthaler_2015_11_Stanford_Seminar.pdf
     event: Seminar
     org: Stanford
     date: November 2015
@@ -1348,11 +1354,13 @@ seminars:
     date: November 2011
   
   - title: "N-subjettiness"
+    url: talks/jthaler_2011_10_UMaryland.pdf
     event: Seminar
     org: U. Maryland
     date: October 2011
   
   - title: "N-subjettiness"
+    url: talks/jthaler_2011_10_UMichigan.pdf
     event: Seminar
     org: U. Michigan
     date: October 2011
@@ -1440,6 +1448,7 @@ seminars:
     date: May 2009
   
   - title: "Collective Quartics and Dangerous Singlets in Little Higgs"
+    url: talks/jthaler_2009_04_SLAC_Seminar.pdf
     event: Seminar
     org: SLAC
     date: April 2009
@@ -1462,6 +1471,7 @@ seminars:
     date: November 2008
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url: talks/jthaler_2008_06_09_UCDavis_Seminar.pdf
     event: Seminar
     org: U.C. Davis
     date: June 2008
@@ -1819,7 +1829,7 @@ additional:
   
   - title: "Aspects of Jets from First Principles"
     event: Jets @ LHC Discussion Meeting
-    org:  ICTS, Bengaluru
+    org: ICTS, Bengaluru
     date: January 2017
     virtual: true
   
@@ -1990,7 +2000,7 @@ additional:
     date: January 2009
   
   - title: "GenEvA: A New Framework for Event Generation"
-    url:  talks/jthaler_2008_10_29_KITPC.pdf
+    url: talks/jthaler_2008_10_29_KITPC.pdf
     event: New Physics Beyond the Standard Model
     org: KITPC, Beijing
     date: October 2008
