@@ -23,6 +23,12 @@ years:
   
 papers:
 
+  - title: "A Spectral Metric for Collider Geometry"
+    authors: Andrew J. Larkoski and Jesse Thaler
+    arxiv: 2305.03751
+    year: 2023
+    topic: point_cloud
+
   - title: "Pileup and Infrared Radiation Annihilation (PIRANHA): A Paradigm for Continuous Jet Grooming"
     authors: Samuel Alipour-fard, Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
     arxiv: 2305.00989
