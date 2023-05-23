@@ -228,11 +228,13 @@ colloquia:
     date: October 2013
   
   - title: "The Shape of Jets to Come:  Boosting the Search for New Physics at the LHC"
+    url: talks/jthaler_2013_05_UOregon_Colloquium.pdf
     event: Physics Colloquium
     org: University of Oregon
     date: May 2013
   
   - title: "The Shape of Jets to Come:  Boosting the Search for New Physics at the LHC"
+    url: talks/jthaler_2013_02_18_Cornell_Colloquium.pdf
     event: Physics Colloquium
     org: Cornell University
     date: February 2013
@@ -302,6 +304,7 @@ public:
     date: March 2017
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
+    url: talks/jthaler_2012_11_04_Frontiers_Symposium.pdf
     video: http://vimeo.com/58392070
     event: 24th Annual Kavli Frontiers of Science
     org: National Academy of Sciences, U.C. Irvine
@@ -763,11 +766,13 @@ invited:
     date: August 2013
   
   - title: "Supersymmetry at the Frontiers"
+    url: talks/jthaler_2013_05_31_KITP.pdf
     event: Snowmass on the Pacific
     org: KITP, Santa Barbara
     date: May 2013
   
   - title: "Jet Substructure and N-subjettiness"
+    url: talks/jthaler_2012_03_Cornell.pdf
     event: Monte Carlo for Beyond the Standard Model 2012
     org: Cornell
     date: March 2012
@@ -1884,6 +1889,7 @@ additional:
     date: August 2013
   
   - title: "N-jettiness as a Jet Algorithm"
+    url: talks/jthaler_2013_04_05_SnowmassBNL.pdf
     event: Snowmass@Brookhaven
     org: Brookhaven
     date: April 2013
@@ -1896,6 +1902,7 @@ additional:
     date: August 2012
   
   - title: "Progress in N-subjettiness"
+    url: talks/jjthaler_2012_07_24_Boost.pdf
     event: Boost 2012
     org: Valencia
     date: July 2012
