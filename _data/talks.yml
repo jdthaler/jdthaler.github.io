@@ -228,7 +228,7 @@ colloquia:
     date: October 2013
   
   - title: "The Shape of Jets to Come:  Boosting the Search for New Physics at the LHC"
-    url: talks/jthaler_2013_05_UOregon_Colloquium.pdf
+    url: talks/jthaler_2013_05_09_OregonColloquium.pdf
     event: Physics Colloquium
     org: University of Oregon
     date: May 2013
@@ -2101,6 +2101,7 @@ additional:
     date: July 2005
 
   - title: "Universal Dynamics of Spontaneous Lorentz-Violation"
+    url: talks/jthaler_2004_09_ICTP.pdf
     event: Fundamental Symmetries and Fundamental Constants
     org: ICTP, Trieste
     date: September 2004
