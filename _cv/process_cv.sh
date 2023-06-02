@@ -1,1 +1,1 @@
-pdflatex jthaler_CV.tex
+pdflatex jthaler_cv.tex
