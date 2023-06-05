@@ -33,6 +33,7 @@ papers:
     authors: Samuel Alipour-fard, Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
     arxiv: 2305.00989
     year: 2023
+    made_phd: true
     topic: point_cloud
     
 
@@ -40,6 +41,7 @@ papers:
     authors:  Demba Ba, Akshunna S. Dogra, Rikab Gambhir, Abiy Tasissa, and Jesse Thaler
     arxiv: 2302.12266
     year: 2023
+    made_phd: true
     topic: point_cloud
 
   - title: "EPiC-GAN: Equivariant Point Cloud Generation for Particle Jets"
@@ -61,6 +63,7 @@ papers:
     journal: Phys. Rev. D106:056008 (2022)
     short_journal: PRD 2022
     arxiv: "2205.10375"
+    made_bs: true
     year: 2022
     topic: qis
     
@@ -81,6 +84,7 @@ papers:
     short_journal: PRD 2022
     arxiv: "2205.05084"
     year: 2022
+    made_phd: true
     topic: reweighting
 
   - title: "Disentangling Quarks and Gluons with CMS Open Data"
@@ -90,6 +94,7 @@ papers:
     short_journal: PRD 2022
     arxiv: "2205.04459"
     year: 2022
+    made_bs: true
     topic: open_data
     priority: 3
 
@@ -101,6 +106,7 @@ papers:
     short_journal: PRL 2022
     arxiv: "2205.03413"
     year: 2022
+    made_phd: true
     topic: reweighting
     priority: 3
 
@@ -203,6 +209,7 @@ papers:
     journal: JHEP 2007:006 (2020)
     short_journal: JHEP 2020
     arxiv: "2004.04159"
+    made_phd: true
     year: 2020
     topic: point_cloud
 
@@ -213,6 +220,7 @@ papers:
     short_journal: PRL 2020
     arxiv: "1911.09107"
     year: 2019
+    made_phd: true
     topic: reweighting
     priority: 3
 
@@ -223,6 +231,7 @@ papers:
     short_journal: PRD 2020
     arxiv: "1911.04491"
     year: 2019
+    made_phd: true
     topic: correlators
 
   - title: "Circumnavigating Collinear Superspace"
@@ -251,6 +260,8 @@ papers:
     short_journal: PRD 2020
     arxiv: "1908.08542"
     year: 2019
+    made_phd: true
+    made_bs: true
     topic: open_data
 
   - title: "Searching in CMS Open Data for Dimuon Resonances with Substantial Transverse Momentum"
@@ -269,6 +280,7 @@ papers:
     short_journal: PRL 2019
     arxiv: "1902.02346"
     year: 2019
+    made_phd: true
     topic: point_cloud
     etc: "[[https://physics.aps.org/articles/v12/85|Viewpoint]]"
     priority: 6
@@ -300,6 +312,7 @@ papers:
     short_journal: JHEP 2019
     arxiv: "1810.05165"
     year: 2018
+    made_phd: true
     topic: point_cloud
     priority: 3
 
@@ -320,6 +333,7 @@ papers:
     short_journal: JHEP 2018
     arxiv: "1809.01140"
     year: 2018
+    made_phd: true
     topic: quark_gluon
     priority: 3
 
@@ -330,6 +344,7 @@ papers:
     short_journal: JHEP 2018
     arxiv: "1805.11622"
     year: 2018
+    made_bs: true
     topic: precision
 
   - title: "Aspects of Track-Assisted Mass"
@@ -339,6 +354,7 @@ papers:
     short_journal: JHEP 2019
     arxiv: "1805.11109"
     year: 2018
+    made_phd: true
     topic: non-perturbative
 
   - title: "Recursive Soft Drop"
@@ -357,6 +373,7 @@ papers:
     short_journal: PRL 2018
     arxiv: "1802.00008"
     year: 2018
+    made_phd: true
     topic: weak
     priority: 5
 
@@ -366,6 +383,7 @@ papers:
     journal: JHEP 1804:013 (2018)
     short_journal: JHEP 2018
     arxiv: "1712.07124"
+    made_phd: true
     year: 2017
     topic: correlators
 
@@ -385,6 +403,7 @@ papers:
     short_journal: JHEP 2017
     arxiv: "1708.02949"
     year: 2017
+    made_phd: true
     topic: weak
     priority: 3
 
@@ -396,6 +415,7 @@ papers:
     short_journal: JHEP 2017
     arxiv: "1704.06266"
     year: 2017
+    made_bs: true
     topic: quark_gluon
 
   - title: "Jet Substructure Studies with CMS Open Data"
@@ -405,6 +425,7 @@ papers:
     short_journal: PRD 2017
     arxiv: "1704.05842"
     year: 2017
+    made_bs: true
     topic: open_data
 
 
@@ -415,6 +436,8 @@ papers:
     short_journal: JHEP 2017
     arxiv: "1704.05456"
     year: 2017
+    made_phd: true
+    made_bs: true
     topic: non-perturbative
 
   - title: "Exposing the QCD Splitting Function with CMS Open Data"
@@ -424,6 +447,7 @@ papers:
     short_journal: PRL 2017
     arxiv: "1704.05066"
     year: 2017
+    made_bs: true
     topic: open_data
     priority: 6
 
@@ -461,6 +485,7 @@ papers:
     short_journal: JHEP 2016
     arxiv: "1609.07483"
     year: 2016
+    made_phd: true
     topic: correlators
     priority: 3
 
@@ -520,6 +545,7 @@ papers:
     short_journal: JHEP 2015
     arxiv: "1508.01518"
     year: 2015
+    made_bs: true
     topic: jet_algorithms
 
   - title: "XCone: N-jettiness as an Exclusive Cone Jet Algorithm"
@@ -529,6 +555,7 @@ papers:
     short_journal: JHEP 2015
     arxiv: "1508.01516"
     year: 2015
+    made_bs: true
     topic: jet_algorithms
 
   - title: "Dark Matter, Shared Asymmetries, and Galactic Gamma Ray Signals"
@@ -538,6 +565,7 @@ papers:
     short_journal: JCAP 2015
     arxiv: "1507.08295"
     year: 2015
+    made_phd: true
     topic: dark_matter
 
   - title: "Separated at Birth: Jet Maximization, Axis Minimization, and Stable Cone Finding"
@@ -558,6 +586,7 @@ papers:
     short_journal: JHEP 2015
     arxiv: "1504.05958"
     year: 2015
+    made_phd: true
     topic: superspace
     priority: 3
 
@@ -590,6 +619,7 @@ papers:
     short_journal: PRD 2015
     arxiv: "1411.1055"
     year: 2014
+    made_phd: true
     topic: detecting_dm
 
   - title: "Gaining (Mutual) Information about Quark/Gluon Discrimination"
@@ -617,6 +647,7 @@ papers:
     short_journal: JCAP 2014
     arxiv: "1405.7370"
     year: 2014
+    made_phd: true
     topic: dark_matter
     priority: 3
 
@@ -650,6 +681,7 @@ papers:
     short_journal: JHEP 2014
     arxiv: "1310.7584"
     year: 2013
+    made_phd: true
     topic: jet_algorithms
 
   - title: "Auxiliary Gauge Mediation: A New Route to Mini-Split Supersymmetry"
@@ -659,6 +691,7 @@ papers:
     short_journal: JHEP 2013
     arxiv: "1308.3490"
     year: 2013
+    made_phd: true
     topic: susy
 
   - title: "Anomaly Mediation from Unbroken Supergravity"
@@ -668,6 +701,7 @@ papers:
     short_journal: JHEP 2013
     arxiv: "1307.3251"
     year: 2013
+    made_phd: true
     topic: superspace
     priority: 3
 
@@ -734,6 +768,7 @@ papers:
     short_journal: TASI 2012
     arxiv: "1302.6229"
     year: 2013
+    made_phd: true
     topic: superspace
 
   - title: "Multiple Gamma Lines from Semi-Annihilation"
@@ -743,6 +778,7 @@ papers:
     short_journal: JCAP 2013
     arxiv: "1210.7817"
     year: 2012
+    made_phd: true
     topic: dark_matter
 
   - title: "Power Corrections to Event Shapes with Mass-Dependent Operators"
@@ -761,6 +797,7 @@ papers:
     short_journal: PRD 2012
     arxiv: "1209.0777"
     year: 2012
+    made_phd: true
     topic: detecting_dm
 
   - title: "Precision Jet Substructure from Boosted Event Shapes"
@@ -789,6 +826,7 @@ papers:
     short_journal: JHEP 2012
     arxiv: "1202.5491"
     year: 2012
+    made_phd: true
     topic: little_higgs
 
   - title: "The Two Faces of Anomaly Mediation"
@@ -798,6 +836,7 @@ papers:
     short_journal: JHEP 2012
     arxiv: "1202.1280"
     year: 2012
+    made_phd: true
     topic: superspace
 
   - title: "The New Flavor of Higgsed Gauge Mediation"
@@ -817,6 +856,8 @@ papers:
     short_journal: JCAP 2012
     arxiv: "1111.5615"
     year: 2011
+    made_bs: true
+    made_phd: true
     topic: dark_matter
 
   - title: "Visible Supersymmetry Breaking and an Invisible Higgs"
@@ -826,6 +867,7 @@ papers:
     short_journal: JHEP 2012
     arxiv: "1111.0628"
     year: 2011
+    made_phd: true
     topic: susy
 
   - title: "Maximizing Boosted Top Identification by Minimizing N-subjettiness"
@@ -835,6 +877,7 @@ papers:
     short_journal: JHEP 2012
     arxiv: "1108.2701"
     year: 2011
+    made_bs: true
     topic: boost
 
 
@@ -854,6 +897,7 @@ papers:
     short_journal: JHEP 2011
     arxiv: "1104.2600"
     year: 2011
+    made_phd: true
     topic: susy
 
   - title: "Supergravity Computations without Gravity Complications"
@@ -863,6 +907,7 @@ papers:
     short_journal: PRD 2011
     arxiv: "1104.2598"
     year: 2011
+    made_phd: true
     topic: superspace
 
   - title: "Goldstini Can Give the Higgs a Boost"
@@ -872,6 +917,7 @@ papers:
     short_journal: JHEP 2011
     arxiv: "1103.1631"
     year: 2011
+    made_phd: true
     topic: susy
 
   - title: "Identifying Boosted Objects with N-subjettiness"
@@ -882,6 +928,7 @@ papers:
     arxiv: "1011.2268"
     year: 2010
     topic: boost
+    made_phd: true
     priority: 6
 
   - title: "The Bestest Little Higgs"
@@ -918,6 +965,7 @@ papers:
     short_journal: JHEP 2010
     arxiv: "1003.5912"
     year: 2010
+    made_phd: true
     topic: dark_matter
     priority: 5
 
