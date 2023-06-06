@@ -47,7 +47,7 @@ topics:
     title:  Essays
     image:  images/stamp_mod.png
     image_credit: "Jesse Thaler, with Felice Frankel"
-    image_url: http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf
+    image_url: pdfs/jthaler_frankel_picturing_science.pdf
     image_hover: "MIT Open Data Event Display"
     description:
     subtopics:
@@ -80,13 +80,13 @@ entries:
   - markdown:  '**["Listening to the Invisible Universe"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_04_FarCry.pdf){:target="_blank"}**, Program with [A Far Cry](https://afarcry.org/){:target="_blank"}, [Open Rehearsal of Gravity](https://www.eventbrite.com/e/sold-out-a-far-cry-presents-sounds-of-the-universe-registration-58723801471#){:target="_blank"}, *April 2019*'
     topic: additional_dark_matter
 
-  - markdown:  '**["Guest Case Study 6:  Particle Collisions"](http://www.jthaler.net/cv/jthaler_frankel_picturing_science.pdf){:target="_blank"}**, Contribution to [Felice Frankel](https://www.felicefrankel.com/){:target="_blank"}, [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering){:target="_blank"}, *MIT Press, 2018*'
+  - markdown:  '**["Guest Case Study 6:  Particle Collisions"](pdfs/jthaler_frankel_picturing_science.pdf){:target="_blank"}**, Contribution to [Felice Frankel](https://www.felicefrankel.com/){:target="_blank"}, [Picturing Science and Engineering](https://mitpress.mit.edu/books/picturing-science-and-engineering){:target="_blank"}, *MIT Press, 2018*'
     topic: essays_data_viz
     
   - markdown:  "**[\"The Future of Particle Physics is 'Open'\"](https://cylindricalonion.web.cern.ch/blogs/future-particle-physics-open){:target=\"_blank\"}**, Guest Blog Post, The Cylindrical Onion, *CMS Experiment, December 2017*"
     topic: advocacy_open_data
 
-  - markdown:  '**["Confronting the Invisible Universe"](https://github.com/jdthaler/jdthaler.github.io/raw/main/jthaler_2018_05_London_Dark_Matter.pdf){:target="_blank"}**, MIT Club of Great Britain Event, *London, May 2018*'
+  - markdown:  '**["Confronting the Invisible Universe"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_05_London_Dark_Matter.pdf){:target="_blank"}**, MIT Club of Great Britain Event, *London, May 2018*'
     topic: additional_dark_matter
 
   - markdown:  '**["Confronting the Invisible Universe"](https://www.youtube.com/watch?v=QNmSNY8VenQ){:target="_blank"}**, Public Talk, *Aspen Center for Physics, March 2017*'
