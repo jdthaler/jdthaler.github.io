@@ -145,6 +145,7 @@ awards:
      title: Three MIT faculty members named 2022 Simons Investigators
      url: https://news.mit.edu/2022/three-mit-faculty-members-named-2022-simons-investigators-0624
      journal:  MIT News
+     image:    news/2022-simons-investigator-00_0.jpg
      date:     June 2022
      
    - short:    DOE QuantISED
@@ -157,12 +158,14 @@ awards:
      title: School of Science professors granted tenure
      url: http://news.mit.edu/2017/seven-mit-science-professors-granted-tenure-0628
      journal:  MIT News
+     image:    news/2017-mit-sos-tenure-00_0.jpg
      date:     June 2017
 
    - short:    Edgerton Award
      title: "Biobarrier explorer and dark matter theorist win MIT’s prestigious junior faculty award"
      url: http://news.mit.edu/2016/ribbeck-thale-edgerton-award-0420
      journal:  MIT News
+     image:    news/2016-edgerton-award-00_0.jpg
      date:     April 2016
 
    - short:   Sloan Fellowship
