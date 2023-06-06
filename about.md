@@ -76,7 +76,7 @@ aside:
 <summary><b>Profiles and Highlights</b></summary>
 
 {% for news in site.data.news.profiles -%}
-  * "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
+  * {% if news.image %}![]({{news.image}}){:.image--sm}{% endif %} "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
@@ -86,7 +86,7 @@ aside:
 <summary><b>Awards and Honors</b></summary>
 
 {% for news in site.data.news.awards -%}
-  * **{{news.short}}**:  "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
+  * {% if news.image %}![]({{news.image}}){:.image--sm}{% endif %} **{{news.short}}**:  "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
@@ -96,7 +96,7 @@ aside:
 <summary><b>Quotations and Perspectives</b></summary>
 
 {% for news in site.data.news.perspectives -%}
-  * "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
+  * {% if news.image %}![]({{news.image}}){:.image--sm}{% endif %} "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
 {%- if news.quote %}
   > *{{news.quote}}*
 {%- endif %}
@@ -111,7 +111,7 @@ aside:
 <summary><b>Group Members in the News</b></summary>
 
 {% for news in site.data.news.group_news -%}
-  * **{{news.person}}**:  "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
+  * {% if news.image %}![]({{news.image}}){:.image--sm}{% endif %} **{{news.person}}**:  "[{{news.title}}]({{news.url}}){:target="_blank"}", *{{news.journal}}, {{news.date}}*
 {% endfor %}
 
 </details>
