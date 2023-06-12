@@ -55,5 +55,39 @@ for paper in papers:
 papers_output.write('\end{list}\n')
 
 
+#################### mentoring file
+
+mentoring_input = open("../_data/mentoring.yml","r")
+mentoring_yaml = yaml.load(mentoring_input,Loader=yaml.BaseLoader)
+
+########## postdocs file
+
+postdocs_output = open("cv_postdocs.tex","w")
+postdocs = mentoring_yaml['postdocs']
+postdocs_output.write('\\bbl\n')
+
+for postdoc in postdocs:
+  postdocs_output.write('\\item\n')
+  postdocs_output.write(postdoc['name']+',\n')
+  postdocs_output.write(postdoc['at'][0]['title']+',\n')
+  postdocs_output.write('\\emph{'+postdoc['at'][0]['dates'].replace('-','--')+'}\n')
+  if len(postdoc['at']) == 2:
+    postdocs_output.write('\\\\ \\sh '+postdoc['at'][1]['title']+',\n')
+    postdocs_output.write('\\emph{'+postdoc['at'][1]['dates'].replace('-','--')+'}\n')
+  if 'after' in postdoc:
+    postdocs_output.write('\\\\ \\sh After MIT: '+postdoc['after'][0]['title']+', \\emph{'+postdoc['after'][0]['org']+'}\n')
+    if len(postdoc['after']) > 1:
+      postdocs_output.write('\\\\ \\sh Currently: '+postdoc['after'][-1]['title']+', \\emph{'+postdoc['after'][-1]['org']+'}\n')
+  if 'awards' in postdoc:
+    for award in postdoc['awards']:
+      postdocs_output.write('\\\\ \\sh '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
+  postdocs_output.write('\n')
+
+postdocs_output.write('\\el\n')
+
+
+
+
+
 
 

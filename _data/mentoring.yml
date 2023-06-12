@@ -46,7 +46,7 @@ postdocs:
    image: images/cesarotti.jpg
    email: ccesar@mit.edu
    at:
-     - dates: Fall 2022 - Spring 2025
+     - dates: Fall 2022-Spring 2025
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -62,7 +62,7 @@ postdocs:
    email: trifinos@mit.edu
    image: images/trifinopoulos.jpg
    at:
-     - dates: Fall 2022 - Spring 2024
+     - dates: Fall 2022-Spring 2024
        title: Postdoc.Mobility Fellow
    before:
      - title: PhD
@@ -78,7 +78,7 @@ postdocs:
    email: siddharthmishra19@gmail.com
    image: images/mishra-sharma.jpg
    at:
-     - dates: Fall 2021 - Spring 2024
+     - dates: Fall 2021-Spring 2024
        title: IAIFI Fellow
    before:
      - title: PhD
@@ -91,7 +91,7 @@ postdocs:
  - name: Lena Funcke
    email: lfuncke@uni-bonn.de
    at:
-     - dates: Fall 2021 - Fall 2022
+     - dates: Fall 2021-Fall 2022
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -100,14 +100,14 @@ postdocs:
        org: Perimeter Institute
    after:
      - title: Assistant Professor
-       org: University of Bonn
+       org: U. Bonn
    updated: 2023
 
  - name: Katelin Schutz
    url: https://katelinschutz.com/
    email: katelin.schutz@mcgill.ca
    at:
-     - dates: Fall 2019 - Fall 2020
+     - dates: Fall 2019-Fall 2020
        title: Pappalardo Fellow
      - dates: Spring 2021
        title: NASA Einstein Fellow
@@ -122,20 +122,20 @@ postdocs:
  - name: Pouya Asadi
    email: pasadi@mit.edu
    at:
-     - dates: Fall 2019 - Spring 2022
+     - dates: Fall 2019-Spring 2022
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
        org: Rutgers
    after:
      - title: Postdoctoral Researcher
-       org: University of Oregon
+       org: U. Oregon
        
  - name: Bernhard Mistlberger
    url: https://sites.google.com/view/bernhardmistlberger/
    email: bernhard.mistlberger@gmail.com
    at:
-     - dates: Fall 2018 - Spring 2020
+     - dates: Fall 2018-Spring 2020
        title: Pappalardo Fellow
    before:
      - title: PhD
@@ -152,7 +152,7 @@ postdocs:
  - name: Frédéric Dreyer
    email: frederic.dreyer@gmail.com
    at:
-     - dates: Fall 2016 - Spring 2018
+     - dates: Fall 2016-Spring 2018
        title: Early Postdoc.Mobility Fellow
    before:
      - title: PhD
@@ -168,7 +168,7 @@ postdocs:
    url: https://phsites.technion.ac.il/hep/members/yotam-soreq/
    email: soreqy@gmail.com
    at:
-     - dates: Fall 2015 - Spring 2018
+     - dates: Fall 2015-Spring 2018
        title: Rothschild Fellow
    before:
      - title: PhD
@@ -183,21 +183,21 @@ postdocs:
  - name: Benjamin Safdi
    email: brsafdi@berkeley.edu
    at:
-     - dates: Fall 2014 - Spring 2017
+     - dates: Fall 2014-Spring 2017
        title: Pappalardo Fellow
    before:
      - title: PhD
        org: Princeton
    after:
      - title: Assistant Professor
-       org: University of Michigan
+       org: U. Michigan
      - title: Assistant Professor
        org: U.C. Berkeley
 
  - name: Wei Xue
    email: weixue@ufl.edu
    at:
-     - dates: Fall 2014 - Spring 2017
+     - dates: Fall 2014-Spring 2017
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -208,7 +208,7 @@ postdocs:
      - title: Postdoctoral Fellow
        org: CERN
      - title: Assistant Professor
-       org: University of Florida
+       org: U. Florida
    updated: 2023
    
 
@@ -216,7 +216,7 @@ postdocs:
    url: https://www.ge.infn.it/~smarzani/
    email: simone.marzani@unige.it
    at:
-     - dates: Fall 2014 - Spring 2015
+     - dates: Fall 2014-Spring 2015
        title: LHC Theory Initiative Postdoctoral Fellow
    before:
      - title: PhD
@@ -227,27 +227,27 @@ postdocs:
        org: Durham
    after:
      - title: Assistant Professor
-       org: University at Buffalo
+       org: U. Buffalo
      - title: Tenure-track Researcher
-       org: University of Genova
+       org: U. Genova
      - title: Associate Professor
-       org: University of Genova
+       org: U. Genova
    updated: 2023
 
 
  - name: Gilly Elor
    email: gelor84@gmail.com
    at:
-     - dates: Fall 2013 - Spring 2016
+     - dates: Fall 2013-Spring 2016
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
        org: U.C. Berkeley
    after:
      - title: Postdoctoral Researcher
-       org: University of Oregon
+       org: U. Oregon
      - title: Postdoctoral Researcher
-       org: University of Washington, Seattle
+       org: U. Washington, Seattle
      - title: Postdoctoral Researcher
        org: JGU Mainz
    updated: 2023
@@ -256,9 +256,9 @@ postdocs:
  - name: Duff Neill
    email: duff.neill@gmail.com
    at:
-     - dates: Fall 2012 - Spring 2015
+     - dates: Fall 2012-Spring 2015
        title: Pappalardo Fellow
-     - dates: Spring 2015 - Spring 2016
+     - dates: Spring 2015-Spring 2016
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -276,7 +276,7 @@ postdocs:
    url: https://www.physics.ucla.edu/~larkoski/
    email: larkoski@ucla.edu
    at:
-     - dates: Fall 2012 - Spring 2015
+     - dates: Fall 2012-Spring 2015
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -300,11 +300,11 @@ postdocs:
    email: matthew.mccullough@cern.ch
    url: https://th-dep.web.cern.ch/roster/mccullough-matthew
    at:
-     - dates: Fall 2011 - Spring 2014
+     - dates: Fall 2011-Spring 2014
        title: Simons Postdoctoral Fellow
    before:
      - title: PhD
-       org: Oxford
+       org: Oxford U.
    after:
      - title: COFUND Fellowship
        org: CERN
@@ -316,11 +316,11 @@ postdocs:
  - name: Keith Rehermann
    email: keith.rehermann@gmail.com
    at:
-     - dates: Fall 2010 - Spring 2012
+     - dates: Fall 2010-Spring 2012
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
-       org: Johns Hopkins
+       org: Johns Hopkins U.
    after:
      - title: Consultant
        org: Ab Initio Software Corporation
