@@ -10,7 +10,7 @@ aside:
 [Press Information](press){:.button.button--secondary.button--pill.button--sm}
 [Publications by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [Presentations](#presentations){:.button.button--secondary.button--pill.button--sm}
-[PDF CV (May 2022)](pdfs/jthaler_CV_2022_May.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[PDF CV (June 2023)](pdfs/jthaler_cv_2023_06.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Jesse Diaz Thaler
 
@@ -405,7 +405,7 @@ aside:
 
 #### MIT Center for Theoretical Physics
 
-  * MIT CTP Oral Qualifying Exam Committee (Fall 2022)
+  * MIT CTP Oral Qualifying Exam Committee (Fall 2022, Spring 2023)
   * MIT CTP Faculty Mentor (April 2021-present)
   * MIT CTP Faculty Search Committee (Fall 2017, Fall 2019, Fall 2021; Chair: Fall 2019)
   * MIT CTP Deputy Group Leader in High-Energy Physics (Spring 2020-present)
