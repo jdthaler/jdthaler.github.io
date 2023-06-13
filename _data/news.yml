@@ -41,23 +41,27 @@ perspectives:
   - title: "Will artificial intelligence ever discover new laws of physics?"
     url: https://www.newscientist.com/article/mg25634141-200-will-artificial-intelligence-ever-discover-new-laws-of-physics/
     journal: New Scientist
+    image:    news/2022-new-scientist-00_0.jpg
     date:  November 2022
 #    quote: "I was trained to think about what are the laws of nature in our universe. Now it’s ‘what is the space of all possible rules?’"
 
   - title: "Machine Learning Shaking Up Hard Sciences, Too"
     url: https://spectrum.ieee.org/machine-learning-in-physics
     journal: IEEE Spectrum
+    image:    news/2022-ieee-spectrum-00_0.jpg
     date:  November 2022
     quote: "We’d like to have a machine learn to think more like a physicist, but we also just need to learn how to think a little bit more like a machine."
 
   - title: "A Hint of Dark Matter Sends Physicists Looking to the Skies"
     url: https://www.quantamagazine.org/a-hint-of-dark-matter-sends-physicists-looking-to-the-skies-20211019/
     journal: Quanta Magazine
+    image: news/2021-quanta-magazine-00_0.jpg
     date:   October 2021
 
   - title: "Advancing AI theory with a first-principles understanding of deep neural networks"
     url: https://ai.facebook.com/blog/advancing-ai-theory-with-a-first-principles-understanding-of-deep-neural-networks/
     journal:  Facebook AI
+    image: news/2021-facebook-ai-00_0.jpg
     date: June 2021
     
   - title: Faculty discuss Flexible P/NR policy
@@ -70,6 +74,7 @@ perspectives:
   - title: The plot thickens for a hypothetical X17 particle
     url: https://phys.org/news/2019-11-plot-thickens-hypothetical-x17-particle.html
     journal:  Phys.org
+    image: news/2019-phys-org-00_0.jpg
     date:  November 2019
     
   - title: "With open data, scientists share their work"
@@ -80,49 +85,58 @@ perspectives:
   - title: CMS releases open data for Machine Learning
     url: https://home.cern/news/news/knowledge-sharing/cms-releases-open-data-machine-learning
     journal:  CERN News
+    image: news/2019-cern-news-00_0.jpg
     date:  July 2019
     
   - title:  "Scientists meet at Fermilab to discuss machine learning for jet physics"
     url: https://news.fnal.gov/2018/11/scientists-meet-at-fermilab-to-discuss-machine-learning-for-jet-physics/
     journal:  Fermilab News
+    image: news/2018-fermilab-news-00_0.jpg
     date:  November 2018
     quote:
     
   - title: Lighting the way for dark matter
     url: http://www.pnas.org/content/114/44/11557.full.pdf
     journal:  PNAS
+    image: news/2017-pnas-00_0.jpg
     date:   October 2017
     
   - title: In the Dark about Dark Matter
     url: https://www.scientificamerican.com/article/in-the-dark-about-dark-matter/
     journal: Scientific American
+    image: news/2016-scientific-american-00_0.jpg
     date:   October 2016
     quote:  "Do we live in a universe where each discovery leads to deeper, more fundamental insights, or do we live in one where some parts have rhyme and reason, but others don't?"
     
   - title: Has a Hungarian physics lab found a fifth force of nature?
     url: https://www.nature.com/articles/nature.2016.19957
     journal: Nature
+    image: news/2016-nature-00_0.jpg
     date:  May 2016
     
   - title: What Physicists Are Looking for Now That They’ve Found the Higgs Boson
     url: http://www.bloomberg.com/news/articles/2015-04-02/after-higgs-boson-what-physicists-are-looking-for-now
     journal: Bloomberg
+    image: news/2015-bloomberg-00_0.jpg
     date:  April 2015
 
   - title: "How Three Guys With $10K and Decades-Old Data Almost Found the Higgs Boson First"
     url: http://www.wired.com/2015/01/higgs-discovery-hijack-attempt/
     journal: Wired Magazine
+    image: news/2015-wired-magazine-00_0.jpg
     date: January 2015
     quote:  "Figuring out what happened in a collider is like trying to figure out what your dog ate at the park yesterday. You can find out, but you have to sort through a lot of shit to do it."
     
   - title: "'Particle Fever' documentary follows mystery of Higgs boson"
     url: https://www.seacoastonline.com/story/news/local/portsmouth-herald/2014/05/14/particle-fever-documentary-follows/36480676007/
     journal: Portsmouth Herald
+    image: news/2014-portsmouth-herald-00_0.jpg
     date:    May 2014
     
   - title: Connecting the visible universe with dark matter
     url: http://www.symmetrymagazine.org/article/november-2013/connecting-the-visible-universe-with-dark-matter
     journal: Symmetry Magazine
+    image:   news/2013-symmetry-magazine-00_0.jpg
     date:    November 2013
 
 
@@ -152,7 +166,8 @@ awards:
      title: Center for Theoretical Physics professors earn DOE Quantum Information Science Awards
      url: http://news.mit.edu/2018/mit-center-theoretical-physics-professors-quantum-information-science-awards-1012
      journal:  MIT News
-     date:     Oxtober 2018
+     image:    news/2018-mit-news-doe-00_0.jpg
+     date:     October 2018
 
    - short:    Promotion
      title: School of Science professors granted tenure
