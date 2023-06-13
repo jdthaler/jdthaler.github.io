@@ -3,6 +3,7 @@ layout: article
 title: Curriculum Vitae
 aside:
   toc: true
+permalink: cv/
 
 ---
 
