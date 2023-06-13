@@ -46,7 +46,7 @@ postdocs:
    image: images/cesarotti.jpg
    email: ccesar@mit.edu
    at:
-     - dates: Fall 2022 - Spring 2025
+     - dates: Fall 2022-Spring 2025
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -62,7 +62,7 @@ postdocs:
    email: trifinos@mit.edu
    image: images/trifinopoulos.jpg
    at:
-     - dates: Fall 2022 - Spring 2024
+     - dates: Fall 2022-Spring 2024
        title: Postdoc.Mobility Fellow
    before:
      - title: PhD
@@ -72,13 +72,12 @@ postdocs:
    current: true
    updated: 2023
 
-
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
    email: siddharthmishra19@gmail.com
    image: images/mishra-sharma.jpg
    at:
-     - dates: Fall 2021 - Spring 2024
+     - dates: Fall 2021-Spring 2024
        title: IAIFI Fellow
    before:
      - title: PhD
@@ -91,7 +90,7 @@ postdocs:
  - name: Lena Funcke
    email: lfuncke@uni-bonn.de
    at:
-     - dates: Fall 2021 - Fall 2022
+     - dates: Fall 2021-Fall 2022
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -100,14 +99,14 @@ postdocs:
        org: Perimeter Institute
    after:
      - title: Assistant Professor
-       org: University of Bonn
+       org: U. Bonn
    updated: 2023
 
  - name: Katelin Schutz
    url: https://katelinschutz.com/
    email: katelin.schutz@mcgill.ca
    at:
-     - dates: Fall 2019 - Fall 2020
+     - dates: Fall 2019-Fall 2020
        title: Pappalardo Fellow
      - dates: Spring 2021
        title: NASA Einstein Fellow
@@ -122,20 +121,20 @@ postdocs:
  - name: Pouya Asadi
    email: pasadi@mit.edu
    at:
-     - dates: Fall 2019 - Spring 2022
+     - dates: Fall 2019-Spring 2022
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
        org: Rutgers
    after:
      - title: Postdoctoral Researcher
-       org: University of Oregon
+       org: U. Oregon
        
  - name: Bernhard Mistlberger
    url: https://sites.google.com/view/bernhardmistlberger/
    email: bernhard.mistlberger@gmail.com
    at:
-     - dates: Fall 2018 - Spring 2020
+     - dates: Fall 2018-Spring 2020
        title: Pappalardo Fellow
    before:
      - title: PhD
@@ -152,7 +151,7 @@ postdocs:
  - name: Frédéric Dreyer
    email: frederic.dreyer@gmail.com
    at:
-     - dates: Fall 2016 - Spring 2018
+     - dates: Fall 2016-Spring 2018
        title: Early Postdoc.Mobility Fellow
    before:
      - title: PhD
@@ -168,7 +167,7 @@ postdocs:
    url: https://phsites.technion.ac.il/hep/members/yotam-soreq/
    email: soreqy@gmail.com
    at:
-     - dates: Fall 2015 - Spring 2018
+     - dates: Fall 2015-Spring 2018
        title: Rothschild Fellow
    before:
      - title: PhD
@@ -183,21 +182,21 @@ postdocs:
  - name: Benjamin Safdi
    email: brsafdi@berkeley.edu
    at:
-     - dates: Fall 2014 - Spring 2017
+     - dates: Fall 2014-Spring 2017
        title: Pappalardo Fellow
    before:
      - title: PhD
        org: Princeton
    after:
      - title: Assistant Professor
-       org: University of Michigan
+       org: U. Michigan
      - title: Assistant Professor
        org: U.C. Berkeley
 
  - name: Wei Xue
    email: weixue@ufl.edu
    at:
-     - dates: Fall 2014 - Spring 2017
+     - dates: Fall 2014-Spring 2017
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -208,15 +207,14 @@ postdocs:
      - title: Postdoctoral Fellow
        org: CERN
      - title: Assistant Professor
-       org: University of Florida
+       org: U. Florida
    updated: 2023
    
-
  - name: Simone Marzani
    url: https://www.ge.infn.it/~smarzani/
    email: simone.marzani@unige.it
    at:
-     - dates: Fall 2014 - Spring 2015
+     - dates: Fall 2014-Spring 2015
        title: LHC Theory Initiative Postdoctoral Fellow
    before:
      - title: PhD
@@ -227,38 +225,36 @@ postdocs:
        org: Durham
    after:
      - title: Assistant Professor
-       org: University at Buffalo
+       org: U. Buffalo
      - title: Tenure-track Researcher
-       org: University of Genova
+       org: U. Genova
      - title: Associate Professor
-       org: University of Genova
+       org: U. Genova
    updated: 2023
-
 
  - name: Gilly Elor
    email: gelor84@gmail.com
    at:
-     - dates: Fall 2013 - Spring 2016
+     - dates: Fall 2013-Spring 2016
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
        org: U.C. Berkeley
    after:
      - title: Postdoctoral Researcher
-       org: University of Oregon
+       org: U. Oregon
      - title: Postdoctoral Researcher
-       org: University of Washington, Seattle
+       org: U. Washington, Seattle
      - title: Postdoctoral Researcher
        org: JGU Mainz
    updated: 2023
 
-
  - name: Duff Neill
    email: duff.neill@gmail.com
    at:
-     - dates: Fall 2012 - Spring 2015
+     - dates: Fall 2012-Spring 2015
        title: Pappalardo Fellow
-     - dates: Spring 2015 - Spring 2016
+     - dates: Spring 2015-Spring 2016
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -276,7 +272,7 @@ postdocs:
    url: https://www.physics.ucla.edu/~larkoski/
    email: larkoski@ucla.edu
    at:
-     - dates: Fall 2012 - Spring 2015
+     - dates: Fall 2012-Spring 2015
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
@@ -300,11 +296,11 @@ postdocs:
    email: matthew.mccullough@cern.ch
    url: https://th-dep.web.cern.ch/roster/mccullough-matthew
    at:
-     - dates: Fall 2011 - Spring 2014
+     - dates: Fall 2011-Spring 2014
        title: Simons Postdoctoral Fellow
    before:
      - title: PhD
-       org: Oxford
+       org: Oxford U.
    after:
      - title: COFUND Fellowship
        org: CERN
@@ -312,15 +308,14 @@ postdocs:
        org: CERN
    updated: 2023
 
-
  - name: Keith Rehermann
    email: keith.rehermann@gmail.com
    at:
-     - dates: Fall 2010 - Spring 2012
+     - dates: Fall 2010-Spring 2012
        title: CTP Postdoctoral Researcher
    before:
      - title: PhD
-       org: Johns Hopkins
+       org: Johns Hopkins U.
    after:
      - title: Consultant
        org: Ab Initio Software Corporation
@@ -357,7 +352,7 @@ phd_students:
   - name: Samuel Alipour-fard
     email: samuelaf@mit.edu
     image: images/alipour-fard.jpg
-    date: 2024
+    date: 2025
     current: true
     updated: 2023
 
@@ -374,7 +369,6 @@ phd_students:
         org: River Run Trading
     updated: 2023
 
-
   - name: Eric Metodiev
     url: https://www.ericmetodiev.com
     email: eric.metodiev@gmail.com
@@ -385,7 +379,6 @@ phd_students:
       - title: Research Scientist
         org: Renaissance Technologies
     updated: 2023
-
 
   - name: Benjamin Elder
     email: benjamin.elder11@gmail.com
@@ -416,7 +409,6 @@ phd_students:
         date: 2016
     updated: 2023
     
-
   - name: Yonatan Kahn
     url: https://yfkahn.web.illinois.edu
     email: yfkahn@illinois.edu
@@ -436,7 +428,6 @@ phd_students:
         org: American Physical Society
         date: 2016
     updated: 2023
-
 
   - name: Daniele Bertolini
     email: dbertolini84@gmail.com
@@ -530,17 +521,23 @@ bs_students:
     email: maxt114@mit.edu
     image: images/tan.png
     date:  2025
-    urop:  Spring 2023
+    urop:  Spring 2023, Summer 2023
     current: true
     updated: 2023
 
+
+  - name: Fayad Ammar
+    email: afayad@mit.edu
+    date:  2024
+    urop:  Summer 2023
+    current: true
+    updated: 2023 
 
   - name: Mohit Dighamber
     email: mdighamb@mit.edu
     image:  images/dighamber.jpg
     date: 2023
     urop: Fall 2022, Spring 2023
-    current: true
     other: "After Graduation: M.Eng candidate in Computer Science, MIT"
     updated: 2023
 
@@ -565,7 +562,6 @@ bs_students:
         org: Caltech
         date: 2020
 
-
   - name: Serhii Kryhin
     email: skryhin@g.harvard.edu
     date: 2022
@@ -583,7 +579,6 @@ bs_students:
         org: Harvard
     updated: 2023
 
-
   - name: Christopher Miller
     email: bowties@mit.edu
     url: https://bow-ties.github.io/
@@ -594,7 +589,6 @@ bs_students:
         org: MIT
     graduated: true
     updated: 2023
-
 
   - name: Debaditya Pramanik
     email: dpramanik@princeton.edu
@@ -608,15 +602,12 @@ bs_students:
         org: Princeton
     updated: 2023
 
-
   - name: Ziqi Zhou
     email: ziqiphyzhou@gmail.com
     date: 2020
-    graduated: true
-    thesis:
+    graduated: truegit
     indepdent: Summer 2018
     urop: Fall 2018
-
 
   - name: Talya Klinger
     email: tklinger@caltech.edu
@@ -629,7 +620,6 @@ bs_students:
       - title: Physics Ph.D. Candidate
         org: Caltech
     updated: 2023
-
 
   - name: Radha Mastandrea
     url: https://rmastand.github.io/
@@ -656,7 +646,6 @@ bs_students:
         org:  U.C. Berkeley
     updated: 2023
 
-
   - name: Eleanor Hall
     url: https://www.nellhall.com/
     email: nellhall@berkeley.edu
@@ -673,8 +662,6 @@ bs_students:
         org: MIT Physics Department
         date: 2017
     updated: 2023
-
-
 
   - name: Matthew Burns
     email: burns.matthewian@gmail.com
@@ -729,9 +716,6 @@ bs_students:
         org: Princeton
     urop: Spring 2014, Summer 2014
 
-
-
-
   - name: T.J. Wilkason
     email: tj.wilkason@gmail.com
     date: 2015
@@ -748,7 +732,6 @@ bs_students:
       - title: Physics Ph.D. Candidate
         org: Stanford
          
-
   - name: Mobolaji Williams
     email: williams.mobolaji@gmail.com
     url: http://mowillia.github.io/
@@ -764,8 +747,6 @@ bs_students:
     independent: Spring 2012
     urop: Fall 2010, Spring 2011, Summer 2012
     updated: 2023
-
-
 
   - name: Dustin Katzin
     email: drkatzin@gmail.com
@@ -788,7 +769,6 @@ bs_students:
       - title: Physics Ph.D. Candidate
         org: Stanford
     urop: Summer 2011, Fall 2011, Spring 2012
-
 
   - name: Lin Fei
     email: linf3i@gmail.com
@@ -828,17 +808,22 @@ bs_students:
     updated: 2023
         
 
-
 visitors:
+
+  - name: Xinyue (Stella) Wu
+    email: xwu48@u.rochester.edu
+    program: MIT Summer Research Program
+    dates: Summer 2023
+    home: U. Rochester
+    current: true
 
   - name: Brian Nord
     url: http://briandnord.com
     email: nord@fnal.gov
     program: MIT MLK Visiting Professor
-    dates: Fall 2022 - Spring 2023
+    dates: Fall 2022-Spring 2023
     home: Fermilab and U. Chicago
     current: true
-
 
   - name: Kaća Bradonjić
     url: http://www.kacabradonjic.com
@@ -846,8 +831,6 @@ visitors:
     program: Visiting Artist
     dates: Fall 2022
     home: Hampshire College
-    current: true
-
 
   - name: Sergio Diaz
     url: https://www.linkedin.com/in/sdiaz211/
@@ -856,9 +839,8 @@ visitors:
     program: MIT Summer Research Program
     dates: Summer 2022
     project: "Determination of the W Mass Parameter using Machine Learning"
-    home: University of Maryland, Baltimore County
+    home: U. Maryland, Baltimore County
     updated: 2023
-
 
   - name: Pedro Rivera-Cardona
     email: pedroer2@illinois.edu
@@ -873,7 +855,7 @@ visitors:
     after:
       - title: PhD Candidate
         org: University of Illinois, Urbana-Champaign
-    home: University of Puerto Rico, Mayaguez
+    home: U. Puerto Rico, Mayaguez
     other: Visiting Student 2021-2022
     updated: 2023
 
@@ -888,7 +870,7 @@ visitors:
     program: MIT Summer Research Program
     dates: Summer 2020
     project: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
-    home: University of Cincinnati
+    home: U. Cincinnati
     after:
       - title: PhD Candidate
         org: NYU
@@ -897,7 +879,7 @@ visitors:
   - name: Andrew Turner
     url: http://apturner.net
     email: apturner@mac.com
-    dates: 2018 - 2019
+    dates: 2018-2019
     program: Tushar Shah and Sara Zion Physics Fellowship
     home: MIT
     home_advisor: Washington Taylor
@@ -906,13 +888,11 @@ visitors:
         org: UPenn
     updated: 2023
 
-
   - name: Maximilian Henderson
     email: maxhenderson43@gmail.com
     program: International Research Opportunities Programme
     dates: Summer 2018
     home: Imperial College London
-
 
   - name: Edward Hirst
     url: https://www.city.ac.uk/about/people/research-students/ed-hirst
@@ -958,8 +938,8 @@ visitors:
     email: nayara.focs@gmail.com
     url: https://www.nayarafonseca.com/
     program: FAPESP Fellowship
-    dates: Spring 2014 - Fall 2014
-    home: University of Sao Paulo, Brazil
+    dates: Spring 2014-Fall 2014
+    home: U. Sao Paulo, Brazil
     home_advisor: Gustavo Burdman
     after:
       - title: Research Scientist
