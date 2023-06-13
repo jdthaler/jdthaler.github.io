@@ -3,6 +3,7 @@ layout: article
 title: Public Engagement
 aside:
   toc: true
+permalink: engagement/
 ---
 
 {% assign topimage = site.data.public.public_top %}

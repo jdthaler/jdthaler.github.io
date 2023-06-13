@@ -4,7 +4,7 @@ group_top:
 
 join_top:
 
-  image: images/ctp_hallway_small.jpg
+  image: /images/ctp_hallway_small.jpg
   hover: 6-318
   description: "Each year, I typically have a few openings in my group for new researchers. Please read the sections below carefully, since there are different steps to take depending on your career stage."
 
@@ -43,7 +43,7 @@ postdocs:
 
  - name: Cari Cesarotti
    url: http://caricesarotti.com/
-   image: images/cesarotti.jpg
+   image: /images/cesarotti.jpg
    email: ccesar@mit.edu
    at:
      - dates: Fall 2022-Spring 2025
@@ -60,7 +60,7 @@ postdocs:
 
  - name: Sokratis Trifinopoulos
    email: trifinos@mit.edu
-   image: images/trifinopoulos.jpg
+   image: /images/trifinopoulos.jpg
    at:
      - dates: Fall 2022-Spring 2024
        title: Postdoc.Mobility Fellow
@@ -75,7 +75,7 @@ postdocs:
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
    email: siddharthmishra19@gmail.com
-   image: images/mishra-sharma.jpg
+   image: /images/mishra-sharma.jpg
    at:
      - dates: Fall 2021-Spring 2024
        title: IAIFI Fellow
@@ -325,21 +325,21 @@ phd_students:
 
   - name: Pamela Pajarillo
     email: pampaja@mit.edu
-    image: images/pajarillo.png
+    image: /images/pajarillo.png
     date: 2027
     current: true
     updated: 2023
 
   - name: Sean Benevedes
     email: seanmb@mit.edu
-    image: images/benevedes.jpeg
+    image: /images/benevedes.jpeg
     date: 2026
     current: true
     updated: 2023
 
   - name: Rikab Gambhir
     email: rikab@mit.edu
-    image: images/gambhir.jpg
+    image: /images/gambhir.jpg
     date: 2025
     url: http://rikabgambhir.com/
     awards:
@@ -351,7 +351,7 @@ phd_students:
 
   - name: Samuel Alipour-fard
     email: samuelaf@mit.edu
-    image: images/alipour-fard.jpg
+    image: /images/alipour-fard.jpg
     date: 2025
     current: true
     updated: 2023
@@ -480,7 +480,7 @@ meng_students:
 
   - name: Raymond Wynne
     email: wynnera@mit.edu
-    image: images/wynne.jpeg
+    image: /images/wynne.jpeg
     date: 2023
     urop: Summer 2021 
     after:
@@ -519,7 +519,7 @@ bs_students:
 
   - name: Max Tan
     email: maxt114@mit.edu
-    image: images/tan.png
+    image: /images/tan.png
     date:  2025
     urop:  Spring 2023, Summer 2023
     current: true
@@ -835,7 +835,7 @@ visitors:
   - name: Sergio Diaz
     url: https://www.linkedin.com/in/sdiaz211/
     email: sdiaz1@mit.edu
-    image: images/diaz_sergio.jpg
+    image: /images/diaz_sergio.jpg
     program: MIT Summer Research Program
     dates: Summer 2022
     project: "Determination of the W Mass Parameter using Machine Learning"

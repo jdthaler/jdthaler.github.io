@@ -1,5 +1,25 @@
 import yaml,os
 
+
+#################### functions
+
+# copying from https://www.geeksforgeeks.org/python-get-unique-values-list/
+def unique(list1):
+ 
+    # initialize a null list
+    unique_list = []
+ 
+    # traverse for all elements
+    for x in list1:
+        # check if exists in unique_list or not
+        if x not in unique_list:
+            unique_list.append(x)
+    
+    # output
+    return unique_list
+
+
+
 #################### bio file
 
 bio_input = open("../_data/bio.yml","r")
@@ -222,3 +242,54 @@ for person in visitors:
 visitors_output.write('\\el\n')
 
 
+#################### talks file
+
+talks_input = open("../_data/talks.yml","r")
+talks_yaml = yaml.load(talks_input,Loader=yaml.BaseLoader)
+
+########## generic talk writing file
+
+def write_talks(output_file_name,text_string):
+
+  talk_output = open(output_file_name,"w")
+  colloquia = talks_yaml[text_string]
+  talk_output.write('\\bbl\n\n')
+
+  # get names of talks
+  talk_names = []
+  for talk in colloquia:
+    talk_names.append(talk['title'])
+  unique_talk_names = unique(talk_names)
+
+  for talk_name in unique_talk_names:
+    list_with_name = []
+    for talk in colloquia:
+      if talk_name == talk['title']:
+        list_with_name.append(talk)
+    talk_output.write('\\item ')
+    talk_output.write('``'+talk_name+'\'\'')
+    if len(list_with_name) > 1:
+      talk_output.write('\n')
+    else:
+      talk_output.write(', ')
+    
+    for talk in list_with_name:
+      if len(list_with_name) > 1:
+        talk_output.write('\\\\ \\sh ')
+      
+      talk_output.write(talk['event']+', \emph{'+talk['org']+', '+talk['date']+'}')
+      if 'virtual' in talk and talk['virtual']:
+        talk_output.write(' (virtual)\n')
+      else:
+        talk_output.write('\n')
+        
+    talk_output.write('\n')
+
+  talk_output.write('\\el\n')
+
+
+########## colloquia file
+
+write_talks("cv_colloquia.tex",'colloquia')
+write_talks("cv_public_lectures.tex",'public')
+write_talks("cv_schools.tex",'schools')

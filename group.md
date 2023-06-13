@@ -3,7 +3,7 @@ layout: article
 title: Research Group
 aside:
   toc: true
-
+permalink: group/
 ---
 
 {% assign topimage = site.data.mentoring.group_top %}
@@ -26,7 +26,7 @@ aside:
   {% if person.current -%}
     <div class="cell cell--3">
           {% if person.url %} <a href="{{person.url}}" target="_blank">{% endif%} 
-          <img class="image image-sq--sm rounded" src="{{person.image | default: "images/blank_profile.png"}}" title="{{person.name}}"/><br>
+          <img class="image image-sq--sm rounded" src="{{person.image | default: "/images/blank_profile.png"}}" title="{{person.name}}"/><br>
               <b>{{person.name}}</b>
           {% if person.url %} </a>{% endif%} 
     </div>
