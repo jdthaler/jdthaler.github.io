@@ -72,7 +72,6 @@ postdocs:
    current: true
    updated: 2023
 
-
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
    email: siddharthmishra19@gmail.com
@@ -211,7 +210,6 @@ postdocs:
        org: U. Florida
    updated: 2023
    
-
  - name: Simone Marzani
    url: https://www.ge.infn.it/~smarzani/
    email: simone.marzani@unige.it
@@ -234,7 +232,6 @@ postdocs:
        org: U. Genova
    updated: 2023
 
-
  - name: Gilly Elor
    email: gelor84@gmail.com
    at:
@@ -251,7 +248,6 @@ postdocs:
      - title: Postdoctoral Researcher
        org: JGU Mainz
    updated: 2023
-
 
  - name: Duff Neill
    email: duff.neill@gmail.com
@@ -311,7 +307,6 @@ postdocs:
      - title: Staff Scientist
        org: CERN
    updated: 2023
-
 
  - name: Keith Rehermann
    email: keith.rehermann@gmail.com
@@ -374,7 +369,6 @@ phd_students:
         org: River Run Trading
     updated: 2023
 
-
   - name: Eric Metodiev
     url: https://www.ericmetodiev.com
     email: eric.metodiev@gmail.com
@@ -385,7 +379,6 @@ phd_students:
       - title: Research Scientist
         org: Renaissance Technologies
     updated: 2023
-
 
   - name: Benjamin Elder
     email: benjamin.elder11@gmail.com
@@ -416,7 +409,6 @@ phd_students:
         date: 2016
     updated: 2023
     
-
   - name: Yonatan Kahn
     url: https://yfkahn.web.illinois.edu
     email: yfkahn@illinois.edu
@@ -436,7 +428,6 @@ phd_students:
         org: American Physical Society
         date: 2016
     updated: 2023
-
 
   - name: Daniele Bertolini
     email: dbertolini84@gmail.com
@@ -571,7 +562,6 @@ bs_students:
         org: Caltech
         date: 2020
 
-
   - name: Serhii Kryhin
     email: skryhin@g.harvard.edu
     date: 2022
@@ -589,7 +579,6 @@ bs_students:
         org: Harvard
     updated: 2023
 
-
   - name: Christopher Miller
     email: bowties@mit.edu
     url: https://bow-ties.github.io/
@@ -600,7 +589,6 @@ bs_students:
         org: MIT
     graduated: true
     updated: 2023
-
 
   - name: Debaditya Pramanik
     email: dpramanik@princeton.edu
@@ -614,14 +602,12 @@ bs_students:
         org: Princeton
     updated: 2023
 
-
   - name: Ziqi Zhou
     email: ziqiphyzhou@gmail.com
     date: 2020
     graduated: truegit
     indepdent: Summer 2018
     urop: Fall 2018
-
 
   - name: Talya Klinger
     email: tklinger@caltech.edu
@@ -634,7 +620,6 @@ bs_students:
       - title: Physics Ph.D. Candidate
         org: Caltech
     updated: 2023
-
 
   - name: Radha Mastandrea
     url: https://rmastand.github.io/
@@ -661,7 +646,6 @@ bs_students:
         org:  U.C. Berkeley
     updated: 2023
 
-
   - name: Eleanor Hall
     url: https://www.nellhall.com/
     email: nellhall@berkeley.edu
@@ -678,8 +662,6 @@ bs_students:
         org: MIT Physics Department
         date: 2017
     updated: 2023
-
-
 
   - name: Matthew Burns
     email: burns.matthewian@gmail.com
@@ -734,9 +716,6 @@ bs_students:
         org: Princeton
     urop: Spring 2014, Summer 2014
 
-
-
-
   - name: T.J. Wilkason
     email: tj.wilkason@gmail.com
     date: 2015
@@ -753,7 +732,6 @@ bs_students:
       - title: Physics Ph.D. Candidate
         org: Stanford
          
-
   - name: Mobolaji Williams
     email: williams.mobolaji@gmail.com
     url: http://mowillia.github.io/
@@ -769,8 +747,6 @@ bs_students:
     independent: Spring 2012
     urop: Fall 2010, Spring 2011, Summer 2012
     updated: 2023
-
-
 
   - name: Dustin Katzin
     email: drkatzin@gmail.com
@@ -793,7 +769,6 @@ bs_students:
       - title: Physics Ph.D. Candidate
         org: Stanford
     urop: Summer 2011, Fall 2011, Spring 2012
-
 
   - name: Lin Fei
     email: linf3i@gmail.com
@@ -833,11 +808,9 @@ bs_students:
     updated: 2023
         
 
-
 visitors:
 
   - name: Xinyue (Stella) Wu
-    url: 
     email: xwu48@u.rochester.edu
     program: MIT Summer Research Program
     dates: Summer 2023
@@ -848,10 +821,9 @@ visitors:
     url: http://briandnord.com
     email: nord@fnal.gov
     program: MIT MLK Visiting Professor
-    dates: Fall 2022 - Spring 2023
+    dates: Fall 2022-Spring 2023
     home: Fermilab and U. Chicago
     current: true
-
 
   - name: Kaća Bradonjić
     url: http://www.kacabradonjic.com
@@ -860,7 +832,6 @@ visitors:
     dates: Fall 2022
     home: Hampshire College
 
-
   - name: Sergio Diaz
     url: https://www.linkedin.com/in/sdiaz211/
     email: sdiaz1@mit.edu
@@ -868,9 +839,8 @@ visitors:
     program: MIT Summer Research Program
     dates: Summer 2022
     project: "Determination of the W Mass Parameter using Machine Learning"
-    home: University of Maryland, Baltimore County
+    home: U. Maryland, Baltimore County
     updated: 2023
-
 
   - name: Pedro Rivera-Cardona
     email: pedroer2@illinois.edu
@@ -885,7 +855,7 @@ visitors:
     after:
       - title: PhD Candidate
         org: University of Illinois, Urbana-Champaign
-    home: University of Puerto Rico, Mayaguez
+    home: U. Puerto Rico, Mayaguez
     other: Visiting Student 2021-2022
     updated: 2023
 
@@ -900,7 +870,7 @@ visitors:
     program: MIT Summer Research Program
     dates: Summer 2020
     project: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
-    home: University of Cincinnati
+    home: U. Cincinnati
     after:
       - title: PhD Candidate
         org: NYU
@@ -909,7 +879,7 @@ visitors:
   - name: Andrew Turner
     url: http://apturner.net
     email: apturner@mac.com
-    dates: 2018 - 2019
+    dates: 2018-2019
     program: Tushar Shah and Sara Zion Physics Fellowship
     home: MIT
     home_advisor: Washington Taylor
@@ -918,13 +888,11 @@ visitors:
         org: UPenn
     updated: 2023
 
-
   - name: Maximilian Henderson
     email: maxhenderson43@gmail.com
     program: International Research Opportunities Programme
     dates: Summer 2018
     home: Imperial College London
-
 
   - name: Edward Hirst
     url: https://www.city.ac.uk/about/people/research-students/ed-hirst
@@ -970,8 +938,8 @@ visitors:
     email: nayara.focs@gmail.com
     url: https://www.nayarafonseca.com/
     program: FAPESP Fellowship
-    dates: Spring 2014 - Fall 2014
-    home: University of Sao Paulo, Brazil
+    dates: Spring 2014-Fall 2014
+    home: U. Sao Paulo, Brazil
     home_advisor: Gustavo Burdman
     after:
       - title: Research Scientist

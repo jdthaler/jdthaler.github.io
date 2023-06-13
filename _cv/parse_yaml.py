@@ -141,3 +141,84 @@ for person in meng_students:
 
 meng_students_output.write('\\el\n')
 
+
+########## urop_students file
+
+urop_students_output = open("cv_urop_students.tex","w")
+urop_students = mentoring_yaml['bs_students']
+urop_students_output.write('\\bbl\n\n')
+
+for person in urop_students:
+  if 'urop' in person:
+    urop_students_output.write('\\item ')
+    urop_students_output.write(person['name']+' \''+person['date'][2:]+': ')
+    urop_students_output.write('\\emph{'+person['urop']+'}')
+    if 'thesis' in person:
+      urop_students_output.write(' (see below) \n')
+    else:
+      if 'deceased' in person:
+        urop_students_output.write(' (deceased) \n')
+      else:
+        urop_students_output.write('\n')
+      if 'after' in person:
+        urop_students_output.write('\\\\ \\sh After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
+        if len(person['after']) > 1:
+          urop_students_output.write('\\\\ \\sh Currently: '+person['after'][-1]['title']+', \\emph{'+person['after'][-1]['org']+'}\n')
+      if 'awards' in person:
+        for award in person['awards']:
+          urop_students_output.write('\\\\ \\sh '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
+    urop_students_output.write('\n')
+
+urop_students_output.write('\\el\n')
+
+########## bs_students file
+
+bs_students_output = open("cv_bs_students.tex","w")
+bs_students = mentoring_yaml['bs_students']
+bs_students_output.write('\\bbl\n\n')
+
+for person in bs_students:
+  if 'thesis' in person:
+    bs_students_output.write('\\item ')
+    bs_students_output.write(person['name']+', \\emph{')
+    if 'current' in person and person['current']:
+        bs_students_output.write('anticipated ')
+    bs_students_output.write('B.S.~'+person['date']+'}\n')
+    if 'thesis' in person:
+      bs_students_output.write('\\\\ \\sh Thesis: ``'+person['thesis']+'\'\'')
+      if 'joint' in person:
+        bs_students_output.write(' \emph{(jointly advised with '+person['joint']+')}')
+      bs_students_output.write('\n')
+    if 'after' in person:
+      bs_students_output.write('\\\\ \\sh After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
+      if len(person['after']) > 1:
+        bs_students_output.write('\\\\ \\sh Currently: '+person['after'][-1]['title']+', \\emph{'+person['after'][-1]['org']+'}\n')
+    if 'awards' in person:
+      for award in person['awards']:
+        bs_students_output.write('\\\\ \\sh '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
+    bs_students_output.write('\n')
+
+bs_students_output.write('\\el\n')
+
+########## visitors file
+
+visitors_output = open("cv_visitors.tex","w")
+visitors = mentoring_yaml['visitors']
+visitors_output.write('\\bbl\n\n')
+
+for person in visitors:
+  visitors_output.write('\\item ')
+  visitors_output.write(person['name']+', '+person['program']+', ')
+  visitors_output.write('\\emph{'+person['dates'].replace('-','--')+'}\n')
+  if 'project' in person:
+    visitors_output.write('\\\\ \\sh Project: ``'+person['project']+'\'\'\n')
+  visitors_output.write('\\\\ \\sh Home Institution: \emph{'+person['home'])
+  if 'home_advisor' in person:
+    visitors_output.write(' ('+person['home_advisor']+')}\n')
+  else:
+    visitors_output.write('}\n')
+  visitors_output.write('\n')
+  
+visitors_output.write('\\el\n')
+
+
