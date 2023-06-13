@@ -330,7 +330,7 @@ schools:
     org: MIT Lincoln Labs
     date: March 2022
   
-  - title: "QCD & Collider Physics"
+  - title: "QCD and Collider Physics"
     parts:
       - title: Overview and Inspiration
         url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture1.pdf
