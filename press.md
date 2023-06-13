@@ -3,6 +3,7 @@ layout: article
 title: Press Information
 aside:
   toc: true
+  
 ---
 
 ## Photographs

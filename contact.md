@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Contact Information
+permalink: contact/
 ---
 {% assign topimage = site.data.bio.contact_top %}
 

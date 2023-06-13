@@ -1,6 +1,6 @@
 research_top:
     title: Research in Theoretical Particle Physics
-    image: images/stamp_research.jpg
+    image: /images/stamp_research.jpg
     hover: Jesse Thaler
     description: "The goal of my research in theoretical particle physics is to galvanize the search for new phenomena beyond the Standard Model as well as to illuminate the structure of the Standard Model itself.  My work often combines first-principles calculations in quantum field theory with data analysis techniques from machine learning."
 
@@ -8,7 +8,7 @@ topics:
 
   - key: aiml
     title:  Data Science and AI/ML
-    image:  images/stamp_aiml.jpg
+    image: /images/stamp_aiml.jpg
     image_credit: "Chelsea Turner, MIT News"
     image_url: https://news.mit.edu/2019/new-physics-anomalous-particles-0726
     description:  "Machine learning has impacted many scientific fields, and particle physics is no exception. In my research, I aim to enhance the search for new phenomena at colliders by merging the performance of deep learning algorithms with the robustness of “deep thinking” approaches."
@@ -32,7 +32,7 @@ topics:
 
   - key: qcd
     title:  Collider Physics and QCD
-    image:  images/stamp_qcd.jpg
+    image: /images/stamp_qcd.jpg
     image_credit: "CERN, MIT News"
     image_url: https://news.mit.edu/2017/first-open-access-data-large-collider-subatomic-particle-patterns-0929
     description: "High-energy particle collisions are dominated by QCD (quantum chromodynamics), which describes fundamental interactions among quarks and gluons.  My research has yielded new ways to analyze collider physics data and new ways to compute the properties of QCD."
@@ -66,7 +66,7 @@ topics:
     
   - key: bsm
     title:  Beyond the Standard Model
-    image:  images/stamp_bsm.jpg
+    image: /images/stamp_bsm.jpg
     image_credit:  ABRACADABRA, MIT News
     image_url:  https://news.mit.edu/2019/dark-matter-experiment-finds-no-evidence-axions-0329
     description:  "The Standard Model has survived a half-century of precision tests, yets it leaves many unanswered questions, such as the nature of dark matter, the apparent weakness of gravity, and the symmetry structure of our Universe.  In my research, I study hypothetical scenarios for physics beyond the Standard Model (BSM) and new experimental strategies to uncover evidence for new physics."

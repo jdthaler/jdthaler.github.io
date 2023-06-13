@@ -138,14 +138,14 @@ awards:
      title:    Seven from MIT named American Physical Society Fellows for 2022
      url:      https://news.mit.edu/2022/american-physical-society-fellows-1019
      journal:  MIT News
-     image:    news/2022-mit-aps-fellows-00_0.jpg
+     image:  /news/2022-mit-aps-fellows-00_0.jpg
      date:     October 2022
 
    - short:    Simons Investigator
      title: Three MIT faculty members named 2022 Simons Investigators
      url: https://news.mit.edu/2022/three-mit-faculty-members-named-2022-simons-investigators-0624
      journal:  MIT News
-     image:    news/2022-simons-investigator-00_0.jpg
+     image:  /news/2022-simons-investigator-00_0.jpg
      date:     June 2022
      
    - short:    DOE QuantISED
@@ -158,14 +158,14 @@ awards:
      title: School of Science professors granted tenure
      url: http://news.mit.edu/2017/seven-mit-science-professors-granted-tenure-0628
      journal:  MIT News
-     image:    news/2017-mit-sos-tenure-00_0.jpg
+     image:  /news/2017-mit-sos-tenure-00_0.jpg
      date:     June 2017
 
    - short:    Edgerton Award
      title: "Biobarrier explorer and dark matter theorist win MIT’s prestigious junior faculty award"
      url: http://news.mit.edu/2016/ribbeck-thale-edgerton-award-0420
      journal:  MIT News
-     image:    news/2016-edgerton-award-00_0.jpg
+     image:  /news/2016-edgerton-award-00_0.jpg
      date:     April 2016
 
    - short:   Sloan Fellowship
@@ -191,13 +191,13 @@ profiles:
   - title: "Jesse Thaler: Then and Now / 2011 Early Career Award Winner "
     url: https://www.energy.gov/science/articles/jesse-thaler-then-and-now-2011-early-career-award-winner
     journal: DOE News
-    image:   news/2021-doe-news-00_0.jpg
+    image:  /news/2021-doe-news-00_0.jpg
     date: December 2021
 
   - title: "Using AI to Drill Down in Physics"
     url: https://cacm.acm.org/news/253847-using-ai-to-drill-down-in-physics/
     journal: ACM News
-    image:   news/2021-acm-news-00_0.jpg
+    image:  /news/2021-acm-news-00_0.jpg
     date: July 2021
 
   - title: "Can a Computer Devise a Theory of Everything?"
@@ -215,27 +215,27 @@ profiles:
   - title: "National Science Foundation awards $20M to launch artificial-intelligence institute"
     url: https://www.news.harvard.edu/gazette/story/2020/08/harvard-a-partner-in-20-million-ai-institute/
     journal: Harvard Gazette
-    image:   news/2020-harvard-gazette-00_0.jpg
+    image:  /news/2020-harvard-gazette-00_0.jpg
     date: August 2020
 
 
   - title: "National Science Foundation announces MIT-led Institute for Artificial Intelligence and Fundamental Interactions"
     url: https://news.mit.edu/2020/nsf-announces-mit-led-institute-artificial-intelligence-fundamental-interactions-0826
     journal: MIT News
-    image:  news/2020-iaifi-mit-news-00_0.jpg
+    image:  /news/2020-iaifi-mit-news-00_0.jpg
     date: August 2020
 
 
   - title: "A new metric to capture the similarity between collider events"
     url:   https://phys.org/news/2019-08-metric-capture-similarity-collider-events.html
     journal:  Phys.org
-    image:  news/2019-physics-org-00_0.jpg
+    image:  /news/2019-physics-org-00_0.jpg
     date:  August 2019
 
   - title: "MIT physicists: Social networks could hold the key to finding new particles"
     url: https://arstechnica.com/science/2019/07/mit-physicists-social-networks-could-hold-the-key-to-finding-new-particles/
     journal:  Ars Technica
-    image:  news/2019-ars-technica-00_0.jpg
+    image:  /news/2019-ars-technica-00_0.jpg
     date:  August 2019
     date:  July 2019
 

@@ -1,17 +1,17 @@
 index_top:
-  image: images/jthaler_mit_spotlight.jpg
+  image: /images/jthaler_mit_spotlight.jpg
   image_credit: Jared Charney, MIT News
   image_url: http://spotlight.mit.edu/2017/chalkboard-theorist
   hover: Jesse Thaler
   
 about_top:
-  image: images/jthaler_photo_2017.jpg
+  image: /images/jthaler_photo_2017.jpg
   image_credit: Jared Charney
   image_url: http://www.jaredcharney.com/
   hover: Jesse Thaler
   
 contact_top:
-  image: images/6-318.jpg
+  image: /images/6-318.jpg
   hover: "6-318"
 
 positions:
@@ -19,38 +19,38 @@ positions:
   - title: Professor of Physics
     acronym:  MIT
     hover:  MIT Physics
-    image: images/logo_mit_physics.png
+    image: /images/logo_mit_physics.png
     url:  https://physics.mit.edu/
 
   - title: Director
     acronym:  IAIFI
     hover: IAIFI
-    image: images/logo_iaifi_nsf.png
+    image: /images/logo_iaifi_nsf.png
     url:  http://iaifi.org/
 
 affiliations:
 
   - name: Center for Theoretical Physics
     acronym: CTP
-    image: images/logo_ctp.png
+    image: /images/logo_ctp.png
     url: http://ctp.mit.edu/
     dates: January 2010 - Present
   
   - name: Laboratory for Nuclear Science
     acronym: LNS
-    image: images/logo_lns.png
+    image: /images/logo_lns.png
     url: http://web.mit.edu/lns/
     dates: January 2010 - Present
     
   - name:  Statistics and Data Science Center
     acronym: SDSC
-    image: images/logo_sdsc.png
+    image: /images/logo_sdsc.png
     url: https://idss.mit.edu/
     dates: January 2020 - Present
 
   - name:  Institute for Data, Systems, and Society
     acronym: IDSS
-    image: images/logo_idss.jpg
+    image: /images/logo_idss.jpg
     url: https://idss.mit.edu/
     dates: January 2020 - Present
 

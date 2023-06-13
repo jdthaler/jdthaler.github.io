@@ -3,6 +3,7 @@ layout: article
 title:  Research in Theoretical Physics
 aside:
   toc: true
+permalink: research/
 ---
 
 

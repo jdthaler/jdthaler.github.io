@@ -3,6 +3,7 @@ layout: article
 title: Jesse Thaler
 aside:
   toc: true
+permalink: /about/
 ---
 
 {% assign topimage = site.data.bio.about_top %}

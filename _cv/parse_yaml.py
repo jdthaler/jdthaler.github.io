@@ -1,5 +1,22 @@
 import yaml,os
 
+
+#################### functions
+
+# copying from https://www.geeksforgeeks.org/python-get-unique-values-list/
+def unique(list1):
+ 
+    # initialize a null list
+    unique_list = []
+ 
+    # traverse for all elements
+    for x in list1:
+        # check if exists in unique_list or not
+        if x not in unique_list:
+            unique_list.append(x)
+
+
+
 #################### bio file
 
 bio_input = open("../_data/bio.yml","r")
@@ -222,3 +239,24 @@ for person in visitors:
 visitors_output.write('\\el\n')
 
 
+#################### talks file
+
+talks_input = open("../_data/talks.yml","r")
+talks_yaml = yaml.load(talks_input,Loader=yaml.BaseLoader)
+
+########## postdocs file
+
+colloquia_output = open("cv_colloquia.tex","w")
+colloquia = talks_yaml['colloquia']
+colloquia_output.write('\\bbl\n\n')
+
+talk_names = []
+
+for talk in colloquia:
+  talk_names.append(talk['title'])
+  
+unique_talk_names = unique(talk_names)
+
+print(talk_names)
+  
+  

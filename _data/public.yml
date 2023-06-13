@@ -1,5 +1,5 @@
 public_top:
-  image: images/stamp_public.jpg
+  image: /images/stamp_public.jpg
   image_credit: Justin Knight, MIT News
   image_url: https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
   hover: CTP@50
@@ -9,7 +9,7 @@ topics:
 
   - key: public_talks
     title:  Public Talks
-    image:  images/stamp_dm.jpg
+    image: /images/stamp_dm.jpg
     image_credit:  "NASA, ESA, E. Jullo, P. Natarajan, J-P. Kneib"
     image_url:  https://esahubble.org/images/heic1014a/
     image_hover: "Dark Matter in Abell 1689"
@@ -29,7 +29,7 @@ topics:
 
   - key: advocacy
     title:  Advocacy
-    image:  images/stamp_nytimes_aiml.jpg
+    image: /images/stamp_nytimes_aiml.jpg
     image_credit: "Alex Eben Meyer, NYTimes"
     image_url: https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html
     image_hover: "AI/ML in the NYTimes"
@@ -45,7 +45,7 @@ topics:
    
   - key: bsm
     title:  Essays
-    image:  images/stamp_mod.png
+    image: /images/stamp_mod.png
     image_credit: "Jesse Thaler, with Felice Frankel"
     image_url: pdfs/jthaler_frankel_picturing_science.pdf
     image_hover: "MIT Open Data Event Display"

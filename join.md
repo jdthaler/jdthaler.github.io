@@ -3,7 +3,7 @@ layout: article
 title: Joining My Group
 aside:
   toc: true
-
+permalink: join/
 ---
 
 {% assign topimage = site.data.mentoring.join_top %}
