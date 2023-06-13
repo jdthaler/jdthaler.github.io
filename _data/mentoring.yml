@@ -537,7 +537,6 @@ bs_students:
 
   - name: Fayad Ammar
     email: afayad@mit.edu
-    image: 
     date:  2024
     urop:  Summer 2023
     current: true
@@ -619,8 +618,7 @@ bs_students:
   - name: Ziqi Zhou
     email: ziqiphyzhou@gmail.com
     date: 2020
-    graduated: true
-    thesis:
+    graduated: truegit
     indepdent: Summer 2018
     urop: Fall 2018
 
