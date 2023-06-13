@@ -112,3 +112,32 @@ for person in phd_students:
   phd_students_output.write('\n')
 
 phd_students_output.write('\\el\n')
+
+########## meng_students file
+
+meng_students_output = open("cv_meng_students.tex","w")
+meng_students = mentoring_yaml['meng_students']
+meng_students_output.write('\\bbl\n\n')
+
+for person in meng_students:
+  meng_students_output.write('\\item ')
+  meng_students_output.write(person['name']+', \\emph{')
+  if 'current' in person and person['current']:
+      meng_students_output.write('anticipated ')
+  meng_students_output.write('M.Eng.~'+person['date']+'}\n')
+  if 'thesis' in person:
+    meng_students_output.write('\\\\ \\sh Thesis: ``'+person['thesis']+'\'\'')
+    if 'joint' in person:
+      meng_students_output.write(' \emph{(jointly advised with '+person['joint']+')}')
+    meng_students_output.write('\n')
+  if 'after' in person:
+    meng_students_output.write('\\\\ \\sh After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
+    if len(person['after']) > 1:
+      meng_students_output.write('\\\\ \\sh Currently: '+person['after'][-1]['title']+', \\emph{'+person['after'][-1]['org']+'}\n')
+  if 'awards' in person:
+    for award in person['awards']:
+      meng_students_output.write('\\\\ \\sh '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
+  meng_students_output.write('\n')
+
+meng_students_output.write('\\el\n')
+
