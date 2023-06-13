@@ -357,7 +357,7 @@ phd_students:
   - name: Samuel Alipour-fard
     email: samuelaf@mit.edu
     image: images/alipour-fard.jpg
-    date: 2024
+    date: 2025
     current: true
     updated: 2023
 
@@ -530,10 +530,18 @@ bs_students:
     email: maxt114@mit.edu
     image: images/tan.png
     date:  2025
-    urop:  Spring 2023
+    urop:  Spring 2023, Summer 2023
     current: true
     updated: 2023
 
+
+  - name: Fayad, Ammar
+    email: afayad@mit.edu
+    image: 
+    date:  2024
+    urop:  Summer 2023
+    current: true
+    updated: 2023 
 
   - name: Mohit Dighamber
     email: mdighamb@mit.edu
@@ -830,6 +838,14 @@ bs_students:
 
 
 visitors:
+
+  - name: Xinyue (Stella), Wu
+    url: 
+    email: xwu48@u.rochester.edu
+    program: MIT Summer Research Program
+    dates: Summer 2023
+    home: U. Rochester
+    current: true
 
   - name: Brian Nord
     url: http://briandnord.com
