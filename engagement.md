@@ -28,7 +28,7 @@ permalink: engagement/
 
 {{topimage.description}}
 
-[Engagement CV](cv#public-engagement){:.button.button--secondary.button--pill.button--sm}
+[Engagement CV](/cv#public-engagement){:.button.button--secondary.button--pill.button--sm}
 
 
 {% for topic in site.data.public.topics %}

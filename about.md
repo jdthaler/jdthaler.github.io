@@ -17,9 +17,9 @@ permalink: /about/
   </div>
 </div>
 
-[Personal Page](personal){:.button.button--secondary.button--pill.button--sm}
-[Press Information](press){:.button.button--secondary.button--pill.button--sm}
-[Full CV](cv){:.button.button--secondary.button--pill.button--sm}
+[Personal Page](/personal){:.button.button--secondary.button--pill.button--sm}
+[Press Information](/press){:.button.button--secondary.button--pill.button--sm}
+[Full CV](/cv){:.button.button--secondary.button--pill.button--sm}
 [MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 [Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 

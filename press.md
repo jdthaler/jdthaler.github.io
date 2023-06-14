@@ -3,7 +3,7 @@ layout: article
 title: Press Information
 aside:
   toc: true
-  
+permalink: press/
 ---
 
 ## Photographs
@@ -11,16 +11,16 @@ aside:
 <div class="grid-container">
   <div class="grid grid--py-3">
     <div class="cell cell--6">
-          <a href="images/jthaler_mit_spotlight.jpg">
-            <img class="image-h image-h--sm" src="images//jthaler_mit_spotlight.jpg" title="Thaler Blackboard Shot"/>
+          <a href="/images/jthaler_mit_spotlight.jpg">
+            <img class="image-h image-h--sm" src="/images//jthaler_mit_spotlight.jpg" title="Thaler Blackboard Shot"/>
           <br>
               <b>Blackboard Shot</b>
           </a>
     </div>
     
     <div class="cell cell--6">
-          <a href="images/jthaler_photo_2017.jpg">
-            <img class="image-h image-h--sm" src="images/jthaler_photo_2017.jpg" title="Thaler Head Shot"/>
+          <a href="/images/jthaler_photo_2017.jpg">
+            <img class="image-h image-h--sm" src="/images/jthaler_photo_2017.jpg" title="Thaler Head Shot"/>
           <br>
               <b>Head Shot</b>
           </a>

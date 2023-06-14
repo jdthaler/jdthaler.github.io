@@ -10,8 +10,8 @@ permalink: group/
 {{topimage.description}} 
 
 
-[Joining My Group](join){:.button.button--secondary.button--pill.button--sm}
-[Mentoring CV](cv#mentoring){:.button.button--secondary.button--pill.button--sm}
+[Joining My Group](/join){:.button.button--secondary.button--pill.button--sm}
+[Mentoring CV](/cv#mentoring){:.button.button--secondary.button--pill.button--sm}
 [MIT Physics Community Values](https://physics.mit.edu/about-physics/community-values/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 
