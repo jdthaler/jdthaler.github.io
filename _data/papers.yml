@@ -469,6 +469,12 @@ papers:
     year: 2017
     topic: naturalness
 
+  - title: "Flavoured jets with exact anti-kt kinematics and tests of infrared and collinear safety"
+    authors: Fabrizio Caola, Radosław Grabarczyk, Maxwell L. Hutt, Gavin P. Salam, Ludovic Scyboz,         and Jesse Thaler
+    arxiv: "2306.07314"
+    year: 2023
+    topic: jet_algorithms
+
   - title: "Disentangling Heavy Flavor at Colliders"
     authors: Philip Ilten, Nicholas L. Rodd, Jesse Thaler, and Mike Williams
     doi: 10.1103/PhysRevD.96.054019
