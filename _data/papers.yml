@@ -23,6 +23,13 @@ years:
   
 papers:
 
+
+  - title: "Flavoured jets with exact anti-kt kinematics and tests of infrared and collinear safety"
+    authors: Fabrizio Caola, Radosław Grabarczyk, Maxwell L. Hutt, Gavin P. Salam, Ludovic Scyboz, and Jesse Thaler
+    arxiv: "2306.07314"
+    year: 2023
+    topic: jet_algorithms
+
   - title: "A Spectral Metric for Collider Geometry"
     authors: Andrew J. Larkoski and Jesse Thaler
     arxiv: 2305.03751
@@ -35,9 +42,8 @@ papers:
     year: 2023
     made_phd: true
     topic: point_cloud
-    
 
-  - title:  "SHAPER: Can You Hear the Shape of a Jet?"
+  - title: "SHAPER: Can You Hear the Shape of a Jet?"
     authors:  Demba Ba, Akshunna S. Dogra, Rikab Gambhir, Abiy Tasissa, and Jesse Thaler
     arxiv: 2302.12266
     year: 2023
@@ -468,6 +474,7 @@ papers:
     arxiv: "1704.03393"
     year: 2017
     topic: naturalness
+
 
   - title: "Disentangling Heavy Flavor at Colliders"
     authors: Philip Ilten, Nicholas L. Rodd, Jesse Thaler, and Mike Williams
