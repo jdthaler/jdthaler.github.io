@@ -7,11 +7,11 @@ permalink: cv/
 
 ---
 
-[Short CV](about){:.button.button--secondary.button--pill.button--sm}
-[Press Information](press){:.button.button--secondary.button--pill.button--sm}
+[Short CV](/about){:.button.button--secondary.button--pill.button--sm}
+[Press Information](/press){:.button.button--secondary.button--pill.button--sm}
 [Publications by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [Presentations](#presentations){:.button.button--secondary.button--pill.button--sm}
-[PDF CV (June 2023)](pdfs/jthaler_cv_2023_06.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[PDF CV (June 2023)](/pdfs/jthaler_cv_2023_06.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Jesse Diaz Thaler
 
@@ -99,8 +99,8 @@ permalink: cv/
 
 ## Mentoring
 
-[Research Group](group){:.button.button--secondary.button--pill.button--sm}
-[Joining My Group](join){:.button.button--secondary.button--pill.button--sm}
+[Research Group](/group){:.button.button--secondary.button--pill.button--sm}
+[Joining My Group](/join){:.button.button--secondary.button--pill.button--sm}
 
 ### Postdoctoral Researchers
 
@@ -237,7 +237,7 @@ permalink: cv/
 
 ## Publications & Preprints
 
-[Publications by Topic](research){:.button.button--secondary.button--pill.button--sm}
+[Publications by Topic](/research){:.button.button--secondary.button--pill.button--sm}
 [Inspire](http://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 [arXiv](http://arxiv.org/a/thaler_j_1){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
@@ -533,7 +533,7 @@ permalink: cv/
 
 ## Public Engagement
  
-[Engagement Portfolio](engagement){:.button.button--secondary.button--pill.button--sm} 
+[Engagement Portfolio](/engagement){:.button.button--secondary.button--pill.button--sm} 
 [IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
  
 {% for entry in site.data.public.entries %}
@@ -558,7 +558,7 @@ permalink: cv/
 
 ## Graphic Design
 
-[Design Portfolio](personal#graphic-design){:.button.button--secondary.button--pill.button--sm}
+[Design Portfolio](/personal#graphic-design){:.button.button--secondary.button--pill.button--sm}
 
   * **[Banner Design](design/jthaler_IAIFI_Banner.jpg){:target="_blank"}**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/){:target="_blank"}, *August 2020*  (based on artwork by [agsandrew](https://agsandrew.myportfolio.com/{:target="_blank"}) - stock.adobe.com)
   * **[Logo Design](design/jthaler_IAIFI_Logo.pdf){:target="_blank"}**, [NSF AI Institute for Artificial Intelligence and Fundamental Interactions](http://www.iaifi.org/){:target="_blank"}, *August 2020*

@@ -6,69 +6,69 @@ aside:
 permalink: personal/
 ---
 <center>
-<img class="image-h image-h--xl rounded" src="images/stamp_personal.jpg" title="Jesse Thaler"/>
+<img class="image-h image-h--xl rounded" src="/images/stamp_personal.jpg" title="Jesse Thaler"/>
 </center>
 
 
 ## Memorials
 
-[Aaron](aaron.html){:.button.button--secondary.button--pill.button--sm}
-[Dedushka](dedushka.html){:.button.button--secondary.button--pill.button--sm}
-[Ania](ania.html){:.button.button--secondary.button--pill.button--sm}
+[Aaron](/aaron){:.button.button--secondary.button--pill.button--sm}
+[Dedushka](/dedushka){:.button.button--secondary.button--pill.button--sm}
+[Ania](/ania){:.button.button--secondary.button--pill.button--sm}
 
 ## Graphic Design
 
-[Design CV](cv#graphic-design){:.button.button--secondary.button--pill.button--sm}
+[Design CV](/cv#graphic-design){:.button.button--secondary.button--pill.button--sm}
 
 ### Logos
 
 <div class="grid-container">
   <div class="grid grid--py-3">
     <div class="cell cell--3">
-          <a href="design/jthaler_IAIFI_Logo.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_IAIFI_Logo.png" title="IAIFI Logo"/>
+          <a href="/design/jthaler_IAIFI_Logo.pdf">
+            <img class="image-h image-h--xs" src="/design/jthaler_IAIFI_Logo.png" title="IAIFI Logo"/>
           <br>
               <b>IAIFI</b>
           </a>
     </div>
     <div class="cell cell--3">
-          <a href="design/jthaler_OmniFold_Logo.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_OmniFold_Logo.png" title="OmniFold Logo"/>
+          <a href="/design/jthaler_OmniFold_Logo.pdf">
+            <img class="image-h image-h--xs" src="/design/jthaler_OmniFold_Logo.png" title="OmniFold Logo"/>
           <br>
               <b>OmniFold</b>
           </a>
     </div>
     <div class="cell cell--3">
-          <a href="design/jthaler_MOD_Logo.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_MOD_Logo.png" title="MOD"/>
+          <a href="/design/jthaler_MOD_Logo.pdf">
+            <img class="image-h image-h--xs" src="/design/jthaler_MOD_Logo.png" title="MOD"/>
           <br>
               <b>MOD</b>
           </a>
     </div>
     <div class="cell cell--3">
-          <a href="design/jthaler_DarkLight_Logo.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_DarkLight_Logo.png" title="DarkLight Logo"/>
+          <a href="/design/jthaler_DarkLight_Logo.pdf">
+            <img class="image-h image-h--xs" src="/design/jthaler_DarkLight_Logo.png" title="DarkLight Logo"/>
           <br>
               <b>DarkLight</b>
           </a>
     </div>
     <div class="cell cell--6">
-          <a href="design/jthaler_ABRALogo_Large.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Large.png" title="ABRACADABRA"/>
+          <a href="/design/jthaler_ABRALogo_Large.pdf">
+            <img class="image-h image-h--xs" src="/design/jthaler_ABRALogo_Large.png" title="ABRACADABRA"/>
           <br>
               <b>ABRACADABRA</b>
           </a>
     </div>
     <div class="cell cell--3">
-          <a href="design/jthaler_ABRALogo_Medium.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Medium.png" title="ABRA"/>
+          <a href="/design/jthaler_ABRALogo_Medium.pdf">
+            <img class="image-h image-h--xs" src="/design/jthaler_ABRALogo_Medium.png" title="ABRA"/>
           <br>
               <b>ABRA</b>
           </a>
     </div>
     <div class="cell cell--3">
-          <a href="design/jthaler_ABRALogo_Small.pdf">
-            <img class="image-h image-h--xs" src="design/jthaler_ABRALogo_Small.png" title="A."/>
+          <a href="/design/jthaler_ABRALogo_Small.pdf">
+            <img class="image-h image-h--xs" src="/design/jthaler_ABRALogo_Small.png" title="A."/>
           <br>
               <b>A.</b>
           </a>
@@ -83,22 +83,22 @@ permalink: personal/
 <div class="grid-container">
   <div class="grid grid--py-3">
     <div class="cell cell--4">
-          <a href="design/jthaler_IAIFI_Banner.jpg">
-            <img class="image-h image-h--sm" src="design/jthaler_IAIFI_Banner.jpg" title="[IAIFI Banner"/>
+          <a href="/design/jthaler_IAIFI_Banner.jpg">
+            <img class="image-h image-h--sm" src="/design/jthaler_IAIFI_Banner.jpg" title="[IAIFI Banner"/>
           <br>
               <b>IAIFI Banner</b>
           </a>
     </div>
     <div class="cell cell--4">
-          <a href="design/jthaler_MOD_EventDisplay.pdf">
-            <img class="image-h image-h--sm" src="design/jthaler_MOD_EventDisplay.png" title="MOD Event"/>
+          <a href="/design/jthaler_MOD_EventDisplay.pdf">
+            <img class="image-h image-h--sm" src="/design/jthaler_MOD_EventDisplay.png" title="MOD Event"/>
           <br>
               <b>MOD Event Display</b>
           </a>
     </div>
     <div class="cell cell--4">
-          <a href="design/jthaler_BOOST2019_Poster.pdf">
-            <img class="image-h image-h--sm" src="design/jthaler_BOOST2019_Poster.png" title="BOOST 2019 Poster"/>
+          <a href="/design/jthaler_BOOST2019_Poster.pdf">
+            <img class="image-h image-h--sm" src="/design/jthaler_BOOST2019_Poster.png" title="BOOST 2019 Poster"/>
           <br>
               <b>BOOST 2019 Poster</b>
           </a>
@@ -109,7 +109,7 @@ permalink: personal/
 
 ## Extended Biography
 
-Though I was born in [Minneapolis, Minnesota](https://www.minneapolismn.gov/){:target="_blank"}, I spent my formative years in [York, Maine](http://www.yorkmaine.org/){:target="_blank"}.  My brother, [Aaron](aaron), and I used to play all sorts of fun games including "wig" which nearly resulted in vital organ loss.  I survived through [York Middle School](http://www.yorkschools.org/yms/){:target="_blank"} despite soldered glasses, a bad hair cut, and one-on-one math tutorials in a janitor's closet.  My success was partly due to a love affair with a tenor saxophone.
+Though I was born in [Minneapolis, Minnesota](https://www.minneapolismn.gov/){:target="_blank"}, I spent my formative years in [York, Maine](http://www.yorkmaine.org/){:target="_blank"}.  My brother, [Aaron](/aaron), and I used to play all sorts of fun games including "wig" which nearly resulted in vital organ loss.  I survived through [York Middle School](http://www.yorkschools.org/yms/){:target="_blank"} despite soldered glasses, a bad hair cut, and one-on-one math tutorials in a janitor's closet.  My success was partly due to a love affair with a tenor saxophone.
 
 I went to high school at [Phillips Exeter Academy](http://www.exeter.edu/){:target="_blank"}.  It was there that I developed my radio personality, Lester Johnson, on [90.5 FM WPEA](https://www.exeter.edu/community/student-organizations/wpea){:target="_blank"}.  I also learned how to rock out on the electric bass through a spiritual encounter with the band/fruit juice known as [Nedlog](http://www.nedlog.com/){:target="_blank"}.   Oh, and I happened to meet a [fine looking Russian-Cuban](https://www.armstrongteasdale.com/alexandra-thaler/){:target="_blank"} in a class on Zen Buddhism.
 

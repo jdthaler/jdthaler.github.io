@@ -3,7 +3,7 @@ layout: article
 title: Frequently Asked Questions
 aside:
   toc: true
-
+permalink: faq/
 ---
 
 
@@ -13,7 +13,7 @@ Have a burning question that isn't answered here?  [Ask Jesse a Question!](https
 
 <details markdown=1>
 <summary><b>I'm interested in working in your research group.  Where do I sign up?</b></summary>
-Here is information about [joining my group!](join){:.button.button--secondary.button--pill.button--sm}
+Here is information about [joining my group!](/join){:.button.button--secondary.button--pill.button--sm}
 </details>
 
 <details markdown=1>
@@ -192,7 +192,7 @@ What made me change my mind to include my pronouns?  I received an email from a 
 
 <details markdown=1>
 <summary><b>Where can I find high-resolution images of you?</b></summary>
-Here is a link to [press information](press){:.button.button--secondary.button--pill.button--sm} of various kinds.
+Here is a link to [press information](/press){:.button.button--secondary.button--pill.button--sm} of various kinds.
 </details>
 
 <details markdown=1>
