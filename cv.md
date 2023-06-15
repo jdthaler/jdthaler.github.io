@@ -187,37 +187,13 @@ permalink: cv/
 
 ### MIT
 
-  * **8.398 --- Selected Topics in Graduate Physics**
-    * Instructor:  [Spring 2021](https://canvas.mit.edu/courses/7673){:target="_blank"}, [Fall 2021](https://canvas.mit.edu/courses/11329){:target="_blank"}, [Spring 2022](https://canvas.mit.edu/courses/13866){:target="_blank"}, [Fall 2022](https://canvas.mit.edu/courses/16823){:target="_blank"}, [Spring 2023](https://canvas.mit.edu/courses/19643){:target="_blank"}
 
-  * **8.03 --- Physics III, Waves & Vibrations**
-    * Recitation:  [Fall 2020](https://canvas.mit.edu/courses/4560){:target="_blank"}
-
-  * **8.044 --- Statistical Physics I**
-    * Recitation:  [Spring 2020](http://stellar.mit.edu/S/course/8/sp20/8.044/){:target="_blank"}
-  
-  * **8.831 --- Supersymmetric Quantum Field Theories**
-      * Lecture:  [Spring 2017](http://stellar.mit.edu/S/course/8/sp17/8.831/){:target="_blank"}, [Fall 2019](http://stellar.mit.edu/S/course/8/fa19/8.831/){:target="_blank"}
-
-  * **8.051 --- Quantum Mechanics II (MITx-based)**
-    * Instructor:  [Spring 2018](http://stellar.mit.edu/S/course/8/sp18/8.051/){:target="_blank"}
-
-  * **8.033 --- Relativity**
-    * Lecture: [Fall 2017](http://stellar.mit.edu/S/course/8/fa17/8.033/){:target="_blank"}
-    * Recitation:  [Fall 2016](http://stellar.mit.edu/S/course/8/fa16/8.033/){:target="_blank"}
-
-  * **8.02 --- Physics II, Electricity & Magnetism** 
-    * TEAL:  [Spring 2014](http://stellar.mit.edu/S/course/8/sp14/8.02/){:target="_blank"}, [Spring 2015](http://stellar.mit.edu/S/course/8/sp15/8.02/){:target="_blank"}, [Spring 2016](http://stellar.mit.edu/S/course/8/sp16/8.02/){:target="_blank"}
-
-  * **8.012 --- Physics I, Classical Mechanics** 
-    * Recitation: [Fall 2014](http://stellar.mit.edu/S/course/8/fa14/8.012/){:target="_blank"}
-
-  * **8.06 --- Quantum Mechanics III**
-    * Lecture: [Spring 2011](http://stellar.mit.edu/S/course/8/sp11/8.06/){:target="_blank"}, [Spring 2012](http://stellar.mit.edu/S/course/8/sp12/8.06/){:target="_blank"}, [Spring 2013](http://stellar.mit.edu/S/course/8/sp13/8.06/){:target="_blank"}
-    * Recitation: [Spring 2010](http://stellar.mit.edu/S/course/8/sp10/8.06/){:target="_blank"}
-
-  * **8.05 --- Quantum Mechanics II**
-    * Recitation: [Fall 2010](http://stellar.mit.edu/S/course/8/fa10/8.05/){:target="_blank"}, [Fall 2012](http://stellar.mit.edu/S/course/8/fa12/8.05/){:target="_blank"}
+{% for course in site.data.teaching.courses -%}
+  * **{{course.number}} --- {{course.title}}**
+{%- for role in course.roles %}
+    * {{role.name}}:  {% for iteration in role.iterations %}[{{iteration.date}}]({{iteration.url}}){:target="_blank"}{% if forloop.last != true %}, {% endif %}{% endfor %}
+{%- endfor %}
+{% endfor %}
 
 ### Guest Lectures
 

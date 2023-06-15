@@ -293,3 +293,27 @@ def write_talks(output_file_name,text_string):
 write_talks("cv_colloquia.tex",'colloquia')
 write_talks("cv_public_lectures.tex",'public')
 write_talks("cv_schools.tex",'schools')
+
+
+#################### teaching file
+
+teaching_input = open("../_data/teaching.yml","r")
+teaching_yaml = yaml.load(teaching_input,Loader=yaml.BaseLoader)
+
+########## courses file
+
+courses_output = open("cv_courses.tex","w")
+courses = teaching_yaml['courses']
+courses_output.write('\\bbl\n')
+
+for course in courses:
+  courses_output.write('\\item ')
+  courses_output.write(course['number']+' --- '+course['title']+'\n')
+  for role in course['roles']:
+    courses_output.write('\\\\ \\sh ' + role['name'] + ': \\emph{')
+    for iteration in role['iterations']:
+      courses_output.write(iteration['date'])
+      if iteration != role['iterations'][-1]: courses_output.write(', ')
+    courses_output.write('}\n')
+
+courses_output.write('\\el\n')
