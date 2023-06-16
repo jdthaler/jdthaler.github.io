@@ -317,3 +317,30 @@ for course in courses:
     courses_output.write('}\n')
 
 courses_output.write('\\el\n')
+
+#################### funding file
+
+funding_input = open("../_data/funding.yml","r")
+funding_yaml = yaml.load(funding_input,Loader=yaml.BaseLoader)
+
+########## grants file
+
+
+grants_output = open("cv_grants.tex","w")
+grants = funding_yaml['grants']
+grants_output.write('\\bbl\n')
+
+for grant in grants:
+    grants_output.write('\\item '+grant['name'])
+    if 'collaborators' in grant:
+      grants_output.write(' (with '+grant['collaborators']+'),')
+    else:
+      grants_output.write(', ')
+    if 'title' in grant:
+      grants_output.write('``'+grant['title']+'\'\', ')
+    grants_output.write('\\textit{'+grant['org']+', '+grant['dates'].replace('-','--')+'}\n')
+    if 'amount' in grant:
+      grants_output.write('('+grant['amount'].replace('$','\\$').replace('€','\\euro')+')')
+    grants_output.write('\n')
+
+grants_output.write('\\el\n')

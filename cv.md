@@ -323,18 +323,12 @@ permalink: cv/
 
 ## Research Grants
 
-  * AI Research Institute, "[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](http://iaifi.org/){:target="_blank"}", *National Science Foundation, 2020-2025* ($20M)
-  * MIT-Israel Zuckerman STEM Fund Award (with Tracy Slatyer, Tomer Volansky, and Yotam Soreq), "The Quest for Dark Matter Interactions", *MIT International Science and Technology Initiative, 2020-2021* ($25.5k)
-  * PIER Hamburg-MIT Seed Project (with Gregor Kasieczka, Phil Harris, Andreas Hinzmann, Roman Kogler, Iain Stewart), "Probing the Standard Model with Jet Substructure", *Partnership for Innovation, Education and Research, 2019-2020* (€17k)
-  * Quantum Information Science (QuantISED) Award (with Aram Harrow), "[Quantum Algorithms for Collider Physics](https://doi.org/10.2172/1688696){:target="_blank"}", *U.S. Department of Energy, Office of High Energy Physics, 2018-2020* ($264k)
-  * Simons Fellowship, "Theoretical Investigations In and Beyond the Standard Model", *Simons Foundation, 2018-2019* ($143k)
-  * Comparative Review Funding Award, "[Boosting the Search for New Physics at the Frontiers](https://doi.org/10.2172/1361051){:target="_blank"}", *U.S. Department of Energy, Office of High Energy Physics, 2016-2017* ($120k)
-  * The Charles E. Reed Faculty Initiatives Fund, "Boosting Jet Physics with Archival Collider Data", *MIT Research Support Committee, 2015-2017* ($75k) 
-  * MIT-Belgium Seed Fund Award (with Fabio Maltoni), "Beyond the Standard Model at the LHC", *MIT International Science and Technology Initiative, 2013-2014* ($23.1k)
-  * Sloan Research Fellowship, *Alfred P. Sloan Foundation, 2013-2016* ($50k)
-  * Global Seed Fund Award (with Iain Stewart, Andre Hoang, and Gavin Salam), "Probing a New Energy Frontier with Jets at the Large Hadron Collider", *MIT International Science and Technology Initiative, 2012-2013* ($15k)
-  * Early Career Research Award, "[Interpreting New Data from the Energy Frontier](https://doi.org/10.2172/1326460){:target="_blank"}", *U.S. Department of Energy, Office of Science, 2011-2016* ($750k)
-  * Cooperative Research Agreement, “Laboratory for Nuclear Science, High Energy Physics Program: Task C, Center for Theoretical Physics”, *U.S. Department of Energy, Office of Science*
+{% for grant in site.data.funding.grants -%}
+  * {{grant.name}}
+  {%- if grant.collaborators %} (with {{grant.collaborators}}), {% else %}, {% endif -%}
+  {%- if grant.title and grant.url %}"[{{grant.title}}]({{grant.url}}){:target="_blank"}", {% elsif grant.title %}"{{grant.title}}", {% endif -%}
+  *{{grant.org}}*, *{{grant.dates}}* {% if grant.amount %}({{grant.amount}}){% endif %}
+{% endfor %}
 
 ## Service
 
