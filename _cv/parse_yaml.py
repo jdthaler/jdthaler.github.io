@@ -293,3 +293,54 @@ def write_talks(output_file_name,text_string):
 write_talks("cv_colloquia.tex",'colloquia')
 write_talks("cv_public_lectures.tex",'public')
 write_talks("cv_schools.tex",'schools')
+
+
+#################### teaching file
+
+teaching_input = open("../_data/teaching.yml","r")
+teaching_yaml = yaml.load(teaching_input,Loader=yaml.BaseLoader)
+
+########## courses file
+
+courses_output = open("cv_courses.tex","w")
+courses = teaching_yaml['courses']
+courses_output.write('\\bbl\n')
+
+for course in courses:
+  courses_output.write('\\item ')
+  courses_output.write(course['number']+' --- '+course['title']+'\n')
+  for role in course['roles']:
+    courses_output.write('\\\\ \\sh ' + role['name'] + ': \\emph{')
+    for iteration in role['iterations']:
+      courses_output.write(iteration['date'])
+      if iteration != role['iterations'][-1]: courses_output.write(', ')
+    courses_output.write('}\n')
+
+courses_output.write('\\el\n')
+
+#################### funding file
+
+funding_input = open("../_data/funding.yml","r")
+funding_yaml = yaml.load(funding_input,Loader=yaml.BaseLoader)
+
+########## grants file
+
+
+grants_output = open("cv_grants.tex","w")
+grants = funding_yaml['grants']
+grants_output.write('\\bbl\n')
+
+for grant in grants:
+    grants_output.write('\\item '+grant['name'])
+    if 'collaborators' in grant:
+      grants_output.write(' (with '+grant['collaborators']+'),')
+    else:
+      grants_output.write(', ')
+    if 'title' in grant:
+      grants_output.write('``'+grant['title']+'\'\', ')
+    grants_output.write('\\textit{'+grant['org']+', '+grant['dates'].replace('-','--')+'}\n')
+    if 'amount' in grant:
+      grants_output.write('('+grant['amount'].replace('$','\\$').replace('€','\\euro')+')')
+    grants_output.write('\n')
+
+grants_output.write('\\el\n')

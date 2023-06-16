@@ -1,0 +1,85 @@
+grants:
+
+  - name: Simons Investigator in Physics
+    org:  Simons Foundation
+    dates: 2023-2028
+    amount: $960k
+
+  - name: AI Research Institute
+    title: Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)
+    url: http://iaifi.org/
+    org: National Science Foundation
+    dates: 2020-2025
+    amount: $20M
+    
+  - name: MIT-Israel Zuckerman STEM Fund Award
+    collaborators: Tracy Slatyer, Tomer Volansky, Yotam Soreq
+    title: The Quest for Dark Matter Interactions
+    org: MIT International Science and Technology Initiative (MISTI)
+    dates: 2020-2023
+    amount: $25.5k
+
+  - name: PIER Hamburg-MIT Seed Project
+    collaborators: Gregor Kasieczka, Phil Harris, Andreas Hinzmann, Roman Kogler, Iain Stewart
+    title: Probing the Standard Model with Jet Substructure
+    org: Partnership for Innovation, Education and Research (PIER)
+    dates: 2019-2020
+    amount: €17k
+
+  - name: Quantum Information Science (QuantISED) Award
+    collaborators: Aram Harrow
+    title: Quantum Algorithms for Collider Physics
+    url: https://doi.org/10.2172/1688696
+    org: U.S. Department of Energy, Office of High Energy Physics
+    dates: 2018-2020
+    amount: $264k
+
+  - name: Simons Fellowship
+    title: Theoretical Investigations In and Beyond the Standard Model
+    org: Simons Foundation
+    dates: 2018-2019
+    amount: $142.8k
+
+  - name: Comparative Review Funding Award
+    title: Boosting the Search for New Physics at the Frontiers
+    url: https://doi.org/10.2172/1361051
+    org: U.S. Department of Energy, Office of High Energy Physics
+    dates: 2016-2017
+    amount: $120k
+
+  - name: The Charles E. Reed Faculty Initiatives Fund
+    title: Boosting Jet Physics with Archival Collider Data
+    org: MIT Research Support Committee
+    dates: 2015-2017
+    amount: $75k
+
+  - name: MIT-Belgium Seed Fund Award
+    collaborators: Fabio Maltoni)
+    title: Beyond the Standard Model at the LHC
+    org: MIT International Science and Technology Initiative
+    dates: 2013-2014
+    amount: $23.1k
+
+  - name: Sloan Research Fellowship
+    org: Alfred P. Sloan Foundation
+    dates: 2013-2016
+    amount: $50k
+
+  - name: Global Seed Fund Award
+    collaborators: Iain Stewart, Andre Hoang, Gavin Salam
+    title: Probing a New Energy Frontier with Jets at the Large Hadron Collider
+    org: MIT International Science and Technology Initiative
+    dates: 2012-2013
+    amount: $15k
+
+  - name: Early Career Research Award
+    title: Interpreting New Data from the Energy Frontier
+    url: https://doi.org/10.2172/1326460
+    org: U.S. Department of Energy, Office of Science
+    dates: 2011-2016
+    amount: $750k
+
+  - name: Cooperative Research Agreement
+    title: "Laboratory for Nuclear Science, High Energy Physics Program: Task C, Center for Theoretical Physics"
+    org: U.S. Department of Energy, Office of Science
+    dates: 2010-present

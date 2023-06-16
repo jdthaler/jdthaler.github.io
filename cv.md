@@ -187,37 +187,13 @@ permalink: cv/
 
 ### MIT
 
-  * **8.398 --- Selected Topics in Graduate Physics**
-    * Instructor:  [Spring 2021](https://canvas.mit.edu/courses/7673){:target="_blank"}, [Fall 2021](https://canvas.mit.edu/courses/11329){:target="_blank"}, [Spring 2022](https://canvas.mit.edu/courses/13866){:target="_blank"}, [Fall 2022](https://canvas.mit.edu/courses/16823){:target="_blank"}, [Spring 2023](https://canvas.mit.edu/courses/19643){:target="_blank"}
 
-  * **8.03 --- Physics III, Waves & Vibrations**
-    * Recitation:  [Fall 2020](https://canvas.mit.edu/courses/4560){:target="_blank"}
-
-  * **8.044 --- Statistical Physics I**
-    * Recitation:  [Spring 2020](http://stellar.mit.edu/S/course/8/sp20/8.044/){:target="_blank"}
-  
-  * **8.831 --- Supersymmetric Quantum Field Theories**
-      * Lecture:  [Spring 2017](http://stellar.mit.edu/S/course/8/sp17/8.831/){:target="_blank"}, [Fall 2019](http://stellar.mit.edu/S/course/8/fa19/8.831/){:target="_blank"}
-
-  * **8.051 --- Quantum Mechanics II (MITx-based)**
-    * Instructor:  [Spring 2018](http://stellar.mit.edu/S/course/8/sp18/8.051/){:target="_blank"}
-
-  * **8.033 --- Relativity**
-    * Lecture: [Fall 2017](http://stellar.mit.edu/S/course/8/fa17/8.033/){:target="_blank"}
-    * Recitation:  [Fall 2016](http://stellar.mit.edu/S/course/8/fa16/8.033/){:target="_blank"}
-
-  * **8.02 --- Physics II, Electricity & Magnetism** 
-    * TEAL:  [Spring 2014](http://stellar.mit.edu/S/course/8/sp14/8.02/){:target="_blank"}, [Spring 2015](http://stellar.mit.edu/S/course/8/sp15/8.02/){:target="_blank"}, [Spring 2016](http://stellar.mit.edu/S/course/8/sp16/8.02/){:target="_blank"}
-
-  * **8.012 --- Physics I, Classical Mechanics** 
-    * Recitation: [Fall 2014](http://stellar.mit.edu/S/course/8/fa14/8.012/){:target="_blank"}
-
-  * **8.06 --- Quantum Mechanics III**
-    * Lecture: [Spring 2011](http://stellar.mit.edu/S/course/8/sp11/8.06/){:target="_blank"}, [Spring 2012](http://stellar.mit.edu/S/course/8/sp12/8.06/){:target="_blank"}, [Spring 2013](http://stellar.mit.edu/S/course/8/sp13/8.06/){:target="_blank"}
-    * Recitation: [Spring 2010](http://stellar.mit.edu/S/course/8/sp10/8.06/){:target="_blank"}
-
-  * **8.05 --- Quantum Mechanics II**
-    * Recitation: [Fall 2010](http://stellar.mit.edu/S/course/8/fa10/8.05/){:target="_blank"}, [Fall 2012](http://stellar.mit.edu/S/course/8/fa12/8.05/){:target="_blank"}
+{% for course in site.data.teaching.courses -%}
+  * **{{course.number}} --- {{course.title}}**
+{%- for role in course.roles %}
+    * {{role.name}}:  {% for iteration in role.iterations %}[{{iteration.date}}]({{iteration.url}}){:target="_blank"}{% if forloop.last != true %}, {% endif %}{% endfor %}
+{%- endfor %}
+{% endfor %}
 
 ### Guest Lectures
 
@@ -347,18 +323,12 @@ permalink: cv/
 
 ## Research Grants
 
-  * AI Research Institute, "[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](http://iaifi.org/){:target="_blank"}", *National Science Foundation, 2020-2025* ($20M)
-  * MIT-Israel Zuckerman STEM Fund Award (with Tracy Slatyer, Tomer Volansky, and Yotam Soreq), "The Quest for Dark Matter Interactions", *MIT International Science and Technology Initiative, 2020-2021* ($25.5k)
-  * PIER Hamburg-MIT Seed Project (with Gregor Kasieczka, Phil Harris, Andreas Hinzmann, Roman Kogler, Iain Stewart), "Probing the Standard Model with Jet Substructure", *Partnership for Innovation, Education and Research, 2019-2020* (€17k)
-  * Quantum Information Science (QuantISED) Award (with Aram Harrow), "[Quantum Algorithms for Collider Physics](https://doi.org/10.2172/1688696){:target="_blank"}", *U.S. Department of Energy, Office of High Energy Physics, 2018-2020* ($264k)
-  * Simons Fellowship, "Theoretical Investigations In and Beyond the Standard Model", *Simons Foundation, 2018-2019* ($143k)
-  * Comparative Review Funding Award, "[Boosting the Search for New Physics at the Frontiers](https://doi.org/10.2172/1361051){:target="_blank"}", *U.S. Department of Energy, Office of High Energy Physics, 2016-2017* ($120k)
-  * The Charles E. Reed Faculty Initiatives Fund, "Boosting Jet Physics with Archival Collider Data", *MIT Research Support Committee, 2015-2017* ($75k) 
-  * MIT-Belgium Seed Fund Award (with Fabio Maltoni), "Beyond the Standard Model at the LHC", *MIT International Science and Technology Initiative, 2013-2014* ($23.1k)
-  * Sloan Research Fellowship, *Alfred P. Sloan Foundation, 2013-2016* ($50k)
-  * Global Seed Fund Award (with Iain Stewart, Andre Hoang, and Gavin Salam), "Probing a New Energy Frontier with Jets at the Large Hadron Collider", *MIT International Science and Technology Initiative, 2012-2013* ($15k)
-  * Early Career Research Award, "[Interpreting New Data from the Energy Frontier](https://doi.org/10.2172/1326460){:target="_blank"}", *U.S. Department of Energy, Office of Science, 2011-2016* ($750k)
-  * Cooperative Research Agreement, “Laboratory for Nuclear Science, High Energy Physics Program: Task C, Center for Theoretical Physics”, *U.S. Department of Energy, Office of Science*
+{% for grant in site.data.funding.grants -%}
+  * {{grant.name}}
+  {%- if grant.collaborators %} (with {{grant.collaborators}}), {% else %}, {% endif -%}
+  {%- if grant.title and grant.url %}"[{{grant.title}}]({{grant.url}}){:target="_blank"}", {% elsif grant.title %}"{{grant.title}}", {% endif -%}
+  *{{grant.org}}*, *{{grant.dates}}* {% if grant.amount %}({{grant.amount}}){% endif %}
+{% endfor %}
 
 ## Service
 
