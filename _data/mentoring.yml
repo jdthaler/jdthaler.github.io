@@ -605,7 +605,7 @@ bs_students:
   - name: Ziqi Zhou
     email: ziqiphyzhou@gmail.com
     date: 2020
-    graduated: truegit
+    graduated: true
     indepdent: Summer 2018
     urop: Fall 2018
 

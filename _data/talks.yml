@@ -816,7 +816,8 @@ local:
     event: Career Panel
     org: MIT Physics
     date: November 2021
-  
+    commons: true
+
   - title: IAIFI at MIT Physics
     url: talks/jthaler_2021_07_IAIFI_WarriorScholar.pdf
     event: Open House
@@ -833,7 +834,8 @@ local:
     event: Panel Discussion
     org: MIT Postdoctoral Association
     date: June 2020
-  
+    commons: true
+
   - title: "Collision Course:  Particle Physics meets Machine Learning"
     url: talks/jthaler_2019_09_FacultyLunch.pdf
     event: Faculty Lunch
@@ -844,7 +846,8 @@ local:
     event: Panel Discussion
     org: MIT Graduate Student Council
     date: July 2018
-  
+    commons: true
+
   - title: "(B)SM Physics"
     event: Graduate Student Lunch
     org: MIT Physics
@@ -859,26 +862,31 @@ local:
     event: Orientation Lecture
     org: MIT PhysPOP
     date: August 2013
+    commons: true
   
   - title: "The Higgs Boson: Keystone of the Standard Model"
     event: Presentation
     org: MIT MISTI
     date: April 2013
+    commons: true
   
   - title: "Dark Matter Beyond the Standard Model"
     event: Presentation
     org: MIT Astronomical Event
     date: October 2012
+    commons: true
   
   - title: "Hints of New Physics at the Energy Frontier"
     event: Alumni Breakfast
     org: MIT Physics
     date: May 2012
+    commons: true
   
   - title: "Beyond the Standard Model at the Frontiers"
     event: Orientation Lecture
     org: MIT PhysPOP
     date: August 2011
+    commons: true
   
   - title: "Goldstini at the LHC"
     event: Visiting Committee Presentation
@@ -894,6 +902,7 @@ local:
     event: IAP Lecture
     org: MIT Physics
     date: January 2010
+    commons: true
 
 seminars:
 
