@@ -1,12 +1,3 @@
-memberships:
-
-  - name: Aspen Center for Physics
-    url:  https://www.aspenphys.org/
-    
-  - name: American Physical Society
-    url:  https://www.aps.org/
-
-
 mit_faculty:
 
   - name: MIT Faculty Committee on Curricula
@@ -93,8 +84,26 @@ before_mit:
   - name: Miller Symposium Committee
     dates: 2008-2009
 
-peer_review:
+journal_editing:
 
+  - job: Editorial Board
+    name: Journal of High Energy Physics
+    url: https://jhep.sissa.it/
+    dates: Fall 2019-Present
+    
+  - job: Editorial College
+    name: SciPost Physics
+    url: https://scipost.org/SciPostPhys
+    dates: Fall 2019-Present
+  
+  - job: Co-Topic Editor
+    issue: Efficient AI in Particle Physics and Astrophysics
+    issue_url: https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics
+    org: Frontiers in Artificial Intelligence
+    org_url: https://www.frontiersin.org/journals/artificial-intelligence
+    dates: Spring 2022
+
+peer_review:
 
   - name: Physical Review Letters
   - name: Journal of High Energy Physics
@@ -126,3 +135,28 @@ agency_review:
   - name: German Academic Exchange Service (DAAD)
   - name: French National Research Agency
   - name: Hungarian National Research, Development & Innovation Office
+
+
+advisory_boards:
+
+  - job: International Scientific Advisory Board
+    name: AI for Science and Science for AI (AISSAI) Center
+    url: https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center
+    org: French CNRS
+    dates: 2022-Present
+    
+  - job: International Advisory Committee
+    name: Machine Learning Physics
+    url: https://mlphys.scphys.kyoto-u.ac.jp/en/
+    org: JSPS/MEXT Grant-in-Aid for Transformative Research Areas
+    dates: 2022-2026
+
+  - job: Science Advisory Board
+    name: USQCD Collaboration
+    url: https://www.usqcd.org/
+    dates: Spring 2013-Fall 2016
+  
+  - job: Fellowship Selection Committee
+    name: LHC Theory Initiative
+    url: https://www.pas.rochester.edu/~orr/LHC-TI/Home.html
+    dates: "Fall 2013-Fall 2014, Chair: Fall 2014"

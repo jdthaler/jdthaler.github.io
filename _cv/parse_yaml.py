@@ -372,8 +372,34 @@ internal_service_output.write('\\el\n')
 ########## external service
 
 external_service_output = open("cv_external_service.tex","w")
+advisory_boards = service_yaml['advisory_boards']
+journal_editing = service_yaml['journal_editing']
 peer_review = service_yaml['peer_review']
 agency_review = service_yaml['agency_review']
+
+##### advisory_boards
+
+for role in advisory_boards:
+  external_service_output.write('\\item ' + role['job'] + ', ')
+  if 'name' in role:
+    external_service_output.write(role['name']+', ')
+  if 'issue' in role:
+    external_service_output.write('``'+role['issue']+'\'\', ')
+  if 'org' in role:
+    external_service_output.write('\\emph{'+role['org']+', }')
+  external_service_output.write('\\emph{'+role['dates'].replace('-','--')+'}\n')
+
+##### journal editing
+
+for role in journal_editing:
+  external_service_output.write('\\item ' + role['job'] + ', ')
+  if 'name' in role:
+    external_service_output.write(role['name']+', ')
+  if 'issue' in role:
+    external_service_output.write('``'+role['issue']+'\'\', ')
+  if 'org' in role:
+    external_service_output.write('\\emph{'+role['org']+', }')
+  external_service_output.write('\\emph{'+role['dates'].replace('-','--')+'}\n')
 
 ##### peer review
 
