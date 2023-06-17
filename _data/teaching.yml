@@ -104,3 +104,53 @@ courses:
           - date: Spring 2010
             url:  http://stellar.mit.edu/S/course/8/sp10/8.06/
 
+guest_lectures:
+
+  - title: Collision Course
+    url:  /talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf
+    course_number: 8.S50
+    course_name: Computational Data Science in Physics
+    date: IAP 2022
+    
+  - title: Collision Course
+    url:  /talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf
+    course_number: 8.S50
+    course_name: Computational Data Science in Physics
+    date: IAP 2021
+  
+  - title: The Hidden Geometry of Particle Collisions
+    url:  /talks/jthaler_2020_11_HiddenGeometry_8_398.pdf
+    course_number: 8.398
+    course_name: Selected Topics in Graduate Physics
+    date: Fall 2020
+  
+  - title: One Lecture on Jets
+    url:  /talks/jthaler_2019_11_JetLecture_8_701.pdf
+    course_number: 8.701
+    course_name: Introduction to Nuclear and Particle Physics
+    date: Fall 2019
+  
+  - title: One Lecture on Jets
+    url:  talks/jthaler_2019_10_JetLecture_8_811.pdf
+    course_number: 8.811
+    course_name: Particle Physics II
+    date: Fall 2019
+    
+
+before_mit:
+
+  - role: Teaching Fellow, Widely Applied Physics (Nima Arkani-Hamed)
+    org: Harvard University
+    date: Fall 2005
+  
+  - role: Teaching Assistant, Linear Algebra (Thomas Banchoff)
+    org: Brown University
+    date: Spring 2001
+  
+  - role: Math/Physics Tutor
+    org: Brown University
+    date: 1999-2000
+    
+  - role: Classroom Assistant, Algebra I and II
+    org: Textron/Chamber of Commerce Charter High School, Providence, RI
+    date: Fall 1999
