@@ -15,22 +15,6 @@ permalink: cv/
 
 ## Jesse Diaz Thaler
 
-<!--
-* **Wires**
-  *  *Email:* [jthaler@mit.edu](mailto: jthaler@mit.edu) 
-  *  *Web:* [http://www.jthaler.net/](http://www.jthaler.net) 
-  *  *Zoom:*  [https://mit.zoom.us/my/jthaler](https://mit.zoom.us/my/jthaler) 
-* **Digits**
-  * *Office:* (617) 253-3713 
-  * *Cell:* (617) 642-8622
-  * *Fax:* (617) 253-8674 
-* **Snails**
-  * Jesse Thaler\\
-    MIT Center for Theoretical Physics\\
-    77 Massachusetts Ave, [6-318](http://whereis.mit.edu/?go=6)\\
-    Cambridge, MA 02139
--->
-
 #### Research in Theoretical Particle Physics
 
 {% for topic in site.data.research.topics %}  * **[{{topic.title}}](research.html#{{topic.key}})**
@@ -88,7 +72,9 @@ permalink: cv/
 
   * **Phillips Exeter Academy**, *Fall 1994 - Spring 1998*
 
+
 ## Awards & Fellowships
+
 {% for award in site.data.bio.awards -%}
   {%- if award.url %}
   * **[{{award.name}}]({{award.url}}){:target="_blank"}**, *{{award.org}}*, *{{award.date}}*
@@ -96,6 +82,7 @@ permalink: cv/
   * **{{award.name}}**, *{{award.org}}*, *{{award.date}}*
   {%- endif %}
 {%- endfor %}
+
 
 ## Mentoring
 
@@ -187,7 +174,6 @@ permalink: cv/
 
 ### MIT
 
-
 {% for course in site.data.teaching.courses -%}
   * **{{course.number}} --- {{course.title}}**
 {%- for role in course.roles %}
@@ -197,18 +183,16 @@ permalink: cv/
 
 ### Guest Lectures
 
-  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2022_01_EnergyFlowNetworks_8_S50.pdf){:target="_blank"}, 8.S50 (Computational Data Science in Physics), *IAP 2022*
-  * ["Collision Course"](http://www.jthaler.net/talks/jthaler_2021_01_EnergyFlowNetworks_8_S50.pdf){:target="_blank"}, 8.S50 (Computational Data Science in Physics), *IAP 2021*
-  * ["The Hidden Geometry of Particle Collisions"](http://www.jthaler.net/talks/jthaler_2020_11_HiddenGeometry_8_398.pdf){:target="_blank"}, 8.398 (Selected Topics in Graduate Physics), *Fall 2020*
-  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_11_JetLecture_8_701.pdf){:target="_blank"}, 8.701 (Introduction to Nuclear and Particle Physics), *Fall 2019*
-  * ["One Lecture on Jets"](http://www.jthaler.net/talks/jthaler_2019_10_JetLecture_8_811.pdf){:target="_blank"}, 8.811 (Particle Physics II), *Fall 2019*
+{% for lecture in site.data.teaching.guest_lectures -%}
+  * ["{{lecture.title}}"]({{lecture.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}, {{lecture.course_number}} ({{lecture.course_name}}), *{{lecture.date}}*
+{% endfor %}
+
 
 ### Before MIT
 
-  * Teaching Fellow, Widely Applied Physics (Nima Arkani-Hamed), *Harvard University, Fall 2005*
-  * Teaching Assistant, Linear Algebra (Thomas Banchoff), *Brown University, Spring 2001*
-  * Math/Physics Tutor, *Brown University, 1999 - 2000*
-  * Classroom Assistant, Algebra I and II, *Textron/Chamber of Commerce Charter High School, Providence, RI, Fall 1999*
+{% for position in site.data.teaching.before_mit -%}
+  * {{position.role}}, *{{position.org}}, {{position.date}}*
+{% endfor %}
 
 
 ## Publications & Preprints
