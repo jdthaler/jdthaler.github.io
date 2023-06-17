@@ -318,13 +318,13 @@ for course in courses:
 
 courses_output.write('\\el\n')
 
+
 #################### funding file
 
 funding_input = open("../_data/funding.yml","r")
 funding_yaml = yaml.load(funding_input,Loader=yaml.BaseLoader)
 
 ########## grants file
-
 
 grants_output = open("cv_grants.tex","w")
 grants = funding_yaml['grants']
@@ -344,3 +344,82 @@ for grant in grants:
     grants_output.write('\n')
 
 grants_output.write('\\el\n')
+
+
+
+#################### service file
+
+service_input = open("../_data/service.yml","r")
+service_yaml = yaml.load(service_input,Loader=yaml.BaseLoader)
+
+
+########## internal service
+
+internal_service_output = open("cv_internal_service.tex","w")
+service_roles = service_yaml['mit_faculty'] + service_yaml['mit_sdsc'] + service_yaml['mit_physics'] + service_yaml['mit_lns'] + service_yaml['mit_ctp'] + service_yaml['mit_misti']
+internal_service_output.write('\\bbl\n')
+
+for role in service_roles:
+  internal_service_output.write('\\item '+ role['name'] + ', \\emph{' + role['dates'].replace('-','--')+'}\n')
+  if 'details' in role:
+    for detail in role['details']:
+      internal_service_output.write('\\\\ \\sh ' + detail+ '\n')
+
+internal_service_output.write('\\el\n')
+
+
+#################### advising file
+
+advising_input = open("../_data/advising.yml","r")
+advising_yaml = yaml.load(advising_input,Loader=yaml.BaseLoader)
+
+########## advising file
+
+advising_output = open("cv_advising.tex","w")
+advising_output.write('\\bbl\n\n')
+
+##### phd_theses
+
+phd_theses = advising_yaml['phd_theses']
+advising_output.write('\\item MIT Physics Ph.D. Thesis Committees:\n')
+for phd_thesis in phd_theses:
+  advising_output.write('\\\\ \\sh ' + phd_thesis['name'] + ' \\textit{('+phd_thesis['advisor'].replace('&','\\&')+', ')
+  if 'date' in phd_thesis:
+    advising_output.write(phd_thesis['date'])
+  else:
+    advising_output.write('in progress')
+  advising_output.write(')}\n')
+advising_output.write('\n')
+
+##### academic_advising
+
+advising_roles = advising_yaml['academic_advising']
+for role in advising_roles:
+  advising_output.write('\\item '+ role['name'] + ', \\emph{' + role['dates'].replace('-','--')+'}\n')
+  if 'details' in role:
+    for detail in role['details']:
+      advising_output.write('\\\\ \\sh ' + detail+ '\n')
+advising_output.write('\n')
+
+##### external_phd_theses
+
+external_phd_theses = advising_yaml['external_phd_theses']
+advising_output.write('\\item External Ph.D. Examiner:\n')
+for phd_thesis in external_phd_theses:
+  advising_output.write('\\\\ \\sh ' + phd_thesis['name'] + ' \\textit{('+phd_thesis['advisor'].replace('&','\\&')+', '+phd_thesis['org']+', ')
+  if 'date' in phd_thesis:
+    advising_output.write(phd_thesis['date'])
+  else:
+    advising_output.write('in progress')
+  advising_output.write(')}\n')
+advising_output.write('\n')
+
+##### external_mentoring
+
+external_mentoring = advising_yaml['external_mentoring']
+advising_output.write('\\item External Mentoring:\n')
+for role in external_mentoring:
+  advising_output.write('\\\\ \\sh ' + role['name'] + ', '+role['program']+', \\emph{' + role['dates'].replace('-','--')+'}\n')
+advising_output.write('\n')
+
+advising_output.write('\\el\n')
