@@ -104,6 +104,7 @@ permalink: cv/
     * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
 {% endfor %}
 
+
 ### Ph.D. Students
 
 {% for person in site.data.mentoring.phd_students -%}
@@ -118,6 +119,7 @@ permalink: cv/
   {%- if person.after.size > 1 %}
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
 {% endfor %}
+
 
 ### M.Eng. Students
 
@@ -170,6 +172,7 @@ permalink: cv/
       * Currently: {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
 {% endfor %}
 
+
 ## Teaching
 
 ### MIT
@@ -180,6 +183,7 @@ permalink: cv/
     * {{role.name}}:  {% for iteration in role.iterations %}[{{iteration.date}}]({{iteration.url}}){:target="_blank"}{% if forloop.last != true %}, {% endif %}{% endfor %}
 {%- endfor %}
 {% endfor %}
+
 
 ### Guest Lectures
 
@@ -223,6 +227,7 @@ permalink: cv/
     {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}){:target="_blank"}, {% endif %} {% if paper.journal_url %}  [{{paper.journal}}]({{paper.journal_url}}){:target="_blank"}, {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}).
 {% endfor%}
 
+
 ### Incidental Authorship
 
 {% for paper in site.data.papers.incidental -%}
@@ -245,7 +250,6 @@ permalink: cv/
     *{{talk.org}}, {{talk.date}}*
     {%- if talk.virtual %} `virtual` {% endif %}
 {% endfor %}
-
 
 ### Lecture Series & Schools
 
@@ -314,88 +318,116 @@ permalink: cv/
   *{{grant.org}}*, *{{grant.dates}}* {% if grant.amount %}({{grant.amount}}){% endif %}
 {% endfor %}
 
+
+## Advising
+
+### Ph.D. Thesis Committees
+
+{% for phd_thesis in site.data.advising.phd_theses %}
+  * **{{phd_thesis.name}}**, "{{phd_thesis.title | default: "TBA"}}" ({{phd_thesis.advisor}}), *{{phd_thesis.date | default: "in progress"}}*
+{%- endfor %}
+
+### Academic Advising
+
+{% for service in site.data.advising.academic_advising %}
+  * **{% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}**, *{{service.dates}}*
+{%- for detail in service.details %}
+     * {{detail}}
+{%- endfor %}
+{%- endfor %}
+
+
+### External Ph.D. Examiner
+
+{% for phd_thesis in site.data.advising.external_phd_theses %}
+  * **{{phd_thesis.name}}**, "{{phd_thesis.title | default: "TBA"}}" ({{phd_thesis.advisor}}), *{{phd_thesis.org}}, {{phd_thesis.date | default: "in progress"}}*
+{%- endfor %}
+
+### External Mentoring
+
+{% for mentoring in site.data.advising.external_mentoring %}
+  * **{{mentoring.name}}**, {{mentoring.program}}, *{{mentoring.org}}, {{mentoring.dates}}*
+{%- endfor %}
+
+
+
+
 ## Service
 
 ### Internal Service
 
-#### Ph.D. Thesis Committees
-
-{% for phd-thesis in site.data.service.phd-theses %}
-  * **{{phd-thesis.name}}**, "{{phd-thesis.title | default: "TBA"}}" ({{phd-thesis.advisor}}), *{{phd-thesis.date | default: "in progress"}}*
-{%- endfor %}
-
 #### MIT Faculty
 
-  * [MIT Faculty Committee on Curricula](https://registrar.mit.edu/faculty-curriculum-support/faculty-curriculum-committees/committee-curricula){:target="_blank"} (Fall 2017-Spring 2020)
-  * MIT First-Year Advisor (Fall 2019-Spring 2020)
-    * Class of 2023:  Richter Brzeski, Megha Maran, Catalina Monsalve Rodriguez, Dylan Weber
+{% for service in site.data.service.mit_faculty %}
+  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
+{%- for detail in service.details %}
+     * {{detail}}
+{%- endfor %}
+{%- endfor %}
+
 
 #### MIT Physics
 
-  * MIT Physics Ad Hoc Committee on Graduate Student Professional Development (Spring 2022)
-  * MIT Physics Graduate Admissions Committee (Spring 2021)
-  * MIT Physics [Communic.8 Faculty Liaison](https://piazza.com/mit/fall2020/communic8){:target="_blank"} (Fall 2020-present)
-  * MIT Physics Qualifying Exam, Written Exam Grading Committee (January 2020)
-  * MIT Physics Promotion Committee (Fall 2019, Fall 2020, Fall 2021, Fall 2022, Chair: Fall 2020, Fall 2021, Fall 2022)
-  * MIT Physics [Pappalardo Fellowships Executive Committee](http://web.mit.edu/Physics/research/pappalardo/index.html){:target="_blank"} (Fall 2016-Fall 2017)
-  * MIT Physics Colloquium Committee (Spring 2010-Spring 2014, Chair: Fall 2012-Spring 2014)
-  * MIT Physics Graduate Academic Advisor (Fall 2017-present)
-    * Anticipated Ph.D. 2025:  Ryan Abbott
-    * Anticipated Ph.D. 2024:  Bruno Scheihing Hitschfeld, Stella Schindler
-    * Anticipated Ph.D. 2022:  Eric Anschuetz, Samuel Leutheusser, Gregory Ridgway, Annie Wei, Ryan Weller
-    * Ph.D. 2020:  Jasmine Brewer
-  * MIT Physics Undergraduate Academic Advisor (Fall 2011-present)
-    * Class of 2024:  Omar Abdelghani, Chirag Falor, M. Geogdzhayeva, Lily Moseni, Dylan Raphael, Chris Viets (& David Suarez)
-    * Class of 2018/2019/2020:  Robert Arnott, Zachary Bogorad, Hannah Field, Rodmy Paredes Alfaro, Saranesh Prembabu, Joshua Rhodes, Kevin Tang, Michael Winer
-    * Class of 2014/2015:  Allison Christian, Jay Lawhorn, Joseph Perricone, Jeffrey Prouty, Melih Ucer, Pranjal Vachaspati, Prashanth Venkataram (& Grace Krusell, David Luciano, Netia McCray, Maxwell Plaut)
-  * MIT Physics Qualifying Exam, Part III Committee (Spring 2015-Spring 2017)
-  * MIT Physics Qualifying Exam, Part II Committee (Spring 2012-Fall 2014, Chair: Fall 2013-Spring 2014)
-  * MIT Physics Qualifying Exam, Part II Grading Committee (September 2010)
+{% for service in site.data.service.mit_physics %}
+  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
+{%- for detail in service.details %}
+     * {{detail}}
+{%- endfor %}
+{%- endfor %}
+
 
 #### MIT Laboratory for Nuclear Science
 
-  * MIT LNS Advisory Group (Fall 2017, Spring 2020-present)
-  * MIT LNS Colloquium Committee (Fall 2015-Spring 2018, Chair:  Fall 2017-Spring 2018)
+{% for service in site.data.service.mit_lns %}
+  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
+{%- for detail in service.details %}
+     * {{detail}}
+{%- endfor %}
+{%- endfor %}
 
 
 #### MIT Center for Theoretical Physics
 
-  * MIT CTP Oral Qualifying Exam Committee (Fall 2022, Spring 2023)
-  * MIT CTP Faculty Mentor (April 2021-present)
-  * MIT CTP Faculty Search Committee (Fall 2017, Fall 2019, Fall 2021; Chair: Fall 2019)
-  * MIT CTP Deputy Group Leader in High-Energy Physics (Spring 2020-present)
-  * MIT CTP Visitor Coordinator (Fall 2016-present)
-  * MIT CTP Nuclear/Particle Seminar Committee (Fall 2010-Fall 2016, Fall 2020-Spring 2021, Fall 2022)
-  * MIT CTP Postdoc Selection Committee (Fall 2009-present)
+{% for service in site.data.service.mit_ctp %}
+  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
+{%- for detail in service.details %}
+     * {{detail}}
+{%- endfor %}
+{%- endfor %}
+
 
 #### MIT Statistics and Data Science Center
 
-  * [MIT Physics, Statistics, and Data Science (PhysSDS) Committee](https://web.mit.edu/physics/current/graduate/psds_phd.html){:target="_blank"} (Co-Chair: Fall 2020 - present)
+{% for service in site.data.service.mit_sdsc %}
+  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
+{%- for detail in service.details %}
+     * {{detail}}
+{%- endfor %}
+{%- endfor %}
+
 
 #### MIT International Science and Technology Initiatives
 
-
-  * MISTI Global Seed Funds Evaluation Committee (Fall 2012, Fall 2013, Fall 2014)
+{% for service in site.data.service.mit_misti %}
+  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
+{%- for detail in service.details %}
+     * {{detail}}
+{%- endfor %}
+{%- endfor %}
 
 
 #### Before MIT
 
-  * Berkeley CTP Particle Seminar Organizer (2007-2009)
-  * Miller Symposium Committee (2008-2009)
+{% for service in site.data.service.before_mit %}
+  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
+{%- for detail in service.details %}
+     * {{detail}}
+{%- endfor %}
+{%- endfor %}
+
 
 ### External Service
 
-#### External Ph.D. Examiner
-
-{% for phd-thesis in site.data.service.external-phd-theses %}
-  * **{{phd-thesis.name}}**, "{{phd-thesis.title | default: "TBA"}}" ({{phd-thesis.advisor}}), *{{phd-thesis.uni}}, {{phd-thesis.date | default: "in progress"}}*
-{%- endfor %}
-
-#### External Mentoring
-
-{% for mentoring in site.data.service.external-mentoring %}
-  * **{{mentoring.name}}**, {{mentoring.program}}, *{{mentoring.uni}}, {{mentoring.date}}*
-{%- endfor %}
 
 #### Workshop/Conference Organization
 

@@ -1,0 +1,200 @@
+phd_theses:
+
+  - name: Ouail Kitouni
+    advisor:  Mike Williams
+
+  - name: Cristian Zanoci
+    title: Quantum Algorithms and Non-Equilibrium Dynamics in Disordered Many-Body Systems
+    advisor: Mikhail Lukin & Aram W. Harrow
+    date: May 2023
+
+  - name: Eva Huang
+    title: Systematic and Statistical Uncertainties in the Characterization of Gravitational-Wave Sources
+    advisor: Salvatore Vitale
+    date: January 2023
+    
+  - name: Gregory Ridgway
+    title: Exotic Dark Matter in the Early Universe
+    advisor: Tracy Slatyer
+    date: June 2022
+    
+  - name: Patrick Fitzpatrick
+    title: Initial Conditions for Cosmic Inflation, the History of the Dark Sector, and Dark-onium
+    advisor: Tracy Slatyer & David Kaiser
+    date: July 2021
+    
+  - name: Joseph Johnston
+    title: Applications of Low Temperature Bolometers to Reactor Neutrinos and Neutrinoless Double Beta Decay
+    advisor: Lindley Winslow & Joseph Formaggio
+    date: May 2021
+    
+  - name: Chih-Liang Wu
+    title: Probes of Dark Matter from the Universe's Past and Present
+    advisor: Tracy Slatyer
+    date: April 2021
+    
+  - name: Constantin Weisser
+    title: Search for Dark Photons at LHCb and Machine Learning in Particle Physics
+    advisor: Mike Williams
+    date: March 2021
+    
+  - name: J. Owen Andrews
+    title: Illuminating Biomolecular Clustering and Condensation in Living Cells Using Super-Resolution Imaging
+    advisor: Ibrahim Cisse
+    date: November 2020
+    
+  - name: Gherardo Vita
+    title: QCD Beyond Leading Power
+    advisor: Iain Stewart
+    date: August 2020
+    
+  - name: Jasmine Brewer
+    title: Theory and Phenomenology of Heavy-Ion Collisions
+    advisor: Krishna Rajagopal
+    date: July 2020
+    
+  - name: Hongwan Liu
+    title: Dark Matter Energy Deposition and Production from the Table-Top to the Cosmos
+    advisor: Tracy Slatyer
+    date: May 2019
+    
+  - name: Charles Epstein
+    title: Møller Scattering at Low Energy
+    advisor: Richard Milner
+    date: August 2018
+    
+  - name: Nicholas Rodd
+    title: Listening to the Universe through Indirect Detection
+    advisor: Tracy Slatyer
+    date: April 2018
+    
+  - name: David Hernandez
+    title: Solving the N-body Problem in Astrophysics
+    advisor: Edmund Bertschinger
+    date: April 2018
+    
+  - name: Aram Apyan
+    title: Search for Heavy Charged Higgs Bosons in Proton-Proton Collisions with the CMS Detector
+    advisor: Markus Klute
+    date: November 2016
+    
+  - name: Daniel Roberts
+    title: CHAOS, Holography, And Other Science
+    advisor: Allan Adams
+    date: April 2016
+    
+  - name: Ian Moult
+    title: Effective Field Theories for the LHC
+    advisor: Iain Stewart
+    date: April 2016
+    
+  - name: Daniel Kolodrubetz
+    title: Accuracy and Precision in Collider Event Shapes
+    advisor: Iain Stewart
+    date: April 2016
+    
+  - name: Mingming Yang
+    title: Observation and Property Measurement of a New Boson Decaying Into Two Photons Using the CMS Detector
+    advisor: Christoph Paus
+    date: January 2015
+    
+  - name: Shawn Henderson
+    title: An Assessment of the Sensitivity of a Low Pressure Time Projection Chamber to the Direction of WIMP-Induced Nuclear Recoils
+    advisor: Peter Fisher
+    date: July 2013
+    
+  - name: Teng Ma
+    title: Detailed Characterization of Jets in Heavy Ion Collisions Using Jet Fragmentation Functions
+    advisor: Boleslaw Wyslouch
+    date: May 2013
+    
+  - name: Kevin Sung
+    title: Measurement of Z boson production at the LHC
+    advisor: Steven Nahn
+    date: March 2013
+    
+  - name: Christopher Jones
+    title: Prediction of the Reactor Antineutrino Flux for the Double Chooz Experiment
+    advisor: Janet Conrad
+    date: June 2012
+    
+  - name: Riccardo Abbate
+    title: Precision Determination of the Strong Coupling Constant using SCET
+    advisor: Iain Stewart
+    date: May 2012
+    
+  - name: Abolhassan Vaezi
+    title: Slave Particle Study of the Strongly Correlated Hubbard Model
+    advisor: Xiao-Gang Wen
+    date: January 2011
+    
+  - name: Georgia Karagiorgi
+    title: Searches for New Physics at MiniBooNE
+    advisor: Janet Conrad
+    date: July 2010
+
+academic_advising:
+
+  - name: MIT Physics Graduate Academic Advisor
+    dates: Fall 2017-Present
+    details:
+      - "Anticipated Ph.D. 2027:  Manu Srivastava, Rachel Steinhorst"
+      - "Anticipated Ph.D. 2025:  Ryan Abbott"
+      - "Anticipated Ph.D. 2024:  Bruno Scheihing Hitschfeld, Stella Schindler, Annie Wei"
+      - "Ph.D. 2023:  Eric Anschuetz"
+      - "Ph.D. 2022:  Gregory Ridgway, Samuel Leutheusser"
+      - "Ph.D. 2020:  Jasmine Brewer"
+
+  - name: MIT Physics Undergraduate Academic Advisor
+    dates: Fall 2011-Present
+    details:
+    - "Class of 2024:  Omar Abdelghani, Chirag Falor, M. Geogdzhayeva, Lily Moseni, Dylan Raphael, Chris Viets"
+    - "Class of 2018/2019/2020:  Robert Arnott, Zachary Bogorad, Hannah Field, Rodmy Paredes Alfaro, Saranesh Prembabu, Joshua Rhodes, Kevin Tang, Michael Winer"
+    - "Class of 2014/2015:  Allison Christian, Jay Lawhorn, Joseph Perricone, Jeffrey Prouty, Melih Ucer, Pranjal Vachaspati, Prashanth Venkataram"
+  
+  - name: MIT First-Year Advisor
+    dates: Fall 2019-Spring 2020
+    details:
+      - "Class of 2023:  Richter Brzeski, Megha Maran, Catalina Monsalve Rodriguez, Dylan Weber"
+    
+
+external_phd_theses:
+
+  - name: Pedro Cal
+    org:  U. Amsterdam
+    title:  Jet Substructure at the LHC with Soft-Collinear Effective Theory
+    advisor:  Wouter Waalewijn
+    date: September 2021
+  
+  - name: Thea Aarrestad
+    org:  U. Zurich
+    title:  A Novel Multidimensional Search for Diboson Resonances in the Boosted Dijet Final State and Encoding Jet Substructure with a Deep Neural Network
+    advisor:  Ben Kilminster
+    date: March 2019
+    
+  - name: Ignacio Garcia Garcia
+    org:  U. Valencia
+    title:  "Future Linear Colliders:  Detector R&D, Jet Reconstruction, and Top Physics Potential"
+    advisor:  Eduardo Ros & Marcel Vos
+    date: December 2016
+    
+  - name: Brian Walsh
+    org:  Yale
+    title:  Search for direct top squark pair production in final states with one isolated lepton, jets, and missing transverse momentum in sqrt(s) = 7 TeV pp collisions using 4.7 fb-1 of ATLAS data
+    advisor:  Tobias Golling
+    date: February 2013
+    
+  - name: Travis Martin
+    org:  Carleton U.
+    title:  Examining Extra Neutral Gauge Bosons in Non-Universal Models and Exploring the Phenomenology of the Bestest Little Higgs Model and the LHC
+    advisor:  Thomas Gregoire & Stephen Godfrey
+    date: August 2012
+
+
+external_mentoring:
+
+  - name:  Ilias Cholis
+    program: PI Academy for Research and Engagement
+    org: Oakland U.
+    dates: Fall 2018-Fall 2019
+    

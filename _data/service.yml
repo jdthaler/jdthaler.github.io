@@ -1,178 +1,3 @@
-phd-theses:
-
-  - name: Cristian Zanoci
-    title: Quantum Algorithms and Non-Equilibrium Dynamics in Disordered Many-Body Systems
-    advisor: Mikhail Lukin & Aram W. Harrow
-    date: May 2023
-
-  - name: Eva Huang
-    title: Systematic and Statistical Uncertainties in the Characterization of Gravitational-Wave Sources
-    advisor: Salvatore Vitale
-    date: January 2023
-    
-  - name: Gregory Ridgway
-    title: Exotic Dark Matter in the Early Universe
-    advisor: Tracy Slatyer
-    date: June 2022
-    
-  - name: Patrick Fitzpatrick
-    title: Initial Conditions for Cosmic Inflation, the History of the Dark Sector, and Dark-onium
-    advisor: Tracy Slatyer & David Kaiser
-    date: July 2021
-    
-  - name: Joseph Johnston
-    title: Applications of Low Temperature Bolometers to Reactor Neutrinos and Neutrinoless Double Beta Decay
-    advisor: Lindley Winslow & Joseph Formaggio
-    date: May 2021
-    
-  - name: Chih-Liang Wu
-    title: Probes of Dark Matter from the Universe's Past and Present
-    advisor: Tracy Slatyer
-    date: April 2021
-    
-  - name: Constantin Weisser
-    title: Search for Dark Photons at LHCb and Machine Learning in Particle Physics
-    advisor: Mike Williams
-    date: March 2021
-    
-  - name: J. Owen Andrews
-    title: Illuminating Biomolecular Clustering and Condensation in Living Cells Using Super-Resolution Imaging
-    advisor: Ibrahim Cisse
-    date: November 2020
-    
-  - name: Gherardo Vita
-    title: QCD Beyond Leading Power
-    advisor: Iain Stewart
-    date: August 2020
-    
-  - name: Jasmine Brewer
-    title: Theory and Phenomenology of Heavy-Ion Collisions
-    advisor: Krishna Rajagopal
-    date: July 2020
-    
-  - name: Hongwan Liu
-    title: Dark Matter Energy Deposition and Production from the Table-Top to the Cosmos
-    advisor: Tracy Slatyer
-    date: May 2019
-    
-  - name: Charles Epstein
-    title: Møller Scattering at Low Energy
-    advisor: Richard Milner
-    date: August 2018
-    
-  - name: Nicholas Rodd
-    title: Listening to the Universe through Indirect Detection
-    advisor: Tracy Slatyer
-    date: April 2018
-    
-  - name: David Hernandez
-    title: Solving the N-body Problem in Astrophysics
-    advisor: Edmund Bertschinger
-    date: April 2018
-    
-  - name: Aram Apyan
-    title: Search for Heavy Charged Higgs Bosons in Proton-Proton Collisions with the CMS Detector
-    advisor: Markus Klute
-    date: November 2016
-    
-  - name: Daniel Roberts
-    title: CHAOS, Holography, And Other Science
-    advisor: Allan Adams
-    date: April 2016
-    
-  - name: Ian Moult
-    title: Effective Field Theories for the LHC
-    advisor: Iain Stewart
-    date: April 2016
-    
-  - name: Daniel Kolodrubetz
-    title: Accuracy and Precision in Collider Event Shapes
-    advisor: Iain Stewart
-    date: April 2016
-    
-  - name: Mingming Yang
-    title: Observation and Property Measurement of a New Boson Decaying Into Two Photons Using the CMS Detector
-    advisor: Christoph Paus
-    date: January 2015
-    
-  - name: Shawn Henderson
-    title: An Assessment of the Sensitivity of a Low Pressure Time Projection Chamber to the Direction of WIMP-Induced Nuclear Recoils
-    advisor: Peter Fisher
-    date: July 2013
-    
-  - name: Teng Ma
-    title: Detailed Characterization of Jets in Heavy Ion Collisions Using Jet Fragmentation Functions
-    advisor: Boleslaw Wyslouch
-    date: May 2013
-    
-  - name: Kevin Sung
-    title: Measurement of Z boson production at the LHC
-    advisor: Steven Nahn
-    date: March 2013
-    
-  - name: Christopher Jones
-    title: Prediction of the Reactor Antineutrino Flux for the Double Chooz Experiment
-    advisor: Janet Conrad
-    date: June 2012
-    
-  - name: Riccardo Abbate
-    title: Precision Determination of the Strong Coupling Constant using SCET
-    advisor: Iain Stewart
-    date: May 2012
-    
-  - name: Abolhassan Vaezi
-    title: Slave Particle Study of the Strongly Correlated Hubbard Model
-    advisor: Xiao-Gang Wen
-    date: January 2011
-    
-  - name: Georgia Karagiorgi
-    title: Searches for New Physics at MiniBooNE
-    advisor: Janet Conrad
-    date: July 2010
-    
-    
-external-phd-theses:
-
-  - name: Pedro Cal
-    uni:  University of Amsterdam
-    title:  Jet Substructure at the LHC with Soft-Collinear Effective Theory
-    advisor:  Wouter Waalewijn
-    date: September 2021
-  
-  - name: Thea Aarrestad
-    uni:  University of Zurich
-    title:  A Novel Multidimensional Search for Diboson Resonances in the Boosted Dijet Final State and Encoding Jet Substructure with a Deep Neural Network
-    advisor:  Ben Kilminster
-    date: March 2019
-    
-  - name: Ignacio Garcia Garcia
-    uni:  University of Valencia
-    title:  "Future Linear Colliders:  Detector R&D, Jet Reconstruction, and Top Physics Potential"
-    advisor:  Eduardo Ros and Marcel Vos
-    date: December 2016
-    
-  - name: Brian Walsh
-    uni:  Yale University
-    title:  Search for direct top squark pair production in final states with one isolated lepton, jets, and missing transverse momentum in sqrt(s) = 7 TeV pp collisions using 4.7 fb-1 of ATLAS data
-    advisor:  Tobias Golling
-    date: February 2013
-    
-  - name: Travis Martin
-    uni:  Carleton University
-    title:  Examining Extra Neutral Gauge Bosons in Non-Universal Models and Exploring the Phenomenology of the Bestest Little Higgs Model and the LHC
-    advisor:  Thomas Gregoire and Stephen Godfrey
-    date: August 2012
-
-external-mentoring:
-
-  - name:  Ilias Cholis
-    program: PI Academy for Research and Engagement
-    uni: Oakland University
-    date: Fall 2018-Fall 2019
-
-
-    
-  
 memberships:
 
   - name: Aspen Center for Physics
@@ -180,3 +5,92 @@ memberships:
     
   - name: American Physical Society
     url:  https://www.aps.org/
+
+
+mit_faculty:
+
+  - name: MIT Faculty Committee on Curricula
+    url:  https://registrar.mit.edu/faculty-curriculum-support/faculty-curriculum-committees/committee-curricula
+    dates: Fall 2017-Spring 2020
+    
+
+
+mit_physics:
+
+  - name: MIT Physics Ad Hoc Committee on Graduate Student Professional Development
+    dates: Spring 2023
+    
+  - name: MIT Physics Graduate Admissions Committee
+    dates: Spring 2021
+    
+  - name: MIT Physics Communic.8 Faculty Liaison
+    url:  https://piazza.com/mit/fall2020/communic8
+    dates: Fall 2020-Present
+    
+  - name: MIT Physics Promotion Committee
+    dates: "Fall 2019, Fall 2020, Fall 2021, Fall 2022, Chair: Fall 2020, Fall 2021, Fall 2022"
+    
+  - name: MIT Physics Pappalardo Fellowships Executive Committee
+    url: https://physics.mit.edu/research/pappalardo-fellowships-in-physics/
+    dates: Fall 2016-Fall 2017
+    
+  - name: MIT Physics Colloquium Committee
+    dates: "Spring 2010-Spring 2014, Chair: Fall 2012-Spring 2014"
+      
+  - name: MIT Physics Qualifying Exam, Part II Written Exam Committee
+    dates: "Spring 2012-Fall 2014, Chair: Fall 2013-Spring 2014"
+    
+  - name: MIT Physics Qualifying Exam, Part II Written Exam Grading Committee
+    dates: September 2010, January 2020
+
+
+mit_lns:
+
+  - name: MIT LNS Advisory Group
+    dates: Fall 2017, Spring 2020-Present
+    
+  - name: MIT LNS Colloquium Committee
+    dates: "Fall 2015-Spring 2018, Chair: Fall 2017-Spring 2018"
+
+mit_ctp:
+
+  - name: MIT CTP Part III Oral Qualifying Exam Committee
+    dates: Spring 2015-Spring 2017, Fall 2022-Spring 2023
+    
+  - name: MIT CTP Faculty Mentor
+    dates: April 2021-Present
+
+  - name: MIT CTP Faculty Search Committee
+    dates: "Fall 2017, Fall 2019, Fall 2021; Chair: Fall 2019"
+
+  - name: MIT CTP Deputy Group Leader in High-Energy Physics
+    dates: Spring 2020-Present
+
+  - name: MIT CTP Visitor Coordinator
+    dates: Fall 2016-Present
+
+  - name: MIT CTP Nuclear/Particle Seminar Committee
+    dates: Fall 2010-Fall 2016, Fall 2020-Spring 2021, Fall 2022-Present
+
+  - name: MIT CTP Postdoc Selection Committee
+    dates: Fall 2009-Present
+
+mit_sdsc:
+
+  - name: MIT Physics, Statistics, and Data Science (PhysSDS) Committee
+    url: https://web.mit.edu/physics/current/graduate/psds_phd.html
+    dates: "Co-Chair: Fall 2020-Present"
+
+mit_misti:
+
+  - name: MISTI Global Seed Funds Evaluation Committee
+    dates: Fall 2012, Fall 2013, Fall 2014
+
+before_mit:
+
+  - name: Berkeley CTP Particle Seminar Organizer
+    dates: 2007-2009
+    
+  - name: Miller Symposium Committee
+    dates: 2008-2009
+
