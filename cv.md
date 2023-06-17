@@ -243,70 +243,25 @@ permalink: cv/
 ## Presentations
 
 ### Public Lectures
-
-{% for talk in site.data.talks.public -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{%- endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.public %}
 
 ### Lecture Series & Schools
-
-{% for talk in site.data.talks.schools -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}
-      {%- if talk.parts %} (
-      {%- for part in talk.parts -%}
-          {%if part.video %}[video]({{part.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if part.url %}**["{{part.title}}"]({{part.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{part.title}}"**{% endif %}
-      {%- if forloop.last != true-%}, {% endif -%}{% endfor -%}
-      )
-      {%- endif -%},
-   {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.schools %}
 
 ### Colloquia
-
-{% for talk in site.data.talks.colloquia -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.colloquia %}
 
 ### Invited Talks
-
-{% for talk in site.data.talks.invited -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}
-    {%- if talk.collab %} (with {{talk.collab}}), {% else %}, {% endif %}
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.invited %}
 
 ### Seminars
-
-{% for talk in site.data.talks.seminars -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.seminars %}
 
 ### Local Presentations
-
-{% for talk in site.data.talks.local -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"}{% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.local %}
 
 ### Additional Events
-
-{% for talk in site.data.talks.additional -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% elsif talk.panelist %}**Panelist**{% elsif talk.convener %}**Convener**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.additional %}
 
 
 ## Research Grants
@@ -322,10 +277,8 @@ permalink: cv/
 ## Advising
 
 ### Ph.D. Thesis Committees
+{% include cv/thesis_list.html list = site.data.advising.phd_theses %}
 
-{% for phd_thesis in site.data.advising.phd_theses %}
-  * **{{phd_thesis.name}}**, "{{phd_thesis.title | default: "TBA"}}" ({{phd_thesis.advisor}}), *{{phd_thesis.date | default: "in progress"}}*
-{%- endfor %}
 
 ### Academic Advising
 
@@ -338,10 +291,8 @@ permalink: cv/
 
 
 ### External Ph.D. Examiner
+{% include cv/thesis_list.html list = site.data.advising.external_phd_theses %}
 
-{% for phd_thesis in site.data.advising.external_phd_theses %}
-  * **{{phd_thesis.name}}**, "{{phd_thesis.title | default: "TBA"}}" ({{phd_thesis.advisor}}), *{{phd_thesis.org}}, {{phd_thesis.date | default: "in progress"}}*
-{%- endfor %}
 
 ### External Mentoring
 
@@ -350,58 +301,30 @@ permalink: cv/
 {%- endfor %}
 
 
-
-
 ## Service
 
 ### Internal Service
 
 #### MIT Faculty
-
-{% for item in site.data.service.mit_faculty %}
-{% include cv/service_item.html %}
-{%- endfor %}
+{% include cv/service_list.html list = site.data.service.mit_faculty %}
 
 #### MIT Physics
-
-{% for item in site.data.service.mit_physics %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_physics %}
 
 #### MIT Laboratory for Nuclear Science
-
-{% for item in site.data.service.mit_lns %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_lns %}
 
 #### MIT Center for Theoretical Physics
-
-{% for item in site.data.service.mit_ctp %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_ctp %}
 
 #### MIT Statistics and Data Science Center
-
-{% for item in site.data.service.mit_sdsc %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_sdsc %}
 
 #### MIT International Science and Technology Initiatives
-
-{% for item in site.data.service.mit_misti %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_misti %}
 
 #### Before MIT
-
-{% for item in site.data.service.before_mit %}
-{% include cv/service_item.html %}
-{%- endfor %}
+{% include cv/service_list.html list = site.data.service.before_mit %}
 
 
 ### External Service
@@ -425,10 +348,8 @@ permalink: cv/
     * ["The High Energy Physics Landscape in 2019"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_HEPAP.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/201905){:target="_blank"}, *May 2019*
 
 #### Advisory Boards
+{% include cv/service_list.html list = site.data.service.advisory_boards %}
 
-{% for item in site.data.service.advisory_boards %}
-{% include cv/service_item.html %}
-{%- endfor %}
 
 #### Workshop/Conference Organization
 
@@ -464,10 +385,8 @@ permalink: cv/
   * Advisory Committee, Oxford University Workshop: "Boost 2010" (June 2010)
 
 #### Journal Editing
+{% include cv/service_list.html list = site.data.service.journal_editing %}
 
-{% for item in site.data.service.journal_editing %}
-{% include cv/service_item.html %}
-{%- endfor %}
 
 #### Peer Review
 
