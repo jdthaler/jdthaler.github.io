@@ -70,6 +70,7 @@ courses:
 
   - number: 8.02
     title:  Physics II, Electricity and Magnetism
+    gir: true
     roles:
       - name: TEAL (studio class)
         iterations:

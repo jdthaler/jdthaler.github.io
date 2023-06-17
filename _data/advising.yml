@@ -133,29 +133,88 @@ phd_theses:
     advisor: Janet Conrad
     date: July 2010
 
+
 academic_advising:
 
   - name: MIT Physics Graduate Academic Advisor
     dates: Fall 2017-Present
-    details:
-      - "Anticipated Ph.D. 2027:  Manu Srivastava, Rachel Steinhorst"
-      - "Anticipated Ph.D. 2025:  Ryan Abbott"
-      - "Anticipated Ph.D. 2024:  Bruno Scheihing Hitschfeld, Stella Schindler, Annie Wei"
-      - "Ph.D. 2023:  Eric Anschuetz"
-      - "Ph.D. 2022:  Gregory Ridgway, Samuel Leutheusser"
-      - "Ph.D. 2020:  Jasmine Brewer"
+    cohorts:
+    
+      - name: "Anticipated Ph.D. 2027"
+        members:
+          - name: Manu Srivastava
+          - name: Rachel Steinhorst
+          
+      - name: "Anticipated Ph.D. 2025"
+        members:
+          - name: Ryan Abbott
+          
+      - name: "Anticipated Ph.D. 2024"
+        members:
+          - name: Bruno Scheihing Hitschfeld
+          - name: Stella Schindler
+          - name: Annie Wei
+          
+      - name: "Ph.D. 2023"
+        members:
+          - name: Eric Anschuetz
+          
+      - name: "Ph.D. 2022"
+        members:
+          - name: Gregory Ridgway
+          - name: Samuel Leutheusser
+          
+      - name: "Ph.D. 2020"
+        members:
+          - name: Jasmine Brewer
+
 
   - name: MIT Physics Undergraduate Academic Advisor
     dates: Fall 2011-Present
-    details:
-    - "Class of 2024:  Omar Abdelghani, Chirag Falor, M. Geogdzhayeva, Lily Moseni, Dylan Raphael, Chris Viets"
-    - "Class of 2018/2019/2020:  Robert Arnott, Zachary Bogorad, Hannah Field, Rodmy Paredes Alfaro, Saranesh Prembabu, Joshua Rhodes, Kevin Tang, Michael Winer"
-    - "Class of 2014/2015:  Allison Christian, Jay Lawhorn, Joseph Perricone, Jeffrey Prouty, Melih Ucer, Pranjal Vachaspati, Prashanth Venkataram"
+    cohorts:
+    
+      - name: "Class of 2024"
+        members:
+          - name: Omar Abdelghani
+          - name: Chirag Falor
+          - name: M. Geogdzhayeva
+          - name: Lily Moseni
+          - name: Dylan Raphael
+          - name: Chris Viets
+          
+      - name: "Class of 2018/2019/2020"
+        members:
+          - name: Robert Arnott
+          - name: Zachary Bogorad
+          - name: Hannah Field
+          - name: Rodmy Paredes Alfaro
+          - name: Saranesh Prembabu
+          - name: Joshua Rhodes
+          - name: Kevin Tang
+          - name: Michael Winer
+          
+      - name: "Class of 2014/2015"
+        members:
+          - name: Allison Christian
+          - name: Jay Lawhorn
+          - name: Joseph Perricone
+          - name: Jeffrey Prouty
+          - name: Melih Ucer
+          - name: Pranjal Vachaspati
+          - name: Prashanth Venkataram
+  
   
   - name: MIT First-Year Advisor
     dates: Fall 2019-Spring 2020
-    details:
-      - "Class of 2023:  Richter Brzeski, Megha Maran, Catalina Monsalve Rodriguez, Dylan Weber"
+    first_year:  true
+    cohorts:
+    
+      - name: "Class of 2023"
+        members:
+          - name: Richter Brzeski
+          - name: Megha Maran
+          - name: Catalina Monsalve Rodriguez
+          - name: Dylan Weber
     
 
 external_phd_theses:

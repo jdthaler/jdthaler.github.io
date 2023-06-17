@@ -25,31 +25,31 @@ permalink: cv/
 
 ### MIT
 
- * **Massachusetts Institute of Technology**, *January 2010 - Present*
-   * Professor of Physics, *July 2021 - Present*
-   * Associate Professor of Physics with Tenure, *May 2017 - July 2021*
-   * Associate Professor of Physics, *July 2015 - May 2017*
-   * Class of 1943 Career Development Professor, *July 2012 - July 2015*
-   * Assistant Professor of Physics, *January 2010 - July 2015*
+ * **Massachusetts Institute of Technology**, *January 2010-Present*
+   * Professor of Physics, *July 2021-Present*
+   * Associate Professor of Physics with Tenure, *May 2017-July 2021*
+   * Associate Professor of Physics, *July 2015-May 2017*
+   * Class of 1943 Career Development Professor, *July 2012-July 2015*
+   * Assistant Professor of Physics, *January 2010-July 2015*
  * **Leadership**
-    * Director, [NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}, *August 2020 - Present*
+    * Director, [NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}, *August 2020-Present*
  * **Affiliations**
-   * [MIT Center for Theoretical Physics (CTP)](http://ctp.mit.edu/){:target="_blank"} and [Laboratory for Nuclear Science (LNS)](http://web.mit.edu/lns/){:target="_blank"}, *January 2010 - Present*
-   * [MIT Statistics and Data Science Center (SDSC)](https://stat.mit.edu/){:target="_blank"} and [Institute for Data, Systems, and Society (IDSS)](https://idss.mit.edu/){:target="_blank"}, *January 2020 - Present*
+   * [MIT Center for Theoretical Physics (CTP)](http://ctp.mit.edu/){:target="_blank"} and [Laboratory for Nuclear Science (LNS)](http://web.mit.edu/lns/){:target="_blank"}, *January 2010-Present*
+   * [MIT Statistics and Data Science Center (SDSC)](https://stat.mit.edu/){:target="_blank"} and [Institute for Data, Systems, and Society (IDSS)](https://idss.mit.edu/){:target="_blank"}, *January 2020-Present*
 
 ### Visiting
 
- * **Harvard University**, *September 2018 - August 2019*
+ * **Harvard University**, *September 2018-August 2019*
    * Visiting Scholar, Simons Fellowship in Theoretical Physics
- * **Boston University**, *June 2017 - August 2017*
+ * **Boston University**, *June 2017-August 2017*
    * Visiting Researcher
 
 ### Berkeley
 
- * **Lawrence Berkeley National Laboratory**, *July 2009 - December 2009*
+ * **Lawrence Berkeley National Laboratory**, *July 2009-December 2009*
    * Physicist Postdoctoral Fellow, Theoretical Physics Group
 
- * **University of California, Berkeley**, *July 2006 - June 2009*
+ * **University of California, Berkeley**, *July 2006-June 2009*
    * Miller Research Fellow, Miller Institute for Basic Research in Science
 
 
@@ -57,20 +57,20 @@ permalink: cv/
 
 ### Harvard
 
-  * **Harvard University**, *Fall 2002 - Spring 2006*
+  * **Harvard University**, *Fall 2002-Spring 2006*
     * Ph.D. Physics, "[Symmetry Breaking at the Energy Frontier](http://inspirehep.net/record/738871){:target="_blank"}", *June 2006* 
     * A.M. Physics, *June 2004*
     * Advisor:  Nima Arkani-Hamed
 
 ### Brown
 
-  * **Brown University**, *Fall 1998 - Spring 2002*
+  * **Brown University**, *Fall 1998-Spring 2002*
     * Sc.B. Math/Physics, *May 2002*
     * Advisor: Antal Jevicki
 
 ### PEA
 
-  * **Phillips Exeter Academy**, *Fall 1994 - Spring 1998*
+  * **Phillips Exeter Academy**, *Fall 1994-Spring 1998*
 
 
 ## Awards & Fellowships
@@ -329,10 +329,10 @@ permalink: cv/
 
 ### Academic Advising
 
-{% for service in site.data.advising.academic_advising %}
-  * **{% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}**, *{{service.dates}}*
-{%- for detail in service.details %}
-     * {{detail}}
+{% for advising in site.data.advising.academic_advising %}
+  * **{% if advising.url %}[{{advising.name}}]({{advising.url}}){:target="_blank"}{% else %}{{advising.name}}{% endif %}**, *{{advising.dates}}*
+{%- for cohort in advising.cohorts %}
+    * {{cohort.name}}: {% for member in cohort.members %}{{member.name}}{% if forloop.last != true %}, {% endif %}{% endfor %}
 {%- endfor %}
 {%- endfor %}
 
@@ -481,41 +481,23 @@ permalink: cv/
   * Science Advisory Board, USQCD Collaboration, *Spring 2013 - Fall 2016*
   * LHC Theory Initiative, Fellowship Selection Committee, *Fall 2013 - Fall 2014; Chair: Fall 2014*
 
+#### Journal Editing
+
+  * Editorial Board, [Journal of High Energy Physics](https://jhep.sissa.it/){:target="_blank"}, *Fall 2019-Present*
+  * Editorial College, [SciPost Physics](https://scipost.org/SciPostPhys){:target="_blank"}, *Fall 2019-Present*
+  * Co-Topic Editor, Frontiers of Artificial Intelligence, ["Efficient AI in Particle Physics and Astrophysics"](https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics){:target="_blank"}, *Spring 2022*
+
 #### Peer Review
 
-  * [Journal of High Energy Physics](https://jhep.sissa.it/){:target="_blank"}
-    * Editorial Board, *Fall 2019 - present*
-  * [SciPost Physics](https://scipost.org/SciPostPhys){:target="_blank"}
-    * Editorial College, *Fall 2019 - present*
-  * Frontiers of Artificial Intelligence
-    * Co-Topic Editor, ["Efficient AI in Particle Physics and Astrophysics"](https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics){:target="_blank"}, *Spring 2022*
-  * Physical Review Letters
-  * Physical Review D
-  * Journal of Cosmology and Astroparticle Physics
-  * Physics of the Dark Universe
-  * Nuclear Physics B
-  * Physics Letters B
-  * European Physical Journal C
-  * Journal of Physics G
-  * Physics Reports
-  * Annals of Physics
-  * Particle Data Group
+{% for role in site.data.service.peer_review %}
+  * {{role.name}}
+{%- endfor %}
 
 #### Funding Agency Review 
 
-  * U.S. Department of Energy
-  * National Science Foundation
-  * European Research Council
-  * Heising-Simons Foundation
-  * Research Corporation for Science Advancement (Cottrell)
-  * The Royal Society
-  * Swiss National Science Foundation
-  * Natural Sciences and Engineering Research Council of Canada
-  * Israel Science Foundation
-  * Netherlands Organisation for Scientific Research
-  * German Academic Exchange Service (DAAD)
-  * French National Research Agency
-  * Hungarian National Research, Development, and Innovation Office
+{% for role in site.data.service.agency_review %}
+  * {{role.name}}
+{%- endfor %}
 
 ## Public Engagement
  

@@ -10,11 +10,10 @@ memberships:
 mit_faculty:
 
   - name: MIT Faculty Committee on Curricula
+    short_name: Committee on Curricula
     url:  https://registrar.mit.edu/faculty-curriculum-support/faculty-curriculum-committees/committee-curricula
     dates: Fall 2017-Spring 2020
     
-
-
 mit_physics:
 
   - name: MIT Physics Ad Hoc Committee on Graduate Student Professional Development
@@ -94,3 +93,36 @@ before_mit:
   - name: Miller Symposium Committee
     dates: 2008-2009
 
+peer_review:
+
+
+  - name: Physical Review Letters
+  - name: Journal of High Energy Physics
+  - name: Physical Review D
+  - name: SciPost Physics
+  - name: Journal of Cosmology and Astroparticle Physics
+  - name: Physics of the Dark Universe
+  - name: Nuclear Physics B
+  - name: Physics Letters B
+  - name: European Physical Journal C
+  - name: Journal of Physics G
+  - name: Physics Reports
+  - name: Annals of Physics
+  - name: Particle Data Group
+
+
+agency_review:
+
+  - name: U.S. Department of Energy (DOE)
+  - name: National Science Foundation (NSF)
+  - name: European Research Council (ERC)
+  - name: Heising-Simons Foundation
+  - name: Research Corporation for Science Advancement (Cottrell)
+  - name: The Royal Society
+  - name: Swiss National Science Foundation
+  - name: Natural Sciences & Engineering Research Council of Canada
+  - name: Israel Science Foundation
+  - name: Netherlands Organisation for Scientific Research
+  - name: German Academic Exchange Service (DAAD)
+  - name: French National Research Agency
+  - name: Hungarian National Research, Development & Innovation Office
