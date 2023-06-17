@@ -358,85 +358,80 @@ permalink: cv/
 
 #### MIT Faculty
 
-{% for service in site.data.service.mit_faculty %}
-  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
-{%- for detail in service.details %}
-     * {{detail}}
+{% for item in site.data.service.mit_faculty %}
+{% include cv/service_item.html %}
 {%- endfor %}
-{%- endfor %}
-
 
 #### MIT Physics
 
-{% for service in site.data.service.mit_physics %}
-  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
-{%- for detail in service.details %}
-     * {{detail}}
-{%- endfor %}
+{% for item in site.data.service.mit_physics %}
+{% include cv/service_item.html %}
 {%- endfor %}
 
 
 #### MIT Laboratory for Nuclear Science
 
-{% for service in site.data.service.mit_lns %}
-  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
-{%- for detail in service.details %}
-     * {{detail}}
-{%- endfor %}
+{% for item in site.data.service.mit_lns %}
+{% include cv/service_item.html %}
 {%- endfor %}
 
 
 #### MIT Center for Theoretical Physics
 
-{% for service in site.data.service.mit_ctp %}
-  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
-{%- for detail in service.details %}
-     * {{detail}}
-{%- endfor %}
+{% for item in site.data.service.mit_ctp %}
+{% include cv/service_item.html %}
 {%- endfor %}
 
 
 #### MIT Statistics and Data Science Center
 
-{% for service in site.data.service.mit_sdsc %}
-  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
-{%- for detail in service.details %}
-     * {{detail}}
-{%- endfor %}
+{% for item in site.data.service.mit_sdsc %}
+{% include cv/service_item.html %}
 {%- endfor %}
 
 
 #### MIT International Science and Technology Initiatives
 
-{% for service in site.data.service.mit_misti %}
-  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
-{%- for detail in service.details %}
-     * {{detail}}
-{%- endfor %}
+{% for item in site.data.service.mit_misti %}
+{% include cv/service_item.html %}
 {%- endfor %}
 
 
 #### Before MIT
 
-{% for service in site.data.service.before_mit %}
-  * {% if service.url %}[{{service.name}}]({{service.url}}){:target="_blank"}{% else %}{{service.name}}{% endif %}, *{{service.dates}}*
-{%- for detail in service.details %}
-     * {{detail}}
-{%- endfor %}
+{% for item in site.data.service.before_mit %}
+{% include cv/service_item.html %}
 {%- endfor %}
 
 
 ### External Service
 
+#### Institutions
 
-#### Workshop/Conference Organization
-
-
-  * General Member, Aspen Center for Physics (Summer 2020-Summer 2025)
+  * [Aspen Center for Physics (ACP)](https://www.aspenphys.org/){:target="_blank"}
+    * General Member, *Summer 2020-Summer 2025*
     * Liason, Winter Workshop, "Theoretical Physics for Machine Learning" (Winter 2023)
     * Organizer, Summer Workshop, "Interplay of Fundamental Physics and Machine Learning" (Summer 2022)
     * Nominations Committee (Summer 2021; Chair, Summer 2022; Ex officio, Summer 2023)
     * Summer Program Committee (Summer 2020)
+  * [American Physical Society (APS)](https://www.aps.org/){:target="_blank"}
+    * Member, *2002-Present*
+    * Fellow, *2022-Present*
+    * Sakurai Dissertation Award Selection Committee, *Fall 2016, Fall 2022, Fall 2023; Chair: Fall 2023*
+  * [High Energy Physics Advisory Panel (HEPAP)](https://science.osti.gov/hep/hepap){:target="_blank"}
+    * Member, HEPAP, *August 2021 - March 2024*
+    * Member, Particle Physics Project Prioritization Panel (P5), *December 2022 - October 2023*
+    * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/202012){:target="_blank"}, *December 2020*
+    * ["The High Energy Physics Landscape in 2019"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_HEPAP.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/201905){:target="_blank"}, *May 2019*
+
+#### Advisory Boards
+
+{% for item in site.data.service.advisory_boards %}
+{% include cv/service_item.html %}
+{%- endfor %}
+
+#### Workshop/Conference Organization
+
   * Topical Convener in [Collider Phenomenology](https://snowmass21.org/theory/phenomenology){:target="_blank"}, [Snowmass Theory Frontier](https://snowmass21.org/theory/start){:target="_blank"} (July 2021, July 2022)
   * Organizer, GGI Workshop: "[Machine Learning at GGI](https://agenda.infn.it/event/32043/){:target="_blank"}" (August/September 2022)
   * Advisory Committee and Ombuds Team (with Ayana Arce), Online Workshop:  "[Boost 2021](https://indico.cern.ch/event/1037559/){:target="_blank"}" (August 2021)
@@ -468,24 +463,11 @@ permalink: cv/
   * Organizer, MIT/Berkeley Workshop: "Implications of First LHC Data" (August 2010)
   * Advisory Committee, Oxford University Workshop: "Boost 2010" (June 2010)
 
-#### Scientific Advising
-
-  * [High Energy Physics Advisory Panel (HEPAP)](https://science.osti.gov/hep/hepap){:target="_blank"}
-    * Member, HEPAP, *August 2021 - March 2024*
-    * Member, Particle Physics Project Prioritization Panel (P5), *December 2022 - October 2023*
-    * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/202012){:target="_blank"}, *December 2020*
-    * ["The High Energy Physics Landscape in 2019"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_HEPAP.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/201905){:target="_blank"}, *May 2019*
-  * Sakurai Dissertation Award Selection Committee, American Physical Society, *Fall 2016, Fall 2022, Fall 2023; Chair: Fall 2023*
-  * International Scientific Advisory Board, [AI for Science and Science for AI (AISSAI) Center](https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center){:target="_blank"}, French CNRS, *2022 - present*
-  * International Advisory Committee, Grant-in-Aid for Transformative Research Areas, JSPS/MEXT Japan, *2022 - 2026*
-  * Science Advisory Board, USQCD Collaboration, *Spring 2013 - Fall 2016*
-  * LHC Theory Initiative, Fellowship Selection Committee, *Fall 2013 - Fall 2014; Chair: Fall 2014*
-
 #### Journal Editing
 
-  * Editorial Board, [Journal of High Energy Physics](https://jhep.sissa.it/){:target="_blank"}, *Fall 2019-Present*
-  * Editorial College, [SciPost Physics](https://scipost.org/SciPostPhys){:target="_blank"}, *Fall 2019-Present*
-  * Co-Topic Editor, Frontiers of Artificial Intelligence, ["Efficient AI in Particle Physics and Astrophysics"](https://www.frontiersin.org/research-topics/19095/efficient-ai-in-particle-physics-and-astrophysics){:target="_blank"}, *Spring 2022*
+{% for item in site.data.service.journal_editing %}
+{% include cv/service_item.html %}
+{%- endfor %}
 
 #### Peer Review
 
@@ -535,11 +517,4 @@ permalink: cv/
   * **[Logo Design](design/jthaler_ABRALogo_Large.pdf){:target="_blank"}** ([Alt.](design/jthaler_ABRALogo_Medium.pdf){:target="_blank"}, [A.](design/jthaler_ABRALogo_Small.pdf){:target="_blank"}), [ABRACADABRA Experiment](http://abracadabra.mit.edu/), *MIT, August 2017*
   * **[Logo Design](design/jthaler_MOD_Logo.pdf){:target="_blank"}** ([Event Display](design/jthaler_MOD_EventDisplay.pdf){:target="_blank"}), MIT Open Data, *MIT, July 2015*
   * **[Logo Design](design/jthaler_DarkLight_Logo.pdf){:target="_blank"}**, [DarkLight Experiment](http://dmtpc.mit.edu/DarkLight/){:target="_blank"}, *MIT, September 2010*
-
-
-## Memberships
-
-{% for membership in site.data.service.memberships %}
-  * **[{{membership.name}}]({{membership.url}}){:target="_blank"}** 
-{%- endfor %}
 

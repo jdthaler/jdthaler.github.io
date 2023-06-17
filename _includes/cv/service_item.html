@@ -1,0 +1,5 @@
+  * {% if item.job %}{{item.job}}, {% endif %}
+    {%- if item.name %}{% if item.url %}[{{item.name}}]({{item.url}}){:target="_blank"}{% else %}{{item.name}}{% endif %}, {% endif %}
+    {%- if item.issue %}"[{{item.issue}}]({{item.issue_url}}){:target="_blank"}", {% endif %}
+    {%- if item.org %}{% if item.org_url %}*[{{item.org}}]({{item.org_url}}){:target="_blank"}*{% else %}*{{item.org}}*{% endif %}, {% endif -%}
+    *{{item.dates}}*
