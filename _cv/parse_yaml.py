@@ -398,14 +398,21 @@ for tag in service_yaml['institutions']:
 
 external_service_output = open("cv_external_service.tex","w")
 advisory_boards = service_yaml['advisory_boards']
+workshops = service_yaml['workshops']
 journal_editing = service_yaml['journal_editing']
 peer_review = service_yaml['peer_review']
 agency_review = service_yaml['agency_review']
+
+##### workshops
+
+for role in workshops:
+  external_service_output.write('\\item ' + role_string(role)+'\n')
 
 ##### advisory_boards
 
 for role in advisory_boards:
   external_service_output.write('\\item ' + role_string(role)+'\n')
+
 
 ##### journal editing
 

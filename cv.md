@@ -342,52 +342,18 @@ permalink: cv/
 #### Advisory Boards
 {% include cv/service_list.html list = site.data.service.advisory_boards %}
 
-
 #### Workshop/Conference Organization
-
-  * Topical Convener in [Collider Phenomenology](https://snowmass21.org/theory/phenomenology){:target="_blank"}, [Snowmass Theory Frontier](https://snowmass21.org/theory/start){:target="_blank"} (July 2021, July 2022)
-  * Organizer, GGI Workshop: "[Machine Learning at GGI](https://agenda.infn.it/event/32043/){:target="_blank"}" (August/September 2022)
-  * Advisory Committee and Ombuds Team (with Ayana Arce), Online Workshop:  "[Boost 2021](https://indico.cern.ch/event/1037559/){:target="_blank"}" (August 2021)
-  * Advisory Committee, Heidelberg Workshop:  "[ML4Jets](https://indico.cern.ch/event/980214/){:target="_blank"}" (July 2021)
-  * Organizer, Fermilab Remote Workshop:  "[CMS Open Data for Theorists](https://indico.cern.ch/e/CMSOpenDataForTheorists){:target="_blank"}" (September 2020)
-  * Advisory Committee and Ombuds Team (with Ayana Arce), Hamburg Workshop:  "[Boost 2020](https://indico.cern.ch/e/boost2020){:target="_blank"}" (July 2020)
-  * Advisory Committee, Mainz Workshop:  "[Machine Learning for Particle Physics](https://indico.mitp.uni-mainz.de/event/199/){:target="_blank"}" (May 2020 → June 2021)
-  * Advisory Committee, New York Workshop:  "[ML4Jets](https://indico.cern.ch/event/809820/){:target="_blank"}" (January 2020)
-  * Local Organizing Committee, Boston Workshop:  "[Boost 2019](https://indico.cern.ch/e/boost2019){:target="_blank"}" (July 2019)
-  * Advisory Committee, Paris Workshop:  "[Boost 2018](https://indico.cern.ch/e/boost2018){:target="_blank"}" (July 2018)
-  * Local Organizing Committee, MIT Workshop: "[Rising Stars in Physics](https://physicsrisingstars.mit.edu/){:target="_blank"}" (April 2018)
-  * Advisory Committee, Buffalo Workshop:  "Boost 2017" (July 2017)
-  * Jet Convener, Les Houches Workshop:  "Physics at TeV Colliders" (June 2017)
-  * Advisory Committee, Cleveland Workshop:  "BLV 2017" (May 2017)
-  * Scientific Organizing Committee, Boston Workshop:  "Lattice for BSM Physics 2017" (April 2017)
-  * Advisory Committee, Zurich Workshop:  "Boost 2016" (July 2016)
-  * Organizer, Galileo Galilei Institute Workshop: "Gearing up for LHC13" (Fall 2015)
-  * Advisory Committee, Chicago Workshop:  "Boost 2015" (August 2015)
-  * Jet Convener, Les Houches Workshop:  "Physics at TeV Colliders" (June 2015)
-  * Advisory Committee, London Workshop:  "Boost 2014" (August 2014)
-  * Organizer, Harvard/MIT Workshop: "Boston Jet Physics" (January 2014)
-  * Advisory Committee, Flagstaff Workshop:  "Boost 2013" (August 2013)
-  * Advisory Committee, Valencia Workshop:  "Boost 2012" (July 2012)
-  * Program Committee, PANIC 2011: "Particle and Nuclei International Conference" (July 2011)
-  * Organizer, Harvard/MIT Workshop: "Boston Jet Physics" (January 2011)
-  * Organizer, MIT/Berkeley Workshop: "Implications of First LHC Data" (August 2010)
-  * Advisory Committee, Oxford University Workshop: "Boost 2010" (June 2010)
+{% include cv/service_list.html list = site.data.service.workshops %}
 
 #### Journal Editing
 {% include cv/service_list.html list = site.data.service.journal_editing %}
 
-
 #### Peer Review
-
-{% for role in site.data.service.peer_review %}
-  * {{role.name}}
-{%- endfor %}
+{% include cv/simple_list.html list = site.data.service.peer_review %}
 
 #### Funding Agency Review 
+{% include cv/simple_list.html list = site.data.service.agency_review %}
 
-{% for role in site.data.service.agency_review %}
-  * {{role.name}}
-{%- endfor %}
 
 ## Public Engagement
  

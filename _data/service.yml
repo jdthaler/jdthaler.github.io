@@ -240,4 +240,157 @@ hepap:
       issue_url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_HEPAP.pdf
       dates:     May 2019
   
+workshops:
 
+  - job: Topical Convener
+    issue: Collider Phenomenology
+    issue_url: https://snowmass21.org/theory/phenomenology
+    org: Snowmass Theory Frontier
+    org_url: https://snowmass21.org/theory/start
+    dates: July 2021, July 2022
+    
+  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
+    issue: "Boost 2022"
+    issue_url: https://indico.cern.ch/event/1144064/
+    org: Hamburg
+    dates: August 2022
+
+  - job:  Organizer
+    issue: "Machine Learning at GGI"
+    issue_url: https://agenda.infn.it/event/32043/
+    org: Galileo Galilei Institute
+    dates: August/September 2022
+    
+  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
+    issue: "Boost 2021"
+    issue_url: https://indico.cern.ch/event/1037559/
+    org: Online
+    dates: August 2021
+    
+  - job:  Advisory Committee
+    issue: "ML4Jets"
+    issue_url: https://indico.cern.ch/event/980214/
+    org: Heidelberg
+    dates: July 2021
+    
+  - job:  Organizer
+    issue: "CMS Open Data for Theorists"
+    issue_url: https://indico.cern.ch/e/CMSOpenDataForTheorists
+    org: Fermilab/Virtual
+    dates: September 2020
+    
+  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
+    issue: "Boost 2020"
+    issue_url: https://indico.cern.ch/e/boost2020
+    org: Hamburg
+    dates: July 2020
+    
+  - job:  Advisory Committee
+    issue: "Machine Learning for Particle Physics"
+    issue_url: https://indico.mitp.uni-mainz.de/event/199/
+    org: Mainz
+    dates: May 2020 → June 2021
+    
+  - job:  Advisory Committee
+    issue: "ML4Jets"
+    issue_url: https://indico.cern.ch/event/809820/
+    org: New York
+    dates: January 2020
+    
+  - job: Local Organizing Committee
+    issue: "Boost 2019"
+    issue_url: https://indico.cern.ch/e/boost2019
+    org: MIT
+    dates: July 2019
+    
+  - job:  Advisory Committee
+    issue: "Boost 2018"
+    issue_url: https://indico.cern.ch/e/boost2018
+    org: Paris
+    dates: July 2018
+    
+  - job: Local Organizing Committee
+    issue: "Rising Stars in Physics"
+    issue_url: https://physicsrisingstars.mit.edu/
+    org: MIT
+    dates: April 2018
+    
+  - job:  Advisory Committee
+    issue: "Boost 2017"
+    org: Buffalo
+    dates: July 2017
+    
+  - job: Jet Convener
+    issue: "Physics at TeV Colliders"
+    org: Les Houches
+    dates: June 2017
+    
+  - job:  Advisory Committee
+    issue: "BLV 2017"
+    org: Cleveland
+    dates: May 2017
+    
+  - job:  Scientific Organizing Committee
+    issue: "Lattice for BSM Physics 2017"
+    org: Boston
+    dates: April 2017
+    
+  - job:  Advisory Committee
+    issue: "Boost 2016"
+    org: Zurich
+    dates: July 2016
+    
+  - job:  Organizer
+    issue: "Gearing up for LHC13"
+    org: Galileo Galilei Institute
+    dates: Fall 2015
+    
+  - job:  Advisory Committee
+    issue: "Boost 2015"
+    org: Chicago
+    dates: August 2015
+    
+  - job: Jet Convener
+    issue: "Physics at TeV Colliders"
+    org: Les Houches
+    dates: June 2015
+    
+  - job:  Advisory Committee
+    issue: "Boost 2014"
+    org: London
+    dates: August 2014
+    
+  - job:  Organizer
+    issue: "Boston Jet Physics"
+    org: Harvard/MIT
+    dates: January 2014
+    
+  - job:  Advisory Committee
+    issue: "Boost 2013"
+    org: Flagstaff
+    dates: August 2013
+    
+  - job:  Advisory Committee
+    issue: "Boost 2012"
+    org: Valencia
+    dates: July 2012
+    
+  - job: Conference Program Committee
+    issue: "PANIC 2011: Particle and Nuclei International Conference"
+    org: Boston
+    dates: July 2011
+    
+  - job:  Organizer
+    issue: "Boston Jet Physics"
+    org: Harvard/MIT
+    dates: January 2011
+    
+  - job:  Organizer
+    issue: "Implications of First LHC Data"
+    org: MIT/Berkeley
+    dates: August 2010
+    
+  - job:  Advisory Committee
+    issue: "Boost 2010"
+    org: Oxford U.
+    dates: June 2010
