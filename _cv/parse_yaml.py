@@ -17,7 +17,25 @@ def unique(list1):
     
     # output
     return unique_list
+    
+def role_string(role):
 
+  my_string = ''
+  
+  if 'job' in role:
+    my_string += role['job'] + ', '
+  if 'name' in role:
+    my_string += role['name']+', '
+  if 'issue' in role:
+    my_string += '``'+role['issue']+'\'\', '
+  if 'org' in role:
+    my_string += '\\emph{'+role['org']+', }'
+  if 'dates' in role:
+    my_string += '\\emph{'+role['dates'].replace('-','--')+'}'
+  if 'date' in role:
+    my_string += '\\emph{'+role['date'].replace('-','--')+'}'
+
+  return my_string
 
 
 #################### bio file
@@ -34,7 +52,7 @@ awards_output.write('\\bbl\n')
 
 for award in awards:
   if int(award['priority']) >= 3 :
-    awards_output.write('\\item '+award['name']+', \\textit{'+award['org']+', '+award['date'].replace('-','--')+'}\n')
+    awards_output.write('\\item '+role_string(award) + '\n')
     
 awards_output.write('\\el\n')
 
@@ -362,12 +380,19 @@ service_roles = service_yaml['mit_faculty'] + service_yaml['mit_sdsc'] + service
 internal_service_output.write('\\bbl\n')
 
 for role in service_roles:
-  internal_service_output.write('\\item '+ role['name'] + ', \\emph{' + role['dates'].replace('-','--')+'}\n')
-  if 'details' in role:
-    for detail in role['details']:
-      internal_service_output.write('\\\\ ' + detail+ '\n')
+  internal_service_output.write('\\item '+ role_string(role) + '\n')
 
 internal_service_output.write('\\el\n')
+
+########## insitution service
+
+insitution_service_output = open("cv_institution_service.tex","w")
+
+for tag in service_yaml['institutions']:
+  insitution = service_yaml[tag]
+  insitution_service_output.write('\\item ' + insitution['name'] + '\n')
+  for role in insitution['roles']:
+    insitution_service_output.write('\\\\ ' + role_string(role) + '\n')
 
 ########## external service
 
@@ -380,26 +405,12 @@ agency_review = service_yaml['agency_review']
 ##### advisory_boards
 
 for role in advisory_boards:
-  external_service_output.write('\\item ' + role['job'] + ', ')
-  if 'name' in role:
-    external_service_output.write(role['name']+', ')
-  if 'issue' in role:
-    external_service_output.write('``'+role['issue']+'\'\', ')
-  if 'org' in role:
-    external_service_output.write('\\emph{'+role['org']+', }')
-  external_service_output.write('\\emph{'+role['dates'].replace('-','--')+'}\n')
+  external_service_output.write('\\item ' + role_string(role)+'\n')
 
 ##### journal editing
 
 for role in journal_editing:
-  external_service_output.write('\\item ' + role['job'] + ', ')
-  if 'name' in role:
-    external_service_output.write(role['name']+', ')
-  if 'issue' in role:
-    external_service_output.write('``'+role['issue']+'\'\', ')
-  if 'org' in role:
-    external_service_output.write('\\emph{'+role['org']+', }')
-  external_service_output.write('\\emph{'+role['dates'].replace('-','--')+'}\n')
+  external_service_output.write('\\item ' + role_string(role) + '\n')
 
 ##### peer review
 

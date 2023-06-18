@@ -243,70 +243,25 @@ permalink: cv/
 ## Presentations
 
 ### Public Lectures
-
-{% for talk in site.data.talks.public -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{%- endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.public %}
 
 ### Lecture Series & Schools
-
-{% for talk in site.data.talks.schools -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}
-      {%- if talk.parts %} (
-      {%- for part in talk.parts -%}
-          {%if part.video %}[video]({{part.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if part.url %}**["{{part.title}}"]({{part.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{part.title}}"**{% endif %}
-      {%- if forloop.last != true-%}, {% endif -%}{% endfor -%}
-      )
-      {%- endif -%},
-   {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.schools %}
 
 ### Colloquia
-
-{% for talk in site.data.talks.colloquia -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %} {% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.colloquia %}
 
 ### Invited Talks
-
-{% for talk in site.data.talks.invited -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}
-    {%- if talk.collab %} (with {{talk.collab}}), {% else %}, {% endif %}
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.invited %}
 
 ### Seminars
-
-{% for talk in site.data.talks.seminars -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.seminars %}
 
 ### Local Presentations
-
-{% for talk in site.data.talks.local -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"}{% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{talk.title}}"**{% endif %}, {{talk.event}}, *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.local %}
 
 ### Additional Events
-
-{% for talk in site.data.talks.additional -%}
-  * {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if talk.url %}**["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% elsif talk.panelist %}**Panelist**{% elsif talk.convener %}**Convener**{% elsif talk.title %}**"{{talk.title}}"**{% else %}**No Talk**{% endif %},
-    {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-    *{{talk.org}}, {{talk.date}}*
-    {%- if talk.virtual %} `virtual` {% endif %}
-{% endfor %}
+{% include cv/talk_list.html list = site.data.talks.additional %}
 
 
 ## Research Grants
@@ -322,10 +277,8 @@ permalink: cv/
 ## Advising
 
 ### Ph.D. Thesis Committees
+{% include cv/thesis_list.html list = site.data.advising.phd_theses %}
 
-{% for phd_thesis in site.data.advising.phd_theses %}
-  * **{{phd_thesis.name}}**, "{{phd_thesis.title | default: "TBA"}}" ({{phd_thesis.advisor}}), *{{phd_thesis.date | default: "in progress"}}*
-{%- endfor %}
 
 ### Academic Advising
 
@@ -338,10 +291,8 @@ permalink: cv/
 
 
 ### External Ph.D. Examiner
+{% include cv/thesis_list.html list = site.data.advising.external_phd_theses %}
 
-{% for phd_thesis in site.data.advising.external_phd_theses %}
-  * **{{phd_thesis.name}}**, "{{phd_thesis.title | default: "TBA"}}" ({{phd_thesis.advisor}}), *{{phd_thesis.org}}, {{phd_thesis.date | default: "in progress"}}*
-{%- endfor %}
 
 ### External Mentoring
 
@@ -350,85 +301,47 @@ permalink: cv/
 {%- endfor %}
 
 
-
-
 ## Service
 
 ### Internal Service
 
 #### MIT Faculty
-
-{% for item in site.data.service.mit_faculty %}
-{% include cv/service_item.html %}
-{%- endfor %}
+{% include cv/service_list.html list = site.data.service.mit_faculty %}
 
 #### MIT Physics
-
-{% for item in site.data.service.mit_physics %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_physics %}
 
 #### MIT Laboratory for Nuclear Science
-
-{% for item in site.data.service.mit_lns %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_lns %}
 
 #### MIT Center for Theoretical Physics
-
-{% for item in site.data.service.mit_ctp %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_ctp %}
 
 #### MIT Statistics and Data Science Center
-
-{% for item in site.data.service.mit_sdsc %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_sdsc %}
 
 #### MIT International Science and Technology Initiatives
-
-{% for item in site.data.service.mit_misti %}
-{% include cv/service_item.html %}
-{%- endfor %}
-
+{% include cv/service_list.html list = site.data.service.mit_misti %}
 
 #### Before MIT
-
-{% for item in site.data.service.before_mit %}
-{% include cv/service_item.html %}
-{%- endfor %}
+{% include cv/service_list.html list = site.data.service.before_mit %}
 
 
 ### External Service
 
 #### Institutions
 
-  * [Aspen Center for Physics (ACP)](https://www.aspenphys.org/){:target="_blank"}
-    * General Member, *Summer 2020-Summer 2025*
-    * Liason, Winter Workshop, "Theoretical Physics for Machine Learning" (Winter 2023)
-    * Organizer, Summer Workshop, "Interplay of Fundamental Physics and Machine Learning" (Summer 2022)
-    * Nominations Committee (Summer 2021; Chair, Summer 2022; Ex officio, Summer 2023)
-    * Summer Program Committee (Summer 2020)
-  * [American Physical Society (APS)](https://www.aps.org/){:target="_blank"}
-    * Member, *2002-Present*
-    * Fellow, *2022-Present*
-    * Sakurai Dissertation Award Selection Committee, *Fall 2016, Fall 2022, Fall 2023; Chair: Fall 2023*
-  * [High Energy Physics Advisory Panel (HEPAP)](https://science.osti.gov/hep/hepap){:target="_blank"}
-    * Member, HEPAP, *August 2021 - March 2024*
-    * Member, Particle Physics Project Prioritization Panel (P5), *December 2022 - October 2023*
-    * ["The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/202012){:target="_blank"}, *December 2020*
-    * ["The High Energy Physics Landscape in 2019"](https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_HEPAP.pdf){:target="_blank"}, [HEPAP Presentation](https://science.osti.gov/hep/hepap/Meetings/201905){:target="_blank"}, *May 2019*
+{% for tag in site.data.service.institutions %}
+{%- assign institution = site.data.service[tag] %}
+  * [{{institution.name}}]({{institution.url}}){:target="_blank"}
+{%- for role in institution.roles %}
+    * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({{role.issue_url}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{{role.dates}}* 
+{%- endfor %}
+{%- endfor %}
 
 #### Advisory Boards
+{% include cv/service_list.html list = site.data.service.advisory_boards %}
 
-{% for item in site.data.service.advisory_boards %}
-{% include cv/service_item.html %}
-{%- endfor %}
 
 #### Workshop/Conference Organization
 
@@ -447,7 +360,6 @@ permalink: cv/
   * Jet Convener, Les Houches Workshop:  "Physics at TeV Colliders" (June 2017)
   * Advisory Committee, Cleveland Workshop:  "BLV 2017" (May 2017)
   * Scientific Organizing Committee, Boston Workshop:  "Lattice for BSM Physics 2017" (April 2017)
-  * Organizer, Aspen Center for Physics Workshop: "The LHC Awakens: A New Energy Frontier" (August 2016)
   * Advisory Committee, Zurich Workshop:  "Boost 2016" (July 2016)
   * Organizer, Galileo Galilei Institute Workshop: "Gearing up for LHC13" (Fall 2015)
   * Advisory Committee, Chicago Workshop:  "Boost 2015" (August 2015)
@@ -457,17 +369,13 @@ permalink: cv/
   * Advisory Committee, Flagstaff Workshop:  "Boost 2013" (August 2013)
   * Advisory Committee, Valencia Workshop:  "Boost 2012" (July 2012)
   * Program Committee, PANIC 2011: "Particle and Nuclei International Conference" (July 2011)
-  * Organizer, Aspen Center for Physics Workshop: "Year One of the LHC" (July 2011)
-  * Organizer, Aspen Center for Physics Conference: "New Data from the Energy Frontier" (February 2011)
   * Organizer, Harvard/MIT Workshop: "Boston Jet Physics" (January 2011)
   * Organizer, MIT/Berkeley Workshop: "Implications of First LHC Data" (August 2010)
   * Advisory Committee, Oxford University Workshop: "Boost 2010" (June 2010)
 
 #### Journal Editing
+{% include cv/service_list.html list = site.data.service.journal_editing %}
 
-{% for item in site.data.service.journal_editing %}
-{% include cv/service_item.html %}
-{%- endfor %}
 
 #### Peer Review
 

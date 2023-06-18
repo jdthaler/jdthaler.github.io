@@ -18,19 +18,19 @@ mit_physics:
     dates: Fall 2020-Present
     
   - name: MIT Physics Promotion Committee
-    dates: "Fall 2019, Fall 2020, Fall 2021, Fall 2022, Chair: Fall 2020, Fall 2021, Fall 2022"
+    dates: "Fall 2019; Chair: Fall 2020, Fall 2021, Fall 2022"
     
   - name: MIT Physics Pappalardo Fellowships Executive Committee
     url: https://physics.mit.edu/research/pappalardo-fellowships-in-physics/
     dates: Fall 2016-Fall 2017
     
   - name: MIT Physics Colloquium Committee
-    dates: "Spring 2010-Spring 2014, Chair: Fall 2012-Spring 2014"
+    dates: "Spring 2010-Spring 2012; Chair: Fall 2012-Spring 2014"
       
-  - name: MIT Physics Qualifying Exam, Part II Written Exam Committee
-    dates: "Spring 2012-Fall 2014, Chair: Fall 2013-Spring 2014"
+  - name: MIT Physics Part II Qualifying Written Exam Committee
+    dates: "Spring 2012-Spring 2013; Chair: Fall 2013-Spring 2014"
     
-  - name: MIT Physics Qualifying Exam, Part II Written Exam Grading Committee
+  - name: MIT Physics Part II Qualifying Written Exam Grading Committee
     dates: September 2010, January 2020
 
 
@@ -40,7 +40,7 @@ mit_lns:
     dates: Fall 2017, Spring 2020-Present
     
   - name: MIT LNS Colloquium Committee
-    dates: "Fall 2015-Spring 2018, Chair: Fall 2017-Spring 2018"
+    dates: "Fall 2015-Spring 2017; Chair: Fall 2017-Spring 2018"
 
 mit_ctp:
 
@@ -51,7 +51,7 @@ mit_ctp:
     dates: April 2021-Present
 
   - name: MIT CTP Faculty Search Committee
-    dates: "Fall 2017, Fall 2019, Fall 2021; Chair: Fall 2019"
+    dates: "Fall 2017, Fall 2021; Chair: Fall 2019"
 
   - name: MIT CTP Deputy Group Leader in High-Energy Physics
     dates: Spring 2020-Present
@@ -159,4 +159,85 @@ advisory_boards:
   - job: Fellowship Selection Committee
     name: LHC Theory Initiative
     url: https://www.pas.rochester.edu/~orr/LHC-TI/Home.html
-    dates: "Fall 2013-Fall 2014, Chair: Fall 2014"
+    dates: "Fall 2013-Fall 2014; Chair: Fall 2014"
+
+
+institutions:
+  - acp
+  - aps
+  - hepap
+  
+acp:
+  name: Aspen Center for Physics (ACP)
+  url:  https://www.aspenphys.org/
+  roles:
+  
+    - job:   General Member
+      dates: Summer 2020-Summer 2025
+
+    - job:   Nominations Committee
+      dates: "Summer 2021; Chair: Summer 2022; Ex officio: Summer 2023"
+      
+    - job:   Summer Program Committee
+      dates: Summer 2020
+
+    - job:   Conference Liason
+      issue: Theoretical Physics for Machine Learning
+      dates: Winter 2023
+    
+    - job:   Workshop Organizer
+      issue: Interplay of Fundamental Physics and Machine Learning
+      dates: Summer 2022
+      
+    - job:   Workshop Organizer
+      issue: "The LHC Awakens: A New Energy Frontier"
+      dates: Summer 2016
+
+    - job:   Workshop Organizer
+      issue: "Year One of the LHC"
+      dates: Summer 2011
+      
+    - job:   Conference Organizer
+      issue: "New Data from the Energy Frontier"
+      dates: Winter 2011
+
+
+aps:
+  name: American Physical Society (APS)
+  url:  https://www.aps.org/
+  roles:
+
+    - job:   Fellow
+      dates: 2022-Present
+
+    - job:   Sakurai Dissertation Award Selection Committee
+      dates: "Fall 2016, Fall 2022; Chair: Fall 2023"
+
+    - job:   Member
+      dates: 2002-Present
+
+
+hepap:
+  name: High Energy Physics Advisory Panel (HEPAP)
+  url:  https://science.osti.gov/hep/hepap
+  roles:
+
+    - job:   HEPAP Member
+      dates: August 2021-March 2024
+      
+    - job:   Particle Physics Project Prioritization Panel (P5)
+      dates: December 2022-October 2023
+      
+    - job:       HEPAP Presentation
+      job_url:   https://science.osti.gov/hep/hepap/Meetings/202012
+      issue:     The NSF AI Institute for Artificial Intelligence and Fundamental Interactions
+      issue_url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf
+      dates:     December 2020
+      
+    - job:       HEPAP Presentation
+      job_url:   https://science.osti.gov/hep/hepap/Meetings/201905
+      issue:     The High Energy Physics Landscape in 2019
+      issue_url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_HEPAP.pdf
+      dates:     May 2019
+  
+
