@@ -17,7 +17,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
   {% for topic in site.data.research.topics %}
       <div class="cell cell--4">
           <center>
-          <a href="research.html#{{topic.key}}">
+          <a href="research#{{topic.key}}">
             <img class="" style="object-fit: cover" src="{{topic.image}}" title="{{topic.title}}"/>
           <br>
               <b>{{topic.title}}</b>
