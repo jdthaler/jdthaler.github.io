@@ -361,7 +361,12 @@ permalink: cv/
 [IMDb](http://www.imdb.com/name/nm6007880/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
  
 {% for entry in site.data.public.entries %}
-  * {{entry.markdown}}
+  * **"{% if entry.url %}[{{entry.title}}]({{entry.url}}){:target="_blank"}{% else %}{{entry.title}}{% endif %}"**{% if entry.collaborators %} (with {% if entry.collaborators_url %}[{{entry.collaborators}}]({{entry.collaborators_url}}){:target="_blank"}{% else %}{{entry.collaborators}}{% endif %}){% endif %},
+   {% if entry.type %}{{entry.type}}, {% endif -%}
+   {% if entry.event %}{% if entry.event_url %}[{{entry.event}}]({{entry.event_url}}){:target="_blank"}{% else %}{{entry.event}}{% endif %}, {% endif -%}   
+   {% if entry.org %}*{{entry.org}}*, {% endif -%}
+   {% if entry.date %}*{{entry.date}}* {% endif -%}
+   {% if entry.doi %}[{{entry.journal}}](https://doi.org/{{entry.doi}}){:target="_blank"}{% endif %}
 {%- endfor %}
   * Appearance in Documentary Film, **["Particle Fever"](https://www.imdb.com/title/tt1385956/){:target="_blank"}**, 2013 
     * After film Q&A, BOOST 2015 Workshop Public Event, August 2015
