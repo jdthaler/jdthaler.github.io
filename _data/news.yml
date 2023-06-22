@@ -4,36 +4,42 @@ group_news:
     title:   "Astroparticle Physicist Wins 2023 Valley Prize for Work on Dark Matter"
     url:     https://www.aps.org/publications/apsnews/202211/valley-prize.cfm
     journal: APS News
+    image:  /news/2023-valley-prize-00_0.jpg
     date:    October 2022
 
   - person:  Cari Cesarotti
     title:   "With open data, scientists share their work"
     url:     https://www.symmetrymagazine.org/article/with-open-data-scientists-share-their-work
     journal: Symmetry Magazine
+    image:  /news/2019-symmetry-magazine-00_0.jpg
     date:    August 2019
 
   - person:  Radha Mastandrea
     title:   "A passionate advocate for open data"
     url:     http://news.mit.edu/2018/Radha-Mastandrea-student-1018
     journal: MIT News
+    image:  /news/2018-mit-news-00_0.jpg
     date:    October 2018
     
   - person:  Radha Mastandrea
     title:   "Paying it forward: Fellowship boosts women in physics"
     url:     http://news.mit.edu/2018/paying-it-forward-fellowship-boosts-women-physics-0802
     journal: MIT News
+    image:  /news/2018-mit-news-boosts-00_0.jpeg
     date:    August 2018
     
   - person:  Kevin Zhou
     title:   "Seeking new stories about the physical world"
     url:     http://news.mit.edu/2017/student-profile-kevin-zhou-0421
     journal: MIT News
+    image:  /news/2017-mit-news-pysical-00_0.jpg
     date:    April 2017
     
   - person:  Kevin Zhou
     title:   "Four MIT students named 2017 Marshall Scholars"
     url:     http://news.mit.edu/2016/four-mit-students-marshall-scholars-1128
     journal: MIT News
+    image:  /news/2016-mit-news-marshall-scholars-00_0.jpg
     date:    November 2016
     
 perspectives:
