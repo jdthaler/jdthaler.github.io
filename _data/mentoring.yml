@@ -526,8 +526,9 @@ bs_students:
     updated: 2023
 
 
-  - name: Fayad Ammar
+  - name: Ammar Fayad 
     email: afayad@mit.edu
+    image: /images/fayad.jpg
     date:  2024
     urop:  Summer 2023
     current: true
@@ -812,6 +813,7 @@ visitors:
 
   - name: Xinyue (Stella) Wu
     email: xwu48@u.rochester.edu
+    image: /images/wu.jpg
     program: MIT Summer Research Program
     dates: Summer 2023
     home: U. Rochester
