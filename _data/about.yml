@@ -1,0 +1,31 @@
+name:
+  first: Jesse
+  middle: Diaz
+  last: Thaler
+  pronouns: he/him/his
+  pronunciation: "JEH-see THAY-lr"
+  
+address:
+  org:  MIT Center for Theoretical Physics
+  street:  77 Massachusetts Avenue
+  office:  6-318
+  office_url:  http://whereis.mit.edu/?go=6
+  city:  Cambridge
+  state:  MA
+  zip:  02139
+
+email:
+  work:  jthaler@mit.edu
+
+phone:
+  work:  (617) 253-3713
+  fax:   (617) 253-8674
+  
+urls:
+  personal:  https://jthaler.net/
+  twitter:  https://twitter.com/jessethaler
+  linkedin:  https://www.linkedin.com/in/jesse-thaler
+  
+
+
+
