@@ -20,7 +20,6 @@ permalink: cv/
 {% for topic in site.data.research.topics %}  * **[{{topic.title}}](research.html#{{topic.key}})**
 {% endfor %}
 
-
 ## Positions
 
 ### MIT
@@ -55,22 +54,15 @@ permalink: cv/
 
 ## Education
 
-### Harvard
-
-  * **Harvard University**, *Fall 2002-Spring 2006*
-    * Ph.D. Physics, "[Symmetry Breaking at the Energy Frontier](http://inspirehep.net/record/738871){:target="_blank"}", *June 2006* 
-    * A.M. Physics, *June 2004*
-    * Advisor:  Nima Arkani-Hamed
-
-### Brown
-
-  * **Brown University**, *Fall 1998-Spring 2002*
-    * Sc.B. Math/Physics, *May 2002*
-    * Advisor: Antal Jevicki
-
-### PEA
-
-  * **Phillips Exeter Academy**, *Fall 1994-Spring 1998*
+{% for school in site.data.about.education -%}
+### {{school.short_org}}
+  * **{{school.org}}**, *{{school.dates}}*
+{%- for degree in school.degrees %}
+    * {{degree.type}} {{degree.field}}, {% if degree.thesis %}"[{{degree.thesis}}]({{degree.thesis_url}}){:target="_blank"}",{% endif %} *{{degree.month}} {{degree.year}}*
+{%- endfor %}
+{% if school.advisor %}    * Advisor: {{school.advisor}}
+{% endif %}
+{% endfor %}
 
 
 ## Awards & Fellowships

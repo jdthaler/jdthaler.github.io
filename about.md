@@ -27,8 +27,12 @@ permalink: /about/
 
 ## Education
 
-  * **Harvard University**, Ph.D. Physics, *2006*
-  * **Brown University**, Sc.B. Math/Physics, *2002*
+{% for school in site.data.about.education -%}
+{% for degree in school.degrees -%}
+  {%- if degree.priority >= 6 %}
+  * **{{school.org}}**, {{degree.type}} {{degree.field}}, {{degree.year}}
+  {%- endif -%}
+{% endfor %}{% endfor %}
 
 ## Key Positions
 

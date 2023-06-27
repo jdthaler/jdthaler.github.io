@@ -64,6 +64,21 @@ contact_2_output.write("Email: " + email['work'] + '\\\\\n')
 contact_2_output.write("Web: " + urls['personal'] + '\n')
 
 
+#################### research file
+
+research_input = open("../_data/research.yml","r")
+research_yaml = yaml.load(research_input,Loader=yaml.BaseLoader)
+
+########## research file
+
+research_output = open("cv_research.tex","w")
+topics = research_yaml['topics']
+research_output.write('\\bbl\n')
+
+for topic in topics:
+  research_output.write('\\item '+topic['title'] + '\n')
+research_output.write('\\el\n')
+
 
 #################### bio file
 
