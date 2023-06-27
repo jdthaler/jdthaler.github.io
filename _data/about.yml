@@ -1,0 +1,65 @@
+name:
+  first: Jesse
+  middle: Diaz
+  last: Thaler
+  pronouns: he/him/his
+  pronunciation: "JEH-see THAY-lr"
+  
+address:
+  org:  MIT Center for Theoretical Physics
+  street:  77 Massachusetts Avenue
+  office:  6-318
+  office_url:  http://whereis.mit.edu/?go=6
+  city:  Cambridge
+  state:  MA
+  zip:  02139
+
+email:
+  work:  jthaler@mit.edu
+
+phone:
+  work:  (617) 253-3713
+  fax:   (617) 253-8674
+  
+urls:
+  personal:  https://jthaler.net/
+  twitter:  https://twitter.com/jessethaler
+  linkedin:  https://www.linkedin.com/in/jesse-thaler
+  
+
+education:
+
+  - short_org:  Harvard
+    org:  Harvard University
+    dates:  Fall 2002-Spring 2006
+    advisor:  Nima Arkani-Hamed
+    degrees:
+      - type:     Ph.D.
+        field:    Physics
+        month:    June
+        year:     2006
+        thesis:   Symmetry Breaking at the Energy Frontier
+        thesis_url:  http://inspirehep.net/record/738871
+        priority: 10
+      - type:     A.M.
+        field:    Physics
+        month:    June
+        year:     2004
+        priority: 4
+
+        
+  - short_org:  Brown
+    org:  Brown University
+    dates:  Fall 1998-Spring 2002
+    advisor:  Antal Jevicki
+    degrees:
+      - type:     Sc.B.
+        field:    Math/Physics
+        month:    May
+        year:     2002
+        priority: 7
+
+  - short_org:  PEA
+    org:  Phillips Exeter Academy
+    dates:  Fall 1994-Spring 1998
+    priority: 1

@@ -5,26 +5,31 @@ permalink: contact/
 ---
 {% assign topimage = site.data.bio.contact_top %}
 
+{% assign name = site.data.about.name %}
+{% assign address = site.data.about.address %}
+{% assign email = site.data.about.email %}
+{% assign phone = site.data.about.phone %}
+{% assign social = site.data.about.social %}
+
 <div class="item">
 <div class="item__image">
 <img class="image-96--xl" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </div>
 <div class="item__content" markdown=1>
-Jesse Thaler\\
-MIT Center for Theoretical Physics\\
-77 Massachusetts Ave, [6-318](http://whereis.mit.edu/?go=6)\\
-Cambridge, MA 02139
+{{name.first}} {{name.last}}\\
+{{address.org}}\\
+{{address.street}}, [{{address.office}}]({{address.office_url}})\\
+{{address.city}}, {{address.state}} {{address.zip}}
 
-(617) 253-3713
+{{phone.work}}
 
-*Pronouns*:  he/him/his \\
-*Pronunciation*:  JEH-see THAY-lr
-
+*Pronouns*:  {{name.pronouns}} \\
+*Pronunciation*:  {{name.pronunciation}}
 </div>
 </div>
 
 [Joining My Group](/join){:.button.button--secondary.button--pill.button--sm}
-[jthaler@mit.edu](mailto:jthaler@mit.edu){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
-[Twitter](https://twitter.com/jessethaler){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
-[LinkedIn](https://www.linkedin.com/in/jesse-thaler){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[{{email.work}}](mailto:{{email.work}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[Twitter]({{urls.twitter}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[LinkedIn]({{urls.linkedin}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
