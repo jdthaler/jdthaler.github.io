@@ -149,6 +149,7 @@ perspectives:
   - title: "MIT’s Jesse Thaler Visits MHS"
     url: http://www.mhsmustangnews.com/2012/10/29/academic-news-mits-jesse-thaler-visits-mhs/
     journal:  Mustang News
+    image:  /news/2012-mustang-news-00_0.jpg
     date:     October 2012
     quote:  "Here’s the universe, here’s pencil and paper, now go and find something new."
 
@@ -224,6 +225,7 @@ profiles:
   - title: "Can a Computer Devise a Theory of Everything?"
     url: https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html
     journal: New York Times
+    image:  /news/2020-new-york-times-00_0.jpg
     date: November 2020
 
 
