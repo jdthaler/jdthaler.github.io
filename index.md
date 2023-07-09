@@ -52,7 +52,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
 
 <div class="grid-container">
   <div class="grid grid--py-3">
-    {% for affiliation in site.data.bio.affiliations %}
+    {% for affiliation in site.data.bio.affiliations %}{% if affiliation.priority >= 6 %}
     <div class="cell cell--3">
           <center>
           <a href="{{affiliation.url}}" target="_blank">
@@ -62,6 +62,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
           </a>
           </center>
     </div>
+    {% endif %}
     {% endfor %}    
   </div>
 </div>
