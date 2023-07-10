@@ -31,28 +31,49 @@ positions:
 affiliations:
 
   - name: Center for Theoretical Physics
+    mit: true
     acronym: CTP
     image: /images/logo_ctp.png
     url: http://ctp.mit.edu/
-    dates: January 2010 - Present
+    dates: January 2010-Present
+    priority: 6
   
   - name: Laboratory for Nuclear Science
+    mit: true
     acronym: LNS
     image: /images/logo_lns.png
     url: http://web.mit.edu/lns/
-    dates: January 2010 - Present
-    
+    dates: January 2010-Present
+    priority: 6
+
   - name:  Statistics and Data Science Center
+    mit: true
     acronym: SDSC
     image: /images/logo_sdsc.png
     url: https://stat.mit.edu/
-    dates: January 2020 - Present
+    dates: January 2020-Present
+    priority: 6
 
   - name:  Institute for Data, Systems, and Society
+    mit: true
     acronym: IDSS
     image: /images/logo_idss.jpg
     url: https://idss.mit.edu/
-    dates: January 2020 - Present
+    dates: January 2020-Present
+    priority: 6
+
+  - position: Simons Fellow in Theoretical Physics
+    name: Harvard Center for the Fundamental Laws of Nature
+    url: https://hetg.physics.harvard.edu/
+    dates:  September 2018-August 2019
+    priority: 3
+    
+  - position: Visiting Researcher
+    name: Boston University High Energy Theory Group
+    url: https://www.bu.edu/physics/research/theoretical-particle-physics/
+    dates: June 2017-August 2017
+    priority: 0
+
 
 awards:
 

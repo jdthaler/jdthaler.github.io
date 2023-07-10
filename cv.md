@@ -30,18 +30,20 @@ permalink: cv/
    * Associate Professor of Physics, *July 2015-May 2017*
    * Class of 1943 Career Development Professor, *July 2012-July 2015*
    * Assistant Professor of Physics, *January 2010-July 2015*
- * **Leadership**
-    * Director, [NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}, *August 2020-Present*
- * **Affiliations**
-   * [MIT Center for Theoretical Physics (CTP)](http://ctp.mit.edu/){:target="_blank"} and [Laboratory for Nuclear Science (LNS)](http://web.mit.edu/lns/){:target="_blank"}, *January 2010-Present*
-   * [MIT Statistics and Data Science Center (SDSC)](https://stat.mit.edu/){:target="_blank"} and [Institute for Data, Systems, and Society (IDSS)](https://idss.mit.edu/){:target="_blank"}, *January 2020-Present*
+   
+### Leadership
 
-### Visiting
+ * **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**, Director, *August 2020-Present*
 
- * **Harvard University**, *September 2018-August 2019*
-   * Visiting Scholar, Simons Fellowship in Theoretical Physics
- * **Boston University**, *June 2017-August 2017*
-   * Visiting Researcher
+### Affiliations
+
+{% for affiliation in site.data.bio.affiliations -%}
+  * **{%- if affiliation.url -%}
+      [{% if affiliation.mit %}MIT {% endif %}{{affiliation.name}}{% if affiliation.acronym %} ({{affiliation.acronym}}){% endif %}]({{affiliation.url}}){:target="_blank"}
+    {%- else -%}
+        {% if affiliation.mit %}MIT {% endif %}{{affiliation.name}}{% if affiliation.acronym %} ({{affiliation.acronym}}){% endif %}
+    {%- endif -%}**, {% if affiliation.position %}{{affiliation.position}}, {% endif %} *{{affiliation.dates}}*
+{% endfor %}
 
 ### Berkeley
 
