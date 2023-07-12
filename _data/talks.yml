@@ -198,37 +198,37 @@ colloquia:
     date: January 2016
   
   - title: "The Rise of Jet Substructure:  Boosting the Search for New Physics at the LHC"
-    url: talks/jthaler_11_05_2015_UC_SantaCruz_Colloquium.pdf
+    url: talks/jthaler_2015_11_05_UC_SantaCruz_Colloquium.pdf
     event: Physics Colloquium
     org: U.C. Santa Cruz
     date: November 2015
     
   - title: "The Rise of Jet Substructure:  Boosting the Search for New Physics at the LHC"
-    url: talks/jthaler_09_08_2015_Brandeis_Colloquium.pdf
+    url: talks/jthaler_2015_09_08_Brandeis_Colloquium.pdf
     event: Physics Colloquium
     org: Brandeis
     date: September 2015
   
   - title: "The Case for Jet Substructure"
-    url: talks/jthaler_11_06_2014_Caltech.pdf
+    url: talks/jthaler_2014_11_06_Caltech.pdf
     event: Physics Colloquium
     org: Caltech
     date: November 2014
     
   - title: "The Case for Jet Substructure"
-    url: talks/jthaler_04_14_2014_LNS_Colloquium.pdf
+    url: talks/jthaler_2014_04_14_LNS_Colloquium.pdf
     event: Colloquium
     org: MIT Laboratory for Nuclear Science
     date: April 2014
     
   - title: "(Non)perturbative QCD and Jet Substructure"
-    url: talks/jthaler_03_11_2014_Duke_Colloquium.pdf
+    url: talks/jthaler_2014_03_11_Duke_Colloquium.pdf
     event: Triangle Nuclear Theory Colloquium
     org: Duke University
     date: March 2014
     
   - title: "(Non)perturbative QCD and Jet Substructure"
-    url: talks/jthaler_10_22_2013_UMaryland_Colloquium.pdf
+    url: talks/jthaler_2013_10_22_UMaryland_Colloquium.
     event: Theory Colloquium
     org: University of Maryland
     date: October 2013
@@ -401,7 +401,7 @@ schools:
     date: July 2016
  
   - title: "The Case for Jet Substructure"
-    url: talks/jthaler_06_02_2014_Desy.pdf
+    url: talks/jthaler_2014_06_02_Desy.pdf
     event: Theorist of the Month
     org: DESY
     date: June 2014
@@ -728,37 +728,37 @@ invited:
     date: January 2016
   
   - title: "Probing the Core of QCD"
-    url: talks/jthaler_08_10_2015_Boost_Chicago.pdf
+    url: talks/jthaler_2015_08_10_Boost_Chicago.pdf
     event: Boost 2015
     org: Chicago
     date: August 2015
   
   - title: "Unsafe but Calculable: Jets at the Frontier of Perturbative QCD"
-    url: talks/jthaler_07_01_2015_ICTP.pdf
+    url: talks/jthaler_2015_07_01_ICTP.pdf
     event: PASCOS 2015
     org: ICTP, Trieste
     date: July 2015
   
   - title: "Pushing the Frontiers of Perturbative QCD"
-    url: talks/jthaler_05_05_2015_UPittsburg.pdf
+    url: talks/jthaler_2015_05_05_UPittsburg.pdf
     event: Pheno 2015
     org: Pittsburg
     date: May 2015
   
   - title: "Hidden Sectors and Dark Forces"
-    url: talks/jthaler_04_29_2015_UMassAmherst.pdf
+    url: talks/jthaler_2015_04_29_UMassAmherst.pdf
     event: BLV 2015
     org: UMass Amherst
     date: April 2015
   
   - title: "Physics Opportunities for Future Circular Colliders"
-    url: talks/jthaler_03_23_2015_FCCWashington.pdf
+    url: talks/jthaler_2015_03_23_FCCWashington.pdf
     event: FCC Week
     org: Washington, DC
     date: March 2015
   
   - title: "Jets in QCD: The Case for Jet Substructure"
-    url: talks/jthaler_09_08_2014_StPetersburg.pdf
+    url: talks/jthaler_2014_09_08_StPetersburg.pdf
     event: Quark Confinement and the Hadron Spectrum XI
     org: St. Petersburg
     date: September 2014
@@ -867,7 +867,7 @@ local:
     date: November 2016
   
   - title: "Jet Substructure"
-    Url: talk/jthaler_11_12_2015_MIT_Junior_Faculty_Lunch.pdf
+    Url: talk/jthaler_2015_11_12_MIT_Junior_Faculty_Lunch.pdf
     event: Tenure-Track Faculty Lunch
     org: MIT School of Science
     date: November 2015
@@ -1245,13 +1245,13 @@ seminars:
     date: January 2016
   
   - title: "Unsafe but Calculable"
-    url: talks/jthaler_12_08_2015_UToronto_Seminar.pdf
+    url: talks/jthaler_2015_12_08_UToronto_Seminar.pdf
     event: Seminar
     org: University of Toronto
     date: December 2015
   
   - title: "Lessons from DarkLight for Invisible Dark Photon Searches"
-    url: talks/jthaler_12_04_2015_Next_Collaboration.pdf
+    url: talks/jthaler_2015_12_04_Next_Collaboration.pdf
     event: Seminar
     org: NEXT Collaboration
     date: December 2015
@@ -1264,26 +1264,26 @@ seminars:
     date: November 2015
   
   - title: "Jet Substructure at a Future Hadron Collider"
-    url: talks/jthaler_10_15_2015_Fermilab.pdf
+    url: talks/jthaler_2015_10_15_Fermilab.pdf
     event: VHEPP Forum
     org: Fermilab
     date: October 2015
     virtual: true
   
   - title: "What is Sudakov Safety?"
-    url: talks/jthaler_02_27_2015_UMichigan_Seminar.pdf
+    url: talks/jthaler_2015_02_27_UMichigan_Seminar.pdf
     event: Seminar
     org: U. Michigan
     date: February 2015
   
   - title: "What is Sudakov Safety?"
-    url: talks/jthaler_02_25_2015_UMinnesota_Seminar.pdf
+    url: talks/jthaler_2015_02_25_UMinnesota_Seminar.pdf
     event: Seminar
     org: U. Minnesota
     date: February 2015
   
   - title: "Jet Substructure and the Frontiers of QCD"
-    url: talks/jthaler_01_14_2015_UCLovain
+    url: talks/jthaler_2015_01_14_UCLovain
     event: Seminar
     org: Université Catholique de Louvain
     date: January 2015
@@ -1299,7 +1299,7 @@ seminars:
     date: November 2014
   
   - title: "(Non)perturbative QCD and Jet Substructure"
-    url: talks/jthaler_10_21_2014_UMass_Amherst_Seminar.pdf
+    url: talks/jthaler_2014_10_21_UMass_Amherst_Seminar.pdf
     event: Seminar
     org: UMass Amherst
     date: October 2014
@@ -1322,19 +1322,19 @@ seminars:
     date: January 2014
   
   - title: "Jets Without Jets"
-    url: talks/jthaler_01_06_2014_Caltech_Seminar.pdf
+    url: talks/jthaler_2014_01_06_Caltech_Seminar.pdf
     event: Seminar
     org: Caltech
     date: January 2014
   
   - title: "Jets Without Jets"
-    url: talks/jthaler_12_12_2013_UCBerkeley.pdf
+    url: talks/jthaler_2013_12_12_UCBerkeley.pdf
     event: Seminar
     org: U.C. Berkeley
     date: December 2013
   
   - title: "Jets Without Jets"
-    url: talks/jthaler_12_05_2013_BostonU.pdf
+    url: talks/jthaler_2013_12_05_BostonU.pdf
     event: Seminar
     org: Boston U.
     date: December 2013
@@ -1346,7 +1346,7 @@ seminars:
     date: May 2013
   
   - title: "The Shape of Jets to Come"
-    url: talks/jthaler_04_19_2013_UDelaware.pdf
+    url: talks/jthaler_2013_04_19_UDelaware.pdf
     event: Seminar
     org: U. Delaware
     date: April 2013
@@ -1888,27 +1888,27 @@ additional:
     other: Florence
   
   - title: "Jet Studies for Les Houches"
-    url: talks/jthaler_06_02_2015_Les_Houches.pdf
+    url: talks/jthaler_2015_06_02_Les_Houches.pdf
     event: Physics at TeV Colliders Workshop
     org: Les Houches
     date: June 2015
   
   - title: "Lessons from Jet Substructure for Heavy Ions"
-    url: talks/jthaler_05_14_2015_Yale.pdf
+    url: talks/jthaler_2015_05_14_Yale.pdf
     event: ALICE Jet Workshop
     org: Yale
     date: May 2015
     virtual: true
   
   - title: "The Case for Jet Substructure"
-    url: talks/jthaler_10_06_2014_LCWS.pdf
+    url: talks/jthaler_2014_10_06_LCWS.pdf
     event: International Workshop on Future Linear Colliders (LCWS14)
     org: Belgrade
     date: October 2014
     virtual: true
   
   - title: "Mutual Information and Quark/Gluon Discrimination"
-    url: talks/jthaler_08_18_2014_Boost_UCL.pdf
+    url: talks/jthaler_2014_08_18_Boost_UCL.pdf
     event: Boost 2014
     org: London
     date: August 2014
