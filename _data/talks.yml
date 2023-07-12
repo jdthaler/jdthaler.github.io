@@ -401,7 +401,7 @@ schools:
     date: July 2016
  
   - title: "The Case for Jet Substructure"
-    url: talks/jthaler_06_02_2014_Desy.pdf
+    url: talks/jthaler_2014_06_02_Desy.pdf
     event: Theorist of the Month
     org: DESY
     date: June 2014
@@ -728,13 +728,13 @@ invited:
     date: January 2016
   
   - title: "Probing the Core of QCD"
-    url: talks/jthaler_08_10_2015_Boost_Chicago.pdf
+    url: talks/jthaler_2015_08_10_Boost_Chicago.pdf
     event: Boost 2015
     org: Chicago
     date: August 2015
   
   - title: "Unsafe but Calculable: Jets at the Frontier of Perturbative QCD"
-    url: talks/jthaler_07_01_2015_ICTP.pdf
+    url: talks/jthaler_2015_07_01_ICTP.pdf
     event: PASCOS 2015
     org: ICTP, Trieste
     date: July 2015
@@ -1888,13 +1888,13 @@ additional:
     other: Florence
   
   - title: "Jet Studies for Les Houches"
-    url: talks/jthaler_06_02_2015_Les_Houches.pdf
+    url: talks/jthaler_2015_06_02_Les_Houches.pdf
     event: Physics at TeV Colliders Workshop
     org: Les Houches
     date: June 2015
   
   - title: "Lessons from Jet Substructure for Heavy Ions"
-    url: talks/jthaler_05_14_2015_Yale.pdf
+    url: talks/jthaler_2015_05_14_Yale.pdf
     event: ALICE Jet Workshop
     org: Yale
     date: May 2015
