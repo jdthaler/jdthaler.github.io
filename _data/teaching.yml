@@ -15,6 +15,8 @@ courses:
             url:  https://canvas.mit.edu/courses/16823
           - date: Spring 2023
             url:  https://canvas.mit.edu/courses/19643
+          - date: Fall 2023
+            url:  https://canvas.mit.edu/courses/22571
 
   - number: 8.03
     title:  Physics III, Waves and Vibrations
