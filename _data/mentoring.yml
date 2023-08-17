@@ -830,6 +830,10 @@ visitors:
     program: MIT Summer Research Program
     dates: Summer 2023
     home: U. Rochester
+    awards:
+      - name: FUTURE of Physics Participant
+        org: Caltech
+        date: 2023
     current: true
 
   - name: Brian Nord
