@@ -1,4 +1,4 @@
 {% for phd_thesis in include.list %}
   * **{{phd_thesis.name}}**, "{{phd_thesis.title | default: "TBA"}}" ({{phd_thesis.advisor}}),
-    {%- if phd_thesis.org %}*{{phd_thesis.org}},*{% endif %} *{{phd_thesis.date | default: "in progress"}}*
+    {%- if phd_thesis.org %} *{{phd_thesis.org}},*{% endif %} *{{phd_thesis.date | default: "in progress"}}*
 {%- endfor %}

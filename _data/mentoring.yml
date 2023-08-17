@@ -525,7 +525,6 @@ bs_students:
     current: true
     updated: 2023
 
-
   - name: Ammar Fayad 
     email: afayad@mit.edu
     image: /images/fayad.jpg
@@ -811,12 +810,30 @@ bs_students:
 
 visitors:
 
+  - name: Yiding Song
+    email:  ydsong@mit.edu
+    program:  Research Science Institute
+    dates:  Summer 2023
+    home:  Harrow School
+    current: true
+    
+  - name: Edward Gu
+    email:  elg227@cornell.edu
+    program: Research Internship
+    dates:  Summer 2023
+    home:  Cornell
+    current: true
+
   - name: Xinyue (Stella) Wu
     email: xwu48@u.rochester.edu
     image: /images/wu.jpg
     program: MIT Summer Research Program
     dates: Summer 2023
     home: U. Rochester
+    awards:
+      - name: FUTURE of Physics Participant
+        org: Caltech
+        date: 2023
     current: true
 
   - name: Brian Nord
@@ -825,7 +842,6 @@ visitors:
     program: MIT MLK Visiting Professor
     dates: Fall 2022-Spring 2023
     home: Fermilab and U. Chicago
-    current: true
 
   - name: Kaća Bradonjić
     url: http://www.kacabradonjic.com
@@ -864,7 +880,7 @@ visitors:
   - name: Athis Osathapan
     email: aosathap@bowdoin.edu
     program: Research Internship
-    dates: Spring 2021, Summer 2021
+    dates: Spring 2021, Summer 2021, Summer 2022
     home: Bowdoin College
 
   - name: Shira Jackson

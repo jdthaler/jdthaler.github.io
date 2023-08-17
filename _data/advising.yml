@@ -1,5 +1,9 @@
 phd_theses:
 
+  - name: Evgenii Kniazev
+    title:  Precision Metrology With Ytterbium Ion Clock For New Physics Search
+    advisor:  Vladan Vuletic
+
   - name: Ouail Kitouni
     advisor:  Mike Williams
 
