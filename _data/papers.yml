@@ -32,6 +32,9 @@ papers:
 
   - title: "A Spectral Metric for Collider Geometry"
     authors: Andrew J. Larkoski and Jesse Thaler
+    doi:  10.1007/JHEP08(2023)107
+    journal: JHEP 2308:107 (2023)
+    short_journal:  JHEP 2023
     arxiv: 2305.03751
     year: 2023
     topic: point_cloud
