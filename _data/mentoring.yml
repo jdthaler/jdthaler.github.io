@@ -20,9 +20,9 @@ current_categories:
     blocks:
       - bs_students
       - meng_students
-  - name: Visitors
-    blocks:
-      - visitors
+#  - name: Visitors
+#    blocks:
+#      - visitors
 
 
 alumni_categories:
@@ -482,11 +482,11 @@ meng_students:
     email: wynnera@mit.edu
     image: /images/wynne.jpeg
     date: 2023
+    thesis: "Anomaly Detection in Collider Physics via Factorized Observables"
     urop: Summer 2021 
     after:
       - title: Physics Ph.D. Candidate
         org: Caltech
-    current: true
     updated: 2023
   
   - name: Nilai Sarda
@@ -814,27 +814,26 @@ visitors:
     email:  ydsong@mit.edu
     program:  Research Science Institute
     dates:  Summer 2023
+    project:  "Towards an Understanding of Scientific Data with Multimodal Language Models"
     home:  Harrow School
-    current: true
     
   - name: Edward Gu
     email:  elg227@cornell.edu
     program: Research Internship
     dates:  Summer 2023
     home:  Cornell
-    current: true
 
   - name: Xinyue (Stella) Wu
     email: xwu48@u.rochester.edu
     image: /images/wu.jpg
     program: MIT Summer Research Program
     dates: Summer 2023
+    project:  "Measuring the Size of Quark and Gluon Jets in CMS Open Data"
     home: U. Rochester
     awards:
       - name: FUTURE of Physics Participant
         org: Caltech
         date: 2023
-    current: true
 
   - name: Brian Nord
     url: http://briandnord.com

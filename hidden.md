@@ -5,6 +5,15 @@ aside:
   toc: true
 ---
 
+## No Email List
+
+## Current Email List
+
+{% for category in site.data.mentoring -%}
+{%- for person in category[1] -%}
+{%- if person.email and person.current %}{{person.email}}, {% endif -%}
+{%- endfor -%}
+{%- endfor %}
 
 
 
@@ -17,20 +26,19 @@ aside:
 {%- endfor %}
 
 
+## Missing Email List
+
+{% for category in site.data.mentoring.alumni_categories %}
+{% for person in site.data.mentoring[category.block] -%}
+{%- if person.email %}{% else %}{{person.name}}{% endif -%}
+{% endfor %}
+{% endfor %}
+
+
 ## Full Email List
 
-{% for category in site.data.mentoring -%}
-{%- for person in category[1] -%}
+{% for category in site.data.mentoring.alumni_categories %}
+{%- for person in site.data.mentoring[category.block] -%}
 {%- if person.email %}{{person.email}}, {% endif -%}
-{%- endfor -%}
 {%- endfor %}
-
-
-
-
-<details>
-<summary markdown=1># OAISHOIHD
-{:.inline-block}
-</summary>
-Hello
-</details>
+{%- endfor %}
