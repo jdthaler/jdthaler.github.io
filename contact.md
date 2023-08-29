@@ -9,7 +9,8 @@ permalink: contact/
 {% assign address = site.data.about.address %}
 {% assign email = site.data.about.email %}
 {% assign phone = site.data.about.phone %}
-{% assign social = site.data.about.social %}
+{% assign urls = site.data.about.urls %}
+
 
 <div class="item">
 <div class="item__image">
@@ -32,4 +33,5 @@ permalink: contact/
 [{{email.work}}](mailto:{{email.work}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 [Twitter]({{urls.twitter}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 [LinkedIn]({{urls.linkedin}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[GitHub]({{urls.github}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
