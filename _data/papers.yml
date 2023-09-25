@@ -41,6 +41,9 @@ papers:
 
   - title: "Pileup and Infrared Radiation Annihilation (PIRANHA): A Paradigm for Continuous Jet Grooming"
     authors: Samuel Alipour-fard, Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
+    doi:  10.1007/JHEP09(2023)157
+    journal: JHEP 2309:157 (2023)
+    short_journal: JHEP 2023
     arxiv: 2305.00989
     year: 2023
     made_phd: true
