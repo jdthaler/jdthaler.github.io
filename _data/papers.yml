@@ -61,6 +61,9 @@ papers:
 
   - title: "EPiC-GAN: Equivariant Point Cloud Generation for Particle Jets"
     authors: Erik Buhmann, Gregor Kasieczka, and Jesse Thaler
+    doi: 10.21468/SciPostPhys.15.4.130
+    journal: SciPost Phys. 15:130 (2023)
+    short_journal: SciPost 2023
     arxiv: 2301.08128
     year: 2023
     topic: point_cloud
