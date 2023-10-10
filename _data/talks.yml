@@ -437,12 +437,14 @@ schools:
    
   - title: "Anticipating New Data from the Energy Frontier"
     parts:
+      - title: "Overview"
+        url:   talks/jthaler_2010_11_FNAL_AnticipatingNewData.pdf
       - title: "The Shape of Jets to Come"
-        url: talks/jthaler_2010_11_Fermilab_Lecture1.pdf
+        url:   talks/jthaler_2010_11_FNAL_ShapeOfJetsToCome.pdf
       - title: "Event Topologies for Early LHC"
-        url: talks/jthaler_2010_11_Fermilab_Lecture2.pdf
+        url:   talks/jthaler_2010_11_FNAL_Topologies.pdf
       - title: "Goldstini at the LHC"
-        url: talks/jthaler_2010_11_Fermilab_Lecture3.pdf
+        url:   talks/jthaler_2010_11_FNAL_Goldstini.pdf
     event: Topic of the Week Lecture Series
     org: Fermilab
     date: November 2010
@@ -1979,7 +1981,6 @@ additional:
     date: July 2011
 
   - title: "N-subjettiness"
-    
     event: Boost 2011
     url: talks/jthaler_2011_05_Princeton.pdf
     org: Princeton
@@ -2034,7 +2035,7 @@ additional:
     date: April 2009
   
   - title: "The NLO Cascade"
-    url: talks/jthaler_2009_03_MIT.pdf
+    url: talks/jthaler_2009_03_SCET.pdf
     event: SCET 2009
     org: MIT
     date: March 2009
@@ -2099,7 +2100,7 @@ additional:
     date: May 2007
   
   - title: "MARMOSET"
-    event: Physics at LHC from Experiment to Theory,PCTP
+    event: Physics at LHC from Experiment to Theory, PCTP
     org: Princeton
     date: March 2007
   
