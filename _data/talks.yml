@@ -298,16 +298,17 @@ public:
     date: April 2019
   
   - title: "Confronting the Invisible Universe"
-    url: talks/jthaler_2018_05_London_Dark_Matter.pdf
+    url:   talks/jthaler_2018_05_London_Dark_Matter.pdf
     event: MIT Club of Great Britain Event
-    org: London
-    date: May 2018
+    org:   London
+    date:  May 2018
   
   - title: "Confronting the Invisible Universe"
+    url:   talks/jthaler_2017_03_22_Aspen_Public.pdf
     video: https://youtu.be/QNmSNY8VenQ
     event: Public Talk
-    org: Aspen Center for Physics
-    date: March 2017
+    org:   Aspen Center for Physics
+    date:  March 2017
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
     url: talks/jthaler_2012_11_04_Frontiers_Symposium.pdf
@@ -317,9 +318,10 @@ public:
     date: November 2012
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
+    url:   talks/jthaler_2012_10_11_HiggsParty.pdf
     event: Lecture Series Committee
-    org: MIT
-    date: October 2012
+    org:   MIT
+    date:  October 2012
     
 schools:
 
