@@ -298,16 +298,17 @@ public:
     date: April 2019
   
   - title: "Confronting the Invisible Universe"
-    url: talks/jthaler_2018_05_London_Dark_Matter.pdf
+    url:   talks/jthaler_2018_05_London_Dark_Matter.pdf
     event: MIT Club of Great Britain Event
-    org: London
-    date: May 2018
+    org:   London
+    date:  May 2018
   
   - title: "Confronting the Invisible Universe"
+    url:   talks/jthaler_2017_03_22_Aspen_Public.pdf
     video: https://youtu.be/QNmSNY8VenQ
     event: Public Talk
-    org: Aspen Center for Physics
-    date: March 2017
+    org:   Aspen Center for Physics
+    date:  March 2017
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
     url: talks/jthaler_2012_11_04_Frontiers_Symposium.pdf
@@ -317,9 +318,10 @@ public:
     date: November 2012
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
+    url:   talks/jthaler_2012_10_11_HiggsParty.pdf
     event: Lecture Series Committee
-    org: MIT
-    date: October 2012
+    org:   MIT
+    date:  October 2012
     
 schools:
 
@@ -407,9 +409,9 @@ schools:
     date: June 2014
   
   - title: "Jet Substructure"
+    url:  talks/jthaler_2013_07_PITP_Lectures.pdf
     parts:
       - title: Part 1
-        url: talks/jthaler_2013_07_PITP_Lecture1.pdf
         video: https://youtu.be/o5VTjNyDxhU
       - title: Part 2
         video: https://youtu.be/MR95bX7iiuU
@@ -418,7 +420,15 @@ schools:
     date: July 2013
   
   - title: "Super-tricks for Superspace"
-    url: talks/jthaler_2012_06_CU_Boulder_SummerSchool.pdf
+    parts:
+      - title: "Introducing Supersapce"
+        url:   talks/jthaler_2012_06_TASI_Lecture1.pdf
+      - title: "Fermions & Sfermions"
+        url:   talks/jthaler_2012_06_TASI_Lecture2.pdf
+      - title: "SUSY Gauge Theories"
+        url:   talks/jthaler_2012_06_TASI_Lecture3.pdf
+      - title: "SUSY Breaking & Goldstinos"
+        url:   talks/jthaler_2012_06_TASI_Lecture4.pdf
     event: TASI Summer School
     org: C.U. Boulder
     date: June 2012
@@ -437,12 +447,14 @@ schools:
    
   - title: "Anticipating New Data from the Energy Frontier"
     parts:
+      - title: "Overview"
+        url:   talks/jthaler_2010_11_FNAL_AnticipatingNewData.pdf
       - title: "The Shape of Jets to Come"
-        url: talks/jthaler_2010_11_Fermilab_Lecture1.pdf
+        url:   talks/jthaler_2010_11_FNAL_ShapeOfJetsToCome.pdf
       - title: "Event Topologies for Early LHC"
-        url: talks/jthaler_2010_11_Fermilab_Lecture2.pdf
+        url:   talks/jthaler_2010_11_FNAL_Topologies.pdf
       - title: "Goldstini at the LHC"
-        url: talks/jthaler_2010_11_Fermilab_Lecture3.pdf
+        url:   talks/jthaler_2010_11_FNAL_Goldstini.pdf
     event: Topic of the Week Lecture Series
     org: Fermilab
     date: November 2010
@@ -1340,7 +1352,7 @@ seminars:
     date: December 2013
   
   - title: "(Non)perturbative QCD and Jet Substructure"
-    url: talks/jthaler_2013_05_10_Uni-Oregon_Seminar.pdf
+    url: talks/jthaler_2013_05_10_OregonSeminar.pdf
     event: Seminar
     org: U. Oregon
     date: May 2013
@@ -1387,7 +1399,7 @@ seminars:
     date: January 2012
   
   - title: "Goldstini at the LHC"
-    url: talks/jthaler_2011_11_09_Uni_Hampshire.pdf
+    url: talks/jthaler_2011_11_09_UNH.pdf
     event: Seminar
     org: U. New Hampshire
     date: November 2011
@@ -1967,19 +1979,18 @@ additional:
     date: July 2011
   
   - title: "Big Questions in Particle Physics"
-    url: talks/jthaler_2011_07_24_MIT.pdf
+    url: talks/jthaler_2011_07_24_PANIC_Overview.pdf
     event: PANIC11
     org: MIT
     date: July 2011
 
   - title: "N-subjettiness"
-    url: talks/jthaler_2011_07_MIT.pdf
+    url: talks/jthaler_2011_07_28_PANIC_Nsub.pdf
     event: PANIC11
     org: MIT
     date: July 2011
 
   - title: "N-subjettiness"
-    
     event: Boost 2011
     url: talks/jthaler_2011_05_Princeton.pdf
     org: Princeton
@@ -2034,7 +2045,7 @@ additional:
     date: April 2009
   
   - title: "The NLO Cascade"
-    url: talks/jthaler_2009_03_MIT.pdf
+    url: talks/jthaler_2009_03_SCET.pdf
     event: SCET 2009
     org: MIT
     date: March 2009
@@ -2099,7 +2110,7 @@ additional:
     date: May 2007
   
   - title: "MARMOSET"
-    event: Physics at LHC from Experiment to Theory,PCTP
+    event: Physics at LHC from Experiment to Theory, PCTP
     org: Princeton
     date: March 2007
   
