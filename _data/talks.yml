@@ -169,22 +169,25 @@ colloquia:
     date: April 2017
   
   - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
-    url: talks/jthaler_2017_03_UTAustin_Colloquium.pdf
+    url: talks/jthaler_2017_03_29_UTAustin_Colloquium.pdf
     event: Physics Colloquium
     org: University of Texas, Austin
     date: March 2017
   
   - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    url:  talks/jthaler_2016_10_13_Promotion_Colloquium.pdf
     event: Physics Colloquium
     org: MIT
     date: October 2016
   
   - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    url: talks/jthaler_2016_10_06_Riverside_Colloquium.pdf
     event: Physics and Astronomy Colloquium
     org: University of California, Riverside
     date: October 2016
   
   - title: "New Physics Gets a Boost:  Jet Substructure at the Large Hadron Collider"
+    url:  talks/jthaler_2016_09_29_Buffalo_Colloquium.pdf
     event: Physics Colloquium
     org: University at Buffalo
     date: September 2016
@@ -196,6 +199,7 @@ colloquia:
     date: May 2016
   
   - title: "Jet Substructure:  Boosting the Search for New Physics at the LHC"
+    url:  talks/jthaler_2016_01_28_MSUColloquium.pdf
     event: Physics Colloquium
     org: Michigan State University
     date: January 2016
