@@ -474,6 +474,14 @@ schools:
 
 invited:
 
+  - title:  "The Hidden Geometry of Particle Collisions"
+    url:  talks/jthaler_2023_10_13_HiddenGeometry_Simons.pdf
+    event:  MPS Annual Meeting
+    event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2023/
+    org:   Simons Foundation
+    date:  October 2023
+    
+
   - title: "The Hidden Geometry of Particle Collisions"
     url: talks/jthaler_2023_03_29_HiddenGeometry_ChicagoAI.pdf
     event: Pritzker Conference on AI+Science
