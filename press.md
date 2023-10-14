@@ -56,8 +56,8 @@ Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Profe
 {% assign aboutimage = site.data.bio.about_top %}
 {% assign publicimage = site.data.public.public_top %}
 
-  * ![{{frontimage.hover}}]({{frontimage.image}}){:.image--xs} Front Page: [{{frontimage.image_credit}}](frontimage.image_url)
-  * ![{{aboutimage.hover}}]({{aboutimage.image}}){:.image--xs} About Page: [{{aboutimage.image_credit}}](aboutimage.image_url)
+  * ![{{frontimage.hover}}]({{frontimage.image}}){:.image--xs} Front Page: [{{frontimage.image_credit}}]({{frontimage.image_url}})
+  * ![{{aboutimage.hover}}]({{aboutimage.image}}){:.image--xs} About Page: [{{aboutimage.image_credit}}]({{aboutimage.image_url}})
 {% for topic in site.data.research.topics -%}
   * ![{{topic.title}}]({{topic.image}}){:.image--xs} Research, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
 {% endfor -%}
