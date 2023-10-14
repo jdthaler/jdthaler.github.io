@@ -202,7 +202,8 @@ Though I loved my old [custom html black and white](http://v1.jthaler.net/){:tar
 
 What actually happened, though, is that I just kept adding items to my [CV](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
 
-So I decided that I really needed to update my website, though exactly how it will look is unclear.  This is an ongoing process, starting with the [Jeykll Text Theme](https://kitian616.github.io/jekyll-TeXt-theme/){:target="_blank"} on [GitHub Pages](https://pages.github.com/){:target="_blank"}.  Wish me luck!
+So I decided that I really needed to update my website, still with a bloated cv, but at least there are some pictures!  For aficionados, I started from the [Jeykll Text Theme](https://kitian616.github.io/jekyll-TeXt-theme/){:target="_blank"} on [GitHub Pages](https://pages.github.com/){:target="_blank"}.
+
 </details>
 
 <details markdown=1>

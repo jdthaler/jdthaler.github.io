@@ -57,6 +57,7 @@ papers:
     arxiv: 2302.12266
     year: 2023
     made_phd: true
+    priority: 6
     topic: point_cloud
 
   - title: "EPiC-GAN: Equivariant Point Cloud Generation for Particle Jets"

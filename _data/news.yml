@@ -44,12 +44,19 @@ group_news:
     
 perspectives:
 
+  - title:  "From physics to generative AI: An AI model for advanced pattern generation"
+    url:  https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927
+    journal: MIT News
+    image: /news/2023-pfgm-mit-csail-00_0.png
+    quote: "I'm thrilled to see the myriad of ways ‘physics intelligence’ is transforming the field of artificial intelligence."
+    date:  September 2023
+
   - title: "Will artificial intelligence ever discover new laws of physics?"
     url: https://www.newscientist.com/article/mg25634141-200-will-artificial-intelligence-ever-discover-new-laws-of-physics/
     journal: New Scientist
     image:  /news/2022-new-scientist-00_0.jpg
     date:  November 2022
-#    quote: "I was trained to think about what are the laws of nature in our universe. Now it’s ‘what is the space of all possible rules?’"
+    quote: "I was trained to think about what are the laws of nature in our universe. Now it’s ‘what is the space of all possible rules?’"
 
   - title: "Machine Learning Shaking Up Hard Sciences, Too"
     url: https://spectrum.ieee.org/machine-learning-in-physics
