@@ -798,16 +798,19 @@ invited:
     date: September 2014
   
   - title: "New Observables for Jet Substructure"
+    url:  talks/jthaler_2013_09_16_ISMD13_Sub.pdf
     event: 43rd International Symposium on Multiparticle Dynamics (ISMD13)
     org: Chicago
     date: September 2013
   
   - title: "The Case for Jet Substructure"
+    url:  talks/jthaler_2013_08_21_Search_JetSub.pdf
     event: SEARCH 2013
     org: Stonybrook
     date: August 2013
   
   - title: "Theoretical Progress in Dissecting Jets"
+    url:  talks/jthaler_2013_08_12_Boost_Calc.pdf
     event: Boost 2013
     org: Flagstaff
     date: August 2013
@@ -825,27 +828,32 @@ invited:
     date: March 2012
   
   - title: "Big Questions in Particle Physics"
+    url:  talks/jthaler_2011_07_24_PANIC11_Peda.pdf
     event: PANIC11
     event_url: http://web.mit.edu/panic11/
     org: MIT
     date: July 2011
   
   - title: "Two Views of the Universe"
+    url:  talks/jthaler_2010_08_27_HCP2010.pdf
     event: Hadron Collider Physics Symposium
     org: Toronto
     date: August 2010
   
   - title: "Supersymmetry Breaks (Again)"
+    url:  talks/jthaler_2010_05_Goldstini_Brown_broken_jets.pdf
     event: Honoring Gerry Guralnik's 2010 Sakurai Prize
     org: Brown University
     date: May 2010
     
   - title: "Goldstini"
+    url:  talks/jthaler_2010_04_Goldstini_NYC.pdf
     event: Emerging Problems in Particle Phenomenology
     org: ITS/CUNY
     date: April 2010
 
   - title: "The Window to the Terascale"
+    url:  talks/jthaler_2009_02_AspenOpening.pdf
     event: Physics in the LHC Era
     org: Aspen Center for Physics
     date: February 2009
@@ -1956,6 +1964,7 @@ additional:
     date: January 2014
   
   - title: "Unsafe but Calculable"
+    url:  talks/jthaler_2013_08_14_Boost_Ratio.pdf
     event: Boost 2013
     org: Flagstaff
     date: August 2013
