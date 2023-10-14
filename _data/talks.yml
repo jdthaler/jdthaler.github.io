@@ -726,31 +726,37 @@ invited:
     date: January 2017
   
   - title: "Using Jets and QCD to Boost the Search for New Physics"
+    url:  talks/jthaler_2017_01_10_Japan_Workshop.pdf
     event: Physics in LHC and Early Universe
     org: U. Tokyo
     date: January 2017
   
   - title: "The Shape of Jets to Come"
+    url:  talks/jthaler_2016_07_20_Boost_2016.pdf
     event: Boost 2016
     org: Zurich
     date: July 2016
   
-  - title: "Probing the Core of QCD with Jet Substructure"
+  - title: "Theoretical Advances in Jet Substructure"
+    url:  talks/jthaler_2016_05_23_KITP_2016.pdf
     event: Stress-testing the Standard Model at the LHC
     org: KITP, Santa Barbara
     date: May 2016
   
   - title: "Jet Substructure: Boosting the Search for New Physics at the LHC"
+    url:  talks/jthaler_2016_04_17_APSApril2016.pdf
     event: APS April Meeting
     org: Salt Lake City
     date: April 2016
  
   - title: "Theoretical Advances in Jet Substructure"
+    url:  talks/jthaler_2016_03_22_Moriond2016.pdf
     event: Rencontres de Moriond QCD
     org: La Thuile
     date: March 2016
     
   - title: "Theoretical Advances in Jet Substructure"
+    url:  talks/jthaler_2016_01_15_AspenWinter2016.pdf
     event: Particle Physics on the Verge of Another Discovery
     org: Aspen Center for Physics
     date: January 2016
