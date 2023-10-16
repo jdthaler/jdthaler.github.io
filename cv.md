@@ -17,7 +17,7 @@ permalink: cv/
 
 #### Research in Theoretical Particle Physics
 
-{% for topic in site.data.research.topics %}  * **[{{topic.title}}](research.html#{{topic.key}})**
+{% for topic in site.data.research.topics %}  * **[{{topic.title}}](/research/#{{topic.key}})**
 {% endfor %}
 
 ## Positions
