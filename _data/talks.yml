@@ -1267,21 +1267,25 @@ seminars:
     date: September 2016
   
   - title: "Probing the Core of QCD with Jet Substructure"
+    url:  talks/jthaler_2016_05_06_FermilabWC2016.pdf
     event: Joint Experimental-Theoretical Physics Seminar
     org: Fermilab
     date: May 2016
   
   - title: "Probing the Core of QCD with Jet Substructure"
+    url:  talks/jthaler_2016_05_03_Princeton2016.pdf
     event: Seminar
     org: Princeton
     date: May 2016
   
   - title: "Probing the Core of QCD with Jet Substructure"
+    url:  talks/jthaler_2016_03_16_CERN2016.pdf
     event: Seminar
     org: CERN
     date: March 2016
   
   - title: "Hidden Sectors and Dark Forces"
+    url:  talks/jthaler_2016_01_12_OSU.pdf
     event: Seminar
     org: Ohio State University
     date: January 2016
@@ -1325,7 +1329,7 @@ seminars:
     date: February 2015
   
   - title: "Jet Substructure and the Frontiers of QCD"
-    url: talks/jthaler_2015_01_14_UCLovain
+    url: talks/jthaler_2015_01_14_UCLovain.pdf
     event: Seminar
     org: Université Catholique de Louvain
     date: January 2015
