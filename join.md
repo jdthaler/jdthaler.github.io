@@ -15,12 +15,12 @@ permalink: join/
 -->
 {{topimage.description}}
 
-[Current Research Group](group){:.button.button--secondary.button--pill.button--sm}
+[Current Research Group](/group/){:.button.button--secondary.button--pill.button--sm}
 
 
 ## Postdocs
 
-With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[Center for Theoretical Physics (CTP)](http://ctp.mit.edu/)** at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)]([http://iaifi.org/)**.
+With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[Center for Theoretical Physics (CTP)](http://ctp.mit.edu/)** at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](http://iaifi.org/)**.
 
   * [CTP Postdocs](http://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **CTP Postdocs** are typically due **mid-November**.
   * [Pappalardo Fellowship](https://physics.mit.edu/research/pappalardo-fellowships-in-physics/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Nominations for the **Pappalardo Fellowship** are typically due in **early September**. 

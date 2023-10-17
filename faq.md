@@ -121,7 +121,7 @@ There are as many ways to be a successful physicist as there are successful phys
   * Give a talk about your research at an international conference or workshop
   * Explain your research to non-physicists
   * Bonus:  Develop an [innovative data analysis strategy](http://caricesarotti.com/work.html)
-  * Optional:  [Make suggestions](jthaler@jthaler.net) for how to improve this list
+  * Optional:  [Make suggestions](mailto:jthaler@mit.edu) for how to improve this list
 </details>
 
 
@@ -155,7 +155,7 @@ If you have worked with me closely in a research and/or mentoring context, then 
 
 I only write strong letters of recommendation.  If I cannot write you a strong letter, I will let you know.  The main question is how strong my letter can be, so please fill out this form so I have all the information I need to write persuasively on your behalf:  [Letter of Recommendation Request](https://forms.gle/enUPnnBsErMQbGDJA){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
-I typically need **at least 2 weeks but ideally 4 weeks** to prepare a new letter.  (The actual writing does not take that long, of course, but I receive many letter requests and I need to get sleep at some point.)  If you are asking for a letter on a shorter time frame than that, then still fill out this form, but [contact me ASAP](jthaler@mit.edu) to explain your situation.
+I typically need **at least 2 weeks but ideally 4 weeks** to prepare a new letter.  (The actual writing does not take that long, of course, but I receive many letter requests and I need to get sleep at some point.)  If you are asking for a letter on a shorter time frame than that, then still fill out this form, but [contact me ASAP](mailto:jthaler@mit.edu) to explain your situation.
 
 </details>
 
@@ -200,7 +200,7 @@ Here is a link to [press information](/press){:.button.button--secondary.button-
 
 Though I loved my old [custom html black and white](http://v1.jthaler.net/){:target="_blank"} webpage, I never got around to editting it much.  In 2007, I decided to move to [DokuWiki](http://v2.jthaler.net/){:target="_blank"}.  In the wiki format, editing and viewing pages take the same amount of work, so I was hoping that my innate narcissism would drive me to actually create updated content.
 
-What actually happened, though, is that I just kept adding items to my [CV](cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
+What actually happened, though, is that I just kept adding items to my [CV](/cv).  A bloated cv helped me get tenure at MIT, but as one person I trust once told me:  "your website looks like you are ready for retirement."
 
 So I decided that I really needed to update my website, still with a bloated cv, but at least there are some pictures!  For aficionados, I started from the [Jeykll Text Theme](https://kitian616.github.io/jekyll-TeXt-theme/){:target="_blank"} on [GitHub Pages](https://pages.github.com/){:target="_blank"}.
 
