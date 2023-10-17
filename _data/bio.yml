@@ -1,13 +1,13 @@
 index_top:
   image: /images/jthaler_mit_spotlight.jpg
   image_credit: Jared Charney, MIT News
-  image_url: http://spotlight.mit.edu/2017/chalkboard-theorist
+  image_url: https://spotlight.mit.edu/2017/chalkboard-theorist
   hover: Jesse Thaler
   
 about_top:
   image: /images/jthaler_photo_2017.jpg
   image_credit: Jared Charney
-  image_url: http://www.jaredcharney.com/
+  image_url: https://www.jaredcharney.com/
   hover: Jesse Thaler
   
 contact_top:
@@ -26,7 +26,7 @@ positions:
     acronym:  IAIFI
     hover: IAIFI
     image: /images/logo_iaifi_nsf.png
-    url:  http://iaifi.org/
+    url:  https://iaifi.org/
 
 affiliations:
 
@@ -42,7 +42,7 @@ affiliations:
     mit: true
     acronym: LNS
     image: /images/logo_lns.png
-    url: http://web.mit.edu/lns/
+    url: https://web.mit.edu/lns/
     dates: January 2010-Present
     priority: 6
 
@@ -93,7 +93,7 @@ awards:
   - name: Fermilab Distinguished Scholar
     org:  Fermi National Accelerator Laboratory
     date: 2018-2020
-    url:  http://theory.fnal.gov/people/distinguished-scholars/
+    url:  https://theory.fnal.gov/people/distinguished-scholars/
     priority: 3
 
   - name: Simons Fellowship in Theoretical Physics
@@ -105,43 +105,43 @@ awards:
   - name: Frank E. Perkins Award for Excellence in Graduate Advising
     org:  MIT
     date: 2017
-    url:  http://awards.mit.edu/convocation/awards/frank-e-perkins-award-excellence-graduate-advising
+    url:  https://awards.mit.edu/convocation/awards/frank-e-perkins-award-excellence-graduate-advising
     priority: 3
 
   - name: Harold E. Edgerton Faculty Achievement Award
     org:  MIT
     date: 2016
-    url:  http://web.mit.edu/ir/pop/awards/mit_edgerton.html
+    url:  https://ir.mit.edu/harold-e-edgerton-faculty-achievement-award
     priority: 6
 
   - name: Buechner Faculty Award for Teaching
     org:  MIT Physics Department
     date: 2014
-    url:  http://web.mit.edu/physics/news/buechner_awards.html
+    url:  https://physics.mit.edu/faculty/faculty-awards/
     priority: 3
 
   - name: Buechner Faculty Award for Undergraduate Advising
     org:  MIT Physics Department
     date: 2013
-    url:  http://web.mit.edu/physics/news/buechner_awards.html
+    url:  https://physics.mit.edu/faculty/faculty-awards/
     priority: 3
 
   - name: Sloan Research Fellowship
     org:  Alfred P. Sloan Foundation
     date: 2013
-    url:  https://sloan.org/past-fellows
+    url:  https://sloan.org/fellows-database
     priority: 6
 
   - name: Kavli Frontiers Fellow
     org:  Kavli Foundation
     date: 2012
-    url:  http://www.nasonline.org/programs/kavli-frontiers-of-science/public-directory.html
+    url:  https://www.nasonline.org/programs/kavli-frontiers-of-science/public-directory.html
     priority: 3
 
   - name: Presidential Early Career Award for Scientists and Engineers
     org:  White House
     date: 2012
-    url: https://science.energy.gov/about/honors-and-awards/pecase/2012-ceremony/
+    url:  https://science.osti.gov/About/Honors-and-Awards/PECASE/2012-Ceremony
     priority: 6
 
   - name: Class of 1943 Career Development Professorship

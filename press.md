@@ -47,7 +47,7 @@ Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Profe
 
 [About](/about){:.button.button--secondary.button--pill.button--sm}
 [Full CV](/cv){:.button.button--secondary.button--pill.button--sm}
-[MIT Physics Page](http://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[MIT Physics Page](https://web.mit.edu/physics/people/faculty/thaler_jesse.html){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 [Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Image Credits
