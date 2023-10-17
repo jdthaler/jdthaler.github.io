@@ -47,7 +47,7 @@ topics:
     title:  Essays
     image: /images/stamp_mod.png
     image_credit: "Jesse Thaler, with Felice Frankel"
-    image_url: pdfs/jthaler_frankel_picturing_science.pdf
+    image_url: /pdfs/jthaler_frankel_picturing_science.pdf
     image_hover: "MIT Open Data Event Display"
     description:
     subtopics:

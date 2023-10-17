@@ -235,7 +235,7 @@ colloquia:
     date: March 2014
     
   - title: "(Non)perturbative QCD and Jet Substructure"
-    url: talks/jthaler_2013_10_22_UMaryland_Colloquium.
+    url: talks/jthaler_2013_10_22_UMaryland_Colloquium.pdf
     event: Theory Colloquium
     org: University of Maryland
     date: October 2013
@@ -1987,7 +1987,7 @@ additional:
     date: August 2012
   
   - title: "Progress in N-subjettiness"
-    url: talks/jjthaler_2012_07_24_Boost.pdf
+    url: talks/jthaler_2012_07_24_Boost.pdf
     event: Boost 2012
     org: Valencia
     date: July 2012
