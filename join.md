@@ -20,9 +20,9 @@ permalink: join/
 
 ## Postdocs
 
-With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[Center for Theoretical Physics (CTP)](http://ctp.mit.edu/)** at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](http://iaifi.org/)**.
+With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[Center for Theoretical Physics (CTP)](http://ctp.mit.edu/)** at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/)**.
 
-  * [CTP Postdocs](http://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **CTP Postdocs** are typically due **mid-November**.
+  * [CTP Postdocs](https://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **CTP Postdocs** are typically due **mid-November**.
   * [Pappalardo Fellowship](https://physics.mit.edu/research/pappalardo-fellowships-in-physics/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Nominations for the **Pappalardo Fellowship** are typically due in **early September**. 
   * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for the **IAIFI Fellowship** are typically due in **mid-October**.
   * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, please fill out this form to indicate your interest.
@@ -60,7 +60,7 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 ### Current MIT Students
 
   * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  **Current MIT B.S. students** should fill out this form to indicate your interest.
-  * [MIT UROP](http://web.mit.edu/UROP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Most of my undergraduates get funding through the MIT Undergraduate Research Opportunities Program.
+  * [MIT UROP](https://web.mit.edu/UROP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Most of my undergraduates get funding through the MIT Undergraduate Research Opportunities Program.
 
 ### Visiting Students
 

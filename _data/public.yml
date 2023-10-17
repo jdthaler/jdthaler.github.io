@@ -3,7 +3,7 @@ public_top:
   image_credit: Justin Knight, MIT News
   image_url: https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
   hover: CTP@50
-  description: 'I engage with the public through [classroom visits](http://www.physicstheorynet.org/){:target="_blank"}, opinion pieces, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data.'
+  description: 'I engage with the public through [classroom visits](https://www.physicstheorynet.org/){:target="_blank"}, opinion pieces, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data.'
   
 topics:
 
@@ -85,7 +85,7 @@ entries:
     url:    https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf
     type:   Keynote Presentation
     event:  Tommy Flowers Network Conference
-    event_url:  http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html
+    event_url:  https://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html
     org:    Virtual
     date:   October 2020
     topic: public_talks_ai
@@ -148,10 +148,10 @@ entries:
     description: "Dark matter is an enigma. Even though it can be “seen” through its influence on gravity, dark matter is invisible to the other known forces of nature. There are numerous ongoing efforts to discover the origin and properties of dark matter, ranging from laboratory experiments to astrophysical investigations. This intense interest is driven in part by tantalizing hints that the nature of dark matter might be linked to other deep and unsolved mysteries in physics. In this talk, Prof. Thaler presents the overwhelming evidence for dark matter as well as speculates on the broader implications of the invisible universe."
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
-    url:   http://vimeo.com/58392070
+    url:   https://vimeo.com/58392070
     type:  24th Annual Kavli Frontiers of Science
     org:   National Academy of Sciences, U.C. Irvine
     date:  November 2012
-    markdown:  '**["The Higgs Boson:  Triumph of the Standard Model"](http://vimeo.com/58392070){:target="_blank"}**, 24th Annual Kavli Frontiers of Science, *National Academy of Sciences, U.C. Irvine, November 2012*'
+    markdown:  '**["The Higgs Boson:  Triumph of the Standard Model"](https://vimeo.com/58392070){:target="_blank"}**, 24th Annual Kavli Frontiers of Science, *National Academy of Sciences, U.C. Irvine, November 2012*'
     topic: public_talks_higgs
   

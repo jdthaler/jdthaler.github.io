@@ -32,7 +32,7 @@ courses:
       - name: Recitation
         iterations:
           - date: Spring 2020
-            url:  http://stellar.mit.edu/S/course/8/sp20/8.044/
+            url:  https://stellar.mit.edu/S/course/8/sp20/8.044/
   
   - number: 8.831
     title:  Supersymmetric Quantum Field Theories
@@ -40,9 +40,9 @@ courses:
       - name: Lecture
         iterations:
           - date: Spring 2017
-            url:  http://stellar.mit.edu/S/course/8/sp17/8.831/
+            url:  https://stellar.mit.edu/S/course/8/sp17/8.831/
           - date: Fall 2019
-            url:  http://stellar.mit.edu/S/course/8/fa19/8.831/
+            url:  https://stellar.mit.edu/S/course/8/fa19/8.831/
 
   - number: 8.05
     title:  Quantum Mechanics II
@@ -50,13 +50,13 @@ courses:
       - name: Instructor (MITx-based 8.051)
         iterations:
           - date: Spring 2018
-            url:  http://stellar.mit.edu/S/course/8/sp18/8.051/
+            url:  https://stellar.mit.edu/S/course/8/sp18/8.051/
       - name: Recitation
         iterations:
           - date: Fall 2010
-            url:  http://stellar.mit.edu/S/course/8/fa10/8.05/
+            url:  https://stellar.mit.edu/S/course/8/fa10/8.05/
           - date: Fall 2012
-            url:  http://stellar.mit.edu/S/course/8/fa12/8.05/
+            url:  https://stellar.mit.edu/S/course/8/fa12/8.05/
 
   - number: 8.033
     title:  Relativity
@@ -64,11 +64,11 @@ courses:
       - name: Lecture
         iterations:
           - date: Fall 2017
-            url:  http://stellar.mit.edu/S/course/8/fa17/8.033/
+            url:  https://stellar.mit.edu/S/course/8/fa17/8.033/
       - name: Recitation
         iterations:
           - date: Fall 2016
-            url:  http://stellar.mit.edu/S/course/8/fa16/8.033/
+            url:  https://stellar.mit.edu/S/course/8/fa16/8.033/
 
   - number: 8.02
     title:  Physics II, Electricity and Magnetism
@@ -77,11 +77,11 @@ courses:
       - name: TEAL (studio class)
         iterations:
           - date: Spring 2014
-            url:  http://stellar.mit.edu/S/course/8/sp14/8.02/
+            url:  https://stellar.mit.edu/S/course/8/sp14/8.02/
           - date: Spring 2015
-            url:  http://stellar.mit.edu/S/course/8/sp15/8.02/
+            url:  https://stellar.mit.edu/S/course/8/sp15/8.02/
           - date: Spring 2016
-            url:  http://stellar.mit.edu/S/course/8/sp16/8.02/
+            url:  https://stellar.mit.edu/S/course/8/sp16/8.02/
 
   - number: 8.012
     title:  Physics I, Classical Mechanics
@@ -89,7 +89,7 @@ courses:
       - name: Recitation
         iterations:
           - date: Fall 2014
-            url:  http://stellar.mit.edu/S/course/8/fa14/8.012/
+            url:  https://stellar.mit.edu/S/course/8/fa14/8.012/
 
   - number: 8.06
     title:  Quantum Mechanics III
@@ -97,15 +97,15 @@ courses:
       - name: Lecture
         iterations:
           - date: Spring 2011
-            url:  http://stellar.mit.edu/S/course/8/sp11/8.06/
+            url:  https://stellar.mit.edu/S/course/8/sp11/8.06/
           - date: Spring 2012
-            url:  http://stellar.mit.edu/S/course/8/sp12/8.06/
+            url:  https://stellar.mit.edu/S/course/8/sp12/8.06/
           - date: Spring 2013
-            url:  http://stellar.mit.edu/S/course/8/sp13/8.06/
+            url:  https://stellar.mit.edu/S/course/8/sp13/8.06/
       - name: Recitation
         iterations:
           - date: Spring 2010
-            url:  http://stellar.mit.edu/S/course/8/sp10/8.06/
+            url:  https://stellar.mit.edu/S/course/8/sp10/8.06/
 
 guest_lectures:
 

@@ -7,7 +7,7 @@ grants:
 
   - name: AI Research Institute
     title: Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)
-    url: http://iaifi.org/
+    url: https://iaifi.org/
     org: National Science Foundation
     dates: 2020-2025
     amount: $20M
