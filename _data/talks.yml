@@ -1350,11 +1350,6 @@ seminars:
     org: UMass Amherst
     date: October 2014
   
-  - title: "(Non)perturbative QCD and Jet Substructure"
-    event: Triangle Nuclear Theory Colloquium
-    org: Duke University
-    date: October 2014
-  
   - title: "Anomaly Mediation from Unbroken Supergravity"
     url: talks/jthaler_2014_04_Chicago_Seminar.pdf
     event: Seminar
@@ -1398,7 +1393,7 @@ seminars:
     date: April 2013
   
   - title: "(Non)perturbative QCD and Jet Substructure"
-    url: talks/jthaler_2012_09_14_Boston_Uni.pdf
+    url: talks/jthaler_2012_09_14_BostonU.pdf
     event: Seminar
     org: Boston U.
     date: September 2012
@@ -1439,13 +1434,13 @@ seminars:
     date: November 2011
   
   - title: "N-subjettiness"
-    url: talks/jthaler_2011_10_UMaryland.pdf
+    url: talks/jthaler_2011_10_UMD_Nsub.pdf
     event: Seminar
     org: U. Maryland
     date: October 2011
   
   - title: "N-subjettiness"
-    url: talks/jthaler_2011_10_UMichigan.pdf
+    url: talks/jthaler_2011_10_Mich_Nsub.pdf
     event: Seminar
     org: U. Michigan
     date: October 2011
@@ -1463,7 +1458,6 @@ seminars:
     date: March 2011
   
   - title: "N-subjettiness"
-    url: talks/jthaler_2011_03_UC_Berkeley.pdf
     event: Seminar
     org: U.C. Berkeley
     date: March 2011
@@ -1474,12 +1468,13 @@ seminars:
     date: October 2010
   
   - title: "Aspects of Goldstini"
+    url:  talks/jthaler_2010_09_28_BostonU.pdf
     event: Seminar
     org: Boston U.
     date: October 2010
   
   - title: "Aspects of Goldstini"
-    url: talks/jthaler_2010_09_28_ICTP_Harvard.pdf
+    url: talks/jthaler_2010_09_28_Harvard.pdf
     event: Seminar
     org: Harvard
     date: September 2010
@@ -2043,12 +2038,12 @@ additional:
     date: January 2011
   
   - title: "Introducing the DarkLight Experiment"
+    url:  talks/jthaler_2010_09_21_JLabDarkForces.pdf
     event: Searching for a New Gauge Boson at JLab
     org: Jefferson Lab
     date: September 2010
   
-  - title:
-    event: "Implications of First LHC Data"
+  - event: "Implications of First LHC Data"
     event_url: http://www-ctp.mit.edu/lhc/
     org: MIT
     date: August 2010
