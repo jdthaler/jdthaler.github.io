@@ -2043,7 +2043,9 @@ additional:
     org: Jefferson Lab
     date: September 2010
   
-  - event: "Implications of First LHC Data"
+  - title:  "Post-event Recap"
+    url:  talks/jthaler_2010_08_ImplicationsOverview.pdf
+    event: "Implications of First LHC Data"
     event_url: http://www-ctp.mit.edu/lhc/
     org: MIT
     date: August 2010
