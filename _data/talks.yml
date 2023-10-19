@@ -1620,6 +1620,7 @@ seminars:
     date: January 2007
   
   - title: "MARMOSET: Signal-Based Monte Carlo for the LHC"
+    url:  talks/jthaler_2007_01_MARMOSET_Israel.pdf
     event: Seminar
     org: Neve Shalom
     date: January 2007
@@ -2137,21 +2138,25 @@ additional:
     other: Budapest
   
   - title: "MARMOSET"
+    url:  talks/jthaler_2007_05_MARMOSET_WCLHC2.pdf
     event: West Coast LHC Theory Network
     org: U.C. Irvine
     date: May 2007
   
   - title: "MARMOSET"
+    url: talks/jthaler_2007_03_MARMOSET_Princeton.pdf
     event: Physics at LHC from Experiment to Theory, PCTP
     org: Princeton
     date: March 2007
   
   - title: "MARMOSET"
+    url:  talks/jthaler_2006_12_MARMOSET4West.pdf
     event: West Coast LHC Theory Network
     org: U.C. Davis
     date: December 2006
   
   - title: "Little M-theory"
+    url: talks/jthaler_2006_10_LittleMHawaii.pdf
     event: Joint Meeting of APS-DPF and JPS 2006
     org: Waikiki, Hawaii
     date: October 2006
