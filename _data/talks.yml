@@ -2172,22 +2172,25 @@ additional:
     date: February 2006
   
   - title: "The Degenerate MSSM"
+    url: talks/jthaler_2005_07_SSTalkOlymp.pdf
     event: LHC Olympics
     org: CERN
     date: July 2005
   
   - title: "Little Technicolor"
+    url:  talks/jthaler_2005_07_LHTalk.pdf
     event: SUSY 2005
     org: IPPP, Durham
     date: July 2005
 
   - title: "The Degenerate MSSM"
+    url:  talks/jthaler_2005_07_SSTalk.pdf
     event: SUSY 2005
     org: IPPP
     date: July 2005
 
   - title: "Universal Dynamics of Spontaneous Lorentz-Violation"
-    url: talks/jthaler_2004_09_ICTP.pdf
+    url: talks/jthaler_2004_09_GhostTrieste.pdf
     event: Fundamental Symmetries and Fundamental Constants
     org: ICTP, Trieste
     date: September 2004
