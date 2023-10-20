@@ -1620,6 +1620,7 @@ seminars:
     date: January 2007
   
   - title: "MARMOSET: Signal-Based Monte Carlo for the LHC"
+    url:  talks/jthaler_2007_01_MARMOSET_Israel.pdf
     event: Seminar
     org: Neve Shalom
     date: January 2007
@@ -2043,7 +2044,9 @@ additional:
     org: Jefferson Lab
     date: September 2010
   
-  - event: "Implications of First LHC Data"
+  - title:  "Post-event Recap"
+    url:  talks/jthaler_2010_08_ImplicationsOverview.pdf
+    event: "Implications of First LHC Data"
     event_url: http://www-ctp.mit.edu/lhc/
     org: MIT
     date: August 2010
@@ -2135,21 +2138,25 @@ additional:
     other: Budapest
   
   - title: "MARMOSET"
+    url:  talks/jthaler_2007_05_MARMOSET_WCLHC2.pdf
     event: West Coast LHC Theory Network
     org: U.C. Irvine
     date: May 2007
   
   - title: "MARMOSET"
+    url: talks/jthaler_2007_03_MARMOSET_Princeton.pdf
     event: Physics at LHC from Experiment to Theory, PCTP
     org: Princeton
     date: March 2007
   
   - title: "MARMOSET"
+    url:  talks/jthaler_2006_12_MARMOSET4West.pdf
     event: West Coast LHC Theory Network
     org: U.C. Davis
     date: December 2006
   
   - title: "Little M-theory"
+    url: talks/jthaler_2006_10_LittleMHawaii.pdf
     event: Joint Meeting of APS-DPF and JPS 2006
     org: Waikiki, Hawaii
     date: October 2006
@@ -2165,22 +2172,25 @@ additional:
     date: February 2006
   
   - title: "The Degenerate MSSM"
+    url: talks/jthaler_2005_07_SSTalkOlymp.pdf
     event: LHC Olympics
     org: CERN
     date: July 2005
   
   - title: "Little Technicolor"
+    url:  talks/jthaler_2005_07_LHTalk.pdf
     event: SUSY 2005
     org: IPPP, Durham
     date: July 2005
 
   - title: "The Degenerate MSSM"
+    url:  talks/jthaler_2005_07_SSTalk.pdf
     event: SUSY 2005
     org: IPPP
     date: July 2005
 
   - title: "Universal Dynamics of Spontaneous Lorentz-Violation"
-    url: talks/jthaler_2004_09_ICTP.pdf
+    url: talks/jthaler_2004_09_GhostTrieste.pdf
     event: Fundamental Symmetries and Fundamental Constants
     org: ICTP, Trieste
     date: September 2004
