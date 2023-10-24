@@ -1577,6 +1577,7 @@ seminars:
     date: March 2008
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url:  talks/jthaler_2008_02_GenEvA_SLAC.pdf
     event: Seminar
     org: SLAC
     date: February 2008
@@ -2113,6 +2114,7 @@ additional:
     other: Berkeley
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url:  talks/jthaler_2008_02_GenEvA_SantaBarbara.pdf
     event: Physics of the Large Hadron Collider
     org: KITP, Santa Barbara
     date: February 2008
@@ -2122,6 +2124,7 @@ additional:
     date: January 2008
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url:  talks/jthaler_2008_01_GenEvA_Michigan.pdf
     event: LHC New Physics Signatures Workshop
     org: MCTP
     date: January 2008
