@@ -909,7 +909,7 @@ local:
     date: November 2016
   
   - title: "Jet Substructure"
-    Url: talk/jthaler_2015_11_12_MIT_Junior_Faculty_Lunch.pdf
+    url: talk/jthaler_2015_11_12_JuniorFaculty.pdf
     event: Tenure-Track Faculty Lunch
     org: MIT School of Science
     date: November 2015
@@ -921,18 +921,21 @@ local:
     commons: true
   
   - title: "The Higgs Boson: Keystone of the Standard Model"
+    url:  talks/jthaler_2014_04_17_MISTIHiggs.pdf
     event: Presentation
     org: MIT MISTI
     date: April 2013
     commons: true
   
   - title: "Dark Matter Beyond the Standard Model"
+    url: talks/jthaler_2012_10_DMForum.pdf
     event: Presentation
     org: MIT Astronomical Event
     date: October 2012
     commons: true
   
   - title: "Hints of New Physics at the Energy Frontier"
+    url:  talks/jthaler_2012_05_PhysicsBreakfast.pdf
     event: Alumni Breakfast
     org: MIT Physics
     date: May 2012
@@ -945,6 +948,7 @@ local:
     commons: true
   
   - title: "Goldstini at the LHC"
+    url:  talks/jthaler_2010_10_Goldstini_PVC.pdf
     event: Visiting Committee Presentation
     org: MIT Physics
     date: October 2010
