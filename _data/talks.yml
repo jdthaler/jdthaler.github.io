@@ -1660,46 +1660,55 @@ seminars:
     date: October 2006
   
   - title: "Supersymmetry and the LHC Inverse Problem"
+    url:  talks/jthaler_2006_03_DegenerateTalkFour.pdf
     event: Seminar
     org: U. Chicago (CDF)
     date: March 2006
   
   - title: "Supersymmetry and the LHC Inverse Problem"
+    url:  talks/jthaler_2006_03_DegenerateTalkFour.pdf
     event: Seminar
     org: U. Minnesota
     date: March 2006
   
   - title: "Supersymmetry and the LHC Inverse Problem"
+    url:  talks/jthaler_2006_03_DegenerateTalkFour.pdf
     event: Seminar
     org: Perimeter I.
     date: March 2006
   
   - title: "Supersymmetry and the LHC Inverse Problem"
+    url:  talks/jthaler_2005_11_DegenerateTalkThree.pdf
     event: Seminar
     org: Rutgers
     date: December 2005
   
   - title: "Supersymmetry and the LHC Inverse Problem"
+    url:  talks/jthaler_2005_11_DegenerateTalkThree.pdf
     event: Seminar
     org: U. Pennsylvannia
     date: December 2005
   
   - title: "Supersymmetry and the LHC Inverse Problem"
+    url:  talks/jthaler_2005_11_DegenerateTalkThree.pdf
     event: Seminar
     org: Princeton
     date: November 2005
   
   - title: "Supersymmetry and the LHC Inverse Problem"
+    url:  talks/jthaler_2005_11_DegenerateTalkThree.pdf
     event: Seminar
     org: U.C. Berkeley
     date: November 2005
     
   - title: "Confronting a Degenerate MSSM at the LHC"
+    url:  talks/jthaler_2005_10_DegenerateTalk.pdf
     event: Seminar
     org: Stanford
     date: October 2005
   
   - title: "Supersymmetry and the LHC Inverse Problem"
+    url: talks/jthaler_2005_10_DegenerateTalkTwo.pdf
     event: Seminar
     org: Johns Hopkins
     date: October 2005
@@ -1715,6 +1724,7 @@ seminars:
     date: April 2005
   
   - title: "Little Technicolor"
+    url:  talks/jthaler_2005_03_NYUSeminar.pdf
     event: Seminar
     org: New York U.
     date: March 2005
