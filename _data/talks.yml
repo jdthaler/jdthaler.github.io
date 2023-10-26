@@ -1522,11 +1522,13 @@ seminars:
     date: October 2009
   
   - title: "Dark Matter through the Axion Portal"
+    url:  talks/jthaler_2009_05_AxionPortal.pdf
     event: Seminar
     org: Johns Hopkins
     date: May 2009
   
   - title: "Dark Matter through the Axion Portal"
+    url:  talks/jthaler_2009_05_AxionPortal.pdf
     event: Seminar
     org: U. Maryland
     date: May 2009
@@ -1544,12 +1546,12 @@ seminars:
     date: April 2009
   
   - title: "Dark Matter through the Axion Portal"
+    url:  talks/jthaler_2009_02_17_MITJobTalk.pdf
     event: Seminar
     org: MIT
     date: February 2009
   
   - title: "Dark Matter through the Axion Portal"
-    url: talks/jthaler_2018_05_Cambridge_Jet_Topics.pdf
     event: Seminar
     org: Cornell
     date: November 2008
@@ -2069,6 +2071,12 @@ additional:
   - event: From Colliders to the Dark Sector
     org: Aspen Center for Physics
     date: June 2010
+  
+  - title: "Supermodels for Early LHC"
+    url:  talks/jthaler_2009_11_18_Supermodels_SLAC.pdf
+    event:  West Coast ATLAS Forum
+    org:  SLAC
+    date:  November 2009
   
   - title: "Search for New Light Bosons in Electron-Proton Collisions Using the JLab FEL"
     event: Dark Forces Workshop
