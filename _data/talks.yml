@@ -1739,6 +1739,16 @@ seminars:
 
 additional:
 
+  - panelist: true
+    event: Summit for AI Institutes Leadership (SAIL)
+    event_url: https://na.eventscloud.com/website/57313/
+    org: Georgia Tech
+    date: October 2023
+    
+  - event:  AI Hill Day
+    org:  National Science Foundation
+    date: September 2023
+
   - event: Summit for AI Institutes Leadership (SAIL)
     event_url: https://na.eventscloud.com/website/42198/
     org: Asilomar
