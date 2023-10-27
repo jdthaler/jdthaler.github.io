@@ -2114,9 +2114,15 @@ additional:
     event: LHC and Dark Matter Workshop
     org: MCTP, Michigan
     date: January 2009
-  
-  - title: "GenEvA: A New Framework for Event Generation"
+
+  - title: "Towards an NLO Cascade"
     url: talks/jthaler_2008_10_29_KITPC.pdf
+    event: New Physics Beyond the Standard Model
+    org: KITPC, Beijing
+    date: October 2008
+
+  - title: "GenEvA: A New Framework for Event Generation"
+    url: talks/jthaler_2008_10_GenEvA_KITPC.pdf
     event: New Physics Beyond the Standard Model
     org: KITPC, Beijing
     date: October 2008
@@ -2128,12 +2134,14 @@ additional:
     date: August 2008
   
   - title: "GenEvA: A New Framework for Event Generation"
+    url:  talks/jthaler_2008_07_GenEvA_SantaFe.pdf
     event: LHC from Data to Discovery
     org: LANL
     date: July 2008
     other: Santa Fe
  
   - title: "GenEvA: A New Framework for Event Generation"
+    url:  talks/jthaler_2008_07_GenEvA_Wjets.pdf
     event: Vector Boson Plus Jets Production
     org: LBL
     date: March 2008
