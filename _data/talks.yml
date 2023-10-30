@@ -954,11 +954,13 @@ local:
     date: October 2010
   
   - title: "Supersymmetry Breaks (Again)"
+    url:  talks/jthaler_2010_04_Goldstini_FacultyLunch.pdf
     event: Faculty Lunch
     org: MIT Physics
     date: April 2010
   
   - title: "The LHC Won’t Destroy the Planet (But Will Spark a Revolution)"
+    url:  talks/jthaler_2010_01_IAPLecture.pdf
     event: IAP Lecture
     org: MIT Physics
     date: January 2010
@@ -1739,6 +1741,16 @@ seminars:
 
 additional:
 
+  - panelist: true
+    event: Summit for AI Institutes Leadership (SAIL)
+    event_url: https://na.eventscloud.com/website/57313/
+    org: Georgia Tech
+    date: October 2023
+    
+  - event:  AI Hill Day
+    org:  National Science Foundation
+    date: September 2023
+
   - event: Summit for AI Institutes Leadership (SAIL)
     event_url: https://na.eventscloud.com/website/42198/
     org: Asilomar
@@ -1757,6 +1769,8 @@ additional:
   
   - panelist: true
     event: "Does the World need a new particle collider – and why?"
+    event_url:  https://indico.desy.de/event/33640/page/4260-public-event-oct-6-19h30
+    video:  https://youtu.be/TUV5e1OqnGo
     org: European Committee for Future Accelerators, Hamburg
     date: October 2022
     other: Virtual to Hamburg
@@ -1872,7 +1886,7 @@ additional:
     url: talks/jthaler_2019_01_QuantISED_Poster.pdf
     event: DOE Quantum Information Science Kick Off Meeting
     event_url: https://www.orau.gov/qispi2018/
-    org: Rockville, MD,
+    org: Rockville, MD
     date: January 2019
   
   - event: Boosted Objects for New Physics Searches
@@ -1930,12 +1944,14 @@ additional:
     date: June 2017
   
   - title: "Aspects of Jets from First Principles"
+    url:  talks/jthaler_2017_01_25_India_Jets.pdf
     event: Jets @ LHC Discussion Meeting
     org: ICTS, Bengaluru
     date: January 2017
     virtual: true
   
   - title: "Jet Substructure from Protons to Ions"
+    url:  talks/jthaler_2016_10_28_MIT_HeavyIon2016.pdf
     event: Heavy Ions for 2020 Workshop
     org: MIT
     date: October 2016
@@ -1945,9 +1961,10 @@ additional:
     date: August 2016
   
   - title: "Discussion of the ATLAS Diboson Excess"
+    url:  talks/jthaler_2015_09_GGI15.pdf
     event: Gearing up for LHC13
     org: GGI
-    date: Fall 2015
+    date: September 2015
     other: Florence
   
   - title: "Jet Studies for Les Houches"
@@ -2083,6 +2100,7 @@ additional:
     date:  November 2009
   
   - title: "Search for New Light Bosons in Electron-Proton Collisions Using the JLab FEL"
+    url:  talks/jthaler_2009_09_DarkForces.pdf
     event: Dark Forces Workshop
     org: SLAC
     date: September 2009
