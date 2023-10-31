@@ -2113,7 +2113,14 @@ additional:
     event: Dark Forces Workshop
     org: SLAC
     date: September 2009
-  
+
+  - title:  "The Bestest Little Higgs"
+    url:  talks/jthaler_2009_08_24_CERN.pdf
+    event: Physics at the LHC
+    org: CERN
+    date: August 2009
+    other: BSM Institute
+
   - title: "Cosmic Signals from the Hidden Sector"
     url: talks/jthaler_2009_08_CERN.pdf
     event: Physics at the LHC
@@ -2190,12 +2197,6 @@ additional:
     org: MCTP
     date: January 2008
     other: Michigan
-
-  - title:  "The Bestest Little Higgs"
-    url:  talks/jthaler_2007_08_24_CERN.pdf
-    event: New Physics and the LHC
-    org: CERN BSM Institute
-    date: August 2007
 
   - title:  "GenEvA:  Generate Events Analytically"
     url:  talks/jthaler_2007_08_CERN.pdf
