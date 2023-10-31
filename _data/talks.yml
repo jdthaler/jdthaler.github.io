@@ -1355,7 +1355,13 @@ seminars:
     event: Seminar
     org: UMass Amherst
     date: October 2014
-  
+
+  - title: "(Non)perturbative QCD and Jet Substructure"
+    url: talks/jthaler_2014_10_14_Perimeter.pdf
+    event: Seminar
+    org: Perimeter I.
+    date: October 2014
+
   - title: "Anomaly Mediation from Unbroken Supergravity"
     url: talks/jthaler_2014_04_Chicago_Seminar.pdf
     event: Seminar
@@ -1644,7 +1650,6 @@ seminars:
     date: January 2007
   
   - title: "Unified Frameworks for the LHC"
-    url: talks/jthaler_2006_Seminar.pdf
     event: Seminar
     org: U. Washington
     date: December 2006
@@ -1656,13 +1661,11 @@ seminars:
     date: October 2007
   
   - title: "Unified Frameworks for the LHC"
-    url: talks/jthaler_2006_Seminar.pdf
     event: Seminar
     org: U.C. Davis
     date: October 2006
   
   - title: "Unified Frameworks for the LHC"
-    url: talks/jthaler_2006_Seminar.pdf
     event: Seminar
     org: U.C. Irvine
     date: October 2006
@@ -1966,7 +1969,13 @@ additional:
     org: GGI
     date: September 2015
     other: Florence
-  
+
+  - title: "Report of the Les Houches Quark/Gluon Subgroup"
+    url: talks/jthaler_2015_06_10_LH2015_JetsSummary.pdf
+    event: Physics at TeV Colliders Workshop
+    org: Les Houches
+    date: June 2015
+
   - title: "Jet Studies for Les Houches"
     url: talks/jthaler_2015_06_02_Les_Houches.pdf
     event: Physics at TeV Colliders Workshop
@@ -2181,8 +2190,16 @@ additional:
     org: MCTP
     date: January 2008
     other: Michigan
-  
-  - event: New Physics and the LHC
+
+  - title:  "The Bestest Little Higgs"
+    url:  talks/jthaler_2007_08_24_CERN.pdf
+    event: New Physics and the LHC
+    org: CERN BSM Institute
+    date: August 2007
+
+  - title:  "GenEvA:  Generate Events Analytically"
+    url:  talks/jthaler_2007_08_CERN.pdf
+    event: New Physics and the LHC
     org: CERN BSM Institute
     date: August 2007
   

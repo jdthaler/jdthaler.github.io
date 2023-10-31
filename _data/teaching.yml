@@ -139,6 +139,11 @@ guest_lectures:
     course_name: Particle Physics II
     date: Fall 2019
     
+  - title: Two Lectures on Jet Physics
+    url:  talks/jthaler_2015_10_8_811_JetLecture.pdf
+    course_number: 8.811
+    course_name: Particle Physics II
+    date: Fall 2015
 
 before_mit:
 
