@@ -242,6 +242,18 @@ hepap:
   
 workshops:
 
+  - job:  Advisory Committee
+    issue: "ML4Jets"
+    issue_url: https://indico.cern.ch/event/1253794/
+    org: DESY
+    dates: November 2023
+
+  - job:  Advisory Committee
+    issue: "ML4Jets"
+    issue_url: https://indico.cern.ch/event/1159913/
+    org: Rutgers
+    dates: November 2022
+
   - job: Topical Convener
     issue: Collider Phenomenology
     issue_url: https://snowmass21.org/theory/phenomenology
