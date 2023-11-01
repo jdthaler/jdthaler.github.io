@@ -897,6 +897,18 @@ local:
     org: MIT Physics
     date: September 2019
   
+  - title: "Basics of Axion Detection"
+    url:  talks/jthaler_2019_03_18_Axion_Detection.pdf
+    event:  Reece Group Meeting
+    org:  Harvard
+    date:  March 2019
+  
+  - title: "The Quantum Georgi Jet Algorithm"
+    url:  talks/jthaler_2018_10_31_Quantum_Georgi.pdf
+    event:  Particle Theory Family Meeting
+    org: Harvard
+    date: October 2018
+  
   - title: "The Nuts and Bolts of Academic Job Search"
     event: Panel Discussion
     org: MIT Graduate Student Council
@@ -1038,7 +1050,7 @@ seminars:
     event: Seminar
     event_url: https://www.physik.uzh.ch/en/seminars/ttpseminar/HS2021/thaler.html
     org: Zurich
-    date: Oct 2021
+    date: October 2021
     virtual: true
   
   - title: "The Hidden Geometry of Particle Collisions"
@@ -1206,6 +1218,7 @@ seminars:
     event: Seminar
     org: PDT Partners
     date: October 2018
+    
   
   - title: "On the Topic of Jets"
     url: talks/jthaler_2018_05_Cambridge_Jet_Topics.pdf
@@ -1470,6 +1483,7 @@ seminars:
     date: March 2011
   
   - title: "N-subjettiness"
+    url:  talks/jthaler_2011_03_22_UC_Berkeley.pdf
     event: Seminar
     org: U.C. Berkeley
     date: March 2011
@@ -1528,6 +1542,12 @@ seminars:
     event: Seminar
     org: Argonne N.L.
     date: October 2009
+  
+  - title: "Standard Model Background Estimation"
+    url: talks/jthaler_2009_09_09_Background_Estimate.pdf
+    event:  Invasion Seminar
+    org: U.C. Berkeley
+    date:  September 2009
   
   - title: "Dark Matter through the Axion Portal"
     url:  talks/jthaler_2009_05_AxionPortal.pdf
@@ -1731,6 +1751,7 @@ seminars:
     date: October 2005
   
   - title: "Little Technicolor"
+    url:  talks/jthaler_2005_04_Little_Technicolor.pdf
     event: Seminar
     org: Boston U.
     date: April 2005
@@ -1988,6 +2009,13 @@ additional:
     event: ALICE Jet Workshop
     org: Yale
     date: May 2015
+    virtual: true
+  
+  - title: "Thoughts on Track-Based Observables"
+    url:  talks/jthaler_2015_04_21_Tracks_GGI.pdf
+    event: "Standard Model @ LHC"
+    org: GGI
+    date: April 2015
     virtual: true
   
   - title: "The Case for Jet Substructure"
