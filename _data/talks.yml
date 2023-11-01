@@ -476,7 +476,7 @@ invited:
 
   - title:  "The Hidden Geometry of Particle Collisions"
     url:  talks/jthaler_2023_10_13_HiddenGeometry_Simons.pdf
-    event:  MPS Annual Meeting
+    event:  2023 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2023/
     org:   Simons Foundation
     date:  October 2023
@@ -1766,6 +1766,11 @@ seminars:
 
 additional:
 
+  - event:  "Hammers & Nails 2023"
+    event_url:  https://indico.cern.ch/event/1202995/
+    org:  Switzerland
+    date:  October 2023
+    
   - panelist: true
     event: Summit for AI Institutes Leadership (SAIL)
     event_url: https://na.eventscloud.com/website/57313/
@@ -1799,6 +1804,7 @@ additional:
     org: European Committee for Future Accelerators, Hamburg
     date: October 2022
     other: Virtual to Hamburg
+    virtual: true
   
   - title: "Machine Learning for High Energy Physics"
     url: talks/jthaler_2022_08_GGI_Snowmass.pdf
@@ -1806,7 +1812,7 @@ additional:
     event: Machine Learning at GGI
     event_url: https://www.ggi.infn.it/showevent.pl?id=411
     org: GGI
-    date: Aug 2022
+    date: August 2022
   
   - event: "Summiting the Unknown: New Physics, New Opportunities, New Voices"
     event_url: https://indico.fnal.gov/event/22915/
