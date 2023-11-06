@@ -23,12 +23,15 @@ years:
   
 papers:
 
-
   - title: "Flavoured jets with exact anti-kt kinematics and tests of infrared and collinear safety"
     authors: Fabrizio Caola, Radosław Grabarczyk, Maxwell L. Hutt, Gavin P. Salam, Ludovic Scyboz, and Jesse Thaler
     arxiv: "2306.07314"
+    doi:  10.1103/PhysRevD.108.094010
+    journal: Phys. Rev. D108:094010 (2023)
+    short_journal: PRD 2023
     year: 2023
     topic: jet_algorithms
+    priority: 3
 
   - title: "A Spectral Metric for Collider Geometry"
     authors: Andrew J. Larkoski and Jesse Thaler
