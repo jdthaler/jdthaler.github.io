@@ -1,5 +1,11 @@
 colloquia:
 
+  - title: "The Hidden Geometry of Particle Collisions"
+    url:  talks/jthaler_2023_11_06_HiddenGeometry_Tufts.pdf
+    event:  Computer Science Colloquium
+    org: Tufts
+    date:  November 2023
+
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_03_31_Northwestern_Colloquium.pdf
     event: Physics and Astronomy Colloquium
