@@ -29,7 +29,7 @@ With its huge breadth of research opportunities across theoretical particle phys
 
 ## Ph.D. Students
 
-I anticipate at least one opening for a Ph.D. student in my research group in the coming years.  I am particularly interested in supervising students in the **[MIT Interdisciplinary Doctoral Program in Statistics (IDPS)](https://stat.mit.edu/academics/idps/idps-physics/){:target="_blank"}**, though I am open to working on all aspects of physics in and beyond the standard model. 
+I anticipate **at least one opening** for a Ph.D. student in my research group in the coming years.  I am particularly interested in supervising students in the **[MIT Interdisciplinary Doctoral Program in Statistics (IDPS)](https://stat.mit.edu/academics/idps/idps-physics/){:target="_blank"}**, though I am open to working on **all aspects of physics in and beyond the standard model**.
 
 ### Current MIT Students
 
@@ -42,10 +42,13 @@ I anticipate at least one opening for a Ph.D. student in my research group in th
 
 ### Propspective MIT Students
 
-  * [MIT Physics Ph.D. Program](https://physics.mit.edu/academic-programs/graduate-students/graduate-admissions/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **prospective MIT Ph.D. students** are due in **mid-December**.  Note that I cannot provide any specific information about the admissions process.
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Out of fairness to other applicants, I do not meet with prospective students in advance of their application.  You can alert me to your application by filling out this form, though I will typically not respond.
+  * [MIT Physics Ph.D. Program](https://physics.mit.edu/academic-programs/graduate-students/graduate-admissions/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **prospective MIT Ph.D. students** are due in **mid-December**.
+  * I cannot provide any specific information about the admissions process.  Out of fairness to other applicants, I do not meet with prospective students in advance of their application, nor do I give application advice.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  You can alert me to your application by filling out this form, though I will typically not respond.  Filling out this form is entirely optional; your official application is all that matters for admission.
   * If you are admitted, I would be delighted to talk to you about research opportunities in my group at the **[Physics Graduate Open House](https://physics.mit.edu/openhouse/){:target="_blank"}** event typically held in early April.
   * MIT does not have a separate Master's program in Physics, so you should apply to the Ph.D. program.
+  * As mentioned above, I anticipate having at least one opening in my reseach group in the coming years.  I do not have specific research projects in mind for future students; I expect my students to choose the research path that aligns best with their own interests.
+
 
   
 ## M.Eng. Students
