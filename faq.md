@@ -17,30 +17,19 @@ Here is information about [joining my group!](/join){:.button.button--secondary.
 </details>
 
 <details markdown=1>
-<summary><b>Do you respond to generic emails asking to come to MIT?</b></summary>
+<summary><b>Do you respond to emails inquiring about coming to MIT?</b></summary>
 
-Well, I try to, but given the large number of inquiries I receive, I typically just send stock emails.  Like this one, for a prospective Ph.D. student:
+Well, I used to try to respond to as many emails as possible, but this is no longer feasible, given the large number of inquiries I receive.  Instead, I use an automated system that sends this message:
 
 ```
-Dear Prospective Student,
+Thank you for your interest in my research!
 
-Thank you for your interest in my research.  Information about applying to the MIT Physics Ph.D. program is available at:
+Due to the large volume of inquiries I receive, I can't always provide individual responses.
 
-http://web.mit.edu/physics/prospective/graduate/index.html
-
-Information about my current research interests is available at:
-
-http://www.jthaler.net/research
-
-I am happy to discuss opportunities to join my group once you are accepted to MIT.
-
-Sincerely,
-Jesse Thaler
+Please visit http://jthaler.net/join for infomation about potential ways to join my research group.
 ```
 
-If you want to get a more detailed response, then you need to make a more personal connection, at minimum by including my name in your email.  Or saying that your undergraduate advisor (include your advisor's name!) recommended that you contact me.  Or that you are interested in a specific paper of mine (including the reference!).  Even then, my inbox is overflowing with inquiries, so I might still send a stock message.
-
-A generic email saying "Dear Professor, I am very interested in your work." will get the stock email at best, and most likely I won't send anything at all.
+If you want to get a more detailed response, then you need to make a more personal connection, at minimum by including my name in your email.  Or saying that a trusted advisor (include your advisor's name!) recommended that you contact me.  Or that you are interested in a specific paper of mine (include the reference!).  Even then, my inbox is overflowing with inquiries, so my system might still send the stock message.
 
 </details>
 
