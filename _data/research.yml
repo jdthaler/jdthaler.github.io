@@ -13,9 +13,12 @@ topics:
     image_url: https://news.mit.edu/2019/new-physics-anomalous-particles-0726
     description:  "Machine learning has impacted many scientific fields, and particle physics is no exception. In my research, I aim to enhance the search for new phenomena at colliders by merging the performance of deep learning algorithms with the robustness of “deep thinking” approaches."
     subtopics:
-        
+
+      - key:    optimal_transport
+        title:  Optimal Transport
+
       - key:    point_cloud
-        title:  Point Clouds and Optimal Transport
+        title:  Point Cloud Learning
 
       - key:    reweighting
         title:  Reweighting, Unfolding, and Calibration

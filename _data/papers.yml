@@ -23,7 +23,13 @@ years:
   
 papers:
 
-  - title: "Flavoured jets with exact anti-kt kinematics and tests of infrared and collinear safety"
+  - title: "Safe but Incalculable: Energy-Weighting is Not All You Need"
+    authors:  Samuel Bright-Thonney, Benjamin Nachman, and Jesse Thaler
+    arxiv:  "2311.07652"
+    year: 2023
+    topic: point_cloud
+
+  - title: "Flavoured Jets with Exact Anti-kt Kinematics and Tests of Infrared and Collinear Safety"
     authors: Fabrizio Caola, Radosław Grabarczyk, Maxwell L. Hutt, Gavin P. Salam, Ludovic Scyboz, and Jesse Thaler
     arxiv: "2306.07314"
     doi:  10.1103/PhysRevD.108.094010
@@ -40,7 +46,7 @@ papers:
     short_journal:  JHEP 2023
     arxiv: 2305.03751
     year: 2023
-    topic: point_cloud
+    topic: optimal_transport
 
   - title: "Pileup and Infrared Radiation Annihilation (PIRANHA): A Paradigm for Continuous Jet Grooming"
     authors: Samuel Alipour-fard, Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -50,7 +56,7 @@ papers:
     arxiv: 2305.00989
     year: 2023
     made_phd: true
-    topic: point_cloud
+    topic: optimal_transport
 
   - title: "SHAPER: Can You Hear the Shape of a Jet?"
     authors:  Demba Ba, Akshunna S. Dogra, Rikab Gambhir, Abiy Tasissa, and Jesse Thaler
@@ -61,7 +67,7 @@ papers:
     year: 2023
     made_phd: true
     priority: 6
-    topic: point_cloud
+    topic: optimal_transport
 
   - title: "EPiC-GAN: Equivariant Point Cloud Generation for Particle Jets"
     authors: Erik Buhmann, Gregor Kasieczka, and Jesse Thaler
@@ -226,7 +232,7 @@ papers:
     short_journal: JHEP 2020
     arxiv: "2004.06125"
     year: 2020
-    topic: point_cloud
+    topic: optimal_transport
 
   - title: "The Hidden Geometry of Particle Collisions"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -236,7 +242,7 @@ papers:
     arxiv: "2004.04159"
     made_phd: true
     year: 2020
-    topic: point_cloud
+    topic: optimal_transport
 
   - title: "OmniFold: A Method to Simultaneously Unfold All Observables"
     authors: Anders Andreassen, Patrick T. Komiske, Eric M. Metodiev, Benjamin Nachman, and Jesse Thaler
@@ -306,7 +312,7 @@ papers:
     arxiv: "1902.02346"
     year: 2019
     made_phd: true
-    topic: point_cloud
+    topic: optimal_transport
     etc: "[[https://physics.aps.org/articles/v12/85|Viewpoint]]"
     priority: 6
 
