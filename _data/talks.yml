@@ -480,6 +480,13 @@ schools:
 
 invited:
 
+  - title: "The Hidden Geometry of Particle Collisions"
+    url:  talks/jthaler_2023_11_16_HiddenGeometry_Kyoto.pdf
+    event:  International Conference on Machine Learning Physics
+    event_url:  https://mlphys.scphys.kyoto-u.ac.jp/ic_mlphys/
+    org:  YITP, Kyoto
+    date:   November 2023
+
   - title:  "The Hidden Geometry of Particle Collisions"
     url:  talks/jthaler_2023_10_13_HiddenGeometry_Simons.pdf
     event:  2023 Mathematics and Physical Sciences Annual Meeting
