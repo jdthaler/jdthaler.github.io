@@ -5,9 +5,9 @@ aside:
   toc: true
 ---
 
-## No Email List
+## Email Lists
 
-## Current Email List
+### Current Email List
 
 {% for category in site.data.mentoring -%}
 {%- for person in category[1] -%}
@@ -15,9 +15,7 @@ aside:
 {%- endfor -%}
 {%- endfor %}
 
-
-
-## Email Lists for Remaining 2023
+### Email Lists for Remaining 2023
 
 {% for category in site.data.mentoring -%}
 {%- for person in category[1] -%}
@@ -26,7 +24,7 @@ aside:
 {%- endfor %}
 
 
-## Missing Email List
+### Missing Email List
 
 {% for category in site.data.mentoring.alumni_categories %}
 {% for person in site.data.mentoring[category.block] -%}
@@ -35,7 +33,7 @@ aside:
 {% endfor %}
 
 
-## Full Email List
+### Full Email List
 
 {% for category in site.data.mentoring.alumni_categories %}
 {%- for person in site.data.mentoring[category.block] -%}

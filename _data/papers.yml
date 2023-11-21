@@ -26,12 +26,14 @@ papers:
   - title: "Safe but Incalculable: Energy-Weighting is Not All You Need"
     authors:  Samuel Bright-Thonney, Benjamin Nachman, and Jesse Thaler
     arxiv:  "2311.07652"
+    inspire: Bright-Thonney:2023gdl
     year: 2023
     topic: point_cloud
 
   - title: "Flavoured Jets with Exact Anti-kt Kinematics and Tests of Infrared and Collinear Safety"
     authors: Fabrizio Caola, Radosław Grabarczyk, Maxwell L. Hutt, Gavin P. Salam, Ludovic Scyboz, and Jesse Thaler
     arxiv: "2306.07314"
+    inspire: Caola:2023wpj
     doi:  10.1103/PhysRevD.108.094010
     journal: Phys. Rev. D108:094010 (2023)
     short_journal: PRD 2023
@@ -45,6 +47,7 @@ papers:
     journal: JHEP 2308:107 (2023)
     short_journal:  JHEP 2023
     arxiv: 2305.03751
+    inspire: Larkoski:2023qnv
     year: 2023
     topic: optimal_transport
 
@@ -54,6 +57,7 @@ papers:
     journal: JHEP 2309:157 (2023)
     short_journal: JHEP 2023
     arxiv: 2305.00989
+    inspire: Alipour-Fard:2023prj
     year: 2023
     made_phd: true
     topic: optimal_transport
@@ -64,6 +68,7 @@ papers:
     journal:  JHEP 2306:195 (2023)
     short_journal:  JHEP 2023
     arxiv: 2302.12266
+    inspire: Ba:2023hix
     year: 2023
     made_phd: true
     priority: 6
@@ -75,12 +80,14 @@ papers:
     journal: SciPost Phys. 15:130 (2023)
     short_journal: SciPost 2023
     arxiv: 2301.08128
+    inspire: Buhmann:2023pmh
     year: 2023
     topic: point_cloud
 
   - title: "Comparing Point Cloud Strategies for Collider Event Classification"
     authors: Peter Onyisi, Delon Shen, and Jesse Thaler
     arxiv: "2212.10659"
+    inspire: Onyisi:2022hdh
     doi:  10.1103/PhysRevD.108.012001
     journal:  Phys. Rev. D108:012001 (2023)
     short_journal: PRD 2023
@@ -94,6 +101,7 @@ papers:
     journal: Phys. Rev. D106:056008 (2022)
     short_journal: PRD 2022
     arxiv: "2205.10375"
+    inspire: Anschuetz:2022rwu
     made_bs: true
     year: 2022
     topic: qis
