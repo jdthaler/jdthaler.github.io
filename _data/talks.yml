@@ -4,25 +4,25 @@ colloquia:
     url:  talks/jthaler_2023_11_06_HiddenGeometry_Tufts.pdf
     event:  Computer Science Colloquium
     org: Tufts
-    date:  November 2023
+    date:  November 6, 2023
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_03_31_Northwestern_Colloquium.pdf
     event: Physics and Astronomy Colloquium
     org: Northwestern
-    date: March 2023
+    date: March 31, 2023
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_01_09_Technion_Colloquium.pdf
     event: Physics Colloquium
     org: Technion
-    date: January 2023
+    date: January 9, 2023
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_01_08_TelAviv_Colloquium.pdf
     event: Physics Colloquium
     org: Tel Aviv
-    date: January 2023
+    date: January 8, 2023
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2022_11_Brown_Colloquium.pdf
@@ -283,7 +283,7 @@ public:
     video: https://www.youtube.com/live/P1ndOdT-wTY?feature=share
     event: Distinguished Lecture
     org: National Science Foundation
-    date: January 2023
+    date: January 19, 2023
     virtual: true
 
   - title: "Artificial Intelligence Meets Fundamental Physics"
@@ -485,14 +485,14 @@ invited:
     event:  International Conference on Machine Learning Physics
     event_url:  https://mlphys.scphys.kyoto-u.ac.jp/ic_mlphys/
     org:  YITP, Kyoto
-    date:   November 2023
+    date:   November 16, 2023
 
   - title:  "The Hidden Geometry of Particle Collisions"
     url:  talks/jthaler_2023_10_13_HiddenGeometry_Simons.pdf
     event:  2023 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2023/
     org:   Simons Foundation
-    date:  October 2023
+    date:  October 13, 2023
     
 
   - title: "The Hidden Geometry of Particle Collisions"
@@ -500,7 +500,7 @@ invited:
     event: Pritzker Conference on AI+Science
     event_url: https://datascience.uchicago.edu/aiscience-conference/
     org: UChicago and Caltech
-    date: March 2023
+    date: March 29, 2023
 
 
   - title: "Learning Uncertainties the Frequentist Way"
@@ -508,7 +508,7 @@ invited:
     event: Theoretical Physics for Machine Learning
     event_url: https://sites.google.com/view/phys4ml-2023/
     org: Aspen Center for Physics
-    date: February 2023
+    date: February 28, 2023
 
   - title: "The Frontiers of Phenomenological Theory"
     url: talks/jthaler_2022_07_Snowmass_Pheno.pdf
@@ -998,21 +998,21 @@ seminars:
     event:  IPNS Physics and Theory Joint Seminar
     event_url: https://www2.kek.jp/theory-center/theory/seminar/2023/11/15/14150/
     org: KEK
-    date:  November 2023
+    date:  November 20, 2023
 
   - title: "Learning Uncertainties the Frequentist Way"
     url: talks/jthaler_2023_01_25_PhyStat_Uncertainty.pdf
     event: Seminar
     event_url: https://indico.cern.ch/event/1203477/
     org: PHYSTAT
-    date: January 2023
+    date: January 25, 2023
     virtual: true
 
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
     url: talks/jthaler_2023_01_11_HiddenGeometry_Israel.pdf
     event: Israel Joint Seminar
     org: Jerusalem
-    date: January 2023
+    date: January 11, 2023
 
   - title: "Machine Learning for the Skeptical HEP Theorist"
     url: talks/jthaler_2022_11_Brown_Seminar.pdf

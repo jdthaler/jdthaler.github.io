@@ -8,6 +8,6 @@
   ) {%- endif -%}
   {%- if talk.collab %} (with {{talk.collab}}){% endif %},
   {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
-  *{{talk.org}}, {{talk.date}}*
+  *{{talk.org}}, {{talk.date | date: "%B %Y"}}*
   {%- if talk.virtual %} `virtual` {% endif %}
 {%- endfor %}
