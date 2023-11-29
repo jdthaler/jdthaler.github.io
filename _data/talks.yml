@@ -1786,6 +1786,12 @@ seminars:
 
 additional:
 
+  - panelist: true
+    event:  "Generative AI + Education Symposium"
+    event_url:  https://mitgenerativeaiweek.mit.edu/agenda
+    org:  MIT
+    date:  November 29, 2023
+
   - event:  "Hammers & Nails 2023"
     event_url:  https://indico.cern.ch/event/1202995/
     org:  Switzerland
