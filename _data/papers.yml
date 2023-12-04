@@ -23,6 +23,13 @@ years:
   
 papers:
 
+  - title: "Anomaly Detection in Collider Physics via Factorized Observables"
+    authors:  Eric M. Metodiev, Jesse Thaler, and Raymond Wynne
+    arxiv:  2312.00119
+    inspire: Metodiev:2023izu
+    year:  2023
+    topic:  weak
+
   - title: "Safe but Incalculable: Energy-Weighting is Not All You Need"
     authors:  Samuel Bright-Thonney, Benjamin Nachman, and Jesse Thaler
     arxiv:  "2311.07652"
