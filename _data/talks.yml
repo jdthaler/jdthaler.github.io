@@ -874,6 +874,12 @@ invited:
 
 local:
 
+  - title: "NSF Institute for Artificial Intelligence and Fundamental Interactions"
+    url:  talks/jthaler_2023_12_04_EECS_Lunch_IAIFI.pdf
+    event:  Lunch Seminar
+    org:  MIT EECS
+    date:  December 4, 2023
+
   - title: "Deep Learning: Lessons from the Launch of IAIFI"
     url: talks/jthaler_2022_05_IAIFI_Faculty_Lunch.pdf
     event: Faculty Lunch
