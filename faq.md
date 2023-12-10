@@ -148,6 +148,14 @@ I typically need **at least 2 weeks but ideally 4 weeks** to prepare a new lette
 
 </details>
 
+<details markdown=1>
+<summary><b>Will you sign this important form for me?</b></summary>
+
+Most likely, yes, but I loathe paper/scanned forms.  Please use [MIT's DocuSign system](http://docusign.mit.edu/) if at all possible.
+
+</details>
+
+
 ## Teaching
 
 <details markdown=1>
