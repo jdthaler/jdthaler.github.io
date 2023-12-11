@@ -44,6 +44,13 @@ group_news:
     
 perspectives:
 
+  - title:  "Scientists design program for the future of US particle physics research"
+    url:  https://www.symmetrymagazine.org/article/scientists-design-program-for-the-future-of-us-particle-physics-research?language_content_entity=und
+    journal:  Symmetry Magazine
+    image:  /news/2023-symmetry-magazine-p5.jpg
+    quote:  "Particle physics is global science.  No matter what, there is no country that can afford the next collider by themselves."
+    date:  December 2023
+
   - title:  "From physics to generative AI: An AI model for advanced pattern generation"
     url:  https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927
     journal: MIT News
