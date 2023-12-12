@@ -996,6 +996,12 @@ local:
     org: MIT Physics
     date: January 2010
     commons: true
+    
+  - title: "Beyond the Standard Model at the Energy Frontier"
+    url: talks/jthaler_2009_10_16_MIT.pdf
+    event:  Grad Lunch Seminar
+    org:  MIT CTP
+    date:  October 16, 2009
 
 seminars:
 
@@ -1566,6 +1572,7 @@ seminars:
     date: October 2009
   
   - title: "Cosmic Signals from the Hidden Sector"
+    url: talks/jthaler_2009_10_Fermilab_Seminar.pdf
     event: Seminar
     org: Argonne N.L.
     date: October 2009
