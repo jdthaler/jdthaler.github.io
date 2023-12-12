@@ -147,6 +147,19 @@ guest_lectures:
     course_name: Particle Physics II
     date: Fall 2015
 
+  - title: Modern Jet Algorithms
+    url:  talks/jthaler_2009_10_20_Modern_Jet_Algotithms.pdf
+    course_number:  Physics 290E
+    course_name:  High Energy/Nuclear Physics Seminar
+    date:  Fall 2009
+
+  - title: Monte Carlo Methods for Background Estimation
+    url:  talks/jthaler_2008_10_Monte_Carlo_Methods.pdf
+    course_number:  Physics 290E
+    course_name:  High Energy/Nuclear Physics Seminar
+    date:  Fall 2008
+
+
 before_mit:
 
   - role: Teaching Fellow, Widely Applied Physics (Nima Arkani-Hamed)

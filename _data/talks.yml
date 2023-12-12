@@ -435,7 +435,7 @@ schools:
   
   - title: "Super-tricks for Superspace"
     parts:
-      - title: "Introducing Supersapce"
+      - title: "Introducing Superspace"
         url:   talks/jthaler_2012_06_TASI_Lecture1.pdf
       - title: "Fermions & Sfermions"
         url:   talks/jthaler_2012_06_TASI_Lecture2.pdf
@@ -1475,6 +1475,7 @@ seminars:
     date: March 2012
   
   - title: "The Two Faces of Anomaly Mediation"
+    url:  talks/jthaler_2012_02_NYU_Seminar.pdf
     event: Seminar
     org: New York U.
     date: January 2012
@@ -1618,6 +1619,12 @@ seminars:
     event: Seminar
     org: Cornell
     date: November 2008
+  
+  - title: "The Dark Top"
+    url: talks/jthaler_2008_09_10_Berkeley.pdf
+    event: Seminar
+    org:  U.C. Berkeley
+    date:  September 10, 2008
   
   - title: "GenEvA: A New Framework for Event Generation"
     url: talks/jthaler_2008_06_09_UCDavis_Seminar.pdf
