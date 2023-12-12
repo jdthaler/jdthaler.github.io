@@ -435,7 +435,7 @@ schools:
   
   - title: "Super-tricks for Superspace"
     parts:
-      - title: "Introducing Supersapce"
+      - title: "Introducing Superspace"
         url:   talks/jthaler_2012_06_TASI_Lecture1.pdf
       - title: "Fermions & Sfermions"
         url:   talks/jthaler_2012_06_TASI_Lecture2.pdf
@@ -1475,6 +1475,7 @@ seminars:
     date: March 2012
   
   - title: "The Two Faces of Anomaly Mediation"
+    url:  talks/jthaler_2012_02_NYU_Seminar.pdf
     event: Seminar
     org: New York U.
     date: January 2012
