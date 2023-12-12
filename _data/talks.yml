@@ -1620,6 +1620,12 @@ seminars:
     org: Cornell
     date: November 2008
   
+  - title: "The Dark Top"
+    url: talks/jthaler_2008_09_10_Berkeley.pdf
+    event: Seminar
+    org:  U.C. Berkeley
+    date:  September 10, 2008
+  
   - title: "GenEvA: A New Framework for Event Generation"
     url: talks/jthaler_2008_06_09_UCDavis_Seminar.pdf
     event: Seminar
