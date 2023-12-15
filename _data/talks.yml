@@ -1809,6 +1809,12 @@ seminars:
 additional:
 
   - panelist: true
+    event:  "Institutional Support and Funding for ML+PS"
+    event_url:  https://ml4physicalsciences.github.io/2023/
+    org:  NeurIPS Workshop on Machine Learning and the Physical Sciences
+    date:  December 15, 2023
+
+  - panelist: true
     event:  "Generative AI + Education Symposium"
     event_url:  https://mitgenerativeaiweek.mit.edu/agenda
     org:  MIT
