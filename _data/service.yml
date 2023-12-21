@@ -242,6 +242,12 @@ hepap:
   
 workshops:
 
+  - job: Organizer
+    issue: "TASI 2024: The Frontiers of Particle Theory"
+    issue_url:  https://www.colorado.edu/physics/events/summer-intensive-programs/theoretical-advanced-study-institute-elementary-particle-physics-current
+    org:  CU Boulder
+    dates:  June 2024
+
   - job:  Advisory Committee
     issue: "ML4Jets"
     issue_url: https://indico.cern.ch/event/1253794/
