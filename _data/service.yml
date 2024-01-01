@@ -222,12 +222,12 @@ hepap:
   url:  https://science.osti.gov/hep/hepap
   roles:
 
-    - job:   HEPAP Member
-      dates: August 2021-March 2024
-      
     - job:   Particle Physics Project Prioritization Panel (P5)
       dates: December 2022-December 2023
-      
+
+    - job:   HEPAP Member
+      dates: August 2021-March 2024
+            
     - job:       HEPAP Presentation
       job_url:   https://science.osti.gov/hep/hepap/Meetings/202012
       issue:     The NSF AI Institute for Artificial Intelligence and Fundamental Interactions

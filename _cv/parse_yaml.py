@@ -1,5 +1,6 @@
 import yaml,os
-
+import datetime
+from dateutil import parser
 
 #################### functions
 
@@ -55,7 +56,7 @@ urls = about_yaml['urls']
 
 contact_1_output.write(name['first'] + ' ' + name['last'] + '\\\\\n')
 contact_1_output.write(address['org'] + '\\\\\n')
-contact_1_output.write(address['street'] + ', ' + address['office'] + '\\\\\n')
+contact_1_output.write(address['street'] + ', ' + address['office'].replace('-','--') + '\\\\\n')
 contact_1_output.write(address['city']+ ', ' +  address['state'] + ' '+  address['zip'] + '\n')
 
 contact_2_output.write("Phone: " + phone['work'].replace('-','--') + '\\\\\n')
@@ -339,7 +340,7 @@ def write_talks(output_file_name,text_string):
       if len(list_with_name) > 1:
         talk_output.write('\\\\ ')
       
-      talk_output.write(talk['event']+', \emph{'+talk['org']+', '+talk['date']+'}')
+      talk_output.write(talk['event']+', \emph{'+talk['org']+', '+parser.parse(talk['date']).strftime("%B %Y")+'}')
       if 'virtual' in talk and talk['virtual']:
         talk_output.write(' (virtual)\n')
       else:
@@ -580,4 +581,61 @@ local_talks = talks_yaml['local']
 for talk in local_talks:
   if 'commons' in talk and talk['commons']:
     educational_commons_output.write('\\item ' + talk['org'] + ' ' + talk['event'] + ', ``' + talk['title'] + '\'\', \emph{' + talk['date']+ '}\n')
+
+#################### public file
+
+public_input = open("../_data/public.yml","r")
+public_yaml = yaml.load(public_input,Loader=yaml.BaseLoader)
+
+########## advocacy file
+
+advocacy_output = open("cv_advocacy.tex","w")
+
+##### open data advocacy
+
+public_entries = public_yaml['entries']
+
+advocacy_output.write('\\item Artificial Intelligence Advocacy')
+for entry in public_entries:
+  if 'topic' in entry and (entry['topic'] == "advocacy_ai" or entry['topic'] == "essays_ai"):
+    advocacy_string = '\\\\ '
+    advocacy_string += '``' + entry['title'] + '\'\''
+    if 'collaborators' in entry:
+      advocacy_string += ' (with ' + entry['collaborators']+ ')'
+    advocacy_string += ', '
+    if 'event' in entry:
+      advocacy_string += entry['event'] + ', '
+    if 'type' in entry:
+      advocacy_string += entry['type'] + ', '
+    if 'org' in entry:
+      advocacy_string += '\\emph{' + entry['org'] + ',} '
+    if 'date' in entry:
+      advocacy_string += '\\emph{' + entry['date'] + '}'
+    if 'journal' in entry:
+      advocacy_string += '\\emph{' + entry['journal'] + '}'
+    advocacy_string += '\n'
+    advocacy_output.write(advocacy_string)
+
+advocacy_output.write('\\item Open Data Advocacy')
+for entry in public_entries:
+  if 'topic' in entry and (entry['topic'] == "advocacy_open_data" or entry['topic'] == "essays_data_viz"):
+    advocacy_string = '\\\\ '
+    advocacy_string += '``' + entry['title'] + '\'\''
+    if 'collaborators' in entry:
+      advocacy_string += ' (with ' + entry['collaborators']+ ')'
+    advocacy_string += ', '
+    if 'event' in entry:
+      advocacy_string += entry['event'] + ', '
+    if 'type' in entry:
+      advocacy_string += entry['type'] + ', '
+    if 'org' in entry:
+      advocacy_string += '\\emph{' + entry['org'] + ',} '
+    if 'date' in entry:
+      advocacy_string += '\\emph{' + entry['date'] + '}'
+    if 'journal' in entry:
+      advocacy_string += '\\emph{' + entry['journal'] + '}'
+    advocacy_string += '\n'
+    advocacy_output.write(advocacy_string)
+
+
 
