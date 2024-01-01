@@ -24,16 +24,6 @@ permalink: /about/
 [Wikipedia](https://en.wikipedia.org/wiki/Jesse_Thaler){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 
-
-## Education
-
-{% for school in site.data.about.education -%}
-{% for degree in school.degrees -%}
-  {%- if degree.priority >= 6 %}
-  * **{{school.org}}**, {{degree.type}} {{degree.field}}, {{degree.year}}
-  {%- endif -%}
-{% endfor %}{% endfor %}
-
 ## Key Positions
 
   * **Massachusetts Institute of Technology**
@@ -44,6 +34,16 @@ permalink: /about/
       * Director, *2020-Present*
   * **University of California, Berkeley**
       * Miller Research Fellow, *2006-2009*
+
+
+## Education
+
+{% for school in site.data.about.education -%}
+{% for degree in school.degrees -%}
+  {%- if degree.priority >= 6 %}
+  * **{{school.org}}**, {{degree.type}} {{degree.field}}, {{degree.year}}
+  {%- endif -%}
+{% endfor %}{% endfor %}
 
 ## Selected Awards
 
