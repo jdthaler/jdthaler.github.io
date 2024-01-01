@@ -28,6 +28,7 @@ papers:
     arxiv:  2312.00119
     inspire: Metodiev:2023izu
     year:  2023
+    made_bs: true
     topic:  weak
 
   - title: "Safe but Incalculable: Energy-Weighting is Not All You Need"

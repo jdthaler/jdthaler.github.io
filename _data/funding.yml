@@ -1,5 +1,11 @@
 grants:
 
+  - name:  Unrestricted Gift
+    title:  "Interpretation of Multimodal Images from Astronomy"
+    org:  Google
+    dates: 2023
+    amount: $50k
+
   - name: Simons Investigator in Physics
     org:  Simons Foundation
     dates: 2023-2028
