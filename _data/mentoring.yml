@@ -119,7 +119,7 @@ postdocs:
    updated: 2023
    
  - name: Pouya Asadi
-   email: pasadi@mit.edu
+   email: pasadi@uoregon.edu
    at:
      - dates: Fall 2019-Spring 2022
        title: CTP Postdoctoral Researcher
@@ -522,7 +522,6 @@ bs_students:
     image: /images/tan.png
     date:  2025
     urop:  Spring 2023, Summer 2023
-    current: true
     updated: 2023
 
   - name: Ammar Fayad 
