@@ -705,7 +705,8 @@ bs_students:
     updated: 2023
 
   - name: Trung Phan
-    email: tvphan@princeton.edu
+    url:  https://trungphan.squarespace.com
+    email: tphan23@jhu.edu
     date: 2015
     thesis: "Relativistic Quantum Fields in Theoretical Physics"
     thesis_dates:  Fall 2014 - Spring 2015
