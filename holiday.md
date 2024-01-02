@@ -2,7 +2,8 @@
 layout: article
 title: Holiday Cards
 aside:
-  toc: true
+toc: true
+permalink: holiday/
 ---
 
 ## 2023
