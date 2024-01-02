@@ -46,11 +46,13 @@ permalink: group/
 <details markdown=1>
 <summary><b>{{category.name}}</b></summary>
 
-{% for person in site.data.mentoring[category.block] -%}
-  {% if person.current -%}{% else -%}
-    {% if person.url %}* **[{{person.name}}]({{person.url}}){:target="_blank"}**{% else %}* **{{person.name}}**{% endif %}
-    {%- if person.after[0] %}, {{person.after[-1].title}}, *{{person.after[-1].org}}* {% endif %}
-  {%- endif %}
+{% for person in site.data.mentoring[category.block] %}
+  {%- if person.current %}{% else %}
+    {%- if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**
+      {%- else %}  * **{{person.name}}**
+    {%- endif %}
+    {%- if person.after[0] %}, {{person.after[-1].title}}, *{{person.after[-1].org}}*{% endif %}
+{% endif -%}
 {% endfor %}
 
 </details>
