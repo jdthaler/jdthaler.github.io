@@ -86,7 +86,7 @@ permalink: cv/
 ### Postdoctoral Researchers
 
 {% for person in site.data.mentoring.postdocs -%}
-  {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}* {% if person.at[1] %}; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
+  {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {{person.at[0].title}}, *{{person.at[0].dates}}*{% if person.at[1] %}; {{person.at[1].title}}, *{{person.at[1].dates}}* {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
     * {{award.name}}, *{{award.org}}, {{award.date}}*  
   {%- endfor %}{% endif %}

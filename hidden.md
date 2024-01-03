@@ -15,11 +15,11 @@ aside:
 {%- endfor -%}
 {%- endfor %}
 
-### Email Lists for Remaining 2023
+### Email Lists for Remaining 2024
 
 {% for category in site.data.mentoring -%}
 {%- for person in category[1] -%}
-{%- unless person.updated == 2023 or person.deceased or person.email == nil %}{{person.email}}, {% endunless %}
+{%- unless person.updated == 2024 or person.deceased or person.email == nil %}{{person.email}}, {% endunless %}
 {%- endfor -%}
 {%- endfor %}
 
