@@ -116,9 +116,9 @@ postdocs:
      - title: PhD
        org: U.C. Berkeley
    after:
-     - title: Assistant Professor
+     - title: Assistant Professor, Canada Research Chair
        org: McGill
-   updated: 2023
+   updated: 2024
    
  - name: Pouya Asadi
    email: pouyasadi.ph@gmail.com
@@ -612,6 +612,10 @@ bs_students:
     graduated: true
     indepdent: Summer 2018
     urop: Fall 2018
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Stony Brook
+    updated: 2024
 
   - name: Talya Klinger
     email: tklinger@caltech.edu
