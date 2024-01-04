@@ -64,17 +64,19 @@ postdocs:
    at:
      - dates: Fall 2022-Spring 2024
        title: Postdoc.Mobility Fellow
+     - dates: Spring 2024-Spring 2025
+       title: CTP Postdoctoral Researcher
    before:
      - title: PhD
        org: Zurich
      - title: Postdoc
        org: SISSA
    current: true
-   updated: 2023
+   updated: 2024
 
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
-   email: siddharthmishra19@gmail.com
+   email: smsharma@mit.edu
    image: /images/mishra-sharma.jpg
    at:
      - dates: Fall 2021-Spring 2024
@@ -85,7 +87,7 @@ postdocs:
      - title: Postdoc
        org: NYU
    current: true
-   updated: 2023
+   updated: 2024
 
  - name: Lena Funcke
    email: lfuncke@uni-bonn.de
@@ -114,12 +116,12 @@ postdocs:
      - title: PhD
        org: U.C. Berkeley
    after:
-     - title: Assistant Professor
+     - title: Assistant Professor, Canada Research Chair
        org: McGill
-   updated: 2023
+   updated: 2024
    
  - name: Pouya Asadi
-   email: pasadi@uoregon.edu
+   email: pouyasadi.ph@gmail.com
    at:
      - dates: Fall 2019-Spring 2022
        title: CTP Postdoctoral Researcher
@@ -129,6 +131,7 @@ postdocs:
    after:
      - title: Postdoctoral Researcher
        org: U. Oregon
+   updated:  2024
        
  - name: Bernhard Mistlberger
    url: https://sites.google.com/view/bernhardmistlberger/
@@ -177,7 +180,7 @@ postdocs:
        org: CERN
      - title: Assistant Professor
        org: Technion
-   updated: 2023
+   updated: 2024
 
  - name: Benjamin Safdi
    email: brsafdi@berkeley.edu
@@ -230,7 +233,7 @@ postdocs:
        org: U. Genova
      - title: Associate Professor
        org: U. Genova
-   updated: 2023
+   updated: 2024
 
  - name: Gilly Elor
    email: gelor84@gmail.com
@@ -247,7 +250,9 @@ postdocs:
        org: U. Washington, Seattle
      - title: Postdoctoral Researcher
        org: JGU Mainz
-   updated: 2023
+     - title:  Research Fellow
+       org:  UT Austin
+   updated: 2024
 
  - name: Duff Neill
    email: duff.neill@gmail.com
@@ -270,7 +275,7 @@ postdocs:
 
  - name: Andrew Larkoski
    url: https://www.physics.ucla.edu/~larkoski/
-   email: larkoski@ucla.edu
+   email: larkoa@gmail.com
    at:
      - dates: Fall 2012-Spring 2015
        title: CTP Postdoctoral Researcher
@@ -290,7 +295,7 @@ postdocs:
      - name: Wu-Ki Tung Award for Early Career Research on QCD
        org: CTEQ Collaboration
        date: 2017
-   updated: 2023
+   updated: 2024
 
  - name: Matthew McCullough
    email: matthew.mccullough@cern.ch
@@ -347,7 +352,7 @@ phd_students:
         org: MIT Libraries and School of Science
         date: 2022
     current: true
-    updated: 2023
+    updated: 2024
 
   - name: Samuel Alipour-fard
     email: samuelaf@mit.edu
@@ -365,9 +370,9 @@ phd_students:
     after:
       - title: "Researcher"
         org: PDT Partners
-      - title: "Researcher"
+      - title: "Research Scientist"
         org: River Run Trading
-    updated: 2023
+    updated: 2024
 
   - name: Eric Metodiev
     url: https://www.ericmetodiev.com
@@ -378,7 +383,7 @@ phd_students:
     after:
       - title: Research Scientist
         org: Renaissance Technologies
-    updated: 2023
+    updated: 2024
 
   - name: Benjamin Elder
     email: benjamin.elder11@gmail.com
@@ -457,7 +462,7 @@ phd_students:
         org: U. Minnesota
       - title: Applied Research Mathematician
         org: Department of Defense
-    updated: 2023
+    updated: 2024
 
   - name: Francesco D'Eramo
     email: francesco.deramo@pd.infn.it
@@ -599,7 +604,7 @@ bs_students:
     after:
       - title: Physics Ph.D. Candidate
         org: Princeton
-    updated: 2023
+    updated: 2024
 
   - name: Ziqi Zhou
     email: ziqiphyzhou@gmail.com
@@ -607,6 +612,10 @@ bs_students:
     graduated: true
     indepdent: Summer 2018
     urop: Fall 2018
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Stony Brook
+    updated: 2024
 
   - name: Talya Klinger
     email: tklinger@caltech.edu
@@ -705,15 +714,21 @@ bs_students:
     updated: 2023
 
   - name: Trung Phan
-    email: tvphan@princeton.edu
+    url:  https://trungphan.squarespace.com/
+    email: tphan23@jhu.edu
     date: 2015
     thesis: "Relativistic Quantum Fields in Theoretical Physics"
     thesis_dates:  Fall 2014 - Spring 2015
     thesis_url: https://hdl.handle.net/1721.1/100333
     after:
-      - title: Physics Ph.D. Candidate
+      - title: Physics Ph.D.
         org: Princeton
+      - title:  Postdoctoral Researcher
+        org:  Yale
+      - title: Postdoctoral Researcher
+        org:  Johns Hopkins
     urop: Spring 2014, Summer 2014
+    updated:  2024
 
   - name: T.J. Wilkason
     email: tj.wilkason@gmail.com
@@ -873,7 +888,7 @@ visitors:
         org: University of Illinois, Urbana-Champaign
     home: U. Puerto Rico, Mayaguez
     other: Visiting Student 2021-2022
-    updated: 2023
+    updated: 2024
 
   - name: Athis Osathapan
     email: aosathap@bowdoin.edu
@@ -911,7 +926,7 @@ visitors:
     home: Imperial College London
 
   - name: Edward Hirst
-    url: https://www.city.ac.uk/about/people/research-students/ed-hirst
+    url: https://www.qmul.ac.uk/spcs/staff/research-staff/profiles/ehirst.html
     email: edward.hirst@city.ac.uk
     program: International Research Opportunities Programme
     dates: Summer 2018
@@ -923,7 +938,7 @@ visitors:
         org: City University of London
       - title: Postdoc
         org: Queen Mary University of London
-    updated: 2023
+    updated: 2024
 
   - name: Rahim Leung
     email: rahim.leung14@imperial.ac.uk
