@@ -370,9 +370,9 @@ phd_students:
     after:
       - title: "Researcher"
         org: PDT Partners
-      - title: "Researcher"
+      - title: "Research Scientist"
         org: River Run Trading
-    updated: 2023
+    updated: 2024
 
   - name: Eric Metodiev
     url: https://www.ericmetodiev.com
@@ -888,7 +888,7 @@ visitors:
         org: University of Illinois, Urbana-Champaign
     home: U. Puerto Rico, Mayaguez
     other: Visiting Student 2021-2022
-    updated: 2023
+    updated: 2024
 
   - name: Athis Osathapan
     email: aosathap@bowdoin.edu
