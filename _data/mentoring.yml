@@ -553,9 +553,10 @@ bs_students:
     after:
       - title: Research Assistant
         org: University of Hamburg
+      - title: Physics Ph.D. Candidate
+        org: University of Illinois, Urbana-Champaign
     graduated: true
-    other: No longer researching at University of Hamburg, but recently received a few acceptances to PhD programs for Fall 2023 and waiting to hear from more before making a decision! This spring, tentatively planning on doing some research assistant work at the University of Regensburg in lattice QCD and axial form factors.
-    updated: 2023
+    updated: 2024
 
   - name: Nishat Protyasha
     email: protya@mit.edu
@@ -903,7 +904,7 @@ visitors:
     project: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
     home: U. Cincinnati
     after:
-      - title: PhD Candidate
+      - title: Physics PhD Candidate
         org: NYU
     updated: 2023
 
@@ -934,20 +935,23 @@ visitors:
     after:
       - title: Physics M.Sci.
         org: Imperical College London
-      - title: Physics Ph.D.title
+      - title: Physics Ph.D.
         org: City University of London
-      - title: Postdoc
+      - title: Postdoctoral Researcher
         org: Queen Mary University of London
     updated: 2024
 
   - name: Rahim Leung
-    email: rahim.leung14@imperial.ac.uk
+    email: rahimleung@gmail.com
     program: International Research Opportunities Programme
     dates: Summer 2017
     home: Imperial College London
     after:
-      - title: PhD Candidate
+      - title: Physics PhD
         org: Imperial College London
+      - title:  Market Risk Analyst
+        org: Morgan Stanley
+    updated: 2024
 
   - name: Markus Schulze
     email: markus.schulze@physik.hu-berlin.de
@@ -962,7 +966,7 @@ visitors:
     project: "Jet Physics Measurements on CMS Open Data"
     home: San Diego State University
     after:
-      - title: PhD Candidate
+      - title: Physics PhD Candidate
         org: UC Irvine
 
   - name: Nayara Fonseca
