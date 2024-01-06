@@ -826,11 +826,13 @@ bs_students:
 visitors:
 
   - name: Yiding Song
-    email:  ydsong@mit.edu
+    email:  neutrinovs@gmail.com
+    url: https://perceptronv.github.io/
     program:  Research Science Institute
     dates:  Summer 2023
     project:  "Towards an Understanding of Scientific Data with Multimodal Language Models"
     home:  Harrow School
+    updated: 2024
     
   - name: Edward Gu
     email:  elg227@cornell.edu
