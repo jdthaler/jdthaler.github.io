@@ -388,6 +388,7 @@ phd_students:
 
   - name: Benjamin Elder
     email: benjamin.elder11@gmail.com
+    url:  https://www.linkedin.com/in/benjamin-elder-8b722132
     date: 2018
     thesis: "Jet Fragmentation at the LHC"
     thesis_url: https://hdl.handle.net/1721.1/119105
@@ -396,7 +397,7 @@ phd_students:
          org: IBM
        - title: Research Scientist
          org: IBM
-    updated: 2023
+    updated: 2024
 
   - name: Lina Necib
     url: https://lnecib.com/
