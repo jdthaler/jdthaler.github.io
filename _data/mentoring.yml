@@ -519,7 +519,7 @@ meng_students:
     after:
       - title: Physics Ph.D. Candidate
         org: Caltech
-    updated: 2023
+    updated: 2024
 
 bs_students:
 
@@ -778,7 +778,10 @@ bs_students:
         org: University of Cambridge
       - title: Analyst
         org: American International Group
+      - title: Software Engineering Team Lead
+        org: Bloomberg
     urop: Fall 2011, IAP 2012
+    updated: 2024
 
   - name: Tucker Chan
     date: 2012
@@ -846,6 +849,7 @@ visitors:
 
   - name: Xinyue (Stella) Wu
     email: xwu48@u.rochester.edu
+    url:  https://www.linkedin.com/in/xinyue-wu-22215b230/
     image: /images/wu.jpg
     program: MIT Summer Research Program
     dates: Summer 2023
@@ -855,6 +859,7 @@ visitors:
       - name: FUTURE of Physics Participant
         org: Caltech
         date: 2023
+    updated: 2024
 
   - name: Brian Nord
     url: https://briandnord.com
