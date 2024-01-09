@@ -749,8 +749,11 @@ bs_students:
         org: MIT Physics Department
         date: 2015
     after:
-      - title: Physics Ph.D. Candidate
+      - title: Physics Ph.D.
         org: Stanford
+      - title: Senior Quantum Engineer
+        org: Atom Computing
+    updated: 2024
          
   - name: Mobolaji Williams
     email: williams.mobolaji@gmail.com
