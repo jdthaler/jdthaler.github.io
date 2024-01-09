@@ -91,6 +91,7 @@ postdocs:
 
  - name: Lena Funcke
    email: lfuncke@uni-bonn.de
+   url:  https://www.uni-bonn.de/en/research-and-teaching/research-profile/transdisciplinary-research-areas/tra-matter/clausius-professorship
    at:
      - dates: Fall 2021-Fall 2022
        title: CTP Postdoctoral Researcher
@@ -102,7 +103,7 @@ postdocs:
    after:
      - title: Assistant Professor
        org: U. Bonn
-   updated: 2023
+   updated: 2024
 
  - name: Katelin Schutz
    url: https://katelinschutz.com/
@@ -149,7 +150,7 @@ postdocs:
        org: SLAC
      - title: Staff Scientist
        org: SLAC
-   updated: 2023
+   updated: 2024
 
  - name: Frédéric Dreyer
    email: frederic.dreyer@gmail.com
@@ -298,7 +299,7 @@ postdocs:
    updated: 2024
 
  - name: Matthew McCullough
-   email: matthew.mccullough@cern.ch
+   email: mattmccull@gmail.com
    url: https://th-dep.web.cern.ch/roster/mccullough-matthew
    at:
      - dates: Fall 2011-Spring 2014
@@ -311,7 +312,7 @@ postdocs:
        org: CERN
      - title: Staff Scientist
        org: CERN
-   updated: 2023
+   updated: 2024
 
  - name: Keith Rehermann
    email: keith.rehermann@gmail.com
@@ -333,14 +334,14 @@ phd_students:
     image: /images/pajarillo.png
     date: 2027
     current: true
-    updated: 2023
+    updated: 2024
 
   - name: Sean Benevedes
     email: seanmb@mit.edu
     image: /images/benevedes.jpeg
     date: 2026
     current: true
-    updated: 2023
+    updated: 2024
 
   - name: Rikab Gambhir
     email: rikab@mit.edu
@@ -387,6 +388,7 @@ phd_students:
 
   - name: Benjamin Elder
     email: benjamin.elder11@gmail.com
+    url:  https://www.linkedin.com/in/benjamin-elder-8b722132
     date: 2018
     thesis: "Jet Fragmentation at the LHC"
     thesis_url: https://hdl.handle.net/1721.1/119105
@@ -395,7 +397,7 @@ phd_students:
          org: IBM
        - title: Research Scientist
          org: IBM
-    updated: 2023
+    updated: 2024
 
   - name: Lina Necib
     url: https://lnecib.com/
@@ -479,7 +481,7 @@ phd_students:
       - name: Vazquez Award for Outstanding Research
         org: MIT Physics Department
         date: 2011
-    updated: 2023
+    updated: 2024
 
 meng_students:
 
@@ -508,7 +510,9 @@ meng_students:
     after:
       - title: Researcher
         org: D.E. Shaw Group
-    updated: 2023
+      - title: Researcher
+        org: Quantitative Finance
+    updated: 2024
 
   - name: Preksha Naik
     email: preksha.naik@gmail.com
@@ -518,7 +522,7 @@ meng_students:
     after:
       - title: Physics Ph.D. Candidate
         org: Caltech
-    updated: 2023
+    updated: 2024
 
 bs_students:
 
@@ -542,8 +546,11 @@ bs_students:
     image:  images/dighamber.jpg
     date: 2023
     urop: Fall 2022, Spring 2023
-    other: "After Graduation: M.Eng candidate in Computer Science, MIT"
-    updated: 2023
+    graduated: true
+    after:
+      - title: Computer Science M.Eng Candidate
+        org: MIT
+    updated: 2024
 
   - name: Octavio Vega
     email: vega00087@gmail.com
@@ -653,7 +660,7 @@ bs_students:
         org:  U. Cambridge
       - title: Physics Ph.D Candidate
         org:  U.C. Berkeley
-    updated: 2023
+    updated: 2024
 
   - name: Eleanor Hall
     url: https://www.nellhall.com/
@@ -744,8 +751,11 @@ bs_students:
         org: MIT Physics Department
         date: 2015
     after:
-      - title: Physics Ph.D. Candidate
+      - title: Physics Ph.D.
         org: Stanford
+      - title: Senior Quantum Engineer
+        org: Atom Computing
+    updated: 2024
          
   - name: Mobolaji Williams
     email: williams.mobolaji@gmail.com
@@ -774,7 +784,10 @@ bs_students:
         org: University of Cambridge
       - title: Analyst
         org: American International Group
+      - title: Software Engineering Team Lead
+        org: Bloomberg
     urop: Fall 2011, IAP 2012
+    updated: 2024
 
   - name: Tucker Chan
     date: 2012
@@ -842,6 +855,7 @@ visitors:
 
   - name: Xinyue (Stella) Wu
     email: xwu48@u.rochester.edu
+    url:  https://www.linkedin.com/in/xinyue-wu-22215b230/
     image: /images/wu.jpg
     program: MIT Summer Research Program
     dates: Summer 2023
@@ -851,6 +865,7 @@ visitors:
       - name: FUTURE of Physics Participant
         org: Caltech
         date: 2023
+    updated: 2024
 
   - name: Brian Nord
     url: https://briandnord.com
@@ -920,7 +935,7 @@ visitors:
     after:
       - title: Postdoctoral Researcher
         org: UPenn
-    updated: 2023
+    updated: 2024
 
   - name: Maximilian Henderson
     email: maxhenderson43@gmail.com
