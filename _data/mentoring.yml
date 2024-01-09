@@ -299,7 +299,7 @@ postdocs:
    updated: 2024
 
  - name: Matthew McCullough
-   email: matthew.mccullough@cern.ch
+   email: mattmccull@gmail.com
    url: https://th-dep.web.cern.ch/roster/mccullough-matthew
    at:
      - dates: Fall 2011-Spring 2014
@@ -312,7 +312,7 @@ postdocs:
        org: CERN
      - title: Staff Scientist
        org: CERN
-   updated: 2023
+   updated: 2024
 
  - name: Keith Rehermann
    email: keith.rehermann@gmail.com
@@ -481,7 +481,7 @@ phd_students:
       - name: Vazquez Award for Outstanding Research
         org: MIT Physics Department
         date: 2011
-    updated: 2023
+    updated: 2024
 
 meng_students:
 
@@ -510,7 +510,9 @@ meng_students:
     after:
       - title: Researcher
         org: D.E. Shaw Group
-    updated: 2023
+      - title: Researcher
+        org: Quantitative Finance
+    updated: 2024
 
   - name: Preksha Naik
     email: preksha.naik@gmail.com
