@@ -417,7 +417,7 @@ phd_students:
     updated: 2023
     
   - name: Yonatan Kahn
-    url: https://yfkahn.web.illinois.edu
+    url: https://yfkahn.web.illinois.edu/
     email: yfkahn@illinois.edu
     date: 2015
     thesis: "Forces and Gauge Groups Beyond the Standard Model"
@@ -434,7 +434,7 @@ phd_students:
       - name: J.J. and Noriko Sakurai Dissertation Award
         org: American Physical Society
         date: 2016
-    updated: 2023
+    updated: 2024
 
   - name: Daniele Bertolini
     email: dbertolini84@gmail.com
@@ -448,11 +448,13 @@ phd_students:
         org: Quid
       - title: Data Scientist
         org: Unlearn
+      - title: Machine Learning Scientist
+        org: Unlearn
     awards:
       - name: LHC-TI Graduate Fellowship
         org: LHC Theory Initiative
         date: 2013
-    updated: 2023
+    updated: 2024
        
   - name: Zoe Thomas
     email: ztt628@gmail.com
@@ -548,7 +550,7 @@ bs_students:
     urop: Fall 2022, Spring 2023
     graduated: true
     after:
-      - title: Computer Science M.Eng Candidate
+      - title: EECS M.Eng Candidate
         org: MIT
     updated: 2024
 
@@ -566,13 +568,18 @@ bs_students:
     updated: 2024
 
   - name: Nishat Protyasha
-    email: protya@mit.edu
+    email: nfprotyasha98@gmail.com
     date: 2023
+    graduated: true
     urop:  Summer 2020, Fall 2020, Spring 2021, Summer 2021
     awards:
       - name: FUTURE of Physics Participant
         org: Caltech
         date: 2020
+    after:
+      - title: EECS M.Eng Candidate
+        org: MIT
+    updated: 2024
 
   - name: Serhii Kryhin
     email: skryhin@g.harvard.edu
@@ -996,4 +1003,6 @@ visitors:
     after:
       - title: Research Scientist
         org: IBM Research
-    updated: 2023
+      - title: Research Fellow
+        org: U. Oxford
+    updated: 2024
