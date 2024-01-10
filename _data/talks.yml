@@ -973,6 +973,7 @@ local:
     commons: true
   
   - title: "Beyond the Standard Model at the Frontiers"
+    url:  talks/jthaler_2011_08_MIT_OrientationLecture.pdf
     event: Orientation Lecture
     org: MIT PhysPOP
     date: August 2011
@@ -1686,11 +1687,13 @@ seminars:
     date: April 2007
   
   - title: "Natural/Unnatural"
+    url: talks/jthaler_2007_04_Berkeley.pdf
     event: Seminar
     org: U. Michigan
     date: February 2007
     
   - title: "Natural/Unnatural"
+    url: talks/jthaler_2007_04_Berkeley.pdf
     event: Seminar
     org: Princeton
     date: February 2007
