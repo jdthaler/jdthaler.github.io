@@ -1812,6 +1812,12 @@ seminars:
 additional:
 
   - panelist: true
+    event:  "What Discoveries and New Techniques will be Enabled by AI?"
+    event_url: https://indico.physics.brown.edu/event/2/
+    org:  Brown AI Winter Workshop
+    date:  January 16, 2024
+
+  - panelist: true
     event:  "Institutional Support and Funding for ML+PS"
     event_url:  https://ml4physicalsciences.github.io/2023/
     org:  NeurIPS Workshop on Machine Learning and the Physical Sciences
