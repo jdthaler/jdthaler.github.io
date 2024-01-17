@@ -5,3 +5,4 @@ gem "webrick", "~> 1.7"
 
 gem "rake"
 gem "html-proofer"
+gem "csv"
