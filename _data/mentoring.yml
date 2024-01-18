@@ -596,7 +596,7 @@ bs_students:
     after:
       - title: Physics Ph.D. Candidate
         org: Harvard
-    updated: 2023
+    updated: 2024
 
   - name: Christopher Miller
     email: bowties@mit.edu
@@ -633,7 +633,7 @@ bs_students:
     updated: 2024
 
   - name: Talya Klinger
-    email: tklinger@caltech.edu
+    email: talyaklinger@gmail.com
     graduated: true
     date: 2020
     urop: Spring 2017
@@ -642,7 +642,7 @@ bs_students:
         org: University of Cambridge and Cardiff University
       - title: Physics Ph.D. Candidate
         org: Caltech
-    updated: 2023
+    updated: 2024
 
   - name: Radha Mastandrea
     url: https://rmastand.github.io/
@@ -694,7 +694,7 @@ bs_students:
 
   - name: Kevin Zhou
     url: https://knzhou.github.io
-    email:  knzhou@stanford.edu
+    email:  kzhou7@gmail.com
     date: 2017
     graduated: true
     after:
@@ -702,12 +702,14 @@ bs_students:
         org: U. Cambridge and U. Oxford
       - title: Physics Ph.D Candidate
         org: Stanford
+      - title: Postdoctoral Researcher
+        org: UC Berkeley
     urop: IAP 2016, Spring 2016, Summer 2016, Fall 2016, Spring 2017
     awards:
       - name: Joel Matthew Orloff Award for Outstanding Research
         org: MIT Physics Department
         date: 2017
-    updated: 2023
+    updated: 2024
 
   - name: Aashish Tripathee
     email: aashishtripathee@gmail.com
