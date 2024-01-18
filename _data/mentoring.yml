@@ -55,8 +55,10 @@ postdocs:
       - name: J.J. and Noriko Sakurai Dissertation Award
         org: American Physical Society
         date: 2023
+      - name: Forbes Science 30 Under 30
+        date: 2024
    current: true
-   updated: 2023
+   updated: 2024
 
  - name: Sokratis Trifinopoulos
    email: trifinos@mit.edu
@@ -325,7 +327,9 @@ postdocs:
    after:
      - title: Consultant
        org: Ab Initio Software Corporation
-
+     - title: Software Engineer
+       org: Chainlink Labs
+   updated: 2024
 
 phd_students:
 
@@ -356,11 +360,12 @@ phd_students:
     updated: 2024
 
   - name: Samuel Alipour-fard
-    email: samuelaf@mit.edu
+    url: https://samcaf.github.io/
+    email: samuel.alipourfard@yahoo.com
     image: /images/alipour-fard.jpg
     date: 2025
     current: true
-    updated: 2023
+    updated: 2024
 
   - name: Patrick Komiske
     url: https://pkomiske.com/

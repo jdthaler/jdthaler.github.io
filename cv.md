@@ -367,7 +367,7 @@ permalink: cv/
     * After film Q&A, MIT Lecture Series Committee, September 2014
     * After film Q&A, Portsmouth Music Hall, May 2014
   * **TheoryNet**, High School Physics Outreach
-    * Scott Goelzer, Coe-Brown Northwood Academy (Fall 2020-Present)
+    * Scott Goelzer, Coe-Brown Northwood Academy (Fall 2020-Spring 2021)
     * Elaine Picard, Concord-Carlisle High School (Fall 2015-Spring 2016, Spring 2017, Spring 2020)
     * Michael Wadness, Medford High School  (Fall 2012-Spring 2015, Spring 2018, Spring 2022)
     * Michael Hirsh, Needham High School  (Spring 2010-Spring 2012)
