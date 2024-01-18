@@ -1,5 +1,12 @@
 group_news:
 
+  - person:  Cari Cesarotti
+    title:  "Particle Physicists Dream of a Muon Collider"
+    url:  https://www.scientificamerican.com/article/particle-physicists-dream-of-a-muon-collider/
+    journal:  Scientific American
+    image:  /news/2023-sciam-muon-colider.jpg
+    date:  August 2023
+
   - person:  Akshunna S. Dogra and Rikab Gambhir
     title:  "Can you hear the shape of physics?"
     url:  https://www.imperial.ac.uk/news/246302/can-hear-shape-physics/
