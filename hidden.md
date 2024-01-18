@@ -23,6 +23,14 @@ aside:
 {%- endfor -%}
 {%- endfor %}
 
+### Email Lists Done fo 2024
+
+{% for category in site.data.mentoring -%}
+{%- for person in category[1] -%}
+{%- if person.updated == 2024%}, {% endif %}
+{%- endfor -%}
+{%- endfor %}
+
 
 ### Missing Email List
 
