@@ -1811,6 +1811,11 @@ seminars:
 
 additional:
 
+  - event:  "The revolutionary impact and emerging challenges of generative AI in STEM research and education"
+    event_url:  https://indico.mit.edu/event/887/
+    org:  Harvard/MIT
+    date: January 18, 2024
+
   - panelist: true
     event:  "What Discoveries and New Techniques will be Enabled by AI?"
     event_url: https://indico.physics.brown.edu/event/2/
