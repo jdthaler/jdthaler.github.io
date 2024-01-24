@@ -26,49 +26,49 @@ permalink: personal/
   <div class="grid grid--py-3">
     <div class="cell cell--3">
           <a href="/design/jthaler_IAIFI_Logo.pdf">
-            <img class="image-h image-h--xs" src="/design/jthaler_IAIFI_Logo.png" title="IAIFI Logo"/>
+            <img class="image-h image-h--xs" style="object-fit: contain" src="/design/jthaler_IAIFI_Logo.png" title="IAIFI Logo"/>
           <br>
               <b>IAIFI</b>
           </a>
     </div>
     <div class="cell cell--3">
           <a href="/design/jthaler_OmniFold_Logo.pdf">
-            <img class="image-h image-h--xs" src="/design/jthaler_OmniFold_Logo.png" title="OmniFold Logo"/>
+            <img class="image-h image-h--xs" style="object-fit: contain" src="/design/jthaler_OmniFold_Logo.png" title="OmniFold Logo"/>
           <br>
               <b>OmniFold</b>
           </a>
     </div>
     <div class="cell cell--3">
           <a href="/design/jthaler_MOD_Logo.pdf">
-            <img class="image-h image-h--xs" src="/design/jthaler_MOD_Logo.png" title="MOD"/>
+            <img class="image-h image-h--xs" style="object-fit: contain" src="/design/jthaler_MOD_Logo.png" title="MOD"/>
           <br>
               <b>MOD</b>
           </a>
     </div>
     <div class="cell cell--3">
           <a href="/design/jthaler_DarkLight_Logo.pdf">
-            <img class="image-h image-h--xs" src="/design/jthaler_DarkLight_Logo.png" title="DarkLight Logo"/>
+            <img class="image-h image-h--xs" style="object-fit: contain" src="/design/jthaler_DarkLight_Logo.png" title="DarkLight Logo"/>
           <br>
               <b>DarkLight</b>
           </a>
     </div>
     <div class="cell cell--6">
           <a href="/design/jthaler_ABRALogo_Large.pdf">
-            <img class="image-h image-h--xs" src="/design/jthaler_ABRALogo_Large.png" title="ABRACADABRA"/>
+            <img class="image-h image-h--xs" style="object-fit: contain" src="/design/jthaler_ABRALogo_Large.png" title="ABRACADABRA"/>
           <br>
               <b>ABRACADABRA</b>
           </a>
     </div>
     <div class="cell cell--3">
           <a href="/design/jthaler_ABRALogo_Medium.pdf">
-            <img class="image-h image-h--xs" src="/design/jthaler_ABRALogo_Medium.png" title="ABRA"/>
+            <img class="image-h image-h--xs" style="object-fit: contain" src="/design/jthaler_ABRALogo_Medium.png" title="ABRA"/>
           <br>
               <b>ABRA</b>
           </a>
     </div>
     <div class="cell cell--3">
           <a href="/design/jthaler_ABRALogo_Small.pdf">
-            <img class="image-h image-h--xs" src="/design/jthaler_ABRALogo_Small.png" title="A."/>
+            <img class="image-h image-h--xs" style="object-fit: contain" src="/design/jthaler_ABRALogo_Small.png" title="A."/>
           <br>
               <b>A.</b>
           </a>
@@ -84,28 +84,28 @@ permalink: personal/
   <div class="grid grid--py-3">
     <div class="cell cell--3">
           <a href="/design/jthaler_IAIFI_Banner.jpg">
-            <img class="image-h image-h--sm" src="/design/jthaler_IAIFI_Banner.jpg" title="[IAIFI Banner"/>
+            <img class="image-h image-h--sm" style="object-fit: contain" src="/design/jthaler_IAIFI_Banner.jpg" title="[IAIFI Banner"/>
           <br>
               <b>IAIFI Banner</b>
           </a>
     </div>
     <div class="cell cell--3">
           <a href="/design/jthaler_MOD_EventDisplay.pdf">
-            <img class="image-h image-h--sm" src="/design/jthaler_MOD_EventDisplay.png" title="MOD Event"/>
+            <img class="image-h image-h--sm" style="object-fit: contain" src="/design/jthaler_MOD_EventDisplay.png" title="MOD Event"/>
           <br>
               <b>MOD Event Display</b>
           </a>
     </div>
     <div class="cell cell--3">
           <a href="/design/jthaler_BOOST2019_Poster.pdf">
-            <img class="image-h image-h--sm" src="/design/jthaler_BOOST2019_Poster.png" title="BOOST 2019 Poster"/>
+            <img class="image-h image-h--sm" style="object-fit: contain" src="/design/jthaler_BOOST2019_Poster.png" title="BOOST 2019 Poster"/>
           <br>
               <b>BOOST 2019 Poster</b>
           </a>
     </div>
     <div class="cell cell--3">
           <a href="/design/jthaler_Flavour_PRD.pdf">
-            <img class="image-h image-h--sm" src="/design/jthaler_Flavour_PRD.png" title="Flavoured Jets"/>
+            <img class="image-h image-h--sm" style="object-fit: contain" src="/design/jthaler_Flavour_PRD.png" title="Flavoured Jets"/>
           <br>
               <b>Flavoured Jets</b>
           </a>
