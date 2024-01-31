@@ -1811,6 +1811,12 @@ seminars:
 
 additional:
 
+  - panelist: true
+    event:  "Festival of Learning"
+    event_url:  https://openlearning.mit.edu/mit-faculty/festival-learning
+    org:  MIT
+    date:  January 31, 2024
+
   - event:  "The revolutionary impact and emerging challenges of generative AI in STEM research and education"
     event_url:  https://indico.mit.edu/event/887/
     org:  Harvard/MIT
