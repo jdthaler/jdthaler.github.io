@@ -1811,6 +1811,13 @@ seminars:
 
 additional:
 
+  - title:  "Experiences and Centers:  IAIFI"
+    url:  talks/jthaler_2024_02_01_AI4Science_Harvard.pdf
+    event: "AI 4 Science"
+    event_url:  https://ai4science.seas.harvard.edu/calendar_event/research-seminar/
+    org: Harvard
+    date:  February 1, 2024
+
   - panelist: true
     event:  "Festival of Learning"
     event_url:  https://openlearning.mit.edu/mit-faculty/festival-learning
