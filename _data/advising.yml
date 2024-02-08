@@ -1,5 +1,8 @@
 phd_theses:
 
+  - name: Yitian Sun
+    advisor: Tracy Slatyer
+
   - name: Evgenii Kniazev
     title:  Precision Metrology With Ytterbium Ion Clock For New Physics Search
     advisor:  Vladan Vuletic
@@ -180,7 +183,6 @@ academic_advising:
       - name: "Class of 2024"
         members:
           - name: Omar Abdelghani
-          - name: Nishant Dhankar
           - name: Chirag Falor
           - name: M. Geogdzhayeva
           - name: Lily Moseni
