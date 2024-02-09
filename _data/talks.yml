@@ -1811,6 +1811,12 @@ seminars:
 
 additional:
 
+  - title:  "Perspectives on AI + Physics"
+    event: Panel on Public Affairs
+    org: American Physical Society
+    virtual: true
+    date:  February 9, 2024
+
   - title:  "Experiences and Centers:  IAIFI"
     url:  talks/jthaler_2024_02_01_AI4Science_Harvard.pdf
     event: "AI 4 Science"
