@@ -874,6 +874,12 @@ invited:
 
 local:
 
+  - title:  "The Coming Decade(s) of Nuclear and Particle Physics"
+    url:  talks/lwinslow_jthaler_2024_02_16_MIT_LRP_P5_Colloquium.pdf
+    event:  Physics Colloquium (with Lindley Winslow)
+    org:  MIT
+    date:  February 16, 2024
+
   - title: "NSF Institute for Artificial Intelligence and Fundamental Interactions"
     url:  talks/jthaler_2023_12_04_EECS_Lunch_IAIFI.pdf
     event:  Lunch Seminar
@@ -1810,6 +1816,12 @@ seminars:
 
 
 additional:
+
+  - title:  "Perspectives on AI + Physics"
+    event: Panel on Public Affairs
+    org: American Physical Society
+    virtual: true
+    date:  February 9, 2024
 
   - title:  "Experiences and Centers:  IAIFI"
     url:  talks/jthaler_2024_02_01_AI4Science_Harvard.pdf
