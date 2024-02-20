@@ -58,6 +58,13 @@ topics:
 
 entries:
 
+  - title:  "Institute for Artificial Intelligence and Fundamental Interactions (IAIFI): Infusing physics intelligence into artificial intelligence"
+    url:  http://doi.org/10.1002/aaai.12150
+    collaborators:  Mike Williams and Marisa LaFleur
+    org:  AI Magazine
+    date:  February 2024
+    topic:  essays_ai
+
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url:    https://physics.mit.edu/wp-content/uploads/2023/09/PhysicsAtMIT_2023_Williams_and_Thaler_Feature.pdf
     collaborators:  Mike Williams
