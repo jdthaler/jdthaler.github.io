@@ -1,5 +1,8 @@
 phd_theses:
 
+  - name: Stella Schindler
+    advisor: Iain Stewart
+
   - name: Yitian Sun
     advisor: Tracy Slatyer
 
@@ -183,6 +186,7 @@ academic_advising:
       - name: "Class of 2024"
         members:
           - name: Omar Abdelghani
+          - name: Nishant Dhankar
           - name: Chirag Falor
           - name: M. Geogdzhayeva
           - name: Lily Moseni
