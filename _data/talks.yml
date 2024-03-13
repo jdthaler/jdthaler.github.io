@@ -278,6 +278,13 @@ colloquia:
     
 public:
 
+  - title: "Predictably Uncertain: A Physicist’s Perspective on AI Policy"
+    url:  talks/jthaler_2024_03_13_OTR.pdf
+    event:  Off the Record Lecture
+    event_url:  https://off-the-record.org/content.aspx?page_id=4002&club_id=706499&item_id=2006683
+    org:  New York City Bar Association
+    date:  March 13, 2024
+
   - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
     url: talks/jthaler_2023_01_19_NSF_Lecture.pdf
     video: https://www.youtube.com/live/P1ndOdT-wTY?feature=share
