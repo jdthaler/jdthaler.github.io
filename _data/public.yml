@@ -58,6 +58,14 @@ topics:
 
 entries:
 
+  - title: "Predictably Uncertain: A Physicist’s Perspective on AI Policy"
+    url:  https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2024_03_13_OTR.pdf
+    event:  Off the Record Foreign Policy Association Lecture
+    event_url:  https://off-the-record.org/content.aspx?page_id=4002&club_id=706499&item_id=2006683
+    org:  New York City Bar Association
+    date:  March 2024
+    topic:  public_talks_ai
+
   - title:  "Institute for Artificial Intelligence and Fundamental Interactions (IAIFI): Infusing physics intelligence into artificial intelligence"
     url:  http://doi.org/10.1002/aaai.12150
     collaborators:  Mike Williams and Marisa LaFleur
