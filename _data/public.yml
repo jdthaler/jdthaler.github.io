@@ -58,6 +58,12 @@ topics:
 
 entries:
 
+  - title:  "Talk at 1014: What are the Consequences of AI?"
+    collaborators:  Hendrik Strobelt and Renate Kurowski-Cardello
+    url:  https://www.1014.nyc/events/consequences-of-ai
+    org:  1014 Inc., New York
+    date:  March 2023
+
   - title: "Predictably Uncertain: A Physicist’s Perspective on AI Policy"
     url:  https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2024_03_13_OTR.pdf
     event:  Off the Record Foreign Policy Association Lecture
