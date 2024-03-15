@@ -1,4 +1,5 @@
 years:
+  - 2024
   - 2023
   - 2022
   - 2021
@@ -22,6 +23,18 @@ years:
   - 2002
   
 papers:
+
+  - title: "Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling"
+    authors:  Rikab Gambhir, Athis Osathapan, and Jesse Thaler
+    arxiv:  2403.08854
+    year:  2024
+    topic: point_cloud
+
+  - title: "PAPERCLIP: Associating Astronomical Observations and Natural Language with Multi-Modal Models"
+    authors:  Siddharth Mishra-Sharma, Yiding Song, and Jesse Thaler
+    arxiv:  2403.08851
+    year:  2024
+    topic:  foundation_models
 
   - title: "Anomaly Detection in Collider Physics via Factorized Observables"
     authors:  Eric M. Metodiev, Jesse Thaler, and Raymond Wynne
