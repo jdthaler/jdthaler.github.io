@@ -1830,7 +1830,14 @@ seminars:
 
 additional:
 
+  - panelist: true
+    event:  "Symposium on the Impact of Generative AI in the Physical Sciences"
+    event_url:  https://iaifi.org/generative-ai-workshop
+    org:  IAIFI, MIT
+    date:  March 14, 2024
+
   - title:  "Perspectives on AI + Physics"
+    url:  talks/jthaler_2024_02_09_IAIFI_POPA.pdf
     event: Panel on Public Affairs
     org: American Physical Society
     virtual: true
