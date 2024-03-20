@@ -1,5 +1,9 @@
 phd_theses:
 
+  - name: Enrique Toloza
+    title:  "Biophysical Specializations Supporting Efficiency and Flexibility in Neural Networks"
+    advisor:  Mark Harnett & Mehran Kardar
+
   - name: Stella Schindler
     advisor: Iain Stewart
 
