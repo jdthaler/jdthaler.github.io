@@ -5,6 +5,10 @@ aside:
   toc: true
 ---
 
+## Today's Date
+
+{{ site.time | date: '%B %d, %Y' }}
+
 ## Email Lists
 
 ### Current Email List
