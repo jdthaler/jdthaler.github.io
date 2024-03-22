@@ -2,7 +2,8 @@ name: Republish
 
 on:
   schedule:
-    - cron: '1 2 * * *'  # Run at 6:01 pm every day.
+    - cron:  '0 3 * * *' # Runs every day at 3am
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -10,9 +11,9 @@ jobs:
       - name: Trigger GitHub pages rebuild
         run: |
           curl --fail --request POST \
-            --url  https://api.github.com/repos/jdthaler/jdthaler.github.io/pages/builds \
+            --url https://api.github.com/repos/${{ github.repository }}/pages/builds \
             --header "Authorization: Bearer $USER_TOKEN"
         env:
           # You must create a personal token with repo access as GitHub does
           # not yet support server-to-server page builds.
-          USER_TOKEN: $
+          USER_TOKEN: ${{ secrets.USER_TOKEN }}
