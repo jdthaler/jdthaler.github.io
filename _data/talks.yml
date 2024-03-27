@@ -1830,6 +1830,11 @@ seminars:
 
 additional:
 
+  - event:  "Second Annual U.S. Future Circular Collider Workshop"
+    event_url:  https://indico.mit.edu/event/876/
+    org: MIT
+    date:  March 25, 2024
+
   - panelist: true
     event:  "Symposium on the Impact of Generative AI in the Physical Sciences"
     event_url:  https://iaifi.org/generative-ai-workshop
