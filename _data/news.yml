@@ -97,7 +97,15 @@ perspectives:
     journal:  Facebook AI
     image:  /news/2021-facebook-ai-00_0.jpg
     date:  2021-06-18
+  
+  - title:  "Quantum computer captures physics of high-energy particles"
+    url:  https://physicsworld.com/a/quantum-computer-captures-physics-of-high-energy-particles/
+    journal:  Physics World
+    image:  /news/2021-physics-world-quantum-00_0.png
+    date:  2021-02-24
+    quote: "While some aspects of particle scattering can be described in a classical language, nature is fundamentally quantum mechanical."
     
+  
   - title: Faculty discuss Flexible P/NR policy
     url: https://thetech.com/2020/03/25/faculty-discuss-flexible-pnr
     journal:  The Tech
