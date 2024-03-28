@@ -6,14 +6,13 @@ aside:
 permalink: /news/
 ---
 
-Press coverage related to me and my research group.
+Press coverage related to me and my research group.  Last updated:  {{ "now" | date: "%B %d, %Y" }}
 
 [Press Information](/press){:.button.button--secondary.button--pill.button--sm}
 [News Archive](#news-archive){:.button.button--secondary.button--pill.button--sm}
 
 
 ## Recent News Articles
-
 
 
 {% assign news_list = site.data.news.profiles | concat: site.data.news.awards | concat: site.data.news.perspectives | concat: site.data.news.group_news %}
