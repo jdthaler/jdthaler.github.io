@@ -82,7 +82,7 @@ permalink: /about/
   </div>
   <div class="item__content" markdown="1">
   * "[{{news.title}}]({{news.url}}){:target="_blank"}" \\
-    *{{news.journal}}, {{news.date}}*
+    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
   </div>
 </div>
 {% endfor %}
@@ -102,7 +102,7 @@ permalink: /about/
   </div>
   <div class="item__content" markdown="1">
   * **{{news.short}}**: "[{{news.title}}]({{news.url}}){:target="_blank"}" \\
-    *{{news.journal}}, {{news.date}}*
+    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
   </div>
 </div>
 {% endfor %}
@@ -122,7 +122,7 @@ permalink: /about/
   </div>
   <div class="item__content" markdown="1">
   * "[{{news.title}}]({{news.url}}){:target="_blank"}" \\
-    *{{news.journal}}, {{news.date}}*
+    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
 {%- if news.quote %}
   > *{{news.quote}}*
 {%- endif %}
@@ -145,7 +145,7 @@ permalink: /about/
   </div>
   <div class="item__content" markdown="1">
   * **{{news.person}}**: "[{{news.title}}]({{news.url}}){:target="_blank"}"\\
-    *{{news.journal}}, {{news.date}}*
+    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
   </div>
 </div>
 {% endfor %}
