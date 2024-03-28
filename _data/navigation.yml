@@ -3,6 +3,9 @@ header:
   - title: About
     url:   about
 
+  - title: News
+    url:   news
+
   - title: Group
     url:   group
 

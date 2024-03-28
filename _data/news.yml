@@ -5,56 +5,56 @@ group_news:
     url:  https://www.scientificamerican.com/article/particle-physicists-dream-of-a-muon-collider/
     journal:  Scientific American
     image:  /news/2023-sciam-muon-colider.jpg
-    date:  August 2023
+    date:  2023-08-28
 
   - person:  Akshunna S. Dogra and Rikab Gambhir
     title:  "Can you hear the shape of physics?"
     url:  https://www.imperial.ac.uk/news/246302/can-hear-shape-physics/
     journal:  Imperial College News
     image:  /news/2023-shaper-00_0.jpg
-    date:   July 2023
+    date:   2023-07-19
 
   - person:  Lina Necib
     title:   "Astroparticle Physicist Wins 2023 Valley Prize for Work on Dark Matter"
     url:     https://www.aps.org/publications/apsnews/202211/valley-prize.cfm
     journal: APS News
     image:  /news/2023-valley-prize-00_0.jpg
-    date:    October 2022
+    date:    2022-10-13
 
   - person:  Cari Cesarotti
     title:   "With open data, scientists share their work"
     url:     https://www.symmetrymagazine.org/article/with-open-data-scientists-share-their-work
     journal: Symmetry Magazine
     image:  /news/2019-symmetry-magazine-00_0.jpg
-    date:    August 2019
+    date:    2019-08-20
 
   - person:  Radha Mastandrea
     title:   "A passionate advocate for open data"
     url:     https://news.mit.edu/2018/Radha-Mastandrea-student-1018
     journal: MIT News
     image:  /news/2018-mit-news-00_0.jpg
-    date:    October 2018
+    date:    2018-10-18
     
   - person:  Radha Mastandrea
     title:   "Paying it forward: Fellowship boosts women in physics"
     url:     https://news.mit.edu/2018/paying-it-forward-fellowship-boosts-women-physics-0802
     journal: MIT News
     image:  /news/2018-mit-news-boosts-00_0.jpeg
-    date:    August 2018
+    date:    2018-08-02
     
   - person:  Kevin Zhou
     title:   "Seeking new stories about the physical world"
     url:     https://news.mit.edu/2017/student-profile-kevin-zhou-0421
     journal: MIT News
     image:  /news/2017-mit-news-pysical-00_0.jpg
-    date:    April 2017
+    date:    2017-04-20
     
   - person:  Kevin Zhou
     title:   "Four MIT students named 2017 Marshall Scholars"
     url:     https://news.mit.edu/2016/four-mit-students-marshall-scholars-1128
     journal: MIT News
     image:  /news/2016-mit-news-marshall-scholars-00_0.jpg
-    date:    November 2016
+    date:    2016-11-18
     
 perspectives:
 
@@ -63,45 +63,45 @@ perspectives:
     journal:  Symmetry Magazine
     image:  /news/2023-symmetry-magazine-p5.jpg
     quote:  "Particle physics is global science.  No matter what, there is no country that can afford the next collider by themselves."
-    date:  December 2023
+    date:  2023-12-08
 
   - title:  "From physics to generative AI: An AI model for advanced pattern generation"
     url:  https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927
     journal: MIT News
     image: /news/2023-pfgm-mit-csail-00_0.png
     quote: "I'm thrilled to see the myriad of ways ‘physics intelligence’ is transforming the field of artificial intelligence."
-    date:  September 2023
+    date:  2023-09-27
 
   - title: "Will artificial intelligence ever discover new laws of physics?"
     url: https://www.newscientist.com/article/mg25634141-200-will-artificial-intelligence-ever-discover-new-laws-of-physics/
     journal: New Scientist
     image:  /news/2022-new-scientist-00_0.jpg
-    date:  November 2022
+    date:  2022-11-21
     quote: "I was trained to think about what are the laws of nature in our universe. Now it’s ‘what is the space of all possible rules?’"
 
   - title: "Machine Learning Shaking Up Hard Sciences, Too"
     url: https://spectrum.ieee.org/machine-learning-in-physics
     journal: IEEE Spectrum
     image:  /news/2022-ieee-spectrum-00_0.jpg
-    date:  November 2022
+    date:  2022-10-07
     quote: "We’d like to have a machine learn to think more like a physicist, but we also just need to learn how to think a little bit more like a machine."
 
   - title: "A Hint of Dark Matter Sends Physicists Looking to the Skies"
     url: https://www.quantamagazine.org/a-hint-of-dark-matter-sends-physicists-looking-to-the-skies-20211019/
     journal: Quanta Magazine
     image:  /news/2021-quanta-magazine-00_0.jpg
-    date:   October 2021
+    date:   2021-10-19
 
   - title: "Advancing AI theory with a first-principles understanding of deep neural networks"
     url: https://ai.facebook.com/blog/advancing-ai-theory-with-a-first-principles-understanding-of-deep-neural-networks/
     journal:  Facebook AI
     image:  /news/2021-facebook-ai-00_0.jpg
-    date: June 2021
+    date:  2021-06-18
     
   - title: Faculty discuss Flexible P/NR policy
     url: https://thetech.com/2020/03/25/faculty-discuss-flexible-pnr
     journal:  The Tech
-    date:  March 2020
+    date:   2020-03-25
     quote:  "Our goal was to come up with a grading policy that was simple, flexible, and discipline agnostic, with mechanisms to ensure that students would always be incentivized to engage in all of their classes."
 
 
@@ -109,76 +109,75 @@ perspectives:
     url: https://phys.org/news/2019-11-plot-thickens-hypothetical-x17-particle.html
     journal:  Phys.org
     image:  /news/2019-phys-org-00_0.jpg
-    date:  November 2019
+    date:   2019-11-29
     
   - title: "With open data, scientists share their work"
     url: https://symmetrymagazine.org/article/with-open-data-scientists-share-their-work
     journal:  Symmetry Magazine
-    date:  August 2019
+    date:   2019-08-20
     
   - title: CMS releases open data for Machine Learning
     url: https://home.cern/news/news/knowledge-sharing/cms-releases-open-data-machine-learning
     journal:  CERN News
     image:  /news/2019-cern-news-00_0.jpg
-    date:  July 2019
+    date:   2019-07-17
     
   - title:  "Scientists meet at Fermilab to discuss machine learning for jet physics"
     url: https://news.fnal.gov/2018/11/scientists-meet-at-fermilab-to-discuss-machine-learning-for-jet-physics/
     journal:  Fermilab News
     image:  /news/2018-fermilab-news-00_0.jpg
-    date:  November 2018
-    quote:
+    date:  2018-11-01
     
   - title: Lighting the way for dark matter
     url: https://www.pnas.org/content/114/44/11557.full.pdf
     journal:  PNAS
     image:  /news/2017-pnas-00_0.jpg
-    date:   October 2017
+    date:   2017-10-31
     
   - title: In the Dark about Dark Matter
     url: https://www.scientificamerican.com/article/in-the-dark-about-dark-matter/
     journal: Scientific American
     image:  /news/2016-scientific-american-00_0.jpg
-    date:   October 2016
+    date:   2016-10-01
     quote:  "Do we live in a universe where each discovery leads to deeper, more fundamental insights, or do we live in one where some parts have rhyme and reason, but others don't?"
     
   - title: Has a Hungarian physics lab found a fifth force of nature?
     url: https://www.nature.com/articles/nature.2016.19957
     journal: Nature
     image:  /news/2016-nature-00_0.jpg
-    date:  May 2016
+    date:  2016-05-25
     
   - title: What Physicists Are Looking for Now That They’ve Found the Higgs Boson
     url: https://www.bloomberg.com/news/articles/2015-04-02/after-higgs-boson-what-physicists-are-looking-for-now
     journal: Bloomberg
     image:  /news/2015-bloomberg-00_0.jpg
-    date:  April 2015
+    date:  2015-04-02
 
   - title: "How Three Guys With $10K and Decades-Old Data Almost Found the Higgs Boson First"
     url: https://www.wired.com/2015/01/higgs-discovery-hijack-attempt/
     journal: Wired Magazine
     image:  /news/2015-wired-magazine-00_0.jpg
-    date: January 2015
+    date:  2015-01-23
     quote:  "Figuring out what happened in a collider is like trying to figure out what your dog ate at the park yesterday. You can find out, but you have to sort through a lot of shit to do it."
     
   - title: "'Particle Fever' documentary follows mystery of Higgs boson"
     url: https://www.seacoastonline.com/story/news/local/portsmouth-herald/2014/05/14/particle-fever-documentary-follows/36480676007/
     journal: Portsmouth Herald
     image:  /news/2014-portsmouth-herald-00_0.jpg
-    date:    May 2014
+    date:    2014-05-13
     
   - title: Connecting the visible universe with dark matter
     url: https://www.symmetrymagazine.org/article/november-2013/connecting-the-visible-universe-with-dark-matter
     journal: Symmetry Magazine
     image:  /news/2013-symmetry-magazine-00_0.jpg
-    date:    November 2013
+    date:    2013-11-18
 
 
   - title: "MIT’s Jesse Thaler Visits MHS"
     url: http://www.mhsmustangnews.com/2012/10/29/academic-news-mits-jesse-thaler-visits-mhs/
     journal:  Mustang News
     image:  /news/2012-mustang-news-00_0.jpg
-    date:     October 2012
+    date:    2012-10-29
     quote:  "Here’s the universe, here’s pencil and paper, now go and find something new."
 
 awards:
@@ -188,53 +187,53 @@ awards:
      url:      https://news.mit.edu/2022/american-physical-society-fellows-1019
      journal:  MIT News
      image:  /news/2022-mit-aps-fellows-00_0.jpg
-     date:     October 2022
+     date:     2022-10-19
 
    - short:    Simons Investigator
      title: Three MIT faculty members named 2022 Simons Investigators
      url: https://news.mit.edu/2022/three-mit-faculty-members-named-2022-simons-investigators-0624
      journal:  MIT News
      image:  /news/2022-simons-investigator-00_0.jpg
-     date:     June 2022
+     date:     2022-06-24
      
    - short:    DOE QuantISED
      title: Center for Theoretical Physics professors earn DOE Quantum Information Science Awards
      url: https://news.mit.edu/2018/mit-center-theoretical-physics-professors-quantum-information-science-awards-1012
      journal:  MIT News
      image:  /news/2018-mit-news-doe-00_0.jpg
-     date:     October 2018
+     date:     2018-10-12
 
    - short:    Promotion
      title: School of Science professors granted tenure
      url: https://news.mit.edu/2017/seven-mit-science-professors-granted-tenure-0628
      journal:  MIT News
      image:  /news/2017-mit-sos-tenure-00_0.jpg
-     date:     June 2017
+     date:     2017-06-28
 
    - short:    Edgerton Award
      title: "Biobarrier explorer and dark matter theorist win MIT’s prestigious junior faculty award"
      url: https://news.mit.edu/2016/ribbeck-thale-edgerton-award-0420
      journal:  MIT News
      image:  /news/2016-edgerton-award-00_0.jpg
-     date:     April 2016
+     date:     2016-04-20
 
    - short:   Sloan Fellowship
      title: "Six MIT researchers win Sloan Research Fellowships"
      url: https://news.mit.edu/2013/six-mit-researchers-win-sloan-research-fellowships
      journal:  MIT News
-     date:     February 2013
+     date:      2013-02-19
 
    - short:   PECASE Award
      title: Five MIT researchers win presidential early career honors
      url: https://news.mit.edu/2012/pecase-winners-announced-0723
      journal:  MIT News
-     date:     July 2012
+     date:      2012-07-23
 
    - short:   DOE Early Career Award
      title: Five from MIT receive DoE early career research grants
      url: https://news.mit.edu/2011/doe-grants-faculty
      journal:  MIT News
-     date:     June 2011
+     date:     2011-06-10
 
 profiles:
 
@@ -242,99 +241,98 @@ profiles:
     url: https://www.energy.gov/science/articles/jesse-thaler-then-and-now-2011-early-career-award-winner
     journal: DOE News
     image:  /news/2021-doe-news-00_0.jpg
-    date: December 2021
+    date:  2021-12-16
 
   - title: "Using AI to Drill Down in Physics"
     url: https://cacm.acm.org/news/253847-using-ai-to-drill-down-in-physics/
     journal: ACM News
     image:  /news/2021-acm-news-00_0.jpg
-    date: July 2021
+    date:  2021-07-08
 
   - title: "Can a Computer Devise a Theory of Everything?"
     url: https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html
     journal: New York Times
     image:  /news/2020-new-york-times-00_0.jpg
-    date: November 2020
+    date:  2020-11-23
 
 
   - title: "NSF advances artificial intelligence research with new nationwide institutes"
     url: https://www.nsf.gov/news/special_reports/announcements/082620.jsp
     journal:  NSF News
-    date: August 2020
+    date:  2020-08-26
 
 
   - title: "National Science Foundation awards $20M to launch artificial-intelligence institute"
     url: https://www.news.harvard.edu/gazette/story/2020/08/harvard-a-partner-in-20-million-ai-institute/
     journal: Harvard Gazette
     image:  /news/2020-harvard-gazette-00_0.jpg
-    date: August 2020
+    date:  2020-08-26
 
 
   - title: "National Science Foundation announces MIT-led Institute for Artificial Intelligence and Fundamental Interactions"
     url: https://news.mit.edu/2020/nsf-announces-mit-led-institute-artificial-intelligence-fundamental-interactions-0826
     journal: MIT News
     image:  /news/2020-iaifi-mit-news-00_0.jpg
-    date: August 2020
+    date:  2020-08-26
 
 
   - title: "A new metric to capture the similarity between collider events"
     url:   https://phys.org/news/2019-08-metric-capture-similarity-collider-events.html
     journal:  Phys.org
     image:  /news/2019-physics-org-00_0.jpg
-    date:  August 2019
+    date:   2019-08-09
 
   - title: "MIT physicists: Social networks could hold the key to finding new particles"
     url: https://arstechnica.com/science/2019/07/mit-physicists-social-networks-could-hold-the-key-to-finding-new-particles/
     journal:  Ars Technica
     image:  /news/2019-ars-technica-00_0.jpg
-    date:  August 2019
-    date:  July 2019
+    date:  2019-07-31
 
   - title: "Seeking new physics, scientists borrow from social networks"
     url: https://news.mit.edu/2019/new-physics-anomalous-particles-0726
     journal: MIT News
     image:  /news/2019-mit-news-00_0.jpg
-    date: July 2019
+    date:  2019-07-25
 
   - title: "Miracles when you use the right metric"
     url:  https://muon.wordpress.com/2019/02/24/miracles-when-you-use-the-right-metric/
     journal: Collider Blog
     image:  /news/2019-collider-blog-00_0.jpg
-    date:  February 2019
+    date:   2019-02-24
 
   - title: "Center for Theoretical Physics celebrates 50 years"
     url: https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
     journal: MIT News
     image:  /news/2018-mit-news-ctp-50years-00_0.jpg
-    date: March 2018
+    date:  2018-03-28
 
   - title: "Jesse Thaler: Seeking the fundamental nature of matter"
     url: https://news.mit.edu/2017/faculty-profile-jesse-thaler-1107
     journal: MIT News
     image:  /news/2017-mit-news-00_0.jpg
-    date: November 2017
+    date:  2017-11-07
 
   - title: "Chalkboard theorist"
     url: https://spotlight.mit.edu/2017/chalkboard-theorist
     journal: MIT Spotlight
     image:  /news/2017-mit-spotlight-00_0.jpg
-    date: November 2017
+    date: 2017-11-07
 
   - title: First open-access data from large collider confirm subatomic particle patterns
     url: https://news.mit.edu/2017/first-open-access-data-large-collider-subatomic-particle-patterns-0929
     journal: MIT Newsletter
     image:  /news/2017-mit-newsletter-00_0.jpg
-    date: September 2017
+    date:  2017-09-29
 
   - title: "Team simulates a magnetar to seek dark matter particle"
     url: https://news.mit.edu/2016/team-simulates-magnetar-seek-dark-matter-particle-1007
     journal: MIT Newsletter
     image:  /news/2016-mit-newsletter-00_0.jpg
-    date: October 2016
+    date:  2016-10-07
 
   - title: "Miller Fellow Focus: Jesse Thaler"
     url: https://miller.berkeley.edu/images/newsletters/2007_fall.pdf
     journal: Miller Institute Newsletter
     image:  /news/2007-miller-institute-news-00_0.jpg
-    date: Fall 2007
+    date:  2007-09-01
 
