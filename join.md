@@ -43,7 +43,8 @@ I anticipate **at least one opening** for a Ph.D. student in my research group i
 ### Propspective MIT Students
 
   * [MIT Physics Ph.D. Program](https://physics.mit.edu/academic-programs/graduate-students/graduate-admissions/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **prospective MIT Ph.D. students** are due in **mid-December**.
-  * I cannot provide any specific information about the admissions process.  Out of fairness to other applicants, I do not meet with prospective students in advance of their application, nor do I give application advice.
+  * I cannot provide any specific information about the admissions process.  Out of fairness to other applicants, I do not meet with prospective students in advance of their application, nor do I give individual application advice.
+  * As a general recommendation, **you are encouraged to mention potential mentors in your research statement**, so if you are interested in working with me, make sure that is clear in your application.
   * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  You can alert me to your application by filling out this form, though I will typically not respond.  Filling out this form is entirely optional; your official application is all that matters for admission.
   * If you are admitted, I would be delighted to talk to you about research opportunities in my group at the **[Physics Graduate Open House](https://physics.mit.edu/openhouse/){:target="_blank"}** event typically held in early April.
   * MIT does not have a separate Master's program in Physics, so you should apply to the Ph.D. program.
