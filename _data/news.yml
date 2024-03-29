@@ -1,6 +1,13 @@
 group_news:
 
   - person:  Cari Cesarotti
+    title:  "Science 30 Under 30 (2024)"
+    url:  https://www.forbes.com/profile/cari-cesarotti/
+    journal:  Forbes
+    image: /news/2023-forbes-30-cesarotti-00_0.png
+    date: 2023-11-28
+
+  - person:  Cari Cesarotti
     title:  "Particle Physicists Dream of a Muon Collider"
     url:  https://www.scientificamerican.com/article/particle-physicists-dream-of-a-muon-collider/
     journal:  Scientific American
