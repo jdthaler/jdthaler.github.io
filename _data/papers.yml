@@ -29,12 +29,14 @@ papers:
     arxiv:  2403.08854
     year:  2024
     topic: point_cloud
+    image: /news/2024-preprint-moments.png
 
   - title: "PAPERCLIP: Associating Astronomical Observations and Natural Language with Multi-Modal Models"
     authors:  Siddharth Mishra-Sharma, Yiding Song, and Jesse Thaler
     arxiv:  2403.08851
     year:  2024
     topic:  foundation_models
+    image: /news/2024-preprint-paperclip.png
 
   - title: "Anomaly Detection in Collider Physics via Factorized Observables"
     authors:  Eric M. Metodiev, Jesse Thaler, and Raymond Wynne
@@ -43,6 +45,7 @@ papers:
     year:  2023
     made_bs: true
     topic:  weak
+    image: /news/2023-preprint-force.png
 
   - title: "Safe but Incalculable: Energy-Weighting is Not All You Need"
     authors:  Samuel Bright-Thonney, Benjamin Nachman, and Jesse Thaler
@@ -50,6 +53,7 @@ papers:
     inspire: Bright-Thonney:2023gdl
     year: 2023
     topic: point_cloud
+    image: /news/2023-preprint-lefn.png
 
   - title: "Flavoured Jets with Exact Anti-kt Kinematics and Tests of Infrared and Collinear Safety"
     authors: Fabrizio Caola, Radosław Grabarczyk, Maxwell L. Hutt, Gavin P. Salam, Ludovic Scyboz, and Jesse Thaler
@@ -61,6 +65,7 @@ papers:
     year: 2023
     topic: jet_algorithms
     priority: 3
+    image: /design/jthaler_Flavour_PRD.png
 
   - title: "A Spectral Metric for Collider Geometry"
     authors: Andrew J. Larkoski and Jesse Thaler
@@ -71,6 +76,7 @@ papers:
     inspire: Larkoski:2023qnv
     year: 2023
     topic: optimal_transport
+    image: /news/2023-preprint-spectral-emd.png
 
   - title: "Pileup and Infrared Radiation Annihilation (PIRANHA): A Paradigm for Continuous Jet Grooming"
     authors: Samuel Alipour-fard, Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -82,6 +88,7 @@ papers:
     year: 2023
     made_phd: true
     topic: optimal_transport
+    image: /news/2023-preprint-piranha.png
 
   - title: "SHAPER: Can You Hear the Shape of a Jet?"
     authors:  Demba Ba, Akshunna S. Dogra, Rikab Gambhir, Abiy Tasissa, and Jesse Thaler
