@@ -6,7 +6,7 @@ aside:
 permalink: /news/
 ---
 
-Press coverage related to me and my research group.  Last updated:  {{ "now" | date: "%B %d, %Y" }}
+Press coverage and updates related to me and my research group.  Last updated:  {{ "now" | date: "%B %e, %Y" }}
 
 [Press Information](/press){:.button.button--secondary.button--pill.button--sm}
 [News Archive](#news-archive){:.button.button--secondary.button--pill.button--sm}
@@ -42,11 +42,11 @@ Press coverage related to me and my research group.  Last updated:  {{ "now" | d
 </div>
 {% endfor %}
 
-<!--
+
 ## Recent Papers
 
-[All Publications by Year](/cv/#publications--preprints){:.button.button--secondary.button--pill.button--sm}
-[All Publications by Topic](/research/){:.button.button--secondary.button--pill.button--sm}
+[All Papers by Year](/cv/#publications--preprints){:.button.button--secondary.button--pill.button--sm}
+[All Papers by Topic](/research/){:.button.button--secondary.button--pill.button--sm}
 
 
 {% assign one_arxiv_year_ago = "now" | date: "%y%m" | minus: 100 %}
@@ -55,13 +55,18 @@ Press coverage related to me and my research group.  Last updated:  {{ "now" | d
 {% assign arxivdate = paper.arxiv | minus: 0 %}
 {% if arxivdate < one_arxiv_year_ago %}{% break %}{% endif %}
 
-  * **{{paper.title}}**. \\
-    {{paper.authors}}.\\
-    {% if paper.doi %}  [{{paper.journal}}](https://doi.org/{{paper.doi}}){:target="_blank"}, {% endif %} [arXiv:{{paper.arxiv}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}.
-
+<div class="item"> 
+  <div class="item__image" class="m-2">
+    <a href="https://arxiv.org/abs/{{paper.arxiv}}">
+      <img class="image image-96--sm" style="object-fit: contain" src="{{paper.image | default: "/images/bubble_chamber.jpg"}}" title="{{paper.title}}"/>
+    </a>
+  </div>
+  <div class="item__content" markdown="1">
+  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}** \\
+        *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){:target="_blank"}{% endif %}*
+  </div> 
+</div>
 {% endfor %}
--->
-
 
 
 

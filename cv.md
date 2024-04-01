@@ -9,7 +9,7 @@ permalink: cv/
 
 [Short CV](/about){:.button.button--secondary.button--pill.button--sm}
 [Press Information](/press){:.button.button--secondary.button--pill.button--sm}
-[Publications by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
+[Papers by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [Presentations](#presentations){:.button.button--secondary.button--pill.button--sm}
 [PDF CV (January 2024)](/pdfs/jthaler_cv_2024_01_02.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
@@ -195,7 +195,7 @@ permalink: cv/
 
 ## Publications & Preprints
 
-[Publications by Topic](/research){:.button.button--secondary.button--pill.button--sm}
+[Papers by Topic](/research){:.button.button--secondary.button--pill.button--sm}
 [Inspire](https://inspirehep.net/author/profile/Jesse.Thaler.1){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 [arXiv](https://arxiv.org/a/thaler_j_1){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 [ORCID](https://orcid.org/0000-0002-2406-8160){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
