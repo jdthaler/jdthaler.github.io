@@ -1,0 +1,2 @@
+**[{{include.paper.title}}](https://arxiv.org/abs/{{include.paper.arxiv}}){:target="_blank"}** {% if include.recommend %}`recommended`{:.success}{% endif %}\\
+      *{{include.paper.authors}}, {% if include.paper.doi %}[{{include.paper.short_journal | default: "DOI" }}](https://doi.org/{{include.paper.doi}}){:target="_blank"}{% else %}[arXiv {{include.paper.year}}](https://arxiv.org/abs/{{include.paper.arxiv}}){:target="_blank"}{% endif %}*

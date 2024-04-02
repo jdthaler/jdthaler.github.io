@@ -62,8 +62,7 @@ Press coverage and updates related to me and my research group.  Last updated:  
     </a>
   </div>
   <div class="item__content" markdown="1">
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}** \\
-        *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){:target="_blank"}{% endif %}*
+  * {% include cv/paper_short_item.html paper = paper %}
   </div> 
 </div>
 {% endfor %}
