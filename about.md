@@ -62,7 +62,6 @@ permalink: /about/
 
 {% for paper in site.data.papers.papers -%}
   {%- if paper.priority >= 6 %}
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}** \\
-    *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){% endif %}*
+  * {% include cv/paper_short_item.html paper = paper %}
   {%- endif -%}
 {% endfor %}
