@@ -68,6 +68,15 @@ Press coverage and updates related to me and my research group.  Last updated:  
 {% endfor %}
 
 
+<!--
+## Recent Events
+
+{% assign talk_list = site.data.talks.colloquia | concat: site.data.talks.public | concat: site.data.talks.schools | concat: site.data.talks.invited | concat: site.data.talks.local | concat: site.data.talks.seminars | concat: site.data.talks.additional %}
+
+{% assign sorted_talk_list = talk_list | where: "item", "item.date >= 2023-01-19" %} 
+
+{% include cv/talk_list.html list = sorted_talk_list %}
+-->
 
 
 ## News Archive

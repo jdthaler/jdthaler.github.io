@@ -4,25 +4,25 @@ colloquia:
     url:  talks/jthaler_2023_11_06_HiddenGeometry_Tufts.pdf
     event:  Computer Science Colloquium
     org: Tufts
-    date:  November 6, 2023
+    date:  2023-11-06
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_03_31_Northwestern_Colloquium.pdf
     event: Physics and Astronomy Colloquium
     org: Northwestern
-    date: March 31, 2023
+    date:  2023-03-31
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_01_09_Technion_Colloquium.pdf
     event: Physics Colloquium
     org: Technion
-    date: January 9, 2023
+    date: 2023-01-09
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_01_08_TelAviv_Colloquium.pdf
     event: Physics Colloquium
     org: Tel Aviv
-    date: January 8, 2023
+    date: 2023-01-08
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2022_11_Brown_Colloquium.pdf
@@ -283,14 +283,14 @@ public:
     event:  Off the Record Foreign Policy Association Lecture
     event_url:  https://off-the-record.org/content.aspx?page_id=4002&club_id=706499&item_id=2006683
     org:  New York City Bar Association
-    date:  March 13, 2024
+    date:  2024-03-13
 
   - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
     url: talks/jthaler_2023_01_19_NSF_Lecture.pdf
     video: https://www.youtube.com/live/P1ndOdT-wTY?feature=share
     event: Distinguished Lecture
     org: National Science Foundation
-    date: January 19, 2023
+    date: 2023-01-19
     virtual: true
 
   - title: "Artificial Intelligence Meets Fundamental Physics"
@@ -1021,7 +1021,7 @@ local:
     url: talks/jthaler_2009_10_16_MIT.pdf
     event:  Grad Lunch Seminar
     org:  MIT CTP
-    date:  October 16, 2009
+    date:  2009-10-16
 
 seminars:
 
@@ -1030,28 +1030,27 @@ seminars:
     event:  IPNS Physics and Theory Joint Seminar
     event_url: https://www2.kek.jp/theory-center/theory/seminar/2023/11/15/14150/
     org: KEK
-    date:  November 20, 2023
+    date:  2023-11-20
 
   - title: "Learning Uncertainties the Frequentist Way"
     url: talks/jthaler_2023_01_25_PhyStat_Uncertainty.pdf
     event: Seminar
     event_url: https://indico.cern.ch/event/1203477/
     org: PHYSTAT
-    date: January 25, 2023
+    date: 2023-01-25
     virtual: true
 
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
     url: talks/jthaler_2023_01_11_HiddenGeometry_Israel.pdf
     event: Israel Joint Seminar
     org: Jerusalem
-    date: January 11, 2023
+    date: 2023-01-11
 
   - title: "Machine Learning for the Skeptical HEP Theorist"
     url: talks/jthaler_2022_11_Brown_Seminar.pdf
     event: Seminar
     org: Brown
     date: November 2022
-  
   
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
     url: talks/jthaler_2022_05_HiddenGeometry_Bern.pdf
