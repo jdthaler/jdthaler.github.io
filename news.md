@@ -12,19 +12,25 @@ Press coverage and updates related to me and my research group.  Last updated:  
 [News Archive](#news-archive){:.button.button--secondary.button--pill.button--sm}
 
 
+{% assign two_year_seconds = 2.0 | times: 60 | times: 60 | times: 24 | times: 365 %}
+{% assign two_years_ago = "now" | date: "%s" | minus: two_year_seconds %}
+
+{% assign one_year_seconds = 1.0 | times: 60 | times: 60 | times: 24 | times: 365 %}
+{% assign one_year_ago = "now" | date: "%s" | minus: one_year_seconds %}
+
+
 ## Recent News Articles
 
+_Press coverage in the past 24 months:_
 
 {% assign news_list = site.data.news.profiles | concat: site.data.news.awards | concat: site.data.news.perspectives | concat: site.data.news.group_news %}
 
 {% assign sorted_news_list = news_list | sort: "date" | reverse%} 
-{% assign seconds = 2.0 | times: 60 | times: 60 | times: 24 | times: 365 %}
-{% assign one_year_ago = "now" | date: "%s" | minus: seconds %}
 
 {% for news in sorted_news_list %}
 
 {% assign itemdate = news.date | date: "%s" | minus: 0 %}
-{% if itemdate < one_year_ago %}{% break %}{% endif %}
+{% if itemdate < two_years_ago %}{% break %}{% endif %}
 
 <div class="item"> 
   <div class="item__image" class="m-2">
@@ -48,6 +54,7 @@ Press coverage and updates related to me and my research group.  Last updated:  
 [All Papers by Year](/cv/#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [All Papers by Topic](/research/){:.button.button--secondary.button--pill.button--sm}
 
+_Papers posted to the arXiv from the past 12 months:_
 
 {% assign one_arxiv_year_ago = "now" | date: "%y%m" | minus: 100 %}
 
@@ -68,15 +75,20 @@ Press coverage and updates related to me and my research group.  Last updated:  
 {% endfor %}
 
 
-<!--
 ## Recent Events
+
+_Talks and panels from the past 12 months:_
 
 {% assign talk_list = site.data.talks.colloquia | concat: site.data.talks.public | concat: site.data.talks.schools | concat: site.data.talks.invited | concat: site.data.talks.local | concat: site.data.talks.seminars | concat: site.data.talks.additional %}
 
-{% assign sorted_talk_list = talk_list | where: "item", "item.date >= 2023-01-19" %} 
+{% assign sorted_talk_list = talk_list | where: "track","true" | sort: "date" | reverse %} 
 
-{% include cv/talk_list.html list = sorted_talk_list %}
--->
+{% for talk in sorted_talk_list -%}
+{%- assign itemdate = talk.date | date: "%s" | minus: 0 -%}
+{%- if itemdate < one_year_ago -%}{%- break -%}{%- endif -%}
+{%- unless talk.title or talk.panelist -%}{%- continue -%}{%- endunless -%}
+{% include cv/talk_item.html talk = talk %}
+{%- endfor %}
 
 
 ## News Archive

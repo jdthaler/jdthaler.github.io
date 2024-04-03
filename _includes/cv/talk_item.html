@@ -1,0 +1,12 @@
+{%- assign talk = include.talk -%}
+* {%if talk.video %}[video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"}{% endif %}
+  **{% if talk.url %}["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}{% elsif talk.title %}"{{talk.title}}"{% elsif talk.panelist %}Panelist{% elsif talk.convener %}Convener{% elsif talk.title %}"{{talk.title}}"{% else %}No Talk{%- endif %}**
+  {%- if talk.parts %} (
+    {%- for part in talk.parts -%}
+      {%if part.video %}[video]({{part.video}}){:.button.button--primary.button--rounded.button--xs.button--outline-success}{:target="_blank"} {% endif %}{% if part.url %}**["{{part.title}}"]({{part.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{part.title}}"**{% endif %}
+  {%- if forloop.last != true-%}, {% endif -%}{% endfor -%}
+  ) {%- endif -%}
+  {%- if talk.collab %} (with {{talk.collab}}){% endif %},
+  {% if talk.event_url %}[{{talk.event}}]({{talk.event_url}}){:target="_blank"}{% else %}{{talk.event}}{% endif %},
+  *{{talk.org}}, {{talk.date | date: "%B %Y"}}*
+  {%- if talk.virtual %} `virtual` {% endif %}

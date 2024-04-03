@@ -5,24 +5,28 @@ colloquia:
     event:  Computer Science Colloquium
     org: Tufts
     date:  2023-11-06
+    track: true
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_03_31_Northwestern_Colloquium.pdf
     event: Physics and Astronomy Colloquium
     org: Northwestern
     date:  2023-03-31
+    track: true
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_01_09_Technion_Colloquium.pdf
     event: Physics Colloquium
     org: Technion
     date: 2023-01-09
+    track: true
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2023_01_08_TelAviv_Colloquium.pdf
     event: Physics Colloquium
     org: Tel Aviv
     date: 2023-01-08
+    track: true
 
   - title: "Particle Physics through the Lens of Machine Learning"
     url: talks/jthaler_2022_11_Brown_Colloquium.pdf
@@ -284,6 +288,7 @@ public:
     event_url:  https://off-the-record.org/content.aspx?page_id=4002&club_id=706499&item_id=2006683
     org:  New York City Bar Association
     date:  2024-03-13
+    track: true
 
   - title: "Collision Course: Artificial Intelligence meets Fundamental Physics"
     url: talks/jthaler_2023_01_19_NSF_Lecture.pdf
@@ -292,6 +297,7 @@ public:
     org: National Science Foundation
     date: 2023-01-19
     virtual: true
+    track: true
 
   - title: "Artificial Intelligence Meets Fundamental Physics"
     url: talks/jthaler_2021_03_EmTech_InsideTrack.pdf
@@ -492,22 +498,25 @@ invited:
     event:  International Conference on Machine Learning Physics
     event_url:  https://mlphys.scphys.kyoto-u.ac.jp/ic_mlphys/
     org:  YITP, Kyoto
-    date:   November 16, 2023
+    date:   2023-11-16
+    track: true
 
   - title:  "The Hidden Geometry of Particle Collisions"
     url:  talks/jthaler_2023_10_13_HiddenGeometry_Simons.pdf
     event:  2023 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2023/
     org:   Simons Foundation
-    date:  October 13, 2023
-    
+    date:  2023-10-13
+    track: true
+
 
   - title: "The Hidden Geometry of Particle Collisions"
     url: talks/jthaler_2023_03_29_HiddenGeometry_ChicagoAI.pdf
     event: Pritzker Conference on AI+Science
     event_url: https://datascience.uchicago.edu/aiscience-conference/
     org: UChicago and Caltech
-    date: March 29, 2023
+    date: 2023-03-29
+    track: true
 
 
   - title: "Learning Uncertainties the Frequentist Way"
@@ -515,7 +524,8 @@ invited:
     event: Theoretical Physics for Machine Learning
     event_url: https://sites.google.com/view/phys4ml-2023/
     org: Aspen Center for Physics
-    date: February 28, 2023
+    date: 2023-02-28
+    track: true
 
   - title: "The Frontiers of Phenomenological Theory"
     url: talks/jthaler_2022_07_Snowmass_Pheno.pdf
@@ -885,19 +895,23 @@ local:
     url:  talks/jthaler_2024_03_07_PaloAlto_MIT_Breakfast.pdf
     event:  MIT Physics Breakfast
     org:  Palo Alto
-    date:  March 7, 2024
+    date:  2024-03-07
+    track: true
+
 
   - title:  "The Coming Decade(s) of Nuclear and Particle Physics"
     url:  talks/lwinslow_jthaler_2024_02_15_MIT_LRP_P5_Colloquium.pdf
     event:  Physics Colloquium (with Lindley Winslow)
     org:  MIT
-    date:  February 15, 2024
+    date:  2024-02-15
+    track: true
 
   - title: "NSF Institute for Artificial Intelligence and Fundamental Interactions"
     url:  talks/jthaler_2023_12_04_EECS_Lunch_IAIFI.pdf
     event:  Lunch Seminar
     org:  MIT EECS
-    date:  December 4, 2023
+    date:  2023-12-04
+    track: true
 
   - title: "Deep Learning: Lessons from the Launch of IAIFI"
     url: talks/jthaler_2022_05_IAIFI_Faculty_Lunch.pdf
@@ -1031,6 +1045,7 @@ seminars:
     event_url: https://www2.kek.jp/theory-center/theory/seminar/2023/11/15/14150/
     org: KEK
     date:  2023-11-20
+    track: true
 
   - title: "Learning Uncertainties the Frequentist Way"
     url: talks/jthaler_2023_01_25_PhyStat_Uncertainty.pdf
@@ -1039,12 +1054,14 @@ seminars:
     org: PHYSTAT
     date: 2023-01-25
     virtual: true
+    track: true
 
   - title: "The Geometry of Particle Collisions: Hidden in Plain Sight"
     url: talks/jthaler_2023_01_11_HiddenGeometry_Israel.pdf
     event: Israel Joint Seminar
     org: Jerusalem
     date: 2023-01-11
+    track: true
 
   - title: "Machine Learning for the Skeptical HEP Theorist"
     url: talks/jthaler_2022_11_Brown_Seminar.pdf
@@ -1832,56 +1849,65 @@ additional:
   - event:  "Second Annual U.S. Future Circular Collider Workshop"
     event_url:  https://indico.mit.edu/event/876/
     org: MIT
-    date:  March 25, 2024
+    date:  2024-03-25
+    track: true
 
   - panelist: true
     event:  "Symposium on the Impact of Generative AI in the Physical Sciences"
     event_url:  https://iaifi.org/generative-ai-workshop
     org:  IAIFI, MIT
-    date:  March 14, 2024
+    date:  2024-03-14
+    track: true
 
   - title:  "Perspectives on AI + Physics"
     url:  talks/jthaler_2024_02_09_IAIFI_POPA.pdf
     event: Panel on Public Affairs
     org: American Physical Society
     virtual: true
-    date:  February 9, 2024
+    date:  2024-02-09
+    track: true
 
   - title:  "Experiences and Centers:  IAIFI"
     url:  talks/jthaler_2024_02_01_AI4Science_Harvard.pdf
     event: "AI 4 Science"
     event_url:  https://ai4science.seas.harvard.edu/calendar_event/research-seminar/
     org: Harvard
-    date:  February 1, 2024
+    date:  2024-02-01
+    track: true
 
   - panelist: true
     event:  "Festival of Learning"
     event_url:  https://openlearning.mit.edu/mit-faculty/festival-learning
     org:  MIT
-    date:  January 31, 2024
+    date:  2024-01-31
+    track: true
 
   - event:  "The revolutionary impact and emerging challenges of generative AI in STEM research and education"
     event_url:  https://indico.mit.edu/event/887/
     org:  Harvard/MIT
-    date: January 18, 2024
+    date: 2024-01-18
+    track: true
 
   - panelist: true
     event:  "What Discoveries and New Techniques will be Enabled by AI?"
     event_url: https://indico.physics.brown.edu/event/2/
     org:  Brown AI Winter Workshop
-    date:  January 16, 2024
+    date:  2024-01-16
+    track: true
 
   - panelist: true
     event:  "Institutional Support and Funding for ML+PS"
     event_url:  https://ml4physicalsciences.github.io/2023/
     org:  NeurIPS Workshop on Machine Learning and the Physical Sciences
-    date:  December 15, 2023
+    date:  2023-12-15
+    track: true
 
   - panelist: true
     event:  "Generative AI + Education Symposium"
     event_url:  https://mitgenerativeaiweek.mit.edu/agenda
     org:  MIT
-    date:  November 29, 2023
+    date:  2023-11-29
+    track: true
 
   - event:  "Hammers & Nails 2023"
     event_url:  https://indico.cern.ch/event/1202995/
