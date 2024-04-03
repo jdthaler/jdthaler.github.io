@@ -75,7 +75,7 @@ _Papers posted to the arXiv from the past 12 months:_
 {% endfor %}
 
 
-## Recent Events
+## Recent/Upcoming Events
 
 _Talks and panels from the past 12 months:_
 

@@ -1846,6 +1846,12 @@ seminars:
 
 additional:
 
+  - panelist: true
+    event:  "Physics, AI, and the Future of Discovery"
+    org:  AIP Foundation
+    date:  2024-04-11
+    track: true
+
   - event:  "Second Annual U.S. Future Circular Collider Workshop"
     event_url:  https://indico.mit.edu/event/876/
     org: MIT
