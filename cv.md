@@ -174,7 +174,7 @@ permalink: cv/
 {% for course in site.data.teaching.courses -%}
   * **{{course.number}} --- {{course.title}}**
 {%- for role in course.roles %}
-    * {{role.name}}:  {% for iteration in role.iterations %}[{{iteration.date}}]({{iteration.url}}){:target="_blank"}{% if forloop.last != true %}, {% endif %}{% endfor %}
+    * {{role.name}}:  {% for iteration in role.iterations %}{% if iteration.url %}[{{iteration.date}}]({{iteration.url}}){:target="_blank"}{% else %}`upcoming` {{iteration.date}}{% endif %}{% if forloop.last != true %}, {% endif %}{% endfor %}
 {%- endfor %}
 {% endfor %}
 
