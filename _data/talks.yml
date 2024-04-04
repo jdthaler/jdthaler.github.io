@@ -1,5 +1,11 @@
 colloquia:
 
+  - tile:  "TBA"
+    event:  Physics Colloquium
+    org: UMass Amherst
+    date:  2024-05-01
+    track: true
+
   - title: "The Hidden Geometry of Particle Collisions"
     url:  talks/jthaler_2023_11_06_HiddenGeometry_Tufts.pdf
     event:  Computer Science Colloquium
@@ -493,6 +499,14 @@ schools:
 
 invited:
 
+  - title: "Interpretable Machine Learning"
+    event:  DPF-Pheno 2024
+    event_url:  https://indico.cern.ch/event/1358339/
+    org: U. Pittsburg & Carnegie Mellon
+    date: 2024-05-14
+    track: true
+
+
   - title: "The Hidden Geometry of Particle Collisions"
     url:  talks/jthaler_2023_11_16_HiddenGeometry_Kyoto.pdf
     event:  International Conference on Machine Learning Physics
@@ -890,6 +904,12 @@ invited:
 
 
 local:
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    event:  MIT Physics Alumni Event
+    org:  London
+    date:  2024-05-15
+    track: true
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url:  talks/jthaler_2024_03_07_PaloAlto_MIT_Breakfast.pdf
