@@ -1868,7 +1868,9 @@ additional:
 
   - panelist: true
     event:  "Physics, AI, and the Future of Discovery"
+    event_url:  https://www.youtube.com/watch?v=cUeEP15KN8M
     org:  AIP Foundation
+    video:  https://www.youtube.com/watch?v=cUeEP15KN8M
     date:  2024-04-11
     track: true
 
