@@ -110,4 +110,23 @@ font-size: map-get($base, font-size-xl);
 
 
 
+.article__content {
+   code.main1 {
+     color: $text-color-function;
+     background-color: $main-color-1;
+   }
+   
+   code.main2 {
+     color: $text-color-function;
+     background-color: $main-color-2;
+   }
+   
+   code.main3 {
+    color: $text-color-function;
+    background-color: $main-color-3;
+  }
+}
+
+
+
 /* end custom scss snippet */

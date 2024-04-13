@@ -1,6 +1,33 @@
+categories:
+
+  - title: Public Lectures
+    key: public
+    
+  - title: Lecture Series & Schools
+    key: schools
+
+  - title: Colloquia
+    key: colloquia
+
+  - title: Invited Talks
+    key: invited
+
+  - title: Seminars
+    key: seminars
+
+  - title: Panels
+    key: panels
+
+  - title: Local Presentations
+    key: local
+    
+  - title: Additional Events
+    key: additional
+
+
 colloquia:
 
-  - tile:  "TBA"
+  - title:  "TBA"
     event:  Physics Colloquium
     org: UMass Amherst
     date:  2024-05-01
@@ -506,6 +533,13 @@ invited:
     date: 2024-05-14
     track: true
 
+  - title:  "Perspectives on AI + Physics"
+    url:  talks/jthaler_2024_02_09_IAIFI_POPA.pdf
+    event: Panel on Public Affairs
+    org: American Physical Society
+    virtual: true
+    date:  2024-02-09
+    track: true
 
   - title: "The Hidden Geometry of Particle Collisions"
     url:  talks/jthaler_2023_11_16_HiddenGeometry_Kyoto.pdf
@@ -587,6 +621,14 @@ invited:
     event_url: https://www.kitp.ucsb.edu/activities/snowmass-c22
     org: KITP
     date: February 2022
+
+  - title: "AI and Science"
+    url: talks/jthaler_2022_02_IAIFI_CACM.pdf
+    event: Digital Event
+    event_url: https://cacm.acm.org/magazines/2022/4/259397-communications-digital-initiative-and-its-first-digital-event/fulltext
+    org: CACM
+    date: February 2022
+    virtual: true
    
   - title: "Collision Course:  Particle Physics meets Machine Learning"
     url: talks/jthaler_2021_11_ISTLisbon.pdf
@@ -1866,13 +1908,6 @@ seminars:
 
 additional:
 
-  - panelist: true
-    event:  "Physics, AI, and the Future of Discovery"
-    event_url:  https://www.youtube.com/watch?v=cUeEP15KN8M
-    org:  AIP Foundation
-    video:  https://www.youtube.com/watch?v=cUeEP15KN8M
-    date:  2024-04-11
-    track: true
 
   - event:  "Second Annual U.S. Future Circular Collider Workshop"
     event_url:  https://indico.mit.edu/event/876/
@@ -1880,21 +1915,12 @@ additional:
     date:  2024-03-25
     track: true
 
-  - panelist: true
-    event:  "Symposium on the Impact of Generative AI in the Physical Sciences"
-    event_url:  https://iaifi.org/generative-ai-workshop
-    org:  IAIFI, MIT
-    date:  2024-03-14
+  - event:  "The revolutionary impact and emerging challenges of generative AI in STEM research and education"
+    event_url:  https://indico.mit.edu/event/887/
+    org:  Harvard/MIT
+    date: 2024-01-18
     track: true
-
-  - title:  "Perspectives on AI + Physics"
-    url:  talks/jthaler_2024_02_09_IAIFI_POPA.pdf
-    event: Panel on Public Affairs
-    org: American Physical Society
-    virtual: true
-    date:  2024-02-09
-    track: true
-
+    
   - title:  "Experiences and Centers:  IAIFI"
     url:  talks/jthaler_2024_02_01_AI4Science_Harvard.pdf
     event: "AI 4 Science"
@@ -1902,51 +1928,11 @@ additional:
     org: Harvard
     date:  2024-02-01
     track: true
-
-  - panelist: true
-    event:  "Festival of Learning"
-    event_url:  https://openlearning.mit.edu/mit-faculty/festival-learning
-    org:  MIT
-    date:  2024-01-31
-    track: true
-
-  - event:  "The revolutionary impact and emerging challenges of generative AI in STEM research and education"
-    event_url:  https://indico.mit.edu/event/887/
-    org:  Harvard/MIT
-    date: 2024-01-18
-    track: true
-
-  - panelist: true
-    event:  "What Discoveries and New Techniques will be Enabled by AI?"
-    event_url: https://indico.physics.brown.edu/event/2/
-    org:  Brown AI Winter Workshop
-    date:  2024-01-16
-    track: true
-
-  - panelist: true
-    event:  "Institutional Support and Funding for ML+PS"
-    event_url:  https://ml4physicalsciences.github.io/2023/
-    org:  NeurIPS Workshop on Machine Learning and the Physical Sciences
-    date:  2023-12-15
-    track: true
-
-  - panelist: true
-    event:  "Generative AI + Education Symposium"
-    event_url:  https://mitgenerativeaiweek.mit.edu/agenda
-    org:  MIT
-    date:  2023-11-29
-    track: true
-
+    
   - event:  "Hammers & Nails 2023"
     event_url:  https://indico.cern.ch/event/1202995/
     org:  Switzerland
     date:  October 2023
-    
-  - panelist: true
-    event: Summit for AI Institutes Leadership (SAIL)
-    event_url: https://na.eventscloud.com/website/57313/
-    org: Georgia Tech
-    date: October 2023
     
   - event:  AI Hill Day
     org:  National Science Foundation
@@ -1957,25 +1943,10 @@ additional:
     org: Asilomar
     date: December 2022
 
-  - panelist: true
-    event: ML4Jets 2020
-    event_url: https://indico.cern.ch/event/1159913/
-    org: Rutgers
-    date: November 2022
-  
   - event: 2022 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2022/
     org: Simons Foundation
     date: October 2022
-  
-  - panelist: true
-    event: "Does the World need a new particle collider – and why?"
-    event_url:  https://indico.desy.de/event/33640/page/4260-public-event-oct-6-19h30
-    video:  https://youtu.be/TUV5e1OqnGo
-    org: European Committee for Future Accelerators, Hamburg
-    date: October 2022
-    other: Virtual to Hamburg
-    virtual: true
   
   - title: "Machine Learning for High Energy Physics"
     url: talks/jthaler_2022_08_GGI_Snowmass.pdf
@@ -1994,7 +1965,7 @@ additional:
   - event: Interplay of Fundamental Physics and Machine Learning
     org: Aspen Center for Physics
     date: June 2022
-  
+
   - title: "The NSF AI Institute for Artificial Intelligence and Fundamental Interactions"
     url: talks/jthaler_2022_02_IAIFI_AAAI.pdf
     event: USDA/NSF AI Institutes Panel
@@ -2002,23 +1973,6 @@ additional:
     org: AAAI-22
     date: February 2022
     virtual: true
-    
-  - title: "AI and Science"
-    url: talks/jthaler_2022_02_IAIFI_CACM.pdf
-    event: Digital Event
-    event_url: https://cacm.acm.org/magazines/2022/4/259397-communications-digital-initiative-and-its-first-digital-event/fulltext
-    org: CACM
-    date: February 2022
-    virtual: true
-    
-  - title: "The current limits of AI in science"
-    event: Workshop on AI and the Productivity of Science
-    event_url: https://www.oecd.org/sti/inno/ai-productivity-of-science.htm
-    org: OECD
-    date: November 2021
-    panelist: true
-    virtual: true
-    other: AI and the productivity of science
   
   - event: Collider Data Analysis Strategies
     event_url: https://indico.fnal.gov/event/44870/sessions/16380/
@@ -2474,3 +2428,86 @@ additional:
     event: Fundamental Symmetries and Fundamental Constants
     org: ICTP, Trieste
     date: September 2004
+
+panels:
+
+  - title:  "Physics, AI, and the Future of Discovery"
+    panelist: true
+    event:  AIP Foundation Live Event
+    event_url:  https://www.youtube.com/watch?v=cUeEP15KN8M
+    org:  American Institute of Physics
+    video:  https://www.youtube.com/watch?v=cUeEP15KN8M
+    date:  2024-04-11
+    track: true
+
+  - title:  "What is Needed for Generative AI to Fulfill its Promise in Physics?"
+    panelist: true
+    event:  "Symposium on the Impact of Generative AI in the Physical Sciences"
+    event_url:  https://iaifi.org/generative-ai-workshop
+    org:  IAIFI, MIT
+    date:  2024-03-14
+    track: true
+
+  - title:  "Supporting Learners through Technology and Course Iteration"
+    panelist: true
+    event:  "Festival of Learning"
+    event_url:  https://openlearning.mit.edu/mit-faculty/festival-learning
+    org:  MIT
+    date:  2024-01-31
+    track: true
+
+  - title:  "What Discoveries and New Techniques will be Enabled by AI?"
+    panelist: true
+    event:  AI Winter Workshop
+    event_url: https://indico.physics.brown.edu/event/2/
+    org:  Brown
+    date:  2024-01-16
+    track: true
+
+  - title: "Institutional Support and Funding for ML+PS"
+    panelist: true
+    event: Workshop on Machine Learning and the Physical Sciences
+    event_url:  https://ml4physicalsciences.github.io/2023/
+    org:  NeurIPS
+    date:  2023-12-15
+    track: true
+
+  - title: "Reinventing the Learner Experience"
+    panelist: true
+    event:  "Generative AI + Education Symposium"
+    event_url:  https://mitgenerativeaiweek.mit.edu/agenda
+    org:  MIT
+    date:  2023-11-29
+    track: true
+
+  - title: "Seven Inaugural AI Institutes"
+    panelist: true
+    event: Summit for AI Institutes Leadership (SAIL)
+    event_url: https://na.eventscloud.com/website/57313/
+    org: Georgia Tech
+    date: October 2023
+
+  - title:  "ML Connections between Industry and HEP"
+    panelist: true
+    event: ML4Jets 2020
+    event_url: https://indico.cern.ch/event/1159913/
+    org: Rutgers
+    date: November 2022
+
+  - title: "Does the World Need a New Particle Collider – And Why?"
+    panelist: true
+    event: First ECFA Workshop on Higgs/EW/Top Factories
+    event_url: https://indico.desy.de/event/33640/page/4260-public-event-oct-6-19h30
+    video:  https://youtu.be/TUV5e1OqnGo
+    org: European Committee for Future Accelerators, Hamburg
+    date: October 2022
+    other: Virtual to Hamburg
+    virtual: true
+
+  - title: "The Current Limits of AI in Science"
+    panelist: true
+    event: Workshop on AI and the Productivity of Science
+    event_url: https://www.oecd.org/sti/inno/ai-productivity-of-science.htm
+    org: OECD
+    date: November 2021
+    virtual: true
