@@ -79,7 +79,11 @@ _Papers posted to the arXiv from the past 12 months:_
 
 _Talks and panels from the past 12 months:_
 
-{% assign talk_list = site.data.talks.colloquia | concat: site.data.talks.public | concat: site.data.talks.schools | concat: site.data.talks.invited | concat: site.data.talks.local | concat: site.data.talks.seminars | concat: site.data.talks.additional %}
+{% assign talk_list = '' | split: '' %}
+
+{% for category in site.data.talks.categories %}
+{% assign talk_list = talk_list | concat: site.data.talks[category.key] %}
+{% endfor %}
 
 {% assign sorted_talk_list = talk_list | where: "track","true" | sort: "date" | reverse %} 
 

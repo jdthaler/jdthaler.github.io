@@ -182,7 +182,7 @@ permalink: cv/
 ### Guest Lectures
 
 {% for lecture in site.data.teaching.guest_lectures -%}
-  * ["{{lecture.title}}"]({{lecture.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}, {{lecture.course_number}} ({{lecture.course_name}}), *{{lecture.date}}*
+  * **["{{lecture.title}}"]({{lecture.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**, {{lecture.course_number}} ({{lecture.course_name}}), *{{lecture.date}}*
 {% endfor %}
 
 
@@ -236,27 +236,14 @@ permalink: cv/
 
 ## Presentations
 
-### Public Lectures
-{% include cv/talk_list.html list = site.data.talks.public %}
+{% for category in site.data.talks.categories %}
+### {{category.title}}
 
-### Lecture Series & Schools
-{% include cv/talk_list.html list = site.data.talks.schools %}
+{% for talk in site.data.talks[category.key] -%}
+{% include cv/talk_item.html talk = talk %}
+{%- endfor %}
 
-### Colloquia
-{% include cv/talk_list.html list = site.data.talks.colloquia %}
-
-### Invited Talks
-{% include cv/talk_list.html list = site.data.talks.invited %}
-
-### Seminars
-{% include cv/talk_list.html list = site.data.talks.seminars %}
-
-### Local Presentations
-{% include cv/talk_list.html list = site.data.talks.local %}
-
-### Additional Events
-{% include cv/talk_list.html list = site.data.talks.additional %}
-
+{% endfor %}
 
 ## Research Grants
 
