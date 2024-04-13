@@ -51,7 +51,7 @@ permalink: engagement/
    {% if entry.type %}{{entry.type}}, {% endif -%}
    {% if entry.event %}{% if entry.event_url %}[{{entry.event}}]({{entry.event_url}}){:target="_blank"}{% else %}{{entry.event}}{% endif %}, {% endif -%}   
    {% if entry.org %}*{{entry.org}}*, {% endif -%}
-   {% if entry.date %}*{{entry.date}}* {% endif -%}
+   {% if entry.date %}*{{entry.date | date: "%B %Y" }}* {% endif -%}
    {% if entry.doi %}[{{entry.journal}}](https://doi.org/{{entry.doi}}){:target="_blank"}{% endif %}
 {%- endif -%}
 {%- endfor -%}
