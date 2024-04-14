@@ -1101,6 +1101,12 @@ local:
 
 seminars:
 
+  - title: "What Observables are Safe to Calculate?"
+    event:  Quantum Matter in Mathematics and Physics Seminar
+    org: Harvard CMSA
+    date: 2024-04-24
+    track: true
+
   - title: "Quarks and Gluons through the Lens of Machine Learning"
     url:  talks/jthaler_2023_11_20_KEK_Quark_Gluon.pdf
     event:  IPNS Physics and Theory Joint Seminar
