@@ -77,6 +77,8 @@ _Papers posted to the arXiv from the past 12 months:_
 
 ## Recent/Upcoming Events
 
+[All Presentations](/cv/#presentations){:.button.button--secondary.button--pill.button--sm}
+
 _Talks and panels from the past 12 months:_
 
 {% assign talk_list = '' | split: '' %}
