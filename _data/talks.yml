@@ -2437,6 +2437,16 @@ additional:
 
 panels:
 
+  - title:  "Cosmic Explorer Connections to DOE Science"
+    panelist: true
+    virtual: true
+    url:  talks/jthaler_2024_04_25_CosmicExplorerThoughts.pdf
+    event:  Second Cosmic Explorer Symposium
+    event_url: https://indico.mit.edu/event/1010/
+    date: 2024-04-25
+    org: CE
+    track: true
+
   - title:  "Physics, AI, and the Future of Discovery"
     panelist: true
     event:  AIP Foundation Live Event
