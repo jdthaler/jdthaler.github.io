@@ -7,15 +7,17 @@ phd_theses:
   - name: Stella Schindler
     advisor: Iain Stewart
 
-  - name: Yitian Sun
-    advisor: Tracy Slatyer
-
   - name: Evgenii Kniazev
     title:  Precision Metrology With Ytterbium Ion Clock For New Physics Search
     advisor:  Vladan Vuletic
 
   - name: Ouail Kitouni
     advisor:  Mike Williams
+
+  - name: Yitian Sun
+    title:  "Illuminating the Nature of Dark Matter through Observation, Simulation and Machine Learning"
+    advisor: Tracy Slatyer
+    date:  April 2024
 
   - name: Cristian Zanoci
     title: Quantum Algorithms and Non-Equilibrium Dynamics in Disordered Many-Body Systems
