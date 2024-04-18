@@ -948,9 +948,16 @@ invited:
 local:
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
-    event:  MIT Physics Alumni Event
-    org:  London
+    event:  MIT School of Science Event
+    org:   IET London
     date:  2024-05-15
+    track: true
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    url:  talks/jthaler_2024_03_07_PaloAlto_MIT_Breakfast.pdf
+    event: Faculty Lunch
+    org: MIT Physics
+    date:  2024-04-18
     track: true
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
