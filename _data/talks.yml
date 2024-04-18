@@ -967,13 +967,6 @@ local:
     date:  2024-03-07
     track: true
 
-  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
-    url:  talks/jthaler_2024_03_07_PaloAlto_MIT_Breakfast.pdf
-    event:  MIT Physics Breakfast
-    org:  Palo Alto
-    date:  2024-03-07
-    track: true
-
 
   - title:  "The Coming Decade(s) of Nuclear and Particle Physics"
     url:  talks/lwinslow_jthaler_2024_02_15_MIT_LRP_P5_Colloquium.pdf
