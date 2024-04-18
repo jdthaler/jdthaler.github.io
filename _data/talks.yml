@@ -1102,7 +1102,7 @@ local:
 seminars:
 
   - title: "What Observables are Safe to Calculate?"
-    url: talks/jthaler_2024_04_26_CSMA_Safe.pdf
+    url_pending: talks/jthaler_2024_04_26_CSMA_Safe.pdf
     event:  Quantum Matter in Mathematics and Physics Seminar
     org: Harvard CMSA
     date: 2024-04-24
@@ -2441,7 +2441,7 @@ panels:
   - title:  "Cosmic Explorer Connections to DOE Science"
     panelist: true
     virtual: true
-    url:  talks/jthaler_2024_04_25_CosmicExplorerThoughts.pdf
+    url_pending:  talks/jthaler_2024_04_25_CosmicExplorerThoughts.pdf
     event:  Second Cosmic Explorer Symposium
     event_url: https://indico.mit.edu/event/1010/
     date: 2024-04-25
