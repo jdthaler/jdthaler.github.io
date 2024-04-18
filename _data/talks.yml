@@ -1102,6 +1102,7 @@ local:
 seminars:
 
   - title: "What Observables are Safe to Calculate?"
+    url_pending: talks/jthaler_2024_04_26_CSMA_Safe.pdf
     event:  Quantum Matter in Mathematics and Physics Seminar
     org: Harvard CMSA
     date: 2024-04-24
@@ -2436,6 +2437,16 @@ additional:
     date: September 2004
 
 panels:
+
+  - title:  "Cosmic Explorer Connections to DOE Science"
+    panelist: true
+    virtual: true
+    url_pending:  talks/jthaler_2024_04_25_CosmicExplorerThoughts.pdf
+    event:  Second Cosmic Explorer Symposium
+    event_url: https://indico.mit.edu/event/1010/
+    date: 2024-04-25
+    org: CE
+    track: true
 
   - title:  "Physics, AI, and the Future of Discovery"
     panelist: true
