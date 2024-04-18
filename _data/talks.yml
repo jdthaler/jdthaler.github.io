@@ -1105,7 +1105,7 @@ seminars:
     url_pending: talks/jthaler_2024_04_26_CSMA_Safe.pdf
     event:  Quantum Matter in Mathematics and Physics Seminar
     org: Harvard CMSA
-    date: 2024-04-24
+    date: 2024-04-26
     track: true
 
   - title: "Quarks and Gluons through the Lens of Machine Learning"
