@@ -2,7 +2,7 @@ name: Republish
 
 on:
   schedule:
-    - cron:  '0 3 * * *' # Runs every day at 3am
+    - cron:  '0 6 * * *' # Runs every day at 6am
 
 jobs:
   refresh:
