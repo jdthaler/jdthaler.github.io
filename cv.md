@@ -298,6 +298,9 @@ permalink: cv/
 #### MIT Center for Theoretical Physics
 {% include cv/service_list.html list = site.data.service.mit_ctp %}
 
+#### MIT Social and Ethical Responsibilities of Computing
+{% include cv/service_list.html list = site.data.service.mit_serc %}
+
 #### MIT Statistics and Data Science Center
 {% include cv/service_list.html list = site.data.service.mit_sdsc %}
 

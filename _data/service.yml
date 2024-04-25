@@ -65,6 +65,11 @@ mit_ctp:
   - name: MIT CTP Postdoc Selection Committee
     dates: Fall 2009-Present
 
+mit_serc:
+
+  - name: MIT SERC Seed Grant Selection Committee
+    dates: Spring 2024
+
 mit_sdsc:
 
   - name: MIT Physics, Statistics, and Data Science (PhysSDS) Committee
