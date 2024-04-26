@@ -1,3 +1,40 @@
+internal_categories:
+
+  - title: MIT Faculty
+    key: mit_faculty
+
+  - title: MIT Physics
+    key: mit_physics
+
+  - title: MIT Laboratory for Nuclear Science
+    key: mit_lns
+
+  - title: MIT Center for Theoretical Physics
+    key: mit_ctp
+
+  - title: MIT Social and Ethical Responsibilities of Computing
+    key: mit_serc
+
+  - title: MIT Statistics and Data Science Center
+    key: mit_sdsc
+
+  - title: MIT International Science and Technology Initiatives
+    key: mit_misti
+
+  - title: Before MIT
+    key: before_mit
+    
+external_categories:
+
+  - title: Advisory Boards
+    key: advisory_boards
+
+  - title: Workshop/Conference Organization
+    key: workshops
+
+  - title: Journal Editing
+    key: journal_editing
+
 mit_faculty:
 
   - name: MIT Faculty Committee on Curricula
