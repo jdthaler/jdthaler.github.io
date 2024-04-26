@@ -286,29 +286,14 @@ permalink: cv/
 
 ### Internal Service
 
-#### MIT Faculty
-{% include cv/service_list.html list = site.data.service.mit_faculty %}
+{% for category in site.data.service.internal_categories %}
+#### {{category.title}}
 
-#### MIT Physics
-{% include cv/service_list.html list = site.data.service.mit_physics %}
+{% for item in site.data.service[category.key] -%}
+{% include cv/service_item.html item = item %}
+{%- endfor %}
 
-#### MIT Laboratory for Nuclear Science
-{% include cv/service_list.html list = site.data.service.mit_lns %}
-
-#### MIT Center for Theoretical Physics
-{% include cv/service_list.html list = site.data.service.mit_ctp %}
-
-#### MIT Social and Ethical Responsibilities of Computing
-{% include cv/service_list.html list = site.data.service.mit_serc %}
-
-#### MIT Statistics and Data Science Center
-{% include cv/service_list.html list = site.data.service.mit_sdsc %}
-
-#### MIT International Science and Technology Initiatives
-{% include cv/service_list.html list = site.data.service.mit_misti %}
-
-#### Before MIT
-{% include cv/service_list.html list = site.data.service.before_mit %}
+{% endfor %}
 
 
 ### External Service
@@ -323,15 +308,14 @@ permalink: cv/
 {%- endfor %}
 {%- endfor %}
 
-#### Advisory Boards
-{% include cv/service_list.html list = site.data.service.advisory_boards %}
+{% for category in site.data.service.external_categories %}
+#### {{category.title}}
 
-#### Workshop/Conference Organization
-{% include cv/service_list.html list = site.data.service.workshops %}
+{% for item in site.data.service[category.key] -%}
+{% include cv/service_item.html item = item %}
+{%- endfor %}
 
-#### Journal Editing
-{% include cv/service_list.html list = site.data.service.journal_editing %}
-
+{% endfor %}
 #### Peer Review
 {% include cv/simple_list.html list = site.data.service.peer_review %}
 
