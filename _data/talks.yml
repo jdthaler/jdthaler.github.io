@@ -1110,7 +1110,7 @@ local:
 seminars:
 
   - title: "What Observables are Safe to Calculate?"
-    url_pending: talks/jthaler_2024_04_26_CSMA_Safe.pdf
+    url: talks/jthaler_2024_04_26_CSMA_Safe.pdf
     event:  Quantum Matter in Mathematics and Physics Seminar
     org: Harvard CMSA
     date: 2024-04-26
