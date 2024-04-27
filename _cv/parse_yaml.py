@@ -124,16 +124,16 @@ for paper in papers:
     papers_output.write('*')
   if 'made_bs' in paper:
     papers_output.write('$\\dagger$')
-  papers_output.write(' '+paper['authors'].replace('. ','.\ ')+',\n')
+  papers_output.write(' '+paper['authors'].replace('. ','.\\ ')+',\n')
   papers_output.write('\\emph{'+paper['title']+'}')
   if 'journal' in paper:
     papers_output.write(',')
   papers_output.write('\n')
   if 'journal' in paper:
-    papers_output.write(paper['journal'].replace('. ','.\ ')+'\n')
+    papers_output.write(paper['journal'].replace('. ','.\\ ')+'\n')
   papers_output.write('[arXiv:'+paper['arxiv']+'].\n\n')
 
-papers_output.write('\end{list}\n')
+papers_output.write('\\end{list}\n')
 
 
 #################### mentoring file
@@ -181,7 +181,7 @@ for person in phd_students:
   if 'thesis' in person:
     phd_students_output.write('\\\\ Thesis: ``'+person['thesis']+'\'\'')
     if 'joint' in person:
-      phd_students_output.write(' \emph{(jointly advised with '+person['joint']+')}')
+      phd_students_output.write(' \\emph{(jointly advised with '+person['joint']+')}')
     phd_students_output.write('\n')
   if 'after' in person:
     phd_students_output.write('\\\\ After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
@@ -209,7 +209,7 @@ for person in meng_students:
   if 'thesis' in person:
     meng_students_output.write('\\\\ Thesis: ``'+person['thesis']+'\'\'')
     if 'joint' in person:
-      meng_students_output.write(' \emph{(jointly advised with '+person['joint']+')}')
+      meng_students_output.write(' \\emph{(jointly advised with '+person['joint']+')}')
     meng_students_output.write('\n')
   if 'after' in person:
     meng_students_output.write('\\\\ After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
@@ -270,7 +270,7 @@ for person in bs_students:
     if 'thesis' in person:
       bs_students_output.write('\\\\ Thesis: ``'+person['thesis']+'\'\'')
       if 'joint' in person:
-        bs_students_output.write(' \emph{(jointly advised with '+person['joint']+')}')
+        bs_students_output.write(' \\emph{(jointly advised with '+person['joint']+')}')
       bs_students_output.write('\n')
     if 'after' in person:
       bs_students_output.write('\\\\ After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
@@ -295,7 +295,7 @@ for person in visitors:
   visitors_output.write('\\emph{'+person['dates'].replace('-','--')+'}\n')
   if 'project' in person:
     visitors_output.write('\\\\ Project: ``'+person['project']+'\'\'\n')
-  visitors_output.write('\\\\ Home Institution: \emph{'+person['home'])
+  visitors_output.write('\\\\ Home Institution: \\emph{'+person['home'])
   if 'home_advisor' in person:
     visitors_output.write(' ('+person['home_advisor']+')}\n')
   else:
@@ -340,7 +340,7 @@ def write_talks(output_file_name,text_string):
       if len(list_with_name) > 1:
         talk_output.write('\\\\ ')
       
-      talk_output.write(talk['event']+', \emph{'+talk['org']+', '+parser.parse(talk['date']).strftime("%B %Y")+'}')
+      talk_output.write(talk['event']+', \\emph{'+talk['org']+', '+parser.parse(talk['date']).strftime("%B %Y")+'}')
       if 'virtual' in talk and talk['virtual']:
         talk_output.write(' (virtual)\n')
       else:
@@ -419,7 +419,7 @@ service_yaml = yaml.load(service_input,Loader=yaml.BaseLoader)
 ########## internal service
 
 internal_service_output = open("cv_internal_service.tex","w")
-service_roles = service_yaml['mit_faculty'] + service_yaml['mit_sdsc'] + service_yaml['mit_physics'] + service_yaml['mit_lns'] + service_yaml['mit_ctp'] + service_yaml['mit_misti']
+service_roles = service_yaml['mit_faculty'] + service_yaml['mit_sdsc'] + service_yaml['mit_physics'] + service_yaml['mit_lns'] + service_yaml['mit_ctp'] + service_yaml['mit_serc'] + service_yaml['mit_misti']
 internal_service_output.write('\\bbl\n')
 
 for role in service_roles:
@@ -467,7 +467,7 @@ for role in journal_editing:
 external_service_output.write('\\item \\raggedright Peer Review: \\\\ \\textit{\\nohyphens{')
 peer_review_string = ''
 for role in peer_review:
-  peer_review_string += role['name'].replace(' ','~').replace('&','\&') + '; '
+  peer_review_string += role['name'].replace(' ','~').replace('&','\\&') + '; '
 external_service_output.write(peer_review_string[:-2]+'}}\n')
 
 ##### funding agency review
@@ -475,7 +475,7 @@ external_service_output.write(peer_review_string[:-2]+'}}\n')
 external_service_output.write('\\item \\raggedright Funding Agency Review: \\\\ \\textit{\\nohyphens{')
 agency_review_string = ''
 for role in agency_review:
-  agency_review_string += role['name'].replace(' ','~').replace('&','\&') + '; '
+  agency_review_string += role['name'].replace(' ','~').replace('&','\\&') + '; '
 external_service_output.write(agency_review_string[:-2]+'}}\n')
 
 #################### advising file
@@ -580,7 +580,7 @@ educational_commons_output.write(courses_string[:-2] + '\n')
 local_talks = talks_yaml['local']
 for talk in local_talks:
   if 'commons' in talk and talk['commons']:
-    educational_commons_output.write('\\item ' + talk['org'] + ' ' + talk['event'] + ', ``' + talk['title'] + '\'\', \emph{' + talk['date']+ '}\n')
+    educational_commons_output.write('\\item ' + talk['org'] + ' ' + talk['event'] + ', ``' + talk['title'] + '\'\', \\emph{' + talk['date']+ '}\n')
 
 #################### public file
 

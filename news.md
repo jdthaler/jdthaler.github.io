@@ -8,10 +8,6 @@ permalink: /news/
 
 Press coverage and updates related to me and my research group.  Last updated:  {{ "now" | date: "%B %e, %Y" }}
 
-[Press Information](/press){:.button.button--secondary.button--pill.button--sm}
-[News Archive](#news-archive){:.button.button--secondary.button--pill.button--sm}
-
-
 {% assign two_year_seconds = 2.0 | times: 60 | times: 60 | times: 24 | times: 365 %}
 {% assign two_years_ago = "now" | date: "%s" | minus: two_year_seconds %}
 
@@ -21,11 +17,14 @@ Press coverage and updates related to me and my research group.  Last updated:  
 
 ## Recent News Articles
 
+[Press Information](/press){:.button.button--secondary.button--pill.button--sm}
+[News Archive](#news-archive){:.button.button--secondary.button--pill.button--sm}
+
 _Press coverage in the past 24 months:_
 
 {% assign news_list = site.data.news.profiles | concat: site.data.news.awards | concat: site.data.news.perspectives | concat: site.data.news.group_news %}
 
-{% assign sorted_news_list = news_list | sort: "date" | reverse%} 
+{% assign sorted_news_list = news_list | sort: "date" | reverse %} 
 
 {% for news in sorted_news_list %}
 
