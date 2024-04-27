@@ -419,11 +419,13 @@ service_yaml = yaml.load(service_input,Loader=yaml.BaseLoader)
 ########## internal service
 
 internal_service_output = open("cv_internal_service.tex","w")
-service_roles = service_yaml['mit_faculty'] + service_yaml['mit_sdsc'] + service_yaml['mit_physics'] + service_yaml['mit_lns'] + service_yaml['mit_ctp'] + service_yaml['mit_serc'] + service_yaml['mit_misti']
+
 internal_service_output.write('\\bbl\n')
 
-for role in service_roles:
-  internal_service_output.write('\\item '+ role_string(role) + '\n')
+for category in service_yaml['internal_categories']:
+  if (int(category['priority']) >= 3):
+    for role in service_yaml[category['key']]:
+      internal_service_output.write('\\item '+ role_string(role) + '\n')
 
 internal_service_output.write('\\el\n')
 
