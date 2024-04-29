@@ -5,32 +5,31 @@ courses:
     roles:
       - name: Lecture
         iterations:
-          - date: Fall 2024
-
-          - date: Fall 2019
-            url:  https://stellar.mit.edu/S/course/8/fa19/8.831/
           - date: Spring 2017
             url:  https://stellar.mit.edu/S/course/8/sp17/8.831/
+          - date: Fall 2019
+            url:  https://stellar.mit.edu/S/course/8/fa19/8.831/
+          - date: Fall 2024
 
   - number: 8.398
     title:  Selected Topics in Graduate Physics
     roles:
       - name: Instructor
         iterations:
-          - date: Spring 2024
-            url:  https://canvas.mit.edu/courses/25649
-          - date: Fall 2023
-            url:  https://canvas.mit.edu/courses/22571
-          - date: Spring 2023
-            url:  https://canvas.mit.edu/courses/19643
-          - date: Fall 2022
-            url:  https://canvas.mit.edu/courses/16823
-          - date: Spring 2022
-            url:  https://canvas.mit.edu/courses/13866
-          - date: Fall 2021
-            url:  https://canvas.mit.edu/courses/11329
           - date: Spring 2021
             url:  https://canvas.mit.edu/courses/7673
+          - date: Fall 2021
+            url:  https://canvas.mit.edu/courses/11329
+          - date: Spring 2022
+            url:  https://canvas.mit.edu/courses/13866
+          - date: Fall 2022
+            url:  https://canvas.mit.edu/courses/16823
+          - date: Spring 2023
+            url:  https://canvas.mit.edu/courses/19643
+          - date: Fall 2023
+            url:  https://canvas.mit.edu/courses/22571
+          - date: Spring 2024
+            url:  https://canvas.mit.edu/courses/25649
             
   - number: 8.03
     title:  Physics III, Waves and Vibrations
@@ -57,11 +56,10 @@ courses:
             url:  https://stellar.mit.edu/S/course/8/sp18/8.051/
       - name: Recitation
         iterations:
-          - date: Fall 2012
-            url:  https://stellar.mit.edu/S/course/8/fa12/8.05/
           - date: Fall 2010
             url:  https://stellar.mit.edu/S/course/8/fa10/8.05/
-
+          - date: Fall 2012
+            url:  https://stellar.mit.edu/S/course/8/fa12/8.05/
 
   - number: 8.033
     title:  Relativity
@@ -81,13 +79,13 @@ courses:
     roles:
       - name: TEAL (studio class)
         iterations:
-          - date: Spring 2016
-            url:  https://stellar.mit.edu/S/course/8/sp16/8.02/
-          - date: Spring 2015
-            url:  https://stellar.mit.edu/S/course/8/sp15/8.02/
           - date: Spring 2014
             url:  https://stellar.mit.edu/S/course/8/sp14/8.02/
-
+          - date: Spring 2015
+            url:  https://stellar.mit.edu/S/course/8/sp15/8.02/
+          - date: Spring 2016
+            url:  https://stellar.mit.edu/S/course/8/sp16/8.02/
+            
   - number: 8.012
     title:  Physics I, Classical Mechanics
     roles:
@@ -101,13 +99,13 @@ courses:
     roles:
       - name: Lecture
         iterations:
-          - date: Spring 2013
-            url:  https://stellar.mit.edu/S/course/8/sp13/8.06/
-          - date: Spring 2012
-            url:  https://stellar.mit.edu/S/course/8/sp12/8.06/
           - date: Spring 2011
             url:  https://stellar.mit.edu/S/course/8/sp11/8.06/
-
+          - date: Spring 2012
+            url:  https://stellar.mit.edu/S/course/8/sp12/8.06/
+          - date: Spring 2013
+            url:  https://stellar.mit.edu/S/course/8/sp13/8.06/
+            
       - name: Recitation
         iterations:
           - date: Spring 2010

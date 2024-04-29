@@ -11,7 +11,7 @@ permalink: cv/
 [Press Information](/press){:.button.button--secondary.button--pill.button--sm}
 [Papers by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [Presentations](#presentations){:.button.button--secondary.button--pill.button--sm}
-[PDF CV (January 2024)](/pdfs/jthaler_cv_2024_01_02.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[PDF CV (April 2024)](/pdfs/jthaler_cv_2024_04_29.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Jesse Diaz Thaler
 
@@ -174,7 +174,7 @@ permalink: cv/
 {% for course in site.data.teaching.courses -%}
   * **{{course.number}} --- {{course.title}}**
 {%- for role in course.roles %}
-    * {{role.name}}:  {% for iteration in role.iterations %}{% if iteration.url %}[{{iteration.date}}]({{iteration.url}}){:target="_blank"}{% else %}`upcoming` {{iteration.date}}{% endif %}{% if forloop.last != true %}, {% endif %}{% endfor %}
+    * {{role.name}}:  {% for iteration in role.iterations %}{% if iteration.url %}[{{iteration.date}}]({{iteration.url}}){:target="_blank"}{% else %}{{iteration.date}} `upcoming`{:.main3}{% endif %}{% if forloop.last != true %}, {% endif %}{% endfor %}
 {%- endfor %}
 {% endfor %}
 

@@ -2,27 +2,35 @@ internal_categories:
 
   - title: MIT Faculty
     key: mit_faculty
+    priority: 6
 
   - title: MIT Physics
     key: mit_physics
+    priority: 6
 
   - title: MIT Laboratory for Nuclear Science
     key: mit_lns
+    priority: 6
 
   - title: MIT Center for Theoretical Physics
     key: mit_ctp
-
-  - title: MIT Social and Ethical Responsibilities of Computing
-    key: mit_serc
+    priority: 6
 
   - title: MIT Statistics and Data Science Center
     key: mit_sdsc
+    priority: 6
+
+  - title: MIT Social and Ethical Responsibilities of Computing
+    key: mit_serc
+    priority: 3
 
   - title: MIT International Science and Technology Initiatives
     key: mit_misti
+    priority: 3
 
   - title: Before MIT
     key: before_mit
+    priority: 0
     
 external_categories:
 

@@ -419,11 +419,13 @@ service_yaml = yaml.load(service_input,Loader=yaml.BaseLoader)
 ########## internal service
 
 internal_service_output = open("cv_internal_service.tex","w")
-service_roles = service_yaml['mit_faculty'] + service_yaml['mit_sdsc'] + service_yaml['mit_physics'] + service_yaml['mit_lns'] + service_yaml['mit_ctp'] + service_yaml['mit_serc'] + service_yaml['mit_misti']
+
 internal_service_output.write('\\bbl\n')
 
-for role in service_roles:
-  internal_service_output.write('\\item '+ role_string(role) + '\n')
+for category in service_yaml['internal_categories']:
+  if (int(category['priority']) >= 3):
+    for role in service_yaml[category['key']]:
+      internal_service_output.write('\\item '+ role_string(role) + '\n')
 
 internal_service_output.write('\\el\n')
 
@@ -580,7 +582,7 @@ educational_commons_output.write(courses_string[:-2] + '\n')
 local_talks = talks_yaml['local']
 for talk in local_talks:
   if 'commons' in talk and talk['commons']:
-    educational_commons_output.write('\\item ' + talk['org'] + ' ' + talk['event'] + ', ``' + talk['title'] + '\'\', \\emph{' + talk['date']+ '}\n')
+    educational_commons_output.write('\\item ' + talk['org'] + ' ' + talk['event'] + ', ``' + talk['title'] + '\'\', \\emph{' + parser.parse(talk['date']).strftime("%B %Y")+ '}\n')
 
 #################### public file
 

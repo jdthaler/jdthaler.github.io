@@ -949,10 +949,18 @@ invited:
 local:
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
-    event:  MIT School of Science Event
-    org:   IET London
+    event:  IET London Event
+    org:   MIT School of Science
     date:  2024-05-15
+    commons: true
     track: true
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    url:  talks/jthaler_2024_04_29_IAIFI_Singapore_Permanent_Secretary.pdf
+    event:  Visit from Permanent Secretary of Singapore for National Research and Development
+    org:   MIT
+    date: 2024-04-29
+    commons: true
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url:  talks/jthaler_2024_03_07_PaloAlto_MIT_Breakfast.pdf
@@ -963,11 +971,11 @@ local:
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url:  talks/jthaler_2024_03_07_PaloAlto_MIT_Breakfast.pdf
-    event:  MIT Physics Breakfast
-    org:  Palo Alto
+    event:  Breakfast in Palo Alto
+    org:  MIT Physics
     date:  2024-03-07
+    commons: true
     track: true
-
 
   - title:  "The Coming Decade(s) of Nuclear and Particle Physics"
     url:  talks/lwinslow_jthaler_2024_02_15_MIT_LRP_P5_Colloquium.pdf
