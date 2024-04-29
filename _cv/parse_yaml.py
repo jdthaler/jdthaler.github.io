@@ -582,7 +582,7 @@ educational_commons_output.write(courses_string[:-2] + '\n')
 local_talks = talks_yaml['local']
 for talk in local_talks:
   if 'commons' in talk and talk['commons']:
-    educational_commons_output.write('\\item ' + talk['org'] + ' ' + talk['event'] + ', ``' + talk['title'] + '\'\', \\emph{' + talk['date']+ '}\n')
+    educational_commons_output.write('\\item ' + talk['org'] + ' ' + talk['event'] + ', ``' + talk['title'] + '\'\', \\emph{' + parser.parse(talk['date']).strftime("%B %Y")+ '}\n')
 
 #################### public file
 
