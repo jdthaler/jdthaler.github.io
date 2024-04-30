@@ -65,6 +65,13 @@ group_news:
     
 perspectives:
 
+  - title:  "MIT faculty, instructors, students experiment with generative AI in teaching and learning"
+    url:  https://news.mit.edu/2024/mit-faculty-instructors-students-experiment-generative-ai-teaching-learning-0429
+    journal: MIT News
+    image: /news/2024-mit-news-festival-of-learning.jpg
+    quote:  "You have power to change the behavior of those tools."
+    date: 2024-04-29
+
   - title:  "Scientists design program for the future of US particle physics research"
     url:  https://www.symmetrymagazine.org/article/scientists-design-program-for-the-future-of-us-particle-physics-research?language_content_entity=und
     journal:  Symmetry Magazine
