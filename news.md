@@ -38,11 +38,7 @@ _Press coverage in the past 24 months:_
     </a>
   </div>
   <div class="item__content" markdown="1">
-  * {% if news.person%}**{{news.person}}**: {% endif %} {% if news.short%}**{{news.short}}**: {% endif %} "[{{news.title}}]({{news.url}}){:target="_blank"}" \\
-    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
-{%- if news.quote %}
-  > *{{news.quote}}*
-{%- endif %}
+  * {% include cv/news_item.html news = news %}
   </div> 
 </div>
 {% endfor %}
@@ -109,8 +105,7 @@ _Talks and panels from the past 12 months:_
     </a>
   </div>
   <div class="item__content" markdown="1">
-  * "[{{news.title}}]({{news.url}}){:target="_blank"}" \\
-    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
+  * {% include cv/news_item.html news = news %}
   </div>
 </div>
 {% endfor %}
@@ -129,8 +124,7 @@ _Talks and panels from the past 12 months:_
     </a>
   </div>
   <div class="item__content" markdown="1">
-  * **{{news.short}}**: "[{{news.title}}]({{news.url}}){:target="_blank"}" \\
-    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
+  * {% include cv/news_item.html news = news %}
   </div>
 </div>
 {% endfor %}
@@ -149,11 +143,7 @@ _Talks and panels from the past 12 months:_
     </a>
   </div>
   <div class="item__content" markdown="1">
-  * "[{{news.title}}]({{news.url}}){:target="_blank"}" \\
-    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
-{%- if news.quote %}
-  > *{{news.quote}}*
-{%- endif %}
+  * {% include cv/news_item.html news = news %}
   </div>
 </div>
 {% endfor %}
@@ -172,8 +162,7 @@ _Talks and panels from the past 12 months:_
     </a>
   </div>
   <div class="item__content" markdown="1">
-  * **{{news.person}}**: "[{{news.title}}]({{news.url}}){:target="_blank"}"\\
-    *{{news.journal}}, {{news.date | date: "%B %Y"}}*
+  * {% include cv/news_item.html news = news %}
   </div>
 </div>
 {% endfor %}

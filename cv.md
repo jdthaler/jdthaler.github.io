@@ -182,7 +182,7 @@ permalink: cv/
 ### Guest Lectures
 
 {% for lecture in site.data.teaching.guest_lectures -%}
-  * **["{{lecture.title}}"]({{lecture.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**, {{lecture.course_number}} ({{lecture.course_name}}), *{{lecture.date}}*
+  * **"[{{lecture.title}}]({{lecture.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}"**, {{lecture.course_number}} ({{lecture.course_name}}), *{{lecture.date}}*
 {% endfor %}
 
 
