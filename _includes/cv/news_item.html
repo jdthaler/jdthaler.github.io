@@ -1,0 +1,5 @@
+{% if news.person%}**{{news.person}}**: {% endif %} {% if news.short%}**{{news.short}}**: {% endif %} **["{{news.title}}"]({{news.url}}){:target="_blank"}** \\
+  *{{news.journal}}, {{news.date | date: "%B %Y"}}*
+{%- if news.quote %}
+> *{{news.quote}}*
+{%- endif %}
