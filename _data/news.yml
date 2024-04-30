@@ -65,6 +65,13 @@ group_news:
     
 perspectives:
 
+  - title:  "Machine learning and theory"
+    url:  https://www.symmetrymagazine.org/article/machine-learning-and-theory
+    journal:  Symmetry Magazine
+    image:  /news/2024-symmetry-ML-theory.jpg
+    quote:  "To actually phrase some of the aspects of the scientific process in rigorous, algorithmic terms such that a computer could do it — that itself is a rich scientific endeavor, and one that has a chance of really accelerating the way that we do scientific discovery."
+    date:  2024-04-30
+
   - title:  "MIT faculty, instructors, students experiment with generative AI in teaching and learning"
     url:  https://news.mit.edu/2024/mit-faculty-instructors-students-experiment-generative-ai-teaching-learning-0429
     journal: MIT News
