@@ -527,7 +527,7 @@ schools:
 
 invited:
 
-  - title: "Interpretable Machine Learning"
+  - title: "Interpretable Machine Learning for Particle Physics"
     url:  talks/jthaler_2024_05_14_InterpretableML_DPFPheno.pdf
     event:  DPF-Pheno 2024
     event_url:  https://indico.cern.ch/event/1358339/
