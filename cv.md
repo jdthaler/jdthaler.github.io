@@ -346,6 +346,7 @@ permalink: cv/
     * Michael Wadness, Medford High School  (Fall 2012-Spring 2015, Spring 2018, Spring 2022)
     * Michael Hirsh, Needham High School  (Spring 2010-Spring 2012)
   * Additional Outreach
+    * Neil Basu, American School in London (May 2024)
     * Hiroko Kaczmarek, Cambridge Rindge and Latin School (May 2021)
   * High School Job Shadowing
     * Audrey Grimes (York High School, December 2017)
