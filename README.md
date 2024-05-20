@@ -1,1 +1,1 @@
-# aux.jthaler.net
+# jthaler.net
