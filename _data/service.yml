@@ -24,6 +24,10 @@ internal_categories:
     key: mit_serc
     priority: 3
 
+  - title: MIT Electrical Engineering and Computer Science
+    key: mit_eecs
+    priority: 3
+
   - title: MIT International Science and Technology Initiatives
     key: mit_misti
     priority: 3
@@ -52,6 +56,9 @@ mit_faculty:
     
 mit_physics:
 
+  - name:  MIT Physics Council, Member at Large
+    dates: Fall 2024-Spring 2025
+
   - name: MIT Physics Ad Hoc Committee on Graduate Student Professional Development
     dates: Spring 2023
     
@@ -67,7 +74,7 @@ mit_physics:
     
   - name: MIT Physics Pappalardo Fellowships Executive Committee
     url: https://physics.mit.edu/research/pappalardo-fellowships-in-physics/
-    dates: Fall 2016-Fall 2017
+    dates: Fall 2016, Fall 2017
     
   - name: MIT Physics Colloquium Committee
     dates: "Spring 2010-Spring 2012; Chair: Fall 2012-Spring 2014"
@@ -93,7 +100,7 @@ mit_ctp:
     dates: Spring 2015-Spring 2017, Fall 2022-Spring 2023
     
   - name: MIT CTP Faculty Mentor
-    dates: April 2021-Present
+    dates: Spring 2021-Present
 
   - name: MIT CTP Faculty Search Committee
     dates: "Fall 2017, Fall 2021, Fall 2023; Chair: Fall 2019"
@@ -114,6 +121,10 @@ mit_serc:
 
   - name: MIT SERC Seed Grant Selection Committee
     dates: Spring 2024
+
+mit_eecs:
+  - name: MIT EECS Junior Faculty Mentoring Committee
+    dates: Spring 2024-Present
 
 mit_sdsc:
 
