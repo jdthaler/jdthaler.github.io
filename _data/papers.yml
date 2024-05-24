@@ -24,6 +24,14 @@ years:
   
 papers:
 
+  - title: "Lorentz-Equivariant Geometric Algebra Transformers for High-Energy Physics"
+    authors: Jonas Spinner, Victor Bresó, Pim de Haan, Tilman Plehn, Jesse Thaler, Johann Brehmer
+    arxiv: 2405.14806
+    year: 2024
+    topic: point_cloud
+    image: 2024-l-gatr.png
+
+
   - title: "Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling"
     authors:  Rikab Gambhir, Athis Osathapan, and Jesse Thaler
     arxiv:  2403.08854
