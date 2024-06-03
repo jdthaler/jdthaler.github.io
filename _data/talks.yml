@@ -386,6 +386,13 @@ public:
     
 schools:
 
+  - title: "The (Hidden) Geometry of Particle Collisions"
+    event: Summer School on Neurosymbolic Programming
+    event_url:  https://www.neurosymbolic.org/summerschool2024.html 
+    org:   "Salem, MA"
+    date:  2024-06-12
+    track: true
+
   - title: "The Standard Model"
     url: talks/jthaler_2022_09_Perimeter_TableTop.pdf
     event: School on Table-Top Experiments for Fundamental Physics
@@ -1933,6 +1940,9 @@ seminars:
 
 additional:
 
+  - event:  "Fundamental Physics in the Era of Big Data and Machine Learning"
+    org:  Aspen Center for Physics
+    date:  2024-05-27
 
   - event:  "Second Annual U.S. Future Circular Collider Workshop"
     event_url:  https://indico.mit.edu/event/876/
