@@ -169,8 +169,11 @@ academic_advising:
         members:
           - name: Bruno Scheihing Hitschfeld
           - name: Stella Schindler
+
+      - name: "Ph.D. 2024"
+        members:
           - name: Annie Wei
-          
+
       - name: "Ph.D. 2023"
         members:
           - name: Eric Anschuetz
@@ -189,12 +192,12 @@ academic_advising:
     dates: Fall 2011-Present
     cohorts:
     
-      - name: "Class of 2024"
+      - name: "Class of 2024/2025"
         members:
           - name: Omar Abdelghani
           - name: Nishant Dhankar
           - name: Chirag Falor
-          - name: M. Geogdzhayeva
+          - name: Gosha Geogdzhayeva
           - name: Lily Moseni
           - name: Dylan Raphael
           - name: Chris Viets
