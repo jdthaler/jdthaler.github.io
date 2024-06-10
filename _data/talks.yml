@@ -316,6 +316,15 @@ colloquia:
     
 public:
 
+  - title: "Opening Keynote (with Eric Mazur)"
+    event:  "Education in the Age of Generative AI"
+    event_url:  https://www.perusall.com/events/opening-keynote-event-perusall-exchange-2024
+    org:  Perusall Exchange
+    date:  2024-06-10
+    virtual: true
+    track: true
+
+
   - title: "Predictably Uncertain: A Physicist’s Perspective on AI Policy"
     url:  talks/jthaler_2024_03_13_OTR.pdf
     event:  Off the Record Foreign Policy Association Lecture
@@ -2465,6 +2474,7 @@ additional:
     date: September 2004
 
 panels:
+
 
   - title:  "Cosmic Explorer Connections to DOE Science"
     panelist: true
