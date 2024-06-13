@@ -396,6 +396,7 @@ public:
 schools:
 
   - title: "The (Hidden) Geometry of Particle Collisions"
+    url:  talks/jthaler_2024_06_12_HiddenGeometry_Salem.pdf
     event: Summer School on Neurosymbolic Programming
     event_url:  https://www.neurosymbolic.org/summerschool2024.html 
     org:   "Salem, MA"
