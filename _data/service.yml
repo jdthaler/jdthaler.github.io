@@ -49,6 +49,9 @@ external_categories:
 
 mit_faculty:
 
+  - name: MIT Rapid Response Task Force on Large Scale Proposal Development
+    dates:  Summer 2024
+
   - name: MIT Faculty Committee on Curricula
     short_name: Committee on Curricula
     url:  https://registrar.mit.edu/faculty-curriculum-support/faculty-curriculum-committees/committee-curricula
