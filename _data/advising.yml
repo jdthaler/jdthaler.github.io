@@ -7,12 +7,13 @@ phd_theses:
   - name: Stella Schindler
     advisor: Iain Stewart
 
-  - name: Evgenii Kniazev
-    title:  Precision Metrology With Ytterbium Ion Clock For New Physics Search
-    advisor:  Vladan Vuletic
-
   - name: Ouail Kitouni
     advisor:  Mike Williams
+
+  - name: Evgenii Kniazev
+    title:  Precision Metrology with Ytterbium Ions for New Physics Search
+    advisor:  Vladan Vuletic
+    date:  June 2024
 
   - name: Yitian Sun
     title:  "Illuminating the Nature of Dark Matter through Observation, Simulation and Machine Learning"
