@@ -1950,6 +1950,11 @@ seminars:
 
 additional:
 
+  - event:  "Energy Correlators at the Collider Frontier"
+    event_url:  https://indico.mitp.uni-mainz.de/event/358/
+    org:  MITP
+    date:  2024-07-08
+
   - event:  "Fundamental Physics in the Era of Big Data and Machine Learning"
     org:  Aspen Center for Physics
     date:  2024-05-27
