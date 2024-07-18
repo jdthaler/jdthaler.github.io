@@ -17,17 +17,24 @@ permalink: contact/
 <img class="image-96--xl" src="{{topimage.image}}" title="{{topimage.hover}}"/>
 </div>
 <div class="item__content" markdown=1>
-{{name.first}} {{name.last}}\\
+**{{name.first}} {{name.last}}**\\
 {{address.org}}\\
 {{address.street}}, [{{address.office}}]({{address.office_url}})\\
 {{address.city}}, {{address.state}} {{address.zip}}
 
+Official MIT office number:  [8-323](http://whereis.mit.edu/?go=8)
+
 {{phone.work}}
+
+</div>
+</div>
+
 
 *Pronouns*:  {{name.pronouns}} \\
 *Pronunciation*:  {{name.pronunciation}}
-</div>
-</div>
+
+
+
 
 [Joining My Group](/join){:.button.button--secondary.button--pill.button--sm}
 [{{email.work}}](mailto:{{email.work}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}

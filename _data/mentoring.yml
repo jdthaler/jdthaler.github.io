@@ -89,7 +89,9 @@ postdocs:
        org: Princeton
      - title: Postdoc
        org: NYU
-   current: true
+   after:
+     - title: Assistant Professor
+       org: Boston U.
    updated: 2024
 
  - name: Lena Funcke
