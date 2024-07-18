@@ -50,6 +50,7 @@ external_categories:
 mit_faculty:
 
   - name: MIT Rapid Response Task Force on Large Scale Proposal Development
+    short_name: Large Scale Proposal Task Force
     dates:  Summer 2024
 
   - name: MIT Faculty Committee on Curricula
