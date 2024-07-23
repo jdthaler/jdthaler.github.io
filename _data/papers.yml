@@ -67,6 +67,9 @@ papers:
     authors:  Samuel Bright-Thonney, Benjamin Nachman, and Jesse Thaler
     arxiv:  "2311.07652"
     inspire: Bright-Thonney:2023gdl
+    doi:  10.1103/PhysRevD.110.014029
+    journal:  Phys. Rev. D110:014029 (2024)
+    short_journal:  PRD 2024
     year: 2023
     topic: point_cloud
     image: /news/2023-preprint-lefn.png
