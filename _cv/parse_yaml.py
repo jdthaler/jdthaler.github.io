@@ -121,9 +121,11 @@ papers_output.write('\\begin{list}{[\\arabic{jessecount}]\\addtocounter{jessecou
 for paper in papers:
   papers_output.write('\\item\n')
   if 'made_phd' in paper:
-    papers_output.write('*')
+    papers_output.write('${}^\\ast$')
   if 'made_bs' in paper:
-    papers_output.write('$\\dagger$')
+    papers_output.write('${}^\\dagger$')
+  if 'non_alphabetical' in paper:
+    papers_output.write('${}^\\S$')
   papers_output.write(' '+paper['authors'].replace('. ','.\\ ')+',\n')
   papers_output.write('\\emph{'+paper['title']+'}')
   if 'journal' in paper:
