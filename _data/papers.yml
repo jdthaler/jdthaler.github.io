@@ -53,6 +53,7 @@ papers:
     year:  2024
     topic:  foundation_models
     image: /news/2024-preprint-paperclip.png
+    non_alphabetical: true
 
   - title: "Anomaly Detection in Collider Physics via Factorized Observables"
     authors:  Eric M. Metodiev, Jesse Thaler, and Raymond Wynne
@@ -338,6 +339,8 @@ papers:
     year: 2019
     topic: qis
     priority: 3
+    non_alphabetical: true
+
 
   - title: "Exploring the Space of Jets with CMS Open Data"
     authors: Patrick T. Komiske, Radha Mastandrea, Eric M. Metodiev, Preksha Naik, and Jesse Thaler
@@ -411,6 +414,8 @@ papers:
     arxiv: "1809.01656"
     year: 2018
     topic: detecting_dm
+    non_alphabetical: true
+
 
   - title: "An Operational Definition of Quark and Gluon Jets"
     authors: Patrick T. Komiske, Eric M. Metodiev, and Jesse Thaler
@@ -513,6 +518,8 @@ papers:
     year: 2017
     made_bs: true
     topic: open_data
+    non_alphabetical: true
+
 
 
   - title: "Generalized Fragmentation Functions for Fractal Jet Observables"
