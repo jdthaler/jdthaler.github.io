@@ -1327,6 +1327,13 @@ papers:
 
 conference:
 
+  - title: "Exploring the Quantum Universe: Pathways to Innovation and Discovery in Particle Physics"
+    authors: Shoji Asai, Amalia Ballarino, Tulika Bose, Kyle Cranmer, Francis-Yan Cyr-Racine, Sarah Demers, Cameron Geddes, Yuri Gershtein, Karsten Heeger, Beate Heinemann, JoAnne Hewett, Patrick Huber, Kendall Mahn, Rachel Mandelbaum, Jelena Maricic, Petra Merkel, Christopher Monahan, Hitoshi Murayama, Peter Onyisi, Mark Palmer, Tor Raubenheimer, Mayly Sanchez, Richard Schnee, Sally Seidel, Seon-Hee Seo, Jesse Thaler, Christos Touramanis, Abigail Vieregg, Amanda Weinstein, Lindley Winslow, Tien-Tien Yu, Robert Zwaska
+    arxiv:  "2407.19176"
+    doi:  10.2172/2368847
+    journal: OSTI Tech. Rep. 2368847
+    year: 2024
+
   - title: "Snowmass Theory Frontier Report"
     authors: Nathaniel Craig, Csaba Csáki, Aida X. El-Khadra, et al.
     arxiv: "2211.05772"
