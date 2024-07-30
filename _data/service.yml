@@ -292,6 +292,7 @@ hepap:
   roles:
 
     - job:   Particle Physics Project Prioritization Panel (P5)
+      job_url:  https://www.usparticlephysics.org/2023-p5-report/
       dates: December 2022-December 2023
 
     - job:   HEPAP Member
