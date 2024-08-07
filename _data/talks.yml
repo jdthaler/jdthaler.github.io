@@ -403,6 +403,15 @@ schools:
     date:  2024-06-12
     track: true
 
+  - title: "The Coming Decade(s) of Particle Physics"
+    url:  talks/jthaler_2024_06_03_TASI_2024_Intro.pdf
+    event:  TASI 2024
+    event_url:  https://sites.google.com/colorado.edu/tasi-2024-hub/home
+    video:  https://www.youtube.com/watch?v=88t5Mh-uj_M=
+    org:  CU Boulder
+    date:  2024-06-03
+    track: true
+    
   - title: "The Standard Model"
     url: talks/jthaler_2022_09_Perimeter_TableTop.pdf
     event: School on Table-Top Experiments for Fundamental Physics
@@ -543,6 +552,13 @@ schools:
     date: January 2010
 
 invited:
+
+  - title: "Interpretable Machine Learning for Particle Physics"
+    event:  "PHYSTAT: Statistics Meets Machine Learning"
+    event_url:  https://indico.cern.ch/event/1407421/overview
+    org:  Imperial College London
+    date:  2024-09-10
+    track: true
 
   - title: "Interpretable Machine Learning for Particle Physics"
     url:  talks/jthaler_2024_05_14_InterpretableML_DPFPheno.pdf

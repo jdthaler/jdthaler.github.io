@@ -4,11 +4,17 @@ phd_theses:
     title:  "Biophysical Specializations Supporting Efficiency and Flexibility in Neural Networks"
     advisor:  Mark Harnett & Mehran Kardar
 
-  - name: Stella Schindler
-    advisor: Iain Stewart
+
 
   - name: Ouail Kitouni
+    title:  "Representations of Physics & Physics of Representations"
     advisor:  Mike Williams
+    date:  August 2024
+
+  - name: Stella Schindler
+    title:  "The Structure of Hadrons and Other Potential Phases of QCD"
+    advisor: Iain Stewart
+    date:  August 2024
 
   - name: Evgenii Kniazev
     title:  Precision Metrology with Ytterbium Ions for New Physics Search
