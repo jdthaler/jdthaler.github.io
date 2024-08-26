@@ -536,6 +536,12 @@ meng_students:
 
 bs_students:
 
+  - name: Nipun Dour
+    email: nipund@mit.edu
+    date: 2027
+    independent: Summer 2024
+    current: true
+
   - name: Max Tan
     email: maxt114@mit.edu
     image: /images/tan.png
@@ -547,7 +553,7 @@ bs_students:
     email: afayad@mit.edu
     image: /images/fayad.jpg
     date:  2024
-    urop:  Summer 2023
+    urop:  Summer 2023, Summer 2024
     current: true
     updated: 2023 
 
@@ -854,6 +860,14 @@ bs_students:
         
 
 visitors:
+
+  - name: Nathaniel Santiago
+    email:  "N-Santiago6@neiu.edu"
+    program: MIT Summer Research Program
+    dates: Summer 2024
+    project:  "Graph Neural Network Particle Reconstruction for DUNE's Prototype Near Detector"
+    home:  Northeastern Illinois University
+    updated: 2024
 
   - name: Yiding Song
     email:  neutrinovs@gmail.com

@@ -4,8 +4,6 @@ phd_theses:
     title:  "Biophysical Specializations Supporting Efficiency and Flexibility in Neural Networks"
     advisor:  Mark Harnett & Mehran Kardar
 
-
-
   - name: Ouail Kitouni
     title:  "Representations of Physics & Physics of Representations"
     advisor:  Mike Williams
@@ -162,7 +160,12 @@ academic_advising:
   - name: MIT Physics Graduate Academic Advisor
     dates: Fall 2017-Present
     cohorts:
-    
+
+      - name: "Anticipated Ph.D. 2029"
+        members:
+          - name: Aneca Sun
+          - name: Adam Wills
+
       - name: "Anticipated Ph.D. 2027"
         members:
           - name: Manu Srivastava
@@ -204,6 +207,7 @@ academic_advising:
           - name: Gosha Geogdzhayeva
           - name: Lily Moseni
           - name: Dylan Raphael
+          - name: David Suarez
           - name: Chris Viets
           
       - name: "Class of 2018/2019/2020"
