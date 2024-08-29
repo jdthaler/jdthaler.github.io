@@ -42,6 +42,7 @@ papers:
 
   - title: "Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling"
     authors:  Rikab Gambhir, Athis Osathapan, and Jesse Thaler
+    made_phd: true
     arxiv:  2403.08854
     year:  2024
     topic: point_cloud
