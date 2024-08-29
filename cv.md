@@ -11,7 +11,7 @@ permalink: cv/
 [Press Information](/press){:.button.button--secondary.button--pill.button--sm}
 [Papers by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [Presentations](#presentations){:.button.button--secondary.button--pill.button--sm}
-[PDF CV (July 2024)](/pdfs/jthaler_cv_2024_07_18.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[PDF CV (August 2024)](/pdfs/jthaler_cv_2024_08_29.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Jesse Diaz Thaler
 
