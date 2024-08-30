@@ -41,6 +41,22 @@ alumni_categories:
 
 postdocs:
 
+ - name: So Chigusa
+   url: https://website-sochigusa.vercel.app
+   email: schigusa@mit.edu
+   at:
+     - dates: Fall 2024-Spring 2027
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: Toyko
+     - title: Postdoc
+       org: KEK
+     - title: Postdoc
+       org: LBL
+   current: true
+   updated: 2024
+
  - name: Cari Cesarotti
    url: http://caricesarotti.com/
    image: /images/cesarotti.jpg
