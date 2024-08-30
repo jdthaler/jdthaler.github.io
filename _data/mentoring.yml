@@ -53,7 +53,22 @@ postdocs:
      - title: Postdoc
        org: KEK
      - title: Postdoc
-       org: LBL
+       org: LBNL
+   current: true
+   updated: 2024
+
+ - name: Kyle Lee
+   url:  https://www.linkedin.com/in/kyle-lee-81788389/
+   image: /images/lee.jpg
+   email:  kylel@mit.edu
+   at:
+     - dates: Fall 2022-Spring 2025
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org: Stony Brook
+     - title: Postdoc
+       org: LBNL
    current: true
    updated: 2024
 
