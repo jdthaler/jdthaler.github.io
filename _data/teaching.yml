@@ -10,6 +10,7 @@ courses:
           - date: Fall 2019
             url:  https://stellar.mit.edu/S/course/8/fa19/8.831/
           - date: Fall 2024
+            url:  https://canvas.mit.edu/courses/28244
 
   - number: 8.398
     title:  Selected Topics in Graduate Physics
