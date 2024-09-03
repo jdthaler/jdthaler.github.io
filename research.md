@@ -59,10 +59,8 @@ permalink: research/
 {% for paper in site.data.papers.papers -%}
 {%- for subtopic in topic.subtopics -%}
 {%- if subtopic.key == paper.topic -%}
-  {%- if paper.priority >= 5 %}
-  * **[{{paper.title}}](https://arxiv.org/abs/{{paper.arxiv}}){:target="_blank"}** \\
-        *{{paper.authors}}{% if paper.doi %}, [{{paper.short_journal | default: "DOI" }}](https://doi.org/{{paper.doi}}){:target="_blank"}{% endif %}*
-  {%- endif -%}
+{%- if paper.priority >= 5 %}  * {% include cv/paper_short_item.html paper=paper recommend=false %}
+{%- endif -%}
 {%- endif -%}
 {%- endfor %}
 {%- endfor %}
@@ -77,8 +75,7 @@ permalink: research/
 <summary><b>{{subtopic.title}}</b></summary>
 
 {% for paper in site.data.papers.papers -%}
-{% if subtopic.key == paper.topic %}{% if paper.priority >= 3 %}{% assign recommend = true %}{% else %}{% assign recommend = false %}{% endif %}
-  * {% include cv/paper_short_item.html paper=paper recommend=recommend %}
+{% if subtopic.key == paper.topic %}{% if paper.priority >= 3 %}{% assign recommend = true %}{% else %}{% assign recommend = false %}{% endif %}  * {% include cv/paper_short_item.html paper=paper recommend=recommend %}
 {%- endif %}
 {%- endfor%}
 

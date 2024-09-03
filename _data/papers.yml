@@ -54,6 +54,9 @@ papers:
     year:  2024
     topic:  foundation_models
     image: /news/2024-preprint-paperclip.png
+    journal:  Conf. Lang. Mod. 2024
+    short_journal: COLM 2024
+    journal_url:  https://openreview.net/forum?id=8TdcXwfNRB
     non_alphabetical: true
 
   - title: "Anomaly Detection in Collider Physics via Factorized Observables"
