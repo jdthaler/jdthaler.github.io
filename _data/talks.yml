@@ -554,6 +554,7 @@ schools:
 invited:
 
   - title: "Interpretable Machine Learning for Particle Physics"
+    url:  talks/jthaler_2024_09_10_InterpretableML_PHYSTAT.pdf
     event:  "PHYSTAT: Statistics Meets Machine Learning"
     event_url:  https://indico.cern.ch/event/1407421/overview
     org:  Imperial College London
