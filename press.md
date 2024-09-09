@@ -31,7 +31,7 @@ permalink: press/
 
 ##   Biography
 
-Jesse Thaler is theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.  His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and he is currently a Professor in the Center for Theoretical Physics. In 2020, he became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
+Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.  His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and he is currently a Professor in the Center for Theoretical Physics. In 2020, he became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
 
 ## Extended Biography
 
