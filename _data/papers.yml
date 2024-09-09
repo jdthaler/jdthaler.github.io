@@ -63,6 +63,9 @@ papers:
     authors:  Eric M. Metodiev, Jesse Thaler, and Raymond Wynne
     arxiv:  2312.00119
     inspire: Metodiev:2023izu
+    doi:  10.1103/PhysRevD.110.055012
+    journal:  Phys. Rev. D110:055012 (2024)
+    short_journal:  PRD 2024
     year:  2023
     made_bs: true
     topic:  weak
