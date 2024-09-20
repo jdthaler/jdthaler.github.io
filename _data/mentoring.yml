@@ -43,6 +43,7 @@ postdocs:
 
  - name: So Chigusa
    url: https://website-sochigusa.vercel.app
+   image: /images/chigusa.jpg
    email: schigusa@mit.edu
    at:
      - dates: Fall 2024-Spring 2027
