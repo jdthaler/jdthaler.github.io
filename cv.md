@@ -302,7 +302,7 @@ permalink: cv/
 
 {% for tag in site.data.service.institutions %}
 {%- assign institution = site.data.service[tag] %}
-  * **[{{institution.name}}]({{institution.url}}){:target="_blank"}**
+  * {% if institution.url %}**[{{institution.name}}]({{institution.url}}){:target="_blank"}**{% else %}**{{institution.name}}**{% endif %}
 {%- for role in institution.roles %}
     * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({{role.issue_url}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{{role.dates}}* 
 {%- endfor %}

@@ -41,7 +41,7 @@ external_categories:
   - title: Advisory Boards
     key: advisory_boards
 
-  - title: Workshop/Conference Organization
+  - title: Additional Workshop/Conference Organization
     key: workshops
 
   - title: Journal Editing
@@ -231,7 +231,9 @@ institutions:
   - acp
   - aps
   - hepap
-  
+  - ml4jets
+  - boost
+
 acp:
   name: Aspen Center for Physics (ACP)
   url:  https://www.aspenphys.org/
@@ -309,7 +311,112 @@ hepap:
       issue:     The High Energy Physics Landscape in 2019
       issue_url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_HEPAP.pdf
       dates:     May 2019
+
+ml4jets:
+  name: Machine Learning for Jet Physics (ML4Jets)
+  roles:
   
+  - job:  Advisory Committee
+    issue: "ML4Jets"
+    issue_url: https://indico.cern.ch/event/1253794/
+    org: DESY
+    dates: November 2023
+
+  - job:  Advisory Committee
+    issue: "ML4Jets"
+    issue_url: https://indico.cern.ch/event/1159913/
+    org: Rutgers
+    dates: November 2022
+
+  - job:  Advisory Committee
+    issue: "ML4Jets"
+    issue_url: https://indico.cern.ch/event/980214/
+    org: Heidelberg
+    dates: July 2021
+    
+  - job:  Advisory Committee
+    issue: "ML4Jets"
+    issue_url: https://indico.cern.ch/event/809820/
+    org: New York
+    dates: January 2020
+  
+
+boost:
+  name:  International Workshop on Boosted Object Phenomenology (BOOST)
+  roles:
+  
+  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
+    issue: "Boost 2022"
+    issue_url: https://indico.cern.ch/event/1144064/
+    org: Hamburg
+    dates: August 2022
+
+  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
+    issue: "Boost 2021"
+    issue_url: https://indico.cern.ch/event/1037559/
+    org: Online
+    dates: August 2021
+
+  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
+    issue: "Boost 2020"
+    issue_url: https://indico.cern.ch/e/boost2020
+    org: Hamburg
+    dates: July 2020
+
+  - job: Local Organizing Committee
+    issue: "Boost 2019"
+    issue_url: https://indico.cern.ch/e/boost2019
+    org: MIT
+    dates: July 2019
+    
+  - job:  Advisory Committee
+    issue: "Boost 2018"
+    issue_url: https://indico.cern.ch/e/boost2018
+    org: Paris
+    dates: July 2018
+    
+  - job:  Advisory Committee
+    issue: "Boost 2017"
+    issue_url:  https://indico.cern.ch/event/579660/
+    org: Buffalo
+    dates: July 2017
+
+  - job:  Advisory Committee
+    issue: "Boost 2016"
+    issue_url:  https://indico.cern.ch/event/439039/overview
+    org: Zurich
+    dates: July 2016
+
+  - job:  Advisory Committee
+    issue: "Boost 2015"
+    issue_url:  http://boost2015.uchicago.edu
+    org: Chicago
+    dates: August 2015
+
+  - job:  Advisory Committee
+    issue: "Boost 2014"
+    issue_url: https://www.hep.ucl.ac.uk/boost2014/london.php
+    org: London
+    dates: August 2014
+
+  - job:  Advisory Committee
+    issue: "Boost 2013"
+    issue_url:  https://w3atlas.physics.arizona.edu/w3atlas.physics.arizona.edu/boost2013/home.html
+    org: Flagstaff
+    dates: August 2013
+
+  - job:  Advisory Committee
+    issue: "Boost 2012"
+    issue_url: http://ific.uv.es/boost2012/
+    org: Valencia
+    dates: July 2012
+
+  - job:  Advisory Committee
+    issue: "Boost 2010"
+    issue_url:  https://indico.cern.ch/event/74604/
+    org: Oxford U.
+    dates: June 2010
+
 workshops:
 
   - job: Scientific Committee
@@ -324,30 +431,12 @@ workshops:
     org:  CU Boulder
     dates:  June 2024
 
-  - job:  Advisory Committee
-    issue: "ML4Jets"
-    issue_url: https://indico.cern.ch/event/1253794/
-    org: DESY
-    dates: November 2023
-
-  - job:  Advisory Committee
-    issue: "ML4Jets"
-    issue_url: https://indico.cern.ch/event/1159913/
-    org: Rutgers
-    dates: November 2022
-
   - job: Topical Convener
     issue: Collider Phenomenology
     issue_url: https://snowmass21.org/theory/phenomenology
     org: Snowmass Theory Frontier
     org_url: https://snowmass21.org/theory/start
     dates: July 2021, July 2022
-    
-  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
-    issue: "Boost 2022"
-    issue_url: https://indico.cern.ch/event/1144064/
-    org: Hamburg
-    dates: August 2022
 
   - job:  Organizer
     issue: "Machine Learning at GGI"
@@ -355,29 +444,12 @@ workshops:
     org: Galileo Galilei Institute
     dates: August/September 2022
     
-  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
-    issue: "Boost 2021"
-    issue_url: https://indico.cern.ch/event/1037559/
-    org: Online
-    dates: August 2021
-    
-  - job:  Advisory Committee
-    issue: "ML4Jets"
-    issue_url: https://indico.cern.ch/event/980214/
-    org: Heidelberg
-    dates: July 2021
-    
+
   - job:  Organizer
     issue: "CMS Open Data for Theorists"
     issue_url: https://indico.cern.ch/e/CMSOpenDataForTheorists
     org: Fermilab/Virtual
     dates: September 2020
-    
-  - job:  Advisory Committee and Ombuds Team (with Ayana Arce)
-    issue: "Boost 2020"
-    issue_url: https://indico.cern.ch/e/boost2020
-    org: Hamburg
-    dates: July 2020
     
   - job:  Advisory Committee
     issue: "Machine Learning for Particle Physics"
@@ -385,35 +457,12 @@ workshops:
     org: Mainz
     dates: May 2020 → June 2021
     
-  - job:  Advisory Committee
-    issue: "ML4Jets"
-    issue_url: https://indico.cern.ch/event/809820/
-    org: New York
-    dates: January 2020
-    
-  - job: Local Organizing Committee
-    issue: "Boost 2019"
-    issue_url: https://indico.cern.ch/e/boost2019
-    org: MIT
-    dates: July 2019
-    
-  - job:  Advisory Committee
-    issue: "Boost 2018"
-    issue_url: https://indico.cern.ch/e/boost2018
-    org: Paris
-    dates: July 2018
-    
   - job: Local Organizing Committee
     issue: "Rising Stars in Physics"
     issue_url: https://physicsrisingstars.mit.edu/
     org: MIT
     dates: April 2018
-    
-  - job:  Advisory Committee
-    issue: "Boost 2017"
-    org: Buffalo
-    dates: July 2017
-    
+  
   - job: Jet Convener
     issue: "Physics at TeV Colliders"
     org: Les Houches
@@ -429,45 +478,21 @@ workshops:
     org: Boston
     dates: April 2017
     
-  - job:  Advisory Committee
-    issue: "Boost 2016"
-    org: Zurich
-    dates: July 2016
-    
   - job:  Organizer
     issue: "Gearing up for LHC13"
     org: Galileo Galilei Institute
     dates: Fall 2015
-    
-  - job:  Advisory Committee
-    issue: "Boost 2015"
-    org: Chicago
-    dates: August 2015
-    
+
   - job: Jet Convener
     issue: "Physics at TeV Colliders"
     org: Les Houches
     dates: June 2015
     
-  - job:  Advisory Committee
-    issue: "Boost 2014"
-    org: London
-    dates: August 2014
-    
   - job:  Organizer
     issue: "Boston Jet Physics"
     org: Harvard/MIT
     dates: January 2014
-    
-  - job:  Advisory Committee
-    issue: "Boost 2013"
-    org: Flagstaff
-    dates: August 2013
-    
-  - job:  Advisory Committee
-    issue: "Boost 2012"
-    org: Valencia
-    dates: July 2012
+  
     
   - job: Conference Program Committee
     issue: "PANIC 2011: Particle and Nuclei International Conference"
@@ -484,7 +509,4 @@ workshops:
     org: MIT/Berkeley
     dates: August 2010
     
-  - job:  Advisory Committee
-    issue: "Boost 2010"
-    org: Oxford U.
-    dates: June 2010
+
