@@ -312,6 +312,12 @@ hepap:
   
 workshops:
 
+  - job: Scientific Committee
+    issue:  "PHYSTAT: Statistics Meets Machine Learning"
+    issue_url:  https://indico.cern.ch/event/1407421/overview
+    org:  Imperial College London
+    dates:  September 2024
+
   - job: Organizer
     issue: "TASI 2024: The Frontiers of Particle Theory"
     issue_url:  https://www.colorado.edu/physics/events/summer-intensive-programs/theoretical-advanced-study-institute-elementary-particle-physics-current
