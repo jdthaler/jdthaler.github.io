@@ -2498,6 +2498,13 @@ additional:
 
 panels:
 
+  - title: "Institute Sustainability/Navigating the AI Research Funding Landscape"
+    panelist: true
+    event: Summit for AI Institutes Leadership (SAIL)
+    event_url: https://na.eventscloud.com/website/65713/home/
+    org: Pittsburgh
+    date: 2024-10-09
+    track: true
 
   - title:  "Cosmic Explorer Connections to DOE Science"
     panelist: true
