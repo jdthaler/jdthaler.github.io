@@ -569,6 +569,7 @@ meng_students:
 bs_students:
 
   - name: Nipun Dour
+    image: /images/dour.jpeg
     email: nipund@mit.edu
     date: 2027
     independent: Summer 2024
