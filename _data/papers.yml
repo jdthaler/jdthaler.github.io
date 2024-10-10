@@ -24,6 +24,13 @@ years:
   
 papers:
 
+  - title: "SPECTER: Efficient Evaluation of the Spectral EMD"
+    authors:  Rikab Gambhir, Andrew J. Larkoski, and Jesse Thaler
+    arxiv: 2410.05379
+    year: 2024
+    topic: optimal_transport
+    image: /news/2024-preprint-specter.png
+
   - title:  "Moment Unfolding"
     authors:  Krish Desai, Benjamin Nachman, and Jesse Thaler
     arxiv:  2407.11284
