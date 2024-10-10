@@ -129,7 +129,7 @@ I then spent a glorious three-and-a-half years in California, doing post-doctori
 
 Alas, our time on the left coast was short-lived, and Sasha and I moved (back) to New England in 2010.  I am now living the (academic) dream as a [Professor](https://web.mit.edu/physics/people/faculty/thaler_jesse.html){:target="_blank"} in the [Center for Theoretical Physics](http://ctp.mit.edu){:target="_blank"} at [MIT](https://www.mit.edu/){:target="_blank"}.  In my research, I attempt to address some of the outstanding questions in fundamental physics, including the nature of dark matter, the apparent weakness of gravity, and the symmetry structure of our universe.
 
-In 2020, I become Director of the [Institute for Artificial Intelligence Fundamental Interactions](https://iaifi.org){:target="_blank"}.  I used to make jokes about how "deep learning" could never compete with "deep thinking", but I guess now the joke's on me.
+In 2020, I become Director of the [Institute for Artificial Intelligence and Fundamental Interactions](https://iaifi.org){:target="_blank"}.  I used to make jokes about how "deep learning" could never compete with "deep thinking", but I guess now the joke's on me.
 
 ## Archives
 
