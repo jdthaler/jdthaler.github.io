@@ -1967,6 +1967,11 @@ seminars:
 
 additional:
 
+  - event: 2024 Mathematics and Physical Sciences Annual Meeting
+    event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2024/
+    org: Simons Foundation
+    date: 2024-10-17
+
   - event:  "Energy Correlators at the Collider Frontier"
     event_url:  https://indico.mitp.uni-mainz.de/event/358/
     org:  MITP
