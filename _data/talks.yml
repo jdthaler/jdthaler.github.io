@@ -2503,6 +2503,7 @@ additional:
 panels:
 
   - title: "Institute Sustainability/Navigating the AI Research Funding Landscape"
+    url:  talks/jthaler_2024_10_09_SAIL_Sustainability_IAIFI.pdf
     panelist: true
     event: Summit for AI Institutes Leadership (SAIL)
     event_url: https://na.eventscloud.com/website/65713/home/
