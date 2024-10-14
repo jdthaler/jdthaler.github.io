@@ -4,7 +4,7 @@
 {% capture talkdate %}{{talk.date | date: '%s'}}{% endcapture -%}
 {% capture talkstring %}{{talk.date | date: '%F'}}{% endcapture -%}
 * {% if nowstring == talkstring %}`today`{:.main3}{% elsif talkdate > nowdate %}`upcoming`{:.main3}{% endif %}
-  **{% if talk.url %}["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}{% elsif talk.title %}"{{talk.title}}"{% elsif talk.convener %}Convener{% elsif talk.title %}"{{talk.title}}"{% else %}No Talk{%- endif %}**{% if talk.panelist %} `panel` {% endif %}{%if talk.video %} [video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--success}{:target="_blank"} {% endif %}
+  **{% if talk.url %}["{{talk.title}}"]({{talk.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}{% elsif talk.title %}"{{talk.title}}"{% elsif talk.convener %}Convener{% elsif talk.title %}"{{talk.title}}"{% else %}Participant{%- endif %}**{% if talk.panelist %} `panel` {% endif %}{%if talk.video %} [video]({{talk.video}}){:.button.button--primary.button--rounded.button--xs.button--success}{:target="_blank"} {% endif %}
   {%- if talk.parts %} (
     {%- for part in talk.parts -%}
       {% if part.url %}**["{{part.title}}"]({{part.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**{% else %}**"{{part.title}}"**{% endif %}{%if part.video %} [video]({{part.video}}){:.button.button--primary.button--rounded.button--xs.button--success}{:target="_blank"} {% endif %}
