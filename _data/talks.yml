@@ -1967,6 +1967,7 @@ seminars:
 
 additional:
 
+
   - event: 2024 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2024/
     org: Simons Foundation
@@ -2506,6 +2507,15 @@ additional:
     date: September 2004
 
 panels:
+
+  - title:  "AI in High Energy and Nuclear Physics"
+    event: "Office of Science Roundtables"
+    event_url:  https://web.cvent.com/event/dbeec3e2-81b1-4075-ae88-1bc8a9f7d82f/
+    org:  Department of Energy
+    date:  2024-10-30
+    panelist: true
+    track: true
+
 
   - title: "Institute Sustainability/Navigating the AI Research Funding Landscape"
     url:  talks/jthaler_2024_10_09_SAIL_Sustainability_IAIFI.pdf
