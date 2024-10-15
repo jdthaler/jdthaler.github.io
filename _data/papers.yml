@@ -26,6 +26,7 @@ papers:
 
   - title: "SPECTER: Efficient Evaluation of the Spectral EMD"
     authors:  Rikab Gambhir, Andrew J. Larkoski, and Jesse Thaler
+    made_phd: true
     arxiv: 2410.05379
     year: 2024
     topic: optimal_transport
@@ -50,6 +51,9 @@ papers:
   - title: "Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling"
     authors:  Rikab Gambhir, Athis Osathapan, and Jesse Thaler
     made_phd: true
+    doi: 10.1103/PhysRevD.110.074020
+    journal: Phys. Rev. D110:074020 (2024)
+    short_journal:  PRD 2024
     arxiv:  2403.08854
     year:  2024
     topic: point_cloud
