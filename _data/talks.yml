@@ -984,6 +984,15 @@ invited:
 local:
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    url: talks/jthaler_2024_10_16_SoS_Breakfast.pdf
+    event:  Breakfast Talk
+    org:   MIT School of Science
+    date:  2024-10-16
+    commons: true
+    track: true
+
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url:  talks/jthaler_2024_05_15_MIT_London.pdf
     event:  IET London Event
     org:   MIT School of Science
