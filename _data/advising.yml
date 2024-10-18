@@ -247,6 +247,12 @@ academic_advising:
 
 external_phd_theses:
 
+  - name:  Pim de Haan
+    org: U. Amsterdam
+    title: TBA
+    advisor:  Max Welling
+    date: TBA
+
   - name: Pedro Cal
     org:  U. Amsterdam
     title:  Jet Substructure at the LHC with Soft-Collinear Effective Theory
