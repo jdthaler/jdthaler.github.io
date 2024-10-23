@@ -24,6 +24,14 @@ years:
   
 papers:
 
+  - title:  "New Angles on Energy Correlators"
+    authors:  Samuel Alipour-fard, Ankita Budhraja, Jesse Thaler, and Wouter J. Waalewijn
+    arxiv:  2410.16368
+    made_phd: true
+    year: 2024
+    topic: correlators
+    image:  /news/2024-preprint-RENC.png
+
   - title: "SPECTER: Efficient Evaluation of the Spectral EMD"
     authors:  Rikab Gambhir, Andrew J. Larkoski, and Jesse Thaler
     made_phd: true
