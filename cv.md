@@ -333,7 +333,7 @@ permalink: cv/
    {% if entry.type %}{{entry.type}}, {% endif -%}
    {% if entry.event %}{% if entry.event_url %}[{{entry.event}}]({{entry.event_url}}){:target="_blank"}{% else %}{{entry.event}}{% endif %}, {% endif -%}   
    {% if entry.org %}*{{entry.org}}*, {% endif -%}
-   {% if entry.date %}*{{entry.date}}* {% endif -%}
+   {% if entry.date %}*{{entry.date | date: "%B %Y"}}* {% endif -%}
    {% if entry.doi %}[{{entry.journal}}](https://doi.org/{{entry.doi}}){:target="_blank"}{% endif %}
 {%- endfor %}
   * Appearance in Documentary Film, **["Particle Fever"](https://www.imdb.com/title/tt1385956/){:target="_blank"}**, 2013 
