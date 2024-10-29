@@ -204,6 +204,12 @@ agency_review:
 
 advisory_boards:
 
+  - job: Selection Committee
+    name: Margot and Tom Pritzker Prize for AI in Science Research Excellence
+    url:  https://datascience.uchicago.edu/research/ai-science/partnerships/pritzker-prize/
+    org:  Pritzker Foundation
+    dates:  2024
+
   - job: International Scientific Advisory Board
     name: AI for Science and Science for AI (AISSAI) Center
     url: https://www.cnrs.fr/en/artificial-intelligence-science-science-artificial-intelligence-aissai-center
