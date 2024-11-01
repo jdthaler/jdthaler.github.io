@@ -266,6 +266,13 @@ awards:
 
 profiles:
 
+  - title: "In conversation: Jesse Thaler"
+    url:  https://www.firstprinciples.org/article/in-conversation-jesse-thaler
+    journal: FirstPrinciples
+    image: /news/2024-first-principles-interview.jpg
+    date:  2024-11-01
+    quote:  "The off-the-shelf AI doesn't really operate in a way that we can use for scientific discovery. But it's close. And we can have a nice synergy with the computer science community to drive discovery in both fields."
+
   - title: "Faces of CISE: Jesse Thaler, Ph.D."
     url:  https://content.govdelivery.com/accounts/USNSF/bulletins/39e647f
     journal: NSF CISE Newsletter
