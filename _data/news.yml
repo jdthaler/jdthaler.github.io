@@ -65,6 +65,13 @@ group_news:
     
 perspectives:
 
+  - title:  "Physics, AI, and the future of discovery"
+    url:  https://pubs.aip.org/physicstoday/article/77/11/30/3318195/Physics-AI-and-the-future-of-discoveryLeaders-from
+    journal:  Physics Today
+    image:  /news/2024-physics-today-panel.jpg
+    date: 2024-11-01
+    quote:  "I’m holding on for dear life as my junior colleagues drag me deeper and deeper into this world that I so distrusted at first."
+
   - title:  "Machine learning and theory"
     url:  https://www.symmetrymagazine.org/article/machine-learning-and-theory
     journal:  Symmetry Magazine
