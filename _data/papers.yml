@@ -24,6 +24,13 @@ years:
   
 papers:
 
+  - title: "A Lorentz-Equivariant Transformer for All of the LHC"
+    authors: Johann Brehmer, Víctor Bresó, Pim de Haan, Tilman Plehn, Huilin Qu, Jonas Spinner, and Jesse Thaler
+    arxiv: 2411.00446
+    year: 2024
+    topic: point_cloud
+    image: /news/2024-preprint-l-gatr-2.png
+
   - title: "Flavor Patterns of Fundamental Particles from Quantum Entanglement?"
     authors:  Jesse Thaler and Sokratis Trifinopoulos
     arxiv:  2410.23343
@@ -54,14 +61,13 @@ papers:
     topic: reweighting
     image:  /news/2024-preprint-moment-unfolding.png
 
-
   - title: "Lorentz-Equivariant Geometric Algebra Transformers for High-Energy Physics"
     authors: Jonas Spinner, Victor Bresó, Pim de Haan, Tilman Plehn, Jesse Thaler, and Johann Brehmer
     arxiv: 2405.14806
     year: 2024
     topic: point_cloud
     image: /news/2024-preprint-l-gatr.png
-
+    non_alphabetical: true
 
   - title: "Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling"
     authors:  Rikab Gambhir, Athis Osathapan, and Jesse Thaler
