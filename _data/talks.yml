@@ -27,6 +27,18 @@ categories:
 
 colloquia:
 
+  - title:  "Centaur Science:  Particle Physics meets Machine Learning"
+    event:  Physics Colloquium
+    org: U. New Hampshire
+    date:  2024-11-15
+    track: true
+
+  - title:  "Centaur Science:  Particle Physics meets Machine Learning"
+    event:  Physics and Astronomy Colloquium
+    org:  U. Minnesota
+    date:  2024-11-07
+    track: true
+
   - title:  "The Hidden Geometry of Particle Collisions"
     url: talks/jthaler_2024_05_01_HiddenGeometry_UMassAmherst.pdf
     event:  Physics Colloquium
@@ -1161,6 +1173,12 @@ local:
     date:  2009-10-16
 
 seminars:
+
+  - title: "Flavor Physics from Quantum Engtanglement?"
+    event:  HEP Theory Seminar
+    org: U. Minnesota
+    date:  2024-11-07
+    track: true
 
   - title: "What Observables are Safe to Calculate?"
     url: talks/jthaler_2024_04_26_CSMA_Safe.pdf
