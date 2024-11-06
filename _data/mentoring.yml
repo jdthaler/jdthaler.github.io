@@ -577,7 +577,9 @@ bs_students:
     email: nipund@mit.edu
     date: 2027
     independent: Summer 2024
+    urop: Fall 2024
     current: true
+    updated: 2024
 
   - name: Max Tan
     email: maxt114@mit.edu
@@ -590,7 +592,7 @@ bs_students:
     email: afayad@mit.edu
     image: /images/fayad.jpg
     date:  2024
-    urop:  Summer 2023, Summer 2024
+    urop:  Summer 2023, Summer 2024, Fall 2024
     current: true
     updated: 2023 
 
