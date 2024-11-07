@@ -1176,6 +1176,7 @@ local:
 seminars:
 
   - title: "Flavor Physics from Quantum Engtanglement?"
+    url:  talks/jthaler_2024_11_08_Minnesota_FlavorQuantum.pdf
     event:  HEP Theory Seminar
     org: U. Minnesota
     date:  2024-11-08
