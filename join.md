@@ -22,9 +22,11 @@ permalink: join/
 
 With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[Center for Theoretical Physics (CTP)](http://ctp.mit.edu/)** at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/)**.
 
-  * [CTP Postdocs](https://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **CTP Postdocs** are typically due **mid-November**.
+*N.B.:  The selection process for these positions are independent, so make sure to apply to all positions that you might be interested in taking.  Also, some of these positions require you to select a potential mentor, otherwise your application will be considered incomplete, so don't forget that step in the process.*
+
+  * [CTP Postdocs](https://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **CTP Postdocs** are typically due **mid-November**. 
   * [Pappalardo Fellowship](https://physics.mit.edu/research/pappalardo-fellowships-in-physics/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Nominations for the **Pappalardo Fellowship** are typically due in **early September**. 
-  * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for the **IAIFI Fellowship** are typically due in **mid-October**.
+  * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for the **IAIFI Fellowship** are typically due in **mid-October**.  
   * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, please fill out this form to indicate your interest.
 
 ## Ph.D. Students
