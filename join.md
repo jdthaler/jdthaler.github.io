@@ -50,7 +50,7 @@ I anticipate **at least one opening** for a Ph.D. student in my research group i
   * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  You can alert me to your application by filling out this form, though I will typically not respond.  Filling out this form is entirely optional; your official application is all that matters for admission.
   * If you are admitted, I would be delighted to talk to you about research opportunities in my group at the **[Physics Graduate Open House](https://physics.mit.edu/openhouse/){:target="_blank"}** event typically held in early April.
   * MIT does not have a separate Master's program in Physics, so you should apply to the Ph.D. program.
-  * As mentioned above, I anticipate having at least one opening in my reseach group in the coming years.  I do not have specific research projects in mind for future students; I expect my students to choose the research path that aligns best with their own interests.
+  * As mentioned above, I anticipate having at least one opening in my reseach group in the coming years.  I do not have specific research projects in mind for future students.  **I expect my students to choose the research path that aligns best with their own interests.**
 
 
   
