@@ -438,8 +438,10 @@ insitution_service_output = open("cv_institution_service.tex","w")
 for tag in service_yaml['institutions']:
   insitution = service_yaml[tag]
   insitution_service_output.write('\\item ' + insitution['name'] + '\n')
+  insitution_service_output.write('\\bsbl \n')
   for role in insitution['roles']:
-    insitution_service_output.write('\\\\ ' + role_string(role) + '\n')
+    insitution_service_output.write('\\item ' + role_string(role) + '\n')
+  insitution_service_output.write('\\el \n')
 
 ########## external service
 
@@ -496,14 +498,16 @@ advising_output.write('\\bbl\n\n')
 
 phd_theses = advising_yaml['phd_theses']
 advising_output.write('\\item MIT Physics Ph.D. Thesis Committees:\n')
+advising_output.write('\\bsbl \n')
 for phd_thesis in phd_theses:
-  advising_output.write('\\\\ ' + phd_thesis['name'] + ' \\textit{('+phd_thesis['advisor'].replace('&','\\&')+', ')
+  advising_output.write('\\item ' + phd_thesis['name'] + ' \\textit{('+phd_thesis['advisor'].replace('&','\\&')+', ')
   if 'date' in phd_thesis:
     advising_output.write(phd_thesis['date'])
   else:
     advising_output.write('in progress')
   advising_output.write(')}\n')
-advising_output.write('\n')
+
+advising_output.write('\\el \n')
 
 ##### academic_advising
 
@@ -511,35 +515,39 @@ advising_roles = advising_yaml['academic_advising']
 number_of_first_years = 0;
 for advising in advising_roles:
   advising_output.write('\\item '+ advising['name'] + ', \\emph{' + advising['dates'].replace('-','--')+'}\n')
+  advising_output.write('\\bsbl \n')
   for cohort in advising['cohorts']:
-    advising_output.write('\\\\ ' + cohort['name'] + ': ')
+    advising_output.write('\\item ' + cohort['name'] + ': ')
     members_string = ''
     for member in cohort['members']:
       members_string += member['name']+', '
       if 'first_year' in advising and advising['first_year']: number_of_first_years += 1
     advising_output.write(members_string[:-2]+'\n')
+  advising_output.write('\\el \n')
 advising_output.write('\n')
 
 ##### external_phd_theses
 
 external_phd_theses = advising_yaml['external_phd_theses']
 advising_output.write('\\item External Ph.D. Examiner:\n')
+advising_output.write('\\bsbl \n')
 for phd_thesis in external_phd_theses:
-  advising_output.write('\\\\ ' + phd_thesis['name'] + ' \\textit{('+phd_thesis['advisor'].replace('&','\\&')+', '+phd_thesis['org']+', ')
+  advising_output.write('\\item ' + phd_thesis['name'] + ' \\textit{('+phd_thesis['advisor'].replace('&','\\&')+', '+phd_thesis['org']+', ')
   if 'date' in phd_thesis:
     advising_output.write(phd_thesis['date'])
   else:
     advising_output.write('in progress')
   advising_output.write(')}\n')
-advising_output.write('\n')
+advising_output.write('\\el \n')
 
 ##### external_mentoring
 
 external_mentoring = advising_yaml['external_mentoring']
 advising_output.write('\\item External Mentoring:\n')
+advising_output.write('\\bsbl \n')
 for role in external_mentoring:
-  advising_output.write('\\\\ ' + role['name'] + ', '+role['program']+', \\emph{' + role['dates'].replace('-','--')+'}\n')
-advising_output.write('\n')
+  advising_output.write('\\item ' + role['name'] + ', '+role['program']+', \\emph{' + role['dates'].replace('-','--')+'}\n')
+advising_output.write('\\el \n')
 
 advising_output.write('\\el\n')
 
@@ -599,10 +607,11 @@ advocacy_output = open("cv_advocacy.tex","w")
 
 public_entries = public_yaml['entries']
 
-advocacy_output.write('\\item Artificial Intelligence Advocacy')
+advocacy_output.write('\\item Artificial Intelligence Advocacy \n')
+advocacy_output.write('\\bsbl \n')
 for entry in public_entries:
   if 'topic' in entry and (entry['topic'] == "advocacy_ai" or entry['topic'] == "essays_ai"):
-    advocacy_string = '\\\\ '
+    advocacy_string = '\\item '
     advocacy_string += '``' + entry['title'] + '\'\''
     if 'collaborators' in entry:
       advocacy_string += ' (with ' + entry['collaborators']+ ')'
@@ -619,11 +628,14 @@ for entry in public_entries:
       advocacy_string += '\\emph{' + entry['journal'] + '}'
     advocacy_string += '\n'
     advocacy_output.write(advocacy_string)
+advocacy_output.write('\\el \n')
 
-advocacy_output.write('\\item Open Data Advocacy')
+
+advocacy_output.write('\\item Open Data Advocacy \n')
+advocacy_output.write('\\bsbl \n')
 for entry in public_entries:
   if 'topic' in entry and (entry['topic'] == "advocacy_open_data" or entry['topic'] == "essays_data_viz"):
-    advocacy_string = '\\\\ '
+    advocacy_string = '\\item '
     advocacy_string += '``' + entry['title'] + '\'\''
     if 'collaborators' in entry:
       advocacy_string += ' (with ' + entry['collaborators']+ ')'
@@ -640,6 +652,7 @@ for entry in public_entries:
       advocacy_string += '\\emph{' + entry['journal'] + '}'
     advocacy_string += '\n'
     advocacy_output.write(advocacy_string)
+advocacy_output.write('\\el \n')
 
 
 
