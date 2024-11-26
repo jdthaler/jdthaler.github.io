@@ -2,27 +2,35 @@ categories:
 
   - title: Public Lectures
     key: public
+    doe_report: true
     
   - title: Lecture Series & Schools
     key: schools
+    doe_report: true
 
   - title: Colloquia
     key: colloquia
+    doe_report: true
 
   - title: Invited Talks
     key: invited
+    doe_report: true
 
   - title: Seminars
     key: seminars
+    doe_report: true
 
   - title: Panels
     key: panels
+    doe_report: false
 
   - title: Local Presentations
     key: local
-    
+    doe_report: false
+
   - title: Additional Events
     key: additional
+    doe_report: false
 
 
 colloquia:
@@ -1183,7 +1191,7 @@ local:
 
 seminars:
 
-  - title: "Flavor Physics from Quantum Engtanglement?"
+  - title: "Flavor Physics from Quantum Entanglement?"
     url:  talks/jthaler_2024_11_08_Minnesota_FlavorQuantum.pdf
     event:  HEP Theory Seminar
     org: U. Minnesota

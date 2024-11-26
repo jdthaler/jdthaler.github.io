@@ -27,6 +27,7 @@ papers:
   - title: "A Lorentz-Equivariant Transformer for All of the LHC"
     authors: Johann Brehmer, Víctor Bresó, Pim de Haan, Tilman Plehn, Huilin Qu, Jonas Spinner, and Jesse Thaler
     arxiv: 2411.00446
+    inspire: Brehmer:2024yqw
     year: 2024
     topic: point_cloud
     image: /news/2024-preprint-l-gatr-2.png
@@ -34,6 +35,7 @@ papers:
   - title: "Flavor Patterns of Fundamental Particles from Quantum Entanglement?"
     authors:  Jesse Thaler and Sokratis Trifinopoulos
     arxiv:  2410.23343
+    inspire: Thaler:2024anb
     year: 2024
     topic: qis
     image: /news/2024-preprint-flavor-entangle.png
@@ -41,6 +43,7 @@ papers:
   - title:  "New Angles on Energy Correlators"
     authors:  Samuel Alipour-fard, Ankita Budhraja, Jesse Thaler, and Wouter J. Waalewijn
     arxiv:  2410.16368
+    inspire: Alipour-fard:2024szj
     made_phd: true
     year: 2024
     topic: correlators
@@ -50,6 +53,7 @@ papers:
     authors:  Rikab Gambhir, Andrew J. Larkoski, and Jesse Thaler
     made_phd: true
     arxiv: 2410.05379
+    inspire: Gambhir:2024ndc
     year: 2024
     topic: optimal_transport
     image: /news/2024-preprint-specter.png
@@ -57,6 +61,7 @@ papers:
   - title:  "Moment Unfolding"
     authors:  Krish Desai, Benjamin Nachman, and Jesse Thaler
     arxiv:  2407.11284
+    inspire: Desai:2024kpd
     year:   2024
     topic: reweighting
     image:  /news/2024-preprint-moment-unfolding.png
@@ -64,6 +69,7 @@ papers:
   - title: "Lorentz-Equivariant Geometric Algebra Transformers for High-Energy Physics"
     authors: Jonas Spinner, Victor Bresó, Pim de Haan, Tilman Plehn, Jesse Thaler, and Johann Brehmer
     arxiv: 2405.14806
+    inspire: Spinner:2024hjm
     year: 2024
     topic: point_cloud
     image: /news/2024-preprint-l-gatr.png
@@ -73,6 +79,7 @@ papers:
     authors:  Rikab Gambhir, Athis Osathapan, and Jesse Thaler
     made_phd: true
     doi: 10.1103/PhysRevD.110.074020
+    inspire: Gambhir:2024dtf
     journal: Phys. Rev. D110:074020 (2024)
     short_journal:  PRD 2024
     arxiv:  2403.08854

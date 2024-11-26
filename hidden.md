@@ -5,6 +5,11 @@ aside:
   toc: true
 ---
 
+## Inspire Entries
+
+{% for papers in site.data.mentoring -%}
+
+
 ## Today's Date
 
 {{ site.time | date: '%B %d, %Y' }}
