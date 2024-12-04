@@ -2013,7 +2013,12 @@ seminars:
 
 additional:
 
-
+  - event: "What is Particle Theory?"
+    event_url: https://www.kitp.ucsb.edu/activities/particles25
+    org: KITP
+    date:  2025-01-06
+  
+  
   - event: 2024 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2024/
     org: Simons Foundation
