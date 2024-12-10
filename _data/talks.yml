@@ -36,14 +36,6 @@ categories:
 colloquia:
 
   - title:  "Centaur Science:  Particle Physics meets Machine Learning"
-    url:  talks/jthaler_2024_12_04_Centaur_Simons_Presidential_Lecture.pdf
-    event_url: https://www.simonsfoundation.org/event/collision-course-particle-physics-meets-machine-learning/
-    event: Presidential Lecture
-    org: Simons Foundation
-    date: 2024-12-04
-    track: true
-
-  - title:  "Centaur Science:  Particle Physics meets Machine Learning"
     url:  talks/jthaler_2024_11_15_Centaur_Colloquium_UNH.pdf 
     event:  Physics Colloquium
     org: U. New Hampshire
@@ -345,6 +337,15 @@ colloquia:
     date: February 2010
     
 public:
+
+  - title:  "Centaur Science:  Particle Physics meets Machine Learning"
+    url:  talks/jthaler_2024_12_04_Centaur_Simons_Presidential_Lecture.pdf
+    event_url: https://www.simonsfoundation.org/event/collision-course-particle-physics-meets-machine-learning/
+    event: Presidential Lecture
+    org: Simons Foundation
+    date: 2024-12-04
+    track: true
+
 
   - title: "Opening Keynote (with Eric Mazur)"
     event:  "Education in the Age of Generative AI"

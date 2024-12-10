@@ -72,6 +72,9 @@ papers:
     inspire: Spinner:2024hjm
     year: 2024
     topic: point_cloud
+    journal: NeurIPS 2024
+    short_journal: NeurIPS 2024
+    journal_url:  https://neurips.cc/virtual/2024/poster/94796
     image: /news/2024-preprint-l-gatr.png
     non_alphabetical: true
 
