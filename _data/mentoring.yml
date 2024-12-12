@@ -603,7 +603,7 @@ bs_students:
     urop: Fall 2022, Spring 2023
     graduated: true
     after:
-      - title: EECS M.Eng Candidate
+      - title: EECS M.Eng. Candidate
         org: MIT
     updated: 2024
 
@@ -630,7 +630,7 @@ bs_students:
         org: Caltech
         date: 2020
     after:
-      - title: EECS M.Eng Candidate
+      - title: EECS M.Eng. Candidate
         org: MIT
     updated: 2024
 
@@ -753,7 +753,7 @@ bs_students:
     after:
       - title: Marshall Scholarship
         org: U. Cambridge and U. Oxford
-      - title: Physics Ph.D Candidate
+      - title: Physics Ph.D.
         org: Stanford
       - title: Postdoctoral Researcher
         org: UC Berkeley
@@ -915,6 +915,9 @@ visitors:
     dates:  Summer 2023
     project:  "Towards an Understanding of Scientific Data with Multimodal Language Models"
     home:  Harrow School
+    after:
+      - title: B.S. Candidate
+        org: Harvard
     updated: 2024
     
   - name: Edward Gu
@@ -935,6 +938,9 @@ visitors:
       - name: FUTURE of Physics Participant
         org: Caltech
         date: 2023
+    after:
+      - title: Physics Ph.D. Candidate
+        org: Caltech
     updated: 2024
 
   - name: Brian Nord
@@ -972,7 +978,7 @@ visitors:
         org: Puerto Rico Louis Stokes Alliance for Minority Participation
         date: 2022
     after:
-      - title: PhD Candidate
+      - title: Ph.D. Candidate
         org: University of Illinois, Urbana-Champaign
     home: U. Puerto Rico, Mayaguez
     other: Visiting Student 2021-2022
@@ -991,7 +997,7 @@ visitors:
     project: "Estimating the Energy Mover’s Distance with Exclusive Jet Clustering"
     home: U. Cincinnati
     after:
-      - title: Physics PhD Candidate
+      - title: Physics Ph.D. Candidate
         org: NYU
     updated: 2023
 
@@ -1034,7 +1040,7 @@ visitors:
     dates: Summer 2017
     home: Imperial College London
     after:
-      - title: Physics PhD
+      - title: Physics Ph.D.
         org: Imperial College London
       - title:  Market Risk Analyst
         org: Morgan Stanley
@@ -1053,7 +1059,7 @@ visitors:
     project: "Jet Physics Measurements on CMS Open Data"
     home: San Diego State University
     after:
-      - title: Physics PhD Candidate
+      - title: Physics Ph.D. Candidate
         org: UC Irvine
 
   - name: Nayara Fonseca
