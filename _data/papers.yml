@@ -62,6 +62,9 @@ papers:
     authors:  Krish Desai, Benjamin Nachman, and Jesse Thaler
     arxiv:  2407.11284
     inspire: Desai:2024kpd
+    journal: Phys. Rev. D110:116013 (2024)
+    short_journal: PRD 2024
+    doi:  10.1103/PhysRevD.110.116013
     year:   2024
     topic: reweighting
     image:  /news/2024-preprint-moment-unfolding.png
