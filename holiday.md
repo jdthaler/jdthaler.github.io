@@ -8,6 +8,27 @@ permalink: holiday/
 
 Click any image for a high resolution version!
 
+## 2024
+
+<div class="grid-container">
+  <div class="grid grid--py-3">
+    <div class="cell cell--8">
+      <center>
+      <a href="/holiday/AdrianHolidayCard12_front.jpg">
+        <img class="image-h image-h--xl" style="object-fit: contain" src="/holiday/preview/AdrianHolidayCard12_front.jpg" title="2023 Front"/>
+      </a>
+      </center>
+    </div>
+    <div class="cell cell--4">
+      <center>
+      <a href="/holiday/AdrianHolidayCard12_back.jpg">
+        <img class="image-h image-h--xl" style="object-fit: contain" src="/holiday/preview/AdrianHolidayCard12_back.jpg" title="2023 Back"/>
+      </a>
+      </center>
+    </div>
+  </div>
+</div>
+
 ## 2023
 
 <div class="grid-container">
