@@ -592,7 +592,8 @@ bs_students:
     email: afayad@mit.edu
     image: /images/fayad.jpg
     date:  2024
-    urop:  Summer 2023, Summer 2024, Fall 2024
+    urop:  Summer 2023, Summer 2024
+    independent: Fall 2024
     current: true
     updated: 2023 
 
