@@ -194,6 +194,7 @@ postdocs:
    updated: 2024
 
  - name: Frédéric Dreyer
+   url:  https://www.gene.com/scientists/our-scientists/frederic-dreyer
    email: frederic.dreyer@gmail.com
    at:
      - dates: Fall 2016-Spring 2018
@@ -206,10 +207,12 @@ postdocs:
        org: Oxford
      - title: University Research Fellow
        org: Oxford
+     - title: Senior Machine Learning Scientist
+       org: Prescient Design
    updated: 2023
 
  - name: Yotam Soreq
-   urls: https://phsites.technion.ac.il/hep/members/yotam-soreq/
+   url: https://phsites.technion.ac.il/hep/members/yotam-soreq/
    email: soreqy@gmail.com
    at:
      - dates: Fall 2015-Spring 2018
@@ -220,11 +223,12 @@ postdocs:
    after:
      - title: Postdoctoral Researcher
        org: CERN
-     - title: Assistant Professor
+     - title: Associate Professor
        org: Technion
    updated: 2024
 
  - name: Benjamin Safdi
+   url:  https://physics.berkeley.edu/people/faculty/benjamin-safdi
    email: brsafdi@berkeley.edu
    at:
      - dates: Fall 2014-Spring 2017
@@ -235,10 +239,11 @@ postdocs:
    after:
      - title: Assistant Professor
        org: U. Michigan
-     - title: Assistant Professor
+     - title: Associate Professor
        org: U.C. Berkeley
 
  - name: Wei Xue
+   url:  https://www.phys.ufl.edu/wp/index.php/people/faculty/wei-xue/
    email: weixue@ufl.edu
    at:
      - dates: Fall 2014-Spring 2017
@@ -333,6 +338,9 @@ postdocs:
        org: SLAC
      - title: Assistant Project Scientist
        org: UCLA
+     - title:  Associate Editor
+       org:  Physical Review D
+    
    awards:
      - name: Wu-Ki Tung Award for Early Career Research on QCD
        org: CTEQ Collaboration
@@ -461,7 +469,7 @@ phd_students:
     updated: 2024
     
   - name: Yonatan Kahn
-    url: https://yfkahn.web.illinois.edu/
+    url: https://kahn-group.physics.utoronto.ca/
     email: yfkahn@illinois.edu
     date: 2015
     thesis: "Forces and Gauge Groups Beyond the Standard Model"
@@ -471,6 +479,8 @@ phd_students:
         org: Princeton
       - title: Assistant Professor
         org: U. Illinois, Urbana-Champaign
+      - title:  Assistant Professor
+        org: U. Toronto
     awards:
       - name: Andrew M. Lockett III Memorial Fund Award
         org: MIT Physics Department
@@ -481,6 +491,7 @@ phd_students:
     updated: 2024
 
   - name: Daniele Bertolini
+    url:  https://www.linkedin.com/in/daniele-bertolini/
     email: dbertolini84@gmail.com
     date: 2014
     thesis: "Electroweak Symmetry Breaking in the Era of the Higgs Boson Discovery"
@@ -532,6 +543,7 @@ phd_students:
 meng_students:
 
   - name: Raymond Wynne
+    url:  https://www.linkedin.com/in/raymond-wynne/
     email: wynnera@mit.edu
     image: /images/wynne.jpeg
     date: 2023
@@ -798,6 +810,8 @@ bs_students:
         org:  Yale
       - title: Postdoctoral Researcher
         org:  Johns Hopkins
+      - title:  Assistant Professor
+        org:  Claremont Colleges
     urop: Spring 2014, Summer 2014
     updated:  2024
 
@@ -906,7 +920,7 @@ visitors:
     program: MIT Summer Research Program
     dates: Summer 2024
     project:  "Graph Neural Network Particle Reconstruction for DUNE's Prototype Near Detector"
-    home:  Northeastern Illinois University
+    home:  Northeastern Illinois U.
     updated: 2024
 
   - name: Yiding Song
@@ -950,6 +964,9 @@ visitors:
     program: MIT MLK Visiting Professor
     dates: Fall 2022-Spring 2023
     home: Fermilab and U. Chicago
+    after:
+      - title: Director
+        org:  Deep Skies Lab
 
   - name: Kaća Bradonjić
     url: https://www.kacabradonjic.com
@@ -957,6 +974,9 @@ visitors:
     program: Visiting Artist
     dates: Fall 2022
     home: Hampshire College
+    after:
+      - title: Assitant Professor
+        org: Hampshire College
 
   - name: Sergio Diaz
     url: https://www.linkedin.com/in/sdiaz211/
@@ -990,6 +1010,7 @@ visitors:
     program: Research Internship
     dates: Spring 2021, Summer 2021, Summer 2022
     home: Bowdoin College
+
 
   - name: Shira Jackson
     email: sj3545@nyu.edu
@@ -1061,7 +1082,7 @@ visitors:
     home: San Diego State University
     after:
       - title: Physics Ph.D. Candidate
-        org: UC Irvine
+        org: U.C. Irvine
 
   - name: Nayara Fonseca
     email: nayara.focs@gmail.com
