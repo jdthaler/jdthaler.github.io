@@ -9,6 +9,8 @@ aside:
 
 {{ site.time | date: '%B %d, %Y' }}
 
+{% assign current_year = 2025%}
+
 ## Email Lists
 
 ### Current Email List
@@ -19,19 +21,19 @@ aside:
 {%- endfor -%}
 {%- endfor %}
 
-### Email Lists for Remaining 2024
+### Email Lists for Remaining {{current_year}}
 
 {% for category in site.data.mentoring -%}
 {%- for person in category[1] -%}
-{%- unless person.updated == 2024 or person.deceased or person.email == nil %}{{person.email}}, {% endunless %}
+{%- unless person.updated == current_year or person.deceased or person.email == nil %}{{person.email}}, {% endunless %}
 {%- endfor -%}
 {%- endfor %}
 
-### Email Lists Done fo 2024
+### Email Lists Done for {{current_year}}
 
 {% for category in site.data.mentoring -%}
 {%- for person in category[1] -%}
-{%- if person.updated == 2024%}, {% endif %}
+{%- if person.updated == current_year %}, {% endif %}
 {%- endfor -%}
 {%- endfor %}
 
