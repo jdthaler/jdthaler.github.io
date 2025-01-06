@@ -111,7 +111,7 @@ postdocs:
      - title: Postdoc
        org: SISSA
    current: true
-   updated: 2024
+   updated: 2025
 
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
@@ -408,11 +408,11 @@ phd_students:
 
   - name: Samuel Alipour-fard
     url: https://samcaf.github.io/
-    email: samuel.alipourfard@yahoo.com
+    email: samuelaf@mit.edu
     image: /images/alipour-fard.jpg
     date: 2025
     current: true
-    updated: 2024
+    updated: 2025
 
   - name: Patrick Komiske
     url: https://pkomiske.com/
@@ -436,7 +436,7 @@ phd_students:
     after:
       - title: Research Scientist
         org: Renaissance Technologies
-    updated: 2024
+    updated: 2025
 
   - name: Benjamin Elder
     email: benjamin.elder11@gmail.com
@@ -521,7 +521,7 @@ phd_students:
         org: U. Minnesota
       - title: Applied Research Mathematician
         org: Department of Defense
-    updated: 2024
+    updated: 2025
 
   - name: Francesco D'Eramo
     email: francesco.deramo@pd.infn.it
@@ -570,7 +570,9 @@ meng_students:
         org: D.E. Shaw Group
       - title: Researcher
         org: Quantitative Finance
-    updated: 2024
+      - title: Algorithm Developer
+        org: Hudson River Trading
+    updated: 2025
 
   - name: Preksha Naik
     email: preksha.naik@gmail.com
@@ -980,7 +982,6 @@ visitors:
 
   - name: Sergio Diaz
     url: https://www.linkedin.com/in/sdiaz211/
-    email: sdiaz1@mit.edu
     image: /images/diaz_sergio.jpg
     program: MIT Summer Research Program
     dates: Summer 2022
@@ -1043,7 +1044,7 @@ visitors:
 
   - name: Edward Hirst
     url: https://www.qmul.ac.uk/spcs/staff/research-staff/profiles/ehirst.html
-    email: edward.hirst@city.ac.uk
+    email: e.hirst@qmul.ac.uk
     program: International Research Opportunities Programme
     dates: Summer 2018
     home: Imperial College London

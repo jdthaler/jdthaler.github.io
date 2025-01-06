@@ -9,7 +9,7 @@ aside:
 
 {{ site.time | date: '%B %d, %Y' }}
 
-{% assign current_year = 2025%}
+{% assign current_year = 2025 %}
 
 ## Email Lists
 
@@ -33,7 +33,7 @@ aside:
 
 {% for category in site.data.mentoring -%}
 {%- for person in category[1] -%}
-{%- if person.updated == current_year %}, {% endif %}
+{%- if person.updated == current_year %}{{person.email}}, {% endif %}
 {%- endfor -%}
 {%- endfor %}
 
