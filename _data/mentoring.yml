@@ -213,7 +213,7 @@ postdocs:
 
  - name: Yotam Soreq
    url: https://phsites.technion.ac.il/hep/members/yotam-soreq/
-   email: soreqy@gmail.com
+   email: soreqy@physics.technion.ac.il
    at:
      - dates: Fall 2015-Spring 2018
        title: Rothschild Fellow
@@ -225,7 +225,7 @@ postdocs:
        org: CERN
      - title: Associate Professor
        org: Technion
-   updated: 2024
+   updated: 2025
 
  - name: Benjamin Safdi
    url:  https://physics.berkeley.edu/people/faculty/benjamin-safdi
@@ -348,7 +348,7 @@ postdocs:
    updated: 2024
 
  - name: Matthew McCullough
-   email: mattmccull@gmail.com
+   email: matthew.mccullough@cern.ch
    url: https://th-dep.web.cern.ch/roster/mccullough-matthew
    at:
      - dates: Fall 2011-Spring 2014
@@ -361,7 +361,7 @@ postdocs:
        org: CERN
      - title: Staff Scientist
        org: CERN
-   updated: 2024
+   updated: 2025
 
  - name: Keith Rehermann
    email: keith.rehermann@gmail.com
@@ -425,7 +425,7 @@ phd_students:
         org: PDT Partners
       - title: "Research Scientist"
         org: River Run Trading
-    updated: 2024
+    updated: 2025
 
   - name: Eric Metodiev
     url: https://www.ericmetodiev.com
@@ -672,10 +672,10 @@ bs_students:
     date: 2021
     urop: Fall 2020
     after:
-      - title: Technical Instructor
+      - title: Technical Instructor II
         org: MIT
     graduated: true
-    updated: 2024
+    updated: 2025
 
   - name: Debaditya Pramanik
     email: dpramanik@princeton.edu
