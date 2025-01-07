@@ -404,7 +404,7 @@ phd_students:
         org: MIT Libraries and School of Science
         date: 2022
     current: true
-    updated: 2024
+    updated: 2025
 
   - name: Samuel Alipour-fard
     url: https://samcaf.github.io/
@@ -453,7 +453,7 @@ phd_students:
 
   - name: Lina Necib
     url: https://lnecib.com/
-    email: lina.necib@gmail.com
+    email: lnecib@mit.edu
     date: 2017
     thesis: "Boosting (In)direct Detection of Dark Matter"
     thesis_url: https://hdl.handle.net/1721.1/112073
@@ -466,7 +466,7 @@ phd_students:
       - name: Vazquez Award for Outstanding Research
         org: MIT Physics Department
         date: 2016
-    updated: 2024
+    updated: 2025
     
   - name: Yonatan Kahn
     url: https://kahn-group.physics.utoronto.ca/
@@ -582,7 +582,7 @@ meng_students:
     after:
       - title: Physics Ph.D. Candidate
         org: Caltech
-    updated: 2024
+    updated: 2025
 
 bs_students:
 
@@ -609,7 +609,7 @@ bs_students:
     urop:  Summer 2023, Summer 2024
     independent: Fall 2024
     current: true
-    updated: 2023 
+    updated: 2025
 
   - name: Mohit Dighamber
     email: mdighamb@mit.edu
@@ -991,7 +991,7 @@ visitors:
 
   - name: Pedro Rivera-Cardona
     email: pedroer2@illinois.edu
-    url: https://priverac.github.io/
+    url: https://www.linkedin.com/in/priverac-23347a242/
     program: MIT Summer Research Program
     dates: Summer 2021
     project: "Implementation of U(1) Group Symmetry on Energy Flow Networks"
@@ -1004,7 +1004,7 @@ visitors:
         org: University of Illinois, Urbana-Champaign
     home: U. Puerto Rico, Mayaguez
     other: Visiting Student 2021-2022
-    updated: 2024
+    updated: 2025
 
   - name: Athis Osathapan
     email: aosathap@bowdoin.edu
