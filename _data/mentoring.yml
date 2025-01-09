@@ -71,7 +71,7 @@ postdocs:
      - title: Postdoc
        org: LBNL
    current: true
-   updated: 2024
+   updated: 2025
 
  - name: Cari Cesarotti
    url: http://caricesarotti.com/
@@ -160,7 +160,7 @@ postdocs:
    after:
      - title: Assistant Professor, Canada Research Chair
        org: McGill
-   updated: 2024
+   updated: 2025
    
  - name: Pouya Asadi
    email: pouyasadi.ph@gmail.com
@@ -392,7 +392,7 @@ phd_students:
     image: /images/benevedes.jpeg
     date: 2026
     current: true
-    updated: 2024
+    updated: 2025
 
   - name: Rikab Gambhir
     email: rikab@mit.edu
@@ -538,7 +538,7 @@ phd_students:
       - name: Vazquez Award for Outstanding Research
         org: MIT Physics Department
         date: 2011
-    updated: 2024
+    updated: 2025
 
 meng_students:
 
@@ -593,7 +593,7 @@ bs_students:
     independent: Summer 2024
     urop: Fall 2024
     current: true
-    updated: 2024
+    updated: 2025
 
   - name: Max Tan
     email: maxt114@mit.edu
