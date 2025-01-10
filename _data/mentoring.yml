@@ -322,7 +322,7 @@ postdocs:
 
  - name: Andrew Larkoski
    url: https://www.physics.ucla.edu/~larkoski/
-   email: larkoa@gmail.com
+   email: larkoski@aps.org
    at:
      - dates: Fall 2012-Spring 2015
        title: CTP Postdoctoral Researcher
@@ -340,12 +340,11 @@ postdocs:
        org: UCLA
      - title:  Associate Editor
        org:  Physical Review D
-    
    awards:
      - name: Wu-Ki Tung Award for Early Career Research on QCD
        org: CTEQ Collaboration
        date: 2017
-   updated: 2024
+   updated: 2025
 
  - name: Matthew McCullough
    email: matthew.mccullough@cern.ch
