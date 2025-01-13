@@ -94,7 +94,7 @@ postdocs:
         org:  Brookhaven National Laboratory
         date: 2024
    current: true
-   updated: 2024
+   updated: 2025
 
  - name: Sokratis Trifinopoulos
    url:  https://strifinopoulos.github.io/
@@ -144,7 +144,7 @@ postdocs:
    after:
      - title: Assistant Professor
        org: U. Bonn
-   updated: 2024
+   updated: 2025
 
  - name: Katelin Schutz
    url: https://katelinschutz.com/
@@ -258,11 +258,11 @@ postdocs:
        org: CERN
      - title: Assistant Professor
        org: U. Florida
-   updated: 2024
+   updated: 2025
    
  - name: Simone Marzani
    url: https://www.ge.infn.it/~smarzani/
-   email: simone.marzani@unige.it
+   email: simone.marzani@ge.infn.it
    at:
      - dates: Fall 2014-Spring 2015
        title: LHC Theory Initiative Postdoctoral Fellow
@@ -280,7 +280,7 @@ postdocs:
        org: U. Genova
      - title: Associate Professor
        org: U. Genova
-   updated: 2024
+   updated: 2025
 
  - name: Gilly Elor
    email: gelor84@gmail.com
@@ -644,9 +644,11 @@ bs_students:
         org: Caltech
         date: 2020
     after:
-      - title: EECS M.Eng. Candidate
+      - title: EECS M.Eng.
         org: MIT
-    updated: 2024
+      - title:  Research Assistant
+        org: MIT Media Lab
+    updated: 2025
 
   - name: Serhii Kryhin
     email: skryhin@g.harvard.edu
@@ -709,7 +711,7 @@ bs_students:
         org: University of Cambridge and Cardiff University
       - title: Physics Ph.D. Candidate
         org: Caltech
-    updated: 2024
+    updated: 2025
 
   - name: Radha Mastandrea
     url: https://rmastand.github.io/
@@ -814,7 +816,7 @@ bs_students:
       - title:  Assistant Professor
         org:  Claremont Colleges
     urop: Spring 2014, Summer 2014
-    updated:  2024
+    updated:  2025
 
   - name: T.J. Wilkason
     email: tj.wilkason@gmail.com
@@ -865,7 +867,7 @@ bs_students:
       - title: Software Engineering Team Lead
         org: Bloomberg
     urop: Fall 2011, IAP 2012
-    updated: 2024
+    updated: 2025
 
   - name: Tucker Chan
     date: 2012
@@ -917,12 +919,13 @@ bs_students:
 visitors:
 
   - name: Nathaniel Santiago
-    email:  "N-Santiago6@neiu.edu"
+    email:  ndsantiago6@neiu.edu
+    url:  https://www.linkedin.com/in/nathaniel-santiago-14ab45295
     program: MIT Summer Research Program
     dates: Summer 2024
     project:  "Graph Neural Network Particle Reconstruction for DUNE's Prototype Near Detector"
     home:  Northeastern Illinois U.
-    updated: 2024
+    updated: 2025
 
   - name: Yiding Song
     email:  neutrinovs@gmail.com
@@ -934,7 +937,7 @@ visitors:
     after:
       - title: B.S. Candidate
         org: Harvard
-    updated: 2024
+    updated: 2025
     
   - name: Edward Gu
     email:  elg227@cornell.edu
@@ -1057,6 +1060,7 @@ visitors:
     updated: 2024
 
   - name: Rahim Leung
+    url:  http://linkedin.com/in/rahim-leung-8a1388125
     email: rahimleung@gmail.com
     program: International Research Opportunities Programme
     dates: Summer 2017
@@ -1066,7 +1070,7 @@ visitors:
         org: Imperial College London
       - title:  Market Risk Analyst
         org: Morgan Stanley
-    updated: 2024
+    updated: 2025
 
   - name: Markus Schulze
     email: markus.schulze@physik.hu-berlin.de
@@ -1096,4 +1100,4 @@ visitors:
         org: IBM Research
       - title: Research Fellow
         org: U. Oxford
-    updated: 2024
+    updated: 2025
