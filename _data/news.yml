@@ -1,6 +1,13 @@
 group_news:
 
   - person:  Cari Cesarotti
+    title:  "The Next Generation of Particle Experiments"
+    url:  https://www.preposterousuniverse.com/podcast/2024/09/16/289-cari-cesarotti-on-the-next-generation-of-particle-experiments/
+    journal: "Sean Carroll's Mindscape"
+    image: /news/2024-cesarotti.jpg
+    date: 2024-09-16
+
+  - person:  Cari Cesarotti
     title:  "Science 30 Under 30 (2024)"
     url:  https://www.forbes.com/profile/cari-cesarotti/
     journal:  Forbes
