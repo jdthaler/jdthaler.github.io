@@ -16,6 +16,10 @@ internal_categories:
     key: mit_ctp
     priority: 6
 
+  - title: MIT Schwarzman College of Computing
+    key: mit_scoc
+    priority: 6
+
   - title: MIT Statistics and Data Science Center
     key: mit_sdsc
     priority: 6
@@ -120,6 +124,11 @@ mit_ctp:
 
   - name: MIT CTP Postdoc Selection Committee
     dates: Fall 2009-Present
+
+mit_scoc:
+
+  - name: MIT SCOC Tayebati Postdoctoral Fellowship Selection
+    dates: Spring 2025
 
 mit_serc:
 

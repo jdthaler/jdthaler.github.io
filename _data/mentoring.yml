@@ -318,7 +318,7 @@ postdocs:
        org: Los Alamos National Laboratory
      - title: Staff Scientist
        org: Los Alamos National Laboratory
-   updated: 2023
+   updated: 2025
 
  - name: Andrew Larkoski
    url: https://www.physics.ucla.edu/~larkoski/
@@ -448,7 +448,7 @@ phd_students:
          org: IBM
        - title: Research Scientist
          org: IBM
-    updated: 2024
+    updated: 2025
 
   - name: Lina Necib
     url: https://lnecib.com/
@@ -651,7 +651,7 @@ bs_students:
     updated: 2025
 
   - name: Serhii Kryhin
-    email: skryhin@g.harvard.edu
+    email: sergey3.1416@gmail.com
     date: 2022
     thesis: "Application of Unsupervised Machine Learning for Event Classification"
     thesis_url: https://hdl.handle.net/1721.1/144940
@@ -665,7 +665,7 @@ bs_students:
     after:
       - title: Physics Ph.D. Candidate
         org: Harvard
-    updated: 2024
+    updated: 2025
 
   - name: Christopher Miller
     email: bowties@mit.edu
@@ -913,7 +913,7 @@ bs_students:
       - name: Joel Matthew Orloff Award for Outstanding Research in Physics
         org: MIT Physics Department
         date: 2011
-    updated: 2023
+    updated: 2025
         
 
 visitors:
