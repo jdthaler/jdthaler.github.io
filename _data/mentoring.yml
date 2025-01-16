@@ -115,7 +115,7 @@ postdocs:
 
  - name: Siddharth Mishra-Sharma
    url: https://smsharma.io/
-   email: smsharma@mit.edu
+   email: siddharthmishra19@gmail.com
    image: /images/mishra-sharma.jpg
    at:
      - dates: Fall 2021-Spring 2024
@@ -126,9 +126,11 @@ postdocs:
      - title: Postdoc
        org: NYU
    after:
+     - title: Member of Technical Staff
+       org: Anthropic
      - title: Assistant Professor
        org: Boston U.
-   updated: 2024
+   updated: 2025
 
  - name: Lena Funcke
    email: lfuncke@uni-bonn.de
@@ -191,7 +193,7 @@ postdocs:
        org: SLAC
      - title: Staff Scientist
        org: SLAC
-   updated: 2024
+   updated: 2025
 
  - name: Frédéric Dreyer
    url:  https://www.gene.com/scientists/our-scientists/frederic-dreyer
@@ -382,7 +384,7 @@ phd_students:
   - name: Pamela Pajarillo
     email: pampaja@mit.edu
     image: /images/pajarillo.png
-    date: 2027
+    date: 2028
     current: true
     updated: 2024
 
@@ -508,7 +510,7 @@ phd_students:
       - name: LHC-TI Graduate Fellowship
         org: LHC Theory Initiative
         date: 2013
-    updated: 2024
+    updated: 2025
        
   - name: Zoe Thomas
     email: ztt628@gmail.com
@@ -604,7 +606,7 @@ bs_students:
   - name: Ammar Fayad 
     email: afayad@mit.edu
     image: /images/fayad.jpg
-    date:  2024
+    date:  2025
     urop:  Summer 2023, Summer 2024
     independent: Fall 2024
     current: true
