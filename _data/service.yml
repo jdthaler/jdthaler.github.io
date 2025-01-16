@@ -16,6 +16,10 @@ internal_categories:
     key: mit_ctp
     priority: 6
 
+  - title: MIT Schwarzman College of Computing
+    key: mit_scoc
+    priority: 6
+
   - title: MIT Statistics and Data Science Center
     key: mit_sdsc
     priority: 6
@@ -93,7 +97,7 @@ mit_physics:
 mit_lns:
 
   - name: MIT LNS Advisory Group
-    dates: Fall 2017, Spring 2020-Present
+    dates: Fall 2017, Spring 2020-Spring 2024
     
   - name: MIT LNS Colloquium Committee
     dates: "Fall 2015-Spring 2017; Chair: Fall 2017-Spring 2018"
@@ -116,10 +120,15 @@ mit_ctp:
     dates: Fall 2016-Present
 
   - name: MIT CTP Nuclear/Particle Seminar Committee
-    dates: Fall 2010-Fall 2016, Fall 2020-Spring 2021, Fall 2022-Present
+    dates: Fall 2010-Fall 2016, Fall 2020-Spring 2021, Fall 2022-Spring 2024
 
   - name: MIT CTP Postdoc Selection Committee
     dates: Fall 2009-Present
+
+mit_scoc:
+
+  - name: MIT SCOC Tayebati Postdoctoral Fellowship Selection
+    dates: Spring 2025
 
 mit_serc:
 
@@ -159,7 +168,7 @@ journal_editing:
   - job: Editorial College
     name: SciPost Physics
     url: https://scipost.org/SciPostPhys
-    dates: Fall 2019-Present
+    dates: Fall 2019-Spring 2024
   
   - job: Co-Topic Editor
     issue: Efficient AI in Particle Physics and Astrophysics
