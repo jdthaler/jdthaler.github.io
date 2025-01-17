@@ -211,7 +211,7 @@ postdocs:
        org: Oxford
      - title: Senior Machine Learning Scientist
        org: Prescient Design
-   updated: 2023
+   updated: 2025
 
  - name: Yotam Soreq
    url: https://phsites.technion.ac.il/hep/members/yotam-soreq/
@@ -285,6 +285,7 @@ postdocs:
    updated: 2025
 
  - name: Gilly Elor
+   url:  https://www.linkedin.com/in/gilly-elor-209b1171/
    email: gelor84@gmail.com
    at:
      - dates: Fall 2013-Spring 2016
@@ -301,7 +302,7 @@ postdocs:
        org: JGU Mainz
      - title:  Research Fellow
        org:  UT Austin
-   updated: 2024
+   updated: 2025
 
  - name: Duff Neill
    email: duff.neill@gmail.com
@@ -738,7 +739,7 @@ bs_students:
         org:  U. Cambridge
       - title: Physics Ph.D Candidate
         org:  U.C. Berkeley
-    updated: 2024
+    updated: 2025
 
   - name: Eleanor Hall
     url: https://www.nellhall.com/
@@ -887,8 +888,9 @@ bs_students:
     thesis_dates: Spring 2011
     thesis_url: https://hdl.handle.net/1721.1/72934
     after:
-      - title: Physics Ph.D. Candidate
+      - title: Physics Ph.D.
         org: Princeton
+    updated: 2025
 
   - name: Ken Van Tilburg
     url: https://as.nyu.edu/faculty/ken-van-tilburg.html
