@@ -1,5 +1,4 @@
 group_top:
-group_top:
 
   description: "Great ideas can come from researchers at any career stage, so I strive to cultivate a collaborative atmosphere in my group while also providing individual mentorship.  We pursue a broad range of research in theoretical particle physics, and we often find connections to adjacent fields."
 
@@ -889,8 +888,9 @@ bs_students:
     thesis_dates: Spring 2011
     thesis_url: https://hdl.handle.net/1721.1/72934
     after:
-      - title: Physics Ph.D. Candidate
+      - title: Physics Ph.D.
         org: Princeton
+    updated: 2025
 
   - name: Ken Van Tilburg
     url: https://as.nyu.edu/faculty/ken-van-tilburg.html
