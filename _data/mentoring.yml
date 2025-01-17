@@ -1,4 +1,5 @@
 group_top:
+group_top:
 
   description: "Great ideas can come from researchers at any career stage, so I strive to cultivate a collaborative atmosphere in my group while also providing individual mentorship.  We pursue a broad range of research in theoretical particle physics, and we often find connections to adjacent fields."
 
@@ -211,7 +212,7 @@ postdocs:
        org: Oxford
      - title: Senior Machine Learning Scientist
        org: Prescient Design
-   updated: 2023
+   updated: 2025
 
  - name: Yotam Soreq
    url: https://phsites.technion.ac.il/hep/members/yotam-soreq/
@@ -285,6 +286,7 @@ postdocs:
    updated: 2025
 
  - name: Gilly Elor
+   url:  https://www.linkedin.com/in/gilly-elor-209b1171/
    email: gelor84@gmail.com
    at:
      - dates: Fall 2013-Spring 2016
@@ -301,7 +303,7 @@ postdocs:
        org: JGU Mainz
      - title:  Research Fellow
        org:  UT Austin
-   updated: 2024
+   updated: 2025
 
  - name: Duff Neill
    email: duff.neill@gmail.com
@@ -738,7 +740,7 @@ bs_students:
         org:  U. Cambridge
       - title: Physics Ph.D Candidate
         org:  U.C. Berkeley
-    updated: 2024
+    updated: 2025
 
   - name: Eleanor Hall
     url: https://www.nellhall.com/
