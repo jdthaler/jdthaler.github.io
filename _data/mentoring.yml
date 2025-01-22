@@ -5,7 +5,7 @@ group_top:
 join_top:
 
   image: /images/ctp_hallway_small.jpg
-  hover: 6-318
+  hover: 6-300
   description: "Each year, I typically have a few openings in my group for new researchers. Please read the sections below carefully, since there are different steps to take depending on your career stage."
 
 current_categories:
@@ -20,10 +20,9 @@ current_categories:
     blocks:
       - bs_students
       - meng_students
-#  - name: Visitors
-#    blocks:
-#      - visitors
-
+  - name: Visitors
+    blocks:
+      - visitors
 
 alumni_categories:
 
@@ -702,7 +701,7 @@ bs_students:
     after:
       - title: Physics Ph.D. Candidate
         org: Stony Brook
-    updated: 2024
+    updated: 2025
 
   - name: Talya Klinger
     email: talyaklinger@gmail.com
@@ -922,6 +921,16 @@ bs_students:
 
 visitors:
 
+  - name: Anne Galda
+    email: agalda@uni-mainz.de
+    image: /images/galda.png
+    program:  Fulbright Scholarship
+    project:  "Unveiling the Discovery Potential for ALPs using Machine Learning"
+    dates: Spring 2025
+    home:  Johannes Gutenberg University
+    current: true
+    updated: 2025
+
   - name: Nathaniel Santiago
     email:  ndsantiago6@neiu.edu
     url:  https://www.linkedin.com/in/nathaniel-santiago-14ab45295
@@ -1040,7 +1049,7 @@ visitors:
     after:
       - title: Postdoctoral Researcher
         org: UPenn
-    updated: 2024
+    updated: 2025
 
   - name: Maximilian Henderson
     email: maxhenderson43@gmail.com
