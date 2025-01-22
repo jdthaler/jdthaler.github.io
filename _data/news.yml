@@ -72,6 +72,13 @@ group_news:
     
 perspectives:
 
+  - title:  "Researchers Explore Mutual Benefits of AI and Science"
+    url:  https://science.mit.edu/researchers-explore-mutual-benefits-of-ai-and-science/
+    journal:  Science@MIT
+    image:  /news/2024-sos-overview.jpg
+    date:  2024-12-19
+    quote:  "If one can express scientific problems in the abstract language of computation, one can blur the boundaries between disciplines and leverage AI advances to tackle problems across both AI and science."
+
   - title:  "Physics, AI, and the future of discovery"
     url:  https://pubs.aip.org/physicstoday/article/77/11/30/3318195/Physics-AI-and-the-future-of-discoveryLeaders-from
     journal:  Physics Today
@@ -279,6 +286,13 @@ awards:
      date:     2011-06-10
 
 profiles:
+
+  - title:  "How I Learned to Stop Worrying and Love AI"
+    url:  https://science.mit.edu/how-i-learned-to-stop-worrying-and-love-ai/
+    journal:  Science@MIT
+    image: /news/2024-sos-breakfast.jpg
+    date:  2024-12-19
+    quote:  "Deep learning is all the more powerful when combined with deep thinking."
 
   - title: "In conversation: Jesse Thaler"
     url:  https://www.firstprinciples.org/article/in-conversation-jesse-thaler
