@@ -923,6 +923,7 @@ visitors:
 
   - name: Anne Galda
     email: agalda@uni-mainz.de
+    url:  http://www.linkedin.com/in/anne-mareike-galda-334247347
     image: /images/galda.png
     program:  Fulbright Scholarship
     project:  "Unveiling the Discovery Potential for ALPs using Machine Learning"
