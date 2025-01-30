@@ -1,4 +1,5 @@
 years:
+  - 2025
   - 2024
   - 2023
   - 2022
@@ -23,6 +24,14 @@ years:
   - 2002
   
 papers:
+
+  - title:  "QCD Theory meets Information Theory"
+    authors:  "Benoît Assi, Stefan Höche, Kyle Lee, and Jesse Thaler"
+    arxiv:  2501.17219
+    year: 2025
+    topic:  reweighting
+    image:  /news/2025-preprint-qcd-info.png
+    
 
   - title: "A Lorentz-Equivariant Transformer for All of the LHC"
     authors: Johann Brehmer, Víctor Bresó, Pim de Haan, Tilman Plehn, Huilin Qu, Jonas Spinner, and Jesse Thaler
