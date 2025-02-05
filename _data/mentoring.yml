@@ -587,11 +587,20 @@ meng_students:
 
 bs_students:
 
+  - name:  Canis Li
+    url:  https://canis.li/
+    image: /images/li.png
+    email: canis@mit.edu
+    independent:  IAP 2025
+    date:  2028
+    current: true
+    updated: 2025
+
   - name: Nipun Dour
     image: /images/dour.jpeg
     email: nipund@mit.edu
     date: 2027
-    independent: Summer 2024
+    independent: Summer 2024, IAP 2025
     urop: Fall 2024
     current: true
     updated: 2025
