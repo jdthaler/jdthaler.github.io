@@ -25,6 +25,13 @@ years:
   
 papers:
 
+  - title: "Isolating Unisolated Upsilons with Anomaly Detection in CMS Open Data"
+    authors: "Rikab Gambhir, Radha Mastandrea, Benjamin Nachman, Jesse Thaler"
+    arxiv: 2502.14036
+    year: 2025
+    topic: open_data
+    image: /news/2025-preprint-od-muons.png
+    
   - title:  "QCD Theory meets Information Theory"
     authors:  "Benoît Assi, Stefan Höche, Kyle Lee, and Jesse Thaler"
     arxiv:  2501.17219

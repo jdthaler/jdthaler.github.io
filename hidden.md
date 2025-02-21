@@ -54,3 +54,13 @@ aside:
 {%- if person.email %}{{person.email}}, {% endif -%}
 {%- endfor %}
 {%- endfor %}
+
+### COA
+
+| Arkani-Hamed | Nima | | IAS | advisor | 2025 |
+{%- for person in site.data.mentoring["phd_students"] %}
+| {{ person.name | split: " " | reverse | join: "|" }} | | {% if person.after %}{{person.after[-1].org}}{% else %} MIT {% endif %} | advisee | 2025 |
+{%- endfor -%}
+{%- for person in site.data.mentoring["postdocs"] %}
+| {{ person.name | split: " " | reverse | join: "|" }} | | {% if person.after %}{{person.after[-1].org}}{% else %} MIT {% endif %} | advisee | 2025 |
+{%- endfor %}
