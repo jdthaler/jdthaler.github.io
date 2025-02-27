@@ -36,6 +36,13 @@ categories:
 colloquia:
 
   - title:  "Centaur Science:  Particle Physics meets Machine Learning"
+    url:  talks/jthaler_2025_02_28_Centaur_UWMadison_Colloquium.pdf
+    event:  Physics Colloquium
+    org:  U. Wisconsin, Madison
+    date:  2025-02-28
+    track: true
+
+  - title:  "Centaur Science:  Particle Physics meets Machine Learning"
     url:  talks/jthaler_2025_02_06_Centaur_UPRM_Colloquium.pdf
     event:  Colloquium
     org:  U. Puerto Rico, Mayagüez
