@@ -65,7 +65,7 @@ mit_faculty:
 mit_physics:
 
   - name:  MIT Physics Major Design Committee
-    date:  "Chair: Spring 2025"
+    dates:  "Chair: Spring 2025"
 
   - name:  MIT Physics Council, Member at Large
     dates: Fall 2024-Spring 2025
