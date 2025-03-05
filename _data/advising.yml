@@ -250,9 +250,9 @@ external_phd_theses:
 
   - name:  Pim de Haan
     org: U. Amsterdam
-    title: TBA
-    advisor:  Max Welling
-    date: TBA
+    title: Machine Learning with Generalised Symmetries
+    advisor:  Max Welling and Taco Cohen
+    date: May 2025
 
   - name: Pedro Cal
     org:  U. Amsterdam
