@@ -1223,6 +1223,13 @@ local:
 seminars:
 
   - title: "Flavor Physics from Quantum Entanglement?"
+    url:  talks/jthaler_2025_03_14_Caltech_FlavorQuantum.pdf
+    event:  High Energy Theory Seminar
+    org: Caltech
+    date:  2025-03-14
+    track: true
+
+  - title: "Flavor Physics from Quantum Entanglement?"
     url:  talks/jthaler_2024_11_08_Minnesota_FlavorQuantum.pdf
     event:  HEP Theory Seminar
     org: U. Minnesota
