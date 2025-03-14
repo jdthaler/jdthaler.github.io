@@ -216,6 +216,11 @@ agency_review:
 
 advisory_boards:
 
+  - job: Visiting Committee Member
+    name: Division of Physics, Mathematics and Astronomy
+    org: Caltech
+    dates:  March 2025
+
   - job: Selection Committee
     name: Margot and Tom Pritzker Prize for AI in Science Research Excellence
     url:  https://datascience.uchicago.edu/research/ai-science/partnerships/pritzker-prize/
@@ -442,6 +447,12 @@ boost:
     dates: June 2010
 
 workshops:
+
+  - job:  Organizer
+    issue:  "NSF Workshop on the Future of AI and the Mathematical and Physical Sciences"
+    issue_url: https://indico.mit.edu/e/nsf-ai-mps
+    org: MIT
+    dates:  March 2025
 
   - job: Scientific Committee
     issue:  "PHYSTAT: Statistics Meets Machine Learning"
