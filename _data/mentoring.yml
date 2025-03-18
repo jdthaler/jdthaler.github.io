@@ -592,6 +592,7 @@ bs_students:
     image: /images/li.png
     email: canis@mit.edu
     independent:  IAP 2025
+    urop:  Spring 2025
     date:  2028
     current: true
     updated: 2025

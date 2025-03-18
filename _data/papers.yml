@@ -27,6 +27,7 @@ papers:
 
   - title: "Isolating Unisolated Upsilons with Anomaly Detection in CMS Open Data"
     authors: "Rikab Gambhir, Radha Mastandrea, Benjamin Nachman, Jesse Thaler"
+    made_phd: true
     arxiv: 2502.14036
     year: 2025
     topic: open_data
