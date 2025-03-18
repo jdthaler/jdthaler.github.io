@@ -36,6 +36,12 @@ categories:
 colloquia:
 
   - title:  "Centaur Science:  Particle Physics meets Machine Learning"
+    event:  Physics Colloquium
+    org:  NYU
+    date:  2025-04-10
+    track: true
+
+  - title:  "Centaur Science:  Particle Physics meets Machine Learning"
     url:  talks/jthaler_2025_03_13_Centaur_Caltech_Lauritsen.pdf
     event:  Lauritsen Memorial Lecture
     org:  Caltech
@@ -1221,6 +1227,20 @@ local:
     date:  2009-10-16
 
 seminars:
+
+  - title:  "QCD Theory meets Information Theory"
+    event: Bay Area Particle Theory Seminar
+    event_url: https://bapts.lbl.gov
+    org:  San Francisco State
+    date:  2025-04-04
+    track: true
+
+  - title:  "Centaur Science:  Particle Physics meets Machine Learning"
+    event:  BIDMaP Seminar
+    event_url:  https://bidmap.berkeley.edu/seminars/apr-3-2025-jesse-thaler-centaur-science-particle-physics-meets-machine-learning
+    org:  U.C. Berkeley
+    date:  2025-04-03
+    track: true
 
   - title: "Flavor Physics from Quantum Entanglement?"
     url:  talks/jthaler_2025_03_14_Caltech_FlavorQuantum.pdf
@@ -2592,6 +2612,14 @@ additional:
 
 panels:
 
+  - title: "How is AI Accelerating Progress in Fundamental Physics?"
+    event: "Theory + AI Symposium"
+    event_url:  https://events.perimeterinstitute.ca/event/951/
+    org:  Perimeter Institute
+    date: 2025-04-07
+    panelist: true
+    track: true
+  
   - title:  "AI in High Energy and Nuclear Physics"
     event: "Office of Science Roundtables"
     event_url:  https://web.cvent.com/event/dbeec3e2-81b1-4075-ae88-1bc8a9f7d82f/
