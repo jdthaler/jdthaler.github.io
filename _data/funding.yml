@@ -1,5 +1,12 @@
 grants:
 
+  - name:   Conference Award
+    title:  "Future of AI and the Mathematical and Physical Sciences (AI+MPS)"
+    url:   https://indico.mit.edu/e/nsf-ai-mps
+    org:   National Science Foundation
+    dates:  2025
+    amount:  $100k
+
   - name:  Unrestricted Gift
     title:  "Interpretation of Multimodal Images from Astronomy"
     org:  Google
