@@ -1229,6 +1229,7 @@ local:
 seminars:
 
   - title:  "QCD Theory meets Information Theory"
+    url:  talks/jthaler_2025_04_04_QCDInfoTheory_BAPTS.pdf 
     event: Bay Area Particle Theory Seminar
     event_url: https://bapts.lbl.gov
     org:  San Francisco State
@@ -1236,6 +1237,7 @@ seminars:
     track: true
 
   - title:  "Centaur Science:  Particle Physics meets Machine Learning"
+    url:  talks/jthaler_2025_04_03_Centaur_Berkeley_BIDMaP.pdf
     event:  BIDMaP Seminar
     event_url:  https://bidmap.berkeley.edu/seminars/apr-3-2025-jesse-thaler-centaur-science-particle-physics-meets-machine-learning
     org:  U.C. Berkeley
