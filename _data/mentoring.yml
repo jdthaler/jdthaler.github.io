@@ -399,6 +399,7 @@ phd_students:
     email: rikab@mit.edu
     image: /images/gambhir_2.png
     date: 2025
+#    thesis:  "Metrics, Muons, Moments, Models, Machine Learning, Measurements, and More: A Manifesto on Collider Physics"
     url: https://rikabgambhir.com/
     awards:
       - name: MIT Prize for Open Data (Honorable Mention)
@@ -411,6 +412,7 @@ phd_students:
     url: https://samcaf.github.io/
     email: samuelaf@mit.edu
     image: /images/alipour-fard.jpg
+#    thesis:  "Particles Inside Particles: The Flow of Energy in Quarks, Gluons, and Jets"
     date: 2025
     current: true
     updated: 2025
