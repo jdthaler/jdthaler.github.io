@@ -748,8 +748,10 @@ bs_students:
     after:
       - title:  Marshall Scholarship
         org:  U. Cambridge
-      - title: Physics Ph.D Candidate
+      - title:  Physics Ph.D.
         org:  U.C. Berkeley
+      - title:  Schmidt AI Fellow
+        org:  U. Chicago
     updated: 2025
 
   - name: Eleanor Hall
@@ -911,7 +913,7 @@ bs_students:
     thesis_url: https://hdl.handle.net/1721.1/65536
     thesis_dates: Spring 2011
     after:
-      - title: Physics Ph.D
+      - title: Physics Ph.D.
         org: Stanford
       - title: Postdoctoral Researcher
         org: Institute for Advanced Study and New York University
