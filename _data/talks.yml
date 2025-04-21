@@ -2615,6 +2615,14 @@ additional:
 
 panels:
 
+  - title:  "Breakthrough Research in AI for Science"
+    event:  "AI for Science Symposium"
+    event_url: https://mlfoundry.com/ai-for-science-symposium
+    org:  Foundry
+    date:  2025-05-16
+    panelist: true
+    track: true
+
   - title: "How is AI Accelerating Progress in Fundamental Physics?"
     event: "Theory + AI Symposium"
     event_url:  https://events.perimeterinstitute.ca/event/951/

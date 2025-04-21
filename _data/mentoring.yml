@@ -399,7 +399,7 @@ phd_students:
     email: rikab@mit.edu
     image: /images/gambhir_2.png
     date: 2025
-#    thesis:  "Metrics, Muons, Moments, Models, Machine Learning, Measurements, and More: A Manifesto on Collider Physics"
+    thesis:  "Metrics, Muons, Moments, Models, Machine Learning, Measurements, and More: A Manifesto on Collider Physics"
     url: https://rikabgambhir.com/
     awards:
       - name: MIT Prize for Open Data (Honorable Mention)
