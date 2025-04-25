@@ -412,7 +412,7 @@ phd_students:
     url: https://samcaf.github.io/
     email: samuelaf@mit.edu
     image: /images/alipour-fard.jpg
-#    thesis:  "Particles Inside Particles: The Flow of Energy in Quarks, Gluons, and Jets"
+    thesis:  "Particles Inside Particles: The Flow of Energy in Quarks, Gluons, and Jets"
     date: 2025
     current: true
     updated: 2025
