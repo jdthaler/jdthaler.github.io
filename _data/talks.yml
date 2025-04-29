@@ -366,6 +366,12 @@ colloquia:
     
 public:
 
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    event:  Glicksman Forum
+    org:  Brown
+    date:  2025-05-24
+    track:  true
+
   - title:  "Centaur Science:  Particle Physics meets Machine Learning"
     url:  talks/jthaler_2024_12_04_Centaur_Simons_Presidential_Lecture.pdf
     event_url: https://www.simonsfoundation.org/event/collision-course-particle-physics-meets-machine-learning/
@@ -1049,6 +1055,19 @@ invited:
 
 
 local:
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    event:  Journal Club
+    org:  Topo Therapeutics
+    date:  2025-05-15
+    track:  true
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    url: talks/jthaler_2025_05_02_UMassBoston_merged.pdf
+    event: Quantum Research Symposium
+    org:  Physics Annual Research Symposium
+    date:  2025-05-02
+    
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url: talks/jthaler_2024_10_16_SoS_Breakfast.pdf
@@ -2073,7 +2092,9 @@ seminars:
 
 additional:
 
-
+  - event:  "Bootstrap, Holography & Swampland / Collider Physics at the LHC and Beyond"
+    org:  Aspen Center for Physics
+    date:  2025-06-08
   
   - event: 2024 Mathematics and Physical Sciences Annual Meeting
     event_url: https://www.simonsfoundation.org/event/mps-annual-meeting-2024/
