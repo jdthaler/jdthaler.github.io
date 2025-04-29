@@ -1063,6 +1063,13 @@ local:
     track:  true
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    url: talks/jthaler_2025_05_02_UMassBoston_merged.pdf
+    event: Quantum Research Symposium
+    org:  Physics Annual Research Symposium
+    date:  2025-05-02
+    
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url: talks/jthaler_2024_10_16_SoS_Breakfast.pdf
     event:  Breakfast Talk
     org:   MIT School of Science
