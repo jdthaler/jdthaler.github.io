@@ -104,6 +104,7 @@ papers:
     journal_url:  https://neurips.cc/virtual/2024/poster/94796
     image: /news/2024-preprint-l-gatr.png
     non_alphabetical: true
+    priority: 3
 
   - title: "Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling"
     authors:  Rikab Gambhir, Athis Osathapan, and Jesse Thaler
@@ -281,7 +282,7 @@ papers:
     arxiv: "2205.02857"
     year: 2022
     topic: correlators
-    priority: 6
+    priority: 5
 
 
   - title: "Quantum Annealing for Jet Clustering with Thrust"
@@ -301,6 +302,8 @@ papers:
     short_journal: PRL 2023
     year: 2022
     topic: open_data
+    priority: 8
+    description: "This paper performed the first ever analysis of $N$-point correlators inside jets, using public data from the Large Hadron Collider.  $N$-point correlators (distinct from $N$-subjettiness) are powerful ways to probe the substructure of jets.  While $2$-point correlators had been studied in the 1970s, the $N$-point generalization was not pursued at the time.  This work not only showed the feasibility of $N$-point analyses, but it also revealed a clear phase transition between the partonic and hadronic phases of quantum chromodynamics, which inspired multiple follow-up studies in both particle and nuclear physics."
 
   - title: "SymmetryGAN: Symmetry Discovery with Deep Learning"
     authors: Krish Desai, Benjamin Nachman, and Jesse Thaler
@@ -448,8 +451,8 @@ papers:
     made_phd: true
     topic: optimal_transport
     etc: "[[https://physics.aps.org/articles/v12/85|Viewpoint]]"
-    priority: 6
-
+    priority: 8
+    description: "This paper showed how to define the geometry of collider events, based on techniques from optimal transport.  In optimal transport, one computes the amount of ``work\" needed to transform one distribution into another, which yields a precise notion of distance.  In the collider context, one can consider distributions of energy deposited in an idealized detector at infinity.  Once one has defined the distance between any two collider events, one can compute many different geometric objects with wide applicability in collider physics."
 
   - title: "Sorting Out Quenched Jets"
     authors: Jasmine Brewer, José Guilherme Milhano, and Jesse Thaler
@@ -479,7 +482,7 @@ papers:
     year: 2018
     made_phd: true
     topic: point_cloud
-    priority: 3
+    priority: 5
 
 
   - title: "Searching for Axion Dark Matter with Birefringent Cavities"
@@ -502,7 +505,7 @@ papers:
     year: 2018
     made_phd: true
     topic: quark_gluon
-    priority: 3
+    priority: 5
 
   - title: "Photon Isolation and Jet Substructure"
     authors: Eleanor Hall and Jesse Thaler
@@ -677,7 +680,7 @@ papers:
     arxiv: "1603.08926"
     year: 2016
     topic: detecting_dm
-    priority: 4
+    priority: 5
 
 
   - title: "Broadband and Resonant Approaches to Axion Dark Matter Detection"
@@ -688,7 +691,8 @@ papers:
     arxiv: "1602.01086"
     year: 2016
     topic: detecting_dm
-    priority: 6
+    priority: 8
+    description: "This paper proposed a new scheme to detect axion dark matter.  The axion is a hypothetic particle that could explain two mysteries of the universe:  the origin of dark matter and the solution to the strong CP problem.  Traditional axion detectors are based on identifying a signal inside of a cavity resonator.  By contrast, this work showed that axions could be detected through precision magnetometry, offering complementary sensitivity.  This research inspired a new axion experiment called ABRACADABRA (A Broadband or Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus), which has already progressed beyond the prototype stage."
 
   - title: "Cosmology with Orthogonal Nilpotent Superfields"
     authors: Sergio Ferrara, Renata Kallosh, and Jesse Thaler
@@ -830,7 +834,9 @@ papers:
     arxiv: "1402.2657"
     year: 2014
     topic: boost
-    priority: 3
+    priority: 8
+    description: "This paper introduced Soft Drop, a jet reclustering algorithm that removes soft (i.e.\ low energy) contimination.  In the complex environment of the Large Hadron Collider, there are multiple sources of contimination that polute the substructure of jets, including underlying event, initial state radiation, and pileup.  Soft drop---true to its name---is one of the most effective algorithms for mitigating soft radiation.  Moreover, soft drop preserves the hard (i.e.\ high energy) structure of jets, such that the properties of soft-dropped jets can still be predicted from first principles."
+
 
 
   - title: "Jet Shapes with the Broadening Axis"
@@ -1099,7 +1105,9 @@ papers:
     year: 2010
     topic: boost
     made_phd: true
-    priority: 6
+    priority: 8
+    description: "This paper introduced $N$-subjettiness, a collider observable that probes a jet for $N$ prong substructure.  Jets are collimated sprays of particles that arise from the fragmentation of high-energy quarks and gluons.  Jets can also form if a heavy resonance---like a $W$ boson, $Z$ boson, or top quark---is produced with a large Lorentz boost.  Distinguishing between these scenarios is crucial in the search for new physics beyond the Standard Model.  $N$-subjettiness is one of the most powerful observables ever designed for this purpose, and it has been widely applied at the Large Hadron Collider."
+
 
   - title: "The Bestest Little Higgs"
     authors: Martin Schmaltz, Daniel Stolarski, and Jesse Thaler

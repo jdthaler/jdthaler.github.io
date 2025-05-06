@@ -138,6 +138,74 @@ for paper in papers:
 papers_output.write('\\end{list}\n')
 
 
+########## papers last 10 years file
+
+papers_last10_output = open("cv_papers_last10.tex","w")
+
+papers_last10 = [entry for entry in papers if int(entry.get('year', 0)) >= 2015]
+
+papers_last10_output.write('\\newcounter{jessecount}\n')
+papers_last10_output.write('\\setcounter{jessecount}{'+str(len(papers_last10))+'}\n\n')
+papers_last10_output.write('\\begin{list}{[\\arabic{jessecount}]\\addtocounter{jessecount}{-1}}{\\leftmargin=3em \\itemsep=4pt}\n\n')
+
+for paper in papers_last10:
+  papers_last10_output.write('\\item\n')
+  if 'made_phd' in paper:
+    papers_last10_output.write('${}^\\ast$')
+  if 'made_bs' in paper:
+    papers_last10_output.write('${}^\\dagger$')
+  if 'non_alphabetical' in paper:
+    papers_last10_output.write('${}^\\S$')
+  papers_last10_output.write(' '+paper['authors'].replace('. ','.\\ ')+',\n')
+  papers_last10_output.write('\\emph{'+paper['title']+'}')
+  if 'journal' in paper:
+    papers_last10_output.write(',')
+  papers_last10_output.write('\n')
+  if 'journal' in paper:
+    papers_last10_output.write(paper['journal'].replace('. ','.\\ ')+'\n')
+  papers_last10_output.write('[arXiv:'+paper['arxiv']+'].\n\n')
+
+papers_last10_output.write('\\end{list}\n')
+
+
+########## papers top 5
+
+papers_top5_output = open("cv_papers_top5.tex","w")
+
+papers_top5 = [entry for entry in papers if int(entry.get('priority', 0)) >= 8]
+papers_top5.reverse()
+
+
+papers_top5_output.write('\\newcounter{jessecount}\n')
+papers_top5_output.write('\\setcounter{jessecount}{'+str(1)+'}\n\n')
+papers_top5_output.write('\\begin{list}{[\\arabic{jessecount}]\\addtocounter{jessecount}{1}}{\\leftmargin=3em \\itemsep=4pt}\n\n')
+
+for paper in papers_top5:
+  papers_top5_output.write('\\item\n')
+#  if 'made_phd' in paper:
+#    papers_top5_output.write('${}^\\ast$')
+#  if 'made_bs' in paper:
+#    papers_top5_output.write('${}^\\dagger$')
+#  if 'non_alphabetical' in paper:
+#    papers_top5_output.write('${}^\\S$')
+  papers_top5_output.write(' '+paper['authors'].replace('. ','.\\ ')+',\n')
+  papers_top5_output.write('\\emph{'+paper['title']+'}')
+  if 'journal' in paper:
+    papers_top5_output.write(',')
+  papers_top5_output.write('\n')
+  if 'journal' in paper:
+    papers_top5_output.write(paper['journal'].replace('. ','.\\ ')+'\n')
+  papers_top5_output.write('[arXiv:'+paper['arxiv']+'].\n\n')
+  papers_top5_output.write('\\begin{quote}\n')
+  papers_top5_output.write(paper['description']+'\n')
+  papers_top5_output.write('\\end{quote}\n')
+
+papers_top5_output.write('\\end{list}\n')
+
+
+
+
+
 #################### mentoring file
 
 mentoring_input = open("../_data/mentoring.yml","r")
