@@ -1,4 +1,7 @@
 python3 parse_yaml.py
 
 pdflatex jthaler_cv.tex
-
+pdflatex jthaler_cv_no_publications.tex
+pdflatex jthaler_cv_just_publications.tex
+pdflatex jthaler_cv_just_publications_last10.tex
+pdflatex jthaler_cv_top5_publications.tex
