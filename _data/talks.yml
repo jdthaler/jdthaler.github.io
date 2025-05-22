@@ -367,7 +367,9 @@ colloquia:
 public:
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    url:  talks/jthaler_2025_05_24_Brown_Glicksman.pdf
     event:  Glicksman Forum
+    event_url:  https://events.brown.edu/commencement/event/310386-deep-learning-deep-thinking-deeper-understanding
     org:  Brown
     date:  2025-05-24
     track:  true
