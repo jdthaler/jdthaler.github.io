@@ -101,7 +101,7 @@ postdocs:
    image: /images/trifinopoulos.jpg
    at:
      - dates: Fall 2022-Spring 2024
-       title: Postdoc.Mobility Fellow
+       title: SNSF Postdoc.Mobility Fellow
      - dates: Spring 2024-Spring 2025
        title: CTP Postdoctoral Researcher
    before:
@@ -109,7 +109,9 @@ postdocs:
        org: Zurich
      - title: Postdoc
        org: SISSA
-   current: true
+   after:
+     - title: SNSF Postdoc.Mobility Return Grantee
+       org:  CERN
    updated: 2025
 
  - name: Siddharth Mishra-Sharma
@@ -589,11 +591,18 @@ meng_students:
 
 bs_students:
 
+  - name: Marshall Taylor
+    email: mntaylor@mit.edu
+    urop:  Summer 2025
+    date:  2026
+    current: true
+    updated: 2025
+
   - name:  Canis Li
     url:  https://canis.li/
     image: /images/li.png
     email: canis@mit.edu
-    independent:  IAP 2025
+    independent:  IAP 2025, Summer 2025
     urop:  Spring 2025
     date:  2028
     current: true
@@ -604,7 +613,7 @@ bs_students:
     email: nipund@mit.edu
     date: 2027
     independent: Summer 2024, IAP 2025
-    urop: Fall 2024
+    urop: Fall 2024, Spring 2025, Summer 2025
     current: true
     updated: 2025
 
@@ -620,8 +629,8 @@ bs_students:
     image: /images/fayad.jpg
     date:  2025
     urop:  Summer 2023, Summer 2024
-    independent: Fall 2024
     current: true
+    independent: Fall 2024
     updated: 2025
 
   - name: Mohit Dighamber
