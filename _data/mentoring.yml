@@ -629,6 +629,7 @@ bs_students:
     image: /images/fayad.jpg
     date:  2025
     urop:  Summer 2023, Summer 2024
+    current: true
     independent: Fall 2024
     updated: 2025
 
