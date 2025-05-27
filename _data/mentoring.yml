@@ -593,6 +593,7 @@ bs_students:
 
   - name: Marshall Taylor
     email: mntaylor@mit.edu
+    image:  /images/taylor_marshall.jpg
     urop:  Summer 2025
     date:  2026
     current: true
