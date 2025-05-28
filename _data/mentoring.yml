@@ -622,6 +622,7 @@ bs_students:
     email: maxt114@mit.edu
     image: /images/tan.png
     date:  2025
+    graduated: true
     urop:  Spring 2023, Summer 2023
     updated: 2024
 
@@ -630,7 +631,7 @@ bs_students:
     image: /images/fayad.jpg
     date:  2025
     urop:  Summer 2023, Summer 2024
-    current: true
+    graduated: true
     independent: Fall 2024
     updated: 2025
 
