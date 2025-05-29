@@ -30,9 +30,9 @@ positions:
 
 affiliations:
 
-  - name: Center for Theoretical Physics
+  - name: Center for Theoretical Physics - a Leinweber Institute
     mit: true
-    acronym: CTP
+    acronym: CTP-LI
     image: /images/logo_ctp.png
     url: http://ctp.mit.edu/
     dates: January 2010-Present

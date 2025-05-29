@@ -618,20 +618,24 @@ bs_students:
     current: true
     updated: 2025
 
-  - name: Max Tan
-    email: maxt114@mit.edu
-    image: /images/tan.png
-    date:  2025
-    urop:  Spring 2023, Summer 2023
-    updated: 2024
-
-  - name: Ammar Fayad 
+  - name: Ammar Fayad
     email: afayad@mit.edu
     image: /images/fayad.jpg
     date:  2025
     urop:  Summer 2023, Summer 2024
-    current: true
+    graduated: true
     independent: Fall 2024
+    updated: 2025
+
+  - name: Max Tan
+    email: maxt114@mit.edu
+    image: /images/tan.png
+    date:  2025
+    graduated: true
+    after:
+      - title: EECS M.Eng. Candidate
+        org: MIT
+    urop:  Spring 2023, Summer 2023
     updated: 2025
 
   - name: Mohit Dighamber
@@ -641,9 +645,11 @@ bs_students:
     urop: Fall 2022, Spring 2023
     graduated: true
     after:
-      - title: EECS M.Eng. Candidate
+      - title: EECS M.Eng.
         org: MIT
-    updated: 2024
+      - title: Software Engineer
+        org: Google
+    updated: 2025
 
   - name: Octavio Vega
     email: vega00087@gmail.com
