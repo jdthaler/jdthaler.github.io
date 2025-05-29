@@ -13,7 +13,7 @@ permalink: /about/
 <img class="image-h image-h--lg rounded" src="{{topimage.image}}" title="{{topimage.hover}}" align="left"/>
 </div>
 <div class="item__content" markdown="1">
-  I am a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. My current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. I joined the MIT Physics Department in 2010, and I am currently a Professor in the Center for Theoretical Physics. In 2020, I became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
+  I am a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics. My current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. I joined the MIT Physics Department in 2010, and I am currently a Professor in the MIT Center for Theoretical Physics - a Leinweber Institute. In 2020, I became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
   </div>
 </div>
 
