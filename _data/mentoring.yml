@@ -416,7 +416,6 @@ phd_students:
     image: /images/alipour-fard.jpg
     thesis:  "Particles Inside Particles: The Flow of Energy in Quarks, Gluons, and Jets"
     date: 2025
-    current: true
     updated: 2025
 
   - name: Patrick Komiske
