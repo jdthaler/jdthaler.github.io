@@ -20,7 +20,7 @@ permalink: join/
 
 ## Postdocs
 
-With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[Center for Theoretical Physics (CTP)](http://ctp.mit.edu/)** at MIT is a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/)**.
+With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[MIT Center for Theoretical Physics - a Leinweber Institute (CTP-LI)](http://ctp.mit.edu/)** a great place to do postdoctoral research.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/)**.
 
 *N.B.:  The selection process for these positions are independent, so make sure to apply to all positions that you might be interested in taking.  Also, some of these positions require you to select a potential mentor, otherwise your application will be considered incomplete, so don't forget that step in the process.*
 
@@ -70,7 +70,7 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 
 ### Visiting Students
 
-  * [MIT MSRP](https://oge.mit.edu/graddiversity/msrp/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"} The primary way that I work with summer interns is through the MIT Summer Research Program.
+  * [MIT MSRP](https://oge.mit.edu/graddiversity/msrp/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"} The primary way that I work with summer undergraduate interns is through the MIT Summer Research Program.
   * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, you can fill out this form to indicate your interest.
   * Visiting undergraduate students must have full financial support to visit MIT.  **Self-funded visits are not possible**, and I currently do not have funds to support visiting students.
 
