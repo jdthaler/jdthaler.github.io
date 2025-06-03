@@ -24,7 +24,7 @@ topics:
         title:  Point Cloud Learning
 
       - key:    reweighting
-        title:  Reweighting, Unfolding, and Calibration
+        title:  Reweighting, Unfolding, Uncertainties, and Calibration
 
       - key:    weak
         title:  Weak Supervision and Interpretability

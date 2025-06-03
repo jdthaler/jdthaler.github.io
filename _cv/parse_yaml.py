@@ -494,8 +494,11 @@ internal_service_output.write('\\bbl\n')
 
 for category in service_yaml['internal_categories']:
   if (int(category['priority']) >= 3):
+    internal_service_output.write('\\item ' + category['title'] + '\n')
+    internal_service_output.write('\\bsbl \n')
     for role in service_yaml[category['key']]:
       internal_service_output.write('\\item '+ role_string(role) + '\n')
+    internal_service_output.write('\\el \n')
 
 internal_service_output.write('\\el\n')
 

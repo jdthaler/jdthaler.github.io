@@ -25,10 +25,20 @@ years:
   
 papers:
 
+  - title: "Frequentist Uncertainties on Neural Density Ratios with WiFi Ensembles"
+    authors:  "Sean Benevedes and Jesse Thaler"
+    made_phd: true
+    arxiv:  2506.00113
+    inspire:  Benevedes:2025nzr
+    year: 2025
+    topic: reweighting
+    image:  /news/2025-preprint-wifi.png
+
   - title: "Isolating Unisolated Upsilons with Anomaly Detection in CMS Open Data"
     authors: "Rikab Gambhir, Radha Mastandrea, Benjamin Nachman, Jesse Thaler"
     made_phd: true
     arxiv: 2502.14036
+    inspire:  Gambhir:2025afb
     year: 2025
     topic: open_data
     image: /news/2025-preprint-od-muons.png
@@ -36,6 +46,7 @@ papers:
   - title:  "QCD Theory meets Information Theory"
     authors:  "Benoît Assi, Stefan Höche, Kyle Lee, and Jesse Thaler"
     arxiv:  2501.17219
+    inspire:  Assi:2025ibi
     year: 2025
     topic:  reweighting
     priority: 6
