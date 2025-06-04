@@ -8,7 +8,7 @@ talks_input = open("../_data/talks.yml","r")
 talks_yaml = yaml.load(talks_input,Loader=yaml.BaseLoader)
 talks_output = open("thaler_reporting_talks.bib","w")
 
-reporting_list = ["December 2023", "January 2024", "February 2024", "March 2024", "April 2024", "May 2024", "June 2024", "July 2024", "August 2024", "September 2024", "October 2024", "November 2024"]
+reporting_list = ["April 2024", "May 2024", "June 2024", "July 2024", "August 2024", "September 2024", "October 2024", "November 2024", "December 2024", "January 2025", "February 2025", "March 2025", "April 2025", "May 2025", "June 2025", "July 2025"]
 
 talks_to_report = []
 
@@ -56,10 +56,10 @@ papers_output = open("thaler_reporting_papers.tex","w")
 
 papers_to_report = []
 
-arxiv_start = 2311.07652
+arxiv_start = 2404.00000
 
 for paper in papers_yaml['papers']:
-  arxiv_renum = paper['arxiv'].replace('hep-ph/0','20.').replace('hep-th/0','20.')
+  arxiv_renum = paper['arxiv'].replace('hep-ph/0','2000.').replace('hep-th/0','2000.')
   if float(arxiv_renum) >= arxiv_start:
     papers_to_report.append(paper)
     
