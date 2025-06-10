@@ -403,11 +403,14 @@ phd_students:
     date: 2025
     thesis:  "Metrics, Muons, Moments, Models, Machine Learning, Measurements, and More: A Manifesto on Collider Physics"
     url: https://rikabgambhir.com/
+    current: true
     awards:
       - name: MIT Prize for Open Data (Honorable Mention)
         org: MIT Libraries and School of Science
         date: 2022
-    current: true
+    after:
+      - title: Postdoctoral Researcher
+        org: U. Cincinnati
     updated: 2025
 
   - name: Samuel Alipour-fard
@@ -590,13 +593,6 @@ meng_students:
 
 bs_students:
 
-  - name: Marshall Taylor
-    email: mntaylor@mit.edu
-    image:  /images/taylor_marshall.jpg
-    urop:  Summer 2025
-    date:  2026
-    current: true
-    updated: 2025
 
   - name:  Canis Li
     url:  https://canis.li/
@@ -614,6 +610,14 @@ bs_students:
     date: 2027
     independent: Summer 2024, IAP 2025
     urop: Fall 2024, Spring 2025, Summer 2025
+    current: true
+    updated: 2025
+
+  - name: Marshall Taylor
+    email: mntaylor@mit.edu
+    image:  /images/taylor_marshall.jpg
+    urop:  Summer 2025
+    date:  2026
     current: true
     updated: 2025
 

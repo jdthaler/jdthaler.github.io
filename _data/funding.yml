@@ -1,5 +1,12 @@
 grants:
 
+  - name: MGAIC Award
+    collaborators: Phiala Shanahan
+    title: "Physics Predictions from Physical Generative AI"
+    org:  MIT Generative AI Impact Consortium
+    dates: 2025-2026
+    amount:  $50k
+
   - name:   Conference Award
     title:  "Future of AI and the Mathematical and Physical Sciences (AI+MPS)"
     url:   https://indico.mit.edu/e/nsf-ai-mps
