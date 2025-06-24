@@ -72,6 +72,13 @@ group_news:
     
 perspectives:
 
+  - title:  "Review:  Machine Learning in Quantum Sciences"
+    url:  https://www.cambridge.org/us/universitypress/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/machine-learning-quantum-sciences
+    journal:  Cambridge University Press
+    image:  /news/2025-review-mlqs.jpg
+    date:  2025-06-24
+    quote:  "Imagine trying to do cutting-edge research in the quantum sciences without knowing artificial intelligence (AI) and machine learning (ML)."
+
   - title:  "Researchers Explore Mutual Benefits of AI and Science"
     url:  https://science.mit.edu/researchers-explore-mutual-benefits-of-ai-and-science/
     journal:  Science@MIT
