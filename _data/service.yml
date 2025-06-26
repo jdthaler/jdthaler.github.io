@@ -189,6 +189,8 @@ peer_review:
   - name: Journal of High Energy Physics
   - name: Physical Review D
   - name: SciPost Physics
+  - name: Neural Information Processing Systems
+  - name: "Machine Learning: Science and Technology"
   - name: Journal of Cosmology and Astroparticle Physics
   - name: Physics of the Dark Universe
   - name: Nuclear Physics B
@@ -197,6 +199,7 @@ peer_review:
   - name: Journal of Physics G
   - name: Physics Reports
   - name: Annals of Physics
+  - name: Reviews of Modern Physics
   - name: Particle Data Group
 
 
@@ -211,6 +214,7 @@ agency_review:
   - name: Swiss National Science Foundation
   - name: Natural Sciences & Engineering Research Council of Canada
   - name: Israel Science Foundation
+  - name: Pazy Foundation
   - name: Netherlands Organisation for Scientific Research
   - name: German Academic Exchange Service (DAAD)
   - name: French National Research Agency
