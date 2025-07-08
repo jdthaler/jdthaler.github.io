@@ -1,5 +1,13 @@
 phd_theses:
 
+  - name: Jessica Fry
+    title:  "First Results from DMRadio-50L: Searching for Low-Mass Axion Dark Matter"
+    advisor:  Lindley Winslow
+
+  - name: Ziming Liu
+    title:  "TBA"
+    advisor: Max Tegmark
+
   - name: Enrique Toloza
     title:  "Biophysical Specializations Supporting Efficiency and Flexibility in Neural Networks"
     advisor:  Mark Harnett & Mehran Kardar
