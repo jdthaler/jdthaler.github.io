@@ -383,6 +383,13 @@ postdocs:
 
 phd_students:
 
+  - name: Gregorio de la Fuente Simarro
+    email: grego137@mit.edu
+    image: /images/delafuentesimarro.jpg
+    date: 2028
+    current: true
+    updated: 2025
+
   - name: Pamela Pajarillo
     email: pampaja@mit.edu
     image: /images/pajarillo.png
