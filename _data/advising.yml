@@ -1,5 +1,9 @@
 phd_theses:
 
+  - name: Noah Paladino
+    title:  "A Search for Dark Photons using the Upgraded SpinQuest Experiment"
+    advisor:  Philip Harris
+
   - name: Jessica Fry
     title:  "First Results from DMRadio-50L: Searching for Low-Mass Axion Dark Matter"
     advisor:  Lindley Winslow
@@ -7,6 +11,7 @@ phd_theses:
   - name: Ziming Liu
     title:  "Enlightening Artificial Intelligence with Science"
     advisor: Max Tegmark
+    date: July 2025
 
   - name: Enrique Toloza
     title:  "Biophysical Specializations Supporting Efficiency and Flexibility in Neural Networks"
