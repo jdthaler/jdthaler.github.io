@@ -31,7 +31,7 @@ permalink: /about/
       * Associate Professor of Physics, *2015-2021 (tenured in 2017)*
       * Assistant Professor of Physics, *2010-2015*
   * **NSF Institute for Artificial Intelligence and Fundamental Interactions**
-      * Director, *2020-Present*
+      * Director, *2020-Present (on sabbatical 2025-2026)*
   * **University of California, Berkeley**
       * Miller Research Fellow, *2006-2009*
 

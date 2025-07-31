@@ -33,7 +33,7 @@ permalink: cv/
    
 ### Leadership
 
- * **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**, Director, *August 2020-Present*
+ * **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**, Director, *August 2020-Present (on sabbatical August 2025-July 2026)*
 
 ### Affiliations
 

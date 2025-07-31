@@ -64,7 +64,15 @@ affiliations:
 
   - position:  Schlumberger Chair for Mathematical Sciences
     name:  Institut des Hautes Études Scientifiques
+    acronym: IHES
     url: https://www.ihes.fr/
+    dates:  August 2025-July 2026
+    priority: 3
+    
+  - position:  Visiting Researcher
+    name:  Institut de Physique Théorique
+    acronym:  IPhT
+    url:  https://www.ipht.fr
     dates:  August 2025-July 2026
     priority: 3
 
