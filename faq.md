@@ -9,7 +9,7 @@ permalink: faq/
 
 Have a burning question that isn't answered here?  [Ask Jesse a Question!](https://forms.gle/1gbK2yhdGfAbZnJ46){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
-Quick links:  [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"} [Letter of Recommendation Request Form](https://forms.gle/enUPnnBsErMQbGDJA){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+Quick links:  [Join My Group](/join){:.button.button--secondary.button--pill.button--sm} [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"} [Letter of Recommendation Request Form](https://forms.gle/enUPnnBsErMQbGDJA){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Research
 
