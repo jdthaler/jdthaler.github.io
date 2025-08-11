@@ -39,6 +39,20 @@ def role_string(role):
   return my_string
 
 
+def affiliation_string(role):
+
+  my_string = ''
+
+  if 'mit' in role and role['mit']:
+    my_string += 'MIT '
+  my_string += role['name'].replace('-','--')
+  if 'acronym' in role:
+    my_string += ' ('+role['acronym']+')'
+  my_string += ', '
+  my_string += '\\emph{'+role['dates'].replace('-','--')+'}'
+
+  return my_string
+
 #################### about file
 
 about_input = open("../_data/about.yml","r")
@@ -85,6 +99,18 @@ research_output.write('\\el\n')
 
 bio_input = open("../_data/bio.yml","r")
 bio_yaml = yaml.load(bio_input,Loader=yaml.BaseLoader)
+
+########## affiliations file
+
+affiliations_output = open("cv_affiliations.tex","w")
+affiliations = bio_yaml['affiliations']
+affiliations_output.write('\\bbl\n')
+
+for affiliation in affiliations:
+  if int(affiliation['priority']) >= 3 :
+    affiliations_output.write('\\item '+affiliation_string(affiliation) + '\n')
+    
+affiliations_output.write('\\el\n')
 
 
 ########## awards file
@@ -518,30 +544,44 @@ for tag in service_yaml['institutions']:
 
 external_service_output = open("cv_external_service.tex","w")
 advisory_boards = service_yaml['advisory_boards']
-workshops = service_yaml['workshops']
+workshop_series = service_yaml['workshop_series']
 journal_editing = service_yaml['journal_editing']
 peer_review = service_yaml['peer_review']
 agency_review = service_yaml['agency_review']
 
 ##### workshops
 
-for role in workshops:
-  external_service_output.write('\\item ' + role_string(role)+'\n')
+for tag in service_yaml['workshop_series']:
+  series = service_yaml[tag]
+  external_service_output.write('\\item ' + series['name'] + '\n')
+  external_service_output.write('\\bsbl \n')
+  for role in series['roles']:
+    external_service_output.write('\\item ' + role_string(role) + '\n')
+  external_service_output.write('\\el \n')
 
 ##### advisory_boards
+
+external_service_output.write('\\item ' + 'Advisory Boards'+ '\n')
+external_service_output.write('\\bsbl \n')
 
 for role in advisory_boards:
   external_service_output.write('\\item ' + role_string(role)+'\n')
 
+external_service_output.write('\\el \n')
 
 ##### journal editing
+
+external_service_output.write('\\item ' + 'Journal Editing'+ '\n')
+external_service_output.write('\\bsbl \n')
 
 for role in journal_editing:
   external_service_output.write('\\item ' + role_string(role) + '\n')
 
+external_service_output.write('\\el \n')
+
 ##### peer review
 
-external_service_output.write('\\item \\raggedright Peer Review: \\\\ \\textit{\\nohyphens{')
+external_service_output.write('\\item \\raggedright Peer Review \\\\ \\textit{\\nohyphens{')
 peer_review_string = ''
 for role in peer_review:
   peer_review_string += role['name'].replace(' ','~').replace('&','\\&') + '; '
@@ -549,7 +589,7 @@ external_service_output.write(peer_review_string[:-2]+'}}\n')
 
 ##### funding agency review
 
-external_service_output.write('\\item \\raggedright Funding Agency Review: \\\\ \\textit{\\nohyphens{')
+external_service_output.write('\\item \\raggedright Funding Agency Review \\\\ \\textit{\\nohyphens{')
 agency_review_string = ''
 for role in agency_review:
   agency_review_string += role['name'].replace(' ','~').replace('&','\\&') + '; '

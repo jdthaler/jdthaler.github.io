@@ -45,9 +45,6 @@ external_categories:
   - title: Advisory Boards
     key: advisory_boards
 
-  - title: Additional Workshop/Conference Organization
-    key: workshops
-
   - title: Journal Editing
     key: journal_editing
 
@@ -257,13 +254,18 @@ advisory_boards:
     url: https://www.pas.rochester.edu/~orr/LHC-TI/Home.html
     dates: "Fall 2013-Fall 2014; Chair: Fall 2014"
 
-
 institutions:
   - acp
   - aps
   - hepap
+  
+workshop_series:
+  - strategic
   - ml4jets
+  - stat_ml
   - boost
+  - jet_physics
+  - collider
 
 acp:
   name: Aspen Center for Physics (ACP)
@@ -354,25 +356,37 @@ ml4jets:
   roles:
   
   - job:  Advisory Committee
-    issue: "ML4Jets"
+    issue:  "ML4Jets 2025"
+    issue_url:  https://indico.cern.ch/event/1526677/
+    org:  Caltech
+    dates:  August 2025
+  
+  - job:  Advisory Committee
+    issue:  "ML4Jets 2024"
+    issue_url:  https://indico.cern.ch/event/1386125/
+    org:  LPNHE, Paris
+    dates:  November 2024
+  
+  - job:  Advisory Committee
+    issue: "ML4Jets 2023"
     issue_url: https://indico.cern.ch/event/1253794/
     org: DESY
     dates: November 2023
 
   - job:  Advisory Committee
-    issue: "ML4Jets"
+    issue: "ML4Jets 2022"
     issue_url: https://indico.cern.ch/event/1159913/
     org: Rutgers
     dates: November 2022
 
   - job:  Advisory Committee
-    issue: "ML4Jets"
+    issue: "ML4Jets 2021"
     issue_url: https://indico.cern.ch/event/980214/
     org: Heidelberg
     dates: July 2021
     
   - job:  Advisory Committee
-    issue: "ML4Jets"
+    issue: "ML4Jets 2020"
     issue_url: https://indico.cern.ch/event/809820/
     org: New York
     dates: January 2020
@@ -454,21 +468,19 @@ boost:
     org: Oxford U.
     dates: June 2010
 
-workshops:
 
+
+strategic:
+  name:  Early Career and Strategic Planning Events
+  roles:
+  
   - job:  Organizer
     issue:  "NSF Workshop on the Future of AI and the Mathematical and Physical Sciences"
     issue_url: https://indico.mit.edu/e/nsf-ai-mps
     org: MIT
     dates:  March 2025
 
-  - job: Scientific Committee
-    issue:  "PHYSTAT: Statistics Meets Machine Learning"
-    issue_url:  https://indico.cern.ch/event/1407421/overview
-    org:  Imperial College London
-    dates:  September 2024
-
-  - job: Organizer
+  - job: Summer School Organizer
     issue: "TASI 2024: The Frontiers of Particle Theory"
     issue_url:  https://www.colorado.edu/physics/events/summer-intensive-programs/theoretical-advanced-study-institute-elementary-particle-physics-current
     org:  CU Boulder
@@ -480,6 +492,48 @@ workshops:
     org: Snowmass Theory Frontier
     org_url: https://snowmass21.org/theory/start
     dates: July 2021, July 2022
+    
+  - job: Local Organizing Committee
+    issue: "Rising Stars in Physics"
+    issue_url: https://physicsrisingstars.mit.edu/
+    org: MIT
+    dates: April 2018
+
+
+jet_physics:
+  name:  QCD and Jet Physics Events
+  roles:
+
+  - job: Jet Convener
+    issue: "Physics at TeV Colliders"
+    org: Les Houches
+    dates: June 2017
+
+  - job: Jet Convener
+    issue: "Physics at TeV Colliders"
+    org: Les Houches
+    dates: June 2015
+    
+  - job:  Organizer
+    issue: "Boston Jet Physics"
+    org: Harvard/MIT
+    dates: January 2014
+    
+  - job:  Organizer
+    issue: "Boston Jet Physics"
+    org: Harvard/MIT
+    dates: January 2011
+
+stat_ml:
+  name:  Statistics, Data Science, and Machine Learning Events
+  roles:
+  
+  - job: Scientific Committee
+    issue:  "PHYSTAT: Statistics Meets Machine Learning"
+    issue_url:  https://indico.cern.ch/event/1407421/overview
+    org:  Imperial College London
+    dates:  September 2024
+
 
   - job:  Organizer
     issue: "Machine Learning at GGI"
@@ -487,7 +541,6 @@ workshops:
     org: Galileo Galilei Institute
     dates: August/September 2022
     
-
   - job:  Organizer
     issue: "CMS Open Data for Theorists"
     issue_url: https://indico.cern.ch/e/CMSOpenDataForTheorists
@@ -499,18 +552,12 @@ workshops:
     issue_url: https://indico.mitp.uni-mainz.de/event/199/
     org: Mainz
     dates: May 2020 → June 2021
-    
-  - job: Local Organizing Committee
-    issue: "Rising Stars in Physics"
-    issue_url: https://physicsrisingstars.mit.edu/
-    org: MIT
-    dates: April 2018
+
+
+collider:
+  name:  Collider and BSM Physics Events
+  roles:
   
-  - job: Jet Convener
-    issue: "Physics at TeV Colliders"
-    org: Les Houches
-    dates: June 2017
-    
   - job:  Advisory Committee
     issue: "BLV 2017"
     org: Cleveland
@@ -526,27 +573,11 @@ workshops:
     org: Galileo Galilei Institute
     dates: Fall 2015
 
-  - job: Jet Convener
-    issue: "Physics at TeV Colliders"
-    org: Les Houches
-    dates: June 2015
-    
-  - job:  Organizer
-    issue: "Boston Jet Physics"
-    org: Harvard/MIT
-    dates: January 2014
-  
-    
   - job: Conference Program Committee
     issue: "PANIC 2011: Particle and Nuclei International Conference"
     org: Boston
     dates: July 2011
-    
-  - job:  Organizer
-    issue: "Boston Jet Physics"
-    org: Harvard/MIT
-    dates: January 2011
-    
+        
   - job:  Organizer
     issue: "Implications of First LHC Data"
     org: MIT/Berkeley
