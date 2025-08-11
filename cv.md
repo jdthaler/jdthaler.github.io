@@ -304,7 +304,17 @@ permalink: cv/
 {%- assign institution = site.data.service[tag] %}
   * {% if institution.url %}**[{{institution.name}}]({{institution.url}}){:target="_blank"}**{% else %}**{{institution.name}}**{% endif %}
 {%- for role in institution.roles %}
-    * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({{role.issue_url}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{{role.dates}}* 
+    * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({{role.issue_url}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{% if role.org %}{{role.org}}, {% endif %}{{role.dates}}* 
+{%- endfor %}
+{%- endfor %}
+
+#### Workshop/Conference Organization
+
+{% for tag in site.data.service.workshop_series %}
+{%- assign series = site.data.service[tag] %}
+  * {% if series.url %}**[{{series.name}}]({{series.url}}){:target="_blank"}**{% else %}**{{series.name}}**{% endif %}
+{%- for role in series.roles %}
+    * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({{role.issue_url}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{% if role.org %}{{role.org}}, {% endif %}{{role.dates}}* 
 {%- endfor %}
 {%- endfor %}
 
