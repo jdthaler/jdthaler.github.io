@@ -58,6 +58,12 @@ topics:
 
 entries:
 
+  - title:  "AI for Physics Discovery"
+    url:  https://youtu.be/FQJPvVhriYo
+    org:  Discovery Engines (with Nabil Laoudji)
+    date:  2025-08-06
+    topic:  public_talks_ai
+
   - title:  "Transcript of Physics, AI, and the Future of Discovery"
     url:  https://pubs.aip.org/physicstoday/article-pdf/77/11/30/20225685/30_1_pt.rlqh.ngld.pdf
     collaborators:  France Córdova, Walter Copan, Valerie Browning, and Evgeni Gousev

@@ -294,6 +294,13 @@ awards:
 
 profiles:
 
+  - title:  "AI for Physics Discovery"
+    url:  https://youtu.be/FQJPvVhriYo
+    journal:  Discovery Engines (with Nabil Laoudji)
+    image:  /news/2025-discovery-engines.jpg
+    date:  2025-08-06
+    quote:  "And now there are things that I can’t unsee."
+
   - title:  "Distinguishing Between Type I & Type II Fun"
     url:  https://live-brownu-physics.pantheonsite.io/news/2025-05-22/thaler
     journal:  Brown Physics
