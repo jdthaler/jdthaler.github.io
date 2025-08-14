@@ -20,15 +20,18 @@ permalink: join/
 
 ## Postdocs
 
-With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[MIT Center for Theoretical Physics - a Leinweber Institute (CTP-LI)](http://ctp.mit.edu/)** a great place to do postdoctoral research in the **[MIT Physics Department](http://physics.mit.edu)**.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/)** and the **[MIT Schwarzman College of Computing (SCC)](https://computing.mit.edu)**.
-
-*N.B.:  The selection process for these positions are independent, so make sure to apply to all positions that you might be interested in taking.  Also, some of these positions require you to select a potential mentor, otherwise your application will be considered incomplete, so don't forget that step in the process.*
+With its huge breadth of research opportunities across theoretical particle physics, nuclear physics, and quantum information, the **[MIT Center for Theoretical Physics - a Leinweber Institute (CTP-LI)](http://ctp.mit.edu/)** is a great place to do postdoctoral research in the **[MIT Physics Department](http://physics.mit.edu)**.  For researchers working at the intersection of physics and AI, there are also opportunities to engage with the **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/)** and the **[MIT Schwarzman College of Computing (SCC)](https://computing.mit.edu)**.
 
   * [CTP-LI Postdocs](https://academicjobsonline.org/ajo/MIT/CTP/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for **CTP-LI Postdocs** are typically due **mid-November**. 
   * [Pappalardo Fellowship](https://physics.mit.edu/research/pappalardo-fellowships-in-physics/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Nominations for the **MIT Physics Pappalardo Fellowship** are typically due in **early September**. 
   * [IAIFI Fellowship](https://iaifi.org/fellows.html){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for the **IAIFI Fellowship** are typically due in **mid-October**.
   * [Tayebati Fellowship](https://computing.mit.edu/tayebati-postdoctoral-fellowship-program/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  Applications for the **SCC Tayebati Fellowship** are typically due in **early December**.
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, please fill out this form to indicate your interest.
+
+*N.B.:  The selection process for these positions are independent, so make sure to apply to all positions that you might be interested in taking.  Also, some of these positions require you to select a potential mentor from a drop-down list, otherwise your application will be considered incomplete, so don't forget that step in the process.  In most cases, though, **you do not need to contact me in advance** to confirm my willingness to be a mentor, unless the application specifically requires a statement/letter of support.*
+
+There are also ways to join the CTP-LI as a postdoc through external funding.  Examples include the [SNSF Postdoc.Mobility Fellowship](https://www.snf.ch/en/XIZpfY3iVS5KRRoD/funding/careers/postdoc-mobility) and the [Marie Skłodowska-Curie Actions Fellowship](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships).  These external fellowships require significant advanced notice to process from the MIT side, so reach out well before the application deadline. 
+
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you are have or are pursuing an **External Funding** opportunity, please use this form to indicate your interest.
 
 ## Ph.D. Students
 
@@ -40,7 +43,7 @@ I anticipate **at least one opening** for a Ph.D. student in my research group i
   
 ### Visiting Ph.D. Students
 
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, you can fill out this form to indicate your interest.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you are have or are pursuing an **External Funding** opportunity, please use this form to indicate your interest.
   * Visiting PhD students must have full financial support to visit MIT.  **Self-funded visits are not possible**, and I currently do not have funds to support visiting students.
 
 ### Propspective MIT Ph.D. Students
@@ -72,7 +75,7 @@ To do meaningful research in theoretical particle physics at the undergraduate l
 ### Visiting Undergraduate Students
 
   * [MIT MSRP](https://oge.mit.edu/graddiversity/msrp/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"} The primary way that I work with summer undergraduate interns from other universities is through the MIT Summer Research Program.
-  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you have **External Funding**, you can fill out this form to indicate your interest.
+  * [Research Inquiry Form](https://forms.gle/dtDwGH8588dCHEfV8){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  If you are have or are pursuing an **External Funding** opportunity, please use this form to indicate your interest.
   * Visiting undergraduate students must have full financial support to visit MIT.  **Self-funded visits are not possible**, and I currently do not have funds to support visiting students.
 
 
