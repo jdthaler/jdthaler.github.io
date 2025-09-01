@@ -405,12 +405,11 @@ phd_students:
     updated: 2025
 
   - name: Rikab Gambhir
-    email: rikab@mit.edu
+    email: gambhirb@ucmail.uc.edu
     image: /images/gambhir_2.png
     date: 2025
     thesis:  "Metrics, Muons, Moments, Models, Machine Learning, Measurements, and More: A Manifesto on Collider Physics"
     url: https://rikabgambhir.com/
-    current: true
     awards:
       - name: MIT Prize for Open Data (Honorable Mention)
         org: MIT Libraries and School of Science
