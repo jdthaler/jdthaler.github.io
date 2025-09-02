@@ -3,7 +3,7 @@ public_top:
   image_credit: Justin Knight, MIT News
   image_url: https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
   hover: CTP@50
-  description: 'I engage with the public through [classroom visits](https://www.physicstheorynet.org/){:target="_blank"}, opinion pieces, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data.'
+  description: 'I engage with the public through [classroom visits](https://www.physicstheorynet.org/){:target="_blank"}, opinion pieces, and lively presentations related to my research.  I also advocate for the importance of open access to scientific data, and participate in strategic planning for the AI/ML and particle physics communities.'
   
 topics:
 
@@ -55,9 +55,30 @@ topics:
         
       - key:    essays_data_viz
         title:  Data Visualization
+        
+  - key: planning
+    title:  Strategic Planning
+    image:  /images/p5.jpg
+    image_credit:  "Olena Shmahalo for U.S. Particle Physics"
+    image_url:  https://www.usparticlephysics.org/2023-p5-report/
+    image_hover:  "2023 Particle Physics Project Prioritization Panel (P5)"
+    subtopics:
+
+      - key:  aiml_planning
+        title:  AI/ML Strategic Planning
+    
+      - key:  particle_planning
+        title:  Particle Strategic Planning
 
 entries:
 
+  - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)"
+    url:  https://indico.mit.edu/event/1486/
+    event: Report from an National Science Foundation Workshop
+    event_url:  https://indico.mit.edu/event/1486/
+    date:  2025-09-06
+    topic:  aiml_planning
+    
   - title:  "AI for Physics Discovery"
     url:  https://youtu.be/FQJPvVhriYo
     org:  Discovery Engines (with Nabil Laoudji)
@@ -99,6 +120,12 @@ entries:
     date:  February 2024
     topic:  essays_ai
 
+  - title:  "Exploring the Quantum Universe: Pathways to Innovation and Discovery in Particle Physics"
+    url:  https://www.usparticlephysics.org/2023-p5-report/
+    org:  Report of the Particle Physics Project Prioritization Panel (P5)
+    date:  2023-12-08
+    topic: particle_planning
+
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url:    https://physics.mit.edu/wp-content/uploads/2023/09/PhysicsAtMIT_2023_Williams_and_Thaler_Feature.pdf
     collaborators:  Mike Williams
@@ -116,6 +143,13 @@ entries:
     org:   APS Topical Group on Data Science Newsletter
     date:  Winter 2023
     topic: advocacy_ai
+
+  - title:  "Snowmass Theory Frontier:  Collider Phenomenology (TF07)"
+    url:  https://arxiv.org/abs/2210.02591
+    collaborators:  Fabio Maltoni and Shufang Su
+    org:  "Report for the US Community Study on the Future of Particle Physics"
+    date:  2022-10-05
+    topic:  particle_planning
 
   - title: Designing an AI Physicist
     url:   https://cerncourier.com/a/designing-an-ai-physicist/
