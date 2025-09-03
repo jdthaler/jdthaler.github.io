@@ -60,7 +60,7 @@ I anticipate **at least one opening** for a Ph.D. student in my research group i
   
 ## M.Eng. Students
 
-  * [MIT EECS MEng Program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  I sometimes work with Master's students through the MIT EECS M.Eng. program.  This program is open to current MIT undergradates in courses 6-1, 6-2, 6-3, 6-4, 6-7, and 6-14.
+  * [MIT EECS MEng Program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}  I sometimes work with Master's students through the MIT EECS M.Eng. program.  This program is open to current MIT undergradates in courses 6-1, 6-2, 6-3, 6-4, 6-7, and 6-14.  **In most cases, I cannot support M.Eng. students on an RA, so you would have to secure a TA appointment.**
   * Currently, I am not conducting research with Master's students from other universities.  Students interested in pursuing Master's research with me should consider applying to the [MIT Physics Ph.D. program](https://physics.mit.edu/academic-programs/graduate-students/graduate-admissions/) instead.
 
 ## Undergraduates

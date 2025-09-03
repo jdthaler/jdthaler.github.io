@@ -72,12 +72,12 @@ topics:
 
 entries:
 
-  - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)"
-    url:  https://indico.mit.edu/event/1486/
-    event: Report from an National Science Foundation Workshop
-    event_url:  https://indico.mit.edu/event/1486/
-    date:  2025-09-06
-    topic:  aiml_planning
+#  - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)"
+#    url:  https://indico.mit.edu/event/1486/
+#    event: Report from an National Science Foundation Workshop
+#    event_url:  https://indico.mit.edu/event/1486/
+#    date:  2025-09-06
+#    topic:  aiml_planning
     
   - title:  "AI for Physics Discovery"
     url:  https://youtu.be/FQJPvVhriYo
