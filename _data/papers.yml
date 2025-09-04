@@ -1428,6 +1428,11 @@ papers:
 
 conference:
 
+  - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)"
+    authors:  Andrew Ferguson, Marisa LaFleur, Lars Ruthotto, Jesse Thaler, Yuan-Sen Ting, Pratyush Tiwary, Soledad Villar, et al.
+    arxiv:  2509.02661
+    year: 2025
+
   - title: "Exploring the Quantum Universe: Pathways to Innovation and Discovery in Particle Physics"
     authors: Shoji Asai, Amalia Ballarino, Tulika Bose, Kyle Cranmer, Francis-Yan Cyr-Racine, Sarah Demers, Cameron Geddes, Yuri Gershtein, Karsten Heeger, Beate Heinemann, JoAnne Hewett, Patrick Huber, Kendall Mahn, Rachel Mandelbaum, Jelena Maricic, Petra Merkel, Christopher Monahan, Hitoshi Murayama, Peter Onyisi, Mark Palmer, Tor Raubenheimer, Mayly Sanchez, Richard Schnee, Sally Seidel, Seon-Hee Seo, Jesse Thaler, Christos Touramanis, Abigail Vieregg, Amanda Weinstein, Lindley Winslow, Tien-Tien Yu, Robert Zwaska
     arxiv:  "2407.19176"
