@@ -113,6 +113,18 @@ for affiliation in affiliations:
 affiliations_output.write('\\el\n')
 
 
+########## visiting file
+
+visiting_output = open("cv_visiting.tex","w")
+visiting = bio_yaml['visiting_positions']
+visiting_output.write('\\bbl\n')
+
+for visit in visiting:
+  if int(visit['priority']) >= 3 :
+    visiting_output.write('\\item '+affiliation_string(visit) + '\n')
+    
+visiting_output.write('\\el\n')
+
 ########## awards file
 
 awards_output = open("cv_awards.tex","w")
@@ -248,6 +260,9 @@ for person in postdocs:
   postdocs_output.write(person['name']+', ')
   postdocs_output.write(person['at'][0]['title']+', ')
   postdocs_output.write('\\emph{'+person['at'][0]['dates'].replace('-','--')+'}\n')
+  if 'awards' in person:
+    for award in person['awards']:
+      postdocs_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
   if len(person['at']) == 2:
     postdocs_output.write('\\\\ '+person['at'][1]['title']+', ')
     postdocs_output.write('\\emph{'+person['at'][1]['dates'].replace('-','--')+'}\n')
@@ -255,9 +270,6 @@ for person in postdocs:
     postdocs_output.write('\\\\ After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
     if len(person['after']) > 1:
       postdocs_output.write('\\\\ Currently: '+person['after'][-1]['title']+', \\emph{'+person['after'][-1]['org']+'}\n')
-  if 'awards' in person:
-    for award in person['awards']:
-      postdocs_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
   postdocs_output.write('\n')
 
 postdocs_output.write('\\el\n')
@@ -279,13 +291,13 @@ for person in phd_students:
     if 'joint' in person:
       phd_students_output.write(' \\emph{(jointly advised with '+person['joint']+')}')
     phd_students_output.write('\n')
+  if 'awards' in person:
+    for award in person['awards']:
+      phd_students_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
   if 'after' in person:
     phd_students_output.write('\\\\ After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
     if len(person['after']) > 1:
       phd_students_output.write('\\\\ Currently: '+person['after'][-1]['title']+', \\emph{'+person['after'][-1]['org']+'}\n')
-  if 'awards' in person:
-    for award in person['awards']:
-      phd_students_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
   phd_students_output.write('\n')
 
 phd_students_output.write('\\el\n')
@@ -307,13 +319,13 @@ for person in meng_students:
     if 'joint' in person:
       meng_students_output.write(' \\emph{(jointly advised with '+person['joint']+')}')
     meng_students_output.write('\n')
+  if 'awards' in person:
+    for award in person['awards']:
+      meng_students_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
   if 'after' in person:
     meng_students_output.write('\\\\ After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
     if len(person['after']) > 1:
       meng_students_output.write('\\\\ Currently: '+person['after'][-1]['title']+', \\emph{'+person['after'][-1]['org']+'}\n')
-  if 'awards' in person:
-    for award in person['awards']:
-      meng_students_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
   meng_students_output.write('\n')
 
 meng_students_output.write('\\el\n')
@@ -339,13 +351,13 @@ for person in urop_students:
         urop_students_output.write(' (deceased) \n')
       else:
         urop_students_output.write('\n')
+      if 'awards' in person:
+        for award in person['awards']:
+          urop_students_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
       if 'after' in person:
         urop_students_output.write('\\\\ After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
         if len(person['after']) > 1:
           urop_students_output.write('\\\\ Currently: '+person['after'][-1]['title']+', \\emph{'+person['after'][-1]['org']+'}\n')
-      if 'awards' in person:
-        for award in person['awards']:
-          urop_students_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
     urop_students_output.write('\n')
 
 urop_students_output.write('\\el\n')
@@ -368,13 +380,13 @@ for person in bs_students:
       if 'joint' in person:
         bs_students_output.write(' \\emph{(jointly advised with '+person['joint']+')}')
       bs_students_output.write('\n')
+    if 'awards' in person:
+      for award in person['awards']:
+        bs_students_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
     if 'after' in person:
       bs_students_output.write('\\\\ After MIT: '+person['after'][0]['title']+', \\emph{'+person['after'][0]['org']+'}\n')
       if len(person['after']) > 1:
         bs_students_output.write('\\\\ Currently: '+person['after'][-1]['title']+', \\emph{'+person['after'][-1]['org']+'}\n')
-    if 'awards' in person:
-      for award in person['awards']:
-        bs_students_output.write('\\\\ '+award['name']+', \\emph{'+award['org']+', '+award['date']+'}\n')
     bs_students_output.write('\n')
 
 bs_students_output.write('\\el\n')

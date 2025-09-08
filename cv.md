@@ -11,7 +11,7 @@ permalink: cv/
 [Press Information](/press){:.button.button--secondary.button--pill.button--sm}
 [Papers by Year](#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [Presentations](#presentations){:.button.button--secondary.button--pill.button--sm}
-[PDF CV (May 2025)](/pdfs/jthaler_cv_2025_05_15.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
+[PDF CV (September 2025)](/pdfs/jthaler_cv_2025_09_08.pdf){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
 
 ## Jesse Diaz Thaler
 
@@ -34,6 +34,16 @@ permalink: cv/
 ### Leadership
 
  * **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**, Director, *August 2020-Present (on sabbatical August 2025-July 2026)*
+
+### Visiting Positions
+
+{% for affiliation in site.data.bio.visiting_positions -%}
+  * **{%- if affiliation.url -%}
+      [{% if affiliation.mit %}MIT {% endif %}{{affiliation.name}}{% if affiliation.acronym %} ({{affiliation.acronym}}){% endif %}]({{affiliation.url}}){:target="_blank"}
+    {%- else -%}
+        {% if affiliation.mit %}MIT {% endif %}{{affiliation.name}}{% if affiliation.acronym %} ({{affiliation.acronym}}){% endif %}
+    {%- endif -%}**, {% if affiliation.position %}{{affiliation.position}}, {% endif %} *{{affiliation.dates}}*
+{% endfor %}
 
 ### Affiliations
 
