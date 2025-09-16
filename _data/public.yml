@@ -76,7 +76,7 @@ entries:
     url:  http://arxiv.org/abs/2509.02661
     event: Report from an National Science Foundation Workshop
     event_url:  https://indico.mit.edu/event/1486/
-    date:  2025-09-06
+    date:  September 2025
     topic:  aiml_planning
     
   - title:  "AI for Physics Discovery"
@@ -123,7 +123,7 @@ entries:
   - title:  "Exploring the Quantum Universe: Pathways to Innovation and Discovery in Particle Physics"
     url:  https://www.usparticlephysics.org/2023-p5-report/
     org:  Report of the Particle Physics Project Prioritization Panel (P5)
-    date:  2023-12-08
+    date:  December 2023
     topic: particle_planning
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
@@ -148,7 +148,7 @@ entries:
     url:  https://arxiv.org/abs/2210.02591
     collaborators:  Fabio Maltoni and Shufang Su
     org:  "Report for the US Community Study on the Future of Particle Physics"
-    date:  2022-10-05
+    date:  October 2022
     topic:  particle_planning
 
   - title: Designing an AI Physicist

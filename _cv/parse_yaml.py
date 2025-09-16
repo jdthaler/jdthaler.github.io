@@ -733,7 +733,7 @@ public_entries = public_yaml['entries']
 advocacy_output.write('\\item Artificial Intelligence Advocacy \n')
 advocacy_output.write('\\bsbl \n')
 for entry in public_entries:
-  if 'topic' in entry and (entry['topic'] == "advocacy_ai" or entry['topic'] == "essays_ai"):
+  if 'topic' in entry and (entry['topic'] == "advocacy_ai" or entry['topic'] == "essays_ai" or entry['topic'] == "aiml_planning"):
     advocacy_string = '\\item '
     advocacy_string += '``' + entry['title'] + '\'\''
     if 'collaborators' in entry:
@@ -758,6 +758,30 @@ advocacy_output.write('\\item Open Data Advocacy \n')
 advocacy_output.write('\\bsbl \n')
 for entry in public_entries:
   if 'topic' in entry and (entry['topic'] == "advocacy_open_data" or entry['topic'] == "essays_data_viz"):
+    advocacy_string = '\\item '
+    advocacy_string += '``' + entry['title'] + '\'\''
+    if 'collaborators' in entry:
+      advocacy_string += ' (with ' + entry['collaborators']+ ')'
+    advocacy_string += ', '
+    if 'event' in entry:
+      advocacy_string += entry['event'] + ', '
+    if 'type' in entry:
+      advocacy_string += entry['type'] + ', '
+    if 'org' in entry:
+      advocacy_string += '\\emph{' + entry['org'] + ',} '
+    if 'date' in entry:
+      advocacy_string += '\\emph{' + entry['date'] + '}'
+    if 'journal' in entry:
+      advocacy_string += '\\emph{' + entry['journal'] + '}'
+    advocacy_string += '\n'
+    advocacy_output.write(advocacy_string)
+advocacy_output.write('\\el \n')
+
+
+advocacy_output.write('\\item Particle Physics Advocacy \n')
+advocacy_output.write('\\bsbl \n')
+for entry in public_entries:
+  if 'topic' in entry and (entry['topic'] == "particle_planning"):
     advocacy_string = '\\item '
     advocacy_string += '``' + entry['title'] + '\'\''
     if 'collaborators' in entry:
