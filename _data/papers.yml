@@ -27,12 +27,16 @@ papers:
 
   - title: "Frequentist Uncertainties on Neural Density Ratios with WiFi Ensembles"
     authors:  "Sean Benevedes and Jesse Thaler"
+    journal:  Phys. Rev. D112:056024 (2025)
+    short_journal:  PRD 2025
+    doi:  10.1103/w28w-x5wh
     made_phd: true
     arxiv:  2506.00113
     inspire:  Benevedes:2025nzr
     year: 2025
     topic: reweighting
     image:  /news/2025-preprint-wifi.png
+    
 
   - title: "Isolating Unisolated Upsilons with Anomaly Detection in CMS Open Data"
     authors: "Rikab Gambhir, Radha Mastandrea, Benjamin Nachman, Jesse Thaler"
