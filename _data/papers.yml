@@ -50,8 +50,11 @@ papers:
     topic: open_data
     image: /news/2025-preprint-od-muons.png
     
-  - title:  "QCD Theory meets Information Theory"
+  - title:  "QCD Theory Meets Information Theory"
     authors:  "Benoît Assi, Stefan Höche, Kyle Lee, and Jesse Thaler"
+    journal: Phys. Rev. Lett. 135:131901 (2025)
+    short_journal: PRL 2025
+    doi:  10.1103/gf42-qzd9
     arxiv:  2501.17219
     inspire:  Assi:2025ibi
     year: 2025
