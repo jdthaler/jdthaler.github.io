@@ -41,7 +41,7 @@ Jesse Thaler is a theoretical particle physicist who fuses techniques from quant
 
 ### Biographical Sketch
 
-Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the MIT Center for Theoretical Physics - a Leinweber Institute.  From 2006 to 2009, he was a fellow at the Miller Institute for Basic Research in Science at the University of California, Berkeley.  He received his Ph.D. in Physics from Harvard University in 2006, and his Sc.B. in Math/Physics from Brown University in 2002.   In 2020, Prof. Thaler became the inaugural Director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions.
+Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the MIT Center for Theoretical Physics - a Leinweber Institute.  From 2006 to 2009, he was a fellow at the Miller Institute for Basic Research in Science at the University of California, Berkeley.  He received his Ph.D. in Physics from Harvard University in 2006, and his Sc.B. in Math/Physics from Brown University in 2002.   In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
 
 ### Links to Additional Information
 
