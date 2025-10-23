@@ -65,6 +65,9 @@ papers:
 
   - title: "A Lorentz-Equivariant Transformer for All of the LHC"
     authors: Johann Brehmer, Víctor Bresó, Pim de Haan, Tilman Plehn, Huilin Qu, Jonas Spinner, and Jesse Thaler
+    journal: SciPost Physics 19:108 (2025)
+    short_journal: SciPost 2025
+    doi:  10.21468/SciPostPhys.19.4.108
     arxiv: 2411.00446
     inspire: Brehmer:2024yqw
     year: 2024
