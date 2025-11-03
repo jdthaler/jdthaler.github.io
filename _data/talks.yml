@@ -620,6 +620,15 @@ schools:
 
 invited:
 
+  - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences"
+    url:  talks/jthaler_2025_11_03_AI+MPS_Workshop_NASA.pdf
+    event:  "AI/ML Science and Technology Interest Group"
+    event_url:  https://tingyuansen.github.io/NASA_AI_ML_STIG/
+    org:  NASA Cosmic Origins Program
+    virtual: true
+    date:  2025-11-03
+    track:  true
+
   - title: "What is Particle Theory? (Machine Learning Edition)"
     url: talks/jthaler_2025_01_07_Centaur_KITP.pdf
     event: "What is Particle Theory?"
