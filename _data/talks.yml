@@ -367,6 +367,13 @@ colloquia:
 public:
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    event:  Chaire Georges Lemaître Public Lecture
+    event_url:  https://agenda.irmp.ucl.ac.be/event/5460/
+    org:  Université catholique de Louvain
+    date:  2025-11-25
+    track:  true
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url:  talks/jthaler_2025_05_24_Brown_Glicksman.pdf
     event:  Glicksman Forum
     event_url:  https://events.brown.edu/commencement/event/310386-deep-learning-deep-thinking-deeper-understanding
@@ -461,6 +468,19 @@ public:
     date:  October 2012
     
 schools:
+
+  - title: "Centaur Science:  Particle Physics meets Machine Learning"
+    parts:
+       - title:  "Case Studies in Centaur Science"
+       - title:  "Machine Learning through the Lens of Physics"
+       - title:  "Frequent(ist)ly Asked Questions"
+       - title:  "Jets in Space"
+       - title:  "The Future of AI+Physics"
+    event:  Chaire Georges Lemaître Lectures
+    event_url:  https://agenda.irmp.ucl.ac.be/event/5460/
+    org:  Université catholique de Louvain
+    date:  2025-11-24
+    track: true
 
   - title: "The (Hidden) Geometry of Particle Collisions"
     url:  talks/jthaler_2024_06_12_HiddenGeometry_Salem.pdf
