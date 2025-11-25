@@ -471,10 +471,12 @@ public:
 schools:
 
   - title: "Centaur Science:  Particle Physics meets Machine Learning"
+    url:  talks/jthaler_2025_11_24_UCLouvain_Lemaitre_0_TOC.pdf
     parts:
        - title:  "Case Studies in Centaur Science"
          url:  talks/jthaler_2025_11_24_UCLouvain_Lemaitre_1_Centaur.pdf
        - title:  "Machine Learning through the Lens of Physics"
+         url:  talks/jthaler_2025_11_25_UCLouvain_Lemaitre_2_PhysicsLens.pdf
        - title:  "Frequent(ist)ly Asked Questions"
        - title:  "Jets in Space"
        - title:  "The Future of AI+Physics"
