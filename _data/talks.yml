@@ -36,6 +36,12 @@ categories:
 colloquia:
 
   - title:  "Centaur Science:  Particle Physics meets Machine Learning"
+    event:  Colloquium
+    org:  NIKHEF
+    date:  2025-12-05
+    track:  true
+
+  - title:  "Centaur Science:  Particle Physics meets Machine Learning"
     url:  talks/jthaler_2025_04_10_Centaur_NYU_Colloquium.pdf
     event:  Physics Colloquium
     org:  NYU
@@ -1286,6 +1292,13 @@ local:
     date:  2009-10-16
 
 seminars:
+
+  - title:  "QCD Theory meets Information Theory"
+    url:  talks/jthaler_2025_12_02_QCDInfoTheory_IPhT.pdf
+    event:  Séminaire Général
+    org:  IPhT Saclay
+    date:  2025-12-02
+    track:  true
 
   - title:  "QCD Theory meets Information Theory"
     url:  talks/jthaler_2025_04_04_QCDInfoTheory_BAPTS.pdf 
