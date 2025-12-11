@@ -31,12 +31,17 @@ topics:
     image_url: https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html
     image_hover: "AI/ML in the NYTimes"
     subtopics:
-        
+
+      - key:    advocacy_particle
+        title:  Particle Physics
+
       - key:    advocacy_ai
         title:  Artificial Intelligence
         
       - key:    advocacy_open_data
         title:  Open Data
+
+
 
    
   - key: bsm
@@ -71,6 +76,12 @@ topics:
         title:  Particle Strategic Planning
 
 entries:
+
+  - title:  "Inside the wild experiments physicists would do with zero limits:  A muon collider"
+    url:  https://www.newscientist.com/article/2501960-inside-the-wild-experiments-physicists-would-do-with-zero-limits/
+    org:  New Scientist
+    date:  2025-12-10
+    topic:   advocacy_particle
 
   - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)"
     url:  http://arxiv.org/abs/2509.02661

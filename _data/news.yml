@@ -72,6 +72,13 @@ group_news:
     
 perspectives:
 
+  - title:  "Inside the wild experiments physicists would do with zero limits:  A muon collider"
+    url:  https://www.newscientist.com/article/2501960-inside-the-wild-experiments-physicists-would-do-with-zero-limits/
+    journal:  New Scientist
+    image:  /news/2025-newscientist-muon.jpg
+    date:  2025-12-10
+    quote:  "Audacity has often fuelled progress in my field of particle physics."
+
   - title:  "Review:  Machine Learning in Quantum Sciences"
     url:  https://www.cambridge.org/us/universitypress/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/machine-learning-quantum-sciences
     journal:  Cambridge University Press
