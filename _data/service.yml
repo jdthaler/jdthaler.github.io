@@ -164,6 +164,11 @@ before_mit:
 journal_editing:
 
   - job: Editorial Board
+    name: PRX Intelligence
+    url:  https://journals.aps.org/prxintelligence/
+    dates: Spring 2026-Fall 2028
+
+  - job: Editorial Board
     name: Journal of High Energy Physics
     url: https://jhep.sissa.it/
     dates: Fall 2019-Summer 2025
