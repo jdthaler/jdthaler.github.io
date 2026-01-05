@@ -14,6 +14,18 @@ grants:
     dates:  2025
     amount:  $100k
 
+  - name: Partnerships for Research and Education in Physics (PREP)
+    title:  "Partnership for research and training in QUantum, Artificial intelligence, Non-equilibrium physics Theory and Applications (QUANTA)"
+    org:   National Science Foundation
+    collaborators:  UMass Boston
+    dates:  2024-2027
+
+  - name:  Expanding AI Innovation through Capacity Building and Partnerships (ExpandAI)
+    title:  "Innovating AI for efficient and insightful data transformation"
+    org:   National Science Foundation
+    collaborators:  U. Puerto Rico, Mayagüez
+    dates:  2023-2027
+
   - name:  Unrestricted Gift
     title:  "Interpretation of Multimodal Images from Astronomy"
     org:  Google
@@ -31,6 +43,12 @@ grants:
     org: National Science Foundation
     dates: 2020-2025
     amount: $20M
+    
+  - name: Quantum Information Science Research Centers
+    title: "Co-design Center for Quantum Advantage (C2QA)"
+    url:  https://www.bnl.gov/quantumcenter/
+    org:  U.S. Department of Energy, Office of Science
+    dates: 2020-present
     
   - name: MIT-Israel Zuckerman STEM Fund Award
     collaborators: Tracy Slatyer, Tomer Volansky, Yotam Soreq
@@ -99,7 +117,13 @@ grants:
     dates: 2011-2016
     amount: $750k
 
+
+
   - name: Cooperative Research Agreement
     title: "Laboratory for Nuclear Science, High Energy Physics Program: Task C, Center for Theoretical Physics"
     org: U.S. Department of Energy, Office of Science
     dates: 2010-present
+    
+
+
+    

@@ -374,6 +374,13 @@ colloquia:
 public:
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    event:  Spritz of Science
+    event_url:  https://agenda.infn.it/event/49934/sessions/36345/attachments/144496/219476/Spritz_of_science_poster_v2.png
+    org:  Il Conventino Firenze
+    date:  2026-01-12
+    track:  true
+
+  - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url:  talks/jthaler_2025_11_25_UCLouvain_Public.pdf
     event:  Chaire Georges Lemaître Public Lecture
     event_url:  https://agenda.irmp.ucl.ac.be/event/5460/
@@ -476,6 +483,19 @@ public:
     date:  October 2012
     
 schools:
+
+  - title: "Machine Learning for Fundamental Physics"
+    parts:
+       - title:  "The Rise of Centaur Science"
+       - title:  "Machine Learning through the Lens of Physics"
+       - title:  "Frequent(ist)ly Asked Questions"
+       - title:  "Jets in Space"
+       - title:  "The Future of AI+Physics"
+    event:  Lectures on the Theory of Fundamental Interactions
+    event_url:  https://www.ggi.infn.it/showevent.pl?id=550
+    org:  GGI
+    date:  2026-01-12
+    track: true
 
   - title: "Centaur Science:  Particle Physics meets Machine Learning"
     url:  talks/jthaler_2025_11_24_UCLouvain_Lemaitre_0_TOC.pdf
@@ -1111,7 +1131,7 @@ local:
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
     url: talks/jthaler_2025_05_02_UMassBoston_merged.pdf
     event: Quantum Research Symposium
-    org:  Physics Annual Research Symposium
+    org:  UMass Boston
     date:  2025-05-02
     
 
