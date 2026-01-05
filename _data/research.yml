@@ -14,8 +14,10 @@ topics:
     description:  "Machine learning has impacted many scientific fields, and particle physics is no exception. In my research, I aim to enhance the search for new phenomena at colliders by merging the performance of deep learning algorithms with the robustness of “deep thinking” approaches."
     subtopics:
 
-      - key:    foundation_models
-        title:  Foundation Models
+
+
+      - key:    reweighting
+        title:  Reweighting, Unfolding, Uncertainties, and Calibration
 
       - key:    optimal_transport
         title:  Optimal Transport
@@ -23,15 +25,15 @@ topics:
       - key:    point_cloud
         title:  Point Cloud Learning
 
-      - key:    reweighting
-        title:  Reweighting, Unfolding, Uncertainties, and Calibration
-
       - key:    weak
         title:  Weak Supervision and Interpretability
 
       - key:  open_data
         title:  Open Data Studies
         description:  "In November 2014, the CMS experiment at the Large Hadron Collider released the first batch of public collider data. I am involved in the MIT Open Data (MOD) project to apply novel data analysis techniques to this valuable data set."
+
+      - key:    foundation_models
+        title:  Foundation Models
 
       - key:    qis
         title:  Quantum Computation
