@@ -374,6 +374,7 @@ colloquia:
 public:
 
   - title:  "Deep Learning + Deep Thinking = Deeper Understanding"
+    url:  talks/jthaler_2026_01_12_GGI_Public.pdf
     event:  Spritz of Science
     event_url:  https://agenda.infn.it/event/49934/sessions/36345/attachments/144496/219476/Spritz_of_science_poster_v2.png
     org:  Il Conventino Firenze
@@ -487,10 +488,15 @@ schools:
   - title: "Machine Learning for Fundamental Physics"
     parts:
        - title:  "The Rise of Centaur Science"
+         url:  talks/jthaler_2026_01_12_GGI_1_Centaur.pdf
        - title:  "Machine Learning through the Lens of Physics"
+         url:  talks/jthaler_2026_01_13_GGI_2_PhysicsLens.pdf
        - title:  "Frequent(ist)ly Asked Questions"
+         url:  talks/jthaler_2026_01_14_GGI_3_Frequentist.pdf
        - title:  "Jets in Space"
+         url:  talks/jthaler_2026_01_15_GGI_4_MetricSpace.pdf 
        - title:  "The Future of AI+Physics"
+         url:  talks/jthaler_2026_01_16_GGI_5_Future.pdf
     event:  Lectures on the Theory of Fundamental Interactions
     event_url:  https://www.ggi.infn.it/showevent.pl?id=550
     org:  GGI
