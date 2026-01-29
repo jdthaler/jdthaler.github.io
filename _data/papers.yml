@@ -29,6 +29,11 @@ papers:
     authors:  Andrew Ferguson, Marisa LaFleur, Lars Ruthotto, Jesse Thaler, Yuan-Sen Ting, Pratyush Tiwary, Soledad Villar, et al.
     arxiv:  2509.02661
     year: 2025
+    doi:  10.1088/2632-2153/ae3e4e
+    journal: MLST to appear
+    short_journal: MLST 2026
+    topic: ai_advocacy
+    priority: 3
     image: /news/2025-preprint-AI+MPS.jpg
 
   - title: "Frequentist Uncertainties on Neural Density Ratios with WiFi Ensembles"
