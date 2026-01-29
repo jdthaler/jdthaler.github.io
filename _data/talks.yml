@@ -681,6 +681,15 @@ schools:
 invited:
 
   - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences"
+    url:  talks/jthaler_2026_01_29_AI+MPS_Workshop_AAAC.pdf
+    event:  "Astronomy & Astrophysics Advisory Committee"
+    event_url: https://www.nsf.gov/events/astronomy-astrophysics-advisory-committee-meeting-january/2026-01-29 
+    org:  NSF/NASA/DOE
+    virtual: true
+    date:  2026-01-29
+    track:  true
+
+  - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences"
     url:  talks/jthaler_2025_11_03_AI+MPS_Workshop_NASA.pdf
     event:  "AI/ML Science and Technology Interest Group"
     event_url:  https://tingyuansen.github.io/NASA_AI_ML_STIG/
