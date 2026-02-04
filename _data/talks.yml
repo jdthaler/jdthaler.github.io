@@ -35,6 +35,14 @@ categories:
 
 colloquia:
 
+  - title:  "Centaur Science: Adventures in AI+Physics"
+    url:  talks/jthaler_2026_02_04_CERN_Centaur.pdf
+    event: Colloquium
+    event_url:  https://indico.cern.ch/event/1642790/
+    org:  CERN
+    date:  2026-02-04
+    track:  true
+
   - title:  "Centaur Science:  Particle Physics meets Machine Learning"
     url:  talks/jthaler_2025_12_05_Amsterdam_Centaur.pdf
     event:  Colloquium
