@@ -35,6 +35,19 @@ categories:
 
 colloquia:
 
+  - title: "TBA"
+    event:  Hans Jensen Lecture
+    event_url:  https://www.physik.uni-heidelberg.de/graddays/20261
+    org:  Heidelberg
+    date: 2026-04-09
+    track: true
+
+  - title:  "TBA"
+    event:  Physics Colloquium
+    org:  University of Geneva
+    date: 2026-03-16
+    track: true
+
   - title:  "Centaur Science: Adventures in AI+Physics"
     url:  talks/jthaler_2026_02_04_CERN_Centaur.pdf
     event: Colloquium
@@ -688,6 +701,12 @@ schools:
 
 invited:
 
+  - title:  "TBA"
+    event:  AI4Science Launch Event
+    org:  Sorbonne Center for Artificial Intelligence
+    date: 2026-03-09
+    track: true
+
   - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences"
     url:  talks/jthaler_2026_01_29_AI+MPS_Workshop_AAAC.pdf
     event:  "Astronomy & Astrophysics Advisory Committee"
@@ -1336,6 +1355,13 @@ local:
     date:  2009-10-16
 
 seminars:
+
+  - title: "TBA"
+    event:  Virtual Seminar
+    org:  Annual Reviews
+    date:  2026-03-24
+    virtual: true
+    track: true
 
   - title:  "QCD Theory meets Information Theory"
     url:  talks/jthaler_2025_12_02_QCDInfoTheory_IPhT.pdf
@@ -2187,6 +2213,11 @@ seminars:
 
 
 additional:
+
+  - event: "VERaIPHY:  Validation & Evaluation for Robust AI in PHYsics"
+    event_url: https://indico.cern.ch/event/1617006/
+    org:  NIKHEF
+    date:  2026-02-16
 
   - event:  "Bootstrap, Holography & Swampland / Collider Physics at the LHC and Beyond"
     org:  Aspen Center for Physics
