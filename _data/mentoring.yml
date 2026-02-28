@@ -72,6 +72,10 @@ postdocs:
    after:
      - title: Postdoctoral Researcher
        org: Yale
+   awards:
+     - name: Wu-Ki Tung Award for Early Career Research on QCD
+       org: CTEQ Collaboration
+       date: 2025
    updated: 2025
 
  - name: Cari Cesarotti
