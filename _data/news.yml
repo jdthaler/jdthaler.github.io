@@ -308,6 +308,13 @@ awards:
 
 profiles:
 
+  - title:  "3 Questions: On the future of AI and the mathematical and physical sciences"
+    url:  https://news.mit.edu/2026/3-questions-future-of-ai-and-mathematical-physical-sciences-0311
+    journal:  MIT News
+    image:  /news/2026-mitnews_aimps.jpg
+    date:  2026-03-11
+    quote:  "The virtuous cycle of AI and science has the potential to be truly transformative — offering deeper insight into AI, accelerating scientific discovery, and producing robust tools for both."
+
   - title:  "AI for Physics Discovery"
     url:  https://youtu.be/FQJPvVhriYo
     journal:  Discovery Engines (with Nabil Laoudji)

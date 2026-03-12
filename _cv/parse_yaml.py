@@ -1,6 +1,7 @@
 import yaml,os
 import datetime
 from dateutil import parser
+from datetime import date
 
 #################### functions
 
@@ -52,6 +53,14 @@ def affiliation_string(role):
   my_string += '\\emph{'+role['dates'].replace('-','--')+'}'
 
   return my_string
+
+#################### basic information
+
+today = date.today().strftime("%B %d, %Y")
+
+date_output = open("cv_update_date.tex","w")
+date_output.write("(Updated " + today+")")
+
 
 #################### about file
 
@@ -180,7 +189,7 @@ papers_output.write('\\end{list}\n')
 
 papers_last10_output = open("cv_papers_last10.tex","w")
 
-papers_last10 = [entry for entry in papers if int(entry.get('year', 0)) >= 2015]
+papers_last10 = [entry for entry in papers if int(entry.get('year', 0)) >= 2016]
 
 papers_last10_output.write('\\newcounter{jessecount}\n')
 papers_last10_output.write('\\setcounter{jessecount}{'+str(len(papers_last10))+'}\n\n')
