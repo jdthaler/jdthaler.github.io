@@ -70,8 +70,9 @@ papers:
     inspire:  Assi:2025ibi
     year: 2025
     topic:  reweighting
-    priority: 6
+    priority: 8
     image:  /news/2025-preprint-qcd-info.png
+    description: "This paper introduced a new strategy to combine multiple first-principles calculations into a coherent theoretical prediction using ideas from information theory and machine learning.  The idea is to take a comprehensive but low fidelity prior prediction over all of phase space, and upgrade it using constraints from high fidelity precision calculations that target particular phase space configurations.  From a theoretical perspective, the key innovation is the use of logarithmic moment constraints, which have never before been studied in the literature but capture important information about the resummation regime of quantum chromodynamics."
     
 
   - title: "A Lorentz-Equivariant Transformer for All of the LHC"
@@ -729,7 +730,7 @@ papers:
     arxiv: "1602.01086"
     year: 2016
     topic: detecting_dm
-    priority: 8
+    priority: 6
     description: "This paper proposed a new scheme to detect axion dark matter.  The axion is a hypothetic particle that could explain two mysteries of the universe:  the origin of dark matter and the solution to the strong CP problem.  Traditional axion detectors are based on identifying a signal inside of a cavity resonator.  By contrast, this work showed that axions could be detected through precision magnetometry, offering complementary sensitivity.  This research inspired a new axion experiment called ABRACADABRA (A Broadband or Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus), which has already progressed beyond the prototype stage."
 
   - title: "Cosmology with Orthogonal Nilpotent Superfields"
