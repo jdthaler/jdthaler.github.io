@@ -45,6 +45,7 @@ colloquia:
   - title:  "Centaur Science: Adventures in AI+Physics"
     url:  talks/jthaler_2026_03_16_Geneva_Centaur.pdf
     event:  Physics Colloquium
+    event_url:  https://agenda.unige.ch/events/view/45410
     org:  University of Geneva
     date: 2026-03-16
     track: true
@@ -1359,6 +1360,7 @@ local:
 seminars:
 
   - title: "Predictably Uncertain: Academic Publishing in the Era of AI"
+#   url:  talks/jthaler_2026_03_24_AnnualReviews_Salon.pdf
     event:  Virtual Seminar
     org:  Annual Reviews
     date:  2026-03-24
