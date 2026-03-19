@@ -1360,7 +1360,7 @@ local:
 seminars:
 
   - title: "Predictably Uncertain: Academic Publishing in the Era of AI"
-    url:  talks/jthaler_2026_03_24_AnnualReviews_Salon.pdf
+#   url:  talks/jthaler_2026_03_24_AnnualReviews_Salon.pdf
     event:  Virtual Seminar
     org:  Annual Reviews
     date:  2026-03-24
