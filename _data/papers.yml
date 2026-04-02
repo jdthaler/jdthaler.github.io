@@ -1,4 +1,5 @@
 years:
+  - 2026
   - 2025
   - 2024
   - 2023
@@ -24,6 +25,14 @@ years:
   - 2002
   
 papers:
+
+  - title: "Improving Parton Shower Predictions via Precision Moments of Energy Flow Polynomials"
+    authors: "Benoît Assi, Kyle Lee, and Jesse Thaler"
+    arxiv:  2604.00084
+    year:  2026
+    topic:  reweighting
+    inspire:  Assi:2026tfh
+    image:  /news/2026-preprint-qcd-efp.png
 
   - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)"
     authors:  Andrew Ferguson, Marisa LaFleur, Lars Ruthotto, Jesse Thaler, Yuan-Sen Ting, Pratyush Tiwary, Soledad Villar, et al.
