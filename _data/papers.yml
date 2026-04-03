@@ -26,6 +26,31 @@ years:
   
 papers:
 
+  - title: "Many Wrongs Make a Right: Leveraging Biased Simulations Towards Unbiased Parameter Inference"
+    authors: Ezequiel Alvarez, Sean Benevedes, Manuel Szewc, and Jesse Thaler
+    arxiv: 2604.02219
+    year: 2026
+    topic: uncertainty
+    inspire: Alvarez:2026umb
+    image: /news/2026-preprint-tamm.png
+    
+  - title: "Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method"
+    authors: Samuel Bright-Thonney, Thomas R. Harvey, Andre Lukas, and Jesse Thaler
+    arxiv: 2604.01279
+    year: 2026
+    topic: optimization
+    inspire: Bright-Thonney:2026tlr
+    image: /news/2026-preprint-sven.png
+
+  - title: "Descending into the Modular Bootstrap"
+    authors: Nathan Benjamin, A. Liam Fitzpatrick, Wei Li, and Jesse Thaler
+    arxiv: 2604.01275
+    year: 2026
+    topic: optimization
+    inspire: Benjamin:2026lbj
+    image: /news/2026-preprint-cft-ml.png
+
+
   - title: "Improving Parton Shower Predictions via Precision Moments of Energy Flow Polynomials"
     authors: "Benoît Assi, Kyle Lee, and Jesse Thaler"
     arxiv:  2604.00084
@@ -54,7 +79,7 @@ papers:
     arxiv:  2506.00113
     inspire:  Benevedes:2025nzr
     year: 2025
-    topic: reweighting
+    topic: uncertainty
     image:  /news/2025-preprint-wifi.png
     
 
@@ -297,7 +322,7 @@ papers:
     arxiv: "2205.05084"
     year: 2022
     made_phd: true
-    topic: reweighting
+    topic: uncertainty
 
   - title: "Disentangling Quarks and Gluons with CMS Open Data"
     authors: Patrick T. Komiske, Serhii Kryhin, and Jesse Thaler
@@ -319,7 +344,7 @@ papers:
     arxiv: "2205.03413"
     year: 2022
     made_phd: true
-    topic: reweighting
+    topic: uncertainty
     priority: 3
 
   - title: "Non-Gaussianities in Collider Energy Flux"
@@ -379,7 +404,7 @@ papers:
     short_journal: PRD 2021
     arxiv: "2101.07263"
     year: 2021
-    topic: reweighting
+    topic: weak
 
   - title: "Mapping Machine-Learned Physics into a Human-Readable Space"
     authors: Taylor Faucett, Jesse Thaler, and Daniel Whiteson

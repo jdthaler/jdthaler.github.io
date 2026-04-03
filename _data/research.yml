@@ -19,8 +19,14 @@ topics:
       - key:    ai_advocacy
         title:  AI+Science Advocacy
 
+      - key:    optimization
+        title:  Optimization
+
       - key:    reweighting
-        title:  Reweighting, Unfolding, Uncertainties, and Calibration
+        title:  Event Generation and Unfolding
+
+      - key:    uncertainty
+        title:  Uncertainties and Calibration
 
       - key:    optimal_transport
         title:  Optimal Transport
