@@ -36,6 +36,24 @@ categories:
 colloquia:
 
   - title: "Centaur Science: Adventures in AI+Physics"
+    event:  Physics Colloquium
+    org:  University of Genova
+    date: 2026-05-13
+    track: true
+
+  - title: "Descending into the Modular Bootstrap"
+    event:  Theoretical Physics Colloquium
+    org:  Oxford
+    date: 2026-05-01
+    track: true
+
+  - title: "Descending into the Modular Bootstrap"
+    event:  DAMTP Colloquium
+    org:  Cambridge
+    date: 2026-04-29
+    track: true
+
+  - title: "Centaur Science: Adventures in AI+Physics"
     url:  talks/jthaler_2026_04_09_Heidelberg_Centaur.pdf
     event:  Hans Jensen Lecture
     event_url:  https://www.physik.uni-heidelberg.de/graddays/20261
@@ -704,6 +722,13 @@ schools:
 
 invited:
 
+  - title:  "Machine Learning and New Methodologies in HEP"
+    event:  Large Hadron Collider Physics Conference (LHCP 2026)
+    event_url:  https://indico.cern.ch/event/1537360/
+    org:  Paris
+    date:  2026-05-20
+    track:  true
+
   - title:  "Centaur Science: Adventures in AI+Physics"
     url:  talks/jthaler_2026_03_09_SCAI_Centaur.pdf
     event:  AI4Science Launch Event
@@ -1359,6 +1384,32 @@ local:
     date:  2009-10-16
 
 seminars:
+
+  - title: "Descending into the Modular Bootstrap"
+    event:  Talks Series
+    org:  FirstPrinciples
+    date: 2026-06-11
+    virtual: true
+    track: true
+
+  - title: "Descending into the Modular Bootstrap"
+    event:  Seminar
+    org:  IHES
+    date: 2026-05-27
+    track: true
+
+  - title: "Descending into the Modular Bootstrap"
+    event:  ML4HEP Seminar
+    org:  Annecy-Geneva-Lausanne
+    date: 2026-05-07
+    virtual: true
+    track: true
+
+  - title: "Centaur Science: Adventures in AI+Physics"
+    event:  DataIA Seminar
+    org:  Université Paris-Saclay
+    date: 2026-05-04
+    track: true
 
   - title: "Predictably Uncertain: Academic Publishing in the Era of AI"
     url:  talks/jthaler_2026_03_24_AnnualReviews_Salon.pdf
