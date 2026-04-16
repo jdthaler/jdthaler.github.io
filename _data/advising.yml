@@ -12,13 +12,14 @@ phd_theses:
     title:  "First Results from DMRadio-50L: Searching for Low-Mass Axion Dark Matter"
     advisor:  Lindley Winslow
 
-  - name:  Zhuo Chen
-    title:  "Physics and Information Theory:  Toward Better Algorithm Design"
-    advisor: Marin Soljacic
-
   - name: Shing Yan (Kobe) Li
     title: TBA
     advisor: Washington Taylor
+
+  - name:  Zhuo Chen
+    title:  "Physics and Information-Theoretic Principles for Long-Context Modeling"
+    advisor: Marin Soljacic
+    date: April 2026
 
   - name: Ziming Liu
     title:  "Enlightening Artificial Intelligence with Science"

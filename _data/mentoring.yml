@@ -409,8 +409,9 @@ phd_students:
     email: seanmb@mit.edu
     image: /images/benevedes.jpeg
     date: 2026
+    thesis:  "Building Models and Model Building: Machine Learning Uncertainties for Collider Physics and Dynamical Solutions to the Hierarchy Problem"
     current: true
-    updated: 2025
+    updated: 2026
 
   - name: Rikab Gambhir
     email: gambhirb@ucmail.uc.edu

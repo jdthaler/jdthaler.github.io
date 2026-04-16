@@ -93,6 +93,12 @@ visiting_positions:
 
 awards:
 
+  - name:  Humboldt Research Award
+    org:  Alexander von Humboldt Foundation
+    date:  2026
+    url:  https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-award
+    priority:  6
+
   - name:  Schlumberger Chair for Mathematical Sciences
     org:  Institut des Hautes Études Scientifiques
     date:  2025-2026
