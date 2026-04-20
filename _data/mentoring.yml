@@ -40,6 +40,31 @@ alumni_categories:
 
 postdocs:
 
+ - name:  Kevin Langhoff
+   image:  /images/langhoff.jpg
+   email:  langhoff@mit.edu
+   at:
+     - dates: Fall 2025-Spring 2028
+       title: CTP Postdoctoral Researcher
+   before:
+     - title: PhD
+       org:  UC Berkeley
+   current: true
+   updated: 2026
+
+ - name:  Xiaoyuan Zhang
+   url:  https://www.linkedin.com/in/xiaoyuan-zhang-bb44011b4/
+   image: /images/zhang.jpg
+   email: xyz2@mit.edu
+   at:
+     - dates:  Fall 2025-Spring 2028
+       title:  Pappalardo Fellow
+   before:
+     - title: PhD
+       org: Harvard
+   current: true
+   updated: 2026
+
  - name: So Chigusa
    url: https://website-sochigusa.vercel.app
    image: /images/chigusa.jpg
