@@ -48,6 +48,7 @@ colloquia:
     track: true
 
   - title: "Descending into the Modular Bootstrap"
+    url:  talks/jthaler_2026_04_09_Cambridge_Bootstrap.pdf
     event:  DAMTP Colloquium
     org:  Cambridge
     date: 2026-04-29
