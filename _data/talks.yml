@@ -42,6 +42,7 @@ colloquia:
     track: true
 
   - title: "Descending into the Modular Bootstrap"
+    url:  talks/jthaler_2026_05_01_Oxford_Bootstrap.pdf
     event:  Theoretical Physics Colloquium
     org:  Oxford
     date: 2026-05-01
