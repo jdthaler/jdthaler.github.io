@@ -1408,6 +1408,7 @@ seminars:
     track: true
 
   - title: "Centaur Science: Adventures in AI+Physics"
+    url:  talks/jthaler_2026_05_04_DATAIA_Centaur.pdf
     event:  DataIA Seminar
     org:  Université Paris-Saclay
     date: 2026-05-04
