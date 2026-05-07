@@ -1401,6 +1401,7 @@ seminars:
     track: true
 
   - title: "Descending into the Modular Bootstrap"
+    url:  talks/jthaler_2026_05_07_ML4HEP_Bootstrap.pdf
     event:  ML4HEP Seminar
     org:  Annecy-Geneva-Lausanne
     date: 2026-05-07
