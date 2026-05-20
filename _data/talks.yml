@@ -726,6 +726,7 @@ schools:
 invited:
 
   - title:  "Machine Learning and New Methodologies in HEP"
+    url:  talks/jthaler_2026_05_20_ML4HEP_LHCP2026.pdf
     event:  Large Hadron Collider Physics Conference (LHCP 2026)
     event_url:  https://indico.cern.ch/event/1537360/
     org:  Paris
