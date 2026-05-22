@@ -725,6 +725,20 @@ schools:
 
 invited:
 
+  - title:  "Centaur Science: Adventures in AI+Physics"
+    event:  PEPR IA Days
+    event_url:  https://pepr-ia-days.sciencesconf.org
+    org:  Rennes
+    date:  2026-06-22
+    track:  true
+
+  - title:  "Centaur Science: Adventures in AI+Physics"
+    event:  Quantum Universe II Kick-Off Keynote
+    event_url:  https://indico.desy.de/event/53781/
+    org:  Planetarium Hamburg
+    date:  2026-06-15
+    track:  true
+
   - title:  "Machine Learning and New Methodologies in HEP"
     url:  talks/jthaler_2026_05_20_ML4HEP_LHCP2026.pdf
     event:  Large Hadron Collider Physics Conference (LHCP 2026)
@@ -1389,11 +1403,18 @@ local:
 
 seminars:
 
+
   - title: "Descending into the Modular Bootstrap"
     event:  Talks Series
     org:  FirstPrinciples
     date: 2026-06-11
     virtual: true
+    track: true
+
+  - title: "QCD Theory meets Information Theory"
+    event:  Seminar
+    org:  LPNHE
+    date: 2026-06-08
     track: true
 
   - title: "Descending into the Modular Bootstrap"
