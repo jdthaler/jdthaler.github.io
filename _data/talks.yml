@@ -1397,6 +1397,7 @@ seminars:
     track: true
 
   - title: "Descending into the Modular Bootstrap"
+    url:  talks/jthaler_2026_05_26_IHES_Bootstrap.pdf
     event:  Seminar
     org:  IHES
     date: 2026-05-27
