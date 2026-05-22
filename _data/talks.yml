@@ -530,6 +530,13 @@ public:
     
 schools:
 
+  - title: "TBA"
+    event:  "Learning at the Frontier: Advanced School on Machine Learning for Particle Physics"
+    event_url:  https://indico.physi.uni-heidelberg.de/event/1332/overview
+    org:  AIPHY
+    date:  2026-06-23
+    track: true
+
   - title: "Machine Learning for Fundamental Physics"
     parts:
        - title:  "The Rise of Centaur Science"
@@ -724,6 +731,13 @@ schools:
     date: January 2010
 
 invited:
+
+  - title:  "Descending into the Modular Bootstrap"
+    event:  ENS Summer Institute
+    event_url:  https://indico.in2p3.fr/event/39001/
+    org: École Normale Supérieure
+    date:  2026-06-26
+    track:  true
 
   - title:  "Centaur Science: Adventures in AI+Physics"
     event:  PEPR IA Days
@@ -1403,6 +1417,11 @@ local:
 
 seminars:
 
+  - title: "TBA"
+    event:  Seminar
+    org:  IRFU
+    date: 2026-07-09
+    track: true
 
   - title: "Descending into the Modular Bootstrap"
     event:  Talks Series
