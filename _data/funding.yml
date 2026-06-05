@@ -1,5 +1,12 @@
 grants:
 
+  - name: AI Research Institute Renewal
+    title: Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)
+    url: https://iaifi.org/
+    org: National Science Foundation
+    dates: 2026-2031
+    amount: $24.9M
+
   - name: MGAIC Award
     collaborators: Phiala Shanahan
     title: "Physics Predictions from Physical Generative AI"
@@ -116,8 +123,6 @@ grants:
     org: U.S. Department of Energy, Office of Science
     dates: 2011-2016
     amount: $750k
-
-
 
   - name: Cooperative Research Agreement
     title: "Laboratory for Nuclear Science, High Energy Physics Program: Task C, Center for Theoretical Physics"

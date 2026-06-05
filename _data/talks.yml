@@ -530,7 +530,14 @@ public:
     
 schools:
 
-  - title: "TBA"
+  - title:  "Centaur Science: Adventures in AI+Physics"
+    event:  "School on Machine Learning and AI Methods at the LHC"
+    org:  Karachi, Pakistan
+    date:  2026-07-16
+    virtual: true
+    track: true
+
+  - title: "Machine Learning through the Lens of Physics"
     event:  "Learning at the Frontier: Advanced School on Machine Learning for Particle Physics"
     event_url:  https://indico.physi.uni-heidelberg.de/event/1332/overview
     org:  AIPHY
@@ -1431,6 +1438,7 @@ seminars:
     track: true
 
   - title: "QCD Theory meets Information Theory"
+    url:  talks/jthaler_2026_06_08_QCDInfoTheory_LPNHE.pdf
     event:  Seminar
     org:  LPNHE
     date: 2026-06-08
