@@ -72,6 +72,13 @@ group_news:
     
 perspectives:
 
+  - title:  "Boston University Joins National Science Foundation Institute Pushing Frontiers of Physics and AI"
+    url:  https://www.bu.edu/articles/2026/bu-joins-national-science-foundation-ai-institute/
+    journal:  The Brink (BU News)
+    image:  /news/2026-brink-bu-iaifi.jpg
+    date:  2026-06-04
+    quote:  "We’re excited to see Boston University play an important role in IAIFI, adding real intellectual strength and reinforcing the collaborative model that has been central to the institute from the start."
+
   - title: "Our elegant universe: rethinking nature’s deepest principle"
     url:  https://www.newscientist.com/article/2509985-our-elegant-universe-rethinking-natures-deepest-principle/
     journal: New Sceintist
@@ -307,6 +314,13 @@ awards:
      date:     2011-06-10
 
 profiles:
+
+  - title:  "NSF renews support for MIT-led AI and physics institute, expanding a new model for discovery"
+    url:  https://news.mit.edu/2026/nsf-renews-support-mit-led-ai-and-physics-institute-0604
+    journal: MIT News
+    image:  /news/2026-mitnews-iaifi-renewal.jpg
+    date:  2026-06-04
+    quote:  "From the beginning, IAIFI has been built around a two-way street: AI enabling better physics, and physics enabling better AI."
 
   - title:  "3 Questions: On the future of AI and the mathematical and physical sciences"
     url:  https://news.mit.edu/2026/3-questions-future-of-ai-and-mathematical-physical-sciences-0311
