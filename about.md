@@ -27,6 +27,7 @@ permalink: /about/
 ## Key Positions
 
   * **Massachusetts Institute of Technology**
+      * William and Emma Rogers Professor, *2026-Present*
       * Professor of Physics, *2021-Present*
       * Associate Professor of Physics, *2015-2021 (tenured in 2017)*
       * Assistant Professor of Physics, *2010-2015*

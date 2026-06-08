@@ -436,6 +436,9 @@ phd_students:
     date: 2026
     thesis:  "Building Models and Model Building: Machine Learning Uncertainties for Collider Physics and Dynamical Solutions to the Hierarchy Problem"
     current: true
+    after:
+      - title: Postdoctoral Researcher
+        org: Georgia Tech
     updated: 2026
 
   - name: Rikab Gambhir
@@ -443,6 +446,7 @@ phd_students:
     image: /images/gambhir_2.png
     date: 2025
     thesis:  "Metrics, Muons, Moments, Models, Machine Learning, Measurements, and More: A Manifesto on Collider Physics"
+    thesis_url:  https://hdl.handle.net/1721.1/164153
     url: https://rikabgambhir.com/
     awards:
       - name: MIT Prize for Open Data (Honorable Mention)
@@ -458,8 +462,9 @@ phd_students:
     email: samuelaf@mit.edu
     image: /images/alipour-fard.jpg
     thesis:  "Particles Inside Particles: The Flow of Energy in Quarks, Gluons, and Jets"
+    thesis_url:  https://hdl.handle.net/1721.1/164165
     date: 2025
-    updated: 2025
+    updated: 2026
 
   - name: Patrick Komiske
     url: https://pkomiske.com/
@@ -650,7 +655,6 @@ bs_students:
     date: 2027
     independent: Summer 2024, IAP 2025
     urop: Fall 2024, Spring 2025, Summer 2025, Fall 2025
-    current: true
     updated: 2025
 
   - name: Marshall Taylor
@@ -658,8 +662,11 @@ bs_students:
     image:  /images/taylor_marshall.jpg
     urop:  Summer 2025
     date:  2026
-    current: true
-    updated: 2025
+    graduated: true
+    after:
+      - title: Physics Ph.D. Candidate
+        org:  Columbia
+    updated: 2026
 
   - name: Ammar Fayad
     email: afayad@mit.edu
@@ -924,9 +931,11 @@ bs_students:
         org: Harvard
       - title: Data Scientist
         org: Jellyfish
+      - title: Data Scientist
+        org:  AE Studio
     independent: Spring 2012
     urop: Fall 2010, Spring 2011, Summer 2012
-    updated: 2024
+    updated: 2026
 
   - name: Dustin Katzin
     email: drkatzin@gmail.com
@@ -965,8 +974,8 @@ bs_students:
     updated: 2025
 
   - name: Ken Van Tilburg
-    url: https://as.nyu.edu/faculty/ken-van-tilburg.html
-    email: kenvt@nyu.edu
+    url: https://physics.stanford.edu/people/ken-van-tilburg
+    email: kenvt@stanford.edu
     date: 2011
     thesis: "Identifying Boosted Objects with N-subjettiness and Linear k-means Clustering"
     thesis_url: https://hdl.handle.net/1721.1/65536
@@ -980,7 +989,8 @@ bs_students:
         org: Flatiron Institute
       - title: Assistant Professor
         org: NYU
-        concurrent: true
+      - title:  Assistant Professor
+        org:  Stanford
     urop: Summer 2010, Fall 2010
     awards:
       - name: Apker Award Finalist
