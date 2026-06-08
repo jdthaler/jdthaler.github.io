@@ -56,7 +56,7 @@ def affiliation_string(role):
 
 #################### basic information
 
-today = date.today().strftime("%B %d, %Y")
+today = date.today().strftime("%B %e, %Y")
 
 date_output = open("cv_update_date.tex","w")
 date_output.write("(Updated " + today+")")

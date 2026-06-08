@@ -26,6 +26,15 @@ years:
   
 papers:
 
+  - title:  "Reweighting Adversarial Networks for Unbinned Unfolding"
+    authors:  Umar Sohail Qureshi, Krish Desai, Jesse Thaler, and Benjamin Nachman
+    arxiv:  2606.06603
+    inspire:  Qureshi:2026oiv
+    year: 2026
+    topic: reweighting
+    non_alphabetical: true
+    image:  /news/2026-preprint-ran.png
+
   - title: "Many Wrongs Make a Right: Leveraging Biased Simulations Towards Unbiased Parameter Inference"
     authors: Ezequiel Alvarez, Sean Benevedes, Manuel Szewc, and Jesse Thaler
     arxiv: 2604.02219

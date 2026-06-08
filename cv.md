@@ -25,6 +25,7 @@ permalink: cv/
 ### MIT
 
  * **Massachusetts Institute of Technology**, *January 2010-Present*
+   * William and Emma Rogers Professor, *July 2026-Present*
    * Professor of Physics, *July 2021-Present*
    * Associate Professor of Physics with Tenure, *May 2017-July 2021*
    * Associate Professor of Physics, *July 2015-May 2017*
@@ -114,7 +115,7 @@ permalink: cv/
 {% for person in site.data.mentoring.phd_students -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}Ph.D.{% else %}anticipated Ph.D.{% endif %} {{person.date}}
   {%- if person.thesis %}
-      * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+      * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}){:target="_blank"} {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
       * {{award.name}}, *{{award.org}}, {{award.date}}*  
   {%- endfor %}{% endif %}
@@ -130,7 +131,7 @@ permalink: cv/
 {% for person in site.data.mentoring.meng_students -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis %}M.Eng.{% else %}anticipated M.Eng.{% endif %} {{person.date}}
   {%- if person.thesis %}
-      * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+      * Thesis: {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}){:target="_blank"} {% else %} "{{person.thesis}}" {% endif %}  {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
   {%- if person.awards %}{% for award in person.awards %}
       * {{award.name}}, *{{award.org}}, {{award.date}}*  
   {%- endfor %}{% endif %}
@@ -146,7 +147,7 @@ permalink: cv/
 {% for person in site.data.mentoring.bs_students -%}
   {% if person.url %}  * **[{{person.name}}]({{person.url}}){:target="_blank"}**,{% else %}  * **{{person.name}}**,{% endif %} {% if person.thesis or person.graduated %}B.S.{% else %}anticipated B.S.{% endif %} {{person.date}}
   {%- if person.thesis %}
-      * Senior Thesis, {{person.thesis_dates}}:  {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}) {% else %} "{{person.thesis}}" {% endif %}     {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
+      * Senior Thesis, {{person.thesis_dates}}:  {% if person.thesis_url %} ["{{person.thesis}}"]({{person.thesis_url}}){:target="_blank"} {% else %} "{{person.thesis}}" {% endif %}     {% if person.joint %} (with {{person.joint}}) {% endif %} {% endif %}
   {%- if person.independent %}
       * Independent Research: {{person.independent}} {% endif %}
   {%- if person.urop %}
