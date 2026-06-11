@@ -240,7 +240,7 @@ advisory_boards:
     name: Margot and Tom Pritzker Prize for AI in Science Research Excellence
     url:  https://datascience.uchicago.edu/research/ai-science/partnerships/pritzker-prize/
     org:  Pritzker Foundation
-    dates:  2024
+    dates:  2024, 2026
 
   - job: International Scientific Advisory Board
     name: AI for Science and Science for AI (AISSAI) Center
@@ -364,7 +364,13 @@ hepap:
 ml4jets:
   name: Machine Learning for Jet Physics (ML4Jets)
   roles:
-  
+
+  - job:  Advisory Committee
+    issue:  "ML4Jets 2026"
+    issue_url:  https://indico.global/event/15240/
+    org:  Vienna
+    dates:  September 2026
+
   - job:  Advisory Committee
     issue:  "ML4Jets 2025"
     issue_url:  https://indico.cern.ch/event/1526677/
