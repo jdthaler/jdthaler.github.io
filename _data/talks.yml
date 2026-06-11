@@ -747,6 +747,7 @@ invited:
     track:  true
 
   - title:  "Centaur Science: Adventures in AI+Physics"
+    url:  /talks/jthaler_2026_06_22_PEPRIA_Centaur.pdf
     event:  PEPR IA Days
     event_url:  https://pepr-ia-days.sciencesconf.org
     org:  Rennes
@@ -754,6 +755,7 @@ invited:
     track:  true
 
   - title:  "Centaur Science: Adventures in AI+Physics"
+    url:  /talks/jthaler_2026_06_15_Hamburg_Centaur.pdf
     event:  Quantum Universe II Kick-Off Keynote
     event_url:  https://indico.desy.de/event/53781/
     org:  Planetarium Hamburg
