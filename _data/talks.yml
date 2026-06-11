@@ -747,6 +747,7 @@ invited:
     track:  true
 
   - title:  "Centaur Science: Adventures in AI+Physics"
+    url:  /talks/jthaler_2026_06_22_PEPRIA_Centaur.pdf
     event:  PEPR IA Days
     event_url:  https://pepr-ia-days.sciencesconf.org
     org:  Rennes
