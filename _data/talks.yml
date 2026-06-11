@@ -1431,6 +1431,7 @@ seminars:
     track: true
 
   - title: "Descending into the Modular Bootstrap"
+    url:  talks/jthaler_2026_06_11_FirstPrinciples_Bootstrap.pdf
     event:  Talks Series
     org:  FirstPrinciples
     date: 2026-06-11
