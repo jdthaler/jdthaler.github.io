@@ -538,6 +538,11 @@ schools:
     track: true
 
   - title: "Machine Learning through the Lens of Physics"
+    parts:
+       - title:  "ML through a Physics Lens"
+         url:  talks/jthaler_2026_06_23_AIPHY_1_PhysicsLens.pdf
+       - title:  "Optimal Transport"
+         url:  talks/jthaler_2026_06_24_AIPHY_2_OT.pdf
     event:  "Learning at the Frontier: Advanced School on Machine Learning for Particle Physics"
     event_url:  https://indico.physi.uni-heidelberg.de/event/1332/overview
     org:  AIPHY
@@ -740,6 +745,7 @@ schools:
 invited:
 
   - title:  "Descending into the Modular Bootstrap"
+    url:  /talks/jthaler_2026_06_26_ENS_Bootstrap.pdf
     event:  ENS Summer Institute
     event_url:  https://indico.in2p3.fr/event/39001/
     org: École Normale Supérieure
