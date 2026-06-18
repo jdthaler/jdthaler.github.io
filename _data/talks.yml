@@ -539,7 +539,7 @@ schools:
 
   - title: "Machine Learning through the Lens of Physics"
     parts:
-       - title:  "ML through a Physics Lens"
+       - title:  "Ingredients for ML"
          url:  talks/jthaler_2026_06_23_AIPHY_1_PhysicsLens.pdf
        - title:  "Optimal Transport"
          url:  talks/jthaler_2026_06_24_AIPHY_2_OT.pdf
