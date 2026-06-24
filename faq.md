@@ -194,6 +194,24 @@ What made me change my mind to include my pronouns?  I received an email from a 
 Here is a link to [press information](/press){:.button.button--secondary.button--pill.button--sm} of various kinds.
 </details>
 
+
+<details markdown=1>
+<summary><b>What does it mean to be a "William and Emma Rogers Professor"?  Aren't you "Professor Jesse Thaler"?</b></summary>
+
+Happily, this is not an either/or. I'm still plain old Professor Jesse Thaler. The William and Emma Rogers Professorship is one of MIT's named chairs — an honorific title that attaches to an endowment and provides a modest research allowance.
+
+The donor behind the chair is [Dr. Francis H. Williams](https://en.wikipedia.org/wiki/Francis_Henry_Williams){:target="_blank"}, who graduated from MIT in 1873 before heading off to Harvard Medical School. When Röntgen discovered X-rays in 1895, Williams was among the first physicians in the United States to put them to clinical use, so he is sometimes called the father of American chest radiology. By 1896, Williams was at work on the old MIT campus in Back Bay, wheeling patients into the Rogers Laboratory of Physics to peer at their insides with a fluoroscope. Williams was also an early voice warning about the dangers of radiation exposure, a lesson much of the field would learn the hard way.
+
+The chair bears the name of MIT's founder, William Barton Rogers, and his wife, Emma Savage Rogers. Here, I think it is important to be honest about the history of MIT. The Rogers were remarkable in many ways, in particular for championing the hands-on model of education that still defines the Institute today. But before moving to Massachusetts in 1853 (and chartering MIT in 1861), the Rogers household enslaved at least six people in Virginia. According to the [MIT and Slavery project](https://digital-exhibits.libraries.mit.edu/s/mit-and-slavery/page/slavery-and-the-founding-of-mit){:target="_blank"}, one of them was a man named Levi, who accompanied Rogers on his geological surveys and had enough expertise to teach a visiting scientist about Appalachian geology — a poignant reminder that the question of who actually does science, and who gets credited for it, is a very old one.
+
+So I hold this chair gratefully but with my eyes open. Williams spent his career helping people see what lay beneath the surface; the least I can do is the same for the name I now carry.
+
+</details>
+
+
+
+
+
 <details markdown=1>
 <summary><b>What's up with your website?</b></summary>
 
