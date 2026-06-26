@@ -26,6 +26,15 @@ years:
   
 papers:
 
+  - title:  "Interpreting 'Interpretability' and Explaining 'Explainability' in Machine Learning in Physics"
+    authors:  Rikab Gambhir, Luisa Lucie-Smith, Jesse Thaler
+    arxiv: 2606.26228
+    inspire:  Gambhir:2026cly
+    year:  2026
+    topic: ai_advocacy
+    non_alphabetical: true
+    image:  /news/2026-preprint-veraiphy.png
+    
   - title:  "Reweighting Adversarial Networks for Unbinned Unfolding"
     authors:  Umar Sohail Qureshi, Krish Desai, Jesse Thaler, and Benjamin Nachman
     arxiv:  2606.06603
