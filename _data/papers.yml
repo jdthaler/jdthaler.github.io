@@ -1581,6 +1581,10 @@ conference:
     
 incidental:
 
+  - title:  "Deep Learning for Astrophysics: An Open Textbook from the NASA Cosmic Origins AI/ML Science and Technology Interest Group"
+    authors:  Yuan-Sen Ting, Digvijay Wadekar, Phill Cargile, Carol Cuesta-Lazaro, André Curtis-Trudel, Gregory Green, Ryan McClelland, Daniel Muthukrishna, Tri Nguyen, Helen Qu, Tomasz Rozanski, Anna Scaife, Jesse Thaler, Licia Verde, Francisco Villaescusa-Navarro, John F. Wu, Duo Xu, Siyu Yao, Alex Gagliano, Siddharth Mishra-Sharma, Andrew K. Saydjari, Georgios Valogiannis, Peter Kurczynski, Swara Ravindranath
+    arxiv:  2606.30855
+
   - title:  "Unbinned measurement of thrust in e+e- collisions at 91.2 GeV with ALEPH archived data"
     authors:  "The Electron-Positron Alliance: Anthony Badea, Austin Baty, Hannah Bossi, Yu-Chen Chen, Yi Chen, Jingyu Zhang, Gian Michele Innocenti, Marcello Maggi, Chris McGinn, Michael Peters, Tzu-An Sheng, Vinicius Mikuni, Matthew Avaylon, Patrick Komiske, Eric Metodiev, Jesse Thaler, Benjamin Nachman, Yen-Jie Lee"
     arxiv:  2510.22038
