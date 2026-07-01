@@ -426,6 +426,12 @@ profiles:
     image:  /news/2019-collider-blog-00_0.jpg
     date:   2019-02-24
 
+  - title:  "A Fresh Look at Quark-Gluon Plasma Soup"
+    url:  https://www.aip.org/inside-science/a-fresh-look-at-quark-gluon-plasma-soup
+    journal:  AIP Inside Science
+    image:  /news/2018-aip-topics.jpeg
+    date:  2018-07-10
+    
   - title: "Center for Theoretical Physics celebrates 50 years"
     url: https://news.mit.edu/2018/mit-center-theoretical-physics-marks-50th-anniversary-symposium-looking-present-and-future-0328
     journal: MIT News
