@@ -188,6 +188,12 @@ academic_advising:
     dates: Fall 2017-Present
     cohorts:
 
+      - name: "Anticipated Ph.D. 2031"
+        members:
+          - name:  Dean Ciarniello
+          - name:  Yitao Feng
+          - name:  Tristan Wang
+
       - name: "Anticipated Ph.D. 2029"
         members:
           - name: Aneca Sun
