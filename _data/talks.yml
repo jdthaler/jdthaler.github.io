@@ -1433,6 +1433,7 @@ local:
 seminars:
 
   - title: "Centaur Science: Adventures in AI+Physics"
+    url:  talks/jthaler_2026_07_09_IRFU_Centaur.pdf
     event:  Seminar
     org:  IRFU
     date: 2026-07-09
