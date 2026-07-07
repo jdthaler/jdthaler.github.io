@@ -34,7 +34,8 @@ permalink: cv/
    
 ### Leadership
 
- * **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**, Director, *August 2020-Present (on sabbatical August 2025-July 2026)*
+ * **[MIT Laboratory for Nuclear Science (LNS)](https://iaifi.org/){:target="_blank"}**, Director, *August 2026-Present*
+ * **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**, Director, *August 2020-July 2025*
 
 ### Visiting Positions
 

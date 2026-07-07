@@ -8,7 +8,7 @@ layout: article
 </center>
 **[Jesse Thaler](about)** is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.
 
-He is a Professor of Physics at the **[Massachusetts Institute of Technology (MIT)](https://physics.mit.edu/){:target="_blank"}** and Director of the **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**.
+He is a Professor of Physics at the **[Massachusetts Institute of Technology (MIT)](https://physics.mit.edu/){:target="_blank"}**, Incoming Director of the **[MIT Laboratory for Nuclear Science (LNS)](https://web.mit.edu/lns/){:target="_blank"}**, and Former Director of the **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**.
 
 ### Research
 
@@ -35,7 +35,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
   <div class="grid grid--py-3">
     {% for position in site.data.bio.positions %}
 
-    <div class="cell cell--6">
+    <div class="cell cell--4">
           <center>
           <a href="{{position.url}}" target="_blank">
             <img class="image-h image-h--xs image-contain" src="{{position.image}}" title="{{position.hover}}"/>
@@ -53,7 +53,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
 <div class="grid-container">
   <div class="grid grid--py-3">
     {% for affiliation in site.data.bio.affiliations %}{% if affiliation.priority >= 6 %}
-    <div class="cell cell--3">
+    <div class="cell cell--4">
           <center>
           <a href="{{affiliation.url}}" target="_blank">
             <img class="image-h image-h--xs image-contain" src="{{affiliation.image}}" title="{{affiliation.acronym}}"/>
