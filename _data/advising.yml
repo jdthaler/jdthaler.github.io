@@ -13,7 +13,7 @@ phd_theses:
     advisor:  Lindley Winslow
 
   - name: Shing Yan (Kobe) Li
-    title: TBA
+    title: "Applications of Flux Compactifications in F-Theory"
     advisor: Washington Taylor
 
   - name:  Zhuo Chen
@@ -233,6 +233,14 @@ academic_advising:
     dates: Fall 2011-Present
     cohorts:
     
+      - name: "Class of 2029"
+        members:
+          - name: Rohan Bodke
+          - name: Tejus Deo-Dixit
+          - name: Davin Li
+          - name: Eric Mora Jimenez
+          - name: Maggie Sun
+
       - name: "Class of 2024/2025"
         members:
           - name: Omar Abdelghani
