@@ -115,7 +115,9 @@ permalink: personal/
   </div>
 </div>
 
-## Extended Biography
+## Extended Informal Biography
+
+_Please visit [Press Information](/press){:.button.button--secondary.button--pill.button--sm} for a biography suitable for professional purposes._
 
 Though I was born in [Minneapolis, Minnesota](https://www.minneapolismn.gov/){:target="_blank"}, I spent my formative years in [York, Maine](https://www.yorkmaine.org/){:target="_blank"}.  My brother, [Aaron](/aaron), and I used to play all sorts of fun games including "wig" which nearly resulted in vital organ loss.  I survived through [York Middle School](https://yms.yorkschools.org/o/yms){:target="_blank"} despite soldered glasses, a bad hair cut, and one-on-one math tutorials in a janitor's closet.  My success was partly due to a love affair with a tenor saxophone.
 
