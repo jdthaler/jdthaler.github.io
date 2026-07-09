@@ -129,7 +129,9 @@ I then spent a glorious three-and-a-half years in California, doing post-doctori
 
 Alas, our time on the left coast was short-lived, and Sasha and I moved (back) to New England in 2010.  I am now living the (academic) dream as a [Professor](https://web.mit.edu/physics/people/faculty/thaler_jesse.html){:target="_blank"} in the [Center for Theoretical Physics](http://ctp.mit.edu){:target="_blank"} at [MIT](https://www.mit.edu/){:target="_blank"}.  In my research, I attempt to address some of the outstanding questions in fundamental physics, including the nature of dark matter, the apparent weakness of gravity, and the symmetry structure of our universe.
 
-In 2020, I become Director of the [Institute for Artificial Intelligence and Fundamental Interactions](https://iaifi.org){:target="_blank"}.  I used to make jokes about how "deep learning" could never compete with "deep thinking", but I guess now the joke's on me.
+In 2020, I become Director of the [NSF Institute for Artificial Intelligence and Fundamental Interactions](https://iaifi.org){:target="_blank"}.  I used to make jokes about how "deep learning" could never compete with "deep thinking", but I guess now the joke's on me.
+
+Starting August 2026, I will start a new adventure as Director of the [MIT Laboratory for Nuclear Science (LNS)](https://web.mit.edu/lns/){:target="_blank"}.  Why would a tenured professor agree to take on this kind of adminstrative role?  Because discovery science is very much a team sport.
 
 ## Archives
 
