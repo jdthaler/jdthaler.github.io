@@ -532,6 +532,7 @@ schools:
 
   - title:  "Centaur Science: Adventures in AI+Physics"
     event:  "School on Machine Learning and AI Methods at the LHC"
+    url:   talks/jthaler_2026_07_16_Pakistan_Centaur.pdf
     org:  Karachi, Pakistan
     date:  2026-07-16
     virtual: true
