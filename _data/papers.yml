@@ -26,8 +26,16 @@ years:
   
 papers:
 
+  - title:  "The Well-Tempered Likelihood: Honest Confidence Intervals for Misspecified Models"
+    authors: Benjamin Nachman and Jesse Thaler
+    arxiv:  2607.20718
+    inspire:  Nachman:2026ikw
+    year:  2026
+    topic:  uncertainty
+    image:  /news/2026-preprint-welltempered.png
+
   - title:  "Interpreting 'Interpretability' and Explaining 'Explainability' in Machine Learning in Physics"
-    authors:  Rikab Gambhir, Luisa Lucie-Smith, Jesse Thaler
+    authors:  Rikab Gambhir, Luisa Lucie-Smith, and Jesse Thaler
     arxiv: 2606.26228
     inspire:  Gambhir:2026cly
     year:  2026
