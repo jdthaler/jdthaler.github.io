@@ -10,7 +10,7 @@ permalink: engagement/
 
 <style>
   .hero-example--linear-gradient {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("{{topimage.image}}");
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("{% include snippets/get-preview-url.html url=topimage.image %}{{__return}}");
     background-position: top;
   }
 </style>
@@ -40,7 +40,7 @@ permalink: engagement/
 <div class="item">
 <div class="item__image">
 <a href="{{topic.image_url}}" target="_blank">
-<img class="image-sq--lg" src="{{topic.preview | default: topic.image}}" alt="{{topic.image_hover}}" title="{{topic.image_hover}}"/>
+<img class="image-sq--lg" src="{% include snippets/get-preview-url.html url=topic.image %}{{__return}}" alt="{{topic.image_hover}}" title="{{topic.image_hover}}"/>
 </a>
 </div>
 <div class="item__content" markdown=1>

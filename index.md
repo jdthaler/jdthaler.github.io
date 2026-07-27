@@ -18,7 +18,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
       <div class="cell cell--4">
           <center>
           <a href="research#{{topic.key}}">
-            <img class="" style="object-fit: cover" src="{{topic.image}}" alt="" title="{{topic.title}}"/>
+            <img class="" style="object-fit: cover" src="{% include snippets/get-preview-url.html url=topic.image %}{{__return}}" alt="" title="{{topic.title}}"/>
           <br>
               <b>{{topic.title}}</b>
           </a>
@@ -38,7 +38,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
     <div class="cell cell--4">
           <center>
           <a href="{{position.url}}" target="_blank">
-            <img class="image-h image-h--xs image-contain" src="{{position.image}}" alt="" title="{{position.hover}}"/>
+            <img class="image-h image-h--xs image-contain" src="{% include snippets/get-preview-url.html url=position.image %}{{__return}}" alt="" title="{{position.hover}}"/>
           <br>
               <b>{{position.title}}, {{position.acronym}}</b>
           </a>
@@ -56,7 +56,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
     <div class="cell cell--4">
           <center>
           <a href="{{affiliation.url}}" target="_blank">
-            <img class="image-h image-h--xs image-contain" src="{{affiliation.image}}" alt="" title="{{affiliation.acronym}}"/>
+            <img class="image-h image-h--xs image-contain" src="{% include snippets/get-preview-url.html url=affiliation.image %}{{__return}}" alt="" title="{{affiliation.acronym}}"/>
           <br>
               <div class="">{{affiliation.name}} ({{affiliation.acronym}})</div>
           </a>

@@ -2,14 +2,12 @@
 # what shows if the image fails to load. They are different jobs, so they are
 # separate fields: `hover` can be a shorthand like a room number, `alt` has to
 # describe the picture.
-# `image` is the full-resolution file. The front page and about page use it
-# directly rather than a shrunken copy, because those are the pages people copy
-# an image from and they should get the good one. `preview` is the small copy,
-# used only where the image appears as a thumbnail on /press. Both are generated
-# by _images/make_derivatives.py; edit `image` and re-run it.
+# `image` is the original. Its preview is derived, not stored -- see
+# _includes/snippets/get-preview-url.html -- so each path is written once.
+# The front page and about page show the original deliberately: those are the
+# pages people copy an image from.
 index_top:
   image: /images/jthaler_mit_spotlight.jpg
-  preview: /images/preview/jthaler_mit_spotlight.jpg
   image_credit: Jared Charney, MIT News
   image_url: https://spotlight.mit.edu/2017/chalkboard-theorist
   hover: Jesse Thaler
@@ -17,7 +15,6 @@ index_top:
 
 about_top:
   image: /images/jthaler_photo_2017.jpg
-  preview: /images/preview/jthaler_photo_2017.jpg
   image_credit: Jared Charney
   image_url: https://www.jaredcharney.com/
   hover: Jesse Thaler

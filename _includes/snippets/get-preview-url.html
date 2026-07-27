@@ -1,0 +1,20 @@
+{%- comment -%}
+Given the path of an original image, returns the path of its generated preview:
+/images/foo.jpg -> /images/preview/foo.jpg
+
+Derived rather than stored, so an image's path is written down once. Storing
+both would mean two places to update when an image changes, which is exactly the
+mistake this convention exists to prevent.
+
+Previews are produced by _images/make_derivatives.py. Pass a path that is
+already a preview and it comes back unchanged, so this is safe to apply twice.
+{%- endcomment -%}
+{%- assign _url = include.url -%}
+{%- if _url contains '/preview/' -%}
+  {%- assign __return = _url -%}
+{%- else -%}
+  {%- assign __return = _url
+        | replace: '/images/', '/images/preview/'
+        | replace: '/design/', '/design/preview/'
+        | replace: '/holiday/', '/holiday/preview/' -%}
+{%- endif -%}

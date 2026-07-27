@@ -1,32 +1,29 @@
-# Regenerates the web-sized images the site serves, from full-resolution masters.
+# Generates images/preview/, design/preview/ and holiday/preview/ from the
+# originals that sit alongside them.
 #
-# Why: several served images were far larger than the slot they display in.
-# design/jthaler_BOOST2019_Poster.png was 8.7 MB at 3300x5100 pixels to fill a
-# 128-pixel-tall thumbnail, and /personal carried 17.9 MB of images in total.
+# One rule, no exceptions:
 #
-# Nothing is lost and resizing is reversible, because every derivative is
-# generated from a master this script only ever reads. There are two patterns,
-# and which one applies is an editorial question, not a technical one: does a
-# visitor have any business downloading the full-resolution file?
+#   images/foo.jpg           the original -- the only copy of it anywhere
+#   images/preview/foo.jpg   generated, sized for how the site displays it
 #
-#   Master published, derivative alongside in preview/
-#     For images whose high-resolution version is meant to be downloadable: the
-#     press photos, and anything a visitor clicks to see properly.
-#       images/foo.jpg          full resolution, the download or link target
-#       images/preview/foo.jpg  what the page actually displays
+# The original is the single source of truth. Replace it, re-run this, and the
+# preview follows. Nothing is stored twice, so there is no second copy to forget
+# to update.
 #
-#   Master hidden under _images/, derivative served at the original path
-#     For images nobody needs at full size: colleagues' portraits, decorative
-#     thumbnails that link somewhere else, institutional logos. Jekyll does not
-#     publish underscore directories, which is why _data/, _cv/ and _reporting/
-#     are absent from the live site.
-#       _images/masters/images/foo.jpg   full resolution, never served
-#       images/foo.jpg                   what the page displays
+# Which of the two a page uses is an editorial choice this script does not make:
+# the front page and about page deliberately show the original, because those
+# are the pages people copy an image from, while grids and thumbnails show the
+# preview. Links and downloads always point at the original.
 #
-# Idempotent: masters are never written to, so re-running produces identical
-# output. To resize back up, change RETINA (or the CSS) and re-run.
+# Sizes come from the built site rather than being written down here: each <img>
+# class is mapped through the $image scale in _sass, CSS background images count
+# as spanning the content column, and the largest requirement wins. A preview is
+# never larger than its original.
 #
-# Run from the repo root, after a build so display sizes can be read:
+# Idempotent: originals are only ever read, so re-running produces identical
+# output. To make previews sharper or smaller, change RETINA and re-run.
+#
+# Run from the repo root, after a build so the display sizes can be read:
 #
 #   bundle exec jekyll build && python3 _images/make_derivatives.py
 #
@@ -39,14 +36,12 @@ import sys
 
 from PIL import Image, ImageOps
 
-# Serve this multiple of the CSS display size, so images stay sharp on
+# Serve this multiple of the CSS display size, so previews stay sharp on
 # high-density screens.
 RETINA = 2
 
-# Display heights the image classes set, from $image in
-# _sass/common/_variables.scss (rem values at the 16px root size). Kept here
-# rather than as per-file numbers so targets follow the markup: restyle an image
-# and its derivative size follows on the next run.
+# Heights set by the custom classes in _sass/custom.scss, resolved through the
+# $image scale in _sass/common/_variables.scss (rem at the 16px root size).
 DISPLAY_HEIGHT = {
     "image-h--xl": 320, "image-h--lg": 256, "image-h--sm": 128, "image-h--xs": 64,
     "image-sq--lg": 256, "image-sq--sm": 128,
@@ -54,68 +49,55 @@ DISPLAY_HEIGHT = {
     "image-h": 192,   # the bare class, checked last
 }
 
-# The theme's own classes, in _sass/common/components/_image.scss, set width
-# instead. Longer keys are checked first so image-h--xs is not mistaken for
-# image--xs. Missing these was what inflated the press thumbnails: an
-# unrecognised class looks class-less, and a class-less image is assumed to fill
-# the column.
+# The theme's own classes in _sass/common/components/_image.scss set width
+# instead. Longer keys match first so image-h--xs is not read as image--xs.
 DISPLAY_WIDTH = {
     "image--xl": 320, "image--lg": 256, "image--md": 192,
     "image--sm": 128, "image--xs": 64,
 }
+
 # Width of the article content column, from $layout in
-# _sass/common/_variables.scss. An image with no size class can be laid out
-# this wide, so that is the requirement it implies.
+# _sass/common/_variables.scss. An image with no size class, or one used as a
+# CSS background, can be laid out this wide.
 CONTENT_WIDTH = 950
 
-# Masters whose full-resolution version stays published, with the displayed copy
-# generated into a preview/ subdirectory. Listed explicitly because "should this
-# be downloadable?" is a judgement about each image, not something to infer.
-PUBLISHED_MASTERS = [
-    "images/jthaler_mit_spotlight.jpg",   # press download + /index hero
-    "images/jthaler_photo_2017.jpg",      # press download + /about hero
-    "images/stamp_personal.jpg",          # /personal hero, linked to full size
-    "design/jthaler_IAIFI_Banner.jpg",    # already links to itself
-    # Credited photographs. The Image Credits list on /press links each one, and
-    # that link should reach the photographer's original rather than a copy the
-    # site shrank for its own layout.
-    "images/stamp_dm.jpg",
-    "images/stamp_nytimes_aiml.jpg",
-    "images/stamp_mod.png",
-    "images/p5.jpg",
-]
-
-# (master glob, function from master path to the derivative it produces)
-GROUPS = [
-    ("_images/masters/design/*.png", lambda m: os.path.join("design", os.path.basename(m))),
-    ("_images/masters/images/*",     lambda m: os.path.join("images", os.path.basename(m))),
-    ("holiday/*.jpg",                lambda m: os.path.join("holiday/preview", os.path.basename(m))),
-]
-for _m in PUBLISHED_MASTERS:
-    GROUPS.append((_m, lambda m: os.path.join(os.path.dirname(m), "preview", os.path.basename(m))))
+# Directories holding originals. Their preview/ subdirectory is generated.
+SOURCE_DIRS = ["images", "design", "holiday"]
 
 JPEG_QUALITY = 82
 
 
-def displayed_requirements():
-    """Map served image path -> list of size requirements from the built HTML.
+def preview_path(original):
+    directory, name = os.path.split(original)
+    return os.path.join(directory, "preview", name)
 
-    Each requirement is ("h", px) from a size class, or ("w", px) for an image
-    with no size class, which is laid out by its container and so can be as wide
-    as the content column. The same file can appear both ways: the blackboard
-    photo is 128px tall on /press but fills the column on the front page, and
-    sizing it for /press alone shrank the hero to 671px inside a 950px column.
-    They are resolved to widths later, once the image's aspect ratio is known,
-    and the largest wins.
+
+def originals():
+    for directory in SOURCE_DIRS:
+        for path in sorted(glob.glob(os.path.join(directory, "*"))):
+            if not os.path.isfile(path):
+                continue
+            if os.path.splitext(path)[1].lower() not in (".jpg", ".jpeg", ".png"):
+                continue
+            yield path
+
+
+def displayed_requirements():
+    """Map served path -> size requirements read from the built site.
+
+    Each requirement is ("h", px) from a height class, ("w", px) from a width
+    class, or ("w", CONTENT_WIDTH) where there is no class to read -- an image
+    laid out by its container, or used as a CSS background like the hero banners
+    on /engagement and /research. One file can appear several ways: the
+    blackboard photo is 128px tall on /press, 64px wide in the credits list, and
+    full width on the front page.
     """
     reqs = {}
-    for root, _dirs, files in os.walk("_site"):
-        for name in files:
-            if not name.endswith(".html"):
-                continue
-            with open(os.path.join(root, name), encoding="utf-8") as fh:
-                html = fh.read()
-            for tag in re.findall(r"<img[^>]*>", html):
+    for pattern in ("_site/**/*.html", "_site/**/*.css"):
+        for path in glob.glob(pattern, recursive=True):
+            with open(path, encoding="utf-8", errors="ignore") as fh:
+                text = fh.read()
+            for tag in re.findall(r"<img[^>]*>", text):
                 src = re.search(r'src="/+([^"]+)"', tag)
                 if not src:
                     continue
@@ -130,28 +112,20 @@ def displayed_requirements():
                 else:
                     req = ("w", CONTENT_WIDTH)
                 reqs.setdefault(src.group(1), []).append(req)
-
-            # Images referenced from CSS rather than markup, such as the hero
-            # banner on /engagement. There is no class to read and the element
-            # spans at least the content column, so they get that requirement.
-            # Missing these shrank that banner to 128px wide, because the file's
-            # only <img> use is a 64px credit thumbnail on /press.
-            for m in re.finditer(r"url\(\s*[\"\']?/+([^\"\')]+)", html):
+            for m in re.finditer(r"url\(\s*[\"']?/+([^\"')]+)", text):
                 reqs.setdefault(m.group(1), []).append(("w", CONTENT_WIDTH))
     return reqs
 
 
-def target_height(derivative, master, reqs, aspect):
-    """How tall the derivative should be, or None if nothing references it.
-
-    Checks the derivative's own requirements first, then the master's, which is
-    what pages reference until the markup is switched over.
-    """
-    for key in (derivative, master):
-        if key in reqs:
-            widths = [px if kind == "w" else px * aspect for kind, px in reqs[key]]
-            return RETINA * max(widths) / aspect
-    return None
+def target_height(original, reqs, aspect):
+    """Height the preview should be, from however the site uses either file."""
+    wanted = []
+    for key in (preview_path(original), original):
+        for kind, px in reqs.get(key, []):
+            wanted.append(px if kind == "w" else px * aspect)
+    if not wanted:
+        return None
+    return RETINA * max(wanted) / aspect
 
 
 def main():
@@ -160,63 +134,69 @@ def main():
 
     reqs = displayed_requirements()
     before = after = 0
-    resized = skipped = 0
+    written = 0
 
-    for pattern, derivative_of in GROUPS:
-        for master in sorted(glob.glob(pattern)):
-            if os.path.isdir(master):
-                continue
-            derivative = derivative_of(master)
-            if os.path.abspath(derivative) == os.path.abspath(master):
-                continue
-            os.makedirs(os.path.dirname(derivative), exist_ok=True)
+    unused = []
+    for original in originals():
+        preview = preview_path(original)
+        os.makedirs(os.path.dirname(preview), exist_ok=True)
+        original_size = os.path.getsize(original)
 
-            master_size = os.path.getsize(master)
-            with Image.open(master) as raw:
-                # Apply any EXIF orientation to the pixels. Browsers honour that
-                # tag, but PIL reads raw pixels and the tag does not survive the
-                # save, so without this a rotated master -- stamp_personal.jpg is
-                # tagged 180 degrees -- comes out upside down in its derivative.
-                im = ImageOps.exif_transpose(raw)
-                target = target_height(derivative, master, reqs, im.width / im.height)
-                if target is None or im.height <= target:
-                    # Already no taller than wanted. Still worth re-encoding:
-                    # images can be the right size and yet enormous because they
-                    # were saved at near-lossless quality -- stamp_qcd.jpg was
-                    # 536 KB at 900x600. Re-encoding always starts from the
-                    # master, so this stays idempotent.
-                    width, target = im.width, im.height
-                    out = im.copy()
-                else:
-                    target = int(round(target))
-                    width = round(im.width * target / im.height)
-                    out = im.resize((width, target), Image.LANCZOS)
+        with Image.open(original) as probe:
+            aspect = probe.width / probe.height
+        if target_height(original, reqs, aspect) is None:
+            # No page shows this image, so a preview would be dead weight --
+            # 24 unreferenced alumni portraits were producing 8.5 MB of them.
+            # Reference one and re-run; the preview appears.
+            unused.append(original)
+            if os.path.exists(preview):
+                os.remove(preview)
+            continue
 
-                old = os.path.getsize(derivative) if os.path.exists(derivative) else master_size
-                if derivative.lower().endswith((".jpg", ".jpeg")):
-                    out.convert("RGB").save(derivative, "JPEG", quality=JPEG_QUALITY,
-                                            optimize=True, progressive=True)
-                else:
-                    out.save(derivative, "PNG", optimize=True)
-                new = os.path.getsize(derivative)
+        with Image.open(original) as raw:
+            # Apply any EXIF orientation to the pixels: browsers honour that tag
+            # but it does not survive the save, so without this a rotated
+            # original comes out upside down in its preview.
+            im = ImageOps.exif_transpose(raw)
+            target = target_height(original, reqs, im.width / im.height)
+            if im.height <= target:
+                # No larger than wanted. Still re-encode: an image can be the
+                # right size and still enormous from being saved at
+                # near-lossless quality.
+                width, target = im.width, im.height
+                out = im.copy()
+            else:
+                target = int(round(target))
+                width = round(im.width * target / im.height)
+                out = im.resize((width, target), Image.LANCZOS)
 
-            # Some already-small files, particularly PNG logos, come out bigger
-            # after a round trip. Keep whichever is smaller; copying the master
-            # verbatim is still deterministic.
-            if new > master_size:
-                with open(master, "rb") as src, open(derivative, "wb") as dst:
-                    dst.write(src.read())
-                new = os.path.getsize(derivative)
+            if preview.lower().endswith((".jpg", ".jpeg")):
+                out.convert("RGB").save(preview, "JPEG", quality=JPEG_QUALITY,
+                                        optimize=True, progressive=True)
+            else:
+                out.save(preview, "PNG", optimize=True)
 
-            before += old or os.path.getsize(master)
-            after += new
-            resized += 1
-            print("  %-46s %5dx%-5d  %6dKB -> %5dKB" % (
-                derivative, width, target, (old or os.path.getsize(master)) // 1024, new // 1024))
+        # Small files, particularly PNG logos, can come out bigger after a round
+        # trip. Keep whichever is smaller; copying verbatim stays deterministic.
+        if os.path.getsize(preview) > original_size:
+            with open(original, "rb") as src, open(preview, "wb") as dst:
+                dst.write(src.read())
 
-    print("\n  wrote %d, skipped %d" % (resized, skipped))
+        new_size = os.path.getsize(preview)
+        before += original_size
+        after += new_size
+        written += 1
+        print("  %-46s %5dx%-5d  %6dKB -> %5dKB" % (
+            preview, width, target, original_size // 1024, new_size // 1024))
+
+    if unused:
+        print("\n  skipped %d originals no page references (no preview needed):" % len(unused))
+        for path in unused:
+            print("    %s" % path)
+
+    print("\n  %d previews generated" % written)
     if before:
-        print("  %.1f MB -> %.1f MB  (%.0f%% smaller)" % (
+        print("  originals %.1f MB -> previews %.1f MB  (%.0f%% smaller)" % (
             before / 1e6, after / 1e6, 100 * (1 - after / before)))
 
 
