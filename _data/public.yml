@@ -124,7 +124,7 @@ entries:
     date:  March 2024
 
   - title: "Predictably Uncertain: A Physicist’s Perspective on AI Policy"
-    url:  https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2024_03_13_OTR.pdf
+    url:  talks/jthaler_2024_03_13_OTR.pdf
     event:  Off the Record Foreign Policy Association Lecture
     event_url:  https://off-the-record.org/content.aspx?page_id=4002&club_id=706499&item_id=2006683
     org:  New York City Bar Association
@@ -178,7 +178,7 @@ entries:
     topic: advocacy_ai
 
   - title:  "Collision Course: Artificial Intelligence meets Fundamental Physics"
-    url:    https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_10_TommyFlowers_Keynote.pdf
+    url:    talks/jthaler_2020_10_TommyFlowers_Keynote.pdf
     type:   Keynote Presentation
     event:  Tommy Flowers Network Conference
     event_url:  https://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html
@@ -203,7 +203,7 @@ entries:
     topic: advocacy_open_data
 
   - title:  Listening to the Invisible Universe
-    url:    https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_04_FarCry.pdf
+    url:    talks/jthaler_2019_04_FarCry.pdf
     collaborators: A Far Cry
     collaborators_url: https://afarcry.org/
     event:  Open Rehearsal of Gravity
@@ -229,7 +229,7 @@ entries:
     topic: advocacy_open_data
 
   - title: Confronting the Invisible Universe
-    url:   https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2018_05_London_Dark_Matter.pdf
+    url:   talks/jthaler_2018_05_London_Dark_Matter.pdf
     type:  MIT Club of Great Britain Event
     org:   London
     date:  May 2018

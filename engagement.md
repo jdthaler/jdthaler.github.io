@@ -47,7 +47,7 @@ permalink: engagement/
 {% for subtopic in topic.subtopics -%}
 {%- for entry in site.data.public.entries -%}
 {%- if subtopic.key == entry.topic %}
-  * **"{% if entry.url %}[{{entry.title}}]({{entry.url}}){:target="_blank"}{% else %}{{entry.title}}{% endif %}"**{% if entry.collaborators %} (with {% if entry.collaborators_url %}[{{entry.collaborators}}]({{entry.collaborators_url}}){:target="_blank"}{% else %}{{entry.collaborators}}{% endif %}){% endif %},
+  * **"{% if entry.url %}[{{entry.title}}]({% include snippets/get-talk-url.html url=entry.url %}{{__return}}){:target="_blank"}{% else %}{{entry.title}}{% endif %}"**{% if entry.collaborators %} (with {% if entry.collaborators_url %}[{{entry.collaborators}}]({{entry.collaborators_url}}){:target="_blank"}{% else %}{{entry.collaborators}}{% endif %}){% endif %},
    {% if entry.type %}{{entry.type}}, {% endif -%}
    {% if entry.event %}{% if entry.event_url %}[{{entry.event}}]({{entry.event_url}}){:target="_blank"}{% else %}{{entry.event}}{% endif %}, {% endif -%}   
    {% if entry.org %}*{{entry.org}}*, {% endif -%}

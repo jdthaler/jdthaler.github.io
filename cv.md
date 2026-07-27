@@ -194,7 +194,7 @@ permalink: cv/
 ### Guest Lectures
 
 {% for lecture in site.data.teaching.guest_lectures -%}
-  * **["{{lecture.title}}"]({{lecture.url | prepend: "https://github.com/jdthaler/jdthaler.github.io/raw/main/"}}){:target="_blank"}**, {{lecture.course_number}} ({{lecture.course_name}}), *{{lecture.date}}*
+  * **["{{lecture.title}}"]({% include snippets/get-talk-url.html url=lecture.url %}{{__return}}){:target="_blank"}**, {{lecture.course_number}} ({{lecture.course_name}}), *{{lecture.date}}*
 {% endfor %}
 
 
@@ -316,7 +316,7 @@ permalink: cv/
 {%- assign institution = site.data.service[tag] %}
   * {% if institution.url %}**[{{institution.name}}]({{institution.url}}){:target="_blank"}**{% else %}**{{institution.name}}**{% endif %}
 {%- for role in institution.roles %}
-    * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({{role.issue_url}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{% if role.org %}{{role.org}}, {% endif %}{{role.dates}}* 
+    * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({% include snippets/get-talk-url.html url=role.issue_url %}{{__return}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{% if role.org %}{{role.org}}, {% endif %}{{role.dates}}* 
 {%- endfor %}
 {%- endfor %}
 
@@ -326,7 +326,7 @@ permalink: cv/
 {%- assign series = site.data.service[tag] %}
   * {% if series.url %}**[{{series.name}}]({{series.url}}){:target="_blank"}**{% else %}**{{series.name}}**{% endif %}
 {%- for role in series.roles %}
-    * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({{role.issue_url}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{% if role.org %}{{role.org}}, {% endif %}{{role.dates}}* 
+    * {% if role.job_url %}[{{role.job}}]({{role.job_url}}){:target="_blank"}{% else %}{{role.job}}{% endif %}, {% if role.issue %}"{% if role.issue_url %}[{{role.issue}}]({% include snippets/get-talk-url.html url=role.issue_url %}{{__return}}){:target="_blank"}{% else %}{{role.issue}}{% endif %}",{% endif %} *{% if role.org %}{{role.org}}, {% endif %}{{role.dates}}* 
 {%- endfor %}
 {%- endfor %}
 
@@ -351,7 +351,7 @@ permalink: cv/
 [IMDb](https://www.imdb.com/name/nm6007880/){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
  
 {% for entry in site.data.public.entries %}
-  * **"{% if entry.url %}[{{entry.title}}]({{entry.url}}){:target="_blank"}{% else %}{{entry.title}}{% endif %}"**{% if entry.collaborators %} (with {% if entry.collaborators_url %}[{{entry.collaborators}}]({{entry.collaborators_url}}){:target="_blank"}{% else %}{{entry.collaborators}}{% endif %}){% endif %},
+  * **"{% if entry.url %}[{{entry.title}}]({% include snippets/get-talk-url.html url=entry.url %}{{__return}}){:target="_blank"}{% else %}{{entry.title}}{% endif %}"**{% if entry.collaborators %} (with {% if entry.collaborators_url %}[{{entry.collaborators}}]({{entry.collaborators_url}}){:target="_blank"}{% else %}{{entry.collaborators}}{% endif %}){% endif %},
    {% if entry.type %}{{entry.type}}, {% endif -%}
    {% if entry.event %}{% if entry.event_url %}[{{entry.event}}]({{entry.event_url}}){:target="_blank"}{% else %}{{entry.event}}{% endif %}, {% endif -%}   
    {% if entry.org %}*{{entry.org}}*, {% endif -%}
