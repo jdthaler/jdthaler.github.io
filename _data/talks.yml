@@ -208,7 +208,7 @@ colloquia:
   - title: "Collision Course:  Particle Physics meets Machine Learning"
     url: talks/jthaler_2021_02_EMD_Colloquium_NORDITA.pdf
     event: Nordita Colloquium
-    event_url: http://video.albanova.se/arc2021_06.html|AlbaNova/Nordita Colloquium
+    event_url: http://video.albanova.se/arc2021_06.html
     org: Stockholm University
     date: February 2021
     virtual: true
@@ -490,7 +490,7 @@ public:
     url: talks/jthaler_2020_10_TommyFlowers_Keynote.pdf
     video: https://youtu.be/rqqDFIXMsLI
     event: Keynote Presentation
-    event_url: http://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html
+    event_url: https://tommyflowersnetwork.blogspot.com/2020/07/virtual-conference-lets-get-physical.html
     org: Tommy Flowers Network Conference
     date: October 2020
     virtual: true
@@ -517,7 +517,7 @@ public:
 
   - title: "The Higgs Boson:  Triumph of the Standard Model"
     url: talks/jthaler_2012_11_04_Frontiers_Symposium.pdf
-    video: http://vimeo.com/58392070
+    video: https://vimeo.com/58392070
     event: 24th Annual Kavli Frontiers of Science
     org: National Academy of Sciences, U.C. Irvine
     date: November 2012
@@ -632,7 +632,7 @@ schools:
         url: talks/jthaler_2020_01_GGI_QCDCollider_Lecture4.pdf
         video: https://youtu.be/8g0u6cqc1i8
     event: Lectures on the Theory of Fundamental Interactions
-    event_url: http://www.ggi.infn.it/ggilectures/ggilectures2020/
+    event_url: https://www.ggi.infn.it/ggilectures/ggilectures2020/
     org: GGI, Florence
     date: January 2020
   
@@ -879,7 +879,7 @@ invited:
     url: talks/jthaler_2022_07_KIAS_Summer_School.pdf
     video: https://youtu.be/y-TLIQbDGjo
     event: QUC Summer School
-    event_url: http://events.kias.re.kr/h/QUCAI2022/
+    event_url: https://events.kias.re.kr/h/QUCAI2022/
     org: KIAS
     date: July 2022
     virtual: true
@@ -903,7 +903,7 @@ invited:
   - title: "Optimal Transport for QCD and Jets"
     url: talks/jthaler_2022_03_OT_Simons.pdf
     event: Flowing into the Future
-    event_url: http://scgp.stonybrook.edu/archives/31750
+    event_url: https://scgp.stonybrook.edu/archives/31750
     org: Simons Center, Stony Brook
     date: March 2022
     
@@ -926,7 +926,7 @@ invited:
   - title: "Collision Course:  Particle Physics meets Machine Learning"
     url: talks/jthaler_2021_11_ISTLisbon.pdf
     event: PhD Open Days
-    event_url: http://phdopendays.tecnico.ulisboa.pt
+    event_url: https://phdopendays.tecnico.ulisboa.pt
     org: IST Lisbon
     date: November 2021
     virtual: true
@@ -1209,7 +1209,7 @@ invited:
   - title: "Big Questions in Particle Physics"
     url:  talks/jthaler_2011_07_24_PANIC11_Peda.pdf
     event: PANIC11
-    event_url: http://web.mit.edu/panic11/
+    event_url: https://web.mit.edu/panic11/
     org: MIT
     date: July 2011
   
@@ -1598,7 +1598,7 @@ seminars:
     url: talks/jthaler_2021_11_QuantHEP.pdf
     video: https://www.youtube.com/live/aCW0q0jQ0fY?feature=share
     event: QuantHEP Seminar
-    event_url: http://quanthep-seminar.org/session/session-13/
+    event_url: https://quanthep-seminar.org/session/session-13/
     org: Lisbon
     date: November 2021
     virtual: true
@@ -2522,7 +2522,7 @@ additional:
     date: April 2018
   
   - event: IsoDAR Workshop
-    event_url: http://www-personal.umich.edu/%7Espitzj/Spitz_group_at_UM/IsoDAR_workshop.html
+    event_url: https://www-personal.umich.edu/%7Espitzj/Spitz_group_at_UM/IsoDAR_workshop.html
     org: MIT
     date: January 2018
   

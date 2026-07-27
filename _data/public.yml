@@ -91,7 +91,7 @@ entries:
     topic:   advocacy_particle
 
   - title:  "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)"
-    url:  http://arxiv.org/abs/2509.02661
+    url:  https://arxiv.org/abs/2509.02661
     event: Report from a National Science Foundation Workshop
     event_url:  https://indico.mit.edu/event/1486/
     date:  September 2025
@@ -132,7 +132,7 @@ entries:
     topic:  public_talks_ai
 
   - title:  "Institute for Artificial Intelligence and Fundamental Interactions (IAIFI): Infusing physics intelligence into artificial intelligence"
-    url:  http://doi.org/10.1002/aaai.12150
+    url:  https://doi.org/10.1002/aaai.12150
     collaborators:  Mike Williams and Marisa LaFleur
     org:  AI Magazine
     date:  February 2024

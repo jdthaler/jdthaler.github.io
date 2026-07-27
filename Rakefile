@@ -10,13 +10,28 @@ def proofer_options
     :ignore_status_codes => [999],
     :ignore_missing_alt  => true,
     :disable_external    => true,
-    # :enforce_https     => false,   # only applies when external checks are on
+    # Hosts exempted from the checks, including enforce_https. Matched as
+    # host-anchored regexes rather than literal strings: the previous literal
+    # list never matched anything, because the URLs on the site are spelled
+    # "http://ctp.mit.edu" while the list said "http://ctp.mit.edu/". That went
+    # unnoticed for as long as the checker itself was blind.
+    #
+    # These stay on http deliberately. Each was probed on 2026-07-27 and has no
+    # working HTTPS: either nothing is listening on 443, or the certificate does
+    # not validate for that hostname. Linking to https:// would hand visitors a
+    # browser security warning, which is worse than plain http.
     :ignore_urls         => [
-      "http://v1.jthaler.net/",
-      "http://v2.jthaler.net/",
-      "http://ctp.mit.edu/",
-      "http://wedding.jthaler.net",
-      "http://caricesarotti.com/",
+      %r{^https?://ctp\.mit\.edu},            # connection refused on 443
+      %r{^https?://www-ctp\.mit\.edu},        # certificate does not validate
+      %r{^https?://www2\.lns\.mit\.edu},      # certificate does not validate
+      %r{^https?://www\.physicsmeetsml\.org}, # connection refused on 443
+      %r{^https?://video\.albanova\.se},      # connection refused on 443
+      # Own legacy sites, on an MIT host serving a self-signed cert.
+      %r{^https?://v1\.jthaler\.net},
+      %r{^https?://v2\.jthaler\.net},
+      %r{^https?://wedding\.jthaler\.net},
+      # Host appears to be gone entirely; ignored pending a content decision.
+      %r{^https?://caricesarotti\.com},
     ],
   }
 end

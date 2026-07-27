@@ -94,7 +94,7 @@ There are as many ways to be a successful physicist as there are successful phys
   * Ask a question at a research seminar/colloquium
   * Read the [arXiv](https://arxiv.org/) on a semi-regular basis
   * Have a favorite textbook on Quantum Field Theory (which may or may not be [this](https://www.cambridge.org/highereducation/books/quantum-field-theory-and-the-standard-model/A4CD66B998F2C696DCC75B984A7D5799))
-  * Become familiar with the Review of Particle Physics from the [Particle Data Group](http://pdg.lbl.gov/)
+  * Become familiar with the Review of Particle Physics from the [Particle Data Group](https://pdg.lbl.gov/)
   * Attend a physics summer school
   * Learn to write in [LaTeX](https://www.latex-project.org/)
   * Do the majority of calculations in a paper
@@ -153,7 +153,7 @@ I typically need **at least 2 weeks but ideally 4 weeks** to prepare a new lette
 <details markdown=1>
 <summary><b>Will you sign this important form for me?</b></summary>
 
-Most likely, yes, but I loathe paper/scanned forms.  Please use [MIT's DocuSign system](http://docusign.mit.edu/) if at all possible.
+Most likely, yes, but I loathe paper/scanned forms.  Please use [MIT's DocuSign system](https://docusign.mit.edu/) if at all possible.
 
 </details>
 

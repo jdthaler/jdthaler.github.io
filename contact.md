@@ -22,7 +22,7 @@ permalink: contact/
 {{address.street}}, [{{address.office}}]({{address.office_url}})\\
 {{address.city}}, {{address.state}} {{address.zip}}
 
-Official MIT office number:  [8-323](http://whereis.mit.edu/?go=8)
+Official MIT office number:  [8-323](https://whereis.mit.edu/?go=8)
 
 {{phone.work}}
 

@@ -464,7 +464,7 @@ boost:
 
   - job:  Advisory Committee
     issue: "Boost 2015"
-    issue_url:  http://boost2015.uchicago.edu
+    issue_url:  https://boost2015.uchicago.edu
     org: Chicago
     dates: August 2015
 
@@ -482,7 +482,7 @@ boost:
 
   - job:  Advisory Committee
     issue: "Boost 2012"
-    issue_url: http://ific.uv.es/boost2012/
+    issue_url: https://ific.uv.es/boost2012/
     org: Valencia
     dates: July 2012
 
