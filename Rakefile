@@ -1,6 +1,28 @@
 require 'html-proofer'
 require 'stringio'
 
+# Jekyll's SCSS converter reads through Ruby's default external encoding, which
+# is derived from the ambient locale when the process starts. Under a non-UTF-8
+# locale -- bare cron, minimal Docker images, some CI runners -- the build dies
+# with `Invalid US-ASCII character "\xE2" on line 5`. Reproduce with:
+#
+#   env -u LANG -u LC_ALL -u LC_CTYPE bundle exec jekyll build
+#
+# `encoding: utf-8` in _config.yml does not cover this path. The site's content
+# genuinely is UTF-8 -- accented author names in papers.yml and talks.yml, curly
+# apostrophes in the prose -- so the fix is to declare UTF-8 rather than strip
+# characters out of the content. C.UTF-8 is used over en_US.UTF-8 because minimal
+# Linux images often ship only the former.
+UTF8_LOCALE = 'C.UTF-8'.freeze
+unless "#{ENV['LC_ALL']}#{ENV['LANG']}".match?(/utf-?8/i)
+  # Applies to anything this Rakefile shells out to, e.g. `jekyll build`.
+  ENV['LANG']   = UTF8_LOCALE
+  ENV['LC_ALL'] = UTF8_LOCALE
+end
+# ENV alone cannot fix the already-running process, so set the encoding directly
+# for files read in-process (HTMLProofer walking _site).
+Encoding.default_external = Encoding::UTF_8
+
 # Shared by the real site check and the canary, so the canary exercises the same
 # configuration that `rake test` runs under. Built fresh on each call because
 # HTMLProofer mutates the hash it is given.
