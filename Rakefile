@@ -97,8 +97,40 @@ task :canary do
   puts "Canary passed: link checker detects broken links and missing images."
 end
 
+# Talk paths as written in _data, paired with the file each one should resolve
+# to. Accepts both the bare and leading-slash spellings, matching
+# _includes/snippets/get-talk-url.html.
+def talk_path_references
+  Dir['_data/*.yml'].sort.flat_map do |data_file|
+    File.readlines(data_file).each_with_index.filter_map do |line, i|
+      next unless (m = line.match(%r{^\s+(?:issue_)?url:\s*(/?talks/\S+)\s*$}))
+
+      { file: data_file, line: i + 1, path: m[1].sub(%r{\A/}, '') }
+    end
+  end
+end
+
+desc "Check that every talk PDF referenced in _data actually exists"
+task :talks do
+  # These references resolve through site.talks_base_url to GitHub's raw
+  # endpoint, which makes them *external* URLs -- so HTMLProofer's internal
+  # check cannot see them, by construction, and a missing PDF stays invisible
+  # until someone clicks it. (One had been dead on the live site for years; it
+  # took an external scan of 1026 links to notice.) Comparing the paths against
+  # the filesystem costs nothing and catches the whole class locally.
+  refs = talk_path_references
+  missing = refs.reject { |r| File.file?(r[:path]) }
+
+  unless missing.empty?
+    missing.each { |r| warn "  MISSING: #{r[:path]}  <- #{r[:file]}:#{r[:line]}" }
+    abort "\n#{missing.size} of #{refs.size} referenced talk files do not exist. " \
+          "Either add the file or drop the url: from the entry."
+  end
+  puts "Talk files: all #{refs.size} referenced PDFs exist."
+end
+
 desc "Build the site and check it for broken links and images"
-task :test => :canary do
+task :test => [:canary, :talks] do
   sh "bundle exec jekyll build"
   HTMLProofer.check_directory('_site/', proofer_options).run
 end
