@@ -10,6 +10,7 @@ topics:
   - key: public_talks
     title:  Public Talks
     image: /images/stamp_dm.jpg
+    preview: /images/preview/stamp_dm.jpg
     image_credit:  "NASA, ESA, E. Jullo, P. Natarajan, J-P. Kneib"
     image_url:  https://esahubble.org/images/heic1014a/
     image_hover: "Dark Matter in Abell 1689"
@@ -27,6 +28,7 @@ topics:
   - key: advocacy
     title:  Advocacy
     image: /images/stamp_nytimes_aiml.jpg
+    preview: /images/preview/stamp_nytimes_aiml.jpg
     image_credit: "Alex Eben Meyer, NYTimes"
     image_url: https://www.nytimes.com/2020/11/23/science/artificial-intelligence-ai-physics-theory.html
     image_hover: "AI/ML in the NYTimes"
@@ -47,6 +49,7 @@ topics:
   - key: bsm
     title:  Essays
     image: /images/stamp_mod.png
+    preview: /images/preview/stamp_mod.png
     image_credit: "Jesse Thaler, with Felice Frankel"
     image_url: /pdfs/jthaler_frankel_picturing_science.pdf
     image_hover: "MIT Open Data Event Display"
@@ -64,6 +67,7 @@ topics:
   - key: planning
     title:  Strategic Planning
     image:  /images/p5.jpg
+    preview:  /images/preview/p5.jpg
     image_credit:  "Olena Shmahalo for U.S. Particle Physics"
     image_url:  https://www.usparticlephysics.org/2023-p5-report/
     image_hover:  "2023 Particle Physics Project Prioritization Panel (P5)"

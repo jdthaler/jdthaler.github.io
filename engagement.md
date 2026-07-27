@@ -40,7 +40,7 @@ permalink: engagement/
 <div class="item">
 <div class="item__image">
 <a href="{{topic.image_url}}" target="_blank">
-<img class="image-sq--lg" src="{{topic.image}}" alt="{{topic.image_hover}}" title="{{topic.image_hover}}"/>
+<img class="image-sq--lg" src="{{topic.preview | default: topic.image}}" alt="{{topic.image_hover}}" title="{{topic.image_hover}}"/>
 </a>
 </div>
 <div class="item__content" markdown=1>

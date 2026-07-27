@@ -76,6 +76,13 @@ PUBLISHED_MASTERS = [
     "images/jthaler_photo_2017.jpg",      # press download + /about hero
     "images/stamp_personal.jpg",          # /personal hero, linked to full size
     "design/jthaler_IAIFI_Banner.jpg",    # already links to itself
+    # Credited photographs. The Image Credits list on /press links each one, and
+    # that link should reach the photographer's original rather than a copy the
+    # site shrank for its own layout.
+    "images/stamp_dm.jpg",
+    "images/stamp_nytimes_aiml.jpg",
+    "images/stamp_mod.png",
+    "images/p5.jpg",
 ]
 
 # (master glob, function from master path to the derivative it produces)
