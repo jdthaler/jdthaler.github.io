@@ -28,14 +28,7 @@ permalink: personal/
 <div class="grid-container">
   <div class="grid grid--py-3">
 {%- for item in site.data.design.logos %}
-{%- assign _img = '/design/' | append: item.file | replace: '.pdf', '.png' %}
-    <div class="cell cell--{{item.cell | default: 3}}">
-          <a href="/design/{{item.file}}">
-            <img class="image-h image-h--{{item.height | default: 'xs'}}" style="object-fit: contain" src="{% include snippets/get-preview-url.html url=_img %}{{__return}}" alt="" title="{{item.title}}"/>
-          <br>
-              <b>{{item.caption}}</b>
-          </a>
-    </div>
+{% include design_cell.html item=item %}
 {%- endfor %}
   </div>
 </div>
@@ -47,14 +40,7 @@ permalink: personal/
 <div class="grid-container">
   <div class="grid grid--py-3">
 {%- for item in site.data.design.images %}
-{%- assign _img = '/design/' | append: item.file | replace: '.pdf', '.png' %}
-    <div class="cell cell--{{item.cell | default: 3}}">
-          <a href="/design/{{item.file}}">
-            <img class="image-h image-h--{{item.height | default: 'xs'}}" style="object-fit: contain" src="{% include snippets/get-preview-url.html url=_img %}{{__return}}" alt="" title="{{item.title}}"/>
-          <br>
-              <b>{{item.caption}}</b>
-          </a>
-    </div>
+{% include design_cell.html item=item %}
 {%- endfor %}
 
 
