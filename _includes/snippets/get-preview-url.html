@@ -16,5 +16,6 @@ already a preview and it comes back unchanged, so this is safe to apply twice.
   {%- assign __return = _url
         | replace: '/images/', '/images/preview/'
         | replace: '/design/', '/design/preview/'
-        | replace: '/holiday/', '/holiday/preview/' -%}
+        | replace: '/holiday/', '/holiday/preview/'
+        | replace: '/news/', '/news/preview/' -%}
 {%- endif -%}

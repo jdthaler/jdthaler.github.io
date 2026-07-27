@@ -1,5 +1,5 @@
-# Generates images/preview/, design/preview/ and holiday/preview/ from the
-# originals that sit alongside them.
+# Generates a preview/ subdirectory beside each folder of original images:
+# images/, design/, holiday/ and news/.
 #
 # One rule, no exceptions:
 #
@@ -62,7 +62,7 @@ DISPLAY_WIDTH = {
 CONTENT_WIDTH = 950
 
 # Directories holding originals. Their preview/ subdirectory is generated.
-SOURCE_DIRS = ["images", "design", "holiday"]
+SOURCE_DIRS = ["images", "design", "holiday", "news"]
 
 JPEG_QUALITY = 82
 

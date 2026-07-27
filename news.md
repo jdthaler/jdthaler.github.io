@@ -34,7 +34,7 @@ _Press coverage in the past 24 months:_
 <div class="item"> 
   <div class="item__image" class="m-2">
     <a href="{{news.url}}">
-      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}{%- assign _img = paper.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
+      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
     </a>
   </div>
   <div class="item__content" markdown="1">
@@ -60,7 +60,7 @@ _Papers posted to the arXiv from the past 12 months:_
 <div class="item"> 
   <div class="item__image" class="m-2">
     <a href="https://arxiv.org/abs/{{paper.arxiv}}">
-      <img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{paper.title}}" title="{{paper.title}}"/>
+      {%- assign _img = paper.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{paper.title}}" title="{{paper.title}}"/>
     </a>
   </div>
   <div class="item__content" markdown="1">
@@ -101,7 +101,7 @@ _Talks and panels from the past 12 months:_
 <div class="item">
   <div class="item__image" class="m-2">
     <a href="{{news.url}}">
-      <img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
+      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
     </a>
   </div>
   <div class="item__content" markdown="1">
@@ -120,7 +120,7 @@ _Talks and panels from the past 12 months:_
 <div class="item">
   <div class="item__image" class="m-2">
     <a href="{{news.url}}">
-      <img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
+      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
     </a>
   </div>
   <div class="item__content" markdown="1">
@@ -139,7 +139,7 @@ _Talks and panels from the past 12 months:_
 <div class="item">
   <div class="item__image" class="m-2">
     <a href="{{news.url}}">
-      <img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
+      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
     </a>
   </div>
   <div class="item__content" markdown="1">
@@ -158,7 +158,7 @@ _Talks and panels from the past 12 months:_
 <div class="item">
   <div class="item__image" class="m-2">
     <a href="{{news.url}}">
-      <img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
+      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
     </a>
   </div>
   <div class="item__content" markdown="1">
