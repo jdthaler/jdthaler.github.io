@@ -1,3 +1,51 @@
 <!-- start custom head snippets -->
 
+{%- comment -%}
+Open Graph and Twitter Card tags, so a link to this site pasted into Slack,
+Bluesky, LinkedIn or a group chat shows a title, a description and a picture
+rather than a bare URL.
+
+Every consumer of these tags requires absolute URLs, which is why _config.yml
+sets `url` explicitly instead of leaving GitHub Pages to fill it in. With it
+blank a local build emits relative paths, and the tags look correct in source
+while doing nothing.
+
+Per page, optional front matter:
+  description:  card text, otherwise the page excerpt, otherwise site.description
+  image:        card picture as a site-relative path, otherwise the default below
+{%- endcomment -%}
+
+{%- include snippets/get-article-title.html article=page -%}
+{%- assign _og_title = __return | default: site.title -%}
+
+{%- if page.description -%}
+  {%- assign _og_description = page.description -%}
+{%- elsif page.excerpt -%}
+  {%- assign _og_description = page.excerpt | strip_html | strip_newlines | strip | truncate: 200 -%}
+{%- else -%}
+  {%- assign _og_description = site.description | strip_newlines | strip -%}
+{%- endif -%}
+
+{%- assign _og_image_path = page.image | default: '/images/jthaler_mit_spotlight.jpg' -%}
+{%- assign _og_image = _og_image_path | prepend: site.url -%}
+
+{%- comment -%}
+page-url.html prints the absolute URL rather than assigning it, so __return
+holds only the path. Prepend site.url here instead.
+{%- endcomment -%}
+{%- include snippets/prepend-baseurl.html path=page.url -%}
+{%- assign _og_url = __return | prepend: site.url -%}
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ _og_title }}">
+<meta property="og:description" content="{{ _og_description }}">
+<meta property="og:url" content="{{ _og_url }}">
+<meta property="og:image" content="{{ _og_image }}">
+<meta name="twitter:card" content="summary_large_image">
+{%- if site.author.twitter %}
+<meta name="twitter:site" content="@{{ site.author.twitter }}">
+<meta name="twitter:creator" content="@{{ site.author.twitter }}">
+{%- endif %}
+
 <!-- end custom head snippets -->

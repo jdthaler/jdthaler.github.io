@@ -19,7 +19,11 @@
 encoding: utf-8
 text_skin: thaler # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+# Set explicitly rather than left for GitHub Pages to fill in at build time.
+# The Open Graph and Twitter Card tags in _includes/head/custom.html need
+# absolute URLs, and with this blank a local build emits relative ones, so the
+# tags would look fine in source and be silently useless everywhere they matter.
+url     : https://jthaler.net
 baseurl : # does not include hostname
 title   : Jesse Thaler
 description: > # this means to ignore newlines until "Language & timezone"
@@ -56,8 +60,14 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
-repository_tree: master
+# Used only by the "Improve this page" link in _includes/article-header.html,
+# which _config.yml enables for posts. There are no posts yet, so nothing
+# renders this today -- but the theme's placeholder was still here, and the
+# first post written would have shipped a link to github.com/user_name/repo_name.
+# repository_tree is the branch an editor should land on, which is main; the
+# site is served from live, but live is a merge target, not a place to edit.
+repository: jdthaler/jdthaler.github.io
+repository_tree: main
 
 
 ## => Paths
@@ -194,18 +204,21 @@ markdown    : kramdown
 highlighter : rouge
 permalink   : date
 
+# Setting this key REPLACES Jekyll's built-in exclude list rather than adding to
+# it -- verified by building with /vendor removed, which copied vendor/bundle
+# straight into _site. So Gemfile, Gemfile.lock, node_modules and vendor have to
+# stay listed here even though Jekyll excludes them by default: they are only
+# excluded because this list repeats them. That matters most in CI, where
+# ruby/setup-ruby's bundler-cache installs every gem into vendor/bundle.
 exclude:
-  - CHANGELOG.md
-  - CLAUDE_REVIEW.md
-  - HOW_TO_RELEASE.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README-*.md
   - README.md
+  - TODO
   - /docs
   - /node_modules
-  - /screenshots
   - /test
   - /vendor
 
