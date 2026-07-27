@@ -53,7 +53,20 @@ DISPLAY_HEIGHT = {
     "image-96--xl": 320, "image-96--sm": 128, "image-96--xs": 64,
     "image-h": 192,   # the bare class, checked last
 }
-FALLBACK_HEIGHT = 192
+
+# The theme's own classes, in _sass/common/components/_image.scss, set width
+# instead. Longer keys are checked first so image-h--xs is not mistaken for
+# image--xs. Missing these was what inflated the press thumbnails: an
+# unrecognised class looks class-less, and a class-less image is assumed to fill
+# the column.
+DISPLAY_WIDTH = {
+    "image--xl": 320, "image--lg": 256, "image--md": 192,
+    "image--sm": 128, "image--xs": 64,
+}
+# Width of the article content column, from $layout in
+# _sass/common/_variables.scss. An image with no size class can be laid out
+# this wide, so that is the requirement it implies.
+CONTENT_WIDTH = 950
 
 # Masters whose full-resolution version stays published, with the displayed copy
 # generated into a preview/ subdirectory. Listed explicitly because "should this
@@ -77,12 +90,18 @@ for _m in PUBLISHED_MASTERS:
 JPEG_QUALITY = 82
 
 
-def displayed_heights():
-    """Map served image path -> tallest height any page displays it at.
+def displayed_requirements():
+    """Map served image path -> list of size requirements from the built HTML.
 
-    Read from the built HTML so the numbers cannot drift from the markup.
+    Each requirement is ("h", px) from a size class, or ("w", px) for an image
+    with no size class, which is laid out by its container and so can be as wide
+    as the content column. The same file can appear both ways: the blackboard
+    photo is 128px tall on /press but fills the column on the front page, and
+    sizing it for /press alone shrank the hero to 671px inside a 950px column.
+    They are resolved to widths later, once the image's aspect ratio is known,
+    and the largest wins.
     """
-    heights = {}
+    reqs = {}
     for root, _dirs, files in os.walk("_site"):
         for name in files:
             if not name.endswith(".html"):
@@ -95,30 +114,36 @@ def displayed_heights():
                     continue
                 classes = re.search(r'class="([^"]*)"', tag)
                 classes = classes.group(1) if classes else ""
-                height = next((v for k, v in DISPLAY_HEIGHT.items() if k in classes),
-                              FALLBACK_HEIGHT)
-                path = src.group(1)
-                heights[path] = max(heights.get(path, 0), height)
-    return heights
+                height = next((v for k, v in DISPLAY_HEIGHT.items() if k in classes), None)
+                width = next((v for k, v in DISPLAY_WIDTH.items() if k in classes), None)
+                if height is not None:
+                    req = ("h", height)
+                elif width is not None:
+                    req = ("w", width)
+                else:
+                    req = ("w", CONTENT_WIDTH)
+                reqs.setdefault(src.group(1), []).append(req)
+    return reqs
 
 
-def target_height(derivative, master, heights):
-    """How tall the derivative should be.
+def target_height(derivative, master, reqs, aspect):
+    """How tall the derivative should be, or None if nothing references it.
 
-    Prefers the derivative's own display size. Falls back to the master's,
-    which is what pages reference until the markup is switched over.
+    Checks the derivative's own requirements first, then the master's, which is
+    what pages reference until the markup is switched over.
     """
     for key in (derivative, master):
-        if key in heights:
-            return RETINA * heights[key]
-    return RETINA * FALLBACK_HEIGHT
+        if key in reqs:
+            widths = [px if kind == "w" else px * aspect for kind, px in reqs[key]]
+            return RETINA * max(widths) / aspect
+    return None
 
 
 def main():
     if not os.path.isdir("_site"):
         sys.exit("No _site/ -- run `bundle exec jekyll build` first, so display sizes can be read.")
 
-    heights = displayed_heights()
+    reqs = displayed_requirements()
     before = after = 0
     resized = skipped = 0
 
@@ -131,10 +156,10 @@ def main():
                 continue
             os.makedirs(os.path.dirname(derivative), exist_ok=True)
 
-            target = target_height(derivative, master, heights)
             master_size = os.path.getsize(master)
             with Image.open(master) as im:
-                if im.height <= target:
+                target = target_height(derivative, master, reqs, im.width / im.height)
+                if target is None or im.height <= target:
                     # Already no taller than wanted. Still worth re-encoding:
                     # images can be the right size and yet enormous because they
                     # were saved at near-lossless quality -- stamp_qcd.jpg was
@@ -143,6 +168,7 @@ def main():
                     width, target = im.width, im.height
                     out = im.copy()
                 else:
+                    target = int(round(target))
                     width = round(im.width * target / im.height)
                     out = im.resize((width, target), Image.LANCZOS)
 
