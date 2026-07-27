@@ -29,6 +29,7 @@ All work branches are merged into `main`: `fix-rake-test`, `fix-talk-urls`, `ext
 | #8 oversized images | **fixed** — every folder now has a generated `preview/`; /news 35.3 MB → 1.9 MB, /personal 17.9 → 0.3 | `06e2954`, `f29570c` |
 | press photos | **added** — full-resolution uncropped originals offered on /press alongside the existing crops, whose URLs are unchanged | `a4691d7` |
 | image credits | **extended** — each credit links to the photographer's original; JT credited for three of his own | `3e16bff`, `81fc624`, `d17219f` |
+| maintainability pass | **done** — duplicated markup extracted, two pages moved to `_data/`, dead theme files removed; net −293/+173 lines | `c1bb3f6`…`9eb6f00` |
 
 `rake test` now runs three checks in order — canary, talk paths, then links — and passes cleanly. It also passes with no locale set and with `LC_ALL=C`.
 
@@ -110,6 +111,71 @@ Two things worth carrying forward from those fixes:
 [_data/talks.yml:1347](_data/talks.yml:1347) — "Basics of Axion Detection", Reece Group Meeting, Harvard, March 2019 — pointed at `talks/jthaler_2019_03_18_Axion_Detection.pdf`, which was absent from disk, from git, and from `origin/main`. That link had been dead on the live site. JT supplied the PDF; it is committed under the name the data file already referenced.
 
 **The structural gap it exposed is now closed too.** Because talk links resolve through `site.talks_base_url` to `github.com/…/raw/main/`, they are *external* URLs, so HTMLProofer's internal check cannot see them by construction — it took a multi-minute scan of 1,026 links to notice a missing local file. `rake talks` now compares every `talks/` path in `_data/` against the filesystem: no network, instant, and `rake test` depends on it. Verified in both directions — it passes with all 410 present and fails naming the file and line when one is removed.
+
+---
+
+## Maintainability pass
+
+A separate exercise from the numbered items: a survey for duplicated markup and
+for page content that would be easier to maintain as data. Net **−293 / +173**
+lines across five commits, with **every page verified byte-identical** to the
+pre-refactor build at each step — the point of a refactor being that nothing
+visible changes, that is the only verification worth trusting.
+
+| what | before | after | commit |
+|---|---|---|---|
+| `public.entries` markup, duplicated verbatim in `cv.md` and `engagement.md` | 6 identical lines in each | `_includes/cv/public_entry.html` | `c1bb3f6` |
+| `holiday.md` | 228 lines, 12 near-identical sections | 34 lines over `_data/holiday.yml` | `743cfbb` |
+| `personal.md` design portfolio | 11 hand-written cells | `_data/design.yml` + loop, 145 → 88 lines | `c84b809` |
+| the two design grids | identical 8-line bodies | `_includes/design_cell.html` | `1639f5b` |
+| `Dockerfile.dev`, `package.json`, `jekyll-text-theme.gemspec`, dead `join.md` markup | present, and `Dockerfile.dev` was being *served* | removed | `9eb6f00` |
+
+Adding a holiday card or a portfolio item is now three lines of YAML instead of
+copying eighteen lines of nested `<div>`s with several paths to keep in step.
+Both were checked by adding an entry, confirming it rendered, and reverting. The
+old approach had already failed that way once: the 2024 holiday section was still
+labelled 2023 when this work started.
+
+**One proposal was dropped after measuring it.** The survey suggested a single
+shared "linked image with caption" include, on the grounds that the pattern
+appeared 14 times. Most of those turned out to be *rendered* repetition produced
+by loops; in source there were only a handful, and `personal.md`'s eleven were
+the real duplication. What remains — the three grids on the front page — differs
+in image class, in caption markup, and in whether the cell is centred. A
+universal include would need five parameters including one carrying HTML, which
+reads worse than the three short loops it would replace. Left alone deliberately.
+
+### Liquid whitespace, and why rendered output is the only check
+
+Four distinct traps appeared during this pass. Each is invisible in source, each
+changes the HTML, and **none is detectable by `rake test`**:
+
+- A trailing newline in an include becomes a blank line between list items, so
+  kramdown emits a *loose* list with every entry wrapped in `<p>`.
+- `-%}` on the tag before markup strips the leading spaces of the next line —
+  which may be a list indent or a grid cell's indent.
+- A bullet placed after `{% endfor -%}` lands mid-line, so the *next* bullet is
+  read as a nested sublist. This is why the last two entries in the `/press`
+  image credits are flush left while everything above them is indented.
+- `item.size` is a Liquid built-in returning a hash's key count, so a data field
+  named `size` rendered as `image-h--3`. It is `height` now.
+
+Each is documented at the point it bites, in `public_entry.html`,
+`design_cell.html`, `_data/design.yml` and `press.md`, because in every case the
+obvious tidy-up reintroduces the bug.
+
+**The method:** build to two destinations and diff.
+
+```bash
+bundle exec jekyll build -q --destination /tmp/before
+# make the change
+bundle exec jekyll build -q --destination /tmp/after
+diff -r /tmp/before /tmp/after
+```
+
+Note that `jekyll serve` left running rewrites `_site` with `localhost:4000`
+URLs and will corrupt a `rake test` run — one such run reported 18 failures that
+said nothing about the site. `rake test` now detects and explains that.
 
 ---
 
@@ -367,6 +433,7 @@ Deliberately sequenced so each step makes the next one safer:
 5. ~~**Decide on `/hidden`** (#1).~~ **Page done** — `aae6087`. The repo-side exposure (1b) is deliberately left open.
 6. **Delete the local `_site/`** (#5, first half). Zero risk, 4.1 GB back. **Next.**
 7. ~~Then the low-risk polish — alt text (#7 and C4) and image resizing (#8)~~ **done**. Remaining: meta tags (#9).
+8. A maintainability pass has also been done — see that section. It is not one of the numbered items; it came from a later survey for duplicated markup and page content better held as data.
 8. Leave the Jekyll 4 migration, the history rewrite, and the talks-hosting decision until the workflow feels routine. None of them is urgent.
 
 ## A note on working with Claude Code here
