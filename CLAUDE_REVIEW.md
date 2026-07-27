@@ -26,10 +26,13 @@ All work branches are merged into `main`: `fix-rake-test`, `fix-talk-urls`, `ext
 | #7 / C4 alt text | **fixed** — all 163 rendered images, and `ignore_missing_alt` now off so it is enforced | `a1f8f0b`, `d914e1b` |
 | #5 local `_site` | **done** (first half) — 4 GB of stale build output deleted; the ~1.9 GB in git history is untouched | — |
 | #3 nothing runs on push | **fixed** — `rake test` on pushes to main and on PRs into live; live requires the check | `1a3ce8a`, `7671a7f` |
+| #8 oversized images | **fixed** — every folder now has a generated `preview/`; /news 35.3 MB → 1.9 MB, /personal 17.9 → 0.3 | `06e2954`, `f29570c` |
+| press photos | **added** — full-resolution uncropped originals offered on /press alongside the existing crops, whose URLs are unchanged | `a4691d7` |
+| image credits | **extended** — each credit links to the photographer's original; JT credited for three of his own | `3e16bff`, `81fc624`, `d17219f` |
 
 `rake test` now runs three checks in order — canary, talk paths, then links — and passes cleanly. It also passes with no locale set and with `LC_ALL=C`.
 
-Items **8, 9, 10, 11 remain open**, plus item **1b** (left open by decision), the history half of **#5**, and content items **C1, C2**.
+Items **9, 10, 11 remain open**, plus item **1b** (left open by decision), the history half of **#5**, and content items **C1, C2**.
 
 ---
 
@@ -265,19 +268,65 @@ Those three descriptions live in `_data/bio.yml` as an `alt:` field beside `imag
 
 Two content bugs surfaced while reading the markup: `holiday.md`'s `## 2024` section had both images titled 2023 (every other section agrees with its heading, so the titles were stale), and `personal.md` had `title="[IAIFI Banner"` with a stray bracket.
 
-### 8. Oversized images
+### 8. ~~Oversized images~~ — **fixed**
 
-The group page ships **2.3 MB of JPEGs to render five 128-pixel thumbnails**:
+Pages were shipping images enormously larger than the slot they display in.
+`design/jthaler_BOOST2019_Poster.png` was 8.7 MB at 3300x5100 to fill a
+128-pixel-tall thumbnail; `/personal` carried 17.9 MB in total.
 
-| file | size | dimensions | displayed at |
-|---|---|---|---|
-| `delafuentesimarro.jpg` | 1083 KB | 2632 × 2632 | 128 px |
-| `pajarillo.png` | 946 KB | 638 × 661 | 128 px |
-| `zhang.jpg` | 170 KB | 1374 × 1394 | 128 px |
+| page | was | now |
+|---|---|---|
+| `/news` | 35.3 MB | **1.9 MB** |
+| `/personal` | 17.9 MB | **349 KB** |
+| `/holiday` | 11.3 MB | **1.1 MB** |
+| `/group` | 2.3 MB | **145 KB** |
+| `/index` | 1.1 MB | **478 KB** |
 
-(`.image-sq--sm` is `width-sm: 8rem` = 128 px in `_sass/common/_variables.scss:143`.)
+**How it works.** Each folder of images has a generated `preview/` beside it,
+produced by `_images/make_derivatives.py`:
 
-Elsewhere, `images/stamp_personal.jpg` is 7.6 MB and `images/alipour-fard.jpg` is 4.2 MB. A single resize pass over `images/` would cut most page weights by an order of magnitude with no visible difference.
+```
+images/foo.jpg           the original -- the only copy of it anywhere
+images/preview/foo.jpg   generated, sized for how the site displays it
+```
+
+The original is the single source of truth; replace it, re-run the script, and
+the preview follows. Preview paths are derived rather than stored, via
+`_includes/snippets/get-preview-url.html`, so an image's path is written down
+once. Sizes are read from the built site — each `<img>` class mapped through the
+`$image` scale in `_sass`, CSS backgrounds treated as spanning the content
+column — so they follow the markup instead of being numbers someone typed. The
+script is idempotent: originals are only read, and re-running gives byte-identical
+output.
+
+Which of the two a page uses is an editorial choice, not something the script
+decides. The front page and about page deliberately show the **original**, since
+those are the pages people copy an image from. Links and downloads always point
+at the original.
+
+**Things this got wrong before it got right**, all found by looking at pages
+rather than by any check:
+
+- Sizing only by height. The theme's `.image--*` classes set *width*, so images
+  using them looked class-less and inflated to full-column size.
+- Ignoring images with no size class. The front-page hero is laid out by its
+  container; guessing a height shrank it to 671 px inside a 950 px column.
+- Ignoring CSS. The `/engagement` and `/research` heroes are `background-image`,
+  invisible to an `<img>` scan, so one was shrunk to 128x85 and stretched.
+- Dropping EXIF orientation. `stamp_personal.jpg` is tagged 180°; browsers honour
+  that but the tag does not survive a re-save, so its preview came out upside down.
+- Missing `news/` entirely. Every measurement counted only `images/`, `design/`
+  and `holiday/`, so a 35 MB page went unnoticed for most of this work.
+
+**The lasting lesson:** `rake test` verifies that images *exist*, never that they
+are the right size or the right way up. Every one of those regressions was caught
+by a human looking at a page. If this recurs, the invariant worth automating is
+"no served image is narrower than the largest size any page asks of it".
+
+**Cost.** Tracked previews add about 5 MB, and the two uncropped press originals
+add 24 MB. Note those two must **not** go into Git LFS: GitHub Pages serves LFS
+pointers rather than files, which is the same trap that makes `talks/*.pdf`
+unreachable from this domain (item #4).
 
 ### 9. No link previews when the site is shared
 
@@ -317,7 +366,7 @@ Deliberately sequenced so each step makes the next one safer:
 4. ~~**Add build + link-check CI** (#3).~~ **Done** — `1a3ce8a`, `7671a7f`. Gates PRs into `live`, and `live` requires the check.
 5. ~~**Decide on `/hidden`** (#1).~~ **Page done** — `aae6087`. The repo-side exposure (1b) is deliberately left open.
 6. **Delete the local `_site/`** (#5, first half). Zero risk, 4.1 GB back. **Next.**
-7. ~~Then the low-risk polish — alt text (#7 and C4)~~ **done**. Remaining: image resizing (#8) and meta tags (#9).
+7. ~~Then the low-risk polish — alt text (#7 and C4) and image resizing (#8)~~ **done**. Remaining: meta tags (#9).
 8. Leave the Jekyll 4 migration, the history rewrite, and the talks-hosting decision until the workflow feels routine. None of them is urgent.
 
 ## A note on working with Claude Code here
