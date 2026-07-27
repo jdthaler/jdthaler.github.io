@@ -16,6 +16,8 @@ permalink: press/
           <br>
               <b>Blackboard Shot</b>
           </a>
+          <br>
+          <a href="/images/jthaler_mit_spotlight_large_uncropped.jpg">Full resolution</a> (6720&times;4480, uncropped)
     </div>
     
     <div class="cell cell--6">
@@ -24,6 +26,8 @@ permalink: press/
           <br>
               <b>Head Shot</b>
           </a>
+          <br>
+          <a href="/images/jthaler_photo_2017_large_uncropped.jpg">Full resolution</a> (6720&times;4480, uncropped)
     </div>
   </div>
 </div>
