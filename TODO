@@ -7,6 +7,12 @@ Group:
 -- Add group photo
 -- Add research interests for group members
 
+Join:
+-- Take a proper group photo and put on the join page
+   (join.md used to have a commented-out placeholder using
+   images/ctp_hallway_small.jpg; that markup is gone, but the image and
+   mentoring.join_top are still there if you want them)
+
 FAQ:
 -- Add images of some kind to break up text
 

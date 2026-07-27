@@ -8,11 +8,6 @@ permalink: join/
 
 {% assign topimage = site.data.mentoring.join_top %}
 
-<!--
-<center>
-<img class="image-h image-h--xl rounded" src="{{topimage.image}}" title="{{topimage.hover}}"/>
-</center>
--->
 {{topimage.description}}
 
 [Current Research Group](/group/){:.button.button--secondary.button--pill.button--sm}
