@@ -1,18 +1,25 @@
+# `hover` is the mouse-over tooltip; `alt` is what screen readers announce and
+# what shows if the image fails to load. They are different jobs, so they are
+# separate fields: `hover` can be a shorthand like a room number, `alt` has to
+# describe the picture.
 index_top:
   image: /images/jthaler_mit_spotlight.jpg
   image_credit: Jared Charney, MIT News
   image_url: https://spotlight.mit.edu/2017/chalkboard-theorist
   hover: Jesse Thaler
-  
+  alt: Jesse Thaler writing equations in chalk on a blackboard
+
 about_top:
   image: /images/jthaler_photo_2017.jpg
   image_credit: Jared Charney
   image_url: https://www.jaredcharney.com/
   hover: Jesse Thaler
-  
+  alt: Portrait of Jesse Thaler, smiling, in glasses and a grey jacket
+
 contact_top:
   image: /images/6-300.jpg
   hover: "6-300 (a.k.a. 8-323)"
+  alt: Open office door with nameplates reading 6-300, Prof. Jesse Thaler, IAIFI and CTP
 
 positions:
 

@@ -4,7 +4,7 @@ layout: article
 
 {% assign topimage = site.data.bio.index_top %}
 <center>
-<img class="" src="{{topimage.image}}" alt="Jesse Thaler writing equations in chalk on a blackboard" title="{{topimage.hover}}"/>
+<img class="" src="{{topimage.image}}" alt="{{topimage.alt}}" title="{{topimage.hover}}"/>
 </center>
 **[Jesse Thaler](about)** is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.
 

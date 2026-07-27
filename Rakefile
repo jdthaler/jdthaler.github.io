@@ -30,7 +30,12 @@ def proofer_options
   {
     :assume_extension    => '.html',
     :ignore_status_codes => [999],
-    :ignore_missing_alt  => true,
+    # Every rendered image now carries alt, so this check is enforced rather
+    # than merely aspirational: a new image without one fails the build.
+    # Decorative images and images inside a link that already has a text
+    # caption should use alt="" -- that is a real answer, not a missing one,
+    # and HTMLProofer accepts it.
+    :ignore_missing_alt  => false,
     :disable_external    => true,
     # Hosts exempted from the checks, including enforce_https. Matched as
     # host-anchored regexes rather than literal strings: the previous literal
