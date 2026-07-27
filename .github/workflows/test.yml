@@ -1,0 +1,48 @@
+name: Test
+
+# Runs `rake test`: the link-checker canary, the talk-PDF existence check, then
+# HTMLProofer over the built site. Deliberately does NOT run `rake external`,
+# which reaches ~250 third-party hosts and fails on their rate limits and bot
+# protection rather than on anything in this repo. Run that one by hand.
+on:
+  # The gate that matters. GitHub Pages serves the `live` branch, so this is the
+  # last point where a broken build can be stopped before it is public.
+  pull_request:
+    branches: [live]
+  # Earlier feedback, while a change is still only on main.
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Only read the repo; nothing here needs write access.
+permissions:
+  contents: read
+
+# A newer push supersedes an in-flight run on the same ref.
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # DO NOT set lfs: true. talks/*.pdf is Git LFS and comes to roughly
+          # 3.7 GB; fetching it would download the lot on every run and bill the
+          # repository's LFS bandwidth quota, which is metered. Nothing here
+          # needs the file contents: `rake talks` only asks whether each
+          # referenced path exists, and an unsmudged LFS pointer is a real file,
+          # so the check works identically without them.
+          lfs: false
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          # Matches the Ruby used locally. github-pages pins Jekyll 3.10, which
+          # is not happy on much newer Rubies.
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: rake test
+        run: bundle exec rake test

@@ -26,7 +26,9 @@ permalink: group/
   {% if person.current -%}
     <div class="cell cell--3">
           {% if person.url %} <a href="{{person.url}}" target="_blank">{% endif%} 
-          <img class="image image-sq--sm rounded" src="{{person.image | default: "/images/blank_profile.png"}}" title="{{person.name}}"/><br>
+          {%- assign _img = person.image | default: "/images/blank_profile.png" -%}
+          {%- include snippets/get-preview-url.html url=_img -%}
+          <img class="image image-sq--sm rounded" src="{{__return}}" alt="" title="{{person.name}}"/><br>
               <b>{{person.name}}</b>
           {% if person.url %} </a>{% endif%} 
     </div>

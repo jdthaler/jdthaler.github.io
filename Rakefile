@@ -30,7 +30,12 @@ def proofer_options
   {
     :assume_extension    => '.html',
     :ignore_status_codes => [999],
-    :ignore_missing_alt  => true,
+    # Every rendered image now carries alt, so this check is enforced rather
+    # than merely aspirational: a new image without one fails the build.
+    # Decorative images and images inside a link that already has a text
+    # caption should use alt="" -- that is a real answer, not a missing one,
+    # and HTMLProofer accepts it.
+    :ignore_missing_alt  => false,
     :disable_external    => true,
     # Hosts exempted from the checks, including enforce_https. Matched as
     # host-anchored regexes rather than literal strings: the previous literal
@@ -132,6 +137,25 @@ end
 desc "Build the site and check it for broken links and images"
 task :test => [:canary, :talks] do
   sh "bundle exec jekyll build"
+
+  # `jekyll serve` rebuilds _site on every change and sets site.url to
+  # http://localhost:4000, so a server left running races with the build above
+  # and rewrites what is about to be checked. Every page then has a localhost
+  # canonical, which trips enforce_https and reports a page-count's worth of
+  # failures that say nothing about the site. Catch it and say so, rather than
+  # leaving someone to work out why 18 pages suddenly failed.
+  index = File.join('_site', 'index.html')
+  if File.exist?(index) && File.read(index).include?('localhost:4000')
+    abort <<~MSG
+      Built pages contain localhost URLs, so `jekyll serve` is running and is
+      overwriting _site as this task builds it. The results would be about the
+      dev server, not the site.
+
+      Stop the server and re-run:
+        pkill -f "jekyll serve"
+    MSG
+  end
+
   HTMLProofer.check_directory('_site/', proofer_options).run
 end
 

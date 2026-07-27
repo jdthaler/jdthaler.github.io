@@ -11,7 +11,7 @@ permalink: research/
 
 <style>
   .hero-example--linear-gradient {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("{{topimage.image}}");
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("{% include snippets/get-preview-url.html url=topimage.image %}{{__return}}");
   }
   .smooth-tag {
     scroll-behavior: smooth;
@@ -45,7 +45,7 @@ permalink: research/
 <div class="item">
 <div class="item__image">
 <a href="{{topic.image_url}}" target="_blank">
-<img class="image-96--xl" src="{{topic.image}}" title="{{topic.title}}"/>
+<img class="image-96--xl" src="{% include snippets/get-preview-url.html url=topic.image %}{{__return}}" alt="{{topic.title}}" title="{{topic.title}}"/>
 </a>
 </div>
 <div class="item__content">

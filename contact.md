@@ -14,7 +14,7 @@ permalink: contact/
 
 <div class="item">
 <div class="item__image">
-<img class="image-96--xl" src="{{topimage.image}}" title="{{topimage.hover}}"/>
+<img class="image-96--xl" src="{% include snippets/get-preview-url.html url=topimage.image %}{{__return}}" alt="{{topimage.alt}}" title="{{topimage.hover}}"/>
 </div>
 <div class="item__content" markdown=1>
 **{{name.first}} {{name.last}}**\\
