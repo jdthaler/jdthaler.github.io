@@ -1,23 +1,32 @@
 # Regenerates the web-sized images the site serves, from full-resolution masters.
 #
-# Why this exists: several served images were enormously larger than the size
-# they display at -- /design/jthaler_BOOST2019_Poster.png was 8.7 MB at
-# 3300x5100 pixels to fill a 128-pixel-tall slot, and /personal carried 17.9 MB
-# of images in total.
+# Why: several served images were far larger than the slot they display in.
+# design/jthaler_BOOST2019_Poster.png was 8.7 MB at 3300x5100 pixels to fill a
+# 128-pixel-tall thumbnail, and /personal carried 17.9 MB of images in total.
 #
-# Nothing is lost, and resizing is reversible, because every derivative is
-# generated from a master that this script only ever reads:
+# Nothing is lost and resizing is reversible, because every derivative is
+# generated from a master this script only ever reads. There are two patterns,
+# and which one applies is an editorial question, not a technical one: does a
+# visitor have any business downloading the full-resolution file?
 #
-#   served                        master                              also linked as
-#   design/*.png                  _images/masters/design/*.png        design/*.pdf (vector)
-#   holiday/preview/*.jpg         holiday/*.jpg                       the click-through target
+#   Master published, derivative alongside in preview/
+#     For images whose high-resolution version is meant to be downloadable: the
+#     press photos, and anything a visitor clicks to see properly.
+#       images/foo.jpg          full resolution, the download or link target
+#       images/preview/foo.jpg  what the page actually displays
 #
-# Masters live under _images/, which Jekyll never publishes -- the same reason
-# _data/, _cv/ and _reporting/ are absent from the site. To go back up, change
-# RETINA below (or the CSS) and re-run; the masters are untouched, so this is
-# idempotent and can be run as often as you like.
+#   Master hidden under _images/, derivative served at the original path
+#     For images nobody needs at full size: colleagues' portraits, decorative
+#     thumbnails that link somewhere else, institutional logos. Jekyll does not
+#     publish underscore directories, which is why _data/, _cv/ and _reporting/
+#     are absent from the live site.
+#       _images/masters/images/foo.jpg   full resolution, never served
+#       images/foo.jpg                   what the page displays
 #
-# Run from the repo root, after a build so that _site/ exists:
+# Idempotent: masters are never written to, so re-running produces identical
+# output. To resize back up, change RETINA (or the CSS) and re-run.
+#
+# Run from the repo root, after a build so display sizes can be read:
 #
 #   bundle exec jekyll build && python3 _images/make_derivatives.py
 #
@@ -30,37 +39,48 @@ import sys
 
 from PIL import Image
 
-# Target this multiple of the CSS display size, so the images stay sharp on
-# high-density screens. 2 is the usual choice.
+# Serve this multiple of the CSS display size, so images stay sharp on
+# high-density screens.
 RETINA = 2
 
-# Display heights the .image-h--* classes set, from $image in
-# _sass/common/_variables.scss (rem values at the 16px root size). Keeping this
-# here rather than hardcoding per-file sizes means the targets follow the markup:
-# restyle an image and its derivative size follows on the next run.
+# Display heights the image classes set, from $image in
+# _sass/common/_variables.scss (rem values at the 16px root size). Kept here
+# rather than as per-file numbers so targets follow the markup: restyle an image
+# and its derivative size follows on the next run.
 DISPLAY_HEIGHT = {
-    "image-h--xl": 320,   # 20rem
-    "image-h--lg": 256,   # 16rem
-    "image-h--sm": 128,   # 8rem
-    "image-h--xs": 64,    # 4rem
-    "image-h": 192,       # 12rem, the bare class
+    "image-h--xl": 320, "image-h--lg": 256, "image-h--sm": 128, "image-h--xs": 64,
+    "image-sq--lg": 256, "image-sq--sm": 128,
+    "image-96--xl": 320, "image-96--sm": 128, "image-96--xs": 64,
+    "image-h": 192,   # the bare class, checked last
 }
 FALLBACK_HEIGHT = 192
 
-# served glob -> how to find that file's master
-GROUPS = [
-    ("design/*.png", lambda p: os.path.join("_images/masters/design", os.path.basename(p))),
-    ("holiday/preview/*.jpg", lambda p: os.path.join("holiday", os.path.basename(p))),
+# Masters whose full-resolution version stays published, with the displayed copy
+# generated into a preview/ subdirectory. Listed explicitly because "should this
+# be downloadable?" is a judgement about each image, not something to infer.
+PUBLISHED_MASTERS = [
+    "images/jthaler_mit_spotlight.jpg",   # press download + /index hero
+    "images/jthaler_photo_2017.jpg",      # press download + /about hero
+    "images/stamp_personal.jpg",          # /personal hero, linked to full size
+    "design/jthaler_IAIFI_Banner.jpg",    # already links to itself
 ]
+
+# (master glob, function from master path to the derivative it produces)
+GROUPS = [
+    ("_images/masters/design/*.png", lambda m: os.path.join("design", os.path.basename(m))),
+    ("_images/masters/images/*",     lambda m: os.path.join("images", os.path.basename(m))),
+    ("holiday/*.jpg",                lambda m: os.path.join("holiday/preview", os.path.basename(m))),
+]
+for _m in PUBLISHED_MASTERS:
+    GROUPS.append((_m, lambda m: os.path.join(os.path.dirname(m), "preview", os.path.basename(m))))
 
 JPEG_QUALITY = 82
 
 
 def displayed_heights():
-    """Map each served image path to the tallest height any page displays it at.
+    """Map served image path -> tallest height any page displays it at.
 
-    Read from the built HTML rather than declared by hand, so the numbers cannot
-    drift away from the markup. An image shown at several sizes gets the largest.
+    Read from the built HTML so the numbers cannot drift from the markup.
     """
     heights = {}
     for root, _dirs, files in os.walk("_site"):
@@ -70,19 +90,28 @@ def displayed_heights():
             with open(os.path.join(root, name), encoding="utf-8") as fh:
                 html = fh.read()
             for tag in re.findall(r"<img[^>]*>", html):
-                src = re.search(r'src="/([^"]+)"', tag)
+                src = re.search(r'src="/+([^"]+)"', tag)
                 if not src:
                     continue
                 classes = re.search(r'class="([^"]*)"', tag)
                 classes = classes.group(1) if classes else ""
-                # --xl before the bare class, so "image-h image-h--xl" matches --xl.
-                height = next(
-                    (v for k, v in DISPLAY_HEIGHT.items() if k in classes),
-                    FALLBACK_HEIGHT,
-                )
+                height = next((v for k, v in DISPLAY_HEIGHT.items() if k in classes),
+                              FALLBACK_HEIGHT)
                 path = src.group(1)
                 heights[path] = max(heights.get(path, 0), height)
     return heights
+
+
+def target_height(derivative, master, heights):
+    """How tall the derivative should be.
+
+    Prefers the derivative's own display size. Falls back to the master's,
+    which is what pages reference until the markup is switched over.
+    """
+    for key in (derivative, master):
+        if key in heights:
+            return RETINA * heights[key]
+    return RETINA * FALLBACK_HEIGHT
 
 
 def main():
@@ -93,39 +122,53 @@ def main():
     before = after = 0
     resized = skipped = 0
 
-    for pattern, master_of in GROUPS:
-        for served in sorted(glob.glob(pattern)):
-            master = master_of(served)
-            if not os.path.isfile(master):
-                print("  no master, left alone:  %s" % served)
-                skipped += 1
+    for pattern, derivative_of in GROUPS:
+        for master in sorted(glob.glob(pattern)):
+            if os.path.isdir(master):
                 continue
+            derivative = derivative_of(master)
+            if os.path.abspath(derivative) == os.path.abspath(master):
+                continue
+            os.makedirs(os.path.dirname(derivative), exist_ok=True)
 
-            target = RETINA * heights.get(served, FALLBACK_HEIGHT)
+            target = target_height(derivative, master, heights)
+            master_size = os.path.getsize(master)
             with Image.open(master) as im:
                 if im.height <= target:
-                    # Master is already no bigger than we want; copying it would
-                    # only re-encode and lose a little quality for nothing.
-                    print("  master already small: %s" % served)
-                    skipped += 1
-                    continue
-                width = round(im.width * target / im.height)
-                out = im.resize((width, target), Image.LANCZOS)
-                old = os.path.getsize(served)
-                if served.lower().endswith((".jpg", ".jpeg")):
-                    out.convert("RGB").save(served, "JPEG", quality=JPEG_QUALITY,
+                    # Already no taller than wanted. Still worth re-encoding:
+                    # images can be the right size and yet enormous because they
+                    # were saved at near-lossless quality -- stamp_qcd.jpg was
+                    # 536 KB at 900x600. Re-encoding always starts from the
+                    # master, so this stays idempotent.
+                    width, target = im.width, im.height
+                    out = im.copy()
+                else:
+                    width = round(im.width * target / im.height)
+                    out = im.resize((width, target), Image.LANCZOS)
+
+                old = os.path.getsize(derivative) if os.path.exists(derivative) else master_size
+                if derivative.lower().endswith((".jpg", ".jpeg")):
+                    out.convert("RGB").save(derivative, "JPEG", quality=JPEG_QUALITY,
                                             optimize=True, progressive=True)
                 else:
-                    out.save(served, "PNG", optimize=True)
-                new = os.path.getsize(served)
+                    out.save(derivative, "PNG", optimize=True)
+                new = os.path.getsize(derivative)
 
-            before += old
+            # Some already-small files, particularly PNG logos, come out bigger
+            # after a round trip. Keep whichever is smaller; copying the master
+            # verbatim is still deterministic.
+            if new > master_size:
+                with open(master, "rb") as src, open(derivative, "wb") as dst:
+                    dst.write(src.read())
+                new = os.path.getsize(derivative)
+
+            before += old or os.path.getsize(master)
             after += new
             resized += 1
-            print("  %-44s %5dx%-5d  %6dKB -> %5dKB" % (
-                served, width, target, old // 1024, new // 1024))
+            print("  %-46s %5dx%-5d  %6dKB -> %5dKB" % (
+                derivative, width, target, (old or os.path.getsize(master)) // 1024, new // 1024))
 
-    print("\n  resized %d, skipped %d" % (resized, skipped))
+    print("\n  wrote %d, skipped %d" % (resized, skipped))
     if before:
         print("  %.1f MB -> %.1f MB  (%.0f%% smaller)" % (
             before / 1e6, after / 1e6, 100 * (1 - after / before)))

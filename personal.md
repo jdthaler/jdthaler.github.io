@@ -6,7 +6,9 @@ aside:
 permalink: personal/
 ---
 <center>
-<img class="image-h image-h--xl rounded" src="/images/stamp_personal.jpg" alt="Jesse Thaler in sunglasses and a cap on a hike, with a mountain lake, pine forest and snow-capped peaks behind him" title="Jesse Thaler"/>
+<a href="/images/stamp_personal.jpg">
+<img class="image-h image-h--xl rounded" src="/images/preview/stamp_personal.jpg" alt="Jesse Thaler in sunglasses and a cap on a hike, with a mountain lake, pine forest and snow-capped peaks behind him" title="Jesse Thaler"/>
+</a>
 </center>
 
 
@@ -84,7 +86,7 @@ permalink: personal/
   <div class="grid grid--py-3">
     <div class="cell cell--3">
           <a href="/design/jthaler_IAIFI_Banner.jpg">
-            <img class="image-h image-h--sm" style="object-fit: contain" src="/design/jthaler_IAIFI_Banner.jpg" alt="" title="IAIFI Banner"/>
+            <img class="image-h image-h--sm" style="object-fit: contain" src="/design/preview/jthaler_IAIFI_Banner.jpg" alt="" title="IAIFI Banner"/>
           <br>
               <b>IAIFI Banner</b>
           </a>
