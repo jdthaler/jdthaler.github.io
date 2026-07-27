@@ -211,11 +211,13 @@ permalink   : date
 # excluded because this list repeats them. That matters most in CI, where
 # ruby/setup-ruby's bundler-cache installs every gem into vendor/bundle.
 exclude:
-  - CLAUDE_REVIEW.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
+  - TODO
+  - /docs
   - /node_modules
   - /test
   - /vendor
