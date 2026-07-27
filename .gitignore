@@ -11,3 +11,5 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+# Locally generated email lists (contains addresses -- never commit)
+_reporting/email_lists.txt

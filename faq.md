@@ -171,7 +171,7 @@ At the end of the semester, some students got together to make their opinions kn
 
 > W​e have collaborated on the following [official evaluation](https://youtu.be/CcV5M7IMLt0){:target="_blank"} ​of 8.044 this semester.
 
-I appreciated their candor in telling us just how they're feeling and making us understand.  Certainly, a learning experience for everyone.  Thank goodness we were on [emergency pass/no record grading](https://facultygovernance.mit.edu/rules-and-regulations#2-64){:target="_blank"}.
+I appreciated their candor in telling us just how they're feeling and making us understand.  Certainly, a learning experience for everyone.  Thank goodness we were on [emergency pass/no record grading](https://facultygovernance.mit.edu/faculty-rules-page#2-64){:target="_blank"}.
 </details>
 
 

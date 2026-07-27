@@ -512,9 +512,9 @@ strategic:
 
   - job: Topical Convener
     issue: Collider Phenomenology
-    issue_url: https://snowmass21.org/theory/phenomenology
+    issue_url: https://arxiv.org/abs/2210.02591
     org: Snowmass Theory Frontier
-    org_url: https://snowmass21.org/theory/start
+    org_url: https://arxiv.org/abs/2211.05772
     dates: July 2021, July 2022
     
   - job: Local Organizing Committee
