@@ -1,0 +1,49 @@
+# Holiday cards, newest first. The page markup is generated from this list, so
+# adding a card is three lines here rather than eighteen lines of nested divs.
+#
+# back: true renders the front at cell--8 with the back beside it at cell--4;
+# omit it for a front-only card, which fills cell--8 alone.
+cards:
+
+  - year: 2024
+    file: AdrianHolidayCard12
+    back: true
+
+  - year: 2023
+    file: AdrianHolidayCard11
+    back: true
+
+  - year: 2022
+    file: AdrianHolidayCard10
+    back: true
+
+  - year: 2021
+    file: AdrianHolidayCard9
+    back: true
+
+  - year: 2020
+    file: AdrianHolidayCard8
+    back: true
+
+  - year: 2019
+    file: AdrianHolidayCard7
+    back: true
+
+  - year: 2018
+    file: AdrianHolidayCard6
+    back: true
+
+  - year: 2017
+    file: AdrianHolidayCard5
+
+  - year: 2016
+    file: AdrianHolidayCard4
+
+  - year: 2015
+    file: AdrianHolidayCard3
+
+  - year: 2014
+    file: AdrianHolidayCard2
+
+  - year: 2013
+    file: AdrianHolidayCard1
