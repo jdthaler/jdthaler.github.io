@@ -10,18 +10,21 @@
 
 ## Status — what has been done since this review was written
 
-Work lives on branches off `main`, in this order: `fix-rake-test`, then `fix-talk-urls` stacked on it.
+`fix-rake-test` → `fix-talk-urls` are **merged into `main` and pushed** (`fdf1519`). `external-link-check` is stacked on top and **not yet merged**. This document lives on `claude-review`, which is deliberately unmerged — see the closing note.
 
 | item | state | commit |
 |---|---|---|
-| #2 `rake test` checking nothing | **fixed** — `async` pinned below 2.23, plus a `rake canary` that fails if the checker ever goes blind again | `97e230e` |
+| #2 `rake test` checking nothing | **fixed** — `async` pinned below 2.23, plus `rake canary`, which fails if the checker ever goes blind again | `97e230e` |
+| #6 build fails under a non-UTF-8 locale | **fixed** — locale forced for shell-outs, `Encoding.default_external` set for in-process reads | `00c4be6` |
 | #4 talk URL hardcoding | **partly** — the GitHub `raw` prefix now lives only in `site.talks_base_url`, so the eventual LFS migration is a one-line change. The underlying LFS/Pages problem is untouched. | `17a0f9a` |
 | `http://` links (was folded into #10) | **fixed** — 24 switched to https, 9 http-only hosts exempted via host-anchored regexes | `3bbe2e0` |
-| dead external links | **mostly fixed** — 5 replaced with working targets; see the outstanding list below | `18a6232` |
+| dead external links | **partly** — 11 repointed at working targets across three passes; 11 still open, see C5 | `18a6232`, `48d989a` |
+| C5 external link scan | **done** — `rake external` added, kept out of `rake test` | `c2f3b3d` |
+| C6 missing talk PDF | **fixed** — PDF added, plus `rake talks` to catch the whole class locally | `89db994` |
 
-`rake test` now passes cleanly: 40 failures to 0, with `enforce_https` still live.
+`rake test` now runs three checks in order — canary, talk paths, then links — and passes cleanly. It also passes with no locale set and with `LC_ALL=C`.
 
-Items **1, 3, 5, 6, 7, 8, 9, 10, 11 remain open.**
+Items **1, 3, 5, 7, 8, 9, 10, 11 remain open**, plus the content items C1–C5 below.
 
 ---
 
@@ -56,39 +59,49 @@ The scan has now run, via the new `rake external` task (branch `external-link-ch
 
 The lasting lesson: on this site a raw failure count from an external scan is mostly noise about other people's infrastructure. Always re-check by hand before editing.
 
-**Genuinely dead — 13 pages, each verified 404 with a browser user-agent:**
+#### Already fixed — 8 links, commits `5a468d3`, `48d989a`, `89db994`
 
-| link | source |
+| was | now |
 |---|---|
-| `ir.mit.edu/harold-e-edgerton-faculty-achievement-award` | [_data/bio.yml:154](_data/bio.yml:154) |
-| `physics.mit.edu/faculty/faculty-awards/` | [_data/bio.yml:160](_data/bio.yml:160) |
-| `facultygovernance.mit.edu/rules-and-regulations#2-64` | [faq.md:174](faq.md:174) |
-| `mlfoundry.com/ai-for-science-symposium` | [_data/talks.yml:2894](_data/talks.yml:2894) |
-| `indico.desy.de/indico/event/25341/` | [_data/talks.yml:2467](_data/talks.yml:2467) |
-| `indico.desy.de/indico/event/18951/overview` | [_data/talks.yml:648](_data/talks.yml:648) |
-| `nsf.gov/news/special_reports/announcements/082620.jsp` | [_data/news.yml:393](_data/news.yml:393) |
-| `nsf-gov-resources.nsf.gov/2023-09/AI_Institutes_Hill_Day_Booklet.pdf` | [_data/public.yml:155](_data/public.yml:155) |
-| `qmul.ac.uk/…/profiles/ehirst.html` | [_data/mentoring.yml:1142](_data/mentoring.yml:1142) |
-| `miller.berkeley.edu/images/newsletters/2007_fall.pdf` | [_data/news.yml:473](_data/news.yml:473) |
-| `www.1014.nyc/events/consequences-of-ai` | [_data/public.yml:122](_data/public.yml:122) |
-| `www.firstprinciples.org/article/in-conversation-jesse-thaler` | [_data/news.yml:361](_data/news.yml:361) |
-| `exeter.edu/community/student-organizations/wpea` | [personal.md:124](personal.md:124) |
+| `ir.mit.edu/harold-e-edgerton-faculty-achievement-award` | `ir.mit.edu/projects/edgerton-faculty-achievement-award/` |
+| `facultygovernance.mit.edu/rules-and-regulations#2-64` | `facultygovernance.mit.edu/faculty-rules-page#2-64` — the `#2-64` anchor does survive |
+| `qmul.ac.uk/…/profiles/ehirst.html` | `lims.ac.uk/edward-hirst/` |
+| `snowmass21.org/theory/phenomenology` | `arxiv.org/abs/2210.02591` — TF07 Snowmass Report: Theory of Collider Phenomena |
+| `snowmass21.org/theory/start` | `arxiv.org/abs/2211.05772` — Snowmass Theory Frontier Report |
+| `indico.desy.de/indico/event/25341/` | `indico.desy.de/event/25341/` |
+| `indico.desy.de/indico/event/18951/overview` | `indico.desy.de/event/18951/overview` |
+| `agsandrew.myportfolio.com/{:target="_blank"}` | fixed markup at [cv.md:384](cv.md:384) |
+| missing `talks/…Axion_Detection.pdf` | PDF added (C6 below) |
 
-**Hosts that no longer resolve — 3.** `briandnord.com` ([_data/mentoring.yml:1060](_data/mentoring.yml:1060)), `nilai.cc` ([_data/mentoring.yml:609](_data/mentoring.yml:609)), `mitgenerativeaiweek.mit.edu/agenda` ([_data/talks.yml:2980](_data/talks.yml:2980)). Two are personal homepages, same situation as C1.
+Two things worth carrying forward from those fixes:
 
-**Also flagged, needing a look:** `ai.facebook.com/blog/…` returns 400 ([_data/news.yml:166](_data/news.yml:166)) and `snowmass21.org/theory/phenomenology` returns 301 ([_data/service.yml:515](_data/service.yml:515)).
+- **`snowmass21.org` was hijacked**, not merely dead: the root and every path 301'd to `xoilaczzggz.tv`. Domains belonging to finished projects can lapse and be re-registered, which makes a dead conference link a live liability. The arXiv reports are permanent substitutes, and are a better pattern than an archive snapshot wherever one exists.
+- **DESY dropped the `/indico/` path segment.** Removing it revives those URLs. I had reported one of them as having no replacement at all, which was wrong — worth checking for a path-structure change before concluding a host has lost a page.
 
-**Fixed as part of the scan:** one malformed link — commit `5a468d3`, [cv.md:384](cv.md:384), where `{:target="_blank"}` sat inside the link parentheses and so became part of the href. Nothing else on this list has been changed; C6 below was found but not fixed.
+#### Still open — 8 pages, each verified 404 with a browser user-agent
+
+| link | source | best option found |
+|---|---|---|
+| `physics.mit.edu/faculty/faculty-awards/` | [_data/bio.yml:160](_data/bio.yml:160) | archive 2024-10; MIT Physics no longer publishes a faculty-awards index (three candidate paths checked, all 404) |
+| `mlfoundry.com/ai-for-science-symposium` | [_data/talks.yml:2894](_data/talks.yml:2894) | archive 2025-05 |
+| `nsf.gov/news/special_reports/announcements/082620.jsp` | [_data/news.yml:393](_data/news.yml:393) | archive 2026-05, or the full text at [CCC Blog](https://cccblog.org/2020/08/26/nsf-advances-artificial-intelligence-research-with-new-nationwide-institutes/) / [CRA](https://cra.org/crn/2020/09/nsf-advances-artificial-intelligence-research-with-new-nationwide-institutes/). NSF's live "7 new institutes" page is a *different*, May 2023 announcement — do not substitute it |
+| `nsf-gov-resources.nsf.gov/2023-09/AI_Institutes_Hill_Day_Booklet.pdf` | [_data/public.yml:155](_data/public.yml:155) | archive 2025-03 |
+| `miller.berkeley.edu/images/newsletters/2007_fall.pdf` | [_data/news.yml:473](_data/news.yml:473) | archive 2026-03 |
+| `www.firstprinciples.org/article/in-conversation-jesse-thaler` | [_data/news.yml:361](_data/news.yml:361) | archive 2026-04; the site rebranded to `firstprinciples.com` and dropped the article |
+| `www.1014.nyc/events/consequences-of-ai` | [_data/public.yml:122](_data/public.yml:122) | **no snapshot**; `1014.nyc` itself is live |
+| `exeter.edu/community/student-organizations/wpea` | [personal.md:124](personal.md:124) | archive 2024-10 |
+
+**Hosts that no longer resolve — 3.** `briandnord.com` ([_data/mentoring.yml:1060](_data/mentoring.yml:1060), archive 2026-07), `nilai.cc` ([_data/mentoring.yml:609](_data/mentoring.yml:609), archive 2024-07), `mitgenerativeaiweek.mit.edu/agenda` ([_data/talks.yml:2980](_data/talks.yml:2980), archive 2026-01). Two are personal homepages, same situation as C1.
+
+**Needs a judgement call:** `ai.facebook.com/blog/…` returns 400 ([_data/news.yml:166](_data/news.yml:166)), and so does the `ai.meta.com` equivalent — that pattern suggests Meta blocking automated requests rather than a removed page, so it may well load in a browser. Worth clicking before changing.
 
 **Not worth chasing:** 47 of the 86 are 403s from publisher, journal and conference hosts — `symmetrymagazine.org`, `pubs.aip.org`, `indico.fnal.gov`, `aps.org`, `phys.org`, `cacm.acm.org`, `pnas.org`, `bloomberg.com` among them. These 403 even a browser user-agent from the command line but load fine in a real browser, so they are bot protection rather than breakage. They stay in the report as a permanent tax on reading it.
 
-### C6. A referenced talk PDF does not exist
+### C6. ~~A referenced talk PDF does not exist~~ — **fixed, `89db994`**
 
-[_data/talks.yml:1347](_data/talks.yml:1347) — "Basics of Axion Detection", Reece Group Meeting, Harvard, March 2019 — points at `talks/jthaler_2019_03_18_Axion_Detection.pdf`, which is absent from disk, from git, and from `origin/main`. That link has been dead on the live site.
+[_data/talks.yml:1347](_data/talks.yml:1347) — "Basics of Axion Detection", Reece Group Meeting, Harvard, March 2019 — pointed at `talks/jthaler_2019_03_18_Axion_Detection.pdf`, which was absent from disk, from git, and from `origin/main`. That link had been dead on the live site. JT supplied the PDF; it is committed under the name the data file already referenced.
 
-Either add the PDF or drop the `url:` from the entry, leaving the talk listed without a link.
-
-**This exposes a structural gap worth closing.** Because talk links resolve through `site.talks_base_url` to `github.com/…/raw/main/`, they are *external* URLs, so `rake test`'s internal check cannot see them by construction. It took a multi-minute network scan to discover a missing local file. A local existence check over the 410 talk paths in `_data/` runs instantly and needs no network — I verified by hand that exactly 1 of 410 is missing. Adding that to `rake test` would catch this class of bug on every push.
+**The structural gap it exposed is now closed too.** Because talk links resolve through `site.talks_base_url` to `github.com/…/raw/main/`, they are *external* URLs, so HTMLProofer's internal check cannot see them by construction — it took a multi-minute scan of 1,026 links to notice a missing local file. `rake talks` now compares every `talks/` path in `_data/` against the filesystem: no network, instant, and `rake test` depends on it. Verified in both directions — it passes with all 410 present and fails naming the file and line when one is removed.
 
 ---
 
@@ -272,9 +285,9 @@ Cosmetic, but they'll confuse future-you or any tool reading the repo:
 Deliberately sequenced so each step makes the next one safer:
 
 1. ~~**Fix `rake test`** (#2), including the deliberately-broken canary fixture.~~ **Done** — `97e230e`.
-2. **Fix the locale issue** (#6) — one line, and CI needs it. **Next.**
+2. ~~**Fix the locale issue** (#6).~~ **Done** — `00c4be6`.
 3. ~~**Run one external link scan** (C5).~~ **Done** — `rake external` on branch `external-link-check`; findings in C5/C6 above.
-4. **Add build + link-check CI** (#3). Now every change is checked before it's live.
+4. **Add build + link-check CI** (#3). **Next.** Every prerequisite is in place: the test genuinely fails when it should, it is locale-independent, and the external noise is quarantined in a separate task.
 5. **Decide on `/hidden`** (#1). Small change, but it's a judgment call about other people's data, so it's yours to make.
 6. **Delete the local `_site/`** (#5, first half). Zero risk, 4.1 GB back.
 7. Then the low-risk polish — alt text (#7 and C4), image resizing (#8), meta tags (#9) — which are good first tasks to run through Claude Code, because each produces a small, uniform, easily-reviewed diff.
