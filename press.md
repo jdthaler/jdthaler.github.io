@@ -17,7 +17,7 @@ permalink: press/
               <b>Blackboard Shot</b>
           </a>
           <br>
-          <a href="/images/jthaler_mit_spotlight_large_uncropped.jpg">Full resolution</a> (6720&times;4480, uncropped)
+          <a href="/images/jthaler_mit_spotlight_large_uncropped.jpg">Full resolution</a> (uncropped)
     </div>
     
     <div class="cell cell--6">
@@ -27,7 +27,7 @@ permalink: press/
               <b>Head Shot</b>
           </a>
           <br>
-          <a href="/images/jthaler_photo_2017_large_uncropped.jpg">Full resolution</a> (6720&times;4480, uncropped)
+          <a href="/images/jthaler_photo_2017_large_uncropped.jpg">Full resolution</a> (uncropped)
     </div>
   </div>
 </div>
@@ -60,12 +60,12 @@ Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Profe
 {% assign aboutimage = site.data.bio.about_top %}
 {% assign publicimage = site.data.public.public_top %}
 
-  * ![{{frontimage.hover}}]({{frontimage.image}}){:.image--xs} Front Page: [{{frontimage.image_credit}}]({{frontimage.image_url}})
-  * ![{{aboutimage.hover}}]({{aboutimage.image}}){:.image--xs} About Page: [{{aboutimage.image_credit}}]({{aboutimage.image_url}})
+  * [![{{frontimage.hover}}]({{frontimage.preview | default: frontimage.image}}){:.image--xs}]({{frontimage.image}}) Front Page: [{{frontimage.image_credit}}]({{frontimage.image_url}})
+  * [![{{aboutimage.hover}}]({{aboutimage.preview | default: aboutimage.image}}){:.image--xs}]({{aboutimage.image}}) About Page: [{{aboutimage.image_credit}}]({{aboutimage.image_url}})
 {% for topic in site.data.research.topics -%}
-  * ![{{topic.title}}]({{topic.image}}){:.image--xs} Research, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
+  * [![{{topic.title}}]({{topic.preview | default: topic.image}}){:.image--xs}]({{topic.image}}) Research, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
 {% endfor -%}
-  * ![{{publicimage.hover}}]({{publicimage.image}}){:.image--xs} Public Engagement Page: [{{publicimage.image_credit}}]({{publicimage.image_url}})
+  * [![{{publicimage.hover}}]({{publicimage.preview | default: publicimage.image}}){:.image--xs}]({{publicimage.image}}) Public Engagement Page: [{{publicimage.image_credit}}]({{publicimage.image_url}})
 {% for topic in site.data.public.topics -%}
-  * ![{{topic.title}}]({{topic.image}}){:.image--xs} Public Engagement, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
+  * [![{{topic.title}}]({{topic.preview | default: topic.image}}){:.image--xs}]({{topic.image}}) Public Engagement, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
 {% endfor -%}

@@ -37,7 +37,7 @@ import os
 import re
 import sys
 
-from PIL import Image
+from PIL import Image, ImageOps
 
 # Serve this multiple of the CSS display size, so images stay sharp on
 # high-density screens.
@@ -123,6 +123,14 @@ def displayed_requirements():
                 else:
                     req = ("w", CONTENT_WIDTH)
                 reqs.setdefault(src.group(1), []).append(req)
+
+            # Images referenced from CSS rather than markup, such as the hero
+            # banner on /engagement. There is no class to read and the element
+            # spans at least the content column, so they get that requirement.
+            # Missing these shrank that banner to 128px wide, because the file's
+            # only <img> use is a 64px credit thumbnail on /press.
+            for m in re.finditer(r"url\(\s*[\"\']?/+([^\"\')]+)", html):
+                reqs.setdefault(m.group(1), []).append(("w", CONTENT_WIDTH))
     return reqs
 
 
@@ -157,7 +165,12 @@ def main():
             os.makedirs(os.path.dirname(derivative), exist_ok=True)
 
             master_size = os.path.getsize(master)
-            with Image.open(master) as im:
+            with Image.open(master) as raw:
+                # Apply any EXIF orientation to the pixels. Browsers honour that
+                # tag, but PIL reads raw pixels and the tag does not survive the
+                # save, so without this a rotated master -- stamp_personal.jpg is
+                # tagged 180 degrees -- comes out upside down in its derivative.
+                im = ImageOps.exif_transpose(raw)
                 target = target_height(derivative, master, reqs, im.width / im.height)
                 if target is None or im.height <= target:
                     # Already no taller than wanted. Still worth re-encoding:
