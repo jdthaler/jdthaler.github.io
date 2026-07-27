@@ -645,7 +645,7 @@ schools:
       - title: An Introduction to Jets
         url: talks/jthaler_2018_07_Cargese_JetLecture3.pdf
     event: Cargese 2018 International Summer School
-    event_url: https://indico.desy.de/indico/event/18951/overview
+    event_url: https://indico.desy.de/event/18951/overview
     org: Corsica
     date: July 2018
   
@@ -2464,7 +2464,7 @@ additional:
     other: Webinars
   
   - event: Anomaly Detection Mini-Workshop
-    event_url: https://indico.desy.de/indico/event/25341/
+    event_url: https://indico.desy.de/event/25341/
     org: DESY
     date: July 2020
     virtual: true
