@@ -1,0 +1,14 @@
+{%- comment -%}
+Renders one entry from _data/public.yml. The CV and the public engagement page
+previously carried byte-identical copies of this markup, and both carried the
+same bug when one of them had it.
+
+The assign below deliberately has no closing dash: `-%}` would strip the two
+spaces that begin the next line, and those spaces are the list indent.
+{%- endcomment -%}
+{%- assign entry = include.entry %}  * **"{% if entry.url %}[{{entry.title}}]({% include snippets/get-talk-url.html url=entry.url %}{{__return}}){:target="_blank"}{% else %}{{entry.title}}{% endif %}"**{% if entry.collaborators %} (with {% if entry.collaborators_url %}[{{entry.collaborators}}]({{entry.collaborators_url}}){:target="_blank"}{% else %}{{entry.collaborators}}{% endif %}){% endif %},
+   {% if entry.type %}{{entry.type}}, {% endif -%}
+   {% if entry.event %}{% if entry.event_url %}[{{entry.event}}]({{entry.event_url}}){:target="_blank"}{% else %}{{entry.event}}{% endif %}, {% endif -%}   
+   {% if entry.org %}*{{entry.org}}*, {% endif -%}
+   {% if entry.date %}*{{entry.date | date: "%B %Y"}}* {% endif -%}
+   {% if entry.doi %}[{{entry.journal}}](https://doi.org/{{entry.doi}}){:target="_blank"}{% endif %}
