@@ -45,7 +45,7 @@ permalink: research/
 <div class="item">
 <div class="item__image">
 <a href="{{topic.image_url}}" target="_blank">
-<img class="image-96--xl" src="{{topic.image}}" title="{{topic.title}}"/>
+<img class="image-96--xl" src="{{topic.image}}" alt="{{topic.title}}" title="{{topic.title}}"/>
 </a>
 </div>
 <div class="item__content">

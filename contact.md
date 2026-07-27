@@ -14,7 +14,7 @@ permalink: contact/
 
 <div class="item">
 <div class="item__image">
-<img class="image-96--xl" src="{{topimage.image}}" title="{{topimage.hover}}"/>
+<img class="image-96--xl" src="{{topimage.image}}" alt="Open office door with nameplates reading 6-300, Prof. Jesse Thaler, IAIFI and CTP" title="{{topimage.hover}}"/>
 </div>
 <div class="item__content" markdown=1>
 **{{name.first}} {{name.last}}**\\

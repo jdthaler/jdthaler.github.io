@@ -12,7 +12,7 @@ permalink: press/
   <div class="grid grid--py-3">
     <div class="cell cell--6">
           <a href="/images/jthaler_mit_spotlight.jpg">
-            <img class="image-h image-h--sm" src="/images//jthaler_mit_spotlight.jpg" title="Thaler Blackboard Shot"/>
+            <img class="image-h image-h--sm" src="/images//jthaler_mit_spotlight.jpg" alt="" title="Thaler Blackboard Shot"/>
           <br>
               <b>Blackboard Shot</b>
           </a>
@@ -20,7 +20,7 @@ permalink: press/
     
     <div class="cell cell--6">
           <a href="/images/jthaler_photo_2017.jpg">
-            <img class="image-h image-h--sm" src="/images/jthaler_photo_2017.jpg" title="Thaler Head Shot"/>
+            <img class="image-h image-h--sm" src="/images/jthaler_photo_2017.jpg" alt="" title="Thaler Head Shot"/>
           <br>
               <b>Head Shot</b>
           </a>
