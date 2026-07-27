@@ -29,11 +29,12 @@ All work branches are merged into `main`: `fix-rake-test`, `fix-talk-urls`, `ext
 | #8 oversized images | **fixed** — every folder now has a generated `preview/`; /news 35.3 MB → 1.9 MB, /personal 17.9 → 0.3 | `06e2954`, `f29570c` |
 | press photos | **added** — full-resolution uncropped originals offered on /press alongside the existing crops, whose URLs are unchanged | `a4691d7` |
 | image credits | **extended** — each credit links to the photographer's original; JT credited for three of his own | `3e16bff`, `81fc624`, `d17219f` |
+| #9 no link previews when shared | **fixed** — Open Graph and Twitter Card tags; `url` set explicitly, which also closes part of #11 | — |
 | maintainability pass | **done** — duplicated markup extracted, two pages moved to `_data/`, dead theme files removed; net −293/+173 lines | `c1bb3f6`…`9eb6f00` |
 
 `rake test` now runs three checks in order — canary, talk paths, then links — and passes cleanly. It also passes with no locale set and with `LC_ALL=C`.
 
-Items **9, 10, 11 remain open**, plus item **1b** (left open by decision), the history half of **#5**, and content items **C1, C2**.
+Items **10, 11 remain open** (#11 partly: `url` is now set), plus item **1b** (left open by decision), the history half of **#5**, and content items **C1, C2**.
 
 ---
 
@@ -394,19 +395,46 @@ add 24 MB. Note those two must **not** go into Git LFS: GitHub Pages serves LFS
 pointers rather than files, which is the same trap that makes `talks/*.pdf`
 unreachable from this domain (item #4).
 
-### 9. No link previews when the site is shared
+### 9. ~~No link previews when the site is shared~~ — **fixed**
 
-```bash
-curl -s https://jthaler.net/ | grep -ciE 'og:|twitter:'   # → 0
-```
+The site emitted zero Open Graph and zero Twitter Card tags, so a jthaler.net
+link pasted into Slack, Bluesky, LinkedIn or a group chat showed a bare URL.
 
-Zero Open Graph and zero Twitter Card tags. Posting a jthaler.net link to Slack, Bluesky, Twitter, or LinkedIn produces a bare URL with no title, description, or image. There's also no `sitemap.xml` (`jekyll-sitemap` is commented out in `_config.yml`, though it *is* supported on GitHub Pages) and no `robots.txt`.
+Now in `_includes/head/custom.html`, the file the theme provides for exactly
+this and which was empty. Each page emits `og:type`, `og:site_name`, `og:title`,
+`og:description`, `og:url`, `og:image`, plus `twitter:card`
+(`summary_large_image`), `twitter:site` and `twitter:creator`.
 
-**Suggested fix.** A small `_includes/head/custom.html` addition — that file exists and is empty, clearly intended for exactly this. Roughly 10 lines of Liquid. Note the interaction with item #1: enabling `jekyll-sitemap` before excluding `hidden.md` would advertise that page to every crawler, so do them in that order.
+**`url` in `_config.yml` is now set explicitly** to `https://jthaler.net`, which
+also closes that part of item #11. Every consumer of these tags requires absolute
+URLs, and with `url` blank a local build emitted relative ones — the tags would
+have looked correct in source and done nothing. This changes nothing in
+production: GitHub Pages was already filling `url` in at build time, so the live
+site's canonical was already absolute. What it changes is that local builds now
+match live, which is what made the tags verifiable at all.
 
----
+Two things worth knowing about the result:
 
-## Tier 4 — Structural, for later
+- **`snippets/page-url.html` prints the absolute URL rather than assigning it**,
+  so `__return` after including it holds only the path. `og:url` was relative on
+  the first attempt because of this. It is built from `prepend-baseurl.html` plus
+  `site.url` instead.
+- **Five pages do not carry the tags**, and cannot: `design/`, `sywt/`, `ania/`,
+  `aaron/` and `dedushka/` are standalone HTML with no front matter, which Jekyll
+  copies verbatim without a layout. All 18 Jekyll-rendered pages have them.
+
+**Two things left deliberately, both improvements rather than defects:**
+
+- **Every page currently shares one description**, `site.description`, because no
+  page sets `description:` in front matter and Jekyll does not give pages an
+  excerpt. The include already prefers a page's own `description:` when present,
+  so adding one to the pages worth sharing — `/about`, `/group`, `/research`,
+  `/join` — is a one-line-per-page authoring task, and is JT's prose to write.
+- **The card image is 980×561.** That clears the 600×315 minimum for a large
+  card, so it works, but it is below the 1200×630 that Facebook and LinkedIn
+  recommend and cards will render at reduced size. The uncropped press original
+  is 6720×4480 and far too heavy to serve as a preview; a purpose-made 1200×630
+  crop would be better. `image:` in a page's front matter overrides it per page.
 
 ### 10. Dependency and theme staleness
 
@@ -418,7 +446,7 @@ Zero Open Graph and zero Twitter Card tags. Posting a jthaler.net link to Slack,
 ### 11. Config leftovers
 
 Cosmetic, but they'll confuse future-you or any tool reading the repo:
-`repository: user_name/repo_name` is still the theme's placeholder; `url:` is blank (GitHub Pages fills it at build time, so canonical URLs are right in production but wrong locally); and `Dockerfile.dev`, `package.json`, and `jekyll-text-theme.gemspec` are unused theme scaffolding. There's no `.ruby-version`, so the build's Ruby version is whatever happens to be on PATH.
+`repository: user_name/repo_name` is still the theme's placeholder; ~~`url:` is blank~~ (**now set explicitly** for the Open Graph tags, see #9); and `Dockerfile.dev`, `package.json`, and `jekyll-text-theme.gemspec` are unused theme scaffolding. There's no `.ruby-version`, so the build's Ruby version is whatever happens to be on PATH.
 
 ---
 
@@ -433,7 +461,8 @@ Deliberately sequenced so each step makes the next one safer:
 5. ~~**Decide on `/hidden`** (#1).~~ **Page done** — `aae6087`. The repo-side exposure (1b) is deliberately left open.
 6. **Delete the local `_site/`** (#5, first half). Zero risk, 4.1 GB back. **Next.**
 7. ~~Then the low-risk polish — alt text (#7 and C4) and image resizing (#8)~~ **done**. Remaining: meta tags (#9).
-8. A maintainability pass has also been done — see that section. It is not one of the numbered items; it came from a later survey for duplicated markup and page content better held as data.
+8. ~~Meta tags (#9).~~ **Done.** Remaining from the original list: #10 (Jekyll 4 / vendored theme) and the rest of #11.
+9. A maintainability pass has also been done — see that section. It is not one of the numbered items; it came from a later survey for duplicated markup and page content better held as data.
 8. Leave the Jekyll 4 migration, the history rewrite, and the talks-hosting decision until the workflow feels routine. None of them is urgent.
 
 ## A note on working with Claude Code here

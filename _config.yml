@@ -19,7 +19,11 @@
 encoding: utf-8
 text_skin: thaler # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+# Set explicitly rather than left for GitHub Pages to fill in at build time.
+# The Open Graph and Twitter Card tags in _includes/head/custom.html need
+# absolute URLs, and with this blank a local build emits relative ones, so the
+# tags would look fine in source and be silently useless everywhere they matter.
+url     : https://jthaler.net
 baseurl : # does not include hostname
 title   : Jesse Thaler
 description: > # this means to ignore newlines until "Language & timezone"
