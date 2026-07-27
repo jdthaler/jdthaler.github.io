@@ -102,3 +102,56 @@ task :test => :canary do
   sh "bundle exec jekyll build"
   HTMLProofer.check_directory('_site/', proofer_options).run
 end
+
+# Deliberately separate from `rake test`, which is meant to gate every push.
+# This one reaches out to ~1200 third-party hosts, so it is slow and its result
+# depends on the weather: rate limits, bot blocking, and transient 5xx all show
+# up as failures. Run it periodically and triage by hand rather than wiring it
+# into CI. HTMLProofer retries a failed HEAD as a GET, so servers that reject
+# HEAD (docusign.mit.edu, for one) are not reported as dead.
+desc "Also check external links (slow, network-dependent; not part of `rake test`)"
+task :external => :canary do
+  sh "bundle exec jekyll build"
+  HTMLProofer.check_directory('_site/', proofer_options.merge(external_options)).run
+end
+
+# Tuning for the external run. The first attempt at this reported 518 failures
+# out of 1210 links, of which only about a dozen were real; the rest were
+# self-inflicted. Three causes, three fixes:
+#
+#  1. Concurrency. 50 parallel requests across 248 hosts produced 350 timeouts,
+#     including 62 against doi.org alone, simply from hammering them. Dropped to
+#     10, with longer timeouts, which costs wall-clock and buys signal.
+#  2. User agent. HTMLProofer's default agent announces itself and collects 403s
+#     from publishers and news sites. A browser agent is what a visitor
+#     following the link would send, so it is the honest thing to check with.
+#  3. Hosts that block automation regardless. Listed below.
+#
+# Even tuned, treat a failure here as "look at this by hand", not "this is
+# broken" -- re-check with a browser before editing anything.
+def external_options
+  {
+    :disable_external => false,
+    :hydra    => { :max_concurrency => 10 },
+    :typhoeus => {
+      :followlocation => true,
+      :connecttimeout => 20,
+      :timeout        => 60,
+      :headers        => { "User-Agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " \
+                                           "AppleWebKit/537.36 (KHTML, like Gecko) " \
+                                           "Chrome/120.0 Safari/537.36" },
+    },
+    :ignore_urls => proofer_options[:ignore_urls] + [
+      # doi.org resolves correctly; the publishers it redirects to (Wiley,
+      # Elsevier and friends) block automated requests, so the DOI is fine even
+      # when the check is not. Verified by hand on a sample.
+      %r{^https://doi\.org/},
+      # Block automation by policy, browser-verified as live.
+      %r{^https://www\.nytimes\.com/},
+      %r{^https://www\.oecd\.org/},
+      # Require an MIT login, so unauthenticated checks can only ever fail.
+      %r{^https://stellar\.mit\.edu/},
+      %r{^https://canvas\.mit\.edu/},
+    ],
+  }
+end
