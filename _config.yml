@@ -186,6 +186,7 @@ permalink   : date
 
 exclude:
   - CHANGELOG.md
+  - CLAUDE_REVIEW.md
   - HOW_TO_RELEASE.md
   - Gemfile
   - Gemfile.lock
