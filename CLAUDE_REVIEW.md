@@ -8,6 +8,59 @@
 
 ---
 
+## Status — what has been done since this review was written
+
+Work lives on branches off `main`, in this order: `fix-rake-test`, then `fix-talk-urls` stacked on it.
+
+| item | state | commit |
+|---|---|---|
+| #2 `rake test` checking nothing | **fixed** — `async` pinned below 2.23, plus a `rake canary` that fails if the checker ever goes blind again | `97e230e` |
+| #4 talk URL hardcoding | **partly** — the GitHub `raw` prefix now lives only in `site.talks_base_url`, so the eventual LFS migration is a one-line change. The underlying LFS/Pages problem is untouched. | `17a0f9a` |
+| `http://` links (was folded into #10) | **fixed** — 24 switched to https, 9 http-only hosts exempted via host-anchored regexes | `3bbe2e0` |
+| dead external links | **mostly fixed** — 5 replaced with working targets; see the outstanding list below | `18a6232` |
+
+`rake test` now passes cleanly: 40 failures to 0, with `enforce_https` still live.
+
+Items **1, 3, 5, 6, 7, 8, 9, 10, 11 remain open.**
+
+---
+
+## Outstanding content items
+
+Content decisions rather than technical work, so they are recorded here rather than guessed at.
+
+### C1. Two dead files linked from `faq.md`
+
+`www.caricesarotti.com` is live, but both files linked from it are gone — 404 even under `www`:
+
+- [faq.md:64](faq.md:64) — `http://caricesarotti.com/n_subjesseness.pdf` ("Token frequency analysis")
+- [faq.md:114](faq.md:114) — `http://caricesarotti.com/work.html` ("innovative data analysis strategy")
+
+Left exactly as-is rather than repointed at the homepage, which would change what the links mean. The host is exempted in the `Rakefile` ignore list so the suite stays green; that exemption should come out once these are resolved. The profile link in `_data/mentoring.yml` was separately updated to `https://www.caricesarotti.com/`, which does work.
+
+### C2. `mhsmustangnews.com` article is gone
+
+[_data/news.yml](_data/news.yml) — `https://www.mhsmustangnews.com/2012/10/29/academic-news-mits-jesse-thaler-visits-mhs/` returns 500, and the site root returns 403. Left in place by request. An archive.org snapshot would preserve it if the article matters.
+
+### C3. `hidden.md` hardcodes the year
+
+[hidden.md:12](hidden.md:12) — `{% assign current_year = 2025 %}`. It is now July 2026, so the "Remaining {{year}}" and "Done for {{year}}" email lists have been computing against the wrong year since January. `{{ site.time | date: '%Y' }}` would track by itself. (Moot if the page stops being built per item #1.)
+
+### C4. Alt text needs words
+
+Item #7 covers the mechanical part — 151 of 164 images carry `title` where they need `alt`. The descriptions themselves are an authoring task. The existing `title` values are a reasonable starting point for many of them.
+
+### C5. External links have never been checked
+
+`:disable_external => true` has always been set, and the site has **1,225 unique external URLs**. Everything on this list surfaced incidentally while probing the 32 `http://` links — roughly 3% of the total. A one-off run with external checking enabled would give the real inventory, and is worth doing **before** wiring up CI (#3), so the workflow does not silently adopt whatever is currently broken as its baseline.
+
+Two things learned while probing, worth carrying into that run:
+
+- **`HEAD` requests give false negatives.** `docusign.mit.edu` returns 500 to `HEAD` but 200 to `GET`. Anything the scan flags should be re-checked with `GET` before being called dead.
+- **Bot-blocking is not breakage.** `doi.org`, LinkedIn (status 999), and some university personal pages refuse automated requests but work fine in a browser. Expect a batch of false positives to triage into the ignore list.
+
+---
+
 ## Tier 1 — Worth acting on soon
 
 ### 1. `/hidden` publishes ~72 personal email addresses to the open web
@@ -187,13 +240,14 @@ Cosmetic, but they'll confuse future-you or any tool reading the repo:
 
 Deliberately sequenced so each step makes the next one safer:
 
-1. **Fix `rake test`** (#2), including the deliberately-broken canary fixture. Nothing else should be trusted until the safety net demonstrably works.
-2. **Fix the locale issue** (#6) — one line, and CI needs it.
-3. **Add build + link-check CI** (#3). Now every change is checked before it's live.
-4. **Decide on `/hidden`** (#1). Small change, but it's a judgment call about other people's data, so it's yours to make.
-5. **Delete the local `_site/`** (#5, first half). Zero risk, 4.1 GB back.
-6. Then the low-risk polish — alt text (#7), image resizing (#8), meta tags (#9) — which are good first tasks to run through Claude Code, because each produces a small, uniform, easily-reviewed diff.
-7. Leave the Jekyll 4 migration, the history rewrite, and the talks-hosting decision until the workflow feels routine. None of them is urgent.
+1. ~~**Fix `rake test`** (#2), including the deliberately-broken canary fixture.~~ **Done** — `97e230e`.
+2. **Fix the locale issue** (#6) — one line, and CI needs it. **Next.**
+3. **Run one external link scan** (C5) before CI, so the workflow starts from a known baseline rather than adopting current breakage as normal.
+4. **Add build + link-check CI** (#3). Now every change is checked before it's live.
+5. **Decide on `/hidden`** (#1). Small change, but it's a judgment call about other people's data, so it's yours to make.
+6. **Delete the local `_site/`** (#5, first half). Zero risk, 4.1 GB back.
+7. Then the low-risk polish — alt text (#7 and C4), image resizing (#8), meta tags (#9) — which are good first tasks to run through Claude Code, because each produces a small, uniform, easily-reviewed diff.
+8. Leave the Jekyll 4 migration, the history rewrite, and the talks-hosting decision until the workflow feels routine. None of them is urgent.
 
 ## A note on working with Claude Code here
 
@@ -204,4 +258,10 @@ The `_data/`-driven structure suits this workflow well — most updates are YAML
 
 ---
 
-*Findings verified against the live site and a local build on 2026-07-27. Items #1, #2, #4, and #6 were each confirmed by direct reproduction rather than inspection alone; #5's history figures come from `git rev-list --objects --all`. No files were modified in producing this review, apart from creating this document and adding it to `exclude:` in `_config.yml` so it isn't published to the live site.*
+- **A `CLAUDE.md`** — one convention has since changed and is worth capturing: talk paths in `_data/` are written bare (`talks/x.pdf`) and resolved by `_includes/snippets/get-talk-url.html` against `site.talks_base_url`. Note that `url:` and `issue_url:` both carry talk paths, in `talks.yml`, `public.yml`, `service.yml`, and `teaching.yml`.
+
+---
+
+*Findings verified against the live site and a local build on 2026-07-27. Items #1, #2, #4, and #6 were each confirmed by direct reproduction rather than inspection alone; #5's history figures come from `git rev-list --objects --all`. No files were modified in producing the original review, apart from creating this document and adding it to `exclude:` in `_config.yml` so it isn't published to the live site.*
+
+*Updated 2026-07-27 with a status table and the outstanding content items (C1–C5). This document lives only on the `claude-review` branch and is excluded from the Jekyll build, so it is not published — but note the repo is public, so merging this branch to `main` makes it readable on GitHub, including its description of the `/hidden` page. Worth resolving item #1 first.*
