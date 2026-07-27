@@ -1,0 +1,63 @@
+# The graphic design portfolio on /personal.
+#
+# file    is the download the thumbnail links to, under /design/. The image
+#         shown is the matching .png (or the file itself when it is already an
+#         image), with its preview derived, so no path is written twice.
+# caption is the label under the thumbnail; title is its hover tooltip.
+# cell    defaults to 3 (a quarter row); height defaults to xs.
+#
+# Do not rename height back to size: Liquid resolves item.size to the number
+# of keys in the entry, so the class came out as image-h--3.
+
+logos:
+
+  - file: jthaler_IAIFI_Logo.pdf
+    caption: IAIFI
+    title: IAIFI Logo
+
+  - file: jthaler_OmniFold_Logo.pdf
+    caption: OmniFold
+    title: OmniFold Logo
+
+  - file: jthaler_MOD_Logo.pdf
+    caption: MOD
+    title: MOD
+
+  - file: jthaler_DarkLight_Logo.pdf
+    caption: DarkLight
+    title: DarkLight Logo
+
+  - file: jthaler_ABRALogo_Large.pdf
+    caption: ABRACADABRA
+    title: ABRACADABRA
+    cell: 6
+
+  - file: jthaler_ABRALogo_Medium.pdf
+    caption: ABRA
+    title: ABRA
+
+  - file: jthaler_ABRALogo_Small.pdf
+    caption: A.
+    title: A.
+
+images:
+
+  - file: jthaler_IAIFI_Banner.jpg
+    caption: IAIFI Banner
+    title: IAIFI Banner
+    height: sm
+
+  - file: jthaler_MOD_EventDisplay.pdf
+    caption: MOD Event Display
+    title: MOD Event
+    height: sm
+
+  - file: jthaler_BOOST2019_Poster.pdf
+    caption: BOOST 2019 Poster
+    title: BOOST 2019 Poster
+    height: sm
+
+  - file: jthaler_Flavour_PRD.pdf
+    caption: Flavoured Jets
+    title: Flavoured Jets
+    height: sm

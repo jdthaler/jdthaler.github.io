@@ -1,0 +1,28 @@
+{%- comment -%}
+One cell of the graphic design portfolio on /personal, from an entry in
+_data/design.yml. Used by both the Logos and Images grids, whose markup is
+otherwise identical.
+
+`file` is the download the thumbnail links to. The thumbnail is derived from it --
+a .pdf entry shows the matching .png, an entry that is already an image shows
+itself -- so each entry names one file rather than three.
+
+Two things about this file that look untidy and are load-bearing, both of which
+change the rendered HTML if "fixed":
+
+  - The markup starts on the same line as the last Liquid tag. Putting it on its
+    own line means the tag needs `-%}`, which strips the four spaces of indent.
+  - There is no trailing newline. One shows up as a blank line between cells.
+
+`height` is not called `size`: Liquid resolves item.size to the number of keys in
+the entry, which rendered every logo as image-h--3.
+{%- endcomment -%}
+{%- assign item = include.item -%}
+{%- assign _img = '/design/' | append: item.file | replace: '.pdf', '.png' -%}
+{%- include snippets/get-preview-url.html url=_img %}    <div class="cell cell--{{item.cell | default: 3}}">
+          <a href="/design/{{item.file}}">
+            <img class="image-h image-h--{{item.height | default: 'xs'}}" style="object-fit: contain" src="{{__return}}" alt="" title="{{item.title}}"/>
+          <br>
+              <b>{{item.caption}}</b>
+          </a>
+    </div>
