@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Link checker canary</title>
+  </head>
+  <body>
+    <h1>Link checker canary</h1>
+
+    <p>
+      This page is deliberately broken and is never published (see the
+      <code>/test</code> entry in <code>_config.yml</code>). It exists so that
+      <code>rake canary</code> can confirm the link checker still reports
+      problems it is supposed to catch.
+    </p>
+
+    <p>
+      If <code>rake canary</code> ever passes this page as clean, the checker
+      has stopped extracting elements and every green <code>rake test</code> run
+      is meaningless. See the <code>async</code> pin in the <code>Gemfile</code>.
+    </p>
+
+    <!-- A link to a page that does not exist. -->
+    <a href="/this-page-does-not-exist">dead internal link</a>
+
+    <!-- An image whose file does not exist. -->
+    <img src="/this-image-does-not-exist.png" alt="missing image">
+  </body>
+</html>
