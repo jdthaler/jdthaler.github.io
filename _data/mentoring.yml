@@ -16,10 +16,10 @@ current_categories:
   - name: Ph.D. Students
     blocks:
       - phd_students
-  - name: B.S. and M.Eng. Students
-    blocks:
-      - bs_students
-      - meng_students
+#  - name: B.S. and M.Eng. Students
+#    blocks:
+#      - bs_students
+#      - meng_students
 #  - name: Visitors
 #    blocks:
 #      - visitors
@@ -435,7 +435,6 @@ phd_students:
     image: /images/benevedes.jpeg
     date: 2026
     thesis:  "Building Models and Model Building: Machine Learning Uncertainties for Collider Physics and Dynamical Solutions to the Hierarchy Problem"
-    current: true
     after:
       - title: Postdoctoral Researcher
         org: Georgia Tech
@@ -646,7 +645,6 @@ bs_students:
     independent:  IAP 2025, Summer 2025
     urop:  Spring 2025, Fall 2025, Spring 2026
     date:  2028
-    current: true
     updated: 2025
 
   - name: Nipun Dour
