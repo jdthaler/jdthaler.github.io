@@ -464,7 +464,7 @@ boost:
 
   - job:  Advisory Committee
     issue: "Boost 2015"
-    issue_url:  https://boost2015.uchicago.edu
+    issue_url:  https://indico.cern.ch/event/382815/
     org: Chicago
     dates: August 2015
 

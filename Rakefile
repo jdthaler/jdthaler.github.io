@@ -30,7 +30,9 @@ def proofer_options
       %r{^https?://v1\.jthaler\.net},
       %r{^https?://v2\.jthaler\.net},
       %r{^https?://wedding\.jthaler\.net},
-      # Host appears to be gone entirely; ignored pending a content decision.
+      # The site itself is live at https://www.caricesarotti.com, but the bare
+      # domain no longer resolves and the two files linked from faq.md are gone
+      # (404 under www). Ignored pending a content decision on those two links.
       %r{^https?://caricesarotti\.com},
     ],
   }

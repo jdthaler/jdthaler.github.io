@@ -28,7 +28,7 @@ Thank you for your interest in my research!
 
 Due to the large volume of inquiries I receive, I can't always provide individual responses.
 
-Please visit http://jthaler.net/join for infomation about potential ways to join my research group.
+Please visit https://jthaler.net/join for information about potential ways to join my research group.
 ```
 
 If you want to get a more detailed response, then you need to make a more personal connection, at minimum by including my name in your email.  Or saying that a trusted advisor (include your advisor's name!) recommended that you contact me.  Or that you are interested in a specific paper of mine (include the reference!).  Even then, my inbox is overflowing with inquiries, so my system might still send the stock message.
@@ -54,7 +54,7 @@ If I am on your PhD thesis committee and you make one of the above bold statemen
 <details markdown=1>
 <summary><b>How do you come up with your acronyms?</b></summary>
 
-You mean "[ABRACADABRA](https://abracadabra.mit.edu/)" (A Broadband or Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus)?  Or "[DarkLight](https://dmtpc.mit.edu/DarkLight/)" (Detecting A Resonance Kinematically with Leptons Incident on a Gaseous Hydrogen Target)?  Or the infamous "[P...B...S...](https://arxiv.org/abs/1712.07124)" (Polynomial... Basis... for... Substructure..., see footnote 10), which would likely best the competition at [DOOFAAS](https://www.cfa.harvard.edu/~gpetitpas/Links/Astroacro.html)?  I write down a sentence describing the idea, take the first letters of (most) of the words, and watch my collaborators cringe.
+You mean "[ABRACADABRA](https://abracadabra.mit.edu/)" (A Broadband or Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus)?  Or "[DarkLight](https://bateslab.mit.edu/projects/darklight/)" (Detecting A Resonance Kinematically with Leptons Incident on a Gaseous Hydrogen Target)?  Or the infamous "[P...B...S...](https://arxiv.org/abs/1712.07124)" (Polynomial... Basis... for... Substructure..., see footnote 10), which would likely best the competition at [DOOFAAS](https://www.cfa.harvard.edu/~gpetitpas/Links/Astroacro.html)?  I write down a sentence describing the idea, take the first letters of (most) of the words, and watch my collaborators cringe.
 </details>
 
 
