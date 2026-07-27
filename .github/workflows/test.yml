@@ -39,9 +39,12 @@ jobs:
 
       - uses: ruby/setup-ruby@v1
         with:
-          # Matches the Ruby used locally. github-pages pins Jekyll 3.10, which
-          # is not happy on much newer Rubies.
-          ruby-version: '3.1'
+          # Read from .ruby-version so CI and a local machine cannot drift apart:
+          # rbenv, rvm, chruby and this action all read that one file. It was
+          # '3.1' hardcoded here, which happened to match the local 3.1.6 by
+          # coincidence rather than by construction. github-pages pins Jekyll
+          # 3.10, which is not happy on much newer Rubies.
+          ruby-version: .ruby-version
           bundler-cache: true
 
       - name: rake test

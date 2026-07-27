@@ -30,11 +30,12 @@ All work branches are merged into `main`: `fix-rake-test`, `fix-talk-urls`, `ext
 | press photos | **added** — full-resolution uncropped originals offered on /press alongside the existing crops, whose URLs are unchanged | `a4691d7` |
 | image credits | **extended** — each credit links to the photographer's original; JT credited for three of his own | `3e16bff`, `81fc624`, `d17219f` |
 | #9 no link previews when shared | **fixed** — Open Graph and Twitter Card tags; `url` set explicitly, which also closes part of #11 | — |
+| #11 config leftovers | **fixed** — `repository` placeholder corrected, `.ruby-version` added, dead excludes dropped | — |
 | maintainability pass | **done** — duplicated markup extracted, two pages moved to `_data/`, dead theme files removed; net −293/+173 lines | `c1bb3f6`…`9eb6f00` |
 
 `rake test` now runs three checks in order — canary, talk paths, then links — and passes cleanly. It also passes with no locale set and with `LC_ALL=C`.
 
-Items **10, 11 remain open** (#11 partly: `url` is now set), plus item **1b** (left open by decision), the history half of **#5**, and content items **C1, C2**.
+Item **#10 is the only original item still open**, plus item **1b** (left open by decision), the history half of **#5**, and content items **C1, C2**.
 
 ---
 
@@ -440,13 +441,61 @@ Two things worth knowing about the result:
 
 - The `github-pages` gem pins **Jekyll 3.10**; Jekyll 4.x has been current for years. GitHub Pages' native build won't move, so upgrading means switching to a GitHub Actions build — real work, real benefit (faster builds, modern Sass, unrestricted plugins), and a good candidate for "once I'm comfortable."
 - The theme is a **vendored 2019-era fork** with no upstream link, so it receives no fixes. That's a deliberate and reasonable trade — it's why your customizations survive — but worth naming.
-- `_data/variables.yml` loads **jQuery 3.3.1** and **FontAwesome 5.15.1** from third-party CDNs (`unpkg.com`, and `bootcdn.cn` in the unused `bootcdn` profile) with no Subresource Integrity hashes. Self-hosting both would remove a third-party dependency from every page load, drop two DNS lookups, and eliminate a supply-chain vector.
-- ~30 `http://` (non-HTTPS) links remain in content, including several that now redirect (`whereis.mit.edu`, `ctp.mit.edu`, `www.linkedin.com`). A fixed link checker (#2) would surface these automatically.
+- `_data/variables.yml` loads **jQuery 3.3.1** and **FontAwesome 5.15.1** from third-party CDNs, with **zero** `integrity=` attributes anywhere in the built site. Two details matter for whoever fixes this:
+  - The FontAwesome stylesheet is a normal `<link>` and could take an SRI hash today. **jQuery cannot**: it is not a `<script src>` at all. The theme's `Lazyload` helper injects it at runtime from a URL baked into inline JS (`_includes/scripts/variables.html`, used by ~15 script includes), so there is no tag to put an attribute on. Self-hosting is the fix that covers both.
+  - jQuery 3.3.1 predates the 3.4.0 prototype-pollution fix (CVE-2019-11358) and the two 3.5.0 `htmlPrefilter` XSS fixes (CVE-2020-11022, CVE-2020-11023). Exploitability on a static site with no user-supplied HTML is low, but any scanner pointed at jthaler.net will report them.
+  - Chart.js, MathJax, Mermaid and Gitalk are configured in the same file but never load; those features are all off.
+- `http://` links: **this bullet's "~30" is long out of date.** The bulk went in `3bbe2e0`, and the three MIT ones went with #11. Each survivor was checked individually and is http-only for a reason:
+  - **`v1.jthaler.net`, `v2.jthaler.net`, `wedding.jthaler.net`** (7 uses) — JT's own subdomains, all serving a **self-signed certificate**, so https fails in a browser rather than merely redirecting. These cannot be swapped from this repo; they need a real certificate wherever they are hosted. This is the only remaining item here with an owner who can fix it.
+  - **`www.physicsmeetsml.org`** (nothing listening on 443) and **`video.albanova.se`** (443 times out) — other people's hosts, genuinely http-only.
+  - **`caricesarotti.com`** (4 uses) — dead, and already tracked as C1.
+  - **`http://jekyllrb.com`** in the theme footer, and one verbatim `http://jthaler.net/join` inside a code block that JT asked to leave as written.
+  - The 16 hits on `http://www.w3.org` and `http://schema.org` are **XML namespace identifiers, not links** — never fetched, and changing them would be wrong.
 
-### 11. Config leftovers
+### 11. ~~Config leftovers~~ — **fixed**
 
-Cosmetic, but they'll confuse future-you or any tool reading the repo:
-`repository: user_name/repo_name` is still the theme's placeholder; ~~`url:` is blank~~ (**now set explicitly** for the Open Graph tags, see #9); and `Dockerfile.dev`, `package.json`, and `jekyll-text-theme.gemspec` are unused theme scaffolding. There's no `.ruby-version`, so the build's Ruby version is whatever happens to be on PATH.
+Three of the five were already gone before this pass: `url:` was set for the
+Open Graph tags (#9), and `Dockerfile.dev`, `package.json`,
+`jekyll-text-theme.gemspec`, `CHANGELOG.md` and `HOW_TO_RELEASE.md` were deleted
+in `9eb6f00` during the maintainability pass. The rest:
+
+- **`repository: user_name/repo_name` was armed, not merely cosmetic.** It feeds
+  the "Improve this page" link in `_includes/article-header.html`, gated on
+  `show_edit_on_github`, which `_config.yml` enables only for `type: posts`.
+  There are no posts, so the placeholder reached zero built pages and nothing was
+  visibly broken — but the first post ever written would have shipped a link to
+  `github.com/user_name/repo_name`. Now `jdthaler/jdthaler.github.io`.
+  `repository_tree` was `master`, a branch this repo does not have; it is now
+  `main`, which is where an editor should land. `live` is a merge target, not a
+  place to edit.
+- **`.ruby-version` added**, holding `3.1.6`. CI hardcoded `'3.1'` and the local
+  machine happened to run 3.1.6 — agreement by coincidence, not construction.
+  `ruby/setup-ruby` now reads the file, as rbenv, rvm, chruby and mise all would.
+  None of those is installed locally, so the file is inert on JT's machine today;
+  it is the single place to change the pin, and it stops a future Ruby upgrade
+  from passing locally and failing in CI.
+- **Five dead `exclude:` entries dropped** — `CHANGELOG.md`, `HOW_TO_RELEASE.md`,
+  `README-*.md`, `/docs`, `/screenshots` all matched nothing.
+
+**Worth knowing, and the reason two apparently-redundant entries stayed:**
+setting `exclude:` in `_config.yml` **replaces** Jekyll's built-in exclude list
+rather than adding to it. Verified by building with `/vendor` removed and a file
+planted in `vendor/bundle/` — it was copied straight into `_site`. So `Gemfile`,
+`Gemfile.lock`, `/node_modules` and `/vendor` must stay listed even though Jekyll
+excludes them by default: they are excluded *only* because this list repeats
+them. `/vendor` is the one that would actually bite, and it would bite in CI
+rather than locally, since `ruby/setup-ruby`'s `bundler-cache` installs every gem
+into `vendor/bundle`. A comment in `_config.yml` records this.
+
+Three MIT links were fixed alongside this, since they were the same kind of
+small correctness debt. `ctp.mit.edu` (3 uses, including `_data/bio.yml`) and
+`www-ctp.mit.edu/lhc/` (1, a talk `event_url`) serve nothing on 443 but redirect
+over http to the CTP-LI page on `physics.mit.edu`; `www2.lns.mit.edu` (1, a PDF
+in faq.md) has a certificate that does not match its own hostname and redirects
+to the same path on `www.lns.mit.edu`. All three now link the https destination
+directly, verified 200. Each was already reaching a working page — what changes
+is that the site no longer depends on a plaintext hop and someone else's
+redirect surviving.
 
 ---
 
@@ -461,7 +510,7 @@ Deliberately sequenced so each step makes the next one safer:
 5. ~~**Decide on `/hidden`** (#1).~~ **Page done** — `aae6087`. The repo-side exposure (1b) is deliberately left open.
 6. **Delete the local `_site/`** (#5, first half). Zero risk, 4.1 GB back. **Next.**
 7. ~~Then the low-risk polish — alt text (#7 and C4) and image resizing (#8)~~ **done**. Remaining: meta tags (#9).
-8. ~~Meta tags (#9).~~ **Done.** Remaining from the original list: #10 (Jekyll 4 / vendored theme) and the rest of #11.
+8. ~~Meta tags (#9).~~ **Done.** ~~Config leftovers (#11).~~ **Done.** Remaining from the original list: **#10 only** — Jekyll 4 / the vendored theme / self-hosting jQuery and FontAwesome.
 9. A maintainability pass has also been done — see that section. It is not one of the numbered items; it came from a later survey for duplicated markup and page content better held as data.
 8. Leave the Jekyll 4 migration, the history rewrite, and the talks-hosting decision until the workflow feels routine. None of them is urgent.
 
