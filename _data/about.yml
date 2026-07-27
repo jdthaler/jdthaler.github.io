@@ -9,7 +9,7 @@ address:
   org:  MIT Center for Theoretical Physics
   street:  77 Massachusetts Avenue
   office:  6-300
-  office_url:  http://whereis.mit.edu/?go=6
+  office_url:  https://whereis.mit.edu/?go=6
   city:  Cambridge
   state:  MA
   zip:  02139
@@ -40,7 +40,7 @@ education:
         month:    June
         year:     2006
         thesis:   Symmetry Breaking at the Energy Frontier
-        thesis_url:  http://inspirehep.net/record/738871
+        thesis_url:  https://inspirehep.net/record/738871
         priority: 10
       - type:     A.M.
         field:    Physics

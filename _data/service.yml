@@ -360,13 +360,13 @@ hepap:
     - job:       HEPAP Presentation
       job_url:   https://science.osti.gov/hep/hepap/Meetings/202012
       issue:     The NSF AI Institute for Artificial Intelligence and Fundamental Interactions
-      issue_url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf
+      issue_url: talks/jthaler_2020_12_IAIFI_HEPAP_Overview.pdf
       dates:     December 2020
       
     - job:       HEPAP Presentation
       job_url:   https://science.osti.gov/hep/hepap/Meetings/201905
       issue:     The High Energy Physics Landscape in 2019
-      issue_url: https://github.com/jdthaler/jdthaler.github.io/raw/main/talks/jthaler_2019_05_HEPAP.pdf
+      issue_url: talks/jthaler_2019_05_HEPAP.pdf
       dates:     May 2019
 
 ml4jets:
@@ -464,7 +464,7 @@ boost:
 
   - job:  Advisory Committee
     issue: "Boost 2015"
-    issue_url:  http://boost2015.uchicago.edu
+    issue_url:  https://indico.cern.ch/event/382815/
     org: Chicago
     dates: August 2015
 
@@ -482,7 +482,7 @@ boost:
 
   - job:  Advisory Committee
     issue: "Boost 2012"
-    issue_url: http://ific.uv.es/boost2012/
+    issue_url: https://ific.uv.es/boost2012/
     org: Valencia
     dates: July 2012
 

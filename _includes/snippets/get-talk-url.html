@@ -1,0 +1,34 @@
+{%- comment -%}
+Resolves a `url:` value from _data (talks.yml, public.yml, service.yml) into the
+URL that should actually be linked.
+
+Talk PDFs live in Git LFS, which GitHub Pages does not resolve, so anything
+under talks/ is served from site.talks_base_url instead of from this site.
+Everything else passes through untouched: absolute URLs, and site-served paths
+such as /pdfs/... which are not in LFS.
+
+Keying on the talks/ directory mirrors the `talks/*.pdf` rule in .gitattributes
+rather than restating it per entry, and it accepts both `talks/x.pdf` and
+`/talks/x.pdf` so the two spellings in talks.yml resolve identically.
+{%- endcomment -%}
+{%- assign _url = include.url -%}
+{%- assign _pre7 = _url | slice: 0, 7 -%}
+{%- assign _pre8 = _url | slice: 0, 8 -%}
+{%- if _pre7 == 'http://' or _pre8 == 'https://' -%}
+  {%- assign __return = _url -%}
+{%- else -%}
+  {%- comment -%} Strip a leading slash only; remove_first would eat the separator. {%- endcomment -%}
+  {%- assign _first = _url | slice: 0 -%}
+  {%- if _first == '/' -%}
+    {%- assign _len = _url | size -%}
+    {%- assign _path = _url | slice: 1, _len -%}
+  {%- else -%}
+    {%- assign _path = _url -%}
+  {%- endif -%}
+  {%- assign _dir = _path | split: '/' | first -%}
+  {%- if _dir == 'talks' -%}
+    {%- assign __return = _path | prepend: site.talks_base_url -%}
+  {%- else -%}
+    {%- assign __return = _url -%}
+  {%- endif -%}
+{%- endif -%}

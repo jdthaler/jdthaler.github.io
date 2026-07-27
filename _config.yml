@@ -69,6 +69,16 @@ paths:
   rss     : # "/feed.xml" (default)
 
 
+## => Talk PDFs
+##############################
+# Talk PDFs are stored in Git LFS, which GitHub Pages does not resolve -- it
+# serves the pointer file instead of the PDF -- so anything under talks/ is
+# linked to GitHub's raw endpoint rather than to this site. If talks ever move
+# out of LFS, set this to "/" and every talk link on the site follows.
+# Applied by _includes/snippets/get-talk-url.html.
+talks_base_url: https://github.com/jdthaler/jdthaler.github.io/raw/main/
+
+
 ## => Post
 ##############################
 ## excerpt

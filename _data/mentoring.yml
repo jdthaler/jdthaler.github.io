@@ -104,7 +104,7 @@ postdocs:
    updated: 2025
 
  - name: Cari Cesarotti
-   url: http://caricesarotti.com/
+   url: https://www.caricesarotti.com/
    image: /images/cesarotti.jpg
    email: ccesar@mit.edu
    at:
@@ -1004,7 +1004,7 @@ visitors:
 
   - name: Anne Galda
     email: agalda@uni-mainz.de
-    url:  http://www.linkedin.com/in/anne-mareike-galda-334247347
+    url:  https://www.linkedin.com/in/anne-mareike-galda-334247347
     image: /images/galda.png
     program:  Fulbright Scholarship
     project:  "Unveiling the Discovery Potential for ALPs using Machine Learning"
@@ -1154,7 +1154,7 @@ visitors:
     updated: 2024
 
   - name: Rahim Leung
-    url:  http://linkedin.com/in/rahim-leung-8a1388125
+    url:  https://linkedin.com/in/rahim-leung-8a1388125
     email: rahimleung@gmail.com
     program: International Research Opportunities Programme
     dates: Summer 2017

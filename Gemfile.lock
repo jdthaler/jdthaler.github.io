@@ -17,10 +17,10 @@ GEM
     addressable (2.8.9)
       public_suffix (>= 2.0.2, < 8.0)
     afm (0.2.2)
-    async (2.24.0)
+    async (2.22.0)
       console (~> 1.29)
       fiber-annotation
-      io-event (~> 1.9)
+      io-event (~> 1.7)
       metrics (~> 0.12)
       traces (~> 0.15)
     base64 (0.3.0)
@@ -319,6 +319,7 @@ PLATFORMS
   arm64-darwin
 
 DEPENDENCIES
+  async (< 2.23)
   csv
   github-pages
   html-proofer
