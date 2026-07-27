@@ -50,14 +50,45 @@ Left exactly as-is rather than repointed at the homepage, which would change wha
 
 Item #7 covers the mechanical part — 151 of 164 images carry `title` where they need `alt`. The descriptions themselves are an authoring task. The existing `title` values are a reasonable starting point for many of them.
 
-### C5. External links have never been checked
+### C5. ~~External links have never been checked~~ — **done, findings below**
 
-`:disable_external => true` has always been set, and the site has **1,225 unique external URLs**. Everything on this list surfaced incidentally while probing the 32 `http://` links — roughly 3% of the total. A one-off run with external checking enabled would give the real inventory, and is worth doing **before** wiring up CI (#3), so the workflow does not silently adopt whatever is currently broken as its baseline.
+The scan has now run, via the new `rake external` task (branch `external-link-check`). It checked 1,026 external links across ~250 hosts and needed tuning before it was worth reading: the first pass reported **518 failures, of which about a dozen were real**. 350 were timeouts caused by 50 concurrent requests, 62 against `doi.org` alone; another 128 were `doi.org` 403s. At concurrency 10 with longer timeouts and a browser user-agent, that dropped to **86 failures with 1 timeout**.
 
-Two things learned while probing, worth carrying into that run:
+The lasting lesson: on this site a raw failure count from an external scan is mostly noise about other people's infrastructure. Always re-check by hand before editing.
 
-- **`HEAD` requests give false negatives.** `docusign.mit.edu` returns 500 to `HEAD` but 200 to `GET`. Anything the scan flags should be re-checked with `GET` before being called dead.
-- **Bot-blocking is not breakage.** `doi.org`, LinkedIn (status 999), and some university personal pages refuse automated requests but work fine in a browser. Expect a batch of false positives to triage into the ignore list.
+**Genuinely dead — 13 pages, each verified 404 with a browser user-agent:**
+
+| link | source |
+|---|---|
+| `ir.mit.edu/harold-e-edgerton-faculty-achievement-award` | [_data/bio.yml:154](_data/bio.yml:154) |
+| `physics.mit.edu/faculty/faculty-awards/` | [_data/bio.yml:160](_data/bio.yml:160) |
+| `facultygovernance.mit.edu/rules-and-regulations#2-64` | [faq.md:174](faq.md:174) |
+| `mlfoundry.com/ai-for-science-symposium` | [_data/talks.yml:2894](_data/talks.yml:2894) |
+| `indico.desy.de/indico/event/25341/` | [_data/talks.yml:2467](_data/talks.yml:2467) |
+| `indico.desy.de/indico/event/18951/overview` | [_data/talks.yml:648](_data/talks.yml:648) |
+| `nsf.gov/news/special_reports/announcements/082620.jsp` | [_data/news.yml:393](_data/news.yml:393) |
+| `nsf-gov-resources.nsf.gov/2023-09/AI_Institutes_Hill_Day_Booklet.pdf` | [_data/public.yml:155](_data/public.yml:155) |
+| `qmul.ac.uk/…/profiles/ehirst.html` | [_data/mentoring.yml:1142](_data/mentoring.yml:1142) |
+| `miller.berkeley.edu/images/newsletters/2007_fall.pdf` | [_data/news.yml:473](_data/news.yml:473) |
+| `www.1014.nyc/events/consequences-of-ai` | [_data/public.yml:122](_data/public.yml:122) |
+| `www.firstprinciples.org/article/in-conversation-jesse-thaler` | [_data/news.yml:361](_data/news.yml:361) |
+| `exeter.edu/community/student-organizations/wpea` | [personal.md:124](personal.md:124) |
+
+**Hosts that no longer resolve — 3.** `briandnord.com` ([_data/mentoring.yml:1060](_data/mentoring.yml:1060)), `nilai.cc` ([_data/mentoring.yml:609](_data/mentoring.yml:609)), `mitgenerativeaiweek.mit.edu/agenda` ([_data/talks.yml:2980](_data/talks.yml:2980)). Two are personal homepages, same situation as C1.
+
+**Also flagged, needing a look:** `ai.facebook.com/blog/…` returns 400 ([_data/news.yml:166](_data/news.yml:166)) and `snowmass21.org/theory/phenomenology` returns 301 ([_data/service.yml:515](_data/service.yml:515)).
+
+**Fixed as part of the scan:** one malformed link — commit `5a468d3`, [cv.md:384](cv.md:384), where `{:target="_blank"}` sat inside the link parentheses and so became part of the href. Nothing else on this list has been changed; C6 below was found but not fixed.
+
+**Not worth chasing:** 47 of the 86 are 403s from publisher, journal and conference hosts — `symmetrymagazine.org`, `pubs.aip.org`, `indico.fnal.gov`, `aps.org`, `phys.org`, `cacm.acm.org`, `pnas.org`, `bloomberg.com` among them. These 403 even a browser user-agent from the command line but load fine in a real browser, so they are bot protection rather than breakage. They stay in the report as a permanent tax on reading it.
+
+### C6. A referenced talk PDF does not exist
+
+[_data/talks.yml:1347](_data/talks.yml:1347) — "Basics of Axion Detection", Reece Group Meeting, Harvard, March 2019 — points at `talks/jthaler_2019_03_18_Axion_Detection.pdf`, which is absent from disk, from git, and from `origin/main`. That link has been dead on the live site.
+
+Either add the PDF or drop the `url:` from the entry, leaving the talk listed without a link.
+
+**This exposes a structural gap worth closing.** Because talk links resolve through `site.talks_base_url` to `github.com/…/raw/main/`, they are *external* URLs, so `rake test`'s internal check cannot see them by construction. It took a multi-minute network scan to discover a missing local file. A local existence check over the 410 talk paths in `_data/` runs instantly and needs no network — I verified by hand that exactly 1 of 410 is missing. Adding that to `rake test` would catch this class of bug on every push.
 
 ---
 
@@ -242,7 +273,7 @@ Deliberately sequenced so each step makes the next one safer:
 
 1. ~~**Fix `rake test`** (#2), including the deliberately-broken canary fixture.~~ **Done** — `97e230e`.
 2. **Fix the locale issue** (#6) — one line, and CI needs it. **Next.**
-3. **Run one external link scan** (C5) before CI, so the workflow starts from a known baseline rather than adopting current breakage as normal.
+3. ~~**Run one external link scan** (C5).~~ **Done** — `rake external` on branch `external-link-check`; findings in C5/C6 above.
 4. **Add build + link-check CI** (#3). Now every change is checked before it's live.
 5. **Decide on `/hidden`** (#1). Small change, but it's a judgment call about other people's data, so it's yours to make.
 6. **Delete the local `_site/`** (#5, first half). Zero risk, 4.1 GB back.
