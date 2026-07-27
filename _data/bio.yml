@@ -24,6 +24,13 @@ contact_top:
   image: /images/6-300.jpg
   hover: "6-300 (a.k.a. 8-323)"
   alt: Open office door with nameplates reading 6-300, Prof. Jesse Thaler, IAIFI, and CTP
+  image_credit: Jesse Thaler
+
+personal_top:
+  image: /images/stamp_personal.jpg
+  hover: Jesse Thaler
+  alt: Jesse Thaler in sunglasses and a cap on a hike, with a mountain lake, pine forest and snow-capped peaks behind him
+  image_credit: Jesse Thaler
 
 positions:
 

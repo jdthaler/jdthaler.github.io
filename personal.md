@@ -5,9 +5,10 @@ aside:
   toc: true
 permalink: personal/
 ---
+{% assign topimage = site.data.bio.personal_top %}
 <center>
-<a href="/images/stamp_personal.jpg">
-<img class="image-h image-h--xl rounded" src="/images/preview/stamp_personal.jpg" alt="Jesse Thaler in sunglasses and a cap on a hike, with a mountain lake, pine forest and snow-capped peaks behind him" title="Jesse Thaler"/>
+<a href="{{topimage.image}}">
+<img class="image-h image-h--xl rounded" src="{% include snippets/get-preview-url.html url=topimage.image %}{{__return}}" alt="{{topimage.alt}}" title="{{topimage.hover}}"/>
 </a>
 </center>
 

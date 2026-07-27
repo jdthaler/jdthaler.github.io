@@ -59,13 +59,19 @@ Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Profe
 {% assign frontimage = site.data.bio.index_top %}
 {% assign aboutimage = site.data.bio.about_top %}
 {% assign publicimage = site.data.public.public_top %}
+{% assign contactimage = site.data.bio.contact_top %}
+{% assign researchimage = site.data.research.research_top %}
+{% assign personalimage = site.data.bio.personal_top %}
 
-  * [![{{frontimage.hover}}]({% include snippets/get-preview-url.html url=frontimage.image %}{{__return}}){:.image--xs}]({{frontimage.image}}) Front Page: [{{frontimage.image_credit}}]({{frontimage.image_url}})
-  * [![{{aboutimage.hover}}]({% include snippets/get-preview-url.html url=aboutimage.image %}{{__return}}){:.image--xs}]({{aboutimage.image}}) About Page: [{{aboutimage.image_credit}}]({{aboutimage.image_url}})
+  * [![{{frontimage.hover}}]({% include snippets/get-preview-url.html url=frontimage.image %}{{__return}}){:.image--xs}]({{frontimage.image}}) Front Page: {% if frontimage.image_url %}[{{frontimage.image_credit}}]({{frontimage.image_url}}){% else %}{{frontimage.image_credit}}{% endif %}
+  * [![{{aboutimage.hover}}]({% include snippets/get-preview-url.html url=aboutimage.image %}{{__return}}){:.image--xs}]({{aboutimage.image}}) About Page: {% if aboutimage.image_url %}[{{aboutimage.image_credit}}]({{aboutimage.image_url}}){% else %}{{aboutimage.image_credit}}{% endif %}
+  * [![{{contactimage.hover}}]({% include snippets/get-preview-url.html url=contactimage.image %}{{__return}}){:.image--xs}]({{contactimage.image}}) Contact Page: {% if contactimage.image_url %}[{{contactimage.image_credit}}]({{contactimage.image_url}}){% else %}{{contactimage.image_credit}}{% endif %}
+  * [![{{personalimage.hover}}]({% include snippets/get-preview-url.html url=personalimage.image %}{{__return}}){:.image--xs}]({{personalimage.image}}) Personal Page: {% if personalimage.image_url %}[{{personalimage.image_credit}}]({{personalimage.image_url}}){% else %}{{personalimage.image_credit}}{% endif %}
+  * [![{{researchimage.hover}}]({% include snippets/get-preview-url.html url=researchimage.image %}{{__return}}){:.image--xs}]({{researchimage.image}}) Research Page: {% if researchimage.image_url %}[{{researchimage.image_credit}}]({{researchimage.image_url}}){% else %}{{researchimage.image_credit}}{% endif %}
 {% for topic in site.data.research.topics -%}
-  * [![{{topic.title}}]({% include snippets/get-preview-url.html url=topic.image %}{{__return}}){:.image--xs}]({{topic.image}}) Research, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
+  * [![{{topic.title}}]({% include snippets/get-preview-url.html url=topic.image %}{{__return}}){:.image--xs}]({{topic.image}}) Research, {{topic.title}}: {% if topic.image_url %}[{{topic.image_credit}}]({{topic.image_url}}){% else %}{{topic.image_credit}}{% endif %}
 {% endfor -%}
-  * [![{{publicimage.hover}}]({% include snippets/get-preview-url.html url=publicimage.image %}{{__return}}){:.image--xs}]({{publicimage.image}}) Public Engagement Page: [{{publicimage.image_credit}}]({{publicimage.image_url}})
+  * [![{{publicimage.hover}}]({% include snippets/get-preview-url.html url=publicimage.image %}{{__return}}){:.image--xs}]({{publicimage.image}}) Public Engagement Page: {% if publicimage.image_url %}[{{publicimage.image_credit}}]({{publicimage.image_url}}){% else %}{{publicimage.image_credit}}{% endif %}
 {% for topic in site.data.public.topics -%}
-  * [![{{topic.title}}]({% include snippets/get-preview-url.html url=topic.image %}{{__return}}){:.image--xs}]({{topic.image}}) Public Engagement, {{topic.title}}: [{{topic.image_credit}}]({{topic.image_url}})
+  * [![{{topic.title}}]({% include snippets/get-preview-url.html url=topic.image %}{{__return}}){:.image--xs}]({{topic.image}}) Public Engagement, {{topic.title}}: {% if topic.image_url %}[{{topic.image_credit}}]({{topic.image_url}}){% else %}{{topic.image_credit}}{% endif %}
 {% endfor -%}
