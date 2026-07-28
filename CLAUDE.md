@@ -50,6 +50,10 @@ diff -r /tmp/before /tmp/after
 For a pure refactor the correct result is **byte-identical output**. For a change
 with intended effects, every differing line should be one you can name in advance.
 
+One built-in exception: `news.md` renders `{{ "now" | date }}` as a "Last updated"
+line, so `news/index.html` differs between two builds taken on different days.
+That one line is expected noise; anything else is not.
+
 ### Liquid traps that have actually bitten here
 
 - A **trailing newline in an include** becomes a blank line between list items,
@@ -142,11 +146,12 @@ new addresses in tracked files, and nothing that aggregates them.
 
 ## Known oddities
 
-- `aaron/`, `ania/`, `dedushka/` and `design/` are 310-byte `meta refresh` stubs
-  preserving pre-Jekyll URLs. **`design/` is broken** — it points at
-  `design.html`, deleted long ago; the portfolio now renders from
-  `_data/design.yml` inside `personal.md`. html-proofer does not follow
-  meta-refresh, so `rake test` will never catch this class.
+- `aaron/`, `ania/` and `dedushka/` are 310-byte `meta refresh` stubs preserving
+  pre-Jekyll URLs, pointing at `/aaron.html` and friends. `design/` had a fourth
+  whose target had been deleted, so the old URL bounced to a 404; it was removed
+  on 28 July 2026 and `/design/` now 404s directly. The portfolio renders from
+  `_data/design.yml` inside `personal.md`. **html-proofer does not follow
+  meta-refresh**, so `rake test` will never check the three that remain.
 - `sywt/index.html` is a genuine standalone 747 KB page, linked from nowhere and
   reachable only by direct URL.
 - `_data/variables.yml` loads jQuery and FontAwesome from CDNs with no SRI.

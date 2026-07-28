@@ -23,13 +23,6 @@ New idea
 Carried over from the July 2026 review (docs/review-2026-07.md), which is
 now closed.  Full reasoning for each is in that document.
 
-Broken:
--- /design/ redirects to /design.html, which no longer exists, so the old
-   URL lands on a 404.  Either point the stub at /personal (where the
-   portfolio now renders from _data/design.yml) or delete design/index.html
-   and let the URL 404 honestly.  rake test cannot catch this: html-proofer
-   does not follow meta-refresh.
-
 FAQ:
 -- Two links to caricesarotti.com files are dead (the site itself is fine,
    these two PDFs are gone).  Was C1 in the review.
