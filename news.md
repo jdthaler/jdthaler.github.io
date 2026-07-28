@@ -22,7 +22,11 @@ Press coverage and updates related to me and my research group.  Last updated:  
 
 _Press coverage in the past 24 months:_
 
-{% assign news_list = site.data.news.profiles | concat: site.data.news.awards | concat: site.data.news.perspectives | concat: site.data.news.group_news %}
+{% assign news_list = '' | split: '' %}
+
+{% for category in site.data.news.categories %}
+{% assign news_list = news_list | concat: site.data.news[category.key] %}
+{% endfor %}
 
 {% assign sorted_news_list = news_list | sort: "date" | reverse %} 
 
@@ -31,16 +35,7 @@ _Press coverage in the past 24 months:_
 {% assign itemdate = news.date | date: "%s" | minus: 0 %}
 {% if itemdate < two_years_ago %}{% break %}{% endif %}
 
-<div class="item"> 
-  <div class="item__image" class="m-2">
-    <a href="{{news.url}}">
-      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
-    </a>
-  </div>
-  <div class="item__content" markdown="1">
-  * {% include cv/news_item.html news = news %}
-  </div> 
-</div>
+{% include news_card.html news = news %}
 {% endfor %}
 
 
@@ -60,7 +55,7 @@ _Papers posted to the arXiv from the past 12 months:_
 <div class="item"> 
   <div class="item__image" class="m-2">
     <a href="https://arxiv.org/abs/{{paper.arxiv}}">
-      {%- assign _img = paper.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{paper.title}}" title="{{paper.title}}"/>
+      {%- assign _img = paper.image | default: site.data.news.default_image -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{paper.title}}" title="{{paper.title}}"/>
     </a>
   </div>
   <div class="item__content" markdown="1">
@@ -94,77 +89,13 @@ _Talks and panels from the past 12 months:_
 
 ## News Archive
 
+{% for category in site.data.news.categories -%}
 <details markdown=1>
-<summary><b>Profiles and Highlights</b></summary>
+<summary><b>{{category.title}}</b></summary>
 
-{% for news in site.data.news.profiles %}
-<div class="item">
-  <div class="item__image" class="m-2">
-    <a href="{{news.url}}">
-      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
-    </a>
-  </div>
-  <div class="item__content" markdown="1">
-  * {% include cv/news_item.html news = news %}
-  </div>
-</div>
+{% for news in site.data.news[category.key] %}
+{% include news_card.html news = news %}
 {% endfor %}
 
 </details>
-
-
-<details markdown=1>
-<summary><b>Awards and Honors</b></summary>
-
-{% for news in site.data.news.awards %}
-<div class="item">
-  <div class="item__image" class="m-2">
-    <a href="{{news.url}}">
-      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
-    </a>
-  </div>
-  <div class="item__content" markdown="1">
-  * {% include cv/news_item.html news = news %}
-  </div>
-</div>
 {% endfor %}
-
-</details>
-
-
-<details markdown=1>
-<summary><b>Quotations and Perspectives</b></summary>
-
-{% for news in site.data.news.perspectives %}
-<div class="item">
-  <div class="item__image" class="m-2">
-    <a href="{{news.url}}">
-      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
-    </a>
-  </div>
-  <div class="item__content" markdown="1">
-  * {% include cv/news_item.html news = news %}
-  </div>
-</div>
-{% endfor %}
-
-</details>
-
-
-<details markdown=1>
-<summary><b>Group Members in the News</b></summary>
-
-{% for news in site.data.news.group_news %}
-<div class="item">
-  <div class="item__image" class="m-2">
-    <a href="{{news.url}}">
-      {%- assign _img = news.image | default: "/images/bubble_chamber.jpg" -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
-    </a>
-  </div>
-  <div class="item__content" markdown="1">
-  * {% include cv/news_item.html news = news %}
-  </div>
-</div>
-{% endfor %}
-
-</details>

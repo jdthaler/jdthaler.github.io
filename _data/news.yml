@@ -1,3 +1,22 @@
+# The four blocks below, in the order they appear in the News Archive on
+# /news. news.md loops over this list rather than naming each block, the same
+# way group.md loops mentoring.alumni_categories and the events section of
+# news.md loops talks.categories. Adding a block means adding it here; there is
+# no markup to touch.
+categories:
+  - title: Profiles and Highlights
+    key: profiles
+  - title: Awards and Honors
+    key: awards
+  - title: Quotations and Perspectives
+    key: perspectives
+  - title: Group Members in the News
+    key: group_news
+
+# Stand-in thumbnail for an entry with no image of its own. Used by both lists
+# on /news -- the news cards and the recent-papers cards.
+default_image: /images/bubble_chamber.jpg
+
 group_news:
 
   - person:  Cari Cesarotti

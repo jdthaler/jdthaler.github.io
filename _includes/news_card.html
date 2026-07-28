@@ -1,0 +1,20 @@
+{%- comment -%}
+One entry in a news list: thumbnail on the left, formatted citation on the
+right. Used by both sections of news.md -- the recent-24-months list and each
+block of the News Archive -- which is why the default thumbnail and the image
+classes live here rather than being repeated per section.
+
+Ends without a trailing newline on purpose: one would separate the bullet
+inside item__content from its list and make kramdown emit a loose list.
+{%- endcomment -%}
+{%- assign news = include.news -%}
+<div class="item">
+  <div class="item__image" class="m-2">
+    <a href="{{news.url}}">
+      {%- assign _img = news.image | default: site.data.news.default_image -%}{%- include snippets/get-preview-url.html url=_img -%}<img class="image image-96--sm" style="object-fit: contain" src="{{__return}}" alt="{{news.title}}" title="{{news.title}}"/>
+    </a>
+  </div>
+  <div class="item__content" markdown="1">
+  * {% include cv/news_item.html news = news %}
+  </div>
+</div>
