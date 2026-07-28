@@ -1,0 +1,17 @@
+{%- comment -%}
+Returns in __return the Unix timestamp `include.months` months before now, for
+comparing against a date already reduced to a timestamp.
+
+The windows themselves live in _data/news.yml so that the sentence introducing
+each list on /news is generated from the same number that cuts the list off.
+
+`divided_by: 12.0` -- the `.0` is load-bearing. Liquid's divided_by truncates
+when both operands are integers, so `18 | divided_by: 12` is 1, not 1.5, and an
+18-month window would silently become 12.
+
+To compare against an arXiv `YYMM` value instead, pipe the result through
+`date: "%y%m" | minus: 0`. That only works because __return is an integer:
+Liquid's date filter reads an integer as a timestamp but leaves a float alone.
+{%- endcomment -%}
+{%- assign _seconds = include.months | divided_by: 12.0 | times: 60 | times: 60 | times: 24 | times: 365 | round -%}
+{%- assign __return = "now" | date: "%s" | minus: _seconds -%}

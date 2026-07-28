@@ -1,3 +1,32 @@
+# The four blocks below, in the order they appear in the News Archive on
+# /news. news.md loops over this list rather than naming each block, the same
+# way group.md loops mentoring.alumni_categories and the events section of
+# news.md loops talks.categories. Adding a block means adding it here; there is
+# no markup to touch.
+categories:
+  - title: Profiles and Highlights
+    key: profiles
+  - title: Awards and Honors
+    key: awards
+  - title: Quotations and Perspectives
+    key: perspectives
+  - title: Group Members in the News
+    key: group_news
+
+# How far back each of the three "recent" lists on /news reaches, in months.
+# The sentence introducing each list is generated from these numbers, so a
+# window and the prose describing it cannot drift apart -- previously the prose
+# said "past 24 months" while the code said 2.0 years, in two different idioms,
+# and nothing tied them together. Applied by _includes/snippets/months-ago.html.
+windows:
+  news: 24
+  papers: 12
+  talks: 12
+
+# Stand-in thumbnail for an entry with no image of its own. Used by both lists
+# on /news -- the news cards and the recent-papers cards.
+default_image: /images/bubble_chamber.jpg
+
 group_news:
 
   - person:  Cari Cesarotti
