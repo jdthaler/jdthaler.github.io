@@ -58,8 +58,9 @@ commit. Group by what has to change together.
 rate limits rather than on anything here, and is deliberately kept out of
 `rake test` and out of CI. Run it by hand, occasionally.
 
-CI (`.github/workflows/test.yml`) runs `rake test` on pushes to `main` and on PRs
-into `live`. It checks out with `lfs: false` on purpose — see *Talks*.
+CI (`.github/workflows/test.yml`) runs `rake test` on **every PR** — topic branch
+into `main`, and `main` into `live` — plus pushes to `main` as a backstop. It
+checks out with `lfs: false` on purpose — see *Talks*.
 
 ## Verifying template changes
 
