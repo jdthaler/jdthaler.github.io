@@ -8,11 +8,13 @@ permalink: /news/
 
 Press coverage and updates related to me and my research group.  Last updated:  {{ "now" | date: "%B %e, %Y" }}
 
-{% assign two_year_seconds = 2.0 | times: 60 | times: 60 | times: 24 | times: 365 %}
-{% assign two_years_ago = "now" | date: "%s" | minus: two_year_seconds %}
+{% assign news_months = site.data.news.windows.news %}
+{% assign papers_months = site.data.news.windows.papers %}
+{% assign talks_months = site.data.news.windows.talks %}
 
-{% assign one_year_seconds = 1.0 | times: 60 | times: 60 | times: 24 | times: 365 %}
-{% assign one_year_ago = "now" | date: "%s" | minus: one_year_seconds %}
+{% include snippets/months-ago.html months=news_months %}{% assign news_cutoff = __return %}
+{% include snippets/months-ago.html months=talks_months %}{% assign talks_cutoff = __return %}
+{% include snippets/months-ago.html months=papers_months %}{% assign papers_cutoff = __return | date: "%y%m" | minus: 0 %}
 
 
 ## Recent News Articles
@@ -20,7 +22,7 @@ Press coverage and updates related to me and my research group.  Last updated:  
 [Press Information](/press){:.button.button--secondary.button--pill.button--sm}
 [News Archive](#news-archive){:.button.button--secondary.button--pill.button--sm}
 
-_Press coverage in the past 24 months:_
+_Press coverage in the past {{ news_months }} months:_
 
 {% assign news_list = '' | split: '' %}
 
@@ -33,7 +35,7 @@ _Press coverage in the past 24 months:_
 {% for news in sorted_news_list %}
 
 {% assign itemdate = news.date | date: "%s" | minus: 0 %}
-{% if itemdate < two_years_ago %}{% break %}{% endif %}
+{% if itemdate < news_cutoff %}{% break %}{% endif %}
 
 {% include news_card.html news = news %}
 {% endfor %}
@@ -44,13 +46,11 @@ _Press coverage in the past 24 months:_
 [All Papers by Year](/cv/#publications--preprints){:.button.button--secondary.button--pill.button--sm}
 [All Papers by Topic](/research/){:.button.button--secondary.button--pill.button--sm}
 
-_Papers posted to the arXiv from the past 12 months:_
-
-{% assign one_arxiv_year_ago = "now" | date: "%y%m" | minus: 100 %}
+_Papers posted to the arXiv from the past {{ papers_months }} months:_
 
 {% for paper in site.data.papers.papers -%}
 {% assign arxivdate = paper.arxiv | minus: 0 %}
-{% if arxivdate < one_arxiv_year_ago %}{% break %}{% endif %}
+{% if arxivdate < papers_cutoff %}{% break %}{% endif %}
 
 <div class="item"> 
   <div class="item__image" class="m-2">
@@ -69,7 +69,7 @@ _Papers posted to the arXiv from the past 12 months:_
 
 [All Presentations](/cv/#presentations){:.button.button--secondary.button--pill.button--sm}
 
-_Talks and panels from the past 12 months:_
+_Talks and panels from the past {{ talks_months }} months:_
 
 {% assign talk_list = '' | split: '' %}
 
@@ -81,7 +81,7 @@ _Talks and panels from the past 12 months:_
 
 {% for talk in sorted_talk_list -%}
 {%- assign itemdate = talk.date | date: "%s" | minus: 0 -%}
-{%- if itemdate < one_year_ago -%}{%- break -%}{%- endif -%}
+{%- if itemdate < talks_cutoff -%}{%- break -%}{%- endif -%}
 {%- unless talk.title or talk.panelist -%}{%- continue -%}{%- endunless -%}
 {% include cv/talk_item.html talk = talk %}
 {%- endfor %}
