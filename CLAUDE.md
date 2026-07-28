@@ -2,11 +2,41 @@
 
 Jekyll site, hand-built over many years, on a vendored fork of the TeXt theme.
 JT's preference, stated at the outset and worth honouring: **change things slowly
-and deliberately.** Small single-purpose commits that read cleanly as diffs.
+and deliberately.**
+
+That is about the *size of the step*, not the size of the commit. Do not split a
+change into separate commits to make each one single-purpose — JT asked for that
+early on and then withdrew it on 28 July 2026, because splitting things that
+genuinely move together reads as more confusing, not less. A refactor and the
+data file it needs, or a fix and the record entry describing it, belong in one
+commit. Group by what has to change together.
 
 ## Branches and deploy
 
-- Work on `main`. Push there freely.
+- **Work on a topic branch, and hand it over as a pull request into `main`.**
+  Branch off `main`, commit there, push the branch, open the PR, and give JT the
+  URL. He reviews in GitHub's diff view. **Never push to `main` directly.**
+  Arrived at on 28 July 2026 after two earlier attempts failed: not pushing, then
+  not committing either, both on the theory that JT would read the working tree
+  with `git diff`. Diffs do not render in his harness at all, so neither helped —
+  GitHub's own view is the one that works. Do not re-derive the earlier rules
+  from first principles; they were tried.
+- **Edit files with the Edit and Write tools, not with shell heredocs.** A
+  `python3 - <<PY` or `cat > file` inside a Bash call changes the file without
+  rendering a diff in JT's harness — the edit is invisible to him even though it
+  happened. This is the main reason a change goes unreviewed, and it looks
+  identical to a working session from this side. Scripted edits are fine for
+  mechanical sweeps across many files; anything JT should read, do with Edit.
+- **`git diff` does not show new files.** After creating one, run
+  `git add -N <path>`: that records the intent to add so the file appears in the
+  diff as an addition, without staging its content. Without this a review of new
+  includes, snippets or data files silently sees nothing.
+- One PR holding everything a task touched is the normal handover, even when that
+  spans several concerns. Describe what changed and why it changed together; do
+  not carve it up to keep each piece single-purpose.
+- The site still deploys from `live` by a second PR, `main` → `live`, which JT
+  opens and merges. So a change now crosses two PRs: topic → `main`, then
+  `main` → `live`.
 - **The site deploys from `live`, and `live` is not to be touched directly.**
   `main` reaches it by pull request, which JT opens and merges. He says "live
   went live!" when it has happened.
@@ -14,7 +44,7 @@ and deliberately.** Small single-purpose commits that read cleanly as diffs.
   via the `github-pages` gem. Jekyll 4 would mean building in Actions instead —
   a real change to how the site ships, deliberately deferred.
 
-## Before pushing
+## Before handing work back
 
 1. `bundle exec rake test` — canary, then talk-PDF existence, then html-proofer
    over the built site. It must be green.
@@ -69,6 +99,13 @@ That one line is expected noise; anything else is not.
   named `size` renders as a number. `_data/design.yml` uses `height` for this
   reason.
 - `include` takes a **variable name**, not `{{ }}` interpolation or a filter chain.
+- **`divided_by` truncates when both operands are integers.** `18 | divided_by: 12`
+  is `1`, not `1.5`. The `.0` in `divided_by: 12.0` in
+  `_includes/snippets/months-ago.html` is load-bearing — without it an 18-month
+  window silently becomes 12.
+- **The `date` filter reads an integer as a Unix timestamp but leaves a float
+  alone**, returning it unchanged rather than erroring. So a computed timestamp
+  needs `| round` before `| date:` — which is why `months-ago.html` rounds.
 - `_includes/snippets/page-url.html` **prints** the absolute URL rather than
   assigning it, so `__return` after including it holds only the path. Use
   `prepend-baseurl.html` plus `site.url` when you need an absolute URL.
