@@ -20,18 +20,31 @@ New idea
 -- My next big project:  https://docs.google.com/document/d/1cqiig5fuuu6cicU_88Bans1wjyoklD_JuZdkIBvjfUc/edit
 
 
-Needs doing outside this repo (nothing here to edit):
--- Remove the Vercel integration.  There is no vercel.json or .vercel/ in the
-   repo -- it is the Vercel GitHub App (slug "vercel", app id 8329) plus a
-   Vercel project linked to it, so both have to go from their own dashboards:
-     1. vercel.com -> the project -> Settings -> Advanced -> Delete Project.
-        Disconnecting the Git repo under Settings -> Git also stops the
-        deployments if you would rather keep the project.
-     2. github.com/settings/installations (or the org's equivalent) -> Vercel
-        -> Configure -> either remove jdthaler.github.io from the repository
-        access list, or Uninstall entirely if nothing else uses it.
-   Until step 2, Vercel keeps posting checks on every PR.  Worth doing before
-   any DNS pointing at Vercel is reused.
+Parked decision: GitHub Pages or Vercel?
+-- The Vercel mirror at https://jdthaler-github-io.vercel.app is staying up
+   for now while you decide.  It builds main, not live, so it doubles as a
+   preview of whatever has not shipped yet.  Nothing about it lives in this
+   repo (no vercel.json, no .vercel/) -- it is the Vercel GitHub App plus a
+   linked project, both undone from their own dashboards if you drop it.
+
+   Checked 28 July 2026, and worth knowing before choosing:
+
+   -- Vercel does NOT resolve Git LFS either.  A talk PDF fetched from the
+      mirror comes back 132 bytes: the pointer file, exactly as GitHub Pages
+      serves it.  So switching hosts would not retire talks_base_url or the
+      get-talk-url.html indirection.  If that was the hoped-for win, it is
+      not there.
+   -- The real upside is the build.  Vercel would run whatever Jekyll you
+      tell it to, which is the same escape from the 3.10 pin that moving to
+      GitHub Actions would give -- see item #10 in the review.  Choose
+      between them on that basis, not on LFS.
+   -- The mirror sends no noindex header and has no robots.txt, so it is
+      crawlable.  It is not a duplicate-content problem only because every
+      page carries <link rel="canonical" href="https://jthaler.net/...">,
+      which works because _config.yml sets `url` explicitly.  If you ever
+      blank that, the mirror starts competing with the real site in search.
+   -- While the GitHub App stays installed, Vercel posts two checks on every
+      PR.  Harmless, just noise next to the rake test result.
 
 
 Carried over from the July 2026 review (docs/review-2026-07.md), which is
