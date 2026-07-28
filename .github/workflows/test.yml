@@ -5,11 +5,13 @@ name: Test
 # which reaches ~250 third-party hosts and fails on their rate limits and bot
 # protection rather than on anything in this repo. Run that one by hand.
 on:
-  # The gate that matters. GitHub Pages serves the `live` branch, so this is the
-  # last point where a broken build can be stopped before it is public.
+  # Both hops a change makes. A topic branch into `main` is where JT reviews the
+  # diff, so the result belongs on the PR he is looking at; `main` into `live` is
+  # the last point a broken build can be stopped before it is public, since
+  # GitHub Pages serves `live`.
   pull_request:
-    branches: [live]
-  # Earlier feedback, while a change is still only on main.
+    branches: [main, live]
+  # Backstop for anything that reaches main without a PR.
   push:
     branches: [main]
   workflow_dispatch:
