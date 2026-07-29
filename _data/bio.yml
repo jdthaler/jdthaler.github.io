@@ -73,11 +73,13 @@ leadership:
   - role: Director
     name: MIT Laboratory for Nuclear Science
     acronym: LNS
+    url: https://web.mit.edu/lns/
     dates: August 2026-Present
 
   - role: Director
     name: NSF Institute for Artificial Intelligence and Fundamental Interactions
     acronym: IAIFI
+    url: https://iaifi.org/
     dates: August 2020-July 2025
 
 

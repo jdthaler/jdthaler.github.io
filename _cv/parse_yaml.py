@@ -132,7 +132,7 @@ for role in leadership:
   my_string = role['role'] + ', ' + role['name']
   if 'acronym' in role:
     my_string += ' ('+role['acronym']+')'
-  my_string += ', \\\\ \\textit{' + role['dates'].replace('-','--')
+  my_string += ', \\textit{' + role['dates'].replace('-','--')
   if 'note' in role:
     my_string += ' (' + role['note'].replace('-','--') + ')'
   my_string += '}'
