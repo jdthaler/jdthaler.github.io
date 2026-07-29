@@ -34,8 +34,13 @@ permalink: cv/
    
 ### Leadership
 
- * **[MIT Laboratory for Nuclear Science (LNS)](https://iaifi.org/){:target="_blank"}**, Director, *August 2026-Present*
- * **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**, Director, *August 2020-July 2025*
+{% for role in site.data.bio.leadership -%}
+ * **{%- if role.url -%}
+     [{{role.name}}{% if role.acronym %} ({{role.acronym}}){% endif %}]({{role.url}}){:target="_blank"}
+   {%- else -%}
+     {{role.name}}{% if role.acronym %} ({{role.acronym}}){% endif %}
+   {%- endif -%}**, {{role.role}}, *{{role.dates}}*
+{% endfor %}
 
 ### Visiting Positions
 

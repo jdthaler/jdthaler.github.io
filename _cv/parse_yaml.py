@@ -122,6 +122,24 @@ for affiliation in affiliations:
 affiliations_output.write('\\el\n')
 
 
+########## leadership file
+
+leadership_output = open("cv_leadership.tex","w")
+leadership = bio_yaml['leadership']
+leadership_output.write('\\bbl\n')
+
+for role in leadership:
+  my_string = role['role'] + ', ' + role['name']
+  if 'acronym' in role:
+    my_string += ' ('+role['acronym']+')'
+  my_string += ', \\textit{' + role['dates'].replace('-','--')
+  if 'note' in role:
+    my_string += ' (' + role['note'].replace('-','--') + ')'
+  my_string += '}'
+  leadership_output.write('\\item '+my_string + '\n')
+
+leadership_output.write('\\el\n')
+
 ########## visiting file
 
 visiting_output = open("cv_visiting.tex","w")

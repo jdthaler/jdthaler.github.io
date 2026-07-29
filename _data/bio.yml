@@ -32,7 +32,13 @@ personal_top:
   alt: Jesse Thaler in sunglasses and a cap on a hike, with a mountain lake, pine forest and snow-capped peaks behind him
   image_credit: Jesse Thaler
 
-positions:
+# Logo tiles on the front page, and nothing else -- named for what they are so
+# they are not mistaken for a record of appointments. The CV's Employment and
+# Leadership sections do not read this list; `leadership` below is what reaches
+# the PDF. A role therefore has to be added in both places, deliberately: the
+# titles here are display shorthand ("Incoming Director") rather than dated
+# facts, and they need review when a date passes.
+display_positions:
 
   - title: Professor of Physics
     acronym:  MIT
@@ -51,6 +57,30 @@ positions:
     hover:  IAIFI
     image: /images/logo_iaifi_nsf.png
     url:  https://iaifi.org/
+
+
+# Directorships and comparable roles, for the Leadership section of the CV.
+# This was hardcoded LaTeX in _cv/jthaler_cv.tex until 29 July 2026, which is
+# why a new role could reach the front page (via `positions` above) but never
+# the PDF -- parse_yaml.py does not read `positions` at all. Written as
+# cv_leadership.tex, the same way `visiting_positions` below becomes
+# cv_visiting.tex.
+#
+# `note` is the parenthetical after the dates, and is optional. Hyphens in
+# `dates` and `note` become en-dashes in LaTeX, so write them plainly.
+leadership:
+
+  - role: Director
+    name: MIT Laboratory for Nuclear Science
+    acronym: LNS
+    url: https://web.mit.edu/lns/
+    dates: August 2026-Present
+
+  - role: Director
+    name: NSF Institute for Artificial Intelligence and Fundamental Interactions
+    acronym: IAIFI
+    url: https://iaifi.org/
+    dates: August 2020-July 2025
 
 
 affiliations:

@@ -26,6 +26,16 @@ years:
   
 papers:
 
+  - title:  "Simplex Demixing: Disentangling Multiple Light-Flavor Jets at Colliders"
+    authors:  Gregorio de la Fuente and Jesse Thaler
+    made_phd: true
+    arxiv:  2607.24921
+    inspire:  delaFuente:2026thj
+    year: 2026
+    topic: weak
+    image:  /news/2026-preprint-simplex.png
+    
+
   - title:  "The Well-Tempered Likelihood: Honest Confidence Intervals for Misspecified Models"
     authors: Benjamin Nachman and Jesse Thaler
     arxiv:  2607.20718

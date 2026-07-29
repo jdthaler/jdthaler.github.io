@@ -31,11 +31,9 @@ permalink: /about/
       * Professor of Physics, *2021-Present*
       * Associate Professor of Physics, *2015-2021 (tenured in 2017)*
       * Assistant Professor of Physics, *2010-2015*
-  * **MIT Laboratory for Nuclear Science**
-      * Director, *2026-Present*
-  * **NSF Institute for Artificial Intelligence and Fundamental Interactions**
-      * Director, *2020-2025*
-  * **University of California, Berkeley**
+{% for role in site.data.bio.leadership %}  * **{{role.name}}**
+      * {{role.role}}, *{% include snippets/years-from-dates.html dates=role.dates %}{{__return}}*
+{% endfor %}  * **University of California, Berkeley**
       * Miller Research Fellow, *2006-2009*
 
 

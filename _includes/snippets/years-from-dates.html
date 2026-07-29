@@ -1,0 +1,25 @@
+{%- comment -%}
+Reduces a date range to bare years, returned in __return.
+
+  "August 2026-Present"    -> "2026-Present"
+  "August 2020-July 2025"  -> "2020-2025"
+  "2026-Present"           -> "2026-Present"   (already bare, unchanged)
+
+/about lists positions by year while /cv and the PDF give the month, so the
+short form is derived rather than stored. Storing both would be two fields
+saying the same thing, which is the duplication this data is meant to remove.
+
+Splits on the hyphen and keeps the last word of each side, so it does not care
+whether a month is present. A range with no hyphen comes back unchanged.
+{%- endcomment -%}
+{%- assign _parts = include.dates | split: '-' -%}
+{%- assign _years = '' -%}
+{%- for _part in _parts -%}
+  {%- assign _word = _part | strip | split: ' ' | last -%}
+  {%- if forloop.first -%}
+    {%- assign _years = _word -%}
+  {%- else -%}
+    {%- assign _years = _years | append: '-' | append: _word -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign __return = _years -%}
