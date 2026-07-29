@@ -178,6 +178,19 @@ Nothing warns you: the build succeeds and `rake test` passes.
 YAML and are **not part of the site build**. `_reporting/parse_yaml_emails.py`
 writes `email_lists.txt`, which is gitignored and must stay that way.
 
+**The CV is built with `latex` → `dvips` → Ghostscript, not `pdflatex`.** JT
+typesets it in TeXShop using *TeX and DVI*; `_cv/process_cv.sh` mirrors that
+chain so a command-line rebuild matches. It called `pdflatex` until 29 July 2026,
+which produced a valid but visibly different file — same words, different line
+breaks, a different `/Producer`, and up to twice the size — and following the
+script instead of the GUI silently changed the toolchain for all five PDFs.
+
+Two PDFs from this chain are **never byte-identical**: each embeds a
+`CreationDate` and a random `/ID`. Compare `pdftotext` output rather than
+checksums, and normalise `ﬁ`/`ﬂ` ligatures first — Ghostscript emits them as
+single glyphs where pdflatex does not, so a naive text diff shows differences
+that are not there.
+
 **This repository is public.** `_data/mentoring.yml` contains contact details for
 78 people, tracked in the open by JT's explicit decision. Do not widen that: no
 new addresses in tracked files, and nothing that aggregates them.
