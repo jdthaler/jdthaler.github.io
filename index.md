@@ -33,7 +33,7 @@ He is a Professor of Physics at the **[Massachusetts Institute of Technology (MI
 
 <div class="grid-container">
   <div class="grid grid--py-3">
-    {% for position in site.data.bio.positions %}
+    {% for position in site.data.bio.display_positions %}
 
     <div class="cell cell--4">
           <center>
