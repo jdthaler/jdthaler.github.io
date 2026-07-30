@@ -95,11 +95,12 @@ employment:
       - title: Professor of Physics
         dates: July 2021-Present
         priority: 6
-      - title: Associate Professor of Physics with Tenure
-        dates: May 2017-July 2021
-        priority: 6
+      # One entry, not two. Tenure did not change the external title, so listing
+      # "Associate Professor of Physics with Tenure" as a separate rank overstated
+      # it; the parenthetical carries the fact without inventing a second title.
       - title: Associate Professor of Physics
-        dates: July 2015-May 2017
+        dates: July 2015-July 2021
+        note: tenured in 2017
         priority: 6
       # Both a title and a prize, and the prize is the more important half. Kept
       # on the CV and /cv for completeness; extraneous on /about.

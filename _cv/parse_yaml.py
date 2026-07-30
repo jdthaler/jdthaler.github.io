@@ -158,7 +158,10 @@ for place in employment:
     # A role without its own dates spans the institution's, so repeating them
     # here would say nothing.
     if 'dates' in role:
-      line += ', \\textit{' + year_string(role['dates']).replace('-','--') + '}'
+      line += ', \\textit{' + year_string(role['dates']).replace('-','--')
+      if 'note' in role:
+        line += ' (' + role['note'].replace('-','--') + ')'
+      line += '}'
     employment_output.write(line + '\\\\\n')
   first = False
 

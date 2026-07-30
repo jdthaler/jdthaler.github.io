@@ -27,11 +27,11 @@ permalink: /about/
 ## Key Positions
 
 {% for place in site.data.bio.employment %}{% if place.current and place.priority >= 6 %}  * **{{place.name}}**
-{% for role in place.roles %}{% if role.priority >= 6 %}      * {{role.title}}, *{% assign _d = role.dates | default: place.dates %}{% include snippets/years-from-dates.html dates=_d %}{{__return}}*
+{% for role in place.roles %}{% if role.priority >= 6 %}      * {{role.title}}, *{% assign _d = role.dates | default: place.dates %}{% include snippets/years-from-dates.html dates=_d %}{{__return}}{% if role.note %} ({{role.note}}){% endif %}*
 {% endif %}{% endfor %}{% endif %}{% endfor %}{% for role in site.data.bio.leadership %}  * **{{role.name}}**
       * {{role.role}}, *{% include snippets/years-from-dates.html dates=role.dates %}{{__return}}*
 {% endfor %}{% for place in site.data.bio.employment %}{% unless place.current %}{% if place.priority >= 6 %}  * **{{place.name}}**
-{% for role in place.roles %}{% if role.priority >= 6 %}      * {{role.title}}, *{% assign _d = role.dates | default: place.dates %}{% include snippets/years-from-dates.html dates=_d %}{{__return}}*
+{% for role in place.roles %}{% if role.priority >= 6 %}      * {{role.title}}, *{% assign _d = role.dates | default: place.dates %}{% include snippets/years-from-dates.html dates=_d %}{{__return}}{% if role.note %} ({{role.note}}){% endif %}*
 {% endif %}{% endfor %}{% endif %}{% endunless %}{% endfor %}
 
 

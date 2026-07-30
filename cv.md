@@ -28,7 +28,7 @@ permalink: cv/
 {%- if place.current and place.priority >= 3 %}
  * **{{place.name}}**, *{{place.dates}}*
 {%- for role in place.roles %}{% if role.priority >= 3 %}
-   * {{role.title}}{% if role.dates %}, *{{role.dates}}*{% endif %}
+   * {{role.title}}{% if role.dates %}, *{{role.dates}}{% if role.note %} ({{role.note}}){% endif %}*{% endif %}
 {%- endif %}{% endfor %}
 {%- endif %}
 {%- endfor %}
@@ -69,7 +69,7 @@ permalink: cv/
 {%- unless place.current %}{% if place.priority >= 3 %}
  * **{{place.name}}**, *{{place.dates}}*
 {%- for role in place.roles %}{% if role.priority >= 3 %}
-   * {{role.title}}{% if role.dates %}, *{{role.dates}}*{% endif %}{% if place.sub %}, {{place.sub}}{% endif %}
+   * {{role.title}}{% if role.dates %}, *{{role.dates}}{% if role.note %} ({{role.note}}){% endif %}*{% endif %}{% if place.sub %}, {{place.sub}}{% endif %}
 {%- endif %}{% endfor %}
 {% endif %}{% endunless %}
 {%- endfor %}
