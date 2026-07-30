@@ -24,13 +24,14 @@ permalink: cv/
 
 ### MIT
 
- * **Massachusetts Institute of Technology**, *January 2010-Present*
-   * William and Emma Rogers Professor, *July 2026-Present*
-   * Professor of Physics, *July 2021-Present*
-   * Associate Professor of Physics with Tenure, *May 2017-July 2021*
-   * Associate Professor of Physics, *July 2015-May 2017*
-   * Class of 1943 Career Development Professor, *July 2012-July 2015*
-   * Assistant Professor of Physics, *January 2010-July 2015*
+{% for place in site.data.bio.employment -%}
+{%- if place.current and place.priority >= 3 %}
+ * **{{place.name}}**, *{{place.dates}}*
+{%- for role in place.roles %}{% if role.priority >= 3 %}
+   * {{role.title}}{% if role.dates %}, *{{role.dates}}{% if role.note %} ({{role.note}}){% endif %}*{% endif %}
+{%- endif %}{% endfor %}
+{%- endif %}
+{%- endfor %}
    
 ### Leadership
 
@@ -64,11 +65,14 @@ permalink: cv/
 
 ### Berkeley
 
- * **Lawrence Berkeley National Laboratory**, *July 2009-December 2009*
-   * Physicist Postdoctoral Fellow, Theoretical Physics Group
-
- * **University of California, Berkeley**, *July 2006-June 2009*
-   * Miller Research Fellow, Miller Institute for Basic Research in Science
+{% for place in site.data.bio.employment -%}
+{%- unless place.current %}{% if place.priority >= 3 %}
+ * **{{place.name}}**, *{{place.dates}}*
+{%- for role in place.roles %}{% if role.priority >= 3 %}
+   * {{role.title}}{% if role.dates %}, *{{role.dates}}{% if role.note %} ({{role.note}}){% endif %}*{% endif %}{% if place.sub %}, {{place.sub}}{% endif %}
+{%- endif %}{% endfor %}
+{% endif %}{% endunless %}
+{%- endfor %}
 
 
 ## Education
