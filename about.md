@@ -26,15 +26,13 @@ permalink: /about/
 
 ## Key Positions
 
-  * **Massachusetts Institute of Technology**
-      * William and Emma Rogers Professor, *2026-Present*
-      * Professor of Physics, *2021-Present*
-      * Associate Professor of Physics, *2015-2021 (tenured in 2017)*
-      * Assistant Professor of Physics, *2010-2015*
-{% for role in site.data.bio.leadership %}  * **{{role.name}}**
+{% for place in site.data.bio.employment %}{% if place.current and place.priority >= 6 %}  * **{{place.name}}**
+{% for role in place.roles %}{% if role.priority >= 6 %}      * {{role.title}}, *{% assign _d = role.dates | default: place.dates %}{% include snippets/years-from-dates.html dates=_d %}{{__return}}*
+{% endif %}{% endfor %}{% endif %}{% endfor %}{% for role in site.data.bio.leadership %}  * **{{role.name}}**
       * {{role.role}}, *{% include snippets/years-from-dates.html dates=role.dates %}{{__return}}*
-{% endfor %}  * **University of California, Berkeley**
-      * Miller Research Fellow, *2006-2009*
+{% endfor %}{% for place in site.data.bio.employment %}{% unless place.current %}{% if place.priority >= 6 %}  * **{{place.name}}**
+{% for role in place.roles %}{% if role.priority >= 6 %}      * {{role.title}}, *{% assign _d = role.dates | default: place.dates %}{% include snippets/years-from-dates.html dates=_d %}{{__return}}*
+{% endif %}{% endfor %}{% endif %}{% endunless %}{% endfor %}
 
 
 ## Education

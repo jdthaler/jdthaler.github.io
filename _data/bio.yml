@@ -59,6 +59,80 @@ display_positions:
     url:  https://iaifi.org/
 
 
+# Employment history: the CV's Employment table, /cv's Positions section and
+# /about's Key Positions. Hardcoded separately in all three until 29 July 2026,
+# by which point they disagreed on substance -- the Class of 1943 professorship
+# was on /cv but commented out of the PDF and absent from /about, and LBNL was
+# missing from /about.
+#
+# `dates` is always the full month form. The year-only form each surface wants
+# is derived, never stored twice: snippets/years-from-dates.html on the site,
+# year_string() in _cv/parse_yaml.py for the PDF.
+#
+# `priority` decides where an entry appears, following the convention used by
+# affiliations, awards and visiting_positions above:
+#   6  everywhere -- PDF, /cv and /about
+#   3  PDF and /cv only, where completeness matters and brevity does not
+#   0  suppressed everywhere
+#
+# A role with no `dates` of its own covers the institution's whole span, and the
+# PDF and /cv leave its dates off as redundant. /about has no institution dates
+# at all, so it always shows the role's, falling back to the institution's.
+employment:
+
+  # `current` splits the list for /cv, which puts this entry under "MIT" and the
+  # rest under "Berkeley", with Leadership, Visiting Positions and Affiliations
+  # in between. Same flag as mentoring.yml uses for people.
+  - name: Massachusetts Institute of Technology
+    sub: MIT Center for Theoretical Physics - a Leinweber Institute
+    dates: January 2010-Present
+    current: true
+    priority: 6
+    roles:
+      - title: William and Emma Rogers Professor
+        dates: July 2026-Present
+        priority: 6
+      - title: Professor of Physics
+        dates: July 2021-Present
+        priority: 6
+      - title: Associate Professor of Physics with Tenure
+        dates: May 2017-July 2021
+        priority: 6
+      - title: Associate Professor of Physics
+        dates: July 2015-May 2017
+        priority: 6
+      # Both a title and a prize, and the prize is the more important half. Kept
+      # on the CV and /cv for completeness; extraneous on /about.
+      - title: Class of 1943 Career Development Professor
+        dates: July 2012-July 2015
+        priority: 3
+      - title: Assistant Professor of Physics
+        dates: January 2010-July 2015
+        priority: 6
+
+  # A short bridge position of no importance except to account for the time --
+  # in practice an extension of the Miller Fellowship, in the same office, but
+  # technically a different employer. A CV has to account for it; /about does not.
+  - name: Lawrence Berkeley National Laboratory
+    sub: Theoretical Physics Group
+    dates: July 2009-December 2009
+    priority: 3
+    roles:
+      - title: Physicist Postdoctoral Fellow
+        priority: 3
+
+  # The hand-written table also carried a commented-out "Advisor: Lawrence Hall"
+  # line under this entry. Recorded here so it is not lost, but not rendered --
+  # no other employment entry names an advisor.
+  - name: University of California, Berkeley
+    sub: Miller Institute for Basic Research in Science
+    dates: July 2006-June 2009
+    priority: 6
+    roles:
+      - title: Miller Research Fellow
+        priority: 6
+
+
 # Directorships and comparable roles, for the Leadership section of the CV.
 # This was hardcoded LaTeX in _cv/jthaler_cv.tex until 29 July 2026, which is
 # why a new role could reach the front page (via `positions` above) but never

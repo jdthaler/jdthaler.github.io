@@ -122,6 +122,49 @@ for affiliation in affiliations:
 affiliations_output.write('\\el\n')
 
 
+########## employment file
+
+# The year-only form of a date range, matching what
+# _includes/snippets/years-from-dates.html does for the site: keep the last word
+# on each side of the hyphen, so it does not matter whether a month is present.
+def year_string(dates):
+  return '-'.join(part.strip().split(' ')[-1] for part in dates.split('-'))
+
+employment_output = open("cv_employment.tex","w")
+employment = bio_yaml['employment']
+
+employment_output.write('\\begin{tabular}{rl}\n')
+
+# Sets the width of the left column. It has to be a literal, not the widest
+# date, because \phantom reserves space without printing -- so this string is
+# what every subsequent row is indented against.
+phantom = '\\phantom{$\\quad$ \\textit{July 2009--December 2009}}'
+first = True
+
+for place in employment:
+  if int(place['priority']) < 3:
+    continue
+  if not first:
+    employment_output.write('\\\\\n')
+  employment_output.write('$\\quad$ \\textit{' + place['dates'].replace('-','--')
+                          + '} &  \\textbf{' + place['name'] + '}\\\\\n')
+  if 'sub' in place:
+    employment_output.write(phantom if first else '')
+    employment_output.write(' & \\textit{' + place['sub'].replace('-','--') + '} \\\\\n')
+  for role in place['roles']:
+    if int(role['priority']) < 3:
+      continue
+    line = '& ' + role['title']
+    # A role without its own dates spans the institution's, so repeating them
+    # here would say nothing.
+    if 'dates' in role:
+      line += ', \\textit{' + year_string(role['dates']).replace('-','--') + '}'
+    employment_output.write(line + '\\\\\n')
+  first = False
+
+employment_output.write('\\\\\n\\end{tabular}\n')
+
+
 ########## leadership file
 
 leadership_output = open("cv_leadership.tex","w")
