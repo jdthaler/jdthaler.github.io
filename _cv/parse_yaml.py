@@ -168,6 +168,48 @@ for place in employment:
 employment_output.write('\\\\\n\\end{tabular}\n')
 
 
+########## degrees file
+
+# Same table idiom as employment above, from _data/about.yml's education list,
+# which /cv and /about already render. Only the PDF was hardcoded.
+#
+# A school is skipped when no degree of its own clears the threshold, which is
+# how Phillips Exeter drops out: it carries no `degrees` at all. That matches
+# the hardcoded table, where its row was commented out.
+degrees_output = open("cv_degrees.tex","w")
+education = about_yaml['education']
+
+degrees_output.write('\\begin{tabular}{rl}\n')
+first = True
+
+for school in education:
+  shown = [d for d in school.get('degrees', []) if int(d.get('priority', 0)) >= 3]
+  if not shown:
+    continue
+  if not first:
+    degrees_output.write('\\\\\n')
+  degrees_output.write('$\\quad$ \\textit{' + school['dates'].replace('-','--')
+                       + '} & \\textbf{' + school['org'] + '} \\\\\n')
+  if first:
+    degrees_output.write(phantom)
+  for degree in shown:
+    degrees_output.write(' &' + degree['type'] + ', ' + degree['field']
+                         + ', \\textit{' + degree['month'] + ' ' + str(degree['year']) + '}\\\\\n')
+  # Thesis rows follow every degree rather than sitting with their own, which is
+  # how the hand-written table read.
+  for degree in shown:
+    if 'thesis' in degree:
+      degrees_output.write('&Thesis:  ``' + degree['thesis'] + '\'\'\\\\\n')
+  if 'advisor' in school:
+    degrees_output.write('&Advisor:  ' + school['advisor'] + '\\\\\n')
+  first = False
+
+# No trailing \\ here, unlike the employment table. The hand-written version had
+# its final one commented out, and an extra empty row costs enough vertical
+# space to push the CV onto a 29th page.
+degrees_output.write('\\end{tabular}\n')
+
+
 ########## leadership file
 
 leadership_output = open("cv_leadership.tex","w")
