@@ -13,8 +13,7 @@ permalink: contact/
 *Pronouns*:  {{name.pronouns}} \\
 *Pronunciation*:  {{name.pronunciation}}
 
-Phone:  {{phone.work}} \\
-Fax:  {{phone.fax}}
+Phone:  {{phone.work}}
 
 [Joining My Group](/join){:.button.button--secondary.button--pill.button--sm}
 [{{email.work}}](mailto:{{email.work}}){:.button.button--secondary.button--pill.button--sm}{:target="_blank"}
