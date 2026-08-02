@@ -72,7 +72,11 @@ about_yaml = yaml.load(about_input,Loader=yaml.BaseLoader)
 contact_1_output = open("cv_contact_1.tex","w")
 contact_2_output = open("cv_contact_2.tex","w")
 name = about_yaml['name']
-address = about_yaml['address']
+# The CV lists one address: the first, which is the primary one. /contact shows
+# them all. Reordering `addresses` in about.yml changes which the CV uses.
+address = about_yaml['addresses'][0]
+# Phone and fax reach JT at either office, so they are person-level rather than
+# a property of the address printed above them.
 phone = about_yaml['phone']
 email = about_yaml['email']
 urls = about_yaml['urls']

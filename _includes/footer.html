@@ -43,10 +43,15 @@
       <div>
         {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
         {%- assign _locale_copyright_dates = __return -%}
-        {{ site.author.name }} —  Professor of Physics,
-        <a href="https://physics.mit.edu/">MIT</a>; 
-        Incoming Director, <a href="https://web.mit.edu/lns/">LNS</a>;
-        Former Director, <a href="https://iaifi.org/">IAIFI</a>
+        {%- comment -%}
+        The same three roles as the logo tiles on the front page, so they read
+        from the same list. They were typed out here as well until 2 August
+        2026, which is how "Incoming Director" survived on every page of the
+        site after the front page had been corrected.
+        {%- endcomment -%}
+        {{ site.author.name }} — {% for position in site.data.bio.display_positions %} {{ position.title }},
+        <a href="{{ position.url }}">{{ position.acronym }}</a>{% unless forloop.last %};{% endunless %}
+        {%- endfor %}
         <!-- {{ _locale_copyright_dates }},
         Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
         title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.

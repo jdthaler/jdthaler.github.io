@@ -35,17 +35,17 @@ permalink: press/
 
 ##   Biography
 
-Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.  His current research is focused on maximizing the discovery potential of the Large Hadron Collider through new theoretical frameworks and novel data analysis techniques. Prof. Thaler joined the MIT Physics Department in 2010, and he is currently a Professor in the MIT Center for Theoretical Physics - a Leinweber Institute. In 2020, he became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
+{{ site.data.bio.blurbs.short }}
 
 ## Extended Biography
 
 ### Research Interests
 
-Jesse Thaler is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.  His current research is focused on maximizing the discovery potential of the Large Hadron Collider (LHC) through new theoretical frameworks and novel data analysis techniques.  Prof. Thaler is an expert in jets, which are collimated sprays of particles that are copiously produced at the LHC, and he studies the substructure of jets to enhance the search for new phenomena and illuminate the dynamics of gauge theories.  He is also interested in new strategies to probe the nature of dark matter at the LHC and beyond, as well as in the theoretical structures and experimental signatures of supersymmetry.
+{{ site.data.bio.blurbs.research_interests }}
 
 ### Biographical Sketch
 
-Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Professor in the MIT Center for Theoretical Physics - a Leinweber Institute.  From 2006 to 2009, he was a fellow at the Miller Institute for Basic Research in Science at the University of California, Berkeley.  He received his Ph.D. in Physics from Harvard University in 2006, and his Sc.B. in Math/Physics from Brown University in 2002.   In 2020, Prof. Thaler became the inaugural Director of the NSF Institute for Artificial Intelligence and Fundamental Interactions.
+{{ site.data.bio.blurbs.biographical_sketch }}
 
 ### Links to Additional Information
 
@@ -59,7 +59,6 @@ Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Profe
 {% assign frontimage = site.data.bio.index_top %}
 {% assign aboutimage = site.data.bio.about_top %}
 {% assign publicimage = site.data.public.public_top %}
-{% assign contactimage = site.data.bio.contact_top %}
 {% assign researchimage = site.data.research.research_top %}
 {% assign personalimage = site.data.bio.personal_top %}
 
@@ -79,5 +78,7 @@ closed ends with `-%}`, which eats the newline, so a following indented
 bullet is read as a sublist of the last item rather than a sibling.
 Indenting these to match would silently nest them.
 {%- endcomment -%}
-* [![{{contactimage.hover}}]({% include snippets/get-preview-url.html url=contactimage.image %}{{__return}}){:.image--xs}]({{contactimage.image}}) Contact Page: {% if contactimage.image_url %}[{{contactimage.image_credit}}]({{contactimage.image_url}}){% else %}{{contactimage.image_credit}}{% endif %}
+{% for address in site.data.about.addresses -%}
+* [![{{address.hover}}]({% include snippets/get-preview-url.html url=address.image %}{{__return}}){:.image--xs}]({{address.image}}) Contact Page, {{address.org}}: {% if address.image_url %}[{{address.image_credit}}]({{address.image_url}}){% else %}{{address.image_credit}}{% endif %}
+{% endfor -%}
 * [![{{personalimage.hover}}]({% include snippets/get-preview-url.html url=personalimage.image %}{{__return}}){:.image--xs}]({{personalimage.image}}) Personal Page: {% if personalimage.image_url %}[{{personalimage.image_credit}}]({{personalimage.image_url}}){% else %}{{personalimage.image_credit}}{% endif %}
