@@ -20,12 +20,6 @@ about_top:
   hover: Jesse Thaler
   alt: Portrait of Jesse Thaler, smiling, in glasses and a grey jacket
 
-contact_top:
-  image: /images/6-300.jpg
-  hover: "6-300 (a.k.a. 8-323)"
-  alt: Open office door with nameplates reading 6-300, Prof. Jesse Thaler, IAIFI, and CTP
-  image_credit: Jesse Thaler
-
 personal_top:
   image: /images/stamp_personal.jpg
   hover: Jesse Thaler
@@ -36,8 +30,9 @@ personal_top:
 # they are not mistaken for a record of appointments. The CV's Employment and
 # Leadership sections do not read this list; `leadership` below is what reaches
 # the PDF. A role therefore has to be added in both places, deliberately: the
-# titles here are display shorthand ("Incoming Director") rather than dated
-# facts, and they need review when a date passes.
+# titles here are display shorthand rather than dated facts, so they need review
+# when a date passes -- "Incoming Director" sat here until August 2026, when the
+# LNS directorship actually began.
 display_positions:
 
   - title: Professor of Physics
@@ -46,7 +41,7 @@ display_positions:
     image: /images/logo_mit_physics.png
     url:  https://physics.mit.edu/
 
-  - title: Incoming Director
+  - title: Director
     acronym:  LNS
     hover: MIT LNS
     image:  /images/logo_lns.png

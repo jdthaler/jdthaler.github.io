@@ -59,7 +59,6 @@ Jesse Thaler joined the MIT Physics Department in 2010, and is currently a Profe
 {% assign frontimage = site.data.bio.index_top %}
 {% assign aboutimage = site.data.bio.about_top %}
 {% assign publicimage = site.data.public.public_top %}
-{% assign contactimage = site.data.bio.contact_top %}
 {% assign researchimage = site.data.research.research_top %}
 {% assign personalimage = site.data.bio.personal_top %}
 
@@ -79,5 +78,7 @@ closed ends with `-%}`, which eats the newline, so a following indented
 bullet is read as a sublist of the last item rather than a sibling.
 Indenting these to match would silently nest them.
 {%- endcomment -%}
-* [![{{contactimage.hover}}]({% include snippets/get-preview-url.html url=contactimage.image %}{{__return}}){:.image--xs}]({{contactimage.image}}) Contact Page: {% if contactimage.image_url %}[{{contactimage.image_credit}}]({{contactimage.image_url}}){% else %}{{contactimage.image_credit}}{% endif %}
+{% for address in site.data.about.addresses -%}
+* [![{{address.hover}}]({% include snippets/get-preview-url.html url=address.image %}{{__return}}){:.image--xs}]({{address.image}}) Contact Page, {{address.org}}: {% if address.image_url %}[{{address.image_credit}}]({{address.image_url}}){% else %}{{address.image_credit}}{% endif %}
+{% endfor -%}
 * [![{{personalimage.hover}}]({% include snippets/get-preview-url.html url=personalimage.image %}{{__return}}){:.image--xs}]({{personalimage.image}}) Personal Page: {% if personalimage.image_url %}[{{personalimage.image_credit}}]({{personalimage.image_url}}){% else %}{{personalimage.image_credit}}{% endif %}

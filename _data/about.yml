@@ -5,22 +5,51 @@ name:
   pronouns: he/him/his
   pronunciation: "JEH-see THAY-lr"
   
-address:
-  org:  MIT Center for Theoretical Physics
-  street:  77 Massachusetts Avenue
-  office:  6-300
-  office_url:  https://whereis.mit.edu/?go=6
-  city:  Cambridge
-  state:  MA
-  zip:  02139
+# Two offices. THE FIRST IS PRIMARY: the CV's contact block uses it alone, and
+# /contact lists them in this order. Reorder to change which one the CV shows.
+#
+# Each entry carries its own door photo, so the picture travels with the address
+# rather than living apart from it -- /contact renders one block per location and
+# /press credits one image per location, both from this list.
+addresses:
+
+  - org:  MIT Laboratory for Nuclear Science
+    street:  77 Massachusetts Avenue
+    office:  26-505
+    office_url:  https://whereis.mit.edu/?go=26
+    city:  Cambridge
+    state:  MA
+    zip:  02139
+    phone:  (617) 253-7800
+    # The office itself is 26-503; visitors are directed to the 26-505 entrance,
+    # which is why the mailing address and the door plate differ.
+    note:  "Office 26-503, please use the 26-505 entrance"
+    image:  /images/26-503.jpg
+    image_credit:  Jesse Thaler
+    hover:  "26-503 (enter via 26-505)"
+    alt:  Office doorway with a plate reading 26-503 beside an LNS sign for the LNS Headquarters' Office, Prof. Jesse Thaler, directing visitors to the 26-505 entrance
+
+  - org:  MIT Center for Theoretical Physics - a Leinweber Institute
+    street:  77 Massachusetts Avenue
+    office:  6-300
+    office_url:  https://whereis.mit.edu/?go=6
+    city:  Cambridge
+    state:  MA
+    zip:  02139
+    phone:  (617) 253-3713
+    fax:  (617) 253-8674
+    # MIT knows this room by a second number, which is what appears in the
+    # directory even though the door says 6-300.
+    official_office:  8-323
+    official_office_url:  https://whereis.mit.edu/?go=8
+    image:  /images/6-300.jpg
+    image_credit:  Jesse Thaler
+    hover:  "6-300 (a.k.a. 8-323)"
+    alt:  Open office door with nameplates reading 6-300, Prof. Jesse Thaler, IAIFI, and CTP
 
 email:
   work:  jthaler@mit.edu
 
-phone:
-  work:  (617) 253-3713
-  fax:   (617) 253-8674
-  
 urls:
   personal:  https://jthaler.net/
   twitter:  https://twitter.com/jessethaler

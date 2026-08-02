@@ -72,8 +72,9 @@ about_yaml = yaml.load(about_input,Loader=yaml.BaseLoader)
 contact_1_output = open("cv_contact_1.tex","w")
 contact_2_output = open("cv_contact_2.tex","w")
 name = about_yaml['name']
-address = about_yaml['address']
-phone = about_yaml['phone']
+# The CV lists one address: the first, which is the primary one. /contact shows
+# them all. Reordering `addresses` in about.yml changes which the CV uses.
+address = about_yaml['addresses'][0]
 email = about_yaml['email']
 urls = about_yaml['urls']
 
@@ -82,8 +83,10 @@ contact_1_output.write(address['org'] + '\\\\\n')
 contact_1_output.write(address['street'] + ', ' + address['office'].replace('-','--') + '\\\\\n')
 contact_1_output.write(address['city']+ ', ' +  address['state'] + ' '+  address['zip'] + '\n')
 
-contact_2_output.write("Phone: " + phone['work'].replace('-','--') + '\\\\\n')
-contact_2_output.write("Fax: " + phone['fax'].replace('-','--') + '\\\\\n')
+contact_2_output.write("Phone: " + address['phone'].replace('-','--') + '\\\\\n')
+# Fax only where the office has one -- the LNS office does not.
+if 'fax' in address:
+  contact_2_output.write("Fax: " + address['fax'].replace('-','--') + '\\\\\n')
 contact_2_output.write("Email: " + email['work'] + '\\\\\n')
 contact_2_output.write("Web: " + urls['personal'] + '\n')
 

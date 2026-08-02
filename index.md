@@ -8,7 +8,7 @@ layout: article
 </center>
 **[Jesse Thaler](about)** is a theoretical particle physicist who fuses techniques from quantum field theory and machine learning to address outstanding questions in fundamental physics.
 
-He is a Professor of Physics at the **[Massachusetts Institute of Technology (MIT)](https://physics.mit.edu/){:target="_blank"}**, Incoming Director of the **[MIT Laboratory for Nuclear Science (LNS)](https://web.mit.edu/lns/){:target="_blank"}**, and Former Director of the **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**.
+He is a Professor of Physics at the **[Massachusetts Institute of Technology (MIT)](https://physics.mit.edu/){:target="_blank"}**, Director of the **[MIT Laboratory for Nuclear Science (LNS)](https://web.mit.edu/lns/){:target="_blank"}**, and Former Director of the **[NSF Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)](https://iaifi.org/){:target="_blank"}**.
 
 ### Research
 
