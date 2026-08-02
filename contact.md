@@ -5,6 +5,7 @@ permalink: contact/
 ---
 {% assign name = site.data.about.name %}
 {% assign email = site.data.about.email %}
+{% assign phone = site.data.about.phone %}
 {% assign urls = site.data.about.urls %}
 
 {% for address in site.data.about.addresses %}
@@ -22,11 +23,12 @@ Official MIT office number:  [{{address.official_office}}]({{address.official_of
 {% endif %}{% if address.note %}
 {{address.note}}
 {% endif %}
-{{address.phone}}
-
 </div>
 </div>
 {% endfor %}
+
+Reachable at either office:  {{phone.work}} \\
+Fax:  {{phone.fax}}
 
 
 *Pronouns*:  {{name.pronouns}} \\

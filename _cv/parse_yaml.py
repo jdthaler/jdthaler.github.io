@@ -75,6 +75,9 @@ name = about_yaml['name']
 # The CV lists one address: the first, which is the primary one. /contact shows
 # them all. Reordering `addresses` in about.yml changes which the CV uses.
 address = about_yaml['addresses'][0]
+# Phone and fax reach JT at either office, so they are person-level rather than
+# a property of the address printed above them.
+phone = about_yaml['phone']
 email = about_yaml['email']
 urls = about_yaml['urls']
 
@@ -83,10 +86,8 @@ contact_1_output.write(address['org'] + '\\\\\n')
 contact_1_output.write(address['street'] + ', ' + address['office'].replace('-','--') + '\\\\\n')
 contact_1_output.write(address['city']+ ', ' +  address['state'] + ' '+  address['zip'] + '\n')
 
-contact_2_output.write("Phone: " + address['phone'].replace('-','--') + '\\\\\n')
-# Fax only where the office has one -- the LNS office does not.
-if 'fax' in address:
-  contact_2_output.write("Fax: " + address['fax'].replace('-','--') + '\\\\\n')
+contact_2_output.write("Phone: " + phone['work'].replace('-','--') + '\\\\\n')
+contact_2_output.write("Fax: " + phone['fax'].replace('-','--') + '\\\\\n')
 contact_2_output.write("Email: " + email['work'] + '\\\\\n')
 contact_2_output.write("Web: " + urls['personal'] + '\n')
 
