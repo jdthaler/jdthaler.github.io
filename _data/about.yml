@@ -20,11 +20,6 @@ addresses:
     city:  Cambridge
     state:  MA
     zip:  02139
-    # (617) 253-7800 is the LNS number JT originally gave for this office. His
-    # own line and fax follow him between buildings, so they now sit at the
-    # person level above. Held here, unrendered, pending a decision on whether
-    # this is a separate LNS front-desk number worth listing.
-    # office_phone:  (617) 253-7800
     # The office itself is 26-503; visitors are directed to the 26-505 entrance,
     # which is why the mailing address and the door plate differ.
     note:  "Office 26-503, please use the 26-505 entrance"
