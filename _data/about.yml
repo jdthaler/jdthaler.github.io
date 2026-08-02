@@ -22,7 +22,7 @@ addresses:
     state:  MA
     zip:  02139
     # Same split as the CTP-LI entry below: `office` is the door people actually
-    # come through, `official_office` is the number MIT lists for the room.
+    # come through, `official_office` is the number on MIT's floor plans.
     official_office:  26-503
     official_office_url:  https://whereis.mit.edu/?go=26
     image:  /images/26-503.jpg

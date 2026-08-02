@@ -35,7 +35,7 @@ Fax:  {{phone.fax}}
 {{address.street}}, [{{address.office}}]({{address.office_url}})\\
 {{address.city}}, {{address.state}} {{address.zip}}
 
-Official MIT office number:  [{{address.official_office}}]({{address.official_office_url}})
+MIT floor plan office number:  [{{address.official_office}}]({{address.official_office_url}})
 
 </div>
 </div>
