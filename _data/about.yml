@@ -14,29 +14,30 @@ name:
 addresses:
 
   - org:  MIT Laboratory for Nuclear Science
+    acronym:  LNS
     street:  77 Massachusetts Avenue
     office:  26-505
     office_url:  https://whereis.mit.edu/?go=26
     city:  Cambridge
     state:  MA
     zip:  02139
-    # The office itself is 26-503; visitors are directed to the 26-505 entrance,
-    # which is why the mailing address and the door plate differ.
-    note:  "Office 26-503, please use the 26-505 entrance"
+    # Same split as the CTP-LI entry below: `office` is the door people actually
+    # come through, `official_office` is the number MIT lists for the room.
+    official_office:  26-503
+    official_office_url:  https://whereis.mit.edu/?go=26
     image:  /images/26-503.jpg
     image_credit:  Jesse Thaler
     hover:  "26-503 (enter via 26-505)"
     alt:  Office doorway with a plate reading 26-503 beside an LNS sign for the LNS Headquarters' Office, Prof. Jesse Thaler, directing visitors to the 26-505 entrance
 
   - org:  MIT Center for Theoretical Physics - a Leinweber Institute
+    acronym:  CTP-LI
     street:  77 Massachusetts Avenue
     office:  6-300
     office_url:  https://whereis.mit.edu/?go=6
     city:  Cambridge
     state:  MA
     zip:  02139
-    # MIT knows this room by a second number, which is what appears in the
-    # directory even though the door says 6-300.
     official_office:  8-323
     official_office_url:  https://whereis.mit.edu/?go=8
     image:  /images/6-300.jpg
